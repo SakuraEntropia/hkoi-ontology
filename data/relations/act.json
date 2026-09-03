@@ -1,0 +1,407 @@
+[
+ {
+  "source": "ACT.outdoor_adventure.mountaineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.extreme_sports"
+ },
+ {
+  "source": "ACT.extreme_sports.skateboarding",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.extreme_sports"
+ },
+ {
+  "source": "ACT.extreme_sports.surfing",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.extreme_sports"
+ },
+ {
+  "source": "ACT.extreme_sports.bmx",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.extreme_sports"
+ },
+ {
+  "source": "ACT.extreme_sports.motocross",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.extreme_sports"
+ },
+ {
+  "source": "ACT.extreme_sports.snowboarding",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.extreme_sports"
+ },
+ {
+  "source": "ACT.gaming.board_gaming",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.board_games"
+ },
+ {
+  "source": "ACT.gaming.card_gaming",
+  "relation": "RELATED_TO",
+  "target": "SPORT.board_games"
+ },
+ {
+  "source": "ACT.gaming.esports_spectating",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.esports"
+ },
+ {
+  "source": "ACT.gaming.speedrunning",
+  "relation": "RELATED_TO",
+  "target": "SPORT.esports"
+ },
+ {
+  "source": "ACT.gaming.video_gaming",
+  "relation": "RELATED_TO",
+  "target": "SPORT.esports"
+ },
+ {
+  "source": "ACT.physical_recreation.billiards",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports"
+ },
+ {
+  "source": "ACT.physical_recreation.bowling",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.ball_sports"
+ },
+ {
+  "source": "ACT.physical_recreation.table_tennis",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.ball_sports"
+ },
+ {
+  "source": "ACT.physical_recreation.golf",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.ball_sports"
+ },
+ {
+  "source": "ACT.creative_hobbies.amateur_photography",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.visual_arts"
+ },
+ {
+  "source": "ACT.creative_hobbies.drawing_painting",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.visual_arts"
+ },
+ {
+  "source": "ACT.creative_hobbies.fan_art",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.visual_arts"
+ },
+ {
+  "source": "ACT.creative_hobbies.amateur_filmmaking",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.film"
+ },
+ {
+  "source": "ACT.creative_hobbies.music_making",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.music"
+ },
+ {
+  "source": "ACT.creative_hobbies.creative_writing",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.literary_arts"
+ },
+ {
+  "source": "ACT.creative_hobbies.fan_fiction",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.literary_arts"
+ },
+ {
+  "source": "ACT.creative_hobbies.animation_hobby",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.film"
+ },
+ {
+  "source": "ACT.creative_hobbies.webcomic_creation",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.visual_arts"
+ },
+ {
+  "source": "ACT.making_craft.pottery_ceramics",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.craft"
+ },
+ {
+  "source": "ACT.making_craft.woodworking",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.craft"
+ },
+ {
+  "source": "ACT.making_craft.knitting_crochet",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.craft"
+ },
+ {
+  "source": "ACT.making_craft.embroidery",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.craft"
+ },
+ {
+  "source": "ACT.making_craft.jewelry_making",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.craft"
+ },
+ {
+  "source": "ACT.making_craft.wargaming",
+  "relation": "RELATED_TO",
+  "target": "ART.games"
+ },
+ {
+  "source": "ACT.gaming.tabletop_rpg",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.games"
+ },
+ {
+  "source": "ACT.gaming.board_gaming",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.games"
+ },
+ {
+  "source": "ACT.performing_social.amateur_theater",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.performing_arts"
+ },
+ {
+  "source": "ACT.performing_social.social_dance",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.performing_arts"
+ },
+ {
+  "source": "ACT.performing_social.community_orchestra",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.music"
+ },
+ {
+  "source": "ACT.performing_social.singing_choir",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.music"
+ },
+ {
+  "source": "ACT.traditional.calligraphy_hobby",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.visual_arts"
+ },
+ {
+  "source": "ACT.traditional.origami",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.craft"
+ },
+ {
+  "source": "ACT.traditional.ikebana",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.craft"
+ },
+ {
+  "source": "ACT.traditional.bonsai",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.craft"
+ },
+ {
+  "source": "ACT.science_hobbies.electronics_hobby",
+  "relation": "RELATED_TO",
+  "target": "OCC.trades"
+ },
+ {
+  "source": "ACT.science_hobbies.hobby_robotics",
+  "relation": "RELATED_TO",
+  "target": "OCC.it_computing"
+ },
+ {
+  "source": "ACT.online_communities.open_source_contribution",
+  "relation": "RELATED_TO",
+  "target": "OCC.it_computing"
+ },
+ {
+  "source": "ACT.gaming.homebrew_game_development",
+  "relation": "RELATED_TO",
+  "target": "OCC.it_computing"
+ },
+ {
+  "source": "ACT.creative_hobbies.streaming",
+  "relation": "RELATED_TO",
+  "target": "OCC.media"
+ },
+ {
+  "source": "ACT.creative_hobbies.podcasting_hobby",
+  "relation": "RELATED_TO",
+  "target": "OCC.media"
+ },
+ {
+  "source": "ACT.creative_hobbies.blogging",
+  "relation": "RELATED_TO",
+  "target": "OCC.media"
+ },
+ {
+  "source": "ACT.creative_hobbies.amateur_photography",
+  "relation": "RELATED_TO",
+  "target": "OCC.media"
+ },
+ {
+  "source": "ACT.online_communities.citizen_journalism",
+  "relation": "RELATED_TO",
+  "target": "OCC.media"
+ },
+ {
+  "source": "ACT.making_craft.woodworking",
+  "relation": "RELATED_TO",
+  "target": "OCC.trades"
+ },
+ {
+  "source": "ACT.making_craft.blacksmithing_hobby",
+  "relation": "RELATED_TO",
+  "target": "OCC.trades"
+ },
+ {
+  "source": "ACT.domestic_garden.beekeeping",
+  "relation": "RELATED_TO",
+  "target": "OCC.agriculture"
+ },
+ {
+  "source": "ACT.domestic_garden.vegetable_growing",
+  "relation": "RELATED_TO",
+  "target": "OCC.agriculture"
+ },
+ {
+  "source": "ACT.performing_social.amateur_theater",
+  "relation": "RELATED_TO",
+  "target": "OCC.arts"
+ },
+ {
+  "source": "ACT.fandom_collecting.cosplay",
+  "relation": "RELATED_TO",
+  "target": "OCC.arts"
+ },
+ {
+  "source": "ACT.extreme_sports.skateboarding",
+  "relation": "RELATED_TO",
+  "target": "OCC.sports"
+ },
+ {
+  "source": "ACT.physical_recreation.running_jogging",
+  "relation": "RELATED_TO",
+  "target": "OCC.sports"
+ },
+ {
+  "source": "ACT.gaming.video_gaming",
+  "relation": "RELATED_TO",
+  "target": "ind.media_entertainment"
+ },
+ {
+  "source": "ACT.creative_hobbies.content_creation",
+  "relation": "RELATED_TO",
+  "target": "ind.media_entertainment"
+ },
+ {
+  "source": "ACT.creative_hobbies.streaming",
+  "relation": "RELATED_TO",
+  "target": "ind.media_entertainment"
+ },
+ {
+  "source": "ACT.making_craft.3d_printing",
+  "relation": "RELATED_TO",
+  "target": "ind.manufacturing"
+ },
+ {
+  "source": "ACT.making_craft.diy_home_improvement",
+  "relation": "RELATED_TO",
+  "target": "ind.retail_trade"
+ },
+ {
+  "source": "ACT.domestic_garden.gardening",
+  "relation": "RELATED_TO",
+  "target": "ind.agriculture"
+ },
+ {
+  "source": "ACT.outdoor_adventure.camping",
+  "relation": "RELATED_TO",
+  "target": "ind.hospitality_tourism"
+ },
+ {
+  "source": "ACT.outdoor_adventure.hiking_trekking",
+  "relation": "RELATED_TO",
+  "target": "ind.hospitality_tourism"
+ },
+ {
+  "source": "ACT.fandom_collecting.conventions",
+  "relation": "RELATED_TO",
+  "target": "ind.hospitality_tourism"
+ },
+ {
+  "source": "ACT.fandom_collecting.toy_collecting",
+  "relation": "RELATED_TO",
+  "target": "ind.retail_trade"
+ },
+ {
+  "source": "ACT.making_craft.model_building",
+  "relation": "RELATED_TO",
+  "target": "ind.retail_trade"
+ },
+ {
+  "source": "ACT.science_hobbies.amateur_astronomy",
+  "relation": "RELATED_TO",
+  "target": "HK.physics"
+ },
+ {
+  "source": "ACT.science_hobbies.amateur_radio",
+  "relation": "RELATED_TO",
+  "target": "HK.physics"
+ },
+ {
+  "source": "ACT.science_hobbies.citizen_science",
+  "relation": "RELATED_TO",
+  "target": "HK.biology"
+ },
+ {
+  "source": "ACT.online_communities.open_source_contribution",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ACT.gaming.game_modding",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ACT.science_hobbies.hobby_robotics",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ACT.creative_hobbies.fan_fiction",
+  "relation": "RELATED_TO",
+  "target": "ACT.fandom_collecting.fandom"
+ },
+ {
+  "source": "ACT.creative_hobbies.fan_art",
+  "relation": "RELATED_TO",
+  "target": "ACT.fandom_collecting.fandom"
+ },
+ {
+  "source": "ACT.fandom_collecting.cosplay",
+  "relation": "RELATED_TO",
+  "target": "ACT.making_craft.cosplay_prop_making"
+ },
+ {
+  "source": "ACT.gaming.game_modding",
+  "relation": "RELATED_TO",
+  "target": "ACT.online_communities.modding_communities"
+ },
+ {
+  "source": "ACT.making_craft.wargaming",
+  "relation": "RELATED_TO",
+  "target": "ACT.gaming.board_gaming"
+ },
+ {
+  "source": "ACT.science_hobbies.rockhounding",
+  "relation": "RELATED_TO",
+  "target": "ACT.fandom_collecting.rock_mineral_collecting"
+ },
+ {
+  "source": "ACT.outdoor_adventure.hiking_trekking",
+  "relation": "RELATED_TO",
+  "target": "ACT.physical_recreation.running_jogging.trail_running"
+ }
+]

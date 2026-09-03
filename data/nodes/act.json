@@ -1,0 +1,4755 @@
+[
+ {
+  "id": "ACTIVITIES",
+  "name": "Activities",
+  "name_en": "Activities",
+  "name_zh": "人类活动",
+  "type": "UNIVERSE",
+  "parent": null,
+  "description": "Amateur, recreational, hobbyist, informal and non-commercial human activities."
+ },
+ {
+  "id": "ACT.outdoor_adventure",
+  "name": "Outdoor & Adventure",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Self-propelled and nature-based outdoor pursuits pursued for recreation, challenge, or exploration.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "户外与探险"
+ },
+ {
+  "id": "ACT.extreme_sports",
+  "name": "Extreme & Adventure Sports",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "High-adrenaline sports and stunt activities emphasising speed, height, and risk.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "极限与冒险运动"
+ },
+ {
+  "id": "ACT.science_hobbies",
+  "name": "Science & Technical Hobbies",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Amateur scientific observation, experimentation, and technical tinkering outside professional research.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "科技爱好"
+ },
+ {
+  "id": "ACT.making_craft",
+  "name": "Making & Craft",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Hands-on fabrication, model-building, and traditional or digital craft practiced as a hobby.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "手工制作与工艺"
+ },
+ {
+  "id": "ACT.creative_hobbies",
+  "name": "Creative & Media Hobbies",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Non-commercial creation of visual, written, audio, and video works for personal expression and online sharing.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "创作与媒体爱好"
+ },
+ {
+  "id": "ACT.fandom_collecting",
+  "name": "Fandom & Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Organised enthusiasm for media, celebrities, and the systematic accumulation of objects.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "spectator",
+   "community"
+  ],
+  "name_zh": "粉丝文化与收藏"
+ },
+ {
+  "id": "ACT.gaming",
+  "name": "Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Play of tabletop and digital games, and the surrounding culture of modding, speedrunning, and spectating.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "spectator",
+   "community"
+  ],
+  "name_zh": "游戏"
+ },
+ {
+  "id": "ACT.domestic_garden",
+  "name": "Domestic & Garden",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Home-centred hobbies of cultivation, food preparation, animal keeping, and self-sufficiency.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "居家与园艺"
+ },
+ {
+  "id": "ACT.performing_social",
+  "name": "Performing & Social",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Amateur performance and group social activities centred on music, theatre, dance, and conversation.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "表演与社交"
+ },
+ {
+  "id": "ACT.physical_recreation",
+  "name": "Physical Recreation",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Non-competitive and recreational physical exercise, sports, and outdoor games.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "休闲运动"
+ },
+ {
+  "id": "ACT.traditional",
+  "name": "Traditional, Folk & Regional Activities",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Culturally rooted pastimes, crafts, games, and festive practices, many specific to a region or culture.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "spectator",
+   "community"
+  ],
+  "name_zh": "传统民俗与地域活动"
+ },
+ {
+  "id": "ACT.online_communities",
+  "name": "Online Communities & Informal Activities",
+  "type": "ACTIVITY",
+  "parent": "ACTIVITIES",
+  "description": "Self-organised digital communities and informal collective projects built around shared interests.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "网络社区与非正式活动"
+ },
+ {
+  "id": "ACT.outdoor_adventure.mountaineering",
+  "name": "Mountaineering",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "The pursuit of climbing mountains, combining hiking, climbing, and high-altitude skills.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "登山运动"
+ },
+ {
+  "id": "ACT.outdoor_adventure.hiking_trekking",
+  "name": "Hiking & Trekking",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Walking in natural landscapes along trails or routes for recreation and exercise.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "徒步远足"
+ },
+ {
+  "id": "ACT.outdoor_adventure.hiking_trekking.day_hiking",
+  "name": "Day Hiking",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.hiking_trekking",
+  "description": "Single-day walks on trails without overnight stays.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "日间徒步"
+ },
+ {
+  "id": "ACT.outdoor_adventure.hiking_trekking.backpacking",
+  "name": "Backpacking",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.hiking_trekking",
+  "description": "Multi-day self-sufficient hiking carrying food, shelter, and gear in a pack.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "重装徒步"
+ },
+ {
+  "id": "ACT.outdoor_adventure.hiking_trekking.thru_hiking",
+  "name": "Thru-Hiking",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.hiking_trekking",
+  "description": "Hiking an entire long-distance trail end-to-end in a continuous journey.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "长距离徒步"
+ },
+ {
+  "id": "ACT.outdoor_adventure.rock_climbing",
+  "name": "Rock Climbing",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Climbing natural or artificial rock faces using ropes, protection, and technical movement.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "攀岩"
+ },
+ {
+  "id": "ACT.outdoor_adventure.rock_climbing.bouldering",
+  "name": "Bouldering",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.rock_climbing",
+  "description": "Climbing short, difficult routes on low rocks or walls without ropes, using crash pads.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "抱石"
+ },
+ {
+  "id": "ACT.outdoor_adventure.rock_climbing.sport_climbing",
+  "name": "Sport Climbing",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.rock_climbing",
+  "description": "Roped climbing on routes protected by pre-placed bolts.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "运动攀岩"
+ },
+ {
+  "id": "ACT.outdoor_adventure.rock_climbing.traditional_climbing",
+  "name": "Traditional Climbing",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.rock_climbing",
+  "description": "Roped climbing in which the leader places and removes removable protection.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "传统攀岩"
+ },
+ {
+  "id": "ACT.outdoor_adventure.rock_climbing.ice_climbing",
+  "name": "Ice Climbing",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.rock_climbing",
+  "description": "Climbing frozen waterfalls and ice formations with crampons and ice tools.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "攀冰"
+ },
+ {
+  "id": "ACT.outdoor_adventure.rock_climbing.aid_climbing",
+  "name": "Aid Climbing",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.rock_climbing",
+  "description": "Climbing that uses gear to support upward progress rather than free movement alone.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "器械攀登"
+ },
+ {
+  "id": "ACT.outdoor_adventure.caving",
+  "name": "Caving",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Exploring natural caves and underground passages for recreation and science.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "洞穴探险",
+  "aliases": [
+   "spelunking"
+  ]
+ },
+ {
+  "id": "ACT.outdoor_adventure.canyoning",
+  "name": "Canyoning",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Descending gorges by a combination of walking, scrambling, swimming, and rappelling.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "溪降",
+  "aliases": [
+   "canyoneering"
+  ]
+ },
+ {
+  "id": "ACT.outdoor_adventure.via_ferrata",
+  "name": "Via Ferrata",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Climbing protected mountain routes equipped with fixed cables, ladders, and bridges.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "飞拉达"
+ },
+ {
+  "id": "ACT.outdoor_adventure.camping",
+  "name": "Camping",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Overnight stays outdoors in temporary shelter such as tents or vehicles.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "露营"
+ },
+ {
+  "id": "ACT.outdoor_adventure.camping.tent_camping",
+  "name": "Tent Camping",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.camping",
+  "description": "Camping in portable tents at established or dispersed sites.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "帐篷露营"
+ },
+ {
+  "id": "ACT.outdoor_adventure.camping.car_camping",
+  "name": "Car Camping",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.camping",
+  "description": "Camping with a vehicle used for transport or shelter at accessible campsites.",
+  "participation_modes": [
+   "recreational"
+  ],
+  "name_zh": "自驾露营"
+ },
+ {
+  "id": "ACT.outdoor_adventure.camping.wild_camping",
+  "name": "Wild Camping",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.camping",
+  "description": "Camping away from designated sites in remote or natural settings.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "野营"
+ },
+ {
+  "id": "ACT.outdoor_adventure.survival_skills",
+  "name": "Survival Skills & Bushcraft",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Practicing wilderness self-reliance skills such as fire-making, shelter, and foraging.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "野外生存",
+  "aliases": [
+   "bushcraft"
+  ]
+ },
+ {
+  "id": "ACT.outdoor_adventure.exploration",
+  "name": "Exploration",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Journeying to little-known or remote places for discovery and challenge.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "探险"
+ },
+ {
+  "id": "ACT.outdoor_adventure.exploration.expeditioning",
+  "name": "Expeditioning",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.exploration",
+  "description": "Organised long-duration journeys to remote regions with a defined objective.",
+  "participation_modes": [
+   "professional",
+   "amateur"
+  ],
+  "name_zh": "远征探险"
+ },
+ {
+  "id": "ACT.outdoor_adventure.exploration.urban_exploration",
+  "name": "Urban Exploration",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.exploration",
+  "description": "Exploring abandoned, hidden, or off-limits built structures and infrastructure.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "城市探险",
+  "aliases": [
+   "urbex"
+  ]
+ },
+ {
+  "id": "ACT.outdoor_adventure.orienteering",
+  "name": "Orienteering",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Navigating between checkpoints across terrain using a map and compass.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "定向越野"
+ },
+ {
+  "id": "ACT.outdoor_adventure.geocaching",
+  "name": "Geocaching",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Using GPS to find hidden containers and log visits in an outdoor treasure-hunt game.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "地理藏宝"
+ },
+ {
+  "id": "ACT.outdoor_adventure.scuba_diving",
+  "name": "Scuba Diving",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Underwater diving with self-contained breathing apparatus for recreation and exploration.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "水肺潜水"
+ },
+ {
+  "id": "ACT.outdoor_adventure.scuba_diving.snorkeling",
+  "name": "Snorkeling",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.scuba_diving",
+  "description": "Swimming at the surface breathing through a snorkel to observe underwater life.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "浮潜"
+ },
+ {
+  "id": "ACT.outdoor_adventure.scuba_diving.free_diving",
+  "name": "Freediving",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure.scuba_diving",
+  "description": "Breath-hold diving for depth or underwater observation without breathing apparatus.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "自由潜水"
+ },
+ {
+  "id": "ACT.outdoor_adventure.whitewater_rafting",
+  "name": "Whitewater Rafting",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Navigating inflatable rafts down river rapids as a group.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "白水漂流"
+ },
+ {
+  "id": "ACT.outdoor_adventure.kayaking_canoeing",
+  "name": "Kayaking & Canoeing",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Paddling kayaks or canoes on lakes, rivers, and coasts for recreation and touring.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "皮划艇与独木舟"
+ },
+ {
+  "id": "ACT.outdoor_adventure.peak_bagging",
+  "name": "Peak Bagging",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Systematically summiting a defined list of mountain peaks as a personal challenge.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "登峰打卡"
+ },
+ {
+  "id": "ACT.outdoor_adventure.snowshoeing",
+  "name": "Snowshoeing",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Walking over snow on broad snowshoes to access winter trails.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "雪鞋徒步"
+ },
+ {
+  "id": "ACT.outdoor_adventure.backcountry_skiing",
+  "name": "Backcountry Skiing",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Skiing in unpatrolled wilderness terrain using skins and touring bindings.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "越野滑雪/登山滑雪"
+ },
+ {
+  "id": "ACT.outdoor_adventure.wildlife_watching",
+  "name": "Wildlife Watching",
+  "type": "ACTIVITY",
+  "parent": "ACT.outdoor_adventure",
+  "description": "Observing animals in their natural habitats, from safaris to whale watching.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "野生动物观察"
+ },
+ {
+  "id": "ACT.extreme_sports.skydiving",
+  "name": "Skydiving",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Parachuting from aircraft, including freefall before canopy deployment.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "跳伞"
+ },
+ {
+  "id": "ACT.extreme_sports.base_jumping",
+  "name": "BASE Jumping",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Parachuting from fixed objects such as cliffs, buildings, and antennas.",
+  "participation_modes": [
+   "professional",
+   "amateur"
+  ],
+  "name_zh": "低空跳伞"
+ },
+ {
+  "id": "ACT.extreme_sports.paragliding",
+  "name": "Paragliding",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Flying lightweight foot-launched gliders with a fabric wing from hills and thermals.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "滑翔伞"
+ },
+ {
+  "id": "ACT.extreme_sports.hang_gliding",
+  "name": "Hang Gliding",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Flying a rigid-wing glider while suspended in a harness.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "悬挂式滑翔"
+ },
+ {
+  "id": "ACT.extreme_sports.wingsuit_flying",
+  "name": "Wingsuit Flying",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Gliding in a suit with fabric wings before deploying a parachute.",
+  "participation_modes": [
+   "professional",
+   "amateur"
+  ],
+  "name_zh": "翼装飞行"
+ },
+ {
+  "id": "ACT.extreme_sports.paramotoring",
+  "name": "Paramotoring",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Flying a paraglider with a backpack motor for powered take-off and sustained flight.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "动力滑翔伞"
+ },
+ {
+  "id": "ACT.extreme_sports.parkour",
+  "name": "Parkour",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Moving through urban or natural obstacles by running, vaulting, and climbing efficiently.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "跑酷"
+ },
+ {
+  "id": "ACT.extreme_sports.freerunning",
+  "name": "Freerunning",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "An expressive variant of parkour incorporating flips and acrobatics.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "自由跑酷"
+ },
+ {
+  "id": "ACT.extreme_sports.skateboarding",
+  "name": "Skateboarding",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding and performing tricks on a skateboard in streets, parks, and ramps.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "滑板"
+ },
+ {
+  "id": "ACT.extreme_sports.longboarding",
+  "name": "Longboarding",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding a longer skateboard for cruising, carving, and downhill speed.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "长板"
+ },
+ {
+  "id": "ACT.extreme_sports.inline_skating",
+  "name": "Inline Skating",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Skating on boots with wheels in a line for recreation, fitness, and tricks.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "轮滑",
+  "aliases": [
+   "rollerblading"
+  ]
+ },
+ {
+  "id": "ACT.extreme_sports.surfing",
+  "name": "Surfing",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding ocean waves on a surfboard.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "冲浪"
+ },
+ {
+  "id": "ACT.extreme_sports.surfing.bodyboarding",
+  "name": "Bodyboarding",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports.surfing",
+  "description": "Riding waves prone or kneeling on a small flexible board.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "趴板冲浪"
+ },
+ {
+  "id": "ACT.extreme_sports.windsurfing",
+  "name": "Windsurfing",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding a board with an attached sail powered by wind.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "帆板"
+ },
+ {
+  "id": "ACT.extreme_sports.kitesurfing",
+  "name": "Kitesurfing",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding a board while pulled by a large controllable power kite.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "风筝冲浪",
+  "aliases": [
+   "kiteboarding"
+  ]
+ },
+ {
+  "id": "ACT.extreme_sports.snowboarding",
+  "name": "Snowboarding",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Descending snow slopes on a single board with bindings.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "单板滑雪"
+ },
+ {
+  "id": "ACT.extreme_sports.freestyle_skiing",
+  "name": "Freestyle Skiing",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Skiing emphasizing aerial tricks, rails, moguls, and terrain parks.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "自由式滑雪"
+ },
+ {
+  "id": "ACT.extreme_sports.bmx",
+  "name": "BMX",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding small-frame bicycles for racing, freestyle tricks, and street riding.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "小轮车"
+ },
+ {
+  "id": "ACT.extreme_sports.motocross",
+  "name": "Motocross",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Racing off-road motorcycles on closed dirt circuits with jumps.",
+  "participation_modes": [
+   "professional",
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "越野摩托车"
+ },
+ {
+  "id": "ACT.extreme_sports.dirt_biking",
+  "name": "Dirt Biking",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Recreational trail riding of off-road motorcycles on natural terrain.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "越野骑行"
+ },
+ {
+  "id": "ACT.extreme_sports.cliff_diving",
+  "name": "Cliff Diving",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Diving from high natural cliffs into open water.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "悬崖跳水"
+ },
+ {
+  "id": "ACT.extreme_sports.bungee_jumping",
+  "name": "Bungee Jumping",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Jumping from a height while attached to an elastic cord.",
+  "participation_modes": [
+   "recreational"
+  ],
+  "name_zh": "蹦极"
+ },
+ {
+  "id": "ACT.extreme_sports.ziplining",
+  "name": "Ziplining",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding a suspended cable pulley from a height for recreation.",
+  "participation_modes": [
+   "recreational"
+  ],
+  "name_zh": "滑索"
+ },
+ {
+  "id": "ACT.extreme_sports.wakeboarding",
+  "name": "Wakeboarding",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding a board over water while towed behind a boat across its wake.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "尾波滑水"
+ },
+ {
+  "id": "ACT.extreme_sports.water_skiing",
+  "name": "Water Skiing",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Skiing on water while towed behind a boat.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "滑水"
+ },
+ {
+  "id": "ACT.extreme_sports.snowmobiling",
+  "name": "Snowmobiling",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Riding motorized snow vehicles across snow for recreation.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "雪地摩托"
+ },
+ {
+  "id": "ACT.extreme_sports.snowkiting",
+  "name": "Snowkiting",
+  "type": "ACTIVITY",
+  "parent": "ACT.extreme_sports",
+  "description": "Using a power kite to ski or snowboard across snow and ice.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "雪地风筝"
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_astronomy",
+  "name": "Amateur Astronomy",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Observing the night sky and celestial objects with telescopes and binoculars.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "业余天文学"
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_astronomy.telescope_making",
+  "name": "Telescope Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.amateur_astronomy",
+  "description": "Grinding mirrors and constructing telescopes by hand.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "望远镜制作"
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_astronomy.astrophotography",
+  "name": "Astrophotography",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.amateur_astronomy",
+  "description": "Photographing celestial objects and the night sky.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "天文摄影"
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_astronomy.variable_star_observation",
+  "name": "Variable Star Observation",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.amateur_astronomy",
+  "description": "Tracking brightness changes of variable stars to contribute data to research.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "变星观测"
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_radio",
+  "name": "Amateur Radio",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Licensed non-commercial two-way radio communication and experimentation.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "业余无线电",
+  "aliases": [
+   "ham radio"
+  ]
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_radio.morse_code_operation",
+  "name": "Morse Code Operation",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.amateur_radio",
+  "description": "Communicating over radio using Morse code (CW).",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "摩尔斯电码通信"
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_radio.dxing",
+  "name": "DXing",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.amateur_radio",
+  "description": "Contacting distant radio stations, often for awards and confirmation cards.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "远距离通信"
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_radio.radio_contesting",
+  "name": "Radio Contesting",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.amateur_radio",
+  "description": "Competing to make the most radio contacts within a defined time window.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "无线电竞赛"
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_radio.radio_direction_finding",
+  "name": "Radio Direction Finding",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.amateur_radio",
+  "description": "Locating hidden transmitters by direction-finding, as in foxhunting and ARDF.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "无线电测向",
+  "aliases": [
+   "foxhunting"
+  ]
+ },
+ {
+  "id": "ACT.science_hobbies.shortwave_listening",
+  "name": "Shortwave Listening",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Receiving international and distant broadcast stations without transmitting.",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "短波收听"
+ },
+ {
+  "id": "ACT.science_hobbies.citizen_science",
+  "name": "Citizen Science",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Volunteering time and observations to assist professional scientific research.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "公民科学"
+ },
+ {
+  "id": "ACT.science_hobbies.citizen_science.bio_blitzing",
+  "name": "Bio-Blitzing",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.citizen_science",
+  "description": "Rapid community surveys that record all species found in an area over a short period.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "生物多样性速查"
+ },
+ {
+  "id": "ACT.science_hobbies.rockhounding",
+  "name": "Rockhounding",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Collecting rocks, minerals, and crystals in the field.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "矿物采集"
+ },
+ {
+  "id": "ACT.science_hobbies.fossil_hunting",
+  "name": "Fossil Hunting",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Searching for and collecting fossils as an amateur paleontology pursuit.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "化石采集"
+ },
+ {
+  "id": "ACT.science_hobbies.metal_detecting",
+  "name": "Metal Detecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Scanning ground with a metal detector to find buried coins, relics, and artifacts.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "金属探测"
+ },
+ {
+  "id": "ACT.science_hobbies.magnet_fishing",
+  "name": "Magnet Fishing",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Dragging strong magnets through waterways to recover submerged metal objects.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "磁力钓鱼"
+ },
+ {
+  "id": "ACT.science_hobbies.electronics_hobby",
+  "name": "Electronics Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Building and experimenting with electronic circuits and devices at home.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "电子制作"
+ },
+ {
+  "id": "ACT.science_hobbies.hobby_robotics",
+  "name": "Hobby Robotics",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Designing and building robots and autonomous machines for fun and learning.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "机器人制作"
+ },
+ {
+  "id": "ACT.science_hobbies.model_rocketry",
+  "name": "Model Rocketry",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Building and launching small rockets as a hobby.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "模型火箭"
+ },
+ {
+  "id": "ACT.science_hobbies.weather_spotting",
+  "name": "Amateur Meteorology",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Observing and recording weather, from home stations to storm chasing.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "业余气象"
+ },
+ {
+  "id": "ACT.science_hobbies.weather_spotting.storm_chasing",
+  "name": "Storm Chasing",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies.weather_spotting",
+  "description": "Traveling to observe and document severe storms and tornadoes.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "追逐风暴"
+ },
+ {
+  "id": "ACT.science_hobbies.microscopy_hobby",
+  "name": "Microscopy Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Examining the microscopic world of cells, minerals, and organisms at home.",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "显微镜爱好"
+ },
+ {
+  "id": "ACT.science_hobbies.home_chemistry",
+  "name": "Home Chemistry",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Performing safe chemistry demonstrations and experiments outside a laboratory.",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "家庭化学实验"
+ },
+ {
+  "id": "ACT.science_hobbies.genealogy",
+  "name": "Genealogy",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Researching and documenting one's family history and ancestry.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "家谱研究"
+ },
+ {
+  "id": "ACT.science_hobbies.insect_collecting",
+  "name": "Insect Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Collecting, pinning, and studying insects as an entomology hobby.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "昆虫采集"
+ },
+ {
+  "id": "ACT.science_hobbies.drone_flying",
+  "name": "Drone Flying",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Piloting hobby multirotor aircraft for photography, racing, and recreation.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "无人机飞行"
+ },
+ {
+  "id": "ACT.science_hobbies.diy_biology",
+  "name": "DIY Biology",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Community-based amateur biological experimentation and biotechnology exploration.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "公民生物",
+  "aliases": [
+   "biohacking"
+  ]
+ },
+ {
+  "id": "ACT.science_hobbies.amateur_archaeology",
+  "name": "Amateur Archaeology",
+  "type": "ACTIVITY",
+  "parent": "ACT.science_hobbies",
+  "description": "Volunteer participation in field archaeology and surface artifact survey.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "业余考古"
+ },
+ {
+  "id": "ACT.making_craft.model_building",
+  "name": "Model Building",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Assembling and finishing scale models of vehicles, aircraft, ships, and scenes.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "模型制作"
+ },
+ {
+  "id": "ACT.making_craft.model_building.scale_modeling",
+  "name": "Scale Modeling",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.model_building",
+  "description": "Building detailed static models from kits at a fixed scale.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "比例模型"
+ },
+ {
+  "id": "ACT.making_craft.model_building.model_railroading",
+  "name": "Model Railroading",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.model_building",
+  "description": "Constructing and operating miniature railway layouts and rolling stock.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "铁道模型"
+ },
+ {
+  "id": "ACT.making_craft.model_building.model_aircraft",
+  "name": "Model Aircraft",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.model_building",
+  "description": "Building flying or static model airplanes, gliders, and helicopters.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "航空模型"
+ },
+ {
+  "id": "ACT.making_craft.model_building.diorama_building",
+  "name": "Diorama Building",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.model_building",
+  "description": "Creating miniature three-dimensional scenes in a box or base.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "场景模型"
+ },
+ {
+  "id": "ACT.making_craft.miniatures",
+  "name": "Miniatures",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Painting and crafting small-scale figures and environments.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "微缩模型"
+ },
+ {
+  "id": "ACT.making_craft.miniatures.miniature_painting",
+  "name": "Miniature Painting",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.miniatures",
+  "description": "Painting small figures and models with fine detail for display or gaming.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "微缩模型涂装"
+ },
+ {
+  "id": "ACT.making_craft.miniatures.dollhouse_miniatures",
+  "name": "Dollhouse Miniatures",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.miniatures",
+  "description": "Furnishing and decorating miniature dollhouses with handcrafted items.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "娃娃屋微缩"
+ },
+ {
+  "id": "ACT.making_craft.wargaming",
+  "name": "Miniature Wargaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Building and painting armies, then playing tabletop battles with miniatures.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "微缩战棋"
+ },
+ {
+  "id": "ACT.making_craft.3d_printing",
+  "name": "3D Printing",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Designing and printing three-dimensional objects with hobby 3D printers.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "3D打印"
+ },
+ {
+  "id": "ACT.making_craft.diy_home_improvement",
+  "name": "DIY & Home Improvement",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Doing one's own home repair, renovation, and improvement projects.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "DIY家居改善"
+ },
+ {
+  "id": "ACT.making_craft.diy_home_improvement.furniture_restoration",
+  "name": "Furniture Restoration",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.diy_home_improvement",
+  "description": "Repairing and refinishing old or damaged furniture.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "家具翻新"
+ },
+ {
+  "id": "ACT.making_craft.woodworking",
+  "name": "Woodworking",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Shaping and joining wood to make furniture, objects, and art.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "木工"
+ },
+ {
+  "id": "ACT.making_craft.woodworking.wood_carving",
+  "name": "Wood Carving",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.woodworking",
+  "description": "Carving decorative or sculptural forms from wood with hand tools.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "木雕"
+ },
+ {
+  "id": "ACT.making_craft.woodworking.woodturning",
+  "name": "Woodturning",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.woodworking",
+  "description": "Shaping wood on a lathe into bowls, spindles, and other round forms.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "车削木工"
+ },
+ {
+  "id": "ACT.making_craft.knitting_crochet",
+  "name": "Knitting & Crochet",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Creating fabric and garments by looping yarn with needles or a hook.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "编织与钩针"
+ },
+ {
+  "id": "ACT.making_craft.knitting_crochet.knitting",
+  "name": "Knitting",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.knitting_crochet",
+  "description": "Making fabric by interlocking loops of yarn with two needles.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "棒针编织"
+ },
+ {
+  "id": "ACT.making_craft.knitting_crochet.crochet",
+  "name": "Crochet",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.knitting_crochet",
+  "description": "Making fabric by pulling loops of yarn through loops with a hook.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "钩针编织"
+ },
+ {
+  "id": "ACT.making_craft.embroidery",
+  "name": "Embroidery",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Decorating fabric with needle and thread in ornamental stitches.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "刺绣"
+ },
+ {
+  "id": "ACT.making_craft.embroidery.cross_stitch",
+  "name": "Cross Stitch",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.embroidery",
+  "description": "Embroidering counted X-shaped stitches on even-weave fabric to form patterns.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "十字绣"
+ },
+ {
+  "id": "ACT.making_craft.embroidery.needlepoint",
+  "name": "Needlepoint",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.embroidery",
+  "description": "Working yarn stitches onto open-weave canvas to cover it with design.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "绒绣"
+ },
+ {
+  "id": "ACT.making_craft.sewing_quilting",
+  "name": "Sewing & Quilting",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Constructing garments and layered fabric quilts by machine or hand.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "缝纫与拼布"
+ },
+ {
+  "id": "ACT.making_craft.sewing_quilting.quilting",
+  "name": "Quilting",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.sewing_quilting",
+  "description": "Stitching together layered fabric to make padded quilts and wall hangings.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "拼布"
+ },
+ {
+  "id": "ACT.making_craft.pottery_ceramics",
+  "name": "Pottery & Ceramics",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Forming and firing clay into vessels and sculpture.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "陶艺"
+ },
+ {
+  "id": "ACT.making_craft.pottery_ceramics.wheel_throwing",
+  "name": "Wheel Throwing",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.pottery_ceramics",
+  "description": "Shaping clay on a spinning potter's wheel.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "拉坯"
+ },
+ {
+  "id": "ACT.making_craft.pottery_ceramics.hand_building",
+  "name": "Hand Building",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.pottery_ceramics",
+  "description": "Forming clay by hand using pinch, coil, and slab techniques.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "手捏陶艺"
+ },
+ {
+  "id": "ACT.making_craft.blacksmithing_hobby",
+  "name": "Blacksmithing Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Forging heated metal into tools, blades, and decorative items as a hobby.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "业余锻造"
+ },
+ {
+  "id": "ACT.making_craft.cosplay_prop_making",
+  "name": "Cosplay Prop Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Crafting costumes, armor, and props for cosplay and conventions.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "角色扮演道具制作"
+ },
+ {
+  "id": "ACT.making_craft.jewelry_making",
+  "name": "Jewelry Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Designing and fabricating necklaces, rings, earrings, and adornments.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "首饰制作"
+ },
+ {
+  "id": "ACT.making_craft.jewelry_making.beadwork",
+  "name": "Beadwork",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.jewelry_making",
+  "description": "Weaving and stringing beads into jewelry and decorative items.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "串珠"
+ },
+ {
+  "id": "ACT.making_craft.leatherworking",
+  "name": "Leatherworking",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Cutting, stitching, and tooling leather into bags, belts, and goods.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "皮革工艺"
+ },
+ {
+  "id": "ACT.making_craft.bookbinding",
+  "name": "Bookbinding",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Hand-binding pages into books, journals, and albums.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "书籍装订"
+ },
+ {
+  "id": "ACT.making_craft.candle_soap_making",
+  "name": "Candle & Soap Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Crafting candles and soaps at home with waxes, oils, and fragrances.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "蜡烛与手工皂制作"
+ },
+ {
+  "id": "ACT.making_craft.papercraft",
+  "name": "Papercraft",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Cutting, folding, and assembling paper into cards, models, and decorations.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "纸艺"
+ },
+ {
+  "id": "ACT.making_craft.papercraft.scrapbooking",
+  "name": "Scrapbooking",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.papercraft",
+  "description": "Compiling photos and memorabilia into decorated albums.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "剪贴簿"
+ },
+ {
+  "id": "ACT.making_craft.papercraft.card_making",
+  "name": "Card Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft.papercraft",
+  "description": "Handcrafting greeting cards with paper, stamps, and embellishments.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "贺卡制作"
+ },
+ {
+  "id": "ACT.making_craft.stained_glass",
+  "name": "Stained Glass",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Cutting colored glass and joining pieces with lead or foil to make panels.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "彩色玻璃工艺"
+ },
+ {
+  "id": "ACT.making_craft.pyrography",
+  "name": "Pyrography",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Burning designs into wood with a heated tool.",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "烙画",
+  "aliases": [
+   "wood burning"
+  ]
+ },
+ {
+  "id": "ACT.making_craft.resin_casting",
+  "name": "Resin Casting",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Casting objects and art pieces from epoxy and polyurethane resins.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "树脂铸造"
+ },
+ {
+  "id": "ACT.making_craft.upcycling",
+  "name": "Upcycling",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Transforming discarded materials into new items of higher value.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "升级改造"
+ },
+ {
+  "id": "ACT.making_craft.felting",
+  "name": "Felting",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Matting wool fibers into fabric or sculpture by needle or wet technique.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "羊毛毡"
+ },
+ {
+  "id": "ACT.making_craft.weaving",
+  "name": "Weaving",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Interlacing warp and weft threads on a loom to make cloth.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "织布"
+ },
+ {
+  "id": "ACT.making_craft.spinning_yarn",
+  "name": "Spinning Yarn",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Twisting fibers into yarn using a spinning wheel or drop spindle.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "纺线"
+ },
+ {
+  "id": "ACT.making_craft.mosaic_art",
+  "name": "Mosaic Art",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Assembling small pieces of tile, glass, or stone into patterns and pictures.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "马赛克拼贴"
+ },
+ {
+  "id": "ACT.making_craft.macrame",
+  "name": "Macrame",
+  "type": "ACTIVITY",
+  "parent": "ACT.making_craft",
+  "description": "Knotting cord into decorative wall hangings, plant holders, and jewelry.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "绳编"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_photography",
+  "name": "Amateur Photography",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Taking photographs for pleasure and personal expression rather than pay.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "业余摄影"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_photography.landscape_photography",
+  "name": "Landscape Photography",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.amateur_photography",
+  "description": "Photographing natural scenery and vistas.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "风光摄影"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_photography.street_photography",
+  "name": "Street Photography",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.amateur_photography",
+  "description": "Capturing candid public scenes and everyday urban life.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "街拍"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_photography.wildlife_photography",
+  "name": "Wildlife Photography",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.amateur_photography",
+  "description": "Photographing animals in their natural habitats.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "野生动物摄影"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_photography.macro_photography",
+  "name": "Macro Photography",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.amateur_photography",
+  "description": "Photographing small subjects at extreme close range and high magnification.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "微距摄影"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_photography.portrait_photography",
+  "name": "Portrait Photography",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.amateur_photography",
+  "description": "Photographing people to capture personality and expression.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "人像摄影"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_filmmaking",
+  "name": "Amateur Filmmaking",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Producing short films and videos outside the commercial film industry.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "业余电影制作"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_filmmaking.short_film_making",
+  "name": "Short Film Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.amateur_filmmaking",
+  "description": "Writing, shooting, and editing short narrative or documentary films.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "短片制作"
+ },
+ {
+  "id": "ACT.creative_hobbies.amateur_filmmaking.stop_motion_animation",
+  "name": "Stop Motion Animation",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.amateur_filmmaking",
+  "description": "Animating objects frame-by-frame through incremental poses.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "定格动画"
+ },
+ {
+  "id": "ACT.creative_hobbies.music_making",
+  "name": "Music Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Composing, recording, and producing original music at home.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "音乐创作"
+ },
+ {
+  "id": "ACT.creative_hobbies.music_making.home_recording",
+  "name": "Home Recording",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.music_making",
+  "description": "Recording and mixing music in a home or project studio.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "家庭录音"
+ },
+ {
+  "id": "ACT.creative_hobbies.music_making.songwriting",
+  "name": "Songwriting",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.music_making",
+  "description": "Writing original lyrics and melodies for songs.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "歌曲创作"
+ },
+ {
+  "id": "ACT.creative_hobbies.music_making.electronic_music_production",
+  "name": "Electronic Music Production",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.music_making",
+  "description": "Creating music with synthesizers, samplers, and digital audio workstations.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "电子音乐制作"
+ },
+ {
+  "id": "ACT.creative_hobbies.music_making.beatmaking",
+  "name": "Beatmaking",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.music_making",
+  "description": "Programming rhythmic instrumental backing tracks, often for hip-hop.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "节拍制作"
+ },
+ {
+  "id": "ACT.creative_hobbies.drawing_painting",
+  "name": "Drawing & Painting",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Creating two-dimensional artworks with drawing and painting media.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "绘画"
+ },
+ {
+  "id": "ACT.creative_hobbies.drawing_painting.sketching",
+  "name": "Sketching",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.drawing_painting",
+  "description": "Making quick freehand drawings to observe, plan, or record.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "速写"
+ },
+ {
+  "id": "ACT.creative_hobbies.drawing_painting.watercolor_painting",
+  "name": "Watercolor Painting",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.drawing_painting",
+  "description": "Painting with water-soluble pigments on paper.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "水彩画"
+ },
+ {
+  "id": "ACT.creative_hobbies.drawing_painting.oil_painting",
+  "name": "Oil Painting",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.drawing_painting",
+  "description": "Painting with slow-drying pigments suspended in oil.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "油画"
+ },
+ {
+  "id": "ACT.creative_hobbies.drawing_painting.digital_painting",
+  "name": "Digital Painting",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.drawing_painting",
+  "description": "Painting images using a tablet and digital painting software.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "数字绘画"
+ },
+ {
+  "id": "ACT.creative_hobbies.drawing_painting.urban_sketching",
+  "name": "Urban Sketching",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.drawing_painting",
+  "description": "Drawing scenes on location in cities and towns.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "城市速写"
+ },
+ {
+  "id": "ACT.creative_hobbies.creative_writing",
+  "name": "Creative Writing",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Writing fiction, poetry, and personal essays for artistic expression.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "创意写作"
+ },
+ {
+  "id": "ACT.creative_hobbies.creative_writing.poetry_writing",
+  "name": "Poetry Writing",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.creative_writing",
+  "description": "Composing poems with attention to rhythm, imagery, and form.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "诗歌创作"
+ },
+ {
+  "id": "ACT.creative_hobbies.creative_writing.fiction_writing",
+  "name": "Fiction Writing",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.creative_writing",
+  "description": "Writing novels and short stories of imagined characters and events.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "小说创作"
+ },
+ {
+  "id": "ACT.creative_hobbies.creative_writing.screenwriting",
+  "name": "Screenwriting",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.creative_writing",
+  "description": "Writing scripts for film, television, and other screen media.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "剧本创作"
+ },
+ {
+  "id": "ACT.creative_hobbies.blogging",
+  "name": "Blogging",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Writing and publishing regular posts on a personal weblog.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "博客写作"
+ },
+ {
+  "id": "ACT.creative_hobbies.fan_fiction",
+  "name": "Fan Fiction",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Writing original stories featuring characters and settings from existing works.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "同人小说"
+ },
+ {
+  "id": "ACT.creative_hobbies.fan_art",
+  "name": "Fan Art",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Creating artwork depicting characters and scenes from existing media.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "同人艺术"
+ },
+ {
+  "id": "ACT.creative_hobbies.podcasting_hobby",
+  "name": "Podcasting Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Producing and publishing audio episodes on personal interests.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "播客制作"
+ },
+ {
+  "id": "ACT.creative_hobbies.vlogging",
+  "name": "Vlogging",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Creating and sharing video diaries and lifestyle videos online.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "视频博客"
+ },
+ {
+  "id": "ACT.creative_hobbies.streaming",
+  "name": "Streaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Broadcasting live gameplay, art, or conversation to an online audience.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "直播"
+ },
+ {
+  "id": "ACT.creative_hobbies.streaming.game_streaming",
+  "name": "Game Streaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies.streaming",
+  "description": "Broadcasting live video-game play with commentary.",
+  "participation_modes": [
+   "amateur",
+   "community",
+   "spectator"
+  ],
+  "name_zh": "游戏直播"
+ },
+ {
+  "id": "ACT.creative_hobbies.content_creation",
+  "name": "Content Creation",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Producing and publishing digital media across platforms as a hobby.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "内容创作"
+ },
+ {
+  "id": "ACT.creative_hobbies.webcomic_creation",
+  "name": "Webcomic Creation",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Drawing and publishing serialized comics online.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "网络漫画创作"
+ },
+ {
+  "id": "ACT.creative_hobbies.comic_zine_making",
+  "name": "Comics & Zine Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Self-publishing small-run comics, zines, and independent magazines.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "独立漫画与杂志制作"
+ },
+ {
+  "id": "ACT.creative_hobbies.animation_hobby",
+  "name": "Animation Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Creating animated films and clips independently.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "业余动画"
+ },
+ {
+  "id": "ACT.creative_hobbies.graphic_design_hobby",
+  "name": "Graphic Design Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Designing posters, logos, and layouts for personal and community projects.",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "平面设计爱好"
+ },
+ {
+  "id": "ACT.creative_hobbies.digital_sculpting",
+  "name": "Digital Sculpting",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Sculpting three-dimensional digital models for art and printing.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "数字雕刻"
+ },
+ {
+  "id": "ACT.creative_hobbies.pixel_art",
+  "name": "Pixel Art",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Creating images by placing individual pixels, often for retro game aesthetics.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "像素画"
+ },
+ {
+  "id": "ACT.creative_hobbies.journaling",
+  "name": "Journaling",
+  "type": "ACTIVITY",
+  "parent": "ACT.creative_hobbies",
+  "description": "Keeping personal diaries, bullet journals, and art journals.",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "手账与日记"
+ },
+ {
+  "id": "ACT.fandom_collecting.cosplay",
+  "name": "Cosplay",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Dressing and performing as characters from media at events and shoots.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "角色扮演"
+ },
+ {
+  "id": "ACT.fandom_collecting.fandom",
+  "name": "Fandom",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Organised enthusiasm and community identity around media, creators, or celebrities.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "粉丝圈"
+ },
+ {
+  "id": "ACT.fandom_collecting.fandom.fan_clubs",
+  "name": "Fan Clubs",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting.fandom",
+  "description": "Formal or informal groups organised around a shared fandom.",
+  "participation_modes": [
+   "community"
+  ],
+  "name_zh": "粉丝俱乐部"
+ },
+ {
+  "id": "ACT.fandom_collecting.conventions",
+  "name": "Conventions",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Large gatherings of fans for panels, vendors, and community events.",
+  "participation_modes": [
+   "community",
+   "spectator"
+  ],
+  "name_zh": "同人展"
+ },
+ {
+  "id": "ACT.fandom_collecting.conventions.comic_conventions",
+  "name": "Comic Conventions",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting.conventions",
+  "description": "Multi-genre conventions focused on comics, film, and pop culture.",
+  "participation_modes": [
+   "community",
+   "spectator"
+  ],
+  "name_zh": "漫展"
+ },
+ {
+  "id": "ACT.fandom_collecting.conventions.anime_conventions",
+  "name": "Anime Conventions",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting.conventions",
+  "description": "Conventions celebrating Japanese animation, manga, and related culture.",
+  "participation_modes": [
+   "community",
+   "spectator"
+  ],
+  "name_zh": "动漫展"
+ },
+ {
+  "id": "ACT.fandom_collecting.conventions.sci_fi_conventions",
+  "name": "Science Fiction Conventions",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting.conventions",
+  "description": "Conventions focused on science fiction literature, film, and fandom.",
+  "participation_modes": [
+   "community",
+   "spectator"
+  ],
+  "name_zh": "科幻大会"
+ },
+ {
+  "id": "ACT.fandom_collecting.stamp_collecting",
+  "name": "Stamp Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting and studying postage stamps and postal history.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "集邮",
+  "aliases": [
+   "philately"
+  ]
+ },
+ {
+  "id": "ACT.fandom_collecting.coin_collecting",
+  "name": "Coin Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting coins and studying numismatics.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "钱币收藏",
+  "aliases": [
+   "numismatics"
+  ]
+ },
+ {
+  "id": "ACT.fandom_collecting.toy_collecting",
+  "name": "Toy Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting toys, figures, and models, often mint or vintage.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "玩具收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.toy_collecting.action_figure_collecting",
+  "name": "Action Figure Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting.toy_collecting",
+  "description": "Collecting poseable character figures from films, comics, and games.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "可动人偶收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.trading_card_collecting",
+  "name": "Trading Card Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting sports, game, and character trading cards.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "卡牌收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.rock_mineral_collecting",
+  "name": "Rock & Mineral Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Acquiring and displaying mineral specimens and gemstones.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "矿石收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.memorabilia_collecting",
+  "name": "Memorabilia Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting objects associated with people, events, and popular culture.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "纪念品收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.memorabilia_collecting.autograph_collecting",
+  "name": "Autograph Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting.memorabilia_collecting",
+  "description": "Collecting signed photographs, cards, and items from celebrities and athletes.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "签名收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.memorabilia_collecting.sports_memorabilia",
+  "name": "Sports Memorabilia",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting.memorabilia_collecting",
+  "description": "Collecting jerseys, equipment, and items tied to sporting history.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "体育纪念品"
+ },
+ {
+  "id": "ACT.fandom_collecting.comic_book_collecting",
+  "name": "Comic Book Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting comic books and graphic novels, often key issues.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "漫画收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.vinyl_record_collecting",
+  "name": "Vinyl Record Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting and curating phonograph records.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "黑胶唱片收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.antique_collecting",
+  "name": "Antique Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting old and historically significant objects.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "古董收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.book_collecting",
+  "name": "Book Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting rare, first-edition, and personally significant books.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "藏书"
+ },
+ {
+  "id": "ACT.fandom_collecting.sneaker_collecting",
+  "name": "Sneaker Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting limited and culturally significant athletic footwear.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "球鞋收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.watch_collecting",
+  "name": "Watch Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting and appreciating mechanical and vintage timepieces.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "手表收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.militaria_collecting",
+  "name": "Militaria Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting military uniforms, medals, and equipment from historical conflicts.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "军事收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.art_collecting",
+  "name": "Art Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Acquiring artworks and prints for personal enjoyment and investment.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "艺术品收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.poster_collecting",
+  "name": "Poster Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting film, concert, and propaganda posters.",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "海报收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.diecast_model_collecting",
+  "name": "Diecast Model Collecting",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Collecting die-cast metal models of vehicles and aircraft.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "压铸模型收藏"
+ },
+ {
+  "id": "ACT.fandom_collecting.film_buff",
+  "name": "Film Buff Culture",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Enthusiastic viewing, discussion, and curation of cinema.",
+  "participation_modes": [
+   "spectator",
+   "community",
+   "amateur"
+  ],
+  "name_zh": "影迷文化",
+  "aliases": [
+   "cinephilia"
+  ]
+ },
+ {
+  "id": "ACT.fandom_collecting.sports_fandom",
+  "name": "Sports Fandom",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Following and supporting sports teams, leagues, and athletes.",
+  "participation_modes": [
+   "spectator",
+   "community"
+  ],
+  "name_zh": "体育迷"
+ },
+ {
+  "id": "ACT.fandom_collecting.idol_culture",
+  "name": "Idol Culture",
+  "type": "ACTIVITY",
+  "parent": "ACT.fandom_collecting",
+  "description": "Following and supporting pop idols and celebrity fandoms, especially in East Asia.",
+  "participation_modes": [
+   "spectator",
+   "community"
+  ],
+  "name_zh": "偶像粉丝文化",
+  "global": false
+ },
+ {
+  "id": "ACT.gaming.board_gaming",
+  "name": "Board Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Playing modern and classic tabletop board games with friends and groups.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "桌游"
+ },
+ {
+  "id": "ACT.gaming.tabletop_rpg",
+  "name": "Tabletop Role-Playing",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Collaborative storytelling games where players inhabit characters in a shared fiction.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "桌面角色扮演"
+ },
+ {
+  "id": "ACT.gaming.larp",
+  "name": "Live Action Role-Playing",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Role-playing games enacted in person with costumes and improvisation.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "实景角色扮演",
+  "aliases": [
+   "LARP"
+  ]
+ },
+ {
+  "id": "ACT.gaming.card_gaming",
+  "name": "Card Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Playing traditional and modern card games.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "卡牌游戏"
+ },
+ {
+  "id": "ACT.gaming.card_gaming.trading_card_game_play",
+  "name": "Trading Card Game Play",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming.card_gaming",
+  "description": "Playing collectible card games in tournaments and casual matches.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "集换式卡牌游戏"
+ },
+ {
+  "id": "ACT.gaming.video_gaming",
+  "name": "Video Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Playing electronic games across computers, consoles, and mobile devices.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "电子游戏"
+ },
+ {
+  "id": "ACT.gaming.video_gaming.pc_gaming",
+  "name": "PC Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming.video_gaming",
+  "description": "Playing video games on personal computers.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "电脑游戏"
+ },
+ {
+  "id": "ACT.gaming.video_gaming.console_gaming",
+  "name": "Console Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming.video_gaming",
+  "description": "Playing video games on dedicated home consoles.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "主机游戏"
+ },
+ {
+  "id": "ACT.gaming.video_gaming.mobile_gaming",
+  "name": "Mobile Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming.video_gaming",
+  "description": "Playing games on smartphones and tablets.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "手机游戏"
+ },
+ {
+  "id": "ACT.gaming.video_gaming.retro_gaming",
+  "name": "Retro Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming.video_gaming",
+  "description": "Collecting and playing older video games and systems.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "复古游戏"
+ },
+ {
+  "id": "ACT.gaming.speedrunning",
+  "name": "Speedrunning",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Completing video games as fast as possible, often with glitches and routes.",
+  "participation_modes": [
+   "amateur",
+   "community",
+   "spectator"
+  ],
+  "name_zh": "速通"
+ },
+ {
+  "id": "ACT.gaming.game_modding",
+  "name": "Game Modding",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Modifying games by creating custom content, levels, and code.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "游戏模组制作"
+ },
+ {
+  "id": "ACT.gaming.homebrew_game_development",
+  "name": "Homebrew Game Development",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Developing independent games as a hobby outside commercial studios.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "独立游戏开发"
+ },
+ {
+  "id": "ACT.gaming.esports_spectating",
+  "name": "Esports Spectating",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Watching and following competitive video gaming as an audience.",
+  "participation_modes": [
+   "spectator",
+   "community"
+  ],
+  "name_zh": "电竞观赛"
+ },
+ {
+  "id": "ACT.gaming.lan_parties",
+  "name": "LAN Parties",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Gatherings where players network computers for multiplayer gaming.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "局域网聚会"
+ },
+ {
+  "id": "ACT.gaming.arcade_gaming",
+  "name": "Arcade Gaming",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Playing coin-operated arcade machines and retro cabinets.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "街机游戏"
+ },
+ {
+  "id": "ACT.gaming.puzzle_hobby",
+  "name": "Puzzle Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Solving paper and physical puzzles for leisure.",
+  "participation_modes": [
+   "recreational"
+  ],
+  "name_zh": "解谜爱好"
+ },
+ {
+  "id": "ACT.gaming.puzzle_hobby.crossword_puzzles",
+  "name": "Crossword Puzzles",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming.puzzle_hobby",
+  "description": "Solving word puzzles on interlocking grids.",
+  "participation_modes": [
+   "recreational"
+  ],
+  "name_zh": "填字游戏"
+ },
+ {
+  "id": "ACT.gaming.puzzle_hobby.jigsaw_puzzles",
+  "name": "Jigsaw Puzzles",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming.puzzle_hobby",
+  "description": "Assembling pictures from interlocking cardboard pieces.",
+  "participation_modes": [
+   "recreational"
+  ],
+  "name_zh": "拼图"
+ },
+ {
+  "id": "ACT.gaming.interactive_fiction",
+  "name": "Interactive Fiction",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Playing and authoring text-based adventures where the reader drives the story.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "互动小说"
+ },
+ {
+  "id": "ACT.gaming.pinball",
+  "name": "Pinball",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Playing mechanical pinball machines that score a rolling steel ball.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "弹球"
+ },
+ {
+  "id": "ACT.gaming.escape_rooms",
+  "name": "Escape Rooms",
+  "type": "ACTIVITY",
+  "parent": "ACT.gaming",
+  "description": "Solving themed puzzle rooms to escape within a time limit.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "密室逃脱"
+ },
+ {
+  "id": "ACT.domestic_garden.gardening",
+  "name": "Gardening",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Cultivating ornamental plants and maintaining garden spaces.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "园艺"
+ },
+ {
+  "id": "ACT.domestic_garden.gardening.flower_gardening",
+  "name": "Flower Gardening",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.gardening",
+  "description": "Growing flowering plants for beauty and display.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "花卉园艺"
+ },
+ {
+  "id": "ACT.domestic_garden.gardening.container_gardening",
+  "name": "Container Gardening",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.gardening",
+  "description": "Growing plants in pots and containers on balconies and patios.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "容器园艺"
+ },
+ {
+  "id": "ACT.domestic_garden.houseplants",
+  "name": "Houseplant Keeping",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Growing and caring for indoor plants as a hobby.",
+  "participation_modes": [
+   "amateur",
+   "recreational"
+  ],
+  "name_zh": "室内绿植"
+ },
+ {
+  "id": "ACT.domestic_garden.vegetable_growing",
+  "name": "Vegetable Growing",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Growing vegetables and herbs at home or in community plots.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "蔬菜种植"
+ },
+ {
+  "id": "ACT.domestic_garden.vegetable_growing.allotment_gardening",
+  "name": "Allotment Gardening",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.vegetable_growing",
+  "description": "Cultivating a rented plot in a shared community garden.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "社区菜园"
+ },
+ {
+  "id": "ACT.domestic_garden.cooking_baking",
+  "name": "Cooking & Baking",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Preparing meals and baked goods at home for pleasure.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "烹饪与烘焙"
+ },
+ {
+  "id": "ACT.domestic_garden.cooking_baking.baking",
+  "name": "Baking",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.cooking_baking",
+  "description": "Making breads, cakes, and pastries from scratch.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "烘焙"
+ },
+ {
+  "id": "ACT.domestic_garden.cooking_baking.bread_making",
+  "name": "Bread Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.cooking_baking",
+  "description": "Kneading, proofing, and baking bread at home.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "面包制作"
+ },
+ {
+  "id": "ACT.domestic_garden.cooking_baking.grilling_barbecue",
+  "name": "Grilling & Barbecue",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.cooking_baking",
+  "description": "Cooking food over open flames and coals outdoors.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "烧烤"
+ },
+ {
+  "id": "ACT.domestic_garden.homebrewing",
+  "name": "Homebrewing",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Brewing beer and wine at home in small batches.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "家酿"
+ },
+ {
+  "id": "ACT.domestic_garden.homebrewing.beer_brewing",
+  "name": "Beer Brewing",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.homebrewing",
+  "description": "Brewing beer at home from malt, hops, and yeast.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "家酿啤酒"
+ },
+ {
+  "id": "ACT.domestic_garden.homebrewing.winemaking",
+  "name": "Winemaking",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.homebrewing",
+  "description": "Fermenting grapes and other fruit into wine at home.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "家酿葡萄酒"
+ },
+ {
+  "id": "ACT.domestic_garden.fermenting",
+  "name": "Fermenting",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Preserving foods through controlled microbial fermentation.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "发酵食品"
+ },
+ {
+  "id": "ACT.domestic_garden.fermenting.kombucha_brewing",
+  "name": "Kombucha Brewing",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.fermenting",
+  "description": "Fermenting sweetened tea into kombucha at home.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "康普茶"
+ },
+ {
+  "id": "ACT.domestic_garden.beekeeping",
+  "name": "Beekeeping",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Keeping honeybee colonies for honey, pollination, and interest.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "养蜂"
+ },
+ {
+  "id": "ACT.domestic_garden.foraging",
+  "name": "Foraging",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Gathering wild edible plants, fungi, and nuts responsibly.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "采集野食"
+ },
+ {
+  "id": "ACT.domestic_garden.foraging.mushroom_hunting",
+  "name": "Mushroom Hunting",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.foraging",
+  "description": "Searching for and identifying wild edible mushrooms.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "采蘑菇"
+ },
+ {
+  "id": "ACT.domestic_garden.birdwatching",
+  "name": "Birdwatching",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Observing and identifying birds in the wild and at feeders.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "观鸟",
+  "aliases": [
+   "birding"
+  ]
+ },
+ {
+  "id": "ACT.domestic_garden.pet_keeping",
+  "name": "Pet Keeping",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Caring for companion animals such as cats, dogs, and small pets.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "宠物饲养"
+ },
+ {
+  "id": "ACT.domestic_garden.aquarium_keeping",
+  "name": "Aquarium Keeping",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Maintaining home aquariums of fish and aquatic life.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "水族饲养"
+ },
+ {
+  "id": "ACT.domestic_garden.aquarium_keeping.freshwater_aquarium",
+  "name": "Freshwater Aquarium",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.aquarium_keeping",
+  "description": "Keeping freshwater fish and plants in home tanks.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "淡水水族"
+ },
+ {
+  "id": "ACT.domestic_garden.aquarium_keeping.reef_keeping",
+  "name": "Reef Keeping",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.aquarium_keeping",
+  "description": "Maintaining marine aquariums with corals and reef organisms.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "珊瑚礁水族"
+ },
+ {
+  "id": "ACT.domestic_garden.aquarium_keeping.pond_keeping",
+  "name": "Pond Keeping",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.aquarium_keeping",
+  "description": "Keeping outdoor garden ponds with fish and aquatic plants.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "池塘养鱼"
+ },
+ {
+  "id": "ACT.domestic_garden.terrarium_vivarium",
+  "name": "Terrarium & Vivarium Keeping",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Building glass enclosures for plants and reptiles or amphibians.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "生态缸与爬宠"
+ },
+ {
+  "id": "ACT.domestic_garden.composting",
+  "name": "Composting",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Recycling organic waste into compost for the garden.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "堆肥"
+ },
+ {
+  "id": "ACT.domestic_garden.preserving_canning",
+  "name": "Preserving & Canning",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Preserving fruits and vegetables by canning, drying, and pickling.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "食品保存"
+ },
+ {
+  "id": "ACT.domestic_garden.cheese_making",
+  "name": "Cheese Making",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Making cheese from milk at home.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "奶酪制作"
+ },
+ {
+  "id": "ACT.domestic_garden.herb_gardening",
+  "name": "Herb Gardening",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Growing culinary and medicinal herbs for home use.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "草药种植"
+ },
+ {
+  "id": "ACT.domestic_garden.backyard_poultry",
+  "name": "Backyard Poultry Keeping",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Keeping chickens and other poultry at home for eggs and interest.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "后院养禽"
+ },
+ {
+  "id": "ACT.domestic_garden.coffee_roasting",
+  "name": "Coffee Roasting",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Roasting green coffee beans at home to personal taste.",
+  "participation_modes": [
+   "amateur"
+  ],
+  "name_zh": "咖啡烘焙"
+ },
+ {
+  "id": "ACT.domestic_garden.hydroponics",
+  "name": "Hydroponics Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Growing plants without soil using nutrient solutions.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "水培园艺"
+ },
+ {
+  "id": "ACT.domestic_garden.wine_tasting",
+  "name": "Wine Tasting",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden",
+  "description": "Sampling and evaluating wines for pleasure and education.",
+  "participation_modes": [
+   "recreational",
+   "community",
+   "amateur"
+  ],
+  "name_zh": "品酒"
+ },
+ {
+  "id": "ACT.performing_social.social_dance",
+  "name": "Social Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Partnered and group dancing done socially rather than for competition.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "社交舞"
+ },
+ {
+  "id": "ACT.performing_social.social_dance.ballroom_dance",
+  "name": "Ballroom Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.social_dance",
+  "description": "Partnered dancing in standard and Latin styles, socially or in competition.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "国标舞"
+ },
+ {
+  "id": "ACT.performing_social.social_dance.swing_dance",
+  "name": "Swing Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.social_dance",
+  "description": "Partnered jazz-era dances such as Lindy Hop and Charleston.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "摇摆舞"
+ },
+ {
+  "id": "ACT.performing_social.social_dance.salsa_dance",
+  "name": "Salsa Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.social_dance",
+  "description": "Latin partnered dance to salsa music.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "萨尔萨舞"
+ },
+ {
+  "id": "ACT.performing_social.social_dance.tango_dance",
+  "name": "Tango Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.social_dance",
+  "description": "Partnered Argentine tango danced to its characteristic music.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "探戈舞"
+ },
+ {
+  "id": "ACT.performing_social.social_dance.line_dance",
+  "name": "Line Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.social_dance",
+  "description": "Choreographed group dancing in lines without partners.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "排舞"
+ },
+ {
+  "id": "ACT.performing_social.social_dance.street_dance",
+  "name": "Street Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.social_dance",
+  "description": "Urban dance styles such as hip-hop, breaking, and popping.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "街舞"
+ },
+ {
+  "id": "ACT.performing_social.singing_choir",
+  "name": "Singing & Choir",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Singing alone or in choirs for enjoyment and performance.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "合唱与歌唱"
+ },
+ {
+  "id": "ACT.performing_social.singing_choir.community_choir",
+  "name": "Community Choir",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.singing_choir",
+  "description": "Non-auditioned local choirs open to all singers.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "社区合唱团"
+ },
+ {
+  "id": "ACT.performing_social.singing_choir.acapella_singing",
+  "name": "A Cappella Singing",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.singing_choir",
+  "description": "Singing harmony without instrumental accompaniment.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "无伴奏合唱"
+ },
+ {
+  "id": "ACT.performing_social.amateur_theater",
+  "name": "Amateur Theatre",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Staging plays with non-professional actors and crews.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "业余戏剧"
+ },
+ {
+  "id": "ACT.performing_social.amateur_theater.community_theater",
+  "name": "Community Theater",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.amateur_theater",
+  "description": "Locally organised theatre produced by and for a community.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "社区剧场"
+ },
+ {
+  "id": "ACT.performing_social.amateur_theater.improv_theater",
+  "name": "Improvisational Theater",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.amateur_theater",
+  "description": "Unscripted theatre created spontaneously on stage.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "即兴戏剧"
+ },
+ {
+  "id": "ACT.performing_social.community_orchestra",
+  "name": "Community Orchestra",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Non-professional orchestras performing classical and popular repertoire.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "社区管弦乐团"
+ },
+ {
+  "id": "ACT.performing_social.community_orchestra.community_band",
+  "name": "Community Band",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social.community_orchestra",
+  "description": "Local wind and brass bands open to amateur musicians.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "社区乐队"
+ },
+ {
+  "id": "ACT.performing_social.karaoke",
+  "name": "Karaoke",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Singing along to recorded backing tracks, usually socially.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "卡拉OK"
+ },
+ {
+  "id": "ACT.performing_social.improv",
+  "name": "Improv",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Performing unscripted scenes and games in a group.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "即兴表演"
+ },
+ {
+  "id": "ACT.performing_social.amateur_magic",
+  "name": "Amateur Magic",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Learning and performing conjuring tricks and illusions.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "业余魔术"
+ },
+ {
+  "id": "ACT.performing_social.open_mic_comedy",
+  "name": "Open Mic Comedy",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Performing stand-up comedy at amateur open-mic nights.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "开放麦喜剧"
+ },
+ {
+  "id": "ACT.performing_social.storytelling",
+  "name": "Storytelling",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Performing oral stories and tales to live audiences.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "讲故事"
+ },
+ {
+  "id": "ACT.performing_social.jam_session",
+  "name": "Jam Session",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Informal gatherings where musicians improvise together.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "即兴合奏"
+ },
+ {
+  "id": "ACT.performing_social.debate_public_speaking",
+  "name": "Debate & Public Speaking",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Practicing structured argument and oratory in clubs and events.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "辩论与演讲"
+ },
+ {
+  "id": "ACT.performing_social.book_club",
+  "name": "Book Club",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Groups that read and discuss books together.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "读书会"
+ },
+ {
+  "id": "ACT.performing_social.pub_quiz",
+  "name": "Quiz Nights",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Team trivia competitions held in pubs and community venues.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "竞猜之夜"
+ },
+ {
+  "id": "ACT.performing_social.language_exchange",
+  "name": "Language Exchange",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Casual meetups for practicing languages with native speakers.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "语言交换"
+ },
+ {
+  "id": "ACT.performing_social.poetry_slam",
+  "name": "Poetry Slam",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Competitive performance of original spoken-word poetry.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "诗歌朗诵赛"
+ },
+ {
+  "id": "ACT.performing_social.puppetry",
+  "name": "Puppetry",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Making and performing with puppets and marionettes.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "木偶戏"
+ },
+ {
+  "id": "ACT.performing_social.voice_acting",
+  "name": "Voice Acting",
+  "type": "ACTIVITY",
+  "parent": "ACT.performing_social",
+  "description": "Recording voice performances for fan projects, audiobooks, and animation.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "配音"
+ },
+ {
+  "id": "ACT.physical_recreation.cycling",
+  "name": "Cycling",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Riding bicycles for fitness, transport, and leisure.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "骑行"
+ },
+ {
+  "id": "ACT.physical_recreation.cycling.road_cycling",
+  "name": "Road Cycling",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.cycling",
+  "description": "Riding road bicycles on paved routes for sport and fitness.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "公路骑行"
+ },
+ {
+  "id": "ACT.physical_recreation.cycling.mountain_biking",
+  "name": "Mountain Biking",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.cycling",
+  "description": "Riding bicycles on off-road trails and rough terrain.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "山地骑行"
+ },
+ {
+  "id": "ACT.physical_recreation.cycling.gravel_cycling",
+  "name": "Gravel Cycling",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.cycling",
+  "description": "Riding on unpaved and mixed-surface roads on versatile bikes.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "砾石骑行"
+ },
+ {
+  "id": "ACT.physical_recreation.cycling.bike_touring",
+  "name": "Bicycle Touring",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.cycling",
+  "description": "Multi-day bicycle travel carrying one's own gear.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "自行车旅行"
+ },
+ {
+  "id": "ACT.physical_recreation.running_jogging",
+  "name": "Running & Jogging",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Running for fitness, health, and personal achievement.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "跑步"
+ },
+ {
+  "id": "ACT.physical_recreation.running_jogging.trail_running",
+  "name": "Trail Running",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.running_jogging",
+  "description": "Running on unpaved trails and mountain paths.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "越野跑"
+ },
+ {
+  "id": "ACT.physical_recreation.running_jogging.marathon_running",
+  "name": "Marathon Running",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.running_jogging",
+  "description": "Training for and running 42.2-kilometre marathons.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "马拉松"
+ },
+ {
+  "id": "ACT.physical_recreation.running_jogging.ultra_running",
+  "name": "Ultra Running",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.running_jogging",
+  "description": "Running distances longer than a marathon, often on trails.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "超级马拉松"
+ },
+ {
+  "id": "ACT.physical_recreation.swimming",
+  "name": "Swimming",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Swimming laps and open water for fitness and recreation.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "游泳"
+ },
+ {
+  "id": "ACT.physical_recreation.swimming.open_water_swimming",
+  "name": "Open Water Swimming",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.swimming",
+  "description": "Swimming in lakes, rivers, and the sea outside pools.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "公开水域游泳"
+ },
+ {
+  "id": "ACT.physical_recreation.yoga",
+  "name": "Yoga",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Practicing postures, breathing, and meditation for health and wellbeing.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "瑜伽"
+ },
+ {
+  "id": "ACT.physical_recreation.pilates",
+  "name": "Pilates",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Low-impact exercise strengthening core stability and posture.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "普拉提"
+ },
+ {
+  "id": "ACT.physical_recreation.calisthenics",
+  "name": "Calisthenics",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Bodyweight strength training, often outdoors in parks.",
+  "participation_modes": [
+   "recreational",
+   "community",
+   "amateur"
+  ],
+  "name_zh": "自重训练"
+ },
+ {
+  "id": "ACT.physical_recreation.fishing",
+  "name": "Fishing",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Catching fish with rod, line, and bait for sport and food.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "钓鱼"
+ },
+ {
+  "id": "ACT.physical_recreation.fishing.fly_fishing",
+  "name": "Fly Fishing",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.fishing",
+  "description": "Fishing with artificial flies cast on a weighted line.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "飞钓"
+ },
+ {
+  "id": "ACT.physical_recreation.fishing.ice_fishing",
+  "name": "Ice Fishing",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.fishing",
+  "description": "Fishing through holes cut in frozen water bodies.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "冰钓"
+ },
+ {
+  "id": "ACT.physical_recreation.hunting",
+  "name": "Hunting",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Pursuing and taking wild game for food, sport, or management.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "狩猎"
+ },
+ {
+  "id": "ACT.physical_recreation.hunting.bow_hunting",
+  "name": "Bow Hunting",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.hunting",
+  "description": "Hunting game with a bow and arrow.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "弓箭狩猎"
+ },
+ {
+  "id": "ACT.physical_recreation.archery",
+  "name": "Archery",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Shooting arrows at targets with a bow.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "射箭"
+ },
+ {
+  "id": "ACT.physical_recreation.darts",
+  "name": "Darts",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Throwing darts at a circular board to score points.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "飞镖"
+ },
+ {
+  "id": "ACT.physical_recreation.billiards",
+  "name": "Billiards",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Playing cue sports such as pool, snooker, and carom.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "台球"
+ },
+ {
+  "id": "ACT.physical_recreation.billiards.pool",
+  "name": "Pool",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.billiards",
+  "description": "Pocket billiards played on a six-pocket table.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "美式台球"
+ },
+ {
+  "id": "ACT.physical_recreation.billiards.snooker",
+  "name": "Snooker",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation.billiards",
+  "description": "Cue sport played with 22 balls on a larger table.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "斯诺克"
+ },
+ {
+  "id": "ACT.physical_recreation.bowling",
+  "name": "Bowling",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Rolling a ball to knock down pins in ten-pin bowling.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "保龄球"
+ },
+ {
+  "id": "ACT.physical_recreation.table_tennis",
+  "name": "Table Tennis",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Recreational ping-pong played on a table with paddles.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "乒乓球"
+ },
+ {
+  "id": "ACT.physical_recreation.ice_skating",
+  "name": "Ice Skating",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Gliding on ice with figure or hockey skates.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "滑冰"
+ },
+ {
+  "id": "ACT.physical_recreation.horseback_riding",
+  "name": "Horseback Riding",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Riding horses for leisure, trail, and equestrian sport.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "骑马"
+ },
+ {
+  "id": "ACT.physical_recreation.golf",
+  "name": "Golf",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Playing golf recreationally on courses and driving ranges.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "高尔夫"
+ },
+ {
+  "id": "ACT.physical_recreation.pickleball",
+  "name": "Pickleball",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Paddle sport combining elements of tennis, badminton, and ping-pong.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "匹克球"
+ },
+ {
+  "id": "ACT.physical_recreation.ultimate_frisbee",
+  "name": "Ultimate Frisbee",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Team disc sport played with a flying disc.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "极限飞盘"
+ },
+ {
+  "id": "ACT.physical_recreation.stand_up_paddleboarding",
+  "name": "Stand-Up Paddleboarding",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Paddling standing on a wide board, often on calm water.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "桨板"
+ },
+ {
+  "id": "ACT.physical_recreation.triathlon",
+  "name": "Triathlon",
+  "type": "ACTIVITY",
+  "parent": "ACT.physical_recreation",
+  "description": "Combined swim-bike-run endurance events pursued recreationally.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "铁人三项"
+ },
+ {
+  "id": "ACT.traditional.kite_flying",
+  "name": "Kite Flying",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Flying kites for recreation, art, and competition.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "放风筝"
+ },
+ {
+  "id": "ACT.traditional.dragon_boat",
+  "name": "Dragon Boat",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Racing long paddled boats in teams, rooted in Chinese festivals.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "龙舟",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.traditional_dance",
+  "name": "Traditional Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Dancing regional and folk styles passed down through generations.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "传统舞蹈"
+ },
+ {
+  "id": "ACT.traditional.traditional_dance.chinese_folk_dance",
+  "name": "Chinese Folk Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.traditional_dance",
+  "description": "Regional Chinese folk dances such as yangge and fan dance.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "中国民间舞",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.traditional_dance.irish_dance",
+  "name": "Irish Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.traditional_dance",
+  "description": "Traditional Irish step dancing and ceilidh dances.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "爱尔兰舞",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.traditional_dance.flamenco",
+  "name": "Flamenco",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.traditional_dance",
+  "description": "Andalusian dance and music with rhythmic footwork and clapping.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "弗拉门戈",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.traditional_dance.square_dance",
+  "name": "Square Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.traditional_dance",
+  "description": "American folk dance with four couples in a square formation.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "方块舞",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.folk_games",
+  "name": "Folk Games",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Traditional games played informally across cultures.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "民间游戏"
+ },
+ {
+  "id": "ACT.traditional.folk_games.jianzi",
+  "name": "Jianzi",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.folk_games",
+  "description": "Chinese game of keeping a weighted shuttlecock aloft with the feet.",
+  "participation_modes": [
+   "recreational",
+   "community"
+  ],
+  "name_zh": "踢毽子",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.folk_games.petanque",
+  "name": "Petanque",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.folk_games",
+  "description": "French game of tossing metal balls toward a target ball.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "法式滚球",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.calligraphy_hobby",
+  "name": "Calligraphy Hobby",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Practicing the art of beautiful handwriting with brush or pen.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "书法"
+ },
+ {
+  "id": "ACT.traditional.tea_ceremony",
+  "name": "Tea Ceremony",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Ritualized preparation and serving of tea as a cultural practice.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "茶道",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.tea_ceremony.chinese_tea_ceremony",
+  "name": "Chinese Tea Ceremony",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.tea_ceremony",
+  "description": "Gongfu-style Chinese tea brewing emphasizing ritual and connoisseurship.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "功夫茶",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.tea_ceremony.japanese_tea_ceremony",
+  "name": "Japanese Tea Ceremony",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.tea_ceremony",
+  "description": "Chado, the Japanese way of tea, with matcha and prescribed etiquette.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "日本茶道",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.bonsai",
+  "name": "Bonsai",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Cultivating miniature trees in containers through pruning and shaping.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "盆栽",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.ikebana",
+  "name": "Ikebana",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Japanese art of disciplined flower arrangement.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "花道",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.origami",
+  "name": "Origami",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Folding paper into figures and forms without cutting.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "折纸",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.martial_arts_practice",
+  "name": "Martial Arts Practice",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Training in traditional martial arts for self-cultivation rather than competition.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "武术练习"
+ },
+ {
+  "id": "ACT.traditional.martial_arts_practice.tai_chi",
+  "name": "Tai Chi",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.martial_arts_practice",
+  "description": "Chinese internal martial art practiced for health and meditation.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "太极拳",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.martial_arts_practice.kung_fu_wushu",
+  "name": "Kung Fu / Wushu",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.martial_arts_practice",
+  "description": "Chinese martial arts systems practiced for tradition and self-defense.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "功夫武术",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.martial_arts_practice.karate",
+  "name": "Karate",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.martial_arts_practice",
+  "description": "Okinawan striking art practiced in kata and sparring.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "空手道",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.martial_arts_practice.judo",
+  "name": "Judo",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.martial_arts_practice",
+  "description": "Japanese grappling art of throws and pins.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "柔道",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.martial_arts_practice.taekwondo",
+  "name": "Taekwondo",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.martial_arts_practice",
+  "description": "Korean martial art emphasizing high kicks and forms.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "跆拳道",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.martial_arts_practice.aikido",
+  "name": "Aikido",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.martial_arts_practice",
+  "description": "Japanese art of redirecting an opponent's force through joint locks and throws.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "合气道",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.martial_arts_practice.capoeira",
+  "name": "Capoeira",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional.martial_arts_practice",
+  "description": "Afro-Brazilian martial art blending dance, acrobatics, and music.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "卡波耶拉",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.local_festivals",
+  "name": "Local Festivals",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Participation in community, religious, and seasonal festivals.",
+  "participation_modes": [
+   "community",
+   "spectator",
+   "recreational"
+  ],
+  "name_zh": "地方节庆"
+ },
+ {
+  "id": "ACT.traditional.chinese_knotting",
+  "name": "Chinese Knotting",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Tying decorative knots and cords into symbolic Chinese ornaments.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "中国结",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.paper_cutting",
+  "name": "Paper Cutting",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Cutting intricate designs from paper, a Chinese folk craft.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "剪纸",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.seal_carving",
+  "name": "Seal Carving",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Carving name seals and chops in stone, a Chinese art.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "篆刻",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.shadow_puppetry",
+  "name": "Shadow Puppetry",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Performing stories with backlit cut-out puppets, as in Chinese piyingxi.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "皮影戏",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.rangoli",
+  "name": "Rangoli",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Creating colored floor patterns from powders and petals, an Indian tradition.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "兰戈利",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.diabolo",
+  "name": "Diabolo",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Spinning and tossing a Chinese yo-yo on a string.",
+  "participation_modes": [
+   "amateur",
+   "recreational",
+   "community"
+  ],
+  "name_zh": "抖空竹",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.lion_dance",
+  "name": "Lion Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Performing the Chinese lion dance with two-person costumes.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "舞狮",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.dragon_dance",
+  "name": "Dragon Dance",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Performing the Chinese dragon dance with a team-held dragon.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "舞龙",
+  "global": false
+ },
+ {
+  "id": "ACT.traditional.folk_instrument_playing",
+  "name": "Folk Instrument Playing",
+  "type": "ACTIVITY",
+  "parent": "ACT.traditional",
+  "description": "Learning and playing traditional regional musical instruments.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "民间乐器演奏"
+ },
+ {
+  "id": "ACT.online_communities.forums_communities",
+  "name": "Forums & Communities",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Participating in online discussion forums and message boards.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "论坛与社区"
+ },
+ {
+  "id": "ACT.online_communities.fan_wikis",
+  "name": "Fan Wikis",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Collaboratively writing and maintaining encyclopedias about fictional universes.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "同人维基"
+ },
+ {
+  "id": "ACT.online_communities.modding_communities",
+  "name": "Modding Communities",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Collaborative groups creating and sharing game modifications.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "模组社区"
+ },
+ {
+  "id": "ACT.online_communities.meme_culture",
+  "name": "Meme Culture",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Creating and sharing internet memes and participating in viral culture.",
+  "participation_modes": [
+   "community",
+   "recreational"
+  ],
+  "name_zh": "网络迷因文化"
+ },
+ {
+  "id": "ACT.online_communities.citizen_journalism",
+  "name": "Citizen Journalism",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Reporting news and events by ordinary people outside professional media.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "公民新闻"
+ },
+ {
+  "id": "ACT.online_communities.open_source_contribution",
+  "name": "Open Source Contribution",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Volunteering code, documentation, and support to open-source projects.",
+  "participation_modes": [
+   "amateur",
+   "community"
+  ],
+  "name_zh": "开源贡献"
+ },
+ {
+  "id": "ACT.online_communities.wikimedia_editing",
+  "name": "Wikipedia Editing",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Writing and improving encyclopedia articles as a volunteer.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "维基百科编辑"
+ },
+ {
+  "id": "ACT.online_communities.fan_translation",
+  "name": "Fan Translation",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Volunteer translating and subtitling media, manga, and games.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "粉丝翻译与字幕组"
+ },
+ {
+  "id": "ACT.online_communities.crowdsourcing",
+  "name": "Crowdsourcing Participation",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Contributing to distributed collective projects and campaigns.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "众包参与"
+ },
+ {
+  "id": "ACT.online_communities.qa_communities",
+  "name": "Q&A Communities",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Asking and answering questions on community knowledge platforms.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "问答社区"
+ },
+ {
+  "id": "ACT.online_communities.hobbyist_clubs",
+  "name": "Hobbyist Clubs & Meetups",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Organising and joining local interest groups and meetups.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "兴趣社团与聚会"
+ },
+ {
+  "id": "ACT.online_communities.online_gaming_clans",
+  "name": "Online Gaming Clans",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Persistent player groups and guilds formed around online games.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "游戏公会"
+ },
+ {
+  "id": "ACT.online_communities.makerspaces",
+  "name": "Makerspaces",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Community workshops sharing tools and knowledge for making and tinkering.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "创客空间"
+ },
+ {
+  "id": "ACT.online_communities.citizen_mapping",
+  "name": "Citizen Mapping",
+  "type": "ACTIVITY",
+  "parent": "ACT.online_communities",
+  "description": "Volunteering map data to open mapping projects such as OpenStreetMap.",
+  "participation_modes": [
+   "community",
+   "amateur"
+  ],
+  "name_zh": "众包地图"
+ }
+]

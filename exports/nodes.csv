@@ -1,4 +1,383 @@
 id,name,name_en,name_zh,type,parent,level,universe,description,historical,global
+ACT.creative_hobbies,Creative & Media Hobbies,Creative & Media Hobbies,创作与媒体爱好,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Non-commercial creation of visual, written, audio, and video works for personal expression and online sharing.",0,1
+ACT.creative_hobbies.amateur_filmmaking,Amateur Filmmaking,Amateur Filmmaking,业余电影制作,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Producing short films and videos outside the commercial film industry.,0,1
+ACT.creative_hobbies.amateur_filmmaking.short_film_making,Short Film Making,Short Film Making,短片制作,ACTIVITY,ACT.creative_hobbies.amateur_filmmaking,3,ACTIVITIES,"Writing, shooting, and editing short narrative or documentary films.",0,1
+ACT.creative_hobbies.amateur_filmmaking.stop_motion_animation,Stop Motion Animation,Stop Motion Animation,定格动画,ACTIVITY,ACT.creative_hobbies.amateur_filmmaking,3,ACTIVITIES,Animating objects frame-by-frame through incremental poses.,0,1
+ACT.creative_hobbies.amateur_photography,Amateur Photography,Amateur Photography,业余摄影,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Taking photographs for pleasure and personal expression rather than pay.,0,1
+ACT.creative_hobbies.amateur_photography.landscape_photography,Landscape Photography,Landscape Photography,风光摄影,ACTIVITY,ACT.creative_hobbies.amateur_photography,3,ACTIVITIES,Photographing natural scenery and vistas.,0,1
+ACT.creative_hobbies.amateur_photography.macro_photography,Macro Photography,Macro Photography,微距摄影,ACTIVITY,ACT.creative_hobbies.amateur_photography,3,ACTIVITIES,Photographing small subjects at extreme close range and high magnification.,0,1
+ACT.creative_hobbies.amateur_photography.portrait_photography,Portrait Photography,Portrait Photography,人像摄影,ACTIVITY,ACT.creative_hobbies.amateur_photography,3,ACTIVITIES,Photographing people to capture personality and expression.,0,1
+ACT.creative_hobbies.amateur_photography.street_photography,Street Photography,Street Photography,街拍,ACTIVITY,ACT.creative_hobbies.amateur_photography,3,ACTIVITIES,Capturing candid public scenes and everyday urban life.,0,1
+ACT.creative_hobbies.amateur_photography.wildlife_photography,Wildlife Photography,Wildlife Photography,野生动物摄影,ACTIVITY,ACT.creative_hobbies.amateur_photography,3,ACTIVITIES,Photographing animals in their natural habitats.,0,1
+ACT.creative_hobbies.animation_hobby,Animation Hobby,Animation Hobby,业余动画,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Creating animated films and clips independently.,0,1
+ACT.creative_hobbies.blogging,Blogging,Blogging,博客写作,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Writing and publishing regular posts on a personal weblog.,0,1
+ACT.creative_hobbies.comic_zine_making,Comics & Zine Making,Comics & Zine Making,独立漫画与杂志制作,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,"Self-publishing small-run comics, zines, and independent magazines.",0,1
+ACT.creative_hobbies.content_creation,Content Creation,Content Creation,内容创作,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Producing and publishing digital media across platforms as a hobby.,0,1
+ACT.creative_hobbies.creative_writing,Creative Writing,Creative Writing,创意写作,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,"Writing fiction, poetry, and personal essays for artistic expression.",0,1
+ACT.creative_hobbies.creative_writing.fiction_writing,Fiction Writing,Fiction Writing,小说创作,ACTIVITY,ACT.creative_hobbies.creative_writing,3,ACTIVITIES,Writing novels and short stories of imagined characters and events.,0,1
+ACT.creative_hobbies.creative_writing.poetry_writing,Poetry Writing,Poetry Writing,诗歌创作,ACTIVITY,ACT.creative_hobbies.creative_writing,3,ACTIVITIES,"Composing poems with attention to rhythm, imagery, and form.",0,1
+ACT.creative_hobbies.creative_writing.screenwriting,Screenwriting,Screenwriting,剧本创作,ACTIVITY,ACT.creative_hobbies.creative_writing,3,ACTIVITIES,"Writing scripts for film, television, and other screen media.",0,1
+ACT.creative_hobbies.digital_sculpting,Digital Sculpting,Digital Sculpting,数字雕刻,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Sculpting three-dimensional digital models for art and printing.,0,1
+ACT.creative_hobbies.drawing_painting,Drawing & Painting,Drawing & Painting,绘画,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Creating two-dimensional artworks with drawing and painting media.,0,1
+ACT.creative_hobbies.drawing_painting.digital_painting,Digital Painting,Digital Painting,数字绘画,ACTIVITY,ACT.creative_hobbies.drawing_painting,3,ACTIVITIES,Painting images using a tablet and digital painting software.,0,1
+ACT.creative_hobbies.drawing_painting.oil_painting,Oil Painting,Oil Painting,油画,ACTIVITY,ACT.creative_hobbies.drawing_painting,3,ACTIVITIES,Painting with slow-drying pigments suspended in oil.,0,1
+ACT.creative_hobbies.drawing_painting.sketching,Sketching,Sketching,速写,ACTIVITY,ACT.creative_hobbies.drawing_painting,3,ACTIVITIES,"Making quick freehand drawings to observe, plan, or record.",0,1
+ACT.creative_hobbies.drawing_painting.urban_sketching,Urban Sketching,Urban Sketching,城市速写,ACTIVITY,ACT.creative_hobbies.drawing_painting,3,ACTIVITIES,Drawing scenes on location in cities and towns.,0,1
+ACT.creative_hobbies.drawing_painting.watercolor_painting,Watercolor Painting,Watercolor Painting,水彩画,ACTIVITY,ACT.creative_hobbies.drawing_painting,3,ACTIVITIES,Painting with water-soluble pigments on paper.,0,1
+ACT.creative_hobbies.fan_art,Fan Art,Fan Art,同人艺术,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Creating artwork depicting characters and scenes from existing media.,0,1
+ACT.creative_hobbies.fan_fiction,Fan Fiction,Fan Fiction,同人小说,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Writing original stories featuring characters and settings from existing works.,0,1
+ACT.creative_hobbies.graphic_design_hobby,Graphic Design Hobby,Graphic Design Hobby,平面设计爱好,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,"Designing posters, logos, and layouts for personal and community projects.",0,1
+ACT.creative_hobbies.journaling,Journaling,Journaling,手账与日记,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,"Keeping personal diaries, bullet journals, and art journals.",0,1
+ACT.creative_hobbies.music_making,Music Making,Music Making,音乐创作,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,"Composing, recording, and producing original music at home.",0,1
+ACT.creative_hobbies.music_making.beatmaking,Beatmaking,Beatmaking,节拍制作,ACTIVITY,ACT.creative_hobbies.music_making,3,ACTIVITIES,"Programming rhythmic instrumental backing tracks, often for hip-hop.",0,1
+ACT.creative_hobbies.music_making.electronic_music_production,Electronic Music Production,Electronic Music Production,电子音乐制作,ACTIVITY,ACT.creative_hobbies.music_making,3,ACTIVITIES,"Creating music with synthesizers, samplers, and digital audio workstations.",0,1
+ACT.creative_hobbies.music_making.home_recording,Home Recording,Home Recording,家庭录音,ACTIVITY,ACT.creative_hobbies.music_making,3,ACTIVITIES,Recording and mixing music in a home or project studio.,0,1
+ACT.creative_hobbies.music_making.songwriting,Songwriting,Songwriting,歌曲创作,ACTIVITY,ACT.creative_hobbies.music_making,3,ACTIVITIES,Writing original lyrics and melodies for songs.,0,1
+ACT.creative_hobbies.pixel_art,Pixel Art,Pixel Art,像素画,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,"Creating images by placing individual pixels, often for retro game aesthetics.",0,1
+ACT.creative_hobbies.podcasting_hobby,Podcasting Hobby,Podcasting Hobby,播客制作,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Producing and publishing audio episodes on personal interests.,0,1
+ACT.creative_hobbies.streaming,Streaming,Streaming,直播,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,"Broadcasting live gameplay, art, or conversation to an online audience.",0,1
+ACT.creative_hobbies.streaming.game_streaming,Game Streaming,Game Streaming,游戏直播,ACTIVITY,ACT.creative_hobbies.streaming,3,ACTIVITIES,Broadcasting live video-game play with commentary.,0,1
+ACT.creative_hobbies.vlogging,Vlogging,Vlogging,视频博客,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Creating and sharing video diaries and lifestyle videos online.,0,1
+ACT.creative_hobbies.webcomic_creation,Webcomic Creation,Webcomic Creation,网络漫画创作,ACTIVITY,ACT.creative_hobbies,2,ACTIVITIES,Drawing and publishing serialized comics online.,0,1
+ACT.domestic_garden,Domestic & Garden,Domestic & Garden,居家与园艺,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Home-centred hobbies of cultivation, food preparation, animal keeping, and self-sufficiency.",0,1
+ACT.domestic_garden.aquarium_keeping,Aquarium Keeping,Aquarium Keeping,水族饲养,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Maintaining home aquariums of fish and aquatic life.,0,1
+ACT.domestic_garden.aquarium_keeping.freshwater_aquarium,Freshwater Aquarium,Freshwater Aquarium,淡水水族,ACTIVITY,ACT.domestic_garden.aquarium_keeping,3,ACTIVITIES,Keeping freshwater fish and plants in home tanks.,0,1
+ACT.domestic_garden.aquarium_keeping.pond_keeping,Pond Keeping,Pond Keeping,池塘养鱼,ACTIVITY,ACT.domestic_garden.aquarium_keeping,3,ACTIVITIES,Keeping outdoor garden ponds with fish and aquatic plants.,0,1
+ACT.domestic_garden.aquarium_keeping.reef_keeping,Reef Keeping,Reef Keeping,珊瑚礁水族,ACTIVITY,ACT.domestic_garden.aquarium_keeping,3,ACTIVITIES,Maintaining marine aquariums with corals and reef organisms.,0,1
+ACT.domestic_garden.backyard_poultry,Backyard Poultry Keeping,Backyard Poultry Keeping,后院养禽,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Keeping chickens and other poultry at home for eggs and interest.,0,1
+ACT.domestic_garden.beekeeping,Beekeeping,Beekeeping,养蜂,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,"Keeping honeybee colonies for honey, pollination, and interest.",0,1
+ACT.domestic_garden.birdwatching,Birdwatching,Birdwatching,观鸟,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Observing and identifying birds in the wild and at feeders.,0,1
+ACT.domestic_garden.cheese_making,Cheese Making,Cheese Making,奶酪制作,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Making cheese from milk at home.,0,1
+ACT.domestic_garden.coffee_roasting,Coffee Roasting,Coffee Roasting,咖啡烘焙,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Roasting green coffee beans at home to personal taste.,0,1
+ACT.domestic_garden.composting,Composting,Composting,堆肥,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Recycling organic waste into compost for the garden.,0,1
+ACT.domestic_garden.cooking_baking,Cooking & Baking,Cooking & Baking,烹饪与烘焙,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Preparing meals and baked goods at home for pleasure.,0,1
+ACT.domestic_garden.cooking_baking.baking,Baking,Baking,烘焙,ACTIVITY,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,"Making breads, cakes, and pastries from scratch.",0,1
+ACT.domestic_garden.cooking_baking.bread_making,Bread Making,Bread Making,面包制作,ACTIVITY,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,"Kneading, proofing, and baking bread at home.",0,1
+ACT.domestic_garden.cooking_baking.grilling_barbecue,Grilling & Barbecue,Grilling & Barbecue,烧烤,ACTIVITY,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,Cooking food over open flames and coals outdoors.,0,1
+ACT.domestic_garden.fermenting,Fermenting,Fermenting,发酵食品,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Preserving foods through controlled microbial fermentation.,0,1
+ACT.domestic_garden.fermenting.kombucha_brewing,Kombucha Brewing,Kombucha Brewing,康普茶,ACTIVITY,ACT.domestic_garden.fermenting,3,ACTIVITIES,Fermenting sweetened tea into kombucha at home.,0,1
+ACT.domestic_garden.foraging,Foraging,Foraging,采集野食,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,"Gathering wild edible plants, fungi, and nuts responsibly.",0,1
+ACT.domestic_garden.foraging.mushroom_hunting,Mushroom Hunting,Mushroom Hunting,采蘑菇,ACTIVITY,ACT.domestic_garden.foraging,3,ACTIVITIES,Searching for and identifying wild edible mushrooms.,0,1
+ACT.domestic_garden.gardening,Gardening,Gardening,园艺,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Cultivating ornamental plants and maintaining garden spaces.,0,1
+ACT.domestic_garden.gardening.container_gardening,Container Gardening,Container Gardening,容器园艺,ACTIVITY,ACT.domestic_garden.gardening,3,ACTIVITIES,Growing plants in pots and containers on balconies and patios.,0,1
+ACT.domestic_garden.gardening.flower_gardening,Flower Gardening,Flower Gardening,花卉园艺,ACTIVITY,ACT.domestic_garden.gardening,3,ACTIVITIES,Growing flowering plants for beauty and display.,0,1
+ACT.domestic_garden.herb_gardening,Herb Gardening,Herb Gardening,草药种植,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Growing culinary and medicinal herbs for home use.,0,1
+ACT.domestic_garden.homebrewing,Homebrewing,Homebrewing,家酿,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Brewing beer and wine at home in small batches.,0,1
+ACT.domestic_garden.homebrewing.beer_brewing,Beer Brewing,Beer Brewing,家酿啤酒,ACTIVITY,ACT.domestic_garden.homebrewing,3,ACTIVITIES,"Brewing beer at home from malt, hops, and yeast.",0,1
+ACT.domestic_garden.homebrewing.winemaking,Winemaking,Winemaking,家酿葡萄酒,ACTIVITY,ACT.domestic_garden.homebrewing,3,ACTIVITIES,Fermenting grapes and other fruit into wine at home.,0,1
+ACT.domestic_garden.houseplants,Houseplant Keeping,Houseplant Keeping,室内绿植,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Growing and caring for indoor plants as a hobby.,0,1
+ACT.domestic_garden.hydroponics,Hydroponics Hobby,Hydroponics Hobby,水培园艺,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Growing plants without soil using nutrient solutions.,0,1
+ACT.domestic_garden.pet_keeping,Pet Keeping,Pet Keeping,宠物饲养,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,"Caring for companion animals such as cats, dogs, and small pets.",0,1
+ACT.domestic_garden.preserving_canning,Preserving & Canning,Preserving & Canning,食品保存,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,"Preserving fruits and vegetables by canning, drying, and pickling.",0,1
+ACT.domestic_garden.terrarium_vivarium,Terrarium & Vivarium Keeping,Terrarium & Vivarium Keeping,生态缸与爬宠,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Building glass enclosures for plants and reptiles or amphibians.,0,1
+ACT.domestic_garden.vegetable_growing,Vegetable Growing,Vegetable Growing,蔬菜种植,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Growing vegetables and herbs at home or in community plots.,0,1
+ACT.domestic_garden.vegetable_growing.allotment_gardening,Allotment Gardening,Allotment Gardening,社区菜园,ACTIVITY,ACT.domestic_garden.vegetable_growing,3,ACTIVITIES,Cultivating a rented plot in a shared community garden.,0,1
+ACT.domestic_garden.wine_tasting,Wine Tasting,Wine Tasting,品酒,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Sampling and evaluating wines for pleasure and education.,0,1
+ACT.extreme_sports,Extreme & Adventure Sports,Extreme & Adventure Sports,极限与冒险运动,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"High-adrenaline sports and stunt activities emphasising speed, height, and risk.",0,1
+ACT.extreme_sports.base_jumping,BASE Jumping,BASE Jumping,低空跳伞,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,"Parachuting from fixed objects such as cliffs, buildings, and antennas.",0,1
+ACT.extreme_sports.bmx,BMX,BMX,小轮车,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,"Riding small-frame bicycles for racing, freestyle tricks, and street riding.",0,1
+ACT.extreme_sports.bungee_jumping,Bungee Jumping,Bungee Jumping,蹦极,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Jumping from a height while attached to an elastic cord.,0,1
+ACT.extreme_sports.cliff_diving,Cliff Diving,Cliff Diving,悬崖跳水,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Diving from high natural cliffs into open water.,0,1
+ACT.extreme_sports.dirt_biking,Dirt Biking,Dirt Biking,越野骑行,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Recreational trail riding of off-road motorcycles on natural terrain.,0,1
+ACT.extreme_sports.freerunning,Freerunning,Freerunning,自由跑酷,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,An expressive variant of parkour incorporating flips and acrobatics.,0,1
+ACT.extreme_sports.freestyle_skiing,Freestyle Skiing,Freestyle Skiing,自由式滑雪,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,"Skiing emphasizing aerial tricks, rails, moguls, and terrain parks.",0,1
+ACT.extreme_sports.hang_gliding,Hang Gliding,Hang Gliding,悬挂式滑翔,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Flying a rigid-wing glider while suspended in a harness.,0,1
+ACT.extreme_sports.inline_skating,Inline Skating,Inline Skating,轮滑,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,"Skating on boots with wheels in a line for recreation, fitness, and tricks.",0,1
+ACT.extreme_sports.kitesurfing,Kitesurfing,Kitesurfing,风筝冲浪,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Riding a board while pulled by a large controllable power kite.,0,1
+ACT.extreme_sports.longboarding,Longboarding,Longboarding,长板,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,"Riding a longer skateboard for cruising, carving, and downhill speed.",0,1
+ACT.extreme_sports.motocross,Motocross,Motocross,越野摩托车,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Racing off-road motorcycles on closed dirt circuits with jumps.,0,1
+ACT.extreme_sports.paragliding,Paragliding,Paragliding,滑翔伞,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Flying lightweight foot-launched gliders with a fabric wing from hills and thermals.,0,1
+ACT.extreme_sports.paramotoring,Paramotoring,Paramotoring,动力滑翔伞,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Flying a paraglider with a backpack motor for powered take-off and sustained flight.,0,1
+ACT.extreme_sports.parkour,Parkour,Parkour,跑酷,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,"Moving through urban or natural obstacles by running, vaulting, and climbing efficiently.",0,1
+ACT.extreme_sports.skateboarding,Skateboarding,Skateboarding,滑板,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,"Riding and performing tricks on a skateboard in streets, parks, and ramps.",0,1
+ACT.extreme_sports.skydiving,Skydiving,Skydiving,跳伞,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,"Parachuting from aircraft, including freefall before canopy deployment.",0,1
+ACT.extreme_sports.snowboarding,Snowboarding,Snowboarding,单板滑雪,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Descending snow slopes on a single board with bindings.,0,1
+ACT.extreme_sports.snowkiting,Snowkiting,Snowkiting,雪地风筝,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Using a power kite to ski or snowboard across snow and ice.,0,1
+ACT.extreme_sports.snowmobiling,Snowmobiling,Snowmobiling,雪地摩托,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Riding motorized snow vehicles across snow for recreation.,0,1
+ACT.extreme_sports.surfing,Surfing,Surfing,冲浪,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Riding ocean waves on a surfboard.,0,1
+ACT.extreme_sports.surfing.bodyboarding,Bodyboarding,Bodyboarding,趴板冲浪,ACTIVITY,ACT.extreme_sports.surfing,3,ACTIVITIES,Riding waves prone or kneeling on a small flexible board.,0,1
+ACT.extreme_sports.wakeboarding,Wakeboarding,Wakeboarding,尾波滑水,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Riding a board over water while towed behind a boat across its wake.,0,1
+ACT.extreme_sports.water_skiing,Water Skiing,Water Skiing,滑水,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Skiing on water while towed behind a boat.,0,1
+ACT.extreme_sports.windsurfing,Windsurfing,Windsurfing,帆板,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Riding a board with an attached sail powered by wind.,0,1
+ACT.extreme_sports.wingsuit_flying,Wingsuit Flying,Wingsuit Flying,翼装飞行,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Gliding in a suit with fabric wings before deploying a parachute.,0,1
+ACT.extreme_sports.ziplining,Ziplining,Ziplining,滑索,ACTIVITY,ACT.extreme_sports,2,ACTIVITIES,Riding a suspended cable pulley from a height for recreation.,0,1
+ACT.fandom_collecting,Fandom & Collecting,Fandom & Collecting,粉丝文化与收藏,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Organised enthusiasm for media, celebrities, and the systematic accumulation of objects.",0,1
+ACT.fandom_collecting.antique_collecting,Antique Collecting,Antique Collecting,古董收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Collecting old and historically significant objects.,0,1
+ACT.fandom_collecting.art_collecting,Art Collecting,Art Collecting,艺术品收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Acquiring artworks and prints for personal enjoyment and investment.,0,1
+ACT.fandom_collecting.book_collecting,Book Collecting,Book Collecting,藏书,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Collecting rare, first-edition, and personally significant books.",0,1
+ACT.fandom_collecting.coin_collecting,Coin Collecting,Coin Collecting,钱币收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Collecting coins and studying numismatics.,0,1
+ACT.fandom_collecting.comic_book_collecting,Comic Book Collecting,Comic Book Collecting,漫画收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Collecting comic books and graphic novels, often key issues.",0,1
+ACT.fandom_collecting.conventions,Conventions,Conventions,同人展,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Large gatherings of fans for panels, vendors, and community events.",0,1
+ACT.fandom_collecting.conventions.anime_conventions,Anime Conventions,Anime Conventions,动漫展,ACTIVITY,ACT.fandom_collecting.conventions,3,ACTIVITIES,"Conventions celebrating Japanese animation, manga, and related culture.",0,1
+ACT.fandom_collecting.conventions.comic_conventions,Comic Conventions,Comic Conventions,漫展,ACTIVITY,ACT.fandom_collecting.conventions,3,ACTIVITIES,"Multi-genre conventions focused on comics, film, and pop culture.",0,1
+ACT.fandom_collecting.conventions.sci_fi_conventions,Science Fiction Conventions,Science Fiction Conventions,科幻大会,ACTIVITY,ACT.fandom_collecting.conventions,3,ACTIVITIES,"Conventions focused on science fiction literature, film, and fandom.",0,1
+ACT.fandom_collecting.cosplay,Cosplay,Cosplay,角色扮演,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Dressing and performing as characters from media at events and shoots.,0,1
+ACT.fandom_collecting.diecast_model_collecting,Diecast Model Collecting,Diecast Model Collecting,压铸模型收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Collecting die-cast metal models of vehicles and aircraft.,0,1
+ACT.fandom_collecting.fandom,Fandom,Fandom,粉丝圈,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Organised enthusiasm and community identity around media, creators, or celebrities.",0,1
+ACT.fandom_collecting.fandom.fan_clubs,Fan Clubs,Fan Clubs,粉丝俱乐部,ACTIVITY,ACT.fandom_collecting.fandom,3,ACTIVITIES,Formal or informal groups organised around a shared fandom.,0,1
+ACT.fandom_collecting.film_buff,Film Buff Culture,Film Buff Culture,影迷文化,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Enthusiastic viewing, discussion, and curation of cinema.",0,1
+ACT.fandom_collecting.idol_culture,Idol Culture,Idol Culture,偶像粉丝文化,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Following and supporting pop idols and celebrity fandoms, especially in East Asia.",0,0
+ACT.fandom_collecting.memorabilia_collecting,Memorabilia Collecting,Memorabilia Collecting,纪念品收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Collecting objects associated with people, events, and popular culture.",0,1
+ACT.fandom_collecting.memorabilia_collecting.autograph_collecting,Autograph Collecting,Autograph Collecting,签名收藏,ACTIVITY,ACT.fandom_collecting.memorabilia_collecting,3,ACTIVITIES,"Collecting signed photographs, cards, and items from celebrities and athletes.",0,1
+ACT.fandom_collecting.memorabilia_collecting.sports_memorabilia,Sports Memorabilia,Sports Memorabilia,体育纪念品,ACTIVITY,ACT.fandom_collecting.memorabilia_collecting,3,ACTIVITIES,"Collecting jerseys, equipment, and items tied to sporting history.",0,1
+ACT.fandom_collecting.militaria_collecting,Militaria Collecting,Militaria Collecting,军事收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Collecting military uniforms, medals, and equipment from historical conflicts.",0,1
+ACT.fandom_collecting.poster_collecting,Poster Collecting,Poster Collecting,海报收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Collecting film, concert, and propaganda posters.",0,1
+ACT.fandom_collecting.rock_mineral_collecting,Rock & Mineral Collecting,Rock & Mineral Collecting,矿石收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Acquiring and displaying mineral specimens and gemstones.,0,1
+ACT.fandom_collecting.sneaker_collecting,Sneaker Collecting,Sneaker Collecting,球鞋收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Collecting limited and culturally significant athletic footwear.,0,1
+ACT.fandom_collecting.sports_fandom,Sports Fandom,Sports Fandom,体育迷,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Following and supporting sports teams, leagues, and athletes.",0,1
+ACT.fandom_collecting.stamp_collecting,Stamp Collecting,Stamp Collecting,集邮,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Collecting and studying postage stamps and postal history.,0,1
+ACT.fandom_collecting.toy_collecting,Toy Collecting,Toy Collecting,玩具收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Collecting toys, figures, and models, often mint or vintage.",0,1
+ACT.fandom_collecting.toy_collecting.action_figure_collecting,Action Figure Collecting,Action Figure Collecting,可动人偶收藏,ACTIVITY,ACT.fandom_collecting.toy_collecting,3,ACTIVITIES,"Collecting poseable character figures from films, comics, and games.",0,1
+ACT.fandom_collecting.trading_card_collecting,Trading Card Collecting,Trading Card Collecting,卡牌收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,"Collecting sports, game, and character trading cards.",0,1
+ACT.fandom_collecting.vinyl_record_collecting,Vinyl Record Collecting,Vinyl Record Collecting,黑胶唱片收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Collecting and curating phonograph records.,0,1
+ACT.fandom_collecting.watch_collecting,Watch Collecting,Watch Collecting,手表收藏,ACTIVITY,ACT.fandom_collecting,2,ACTIVITIES,Collecting and appreciating mechanical and vintage timepieces.,0,1
+ACT.gaming,Gaming,Gaming,游戏,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Play of tabletop and digital games, and the surrounding culture of modding, speedrunning, and spectating.",0,1
+ACT.gaming.arcade_gaming,Arcade Gaming,Arcade Gaming,街机游戏,ACTIVITY,ACT.gaming,2,ACTIVITIES,Playing coin-operated arcade machines and retro cabinets.,0,1
+ACT.gaming.board_gaming,Board Gaming,Board Gaming,桌游,ACTIVITY,ACT.gaming,2,ACTIVITIES,Playing modern and classic tabletop board games with friends and groups.,0,1
+ACT.gaming.card_gaming,Card Gaming,Card Gaming,卡牌游戏,ACTIVITY,ACT.gaming,2,ACTIVITIES,Playing traditional and modern card games.,0,1
+ACT.gaming.card_gaming.trading_card_game_play,Trading Card Game Play,Trading Card Game Play,集换式卡牌游戏,ACTIVITY,ACT.gaming.card_gaming,3,ACTIVITIES,Playing collectible card games in tournaments and casual matches.,0,1
+ACT.gaming.escape_rooms,Escape Rooms,Escape Rooms,密室逃脱,ACTIVITY,ACT.gaming,2,ACTIVITIES,Solving themed puzzle rooms to escape within a time limit.,0,1
+ACT.gaming.esports_spectating,Esports Spectating,Esports Spectating,电竞观赛,ACTIVITY,ACT.gaming,2,ACTIVITIES,Watching and following competitive video gaming as an audience.,0,1
+ACT.gaming.game_modding,Game Modding,Game Modding,游戏模组制作,ACTIVITY,ACT.gaming,2,ACTIVITIES,"Modifying games by creating custom content, levels, and code.",0,1
+ACT.gaming.homebrew_game_development,Homebrew Game Development,Homebrew Game Development,独立游戏开发,ACTIVITY,ACT.gaming,2,ACTIVITIES,Developing independent games as a hobby outside commercial studios.,0,1
+ACT.gaming.interactive_fiction,Interactive Fiction,Interactive Fiction,互动小说,ACTIVITY,ACT.gaming,2,ACTIVITIES,Playing and authoring text-based adventures where the reader drives the story.,0,1
+ACT.gaming.lan_parties,LAN Parties,LAN Parties,局域网聚会,ACTIVITY,ACT.gaming,2,ACTIVITIES,Gatherings where players network computers for multiplayer gaming.,0,1
+ACT.gaming.larp,Live Action Role-Playing,Live Action Role-Playing,实景角色扮演,ACTIVITY,ACT.gaming,2,ACTIVITIES,Role-playing games enacted in person with costumes and improvisation.,0,1
+ACT.gaming.pinball,Pinball,Pinball,弹球,ACTIVITY,ACT.gaming,2,ACTIVITIES,Playing mechanical pinball machines that score a rolling steel ball.,0,1
+ACT.gaming.puzzle_hobby,Puzzle Hobby,Puzzle Hobby,解谜爱好,ACTIVITY,ACT.gaming,2,ACTIVITIES,Solving paper and physical puzzles for leisure.,0,1
+ACT.gaming.puzzle_hobby.crossword_puzzles,Crossword Puzzles,Crossword Puzzles,填字游戏,ACTIVITY,ACT.gaming.puzzle_hobby,3,ACTIVITIES,Solving word puzzles on interlocking grids.,0,1
+ACT.gaming.puzzle_hobby.jigsaw_puzzles,Jigsaw Puzzles,Jigsaw Puzzles,拼图,ACTIVITY,ACT.gaming.puzzle_hobby,3,ACTIVITIES,Assembling pictures from interlocking cardboard pieces.,0,1
+ACT.gaming.speedrunning,Speedrunning,Speedrunning,速通,ACTIVITY,ACT.gaming,2,ACTIVITIES,"Completing video games as fast as possible, often with glitches and routes.",0,1
+ACT.gaming.tabletop_rpg,Tabletop Role-Playing,Tabletop Role-Playing,桌面角色扮演,ACTIVITY,ACT.gaming,2,ACTIVITIES,Collaborative storytelling games where players inhabit characters in a shared fiction.,0,1
+ACT.gaming.video_gaming,Video Gaming,Video Gaming,电子游戏,ACTIVITY,ACT.gaming,2,ACTIVITIES,"Playing electronic games across computers, consoles, and mobile devices.",0,1
+ACT.gaming.video_gaming.console_gaming,Console Gaming,Console Gaming,主机游戏,ACTIVITY,ACT.gaming.video_gaming,3,ACTIVITIES,Playing video games on dedicated home consoles.,0,1
+ACT.gaming.video_gaming.mobile_gaming,Mobile Gaming,Mobile Gaming,手机游戏,ACTIVITY,ACT.gaming.video_gaming,3,ACTIVITIES,Playing games on smartphones and tablets.,0,1
+ACT.gaming.video_gaming.pc_gaming,PC Gaming,PC Gaming,电脑游戏,ACTIVITY,ACT.gaming.video_gaming,3,ACTIVITIES,Playing video games on personal computers.,0,1
+ACT.gaming.video_gaming.retro_gaming,Retro Gaming,Retro Gaming,复古游戏,ACTIVITY,ACT.gaming.video_gaming,3,ACTIVITIES,Collecting and playing older video games and systems.,0,1
+ACT.making_craft,Making & Craft,Making & Craft,手工制作与工艺,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Hands-on fabrication, model-building, and traditional or digital craft practiced as a hobby.",0,1
+ACT.making_craft.3d_printing,3D Printing,3D Printing,3D打印,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Designing and printing three-dimensional objects with hobby 3D printers.,0,1
+ACT.making_craft.blacksmithing_hobby,Blacksmithing Hobby,Blacksmithing Hobby,业余锻造,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Forging heated metal into tools, blades, and decorative items as a hobby.",0,1
+ACT.making_craft.bookbinding,Bookbinding,Bookbinding,书籍装订,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Hand-binding pages into books, journals, and albums.",0,1
+ACT.making_craft.candle_soap_making,Candle & Soap Making,Candle & Soap Making,蜡烛与手工皂制作,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Crafting candles and soaps at home with waxes, oils, and fragrances.",0,1
+ACT.making_craft.cosplay_prop_making,Cosplay Prop Making,Cosplay Prop Making,角色扮演道具制作,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Crafting costumes, armor, and props for cosplay and conventions.",0,1
+ACT.making_craft.diy_home_improvement,DIY & Home Improvement,DIY & Home Improvement,DIY家居改善,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Doing one's own home repair, renovation, and improvement projects.",0,1
+ACT.making_craft.diy_home_improvement.furniture_restoration,Furniture Restoration,Furniture Restoration,家具翻新,ACTIVITY,ACT.making_craft.diy_home_improvement,3,ACTIVITIES,Repairing and refinishing old or damaged furniture.,0,1
+ACT.making_craft.embroidery,Embroidery,Embroidery,刺绣,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Decorating fabric with needle and thread in ornamental stitches.,0,1
+ACT.making_craft.embroidery.cross_stitch,Cross Stitch,Cross Stitch,十字绣,ACTIVITY,ACT.making_craft.embroidery,3,ACTIVITIES,Embroidering counted X-shaped stitches on even-weave fabric to form patterns.,0,1
+ACT.making_craft.embroidery.needlepoint,Needlepoint,Needlepoint,绒绣,ACTIVITY,ACT.making_craft.embroidery,3,ACTIVITIES,Working yarn stitches onto open-weave canvas to cover it with design.,0,1
+ACT.making_craft.felting,Felting,Felting,羊毛毡,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Matting wool fibers into fabric or sculpture by needle or wet technique.,0,1
+ACT.making_craft.jewelry_making,Jewelry Making,Jewelry Making,首饰制作,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Designing and fabricating necklaces, rings, earrings, and adornments.",0,1
+ACT.making_craft.jewelry_making.beadwork,Beadwork,Beadwork,串珠,ACTIVITY,ACT.making_craft.jewelry_making,3,ACTIVITIES,Weaving and stringing beads into jewelry and decorative items.,0,1
+ACT.making_craft.knitting_crochet,Knitting & Crochet,Knitting & Crochet,编织与钩针,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Creating fabric and garments by looping yarn with needles or a hook.,0,1
+ACT.making_craft.knitting_crochet.crochet,Crochet,Crochet,钩针编织,ACTIVITY,ACT.making_craft.knitting_crochet,3,ACTIVITIES,Making fabric by pulling loops of yarn through loops with a hook.,0,1
+ACT.making_craft.knitting_crochet.knitting,Knitting,Knitting,棒针编织,ACTIVITY,ACT.making_craft.knitting_crochet,3,ACTIVITIES,Making fabric by interlocking loops of yarn with two needles.,0,1
+ACT.making_craft.leatherworking,Leatherworking,Leatherworking,皮革工艺,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Cutting, stitching, and tooling leather into bags, belts, and goods.",0,1
+ACT.making_craft.macrame,Macrame,Macrame,绳编,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Knotting cord into decorative wall hangings, plant holders, and jewelry.",0,1
+ACT.making_craft.miniatures,Miniatures,Miniatures,微缩模型,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Painting and crafting small-scale figures and environments.,0,1
+ACT.making_craft.miniatures.dollhouse_miniatures,Dollhouse Miniatures,Dollhouse Miniatures,娃娃屋微缩,ACTIVITY,ACT.making_craft.miniatures,3,ACTIVITIES,Furnishing and decorating miniature dollhouses with handcrafted items.,0,1
+ACT.making_craft.miniatures.miniature_painting,Miniature Painting,Miniature Painting,微缩模型涂装,ACTIVITY,ACT.making_craft.miniatures,3,ACTIVITIES,Painting small figures and models with fine detail for display or gaming.,0,1
+ACT.making_craft.model_building,Model Building,Model Building,模型制作,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Assembling and finishing scale models of vehicles, aircraft, ships, and scenes.",0,1
+ACT.making_craft.model_building.diorama_building,Diorama Building,Diorama Building,场景模型,ACTIVITY,ACT.making_craft.model_building,3,ACTIVITIES,Creating miniature three-dimensional scenes in a box or base.,0,1
+ACT.making_craft.model_building.model_aircraft,Model Aircraft,Model Aircraft,航空模型,ACTIVITY,ACT.making_craft.model_building,3,ACTIVITIES,"Building flying or static model airplanes, gliders, and helicopters.",0,1
+ACT.making_craft.model_building.model_railroading,Model Railroading,Model Railroading,铁道模型,ACTIVITY,ACT.making_craft.model_building,3,ACTIVITIES,Constructing and operating miniature railway layouts and rolling stock.,0,1
+ACT.making_craft.model_building.scale_modeling,Scale Modeling,Scale Modeling,比例模型,ACTIVITY,ACT.making_craft.model_building,3,ACTIVITIES,Building detailed static models from kits at a fixed scale.,0,1
+ACT.making_craft.mosaic_art,Mosaic Art,Mosaic Art,马赛克拼贴,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Assembling small pieces of tile, glass, or stone into patterns and pictures.",0,1
+ACT.making_craft.papercraft,Papercraft,Papercraft,纸艺,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Cutting, folding, and assembling paper into cards, models, and decorations.",0,1
+ACT.making_craft.papercraft.card_making,Card Making,Card Making,贺卡制作,ACTIVITY,ACT.making_craft.papercraft,3,ACTIVITIES,"Handcrafting greeting cards with paper, stamps, and embellishments.",0,1
+ACT.making_craft.papercraft.scrapbooking,Scrapbooking,Scrapbooking,剪贴簿,ACTIVITY,ACT.making_craft.papercraft,3,ACTIVITIES,Compiling photos and memorabilia into decorated albums.,0,1
+ACT.making_craft.pottery_ceramics,Pottery & Ceramics,Pottery & Ceramics,陶艺,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Forming and firing clay into vessels and sculpture.,0,1
+ACT.making_craft.pottery_ceramics.hand_building,Hand Building,Hand Building,手捏陶艺,ACTIVITY,ACT.making_craft.pottery_ceramics,3,ACTIVITIES,"Forming clay by hand using pinch, coil, and slab techniques.",0,1
+ACT.making_craft.pottery_ceramics.wheel_throwing,Wheel Throwing,Wheel Throwing,拉坯,ACTIVITY,ACT.making_craft.pottery_ceramics,3,ACTIVITIES,Shaping clay on a spinning potter's wheel.,0,1
+ACT.making_craft.pyrography,Pyrography,Pyrography,烙画,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Burning designs into wood with a heated tool.,0,1
+ACT.making_craft.resin_casting,Resin Casting,Resin Casting,树脂铸造,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Casting objects and art pieces from epoxy and polyurethane resins.,0,1
+ACT.making_craft.sewing_quilting,Sewing & Quilting,Sewing & Quilting,缝纫与拼布,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Constructing garments and layered fabric quilts by machine or hand.,0,1
+ACT.making_craft.sewing_quilting.quilting,Quilting,Quilting,拼布,ACTIVITY,ACT.making_craft.sewing_quilting,3,ACTIVITIES,Stitching together layered fabric to make padded quilts and wall hangings.,0,1
+ACT.making_craft.spinning_yarn,Spinning Yarn,Spinning Yarn,纺线,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Twisting fibers into yarn using a spinning wheel or drop spindle.,0,1
+ACT.making_craft.stained_glass,Stained Glass,Stained Glass,彩色玻璃工艺,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Cutting colored glass and joining pieces with lead or foil to make panels.,0,1
+ACT.making_craft.upcycling,Upcycling,Upcycling,升级改造,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Transforming discarded materials into new items of higher value.,0,1
+ACT.making_craft.wargaming,Miniature Wargaming,Miniature Wargaming,微缩战棋,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Building and painting armies, then playing tabletop battles with miniatures.",0,1
+ACT.making_craft.weaving,Weaving,Weaving,织布,ACTIVITY,ACT.making_craft,2,ACTIVITIES,Interlacing warp and weft threads on a loom to make cloth.,0,1
+ACT.making_craft.woodworking,Woodworking,Woodworking,木工,ACTIVITY,ACT.making_craft,2,ACTIVITIES,"Shaping and joining wood to make furniture, objects, and art.",0,1
+ACT.making_craft.woodworking.wood_carving,Wood Carving,Wood Carving,木雕,ACTIVITY,ACT.making_craft.woodworking,3,ACTIVITIES,Carving decorative or sculptural forms from wood with hand tools.,0,1
+ACT.making_craft.woodworking.woodturning,Woodturning,Woodturning,车削木工,ACTIVITY,ACT.making_craft.woodworking,3,ACTIVITIES,"Shaping wood on a lathe into bowls, spindles, and other round forms.",0,1
+ACT.online_communities,Online Communities & Informal Activities,Online Communities & Informal Activities,网络社区与非正式活动,ACTIVITY,ACTIVITIES,1,ACTIVITIES,Self-organised digital communities and informal collective projects built around shared interests.,0,1
+ACT.online_communities.citizen_journalism,Citizen Journalism,Citizen Journalism,公民新闻,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Reporting news and events by ordinary people outside professional media.,0,1
+ACT.online_communities.citizen_mapping,Citizen Mapping,Citizen Mapping,众包地图,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Volunteering map data to open mapping projects such as OpenStreetMap.,0,1
+ACT.online_communities.crowdsourcing,Crowdsourcing Participation,Crowdsourcing Participation,众包参与,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Contributing to distributed collective projects and campaigns.,0,1
+ACT.online_communities.fan_translation,Fan Translation,Fan Translation,粉丝翻译与字幕组,ACTIVITY,ACT.online_communities,2,ACTIVITIES,"Volunteer translating and subtitling media, manga, and games.",0,1
+ACT.online_communities.fan_wikis,Fan Wikis,Fan Wikis,同人维基,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Collaboratively writing and maintaining encyclopedias about fictional universes.,0,1
+ACT.online_communities.forums_communities,Forums & Communities,Forums & Communities,论坛与社区,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Participating in online discussion forums and message boards.,0,1
+ACT.online_communities.hobbyist_clubs,Hobbyist Clubs & Meetups,Hobbyist Clubs & Meetups,兴趣社团与聚会,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Organising and joining local interest groups and meetups.,0,1
+ACT.online_communities.makerspaces,Makerspaces,Makerspaces,创客空间,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Community workshops sharing tools and knowledge for making and tinkering.,0,1
+ACT.online_communities.meme_culture,Meme Culture,Meme Culture,网络迷因文化,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Creating and sharing internet memes and participating in viral culture.,0,1
+ACT.online_communities.modding_communities,Modding Communities,Modding Communities,模组社区,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Collaborative groups creating and sharing game modifications.,0,1
+ACT.online_communities.online_gaming_clans,Online Gaming Clans,Online Gaming Clans,游戏公会,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Persistent player groups and guilds formed around online games.,0,1
+ACT.online_communities.open_source_contribution,Open Source Contribution,Open Source Contribution,开源贡献,ACTIVITY,ACT.online_communities,2,ACTIVITIES,"Volunteering code, documentation, and support to open-source projects.",0,1
+ACT.online_communities.qa_communities,Q&A Communities,Q&A Communities,问答社区,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Asking and answering questions on community knowledge platforms.,0,1
+ACT.online_communities.wikimedia_editing,Wikipedia Editing,Wikipedia Editing,维基百科编辑,ACTIVITY,ACT.online_communities,2,ACTIVITIES,Writing and improving encyclopedia articles as a volunteer.,0,1
+ACT.outdoor_adventure,Outdoor & Adventure,Outdoor & Adventure,户外与探险,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Self-propelled and nature-based outdoor pursuits pursued for recreation, challenge, or exploration.",0,1
+ACT.outdoor_adventure.backcountry_skiing,Backcountry Skiing,Backcountry Skiing,越野滑雪/登山滑雪,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Skiing in unpatrolled wilderness terrain using skins and touring bindings.,0,1
+ACT.outdoor_adventure.camping,Camping,Camping,露营,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Overnight stays outdoors in temporary shelter such as tents or vehicles.,0,1
+ACT.outdoor_adventure.camping.car_camping,Car Camping,Car Camping,自驾露营,ACTIVITY,ACT.outdoor_adventure.camping,3,ACTIVITIES,Camping with a vehicle used for transport or shelter at accessible campsites.,0,1
+ACT.outdoor_adventure.camping.tent_camping,Tent Camping,Tent Camping,帐篷露营,ACTIVITY,ACT.outdoor_adventure.camping,3,ACTIVITIES,Camping in portable tents at established or dispersed sites.,0,1
+ACT.outdoor_adventure.camping.wild_camping,Wild Camping,Wild Camping,野营,ACTIVITY,ACT.outdoor_adventure.camping,3,ACTIVITIES,Camping away from designated sites in remote or natural settings.,0,1
+ACT.outdoor_adventure.canyoning,Canyoning,Canyoning,溪降,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,"Descending gorges by a combination of walking, scrambling, swimming, and rappelling.",0,1
+ACT.outdoor_adventure.caving,Caving,Caving,洞穴探险,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Exploring natural caves and underground passages for recreation and science.,0,1
+ACT.outdoor_adventure.exploration,Exploration,Exploration,探险,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Journeying to little-known or remote places for discovery and challenge.,0,1
+ACT.outdoor_adventure.exploration.expeditioning,Expeditioning,Expeditioning,远征探险,ACTIVITY,ACT.outdoor_adventure.exploration,3,ACTIVITIES,Organised long-duration journeys to remote regions with a defined objective.,0,1
+ACT.outdoor_adventure.exploration.urban_exploration,Urban Exploration,Urban Exploration,城市探险,ACTIVITY,ACT.outdoor_adventure.exploration,3,ACTIVITIES,"Exploring abandoned, hidden, or off-limits built structures and infrastructure.",0,1
+ACT.outdoor_adventure.geocaching,Geocaching,Geocaching,地理藏宝,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Using GPS to find hidden containers and log visits in an outdoor treasure-hunt game.,0,1
+ACT.outdoor_adventure.hiking_trekking,Hiking & Trekking,Hiking & Trekking,徒步远足,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Walking in natural landscapes along trails or routes for recreation and exercise.,0,1
+ACT.outdoor_adventure.hiking_trekking.backpacking,Backpacking,Backpacking,重装徒步,ACTIVITY,ACT.outdoor_adventure.hiking_trekking,3,ACTIVITIES,"Multi-day self-sufficient hiking carrying food, shelter, and gear in a pack.",0,1
+ACT.outdoor_adventure.hiking_trekking.day_hiking,Day Hiking,Day Hiking,日间徒步,ACTIVITY,ACT.outdoor_adventure.hiking_trekking,3,ACTIVITIES,Single-day walks on trails without overnight stays.,0,1
+ACT.outdoor_adventure.hiking_trekking.thru_hiking,Thru-Hiking,Thru-Hiking,长距离徒步,ACTIVITY,ACT.outdoor_adventure.hiking_trekking,3,ACTIVITIES,Hiking an entire long-distance trail end-to-end in a continuous journey.,0,1
+ACT.outdoor_adventure.kayaking_canoeing,Kayaking & Canoeing,Kayaking & Canoeing,皮划艇与独木舟,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,"Paddling kayaks or canoes on lakes, rivers, and coasts for recreation and touring.",0,1
+ACT.outdoor_adventure.mountaineering,Mountaineering,Mountaineering,登山运动,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,"The pursuit of climbing mountains, combining hiking, climbing, and high-altitude skills.",0,1
+ACT.outdoor_adventure.orienteering,Orienteering,Orienteering,定向越野,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Navigating between checkpoints across terrain using a map and compass.,0,1
+ACT.outdoor_adventure.peak_bagging,Peak Bagging,Peak Bagging,登峰打卡,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Systematically summiting a defined list of mountain peaks as a personal challenge.,0,1
+ACT.outdoor_adventure.rock_climbing,Rock Climbing,Rock Climbing,攀岩,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,"Climbing natural or artificial rock faces using ropes, protection, and technical movement.",0,1
+ACT.outdoor_adventure.rock_climbing.aid_climbing,Aid Climbing,Aid Climbing,器械攀登,ACTIVITY,ACT.outdoor_adventure.rock_climbing,3,ACTIVITIES,Climbing that uses gear to support upward progress rather than free movement alone.,0,1
+ACT.outdoor_adventure.rock_climbing.bouldering,Bouldering,Bouldering,抱石,ACTIVITY,ACT.outdoor_adventure.rock_climbing,3,ACTIVITIES,"Climbing short, difficult routes on low rocks or walls without ropes, using crash pads.",0,1
+ACT.outdoor_adventure.rock_climbing.ice_climbing,Ice Climbing,Ice Climbing,攀冰,ACTIVITY,ACT.outdoor_adventure.rock_climbing,3,ACTIVITIES,Climbing frozen waterfalls and ice formations with crampons and ice tools.,0,1
+ACT.outdoor_adventure.rock_climbing.sport_climbing,Sport Climbing,Sport Climbing,运动攀岩,ACTIVITY,ACT.outdoor_adventure.rock_climbing,3,ACTIVITIES,Roped climbing on routes protected by pre-placed bolts.,0,1
+ACT.outdoor_adventure.rock_climbing.traditional_climbing,Traditional Climbing,Traditional Climbing,传统攀岩,ACTIVITY,ACT.outdoor_adventure.rock_climbing,3,ACTIVITIES,Roped climbing in which the leader places and removes removable protection.,0,1
+ACT.outdoor_adventure.scuba_diving,Scuba Diving,Scuba Diving,水肺潜水,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Underwater diving with self-contained breathing apparatus for recreation and exploration.,0,1
+ACT.outdoor_adventure.scuba_diving.free_diving,Freediving,Freediving,自由潜水,ACTIVITY,ACT.outdoor_adventure.scuba_diving,3,ACTIVITIES,Breath-hold diving for depth or underwater observation without breathing apparatus.,0,1
+ACT.outdoor_adventure.scuba_diving.snorkeling,Snorkeling,Snorkeling,浮潜,ACTIVITY,ACT.outdoor_adventure.scuba_diving,3,ACTIVITIES,Swimming at the surface breathing through a snorkel to observe underwater life.,0,1
+ACT.outdoor_adventure.snowshoeing,Snowshoeing,Snowshoeing,雪鞋徒步,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Walking over snow on broad snowshoes to access winter trails.,0,1
+ACT.outdoor_adventure.survival_skills,Survival Skills & Bushcraft,Survival Skills & Bushcraft,野外生存,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,"Practicing wilderness self-reliance skills such as fire-making, shelter, and foraging.",0,1
+ACT.outdoor_adventure.via_ferrata,Via Ferrata,Via Ferrata,飞拉达,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,"Climbing protected mountain routes equipped with fixed cables, ladders, and bridges.",0,1
+ACT.outdoor_adventure.whitewater_rafting,Whitewater Rafting,Whitewater Rafting,白水漂流,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,Navigating inflatable rafts down river rapids as a group.,0,1
+ACT.outdoor_adventure.wildlife_watching,Wildlife Watching,Wildlife Watching,野生动物观察,ACTIVITY,ACT.outdoor_adventure,2,ACTIVITIES,"Observing animals in their natural habitats, from safaris to whale watching.",0,1
+ACT.performing_social,Performing & Social,Performing & Social,表演与社交,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Amateur performance and group social activities centred on music, theatre, dance, and conversation.",0,1
+ACT.performing_social.amateur_magic,Amateur Magic,Amateur Magic,业余魔术,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Learning and performing conjuring tricks and illusions.,0,1
+ACT.performing_social.amateur_theater,Amateur Theatre,Amateur Theatre,业余戏剧,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Staging plays with non-professional actors and crews.,0,1
+ACT.performing_social.amateur_theater.community_theater,Community Theater,Community Theater,社区剧场,ACTIVITY,ACT.performing_social.amateur_theater,3,ACTIVITIES,Locally organised theatre produced by and for a community.,0,1
+ACT.performing_social.amateur_theater.improv_theater,Improvisational Theater,Improvisational Theater,即兴戏剧,ACTIVITY,ACT.performing_social.amateur_theater,3,ACTIVITIES,Unscripted theatre created spontaneously on stage.,0,1
+ACT.performing_social.book_club,Book Club,Book Club,读书会,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Groups that read and discuss books together.,0,1
+ACT.performing_social.community_orchestra,Community Orchestra,Community Orchestra,社区管弦乐团,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Non-professional orchestras performing classical and popular repertoire.,0,1
+ACT.performing_social.community_orchestra.community_band,Community Band,Community Band,社区乐队,ACTIVITY,ACT.performing_social.community_orchestra,3,ACTIVITIES,Local wind and brass bands open to amateur musicians.,0,1
+ACT.performing_social.debate_public_speaking,Debate & Public Speaking,Debate & Public Speaking,辩论与演讲,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Practicing structured argument and oratory in clubs and events.,0,1
+ACT.performing_social.improv,Improv,Improv,即兴表演,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Performing unscripted scenes and games in a group.,0,1
+ACT.performing_social.jam_session,Jam Session,Jam Session,即兴合奏,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Informal gatherings where musicians improvise together.,0,1
+ACT.performing_social.karaoke,Karaoke,Karaoke,卡拉OK,ACTIVITY,ACT.performing_social,2,ACTIVITIES,"Singing along to recorded backing tracks, usually socially.",0,1
+ACT.performing_social.language_exchange,Language Exchange,Language Exchange,语言交换,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Casual meetups for practicing languages with native speakers.,0,1
+ACT.performing_social.open_mic_comedy,Open Mic Comedy,Open Mic Comedy,开放麦喜剧,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Performing stand-up comedy at amateur open-mic nights.,0,1
+ACT.performing_social.poetry_slam,Poetry Slam,Poetry Slam,诗歌朗诵赛,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Competitive performance of original spoken-word poetry.,0,1
+ACT.performing_social.pub_quiz,Quiz Nights,Quiz Nights,竞猜之夜,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Team trivia competitions held in pubs and community venues.,0,1
+ACT.performing_social.puppetry,Puppetry,Puppetry,木偶戏,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Making and performing with puppets and marionettes.,0,1
+ACT.performing_social.singing_choir,Singing & Choir,Singing & Choir,合唱与歌唱,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Singing alone or in choirs for enjoyment and performance.,0,1
+ACT.performing_social.singing_choir.acapella_singing,A Cappella Singing,A Cappella Singing,无伴奏合唱,ACTIVITY,ACT.performing_social.singing_choir,3,ACTIVITIES,Singing harmony without instrumental accompaniment.,0,1
+ACT.performing_social.singing_choir.community_choir,Community Choir,Community Choir,社区合唱团,ACTIVITY,ACT.performing_social.singing_choir,3,ACTIVITIES,Non-auditioned local choirs open to all singers.,0,1
+ACT.performing_social.social_dance,Social Dance,Social Dance,社交舞,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Partnered and group dancing done socially rather than for competition.,0,1
+ACT.performing_social.social_dance.ballroom_dance,Ballroom Dance,Ballroom Dance,国标舞,ACTIVITY,ACT.performing_social.social_dance,3,ACTIVITIES,"Partnered dancing in standard and Latin styles, socially or in competition.",0,1
+ACT.performing_social.social_dance.line_dance,Line Dance,Line Dance,排舞,ACTIVITY,ACT.performing_social.social_dance,3,ACTIVITIES,Choreographed group dancing in lines without partners.,0,1
+ACT.performing_social.social_dance.salsa_dance,Salsa Dance,Salsa Dance,萨尔萨舞,ACTIVITY,ACT.performing_social.social_dance,3,ACTIVITIES,Latin partnered dance to salsa music.,0,1
+ACT.performing_social.social_dance.street_dance,Street Dance,Street Dance,街舞,ACTIVITY,ACT.performing_social.social_dance,3,ACTIVITIES,"Urban dance styles such as hip-hop, breaking, and popping.",0,1
+ACT.performing_social.social_dance.swing_dance,Swing Dance,Swing Dance,摇摆舞,ACTIVITY,ACT.performing_social.social_dance,3,ACTIVITIES,Partnered jazz-era dances such as Lindy Hop and Charleston.,0,1
+ACT.performing_social.social_dance.tango_dance,Tango Dance,Tango Dance,探戈舞,ACTIVITY,ACT.performing_social.social_dance,3,ACTIVITIES,Partnered Argentine tango danced to its characteristic music.,0,1
+ACT.performing_social.storytelling,Storytelling,Storytelling,讲故事,ACTIVITY,ACT.performing_social,2,ACTIVITIES,Performing oral stories and tales to live audiences.,0,1
+ACT.performing_social.voice_acting,Voice Acting,Voice Acting,配音,ACTIVITY,ACT.performing_social,2,ACTIVITIES,"Recording voice performances for fan projects, audiobooks, and animation.",0,1
+ACT.physical_recreation,Physical Recreation,Physical Recreation,休闲运动,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Non-competitive and recreational physical exercise, sports, and outdoor games.",0,1
+ACT.physical_recreation.archery,Archery,Archery,射箭,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Shooting arrows at targets with a bow.,0,1
+ACT.physical_recreation.billiards,Billiards,Billiards,台球,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Playing cue sports such as pool, snooker, and carom.",0,1
+ACT.physical_recreation.billiards.pool,Pool,Pool,美式台球,ACTIVITY,ACT.physical_recreation.billiards,3,ACTIVITIES,Pocket billiards played on a six-pocket table.,0,1
+ACT.physical_recreation.billiards.snooker,Snooker,Snooker,斯诺克,ACTIVITY,ACT.physical_recreation.billiards,3,ACTIVITIES,Cue sport played with 22 balls on a larger table.,0,1
+ACT.physical_recreation.bowling,Bowling,Bowling,保龄球,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Rolling a ball to knock down pins in ten-pin bowling.,0,1
+ACT.physical_recreation.calisthenics,Calisthenics,Calisthenics,自重训练,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Bodyweight strength training, often outdoors in parks.",0,1
+ACT.physical_recreation.cycling,Cycling,Cycling,骑行,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Riding bicycles for fitness, transport, and leisure.",0,1
+ACT.physical_recreation.cycling.bike_touring,Bicycle Touring,Bicycle Touring,自行车旅行,ACTIVITY,ACT.physical_recreation.cycling,3,ACTIVITIES,Multi-day bicycle travel carrying one's own gear.,0,1
+ACT.physical_recreation.cycling.gravel_cycling,Gravel Cycling,Gravel Cycling,砾石骑行,ACTIVITY,ACT.physical_recreation.cycling,3,ACTIVITIES,Riding on unpaved and mixed-surface roads on versatile bikes.,0,1
+ACT.physical_recreation.cycling.mountain_biking,Mountain Biking,Mountain Biking,山地骑行,ACTIVITY,ACT.physical_recreation.cycling,3,ACTIVITIES,Riding bicycles on off-road trails and rough terrain.,0,1
+ACT.physical_recreation.cycling.road_cycling,Road Cycling,Road Cycling,公路骑行,ACTIVITY,ACT.physical_recreation.cycling,3,ACTIVITIES,Riding road bicycles on paved routes for sport and fitness.,0,1
+ACT.physical_recreation.darts,Darts,Darts,飞镖,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Throwing darts at a circular board to score points.,0,1
+ACT.physical_recreation.fishing,Fishing,Fishing,钓鱼,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Catching fish with rod, line, and bait for sport and food.",0,1
+ACT.physical_recreation.fishing.fly_fishing,Fly Fishing,Fly Fishing,飞钓,ACTIVITY,ACT.physical_recreation.fishing,3,ACTIVITIES,Fishing with artificial flies cast on a weighted line.,0,1
+ACT.physical_recreation.fishing.ice_fishing,Ice Fishing,Ice Fishing,冰钓,ACTIVITY,ACT.physical_recreation.fishing,3,ACTIVITIES,Fishing through holes cut in frozen water bodies.,0,1
+ACT.physical_recreation.golf,Golf,Golf,高尔夫,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Playing golf recreationally on courses and driving ranges.,0,1
+ACT.physical_recreation.horseback_riding,Horseback Riding,Horseback Riding,骑马,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Riding horses for leisure, trail, and equestrian sport.",0,1
+ACT.physical_recreation.hunting,Hunting,Hunting,狩猎,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Pursuing and taking wild game for food, sport, or management.",0,1
+ACT.physical_recreation.hunting.bow_hunting,Bow Hunting,Bow Hunting,弓箭狩猎,ACTIVITY,ACT.physical_recreation.hunting,3,ACTIVITIES,Hunting game with a bow and arrow.,0,1
+ACT.physical_recreation.ice_skating,Ice Skating,Ice Skating,滑冰,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Gliding on ice with figure or hockey skates.,0,1
+ACT.physical_recreation.pickleball,Pickleball,Pickleball,匹克球,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Paddle sport combining elements of tennis, badminton, and ping-pong.",0,1
+ACT.physical_recreation.pilates,Pilates,Pilates,普拉提,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Low-impact exercise strengthening core stability and posture.,0,1
+ACT.physical_recreation.running_jogging,Running & Jogging,Running & Jogging,跑步,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Running for fitness, health, and personal achievement.",0,1
+ACT.physical_recreation.running_jogging.marathon_running,Marathon Running,Marathon Running,马拉松,ACTIVITY,ACT.physical_recreation.running_jogging,3,ACTIVITIES,Training for and running 42.2-kilometre marathons.,0,1
+ACT.physical_recreation.running_jogging.trail_running,Trail Running,Trail Running,越野跑,ACTIVITY,ACT.physical_recreation.running_jogging,3,ACTIVITIES,Running on unpaved trails and mountain paths.,0,1
+ACT.physical_recreation.running_jogging.ultra_running,Ultra Running,Ultra Running,超级马拉松,ACTIVITY,ACT.physical_recreation.running_jogging,3,ACTIVITIES,"Running distances longer than a marathon, often on trails.",0,1
+ACT.physical_recreation.stand_up_paddleboarding,Stand-Up Paddleboarding,Stand-Up Paddleboarding,桨板,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Paddling standing on a wide board, often on calm water.",0,1
+ACT.physical_recreation.swimming,Swimming,Swimming,游泳,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Swimming laps and open water for fitness and recreation.,0,1
+ACT.physical_recreation.swimming.open_water_swimming,Open Water Swimming,Open Water Swimming,公开水域游泳,ACTIVITY,ACT.physical_recreation.swimming,3,ACTIVITIES,"Swimming in lakes, rivers, and the sea outside pools.",0,1
+ACT.physical_recreation.table_tennis,Table Tennis,Table Tennis,乒乓球,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Recreational ping-pong played on a table with paddles.,0,1
+ACT.physical_recreation.triathlon,Triathlon,Triathlon,铁人三项,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Combined swim-bike-run endurance events pursued recreationally.,0,1
+ACT.physical_recreation.ultimate_frisbee,Ultimate Frisbee,Ultimate Frisbee,极限飞盘,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,Team disc sport played with a flying disc.,0,1
+ACT.physical_recreation.yoga,Yoga,Yoga,瑜伽,ACTIVITY,ACT.physical_recreation,2,ACTIVITIES,"Practicing postures, breathing, and meditation for health and wellbeing.",0,1
+ACT.science_hobbies,Science & Technical Hobbies,Science & Technical Hobbies,科技爱好,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Amateur scientific observation, experimentation, and technical tinkering outside professional research.",0,1
+ACT.science_hobbies.amateur_archaeology,Amateur Archaeology,Amateur Archaeology,业余考古,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Volunteer participation in field archaeology and surface artifact survey.,0,1
+ACT.science_hobbies.amateur_astronomy,Amateur Astronomy,Amateur Astronomy,业余天文学,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Observing the night sky and celestial objects with telescopes and binoculars.,0,1
+ACT.science_hobbies.amateur_astronomy.astrophotography,Astrophotography,Astrophotography,天文摄影,ACTIVITY,ACT.science_hobbies.amateur_astronomy,3,ACTIVITIES,Photographing celestial objects and the night sky.,0,1
+ACT.science_hobbies.amateur_astronomy.telescope_making,Telescope Making,Telescope Making,望远镜制作,ACTIVITY,ACT.science_hobbies.amateur_astronomy,3,ACTIVITIES,Grinding mirrors and constructing telescopes by hand.,0,1
+ACT.science_hobbies.amateur_astronomy.variable_star_observation,Variable Star Observation,Variable Star Observation,变星观测,ACTIVITY,ACT.science_hobbies.amateur_astronomy,3,ACTIVITIES,Tracking brightness changes of variable stars to contribute data to research.,0,1
+ACT.science_hobbies.amateur_radio,Amateur Radio,Amateur Radio,业余无线电,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Licensed non-commercial two-way radio communication and experimentation.,0,1
+ACT.science_hobbies.amateur_radio.dxing,DXing,DXing,远距离通信,ACTIVITY,ACT.science_hobbies.amateur_radio,3,ACTIVITIES,"Contacting distant radio stations, often for awards and confirmation cards.",0,1
+ACT.science_hobbies.amateur_radio.morse_code_operation,Morse Code Operation,Morse Code Operation,摩尔斯电码通信,ACTIVITY,ACT.science_hobbies.amateur_radio,3,ACTIVITIES,Communicating over radio using Morse code (CW).,0,1
+ACT.science_hobbies.amateur_radio.radio_contesting,Radio Contesting,Radio Contesting,无线电竞赛,ACTIVITY,ACT.science_hobbies.amateur_radio,3,ACTIVITIES,Competing to make the most radio contacts within a defined time window.,0,1
+ACT.science_hobbies.amateur_radio.radio_direction_finding,Radio Direction Finding,Radio Direction Finding,无线电测向,ACTIVITY,ACT.science_hobbies.amateur_radio,3,ACTIVITIES,"Locating hidden transmitters by direction-finding, as in foxhunting and ARDF.",0,1
+ACT.science_hobbies.citizen_science,Citizen Science,Citizen Science,公民科学,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Volunteering time and observations to assist professional scientific research.,0,1
+ACT.science_hobbies.citizen_science.bio_blitzing,Bio-Blitzing,Bio-Blitzing,生物多样性速查,ACTIVITY,ACT.science_hobbies.citizen_science,3,ACTIVITIES,Rapid community surveys that record all species found in an area over a short period.,0,1
+ACT.science_hobbies.diy_biology,DIY Biology,DIY Biology,公民生物,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Community-based amateur biological experimentation and biotechnology exploration.,0,1
+ACT.science_hobbies.drone_flying,Drone Flying,Drone Flying,无人机飞行,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,"Piloting hobby multirotor aircraft for photography, racing, and recreation.",0,1
+ACT.science_hobbies.electronics_hobby,Electronics Hobby,Electronics Hobby,电子制作,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Building and experimenting with electronic circuits and devices at home.,0,1
+ACT.science_hobbies.fossil_hunting,Fossil Hunting,Fossil Hunting,化石采集,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Searching for and collecting fossils as an amateur paleontology pursuit.,0,1
+ACT.science_hobbies.genealogy,Genealogy,Genealogy,家谱研究,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Researching and documenting one's family history and ancestry.,0,1
+ACT.science_hobbies.hobby_robotics,Hobby Robotics,Hobby Robotics,机器人制作,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Designing and building robots and autonomous machines for fun and learning.,0,1
+ACT.science_hobbies.home_chemistry,Home Chemistry,Home Chemistry,家庭化学实验,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Performing safe chemistry demonstrations and experiments outside a laboratory.,0,1
+ACT.science_hobbies.insect_collecting,Insect Collecting,Insect Collecting,昆虫采集,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,"Collecting, pinning, and studying insects as an entomology hobby.",0,1
+ACT.science_hobbies.magnet_fishing,Magnet Fishing,Magnet Fishing,磁力钓鱼,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Dragging strong magnets through waterways to recover submerged metal objects.,0,1
+ACT.science_hobbies.metal_detecting,Metal Detecting,Metal Detecting,金属探测,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,"Scanning ground with a metal detector to find buried coins, relics, and artifacts.",0,1
+ACT.science_hobbies.microscopy_hobby,Microscopy Hobby,Microscopy Hobby,显微镜爱好,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,"Examining the microscopic world of cells, minerals, and organisms at home.",0,1
+ACT.science_hobbies.model_rocketry,Model Rocketry,Model Rocketry,模型火箭,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Building and launching small rockets as a hobby.,0,1
+ACT.science_hobbies.rockhounding,Rockhounding,Rockhounding,矿物采集,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,"Collecting rocks, minerals, and crystals in the field.",0,1
+ACT.science_hobbies.shortwave_listening,Shortwave Listening,Shortwave Listening,短波收听,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,Receiving international and distant broadcast stations without transmitting.,0,1
+ACT.science_hobbies.weather_spotting,Amateur Meteorology,Amateur Meteorology,业余气象,ACTIVITY,ACT.science_hobbies,2,ACTIVITIES,"Observing and recording weather, from home stations to storm chasing.",0,1
+ACT.science_hobbies.weather_spotting.storm_chasing,Storm Chasing,Storm Chasing,追逐风暴,ACTIVITY,ACT.science_hobbies.weather_spotting,3,ACTIVITIES,Traveling to observe and document severe storms and tornadoes.,0,1
+ACT.traditional,"Traditional, Folk & Regional Activities","Traditional, Folk & Regional Activities",传统民俗与地域活动,ACTIVITY,ACTIVITIES,1,ACTIVITIES,"Culturally rooted pastimes, crafts, games, and festive practices, many specific to a region or culture.",0,1
+ACT.traditional.bonsai,Bonsai,Bonsai,盆栽,ACTIVITY,ACT.traditional,2,ACTIVITIES,Cultivating miniature trees in containers through pruning and shaping.,0,0
+ACT.traditional.calligraphy_hobby,Calligraphy Hobby,Calligraphy Hobby,书法,ACTIVITY,ACT.traditional,2,ACTIVITIES,Practicing the art of beautiful handwriting with brush or pen.,0,1
+ACT.traditional.chinese_knotting,Chinese Knotting,Chinese Knotting,中国结,ACTIVITY,ACT.traditional,2,ACTIVITIES,Tying decorative knots and cords into symbolic Chinese ornaments.,0,0
+ACT.traditional.diabolo,Diabolo,Diabolo,抖空竹,ACTIVITY,ACT.traditional,2,ACTIVITIES,Spinning and tossing a Chinese yo-yo on a string.,0,0
+ACT.traditional.dragon_boat,Dragon Boat,Dragon Boat,龙舟,ACTIVITY,ACT.traditional,2,ACTIVITIES,"Racing long paddled boats in teams, rooted in Chinese festivals.",0,0
+ACT.traditional.dragon_dance,Dragon Dance,Dragon Dance,舞龙,ACTIVITY,ACT.traditional,2,ACTIVITIES,Performing the Chinese dragon dance with a team-held dragon.,0,0
+ACT.traditional.folk_games,Folk Games,Folk Games,民间游戏,ACTIVITY,ACT.traditional,2,ACTIVITIES,Traditional games played informally across cultures.,0,1
+ACT.traditional.folk_games.jianzi,Jianzi,Jianzi,踢毽子,ACTIVITY,ACT.traditional.folk_games,3,ACTIVITIES,Chinese game of keeping a weighted shuttlecock aloft with the feet.,0,0
+ACT.traditional.folk_games.petanque,Petanque,Petanque,法式滚球,ACTIVITY,ACT.traditional.folk_games,3,ACTIVITIES,French game of tossing metal balls toward a target ball.,0,0
+ACT.traditional.folk_instrument_playing,Folk Instrument Playing,Folk Instrument Playing,民间乐器演奏,ACTIVITY,ACT.traditional,2,ACTIVITIES,Learning and playing traditional regional musical instruments.,0,1
+ACT.traditional.ikebana,Ikebana,Ikebana,花道,ACTIVITY,ACT.traditional,2,ACTIVITIES,Japanese art of disciplined flower arrangement.,0,0
+ACT.traditional.kite_flying,Kite Flying,Kite Flying,放风筝,ACTIVITY,ACT.traditional,2,ACTIVITIES,"Flying kites for recreation, art, and competition.",0,1
+ACT.traditional.lion_dance,Lion Dance,Lion Dance,舞狮,ACTIVITY,ACT.traditional,2,ACTIVITIES,Performing the Chinese lion dance with two-person costumes.,0,0
+ACT.traditional.local_festivals,Local Festivals,Local Festivals,地方节庆,ACTIVITY,ACT.traditional,2,ACTIVITIES,"Participation in community, religious, and seasonal festivals.",0,1
+ACT.traditional.martial_arts_practice,Martial Arts Practice,Martial Arts Practice,武术练习,ACTIVITY,ACT.traditional,2,ACTIVITIES,Training in traditional martial arts for self-cultivation rather than competition.,0,1
+ACT.traditional.martial_arts_practice.aikido,Aikido,Aikido,合气道,ACTIVITY,ACT.traditional.martial_arts_practice,3,ACTIVITIES,Japanese art of redirecting an opponent's force through joint locks and throws.,0,0
+ACT.traditional.martial_arts_practice.capoeira,Capoeira,Capoeira,卡波耶拉,ACTIVITY,ACT.traditional.martial_arts_practice,3,ACTIVITIES,"Afro-Brazilian martial art blending dance, acrobatics, and music.",0,0
+ACT.traditional.martial_arts_practice.judo,Judo,Judo,柔道,ACTIVITY,ACT.traditional.martial_arts_practice,3,ACTIVITIES,Japanese grappling art of throws and pins.,0,0
+ACT.traditional.martial_arts_practice.karate,Karate,Karate,空手道,ACTIVITY,ACT.traditional.martial_arts_practice,3,ACTIVITIES,Okinawan striking art practiced in kata and sparring.,0,0
+ACT.traditional.martial_arts_practice.kung_fu_wushu,Kung Fu / Wushu,Kung Fu / Wushu,功夫武术,ACTIVITY,ACT.traditional.martial_arts_practice,3,ACTIVITIES,Chinese martial arts systems practiced for tradition and self-defense.,0,0
+ACT.traditional.martial_arts_practice.taekwondo,Taekwondo,Taekwondo,跆拳道,ACTIVITY,ACT.traditional.martial_arts_practice,3,ACTIVITIES,Korean martial art emphasizing high kicks and forms.,0,0
+ACT.traditional.martial_arts_practice.tai_chi,Tai Chi,Tai Chi,太极拳,ACTIVITY,ACT.traditional.martial_arts_practice,3,ACTIVITIES,Chinese internal martial art practiced for health and meditation.,0,0
+ACT.traditional.origami,Origami,Origami,折纸,ACTIVITY,ACT.traditional,2,ACTIVITIES,Folding paper into figures and forms without cutting.,0,0
+ACT.traditional.paper_cutting,Paper Cutting,Paper Cutting,剪纸,ACTIVITY,ACT.traditional,2,ACTIVITIES,"Cutting intricate designs from paper, a Chinese folk craft.",0,0
+ACT.traditional.rangoli,Rangoli,Rangoli,兰戈利,ACTIVITY,ACT.traditional,2,ACTIVITIES,"Creating colored floor patterns from powders and petals, an Indian tradition.",0,0
+ACT.traditional.seal_carving,Seal Carving,Seal Carving,篆刻,ACTIVITY,ACT.traditional,2,ACTIVITIES,"Carving name seals and chops in stone, a Chinese art.",0,0
+ACT.traditional.shadow_puppetry,Shadow Puppetry,Shadow Puppetry,皮影戏,ACTIVITY,ACT.traditional,2,ACTIVITIES,"Performing stories with backlit cut-out puppets, as in Chinese piyingxi.",0,0
+ACT.traditional.tea_ceremony,Tea Ceremony,Tea Ceremony,茶道,ACTIVITY,ACT.traditional,2,ACTIVITIES,Ritualized preparation and serving of tea as a cultural practice.,0,0
+ACT.traditional.tea_ceremony.chinese_tea_ceremony,Chinese Tea Ceremony,Chinese Tea Ceremony,功夫茶,ACTIVITY,ACT.traditional.tea_ceremony,3,ACTIVITIES,Gongfu-style Chinese tea brewing emphasizing ritual and connoisseurship.,0,0
+ACT.traditional.tea_ceremony.japanese_tea_ceremony,Japanese Tea Ceremony,Japanese Tea Ceremony,日本茶道,ACTIVITY,ACT.traditional.tea_ceremony,3,ACTIVITIES,"Chado, the Japanese way of tea, with matcha and prescribed etiquette.",0,0
+ACT.traditional.traditional_dance,Traditional Dance,Traditional Dance,传统舞蹈,ACTIVITY,ACT.traditional,2,ACTIVITIES,Dancing regional and folk styles passed down through generations.,0,1
+ACT.traditional.traditional_dance.chinese_folk_dance,Chinese Folk Dance,Chinese Folk Dance,中国民间舞,ACTIVITY,ACT.traditional.traditional_dance,3,ACTIVITIES,Regional Chinese folk dances such as yangge and fan dance.,0,0
+ACT.traditional.traditional_dance.flamenco,Flamenco,Flamenco,弗拉门戈,ACTIVITY,ACT.traditional.traditional_dance,3,ACTIVITIES,Andalusian dance and music with rhythmic footwork and clapping.,0,0
+ACT.traditional.traditional_dance.irish_dance,Irish Dance,Irish Dance,爱尔兰舞,ACTIVITY,ACT.traditional.traditional_dance,3,ACTIVITIES,Traditional Irish step dancing and ceilidh dances.,0,0
+ACT.traditional.traditional_dance.square_dance,Square Dance,Square Dance,方块舞,ACTIVITY,ACT.traditional.traditional_dance,3,ACTIVITIES,American folk dance with four couples in a square formation.,0,0
+ACTIVITIES,Activities,Activities,人类活动,UNIVERSE,,0,ACTIVITIES,"Amateur, recreational, hobbyist, informal and non-commercial human activities.",0,1
 ART.animation,Animation,Animation,动画,ART_FORM,ARTS_AND_CULTURE,1,ARTS_AND_CULTURE,The art of creating the illusion of motion through sequences of images or posed objects.,0,1
 ART.animation.2d_animation,2D Animation,2D Animation,二维动画,ART_TECHNIQUE,ART.animation,2,ARTS_AND_CULTURE,Animation drawn or composited on a two-dimensional plane.,0,1
 ART.animation.2d_animation.cutout_animation,Cutout Animation,Cutout Animation,剪纸动画,ART_TECHNIQUE,ART.animation.2d_animation,3,ARTS_AND_CULTURE,"Animation moving flat cut-out pieces, whether paper or digital rigs.",0,1

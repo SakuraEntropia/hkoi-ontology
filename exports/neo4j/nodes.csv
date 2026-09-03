@@ -1,4 +1,383 @@
 :ID,:LABEL,id:ID,name,name_zh,type,universe,level:INT
+ACT.creative_hobbies,Node;ACTIVITY,ACT.creative_hobbies,Creative & Media Hobbies,创作与媒体爱好,ACTIVITY,ACTIVITIES,1
+ACT.creative_hobbies.amateur_filmmaking,Node;ACTIVITY,ACT.creative_hobbies.amateur_filmmaking,Amateur Filmmaking,业余电影制作,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.amateur_filmmaking.short_film_making,Node;ACTIVITY,ACT.creative_hobbies.amateur_filmmaking.short_film_making,Short Film Making,短片制作,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.amateur_filmmaking.stop_motion_animation,Node;ACTIVITY,ACT.creative_hobbies.amateur_filmmaking.stop_motion_animation,Stop Motion Animation,定格动画,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.amateur_photography,Node;ACTIVITY,ACT.creative_hobbies.amateur_photography,Amateur Photography,业余摄影,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.amateur_photography.landscape_photography,Node;ACTIVITY,ACT.creative_hobbies.amateur_photography.landscape_photography,Landscape Photography,风光摄影,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.amateur_photography.macro_photography,Node;ACTIVITY,ACT.creative_hobbies.amateur_photography.macro_photography,Macro Photography,微距摄影,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.amateur_photography.portrait_photography,Node;ACTIVITY,ACT.creative_hobbies.amateur_photography.portrait_photography,Portrait Photography,人像摄影,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.amateur_photography.street_photography,Node;ACTIVITY,ACT.creative_hobbies.amateur_photography.street_photography,Street Photography,街拍,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.amateur_photography.wildlife_photography,Node;ACTIVITY,ACT.creative_hobbies.amateur_photography.wildlife_photography,Wildlife Photography,野生动物摄影,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.animation_hobby,Node;ACTIVITY,ACT.creative_hobbies.animation_hobby,Animation Hobby,业余动画,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.blogging,Node;ACTIVITY,ACT.creative_hobbies.blogging,Blogging,博客写作,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.comic_zine_making,Node;ACTIVITY,ACT.creative_hobbies.comic_zine_making,Comics & Zine Making,独立漫画与杂志制作,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.content_creation,Node;ACTIVITY,ACT.creative_hobbies.content_creation,Content Creation,内容创作,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.creative_writing,Node;ACTIVITY,ACT.creative_hobbies.creative_writing,Creative Writing,创意写作,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.creative_writing.fiction_writing,Node;ACTIVITY,ACT.creative_hobbies.creative_writing.fiction_writing,Fiction Writing,小说创作,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.creative_writing.poetry_writing,Node;ACTIVITY,ACT.creative_hobbies.creative_writing.poetry_writing,Poetry Writing,诗歌创作,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.creative_writing.screenwriting,Node;ACTIVITY,ACT.creative_hobbies.creative_writing.screenwriting,Screenwriting,剧本创作,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.digital_sculpting,Node;ACTIVITY,ACT.creative_hobbies.digital_sculpting,Digital Sculpting,数字雕刻,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.drawing_painting,Node;ACTIVITY,ACT.creative_hobbies.drawing_painting,Drawing & Painting,绘画,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.drawing_painting.digital_painting,Node;ACTIVITY,ACT.creative_hobbies.drawing_painting.digital_painting,Digital Painting,数字绘画,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.drawing_painting.oil_painting,Node;ACTIVITY,ACT.creative_hobbies.drawing_painting.oil_painting,Oil Painting,油画,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.drawing_painting.sketching,Node;ACTIVITY,ACT.creative_hobbies.drawing_painting.sketching,Sketching,速写,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.drawing_painting.urban_sketching,Node;ACTIVITY,ACT.creative_hobbies.drawing_painting.urban_sketching,Urban Sketching,城市速写,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.drawing_painting.watercolor_painting,Node;ACTIVITY,ACT.creative_hobbies.drawing_painting.watercolor_painting,Watercolor Painting,水彩画,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.fan_art,Node;ACTIVITY,ACT.creative_hobbies.fan_art,Fan Art,同人艺术,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.fan_fiction,Node;ACTIVITY,ACT.creative_hobbies.fan_fiction,Fan Fiction,同人小说,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.graphic_design_hobby,Node;ACTIVITY,ACT.creative_hobbies.graphic_design_hobby,Graphic Design Hobby,平面设计爱好,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.journaling,Node;ACTIVITY,ACT.creative_hobbies.journaling,Journaling,手账与日记,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.music_making,Node;ACTIVITY,ACT.creative_hobbies.music_making,Music Making,音乐创作,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.music_making.beatmaking,Node;ACTIVITY,ACT.creative_hobbies.music_making.beatmaking,Beatmaking,节拍制作,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.music_making.electronic_music_production,Node;ACTIVITY,ACT.creative_hobbies.music_making.electronic_music_production,Electronic Music Production,电子音乐制作,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.music_making.home_recording,Node;ACTIVITY,ACT.creative_hobbies.music_making.home_recording,Home Recording,家庭录音,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.music_making.songwriting,Node;ACTIVITY,ACT.creative_hobbies.music_making.songwriting,Songwriting,歌曲创作,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.pixel_art,Node;ACTIVITY,ACT.creative_hobbies.pixel_art,Pixel Art,像素画,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.podcasting_hobby,Node;ACTIVITY,ACT.creative_hobbies.podcasting_hobby,Podcasting Hobby,播客制作,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.streaming,Node;ACTIVITY,ACT.creative_hobbies.streaming,Streaming,直播,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.streaming.game_streaming,Node;ACTIVITY,ACT.creative_hobbies.streaming.game_streaming,Game Streaming,游戏直播,ACTIVITY,ACTIVITIES,3
+ACT.creative_hobbies.vlogging,Node;ACTIVITY,ACT.creative_hobbies.vlogging,Vlogging,视频博客,ACTIVITY,ACTIVITIES,2
+ACT.creative_hobbies.webcomic_creation,Node;ACTIVITY,ACT.creative_hobbies.webcomic_creation,Webcomic Creation,网络漫画创作,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden,Node;ACTIVITY,ACT.domestic_garden,Domestic & Garden,居家与园艺,ACTIVITY,ACTIVITIES,1
+ACT.domestic_garden.aquarium_keeping,Node;ACTIVITY,ACT.domestic_garden.aquarium_keeping,Aquarium Keeping,水族饲养,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.aquarium_keeping.freshwater_aquarium,Node;ACTIVITY,ACT.domestic_garden.aquarium_keeping.freshwater_aquarium,Freshwater Aquarium,淡水水族,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.aquarium_keeping.pond_keeping,Node;ACTIVITY,ACT.domestic_garden.aquarium_keeping.pond_keeping,Pond Keeping,池塘养鱼,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.aquarium_keeping.reef_keeping,Node;ACTIVITY,ACT.domestic_garden.aquarium_keeping.reef_keeping,Reef Keeping,珊瑚礁水族,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.backyard_poultry,Node;ACTIVITY,ACT.domestic_garden.backyard_poultry,Backyard Poultry Keeping,后院养禽,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.beekeeping,Node;ACTIVITY,ACT.domestic_garden.beekeeping,Beekeeping,养蜂,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.birdwatching,Node;ACTIVITY,ACT.domestic_garden.birdwatching,Birdwatching,观鸟,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.cheese_making,Node;ACTIVITY,ACT.domestic_garden.cheese_making,Cheese Making,奶酪制作,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.coffee_roasting,Node;ACTIVITY,ACT.domestic_garden.coffee_roasting,Coffee Roasting,咖啡烘焙,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.composting,Node;ACTIVITY,ACT.domestic_garden.composting,Composting,堆肥,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.cooking_baking,Node;ACTIVITY,ACT.domestic_garden.cooking_baking,Cooking & Baking,烹饪与烘焙,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.cooking_baking.baking,Node;ACTIVITY,ACT.domestic_garden.cooking_baking.baking,Baking,烘焙,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.cooking_baking.bread_making,Node;ACTIVITY,ACT.domestic_garden.cooking_baking.bread_making,Bread Making,面包制作,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.cooking_baking.grilling_barbecue,Node;ACTIVITY,ACT.domestic_garden.cooking_baking.grilling_barbecue,Grilling & Barbecue,烧烤,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.fermenting,Node;ACTIVITY,ACT.domestic_garden.fermenting,Fermenting,发酵食品,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.fermenting.kombucha_brewing,Node;ACTIVITY,ACT.domestic_garden.fermenting.kombucha_brewing,Kombucha Brewing,康普茶,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.foraging,Node;ACTIVITY,ACT.domestic_garden.foraging,Foraging,采集野食,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.foraging.mushroom_hunting,Node;ACTIVITY,ACT.domestic_garden.foraging.mushroom_hunting,Mushroom Hunting,采蘑菇,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.gardening,Node;ACTIVITY,ACT.domestic_garden.gardening,Gardening,园艺,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.gardening.container_gardening,Node;ACTIVITY,ACT.domestic_garden.gardening.container_gardening,Container Gardening,容器园艺,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.gardening.flower_gardening,Node;ACTIVITY,ACT.domestic_garden.gardening.flower_gardening,Flower Gardening,花卉园艺,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.herb_gardening,Node;ACTIVITY,ACT.domestic_garden.herb_gardening,Herb Gardening,草药种植,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.homebrewing,Node;ACTIVITY,ACT.domestic_garden.homebrewing,Homebrewing,家酿,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.homebrewing.beer_brewing,Node;ACTIVITY,ACT.domestic_garden.homebrewing.beer_brewing,Beer Brewing,家酿啤酒,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.homebrewing.winemaking,Node;ACTIVITY,ACT.domestic_garden.homebrewing.winemaking,Winemaking,家酿葡萄酒,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.houseplants,Node;ACTIVITY,ACT.domestic_garden.houseplants,Houseplant Keeping,室内绿植,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.hydroponics,Node;ACTIVITY,ACT.domestic_garden.hydroponics,Hydroponics Hobby,水培园艺,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.pet_keeping,Node;ACTIVITY,ACT.domestic_garden.pet_keeping,Pet Keeping,宠物饲养,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.preserving_canning,Node;ACTIVITY,ACT.domestic_garden.preserving_canning,Preserving & Canning,食品保存,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.terrarium_vivarium,Node;ACTIVITY,ACT.domestic_garden.terrarium_vivarium,Terrarium & Vivarium Keeping,生态缸与爬宠,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.vegetable_growing,Node;ACTIVITY,ACT.domestic_garden.vegetable_growing,Vegetable Growing,蔬菜种植,ACTIVITY,ACTIVITIES,2
+ACT.domestic_garden.vegetable_growing.allotment_gardening,Node;ACTIVITY,ACT.domestic_garden.vegetable_growing.allotment_gardening,Allotment Gardening,社区菜园,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.wine_tasting,Node;ACTIVITY,ACT.domestic_garden.wine_tasting,Wine Tasting,品酒,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports,Node;ACTIVITY,ACT.extreme_sports,Extreme & Adventure Sports,极限与冒险运动,ACTIVITY,ACTIVITIES,1
+ACT.extreme_sports.base_jumping,Node;ACTIVITY,ACT.extreme_sports.base_jumping,BASE Jumping,低空跳伞,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.bmx,Node;ACTIVITY,ACT.extreme_sports.bmx,BMX,小轮车,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.bungee_jumping,Node;ACTIVITY,ACT.extreme_sports.bungee_jumping,Bungee Jumping,蹦极,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.cliff_diving,Node;ACTIVITY,ACT.extreme_sports.cliff_diving,Cliff Diving,悬崖跳水,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.dirt_biking,Node;ACTIVITY,ACT.extreme_sports.dirt_biking,Dirt Biking,越野骑行,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.freerunning,Node;ACTIVITY,ACT.extreme_sports.freerunning,Freerunning,自由跑酷,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.freestyle_skiing,Node;ACTIVITY,ACT.extreme_sports.freestyle_skiing,Freestyle Skiing,自由式滑雪,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.hang_gliding,Node;ACTIVITY,ACT.extreme_sports.hang_gliding,Hang Gliding,悬挂式滑翔,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.inline_skating,Node;ACTIVITY,ACT.extreme_sports.inline_skating,Inline Skating,轮滑,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.kitesurfing,Node;ACTIVITY,ACT.extreme_sports.kitesurfing,Kitesurfing,风筝冲浪,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.longboarding,Node;ACTIVITY,ACT.extreme_sports.longboarding,Longboarding,长板,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.motocross,Node;ACTIVITY,ACT.extreme_sports.motocross,Motocross,越野摩托车,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.paragliding,Node;ACTIVITY,ACT.extreme_sports.paragliding,Paragliding,滑翔伞,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.paramotoring,Node;ACTIVITY,ACT.extreme_sports.paramotoring,Paramotoring,动力滑翔伞,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.parkour,Node;ACTIVITY,ACT.extreme_sports.parkour,Parkour,跑酷,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.skateboarding,Node;ACTIVITY,ACT.extreme_sports.skateboarding,Skateboarding,滑板,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.skydiving,Node;ACTIVITY,ACT.extreme_sports.skydiving,Skydiving,跳伞,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.snowboarding,Node;ACTIVITY,ACT.extreme_sports.snowboarding,Snowboarding,单板滑雪,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.snowkiting,Node;ACTIVITY,ACT.extreme_sports.snowkiting,Snowkiting,雪地风筝,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.snowmobiling,Node;ACTIVITY,ACT.extreme_sports.snowmobiling,Snowmobiling,雪地摩托,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.surfing,Node;ACTIVITY,ACT.extreme_sports.surfing,Surfing,冲浪,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.surfing.bodyboarding,Node;ACTIVITY,ACT.extreme_sports.surfing.bodyboarding,Bodyboarding,趴板冲浪,ACTIVITY,ACTIVITIES,3
+ACT.extreme_sports.wakeboarding,Node;ACTIVITY,ACT.extreme_sports.wakeboarding,Wakeboarding,尾波滑水,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.water_skiing,Node;ACTIVITY,ACT.extreme_sports.water_skiing,Water Skiing,滑水,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.windsurfing,Node;ACTIVITY,ACT.extreme_sports.windsurfing,Windsurfing,帆板,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.wingsuit_flying,Node;ACTIVITY,ACT.extreme_sports.wingsuit_flying,Wingsuit Flying,翼装飞行,ACTIVITY,ACTIVITIES,2
+ACT.extreme_sports.ziplining,Node;ACTIVITY,ACT.extreme_sports.ziplining,Ziplining,滑索,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting,Node;ACTIVITY,ACT.fandom_collecting,Fandom & Collecting,粉丝文化与收藏,ACTIVITY,ACTIVITIES,1
+ACT.fandom_collecting.antique_collecting,Node;ACTIVITY,ACT.fandom_collecting.antique_collecting,Antique Collecting,古董收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.art_collecting,Node;ACTIVITY,ACT.fandom_collecting.art_collecting,Art Collecting,艺术品收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.book_collecting,Node;ACTIVITY,ACT.fandom_collecting.book_collecting,Book Collecting,藏书,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.coin_collecting,Node;ACTIVITY,ACT.fandom_collecting.coin_collecting,Coin Collecting,钱币收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.comic_book_collecting,Node;ACTIVITY,ACT.fandom_collecting.comic_book_collecting,Comic Book Collecting,漫画收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.conventions,Node;ACTIVITY,ACT.fandom_collecting.conventions,Conventions,同人展,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.conventions.anime_conventions,Node;ACTIVITY,ACT.fandom_collecting.conventions.anime_conventions,Anime Conventions,动漫展,ACTIVITY,ACTIVITIES,3
+ACT.fandom_collecting.conventions.comic_conventions,Node;ACTIVITY,ACT.fandom_collecting.conventions.comic_conventions,Comic Conventions,漫展,ACTIVITY,ACTIVITIES,3
+ACT.fandom_collecting.conventions.sci_fi_conventions,Node;ACTIVITY,ACT.fandom_collecting.conventions.sci_fi_conventions,Science Fiction Conventions,科幻大会,ACTIVITY,ACTIVITIES,3
+ACT.fandom_collecting.cosplay,Node;ACTIVITY,ACT.fandom_collecting.cosplay,Cosplay,角色扮演,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.diecast_model_collecting,Node;ACTIVITY,ACT.fandom_collecting.diecast_model_collecting,Diecast Model Collecting,压铸模型收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.fandom,Node;ACTIVITY,ACT.fandom_collecting.fandom,Fandom,粉丝圈,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.fandom.fan_clubs,Node;ACTIVITY,ACT.fandom_collecting.fandom.fan_clubs,Fan Clubs,粉丝俱乐部,ACTIVITY,ACTIVITIES,3
+ACT.fandom_collecting.film_buff,Node;ACTIVITY,ACT.fandom_collecting.film_buff,Film Buff Culture,影迷文化,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.idol_culture,Node;ACTIVITY,ACT.fandom_collecting.idol_culture,Idol Culture,偶像粉丝文化,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.memorabilia_collecting,Node;ACTIVITY,ACT.fandom_collecting.memorabilia_collecting,Memorabilia Collecting,纪念品收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.memorabilia_collecting.autograph_collecting,Node;ACTIVITY,ACT.fandom_collecting.memorabilia_collecting.autograph_collecting,Autograph Collecting,签名收藏,ACTIVITY,ACTIVITIES,3
+ACT.fandom_collecting.memorabilia_collecting.sports_memorabilia,Node;ACTIVITY,ACT.fandom_collecting.memorabilia_collecting.sports_memorabilia,Sports Memorabilia,体育纪念品,ACTIVITY,ACTIVITIES,3
+ACT.fandom_collecting.militaria_collecting,Node;ACTIVITY,ACT.fandom_collecting.militaria_collecting,Militaria Collecting,军事收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.poster_collecting,Node;ACTIVITY,ACT.fandom_collecting.poster_collecting,Poster Collecting,海报收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.rock_mineral_collecting,Node;ACTIVITY,ACT.fandom_collecting.rock_mineral_collecting,Rock & Mineral Collecting,矿石收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.sneaker_collecting,Node;ACTIVITY,ACT.fandom_collecting.sneaker_collecting,Sneaker Collecting,球鞋收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.sports_fandom,Node;ACTIVITY,ACT.fandom_collecting.sports_fandom,Sports Fandom,体育迷,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.stamp_collecting,Node;ACTIVITY,ACT.fandom_collecting.stamp_collecting,Stamp Collecting,集邮,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.toy_collecting,Node;ACTIVITY,ACT.fandom_collecting.toy_collecting,Toy Collecting,玩具收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.toy_collecting.action_figure_collecting,Node;ACTIVITY,ACT.fandom_collecting.toy_collecting.action_figure_collecting,Action Figure Collecting,可动人偶收藏,ACTIVITY,ACTIVITIES,3
+ACT.fandom_collecting.trading_card_collecting,Node;ACTIVITY,ACT.fandom_collecting.trading_card_collecting,Trading Card Collecting,卡牌收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.vinyl_record_collecting,Node;ACTIVITY,ACT.fandom_collecting.vinyl_record_collecting,Vinyl Record Collecting,黑胶唱片收藏,ACTIVITY,ACTIVITIES,2
+ACT.fandom_collecting.watch_collecting,Node;ACTIVITY,ACT.fandom_collecting.watch_collecting,Watch Collecting,手表收藏,ACTIVITY,ACTIVITIES,2
+ACT.gaming,Node;ACTIVITY,ACT.gaming,Gaming,游戏,ACTIVITY,ACTIVITIES,1
+ACT.gaming.arcade_gaming,Node;ACTIVITY,ACT.gaming.arcade_gaming,Arcade Gaming,街机游戏,ACTIVITY,ACTIVITIES,2
+ACT.gaming.board_gaming,Node;ACTIVITY,ACT.gaming.board_gaming,Board Gaming,桌游,ACTIVITY,ACTIVITIES,2
+ACT.gaming.card_gaming,Node;ACTIVITY,ACT.gaming.card_gaming,Card Gaming,卡牌游戏,ACTIVITY,ACTIVITIES,2
+ACT.gaming.card_gaming.trading_card_game_play,Node;ACTIVITY,ACT.gaming.card_gaming.trading_card_game_play,Trading Card Game Play,集换式卡牌游戏,ACTIVITY,ACTIVITIES,3
+ACT.gaming.escape_rooms,Node;ACTIVITY,ACT.gaming.escape_rooms,Escape Rooms,密室逃脱,ACTIVITY,ACTIVITIES,2
+ACT.gaming.esports_spectating,Node;ACTIVITY,ACT.gaming.esports_spectating,Esports Spectating,电竞观赛,ACTIVITY,ACTIVITIES,2
+ACT.gaming.game_modding,Node;ACTIVITY,ACT.gaming.game_modding,Game Modding,游戏模组制作,ACTIVITY,ACTIVITIES,2
+ACT.gaming.homebrew_game_development,Node;ACTIVITY,ACT.gaming.homebrew_game_development,Homebrew Game Development,独立游戏开发,ACTIVITY,ACTIVITIES,2
+ACT.gaming.interactive_fiction,Node;ACTIVITY,ACT.gaming.interactive_fiction,Interactive Fiction,互动小说,ACTIVITY,ACTIVITIES,2
+ACT.gaming.lan_parties,Node;ACTIVITY,ACT.gaming.lan_parties,LAN Parties,局域网聚会,ACTIVITY,ACTIVITIES,2
+ACT.gaming.larp,Node;ACTIVITY,ACT.gaming.larp,Live Action Role-Playing,实景角色扮演,ACTIVITY,ACTIVITIES,2
+ACT.gaming.pinball,Node;ACTIVITY,ACT.gaming.pinball,Pinball,弹球,ACTIVITY,ACTIVITIES,2
+ACT.gaming.puzzle_hobby,Node;ACTIVITY,ACT.gaming.puzzle_hobby,Puzzle Hobby,解谜爱好,ACTIVITY,ACTIVITIES,2
+ACT.gaming.puzzle_hobby.crossword_puzzles,Node;ACTIVITY,ACT.gaming.puzzle_hobby.crossword_puzzles,Crossword Puzzles,填字游戏,ACTIVITY,ACTIVITIES,3
+ACT.gaming.puzzle_hobby.jigsaw_puzzles,Node;ACTIVITY,ACT.gaming.puzzle_hobby.jigsaw_puzzles,Jigsaw Puzzles,拼图,ACTIVITY,ACTIVITIES,3
+ACT.gaming.speedrunning,Node;ACTIVITY,ACT.gaming.speedrunning,Speedrunning,速通,ACTIVITY,ACTIVITIES,2
+ACT.gaming.tabletop_rpg,Node;ACTIVITY,ACT.gaming.tabletop_rpg,Tabletop Role-Playing,桌面角色扮演,ACTIVITY,ACTIVITIES,2
+ACT.gaming.video_gaming,Node;ACTIVITY,ACT.gaming.video_gaming,Video Gaming,电子游戏,ACTIVITY,ACTIVITIES,2
+ACT.gaming.video_gaming.console_gaming,Node;ACTIVITY,ACT.gaming.video_gaming.console_gaming,Console Gaming,主机游戏,ACTIVITY,ACTIVITIES,3
+ACT.gaming.video_gaming.mobile_gaming,Node;ACTIVITY,ACT.gaming.video_gaming.mobile_gaming,Mobile Gaming,手机游戏,ACTIVITY,ACTIVITIES,3
+ACT.gaming.video_gaming.pc_gaming,Node;ACTIVITY,ACT.gaming.video_gaming.pc_gaming,PC Gaming,电脑游戏,ACTIVITY,ACTIVITIES,3
+ACT.gaming.video_gaming.retro_gaming,Node;ACTIVITY,ACT.gaming.video_gaming.retro_gaming,Retro Gaming,复古游戏,ACTIVITY,ACTIVITIES,3
+ACT.making_craft,Node;ACTIVITY,ACT.making_craft,Making & Craft,手工制作与工艺,ACTIVITY,ACTIVITIES,1
+ACT.making_craft.3d_printing,Node;ACTIVITY,ACT.making_craft.3d_printing,3D Printing,3D打印,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.blacksmithing_hobby,Node;ACTIVITY,ACT.making_craft.blacksmithing_hobby,Blacksmithing Hobby,业余锻造,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.bookbinding,Node;ACTIVITY,ACT.making_craft.bookbinding,Bookbinding,书籍装订,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.candle_soap_making,Node;ACTIVITY,ACT.making_craft.candle_soap_making,Candle & Soap Making,蜡烛与手工皂制作,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.cosplay_prop_making,Node;ACTIVITY,ACT.making_craft.cosplay_prop_making,Cosplay Prop Making,角色扮演道具制作,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.diy_home_improvement,Node;ACTIVITY,ACT.making_craft.diy_home_improvement,DIY & Home Improvement,DIY家居改善,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.diy_home_improvement.furniture_restoration,Node;ACTIVITY,ACT.making_craft.diy_home_improvement.furniture_restoration,Furniture Restoration,家具翻新,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.embroidery,Node;ACTIVITY,ACT.making_craft.embroidery,Embroidery,刺绣,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.embroidery.cross_stitch,Node;ACTIVITY,ACT.making_craft.embroidery.cross_stitch,Cross Stitch,十字绣,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.embroidery.needlepoint,Node;ACTIVITY,ACT.making_craft.embroidery.needlepoint,Needlepoint,绒绣,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.felting,Node;ACTIVITY,ACT.making_craft.felting,Felting,羊毛毡,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.jewelry_making,Node;ACTIVITY,ACT.making_craft.jewelry_making,Jewelry Making,首饰制作,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.jewelry_making.beadwork,Node;ACTIVITY,ACT.making_craft.jewelry_making.beadwork,Beadwork,串珠,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.knitting_crochet,Node;ACTIVITY,ACT.making_craft.knitting_crochet,Knitting & Crochet,编织与钩针,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.knitting_crochet.crochet,Node;ACTIVITY,ACT.making_craft.knitting_crochet.crochet,Crochet,钩针编织,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.knitting_crochet.knitting,Node;ACTIVITY,ACT.making_craft.knitting_crochet.knitting,Knitting,棒针编织,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.leatherworking,Node;ACTIVITY,ACT.making_craft.leatherworking,Leatherworking,皮革工艺,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.macrame,Node;ACTIVITY,ACT.making_craft.macrame,Macrame,绳编,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.miniatures,Node;ACTIVITY,ACT.making_craft.miniatures,Miniatures,微缩模型,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.miniatures.dollhouse_miniatures,Node;ACTIVITY,ACT.making_craft.miniatures.dollhouse_miniatures,Dollhouse Miniatures,娃娃屋微缩,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.miniatures.miniature_painting,Node;ACTIVITY,ACT.making_craft.miniatures.miniature_painting,Miniature Painting,微缩模型涂装,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.model_building,Node;ACTIVITY,ACT.making_craft.model_building,Model Building,模型制作,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.model_building.diorama_building,Node;ACTIVITY,ACT.making_craft.model_building.diorama_building,Diorama Building,场景模型,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.model_building.model_aircraft,Node;ACTIVITY,ACT.making_craft.model_building.model_aircraft,Model Aircraft,航空模型,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.model_building.model_railroading,Node;ACTIVITY,ACT.making_craft.model_building.model_railroading,Model Railroading,铁道模型,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.model_building.scale_modeling,Node;ACTIVITY,ACT.making_craft.model_building.scale_modeling,Scale Modeling,比例模型,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.mosaic_art,Node;ACTIVITY,ACT.making_craft.mosaic_art,Mosaic Art,马赛克拼贴,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.papercraft,Node;ACTIVITY,ACT.making_craft.papercraft,Papercraft,纸艺,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.papercraft.card_making,Node;ACTIVITY,ACT.making_craft.papercraft.card_making,Card Making,贺卡制作,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.papercraft.scrapbooking,Node;ACTIVITY,ACT.making_craft.papercraft.scrapbooking,Scrapbooking,剪贴簿,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.pottery_ceramics,Node;ACTIVITY,ACT.making_craft.pottery_ceramics,Pottery & Ceramics,陶艺,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.pottery_ceramics.hand_building,Node;ACTIVITY,ACT.making_craft.pottery_ceramics.hand_building,Hand Building,手捏陶艺,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.pottery_ceramics.wheel_throwing,Node;ACTIVITY,ACT.making_craft.pottery_ceramics.wheel_throwing,Wheel Throwing,拉坯,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.pyrography,Node;ACTIVITY,ACT.making_craft.pyrography,Pyrography,烙画,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.resin_casting,Node;ACTIVITY,ACT.making_craft.resin_casting,Resin Casting,树脂铸造,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.sewing_quilting,Node;ACTIVITY,ACT.making_craft.sewing_quilting,Sewing & Quilting,缝纫与拼布,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.sewing_quilting.quilting,Node;ACTIVITY,ACT.making_craft.sewing_quilting.quilting,Quilting,拼布,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.spinning_yarn,Node;ACTIVITY,ACT.making_craft.spinning_yarn,Spinning Yarn,纺线,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.stained_glass,Node;ACTIVITY,ACT.making_craft.stained_glass,Stained Glass,彩色玻璃工艺,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.upcycling,Node;ACTIVITY,ACT.making_craft.upcycling,Upcycling,升级改造,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.wargaming,Node;ACTIVITY,ACT.making_craft.wargaming,Miniature Wargaming,微缩战棋,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.weaving,Node;ACTIVITY,ACT.making_craft.weaving,Weaving,织布,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.woodworking,Node;ACTIVITY,ACT.making_craft.woodworking,Woodworking,木工,ACTIVITY,ACTIVITIES,2
+ACT.making_craft.woodworking.wood_carving,Node;ACTIVITY,ACT.making_craft.woodworking.wood_carving,Wood Carving,木雕,ACTIVITY,ACTIVITIES,3
+ACT.making_craft.woodworking.woodturning,Node;ACTIVITY,ACT.making_craft.woodworking.woodturning,Woodturning,车削木工,ACTIVITY,ACTIVITIES,3
+ACT.online_communities,Node;ACTIVITY,ACT.online_communities,Online Communities & Informal Activities,网络社区与非正式活动,ACTIVITY,ACTIVITIES,1
+ACT.online_communities.citizen_journalism,Node;ACTIVITY,ACT.online_communities.citizen_journalism,Citizen Journalism,公民新闻,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.citizen_mapping,Node;ACTIVITY,ACT.online_communities.citizen_mapping,Citizen Mapping,众包地图,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.crowdsourcing,Node;ACTIVITY,ACT.online_communities.crowdsourcing,Crowdsourcing Participation,众包参与,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.fan_translation,Node;ACTIVITY,ACT.online_communities.fan_translation,Fan Translation,粉丝翻译与字幕组,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.fan_wikis,Node;ACTIVITY,ACT.online_communities.fan_wikis,Fan Wikis,同人维基,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.forums_communities,Node;ACTIVITY,ACT.online_communities.forums_communities,Forums & Communities,论坛与社区,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.hobbyist_clubs,Node;ACTIVITY,ACT.online_communities.hobbyist_clubs,Hobbyist Clubs & Meetups,兴趣社团与聚会,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.makerspaces,Node;ACTIVITY,ACT.online_communities.makerspaces,Makerspaces,创客空间,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.meme_culture,Node;ACTIVITY,ACT.online_communities.meme_culture,Meme Culture,网络迷因文化,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.modding_communities,Node;ACTIVITY,ACT.online_communities.modding_communities,Modding Communities,模组社区,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.online_gaming_clans,Node;ACTIVITY,ACT.online_communities.online_gaming_clans,Online Gaming Clans,游戏公会,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.open_source_contribution,Node;ACTIVITY,ACT.online_communities.open_source_contribution,Open Source Contribution,开源贡献,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.qa_communities,Node;ACTIVITY,ACT.online_communities.qa_communities,Q&A Communities,问答社区,ACTIVITY,ACTIVITIES,2
+ACT.online_communities.wikimedia_editing,Node;ACTIVITY,ACT.online_communities.wikimedia_editing,Wikipedia Editing,维基百科编辑,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure,Node;ACTIVITY,ACT.outdoor_adventure,Outdoor & Adventure,户外与探险,ACTIVITY,ACTIVITIES,1
+ACT.outdoor_adventure.backcountry_skiing,Node;ACTIVITY,ACT.outdoor_adventure.backcountry_skiing,Backcountry Skiing,越野滑雪/登山滑雪,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.camping,Node;ACTIVITY,ACT.outdoor_adventure.camping,Camping,露营,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.camping.car_camping,Node;ACTIVITY,ACT.outdoor_adventure.camping.car_camping,Car Camping,自驾露营,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.camping.tent_camping,Node;ACTIVITY,ACT.outdoor_adventure.camping.tent_camping,Tent Camping,帐篷露营,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.camping.wild_camping,Node;ACTIVITY,ACT.outdoor_adventure.camping.wild_camping,Wild Camping,野营,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.canyoning,Node;ACTIVITY,ACT.outdoor_adventure.canyoning,Canyoning,溪降,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.caving,Node;ACTIVITY,ACT.outdoor_adventure.caving,Caving,洞穴探险,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.exploration,Node;ACTIVITY,ACT.outdoor_adventure.exploration,Exploration,探险,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.exploration.expeditioning,Node;ACTIVITY,ACT.outdoor_adventure.exploration.expeditioning,Expeditioning,远征探险,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.exploration.urban_exploration,Node;ACTIVITY,ACT.outdoor_adventure.exploration.urban_exploration,Urban Exploration,城市探险,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.geocaching,Node;ACTIVITY,ACT.outdoor_adventure.geocaching,Geocaching,地理藏宝,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.hiking_trekking,Node;ACTIVITY,ACT.outdoor_adventure.hiking_trekking,Hiking & Trekking,徒步远足,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.hiking_trekking.backpacking,Node;ACTIVITY,ACT.outdoor_adventure.hiking_trekking.backpacking,Backpacking,重装徒步,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.hiking_trekking.day_hiking,Node;ACTIVITY,ACT.outdoor_adventure.hiking_trekking.day_hiking,Day Hiking,日间徒步,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.hiking_trekking.thru_hiking,Node;ACTIVITY,ACT.outdoor_adventure.hiking_trekking.thru_hiking,Thru-Hiking,长距离徒步,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.kayaking_canoeing,Node;ACTIVITY,ACT.outdoor_adventure.kayaking_canoeing,Kayaking & Canoeing,皮划艇与独木舟,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.mountaineering,Node;ACTIVITY,ACT.outdoor_adventure.mountaineering,Mountaineering,登山运动,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.orienteering,Node;ACTIVITY,ACT.outdoor_adventure.orienteering,Orienteering,定向越野,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.peak_bagging,Node;ACTIVITY,ACT.outdoor_adventure.peak_bagging,Peak Bagging,登峰打卡,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.rock_climbing,Node;ACTIVITY,ACT.outdoor_adventure.rock_climbing,Rock Climbing,攀岩,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.rock_climbing.aid_climbing,Node;ACTIVITY,ACT.outdoor_adventure.rock_climbing.aid_climbing,Aid Climbing,器械攀登,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.rock_climbing.bouldering,Node;ACTIVITY,ACT.outdoor_adventure.rock_climbing.bouldering,Bouldering,抱石,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.rock_climbing.ice_climbing,Node;ACTIVITY,ACT.outdoor_adventure.rock_climbing.ice_climbing,Ice Climbing,攀冰,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.rock_climbing.sport_climbing,Node;ACTIVITY,ACT.outdoor_adventure.rock_climbing.sport_climbing,Sport Climbing,运动攀岩,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.rock_climbing.traditional_climbing,Node;ACTIVITY,ACT.outdoor_adventure.rock_climbing.traditional_climbing,Traditional Climbing,传统攀岩,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.scuba_diving,Node;ACTIVITY,ACT.outdoor_adventure.scuba_diving,Scuba Diving,水肺潜水,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.scuba_diving.free_diving,Node;ACTIVITY,ACT.outdoor_adventure.scuba_diving.free_diving,Freediving,自由潜水,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.scuba_diving.snorkeling,Node;ACTIVITY,ACT.outdoor_adventure.scuba_diving.snorkeling,Snorkeling,浮潜,ACTIVITY,ACTIVITIES,3
+ACT.outdoor_adventure.snowshoeing,Node;ACTIVITY,ACT.outdoor_adventure.snowshoeing,Snowshoeing,雪鞋徒步,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.survival_skills,Node;ACTIVITY,ACT.outdoor_adventure.survival_skills,Survival Skills & Bushcraft,野外生存,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.via_ferrata,Node;ACTIVITY,ACT.outdoor_adventure.via_ferrata,Via Ferrata,飞拉达,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.whitewater_rafting,Node;ACTIVITY,ACT.outdoor_adventure.whitewater_rafting,Whitewater Rafting,白水漂流,ACTIVITY,ACTIVITIES,2
+ACT.outdoor_adventure.wildlife_watching,Node;ACTIVITY,ACT.outdoor_adventure.wildlife_watching,Wildlife Watching,野生动物观察,ACTIVITY,ACTIVITIES,2
+ACT.performing_social,Node;ACTIVITY,ACT.performing_social,Performing & Social,表演与社交,ACTIVITY,ACTIVITIES,1
+ACT.performing_social.amateur_magic,Node;ACTIVITY,ACT.performing_social.amateur_magic,Amateur Magic,业余魔术,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.amateur_theater,Node;ACTIVITY,ACT.performing_social.amateur_theater,Amateur Theatre,业余戏剧,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.amateur_theater.community_theater,Node;ACTIVITY,ACT.performing_social.amateur_theater.community_theater,Community Theater,社区剧场,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.amateur_theater.improv_theater,Node;ACTIVITY,ACT.performing_social.amateur_theater.improv_theater,Improvisational Theater,即兴戏剧,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.book_club,Node;ACTIVITY,ACT.performing_social.book_club,Book Club,读书会,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.community_orchestra,Node;ACTIVITY,ACT.performing_social.community_orchestra,Community Orchestra,社区管弦乐团,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.community_orchestra.community_band,Node;ACTIVITY,ACT.performing_social.community_orchestra.community_band,Community Band,社区乐队,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.debate_public_speaking,Node;ACTIVITY,ACT.performing_social.debate_public_speaking,Debate & Public Speaking,辩论与演讲,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.improv,Node;ACTIVITY,ACT.performing_social.improv,Improv,即兴表演,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.jam_session,Node;ACTIVITY,ACT.performing_social.jam_session,Jam Session,即兴合奏,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.karaoke,Node;ACTIVITY,ACT.performing_social.karaoke,Karaoke,卡拉OK,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.language_exchange,Node;ACTIVITY,ACT.performing_social.language_exchange,Language Exchange,语言交换,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.open_mic_comedy,Node;ACTIVITY,ACT.performing_social.open_mic_comedy,Open Mic Comedy,开放麦喜剧,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.poetry_slam,Node;ACTIVITY,ACT.performing_social.poetry_slam,Poetry Slam,诗歌朗诵赛,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.pub_quiz,Node;ACTIVITY,ACT.performing_social.pub_quiz,Quiz Nights,竞猜之夜,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.puppetry,Node;ACTIVITY,ACT.performing_social.puppetry,Puppetry,木偶戏,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.singing_choir,Node;ACTIVITY,ACT.performing_social.singing_choir,Singing & Choir,合唱与歌唱,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.singing_choir.acapella_singing,Node;ACTIVITY,ACT.performing_social.singing_choir.acapella_singing,A Cappella Singing,无伴奏合唱,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.singing_choir.community_choir,Node;ACTIVITY,ACT.performing_social.singing_choir.community_choir,Community Choir,社区合唱团,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.social_dance,Node;ACTIVITY,ACT.performing_social.social_dance,Social Dance,社交舞,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.social_dance.ballroom_dance,Node;ACTIVITY,ACT.performing_social.social_dance.ballroom_dance,Ballroom Dance,国标舞,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.social_dance.line_dance,Node;ACTIVITY,ACT.performing_social.social_dance.line_dance,Line Dance,排舞,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.social_dance.salsa_dance,Node;ACTIVITY,ACT.performing_social.social_dance.salsa_dance,Salsa Dance,萨尔萨舞,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.social_dance.street_dance,Node;ACTIVITY,ACT.performing_social.social_dance.street_dance,Street Dance,街舞,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.social_dance.swing_dance,Node;ACTIVITY,ACT.performing_social.social_dance.swing_dance,Swing Dance,摇摆舞,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.social_dance.tango_dance,Node;ACTIVITY,ACT.performing_social.social_dance.tango_dance,Tango Dance,探戈舞,ACTIVITY,ACTIVITIES,3
+ACT.performing_social.storytelling,Node;ACTIVITY,ACT.performing_social.storytelling,Storytelling,讲故事,ACTIVITY,ACTIVITIES,2
+ACT.performing_social.voice_acting,Node;ACTIVITY,ACT.performing_social.voice_acting,Voice Acting,配音,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation,Node;ACTIVITY,ACT.physical_recreation,Physical Recreation,休闲运动,ACTIVITY,ACTIVITIES,1
+ACT.physical_recreation.archery,Node;ACTIVITY,ACT.physical_recreation.archery,Archery,射箭,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.billiards,Node;ACTIVITY,ACT.physical_recreation.billiards,Billiards,台球,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.billiards.pool,Node;ACTIVITY,ACT.physical_recreation.billiards.pool,Pool,美式台球,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.billiards.snooker,Node;ACTIVITY,ACT.physical_recreation.billiards.snooker,Snooker,斯诺克,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.bowling,Node;ACTIVITY,ACT.physical_recreation.bowling,Bowling,保龄球,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.calisthenics,Node;ACTIVITY,ACT.physical_recreation.calisthenics,Calisthenics,自重训练,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.cycling,Node;ACTIVITY,ACT.physical_recreation.cycling,Cycling,骑行,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.cycling.bike_touring,Node;ACTIVITY,ACT.physical_recreation.cycling.bike_touring,Bicycle Touring,自行车旅行,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.cycling.gravel_cycling,Node;ACTIVITY,ACT.physical_recreation.cycling.gravel_cycling,Gravel Cycling,砾石骑行,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.cycling.mountain_biking,Node;ACTIVITY,ACT.physical_recreation.cycling.mountain_biking,Mountain Biking,山地骑行,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.cycling.road_cycling,Node;ACTIVITY,ACT.physical_recreation.cycling.road_cycling,Road Cycling,公路骑行,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.darts,Node;ACTIVITY,ACT.physical_recreation.darts,Darts,飞镖,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.fishing,Node;ACTIVITY,ACT.physical_recreation.fishing,Fishing,钓鱼,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.fishing.fly_fishing,Node;ACTIVITY,ACT.physical_recreation.fishing.fly_fishing,Fly Fishing,飞钓,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.fishing.ice_fishing,Node;ACTIVITY,ACT.physical_recreation.fishing.ice_fishing,Ice Fishing,冰钓,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.golf,Node;ACTIVITY,ACT.physical_recreation.golf,Golf,高尔夫,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.horseback_riding,Node;ACTIVITY,ACT.physical_recreation.horseback_riding,Horseback Riding,骑马,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.hunting,Node;ACTIVITY,ACT.physical_recreation.hunting,Hunting,狩猎,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.hunting.bow_hunting,Node;ACTIVITY,ACT.physical_recreation.hunting.bow_hunting,Bow Hunting,弓箭狩猎,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.ice_skating,Node;ACTIVITY,ACT.physical_recreation.ice_skating,Ice Skating,滑冰,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.pickleball,Node;ACTIVITY,ACT.physical_recreation.pickleball,Pickleball,匹克球,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.pilates,Node;ACTIVITY,ACT.physical_recreation.pilates,Pilates,普拉提,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.running_jogging,Node;ACTIVITY,ACT.physical_recreation.running_jogging,Running & Jogging,跑步,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.running_jogging.marathon_running,Node;ACTIVITY,ACT.physical_recreation.running_jogging.marathon_running,Marathon Running,马拉松,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.running_jogging.trail_running,Node;ACTIVITY,ACT.physical_recreation.running_jogging.trail_running,Trail Running,越野跑,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.running_jogging.ultra_running,Node;ACTIVITY,ACT.physical_recreation.running_jogging.ultra_running,Ultra Running,超级马拉松,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.stand_up_paddleboarding,Node;ACTIVITY,ACT.physical_recreation.stand_up_paddleboarding,Stand-Up Paddleboarding,桨板,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.swimming,Node;ACTIVITY,ACT.physical_recreation.swimming,Swimming,游泳,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.swimming.open_water_swimming,Node;ACTIVITY,ACT.physical_recreation.swimming.open_water_swimming,Open Water Swimming,公开水域游泳,ACTIVITY,ACTIVITIES,3
+ACT.physical_recreation.table_tennis,Node;ACTIVITY,ACT.physical_recreation.table_tennis,Table Tennis,乒乓球,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.triathlon,Node;ACTIVITY,ACT.physical_recreation.triathlon,Triathlon,铁人三项,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.ultimate_frisbee,Node;ACTIVITY,ACT.physical_recreation.ultimate_frisbee,Ultimate Frisbee,极限飞盘,ACTIVITY,ACTIVITIES,2
+ACT.physical_recreation.yoga,Node;ACTIVITY,ACT.physical_recreation.yoga,Yoga,瑜伽,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies,Node;ACTIVITY,ACT.science_hobbies,Science & Technical Hobbies,科技爱好,ACTIVITY,ACTIVITIES,1
+ACT.science_hobbies.amateur_archaeology,Node;ACTIVITY,ACT.science_hobbies.amateur_archaeology,Amateur Archaeology,业余考古,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.amateur_astronomy,Node;ACTIVITY,ACT.science_hobbies.amateur_astronomy,Amateur Astronomy,业余天文学,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.amateur_astronomy.astrophotography,Node;ACTIVITY,ACT.science_hobbies.amateur_astronomy.astrophotography,Astrophotography,天文摄影,ACTIVITY,ACTIVITIES,3
+ACT.science_hobbies.amateur_astronomy.telescope_making,Node;ACTIVITY,ACT.science_hobbies.amateur_astronomy.telescope_making,Telescope Making,望远镜制作,ACTIVITY,ACTIVITIES,3
+ACT.science_hobbies.amateur_astronomy.variable_star_observation,Node;ACTIVITY,ACT.science_hobbies.amateur_astronomy.variable_star_observation,Variable Star Observation,变星观测,ACTIVITY,ACTIVITIES,3
+ACT.science_hobbies.amateur_radio,Node;ACTIVITY,ACT.science_hobbies.amateur_radio,Amateur Radio,业余无线电,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.amateur_radio.dxing,Node;ACTIVITY,ACT.science_hobbies.amateur_radio.dxing,DXing,远距离通信,ACTIVITY,ACTIVITIES,3
+ACT.science_hobbies.amateur_radio.morse_code_operation,Node;ACTIVITY,ACT.science_hobbies.amateur_radio.morse_code_operation,Morse Code Operation,摩尔斯电码通信,ACTIVITY,ACTIVITIES,3
+ACT.science_hobbies.amateur_radio.radio_contesting,Node;ACTIVITY,ACT.science_hobbies.amateur_radio.radio_contesting,Radio Contesting,无线电竞赛,ACTIVITY,ACTIVITIES,3
+ACT.science_hobbies.amateur_radio.radio_direction_finding,Node;ACTIVITY,ACT.science_hobbies.amateur_radio.radio_direction_finding,Radio Direction Finding,无线电测向,ACTIVITY,ACTIVITIES,3
+ACT.science_hobbies.citizen_science,Node;ACTIVITY,ACT.science_hobbies.citizen_science,Citizen Science,公民科学,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.citizen_science.bio_blitzing,Node;ACTIVITY,ACT.science_hobbies.citizen_science.bio_blitzing,Bio-Blitzing,生物多样性速查,ACTIVITY,ACTIVITIES,3
+ACT.science_hobbies.diy_biology,Node;ACTIVITY,ACT.science_hobbies.diy_biology,DIY Biology,公民生物,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.drone_flying,Node;ACTIVITY,ACT.science_hobbies.drone_flying,Drone Flying,无人机飞行,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.electronics_hobby,Node;ACTIVITY,ACT.science_hobbies.electronics_hobby,Electronics Hobby,电子制作,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.fossil_hunting,Node;ACTIVITY,ACT.science_hobbies.fossil_hunting,Fossil Hunting,化石采集,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.genealogy,Node;ACTIVITY,ACT.science_hobbies.genealogy,Genealogy,家谱研究,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.hobby_robotics,Node;ACTIVITY,ACT.science_hobbies.hobby_robotics,Hobby Robotics,机器人制作,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.home_chemistry,Node;ACTIVITY,ACT.science_hobbies.home_chemistry,Home Chemistry,家庭化学实验,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.insect_collecting,Node;ACTIVITY,ACT.science_hobbies.insect_collecting,Insect Collecting,昆虫采集,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.magnet_fishing,Node;ACTIVITY,ACT.science_hobbies.magnet_fishing,Magnet Fishing,磁力钓鱼,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.metal_detecting,Node;ACTIVITY,ACT.science_hobbies.metal_detecting,Metal Detecting,金属探测,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.microscopy_hobby,Node;ACTIVITY,ACT.science_hobbies.microscopy_hobby,Microscopy Hobby,显微镜爱好,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.model_rocketry,Node;ACTIVITY,ACT.science_hobbies.model_rocketry,Model Rocketry,模型火箭,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.rockhounding,Node;ACTIVITY,ACT.science_hobbies.rockhounding,Rockhounding,矿物采集,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.shortwave_listening,Node;ACTIVITY,ACT.science_hobbies.shortwave_listening,Shortwave Listening,短波收听,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.weather_spotting,Node;ACTIVITY,ACT.science_hobbies.weather_spotting,Amateur Meteorology,业余气象,ACTIVITY,ACTIVITIES,2
+ACT.science_hobbies.weather_spotting.storm_chasing,Node;ACTIVITY,ACT.science_hobbies.weather_spotting.storm_chasing,Storm Chasing,追逐风暴,ACTIVITY,ACTIVITIES,3
+ACT.traditional,Node;ACTIVITY,ACT.traditional,"Traditional, Folk & Regional Activities",传统民俗与地域活动,ACTIVITY,ACTIVITIES,1
+ACT.traditional.bonsai,Node;ACTIVITY,ACT.traditional.bonsai,Bonsai,盆栽,ACTIVITY,ACTIVITIES,2
+ACT.traditional.calligraphy_hobby,Node;ACTIVITY,ACT.traditional.calligraphy_hobby,Calligraphy Hobby,书法,ACTIVITY,ACTIVITIES,2
+ACT.traditional.chinese_knotting,Node;ACTIVITY,ACT.traditional.chinese_knotting,Chinese Knotting,中国结,ACTIVITY,ACTIVITIES,2
+ACT.traditional.diabolo,Node;ACTIVITY,ACT.traditional.diabolo,Diabolo,抖空竹,ACTIVITY,ACTIVITIES,2
+ACT.traditional.dragon_boat,Node;ACTIVITY,ACT.traditional.dragon_boat,Dragon Boat,龙舟,ACTIVITY,ACTIVITIES,2
+ACT.traditional.dragon_dance,Node;ACTIVITY,ACT.traditional.dragon_dance,Dragon Dance,舞龙,ACTIVITY,ACTIVITIES,2
+ACT.traditional.folk_games,Node;ACTIVITY,ACT.traditional.folk_games,Folk Games,民间游戏,ACTIVITY,ACTIVITIES,2
+ACT.traditional.folk_games.jianzi,Node;ACTIVITY,ACT.traditional.folk_games.jianzi,Jianzi,踢毽子,ACTIVITY,ACTIVITIES,3
+ACT.traditional.folk_games.petanque,Node;ACTIVITY,ACT.traditional.folk_games.petanque,Petanque,法式滚球,ACTIVITY,ACTIVITIES,3
+ACT.traditional.folk_instrument_playing,Node;ACTIVITY,ACT.traditional.folk_instrument_playing,Folk Instrument Playing,民间乐器演奏,ACTIVITY,ACTIVITIES,2
+ACT.traditional.ikebana,Node;ACTIVITY,ACT.traditional.ikebana,Ikebana,花道,ACTIVITY,ACTIVITIES,2
+ACT.traditional.kite_flying,Node;ACTIVITY,ACT.traditional.kite_flying,Kite Flying,放风筝,ACTIVITY,ACTIVITIES,2
+ACT.traditional.lion_dance,Node;ACTIVITY,ACT.traditional.lion_dance,Lion Dance,舞狮,ACTIVITY,ACTIVITIES,2
+ACT.traditional.local_festivals,Node;ACTIVITY,ACT.traditional.local_festivals,Local Festivals,地方节庆,ACTIVITY,ACTIVITIES,2
+ACT.traditional.martial_arts_practice,Node;ACTIVITY,ACT.traditional.martial_arts_practice,Martial Arts Practice,武术练习,ACTIVITY,ACTIVITIES,2
+ACT.traditional.martial_arts_practice.aikido,Node;ACTIVITY,ACT.traditional.martial_arts_practice.aikido,Aikido,合气道,ACTIVITY,ACTIVITIES,3
+ACT.traditional.martial_arts_practice.capoeira,Node;ACTIVITY,ACT.traditional.martial_arts_practice.capoeira,Capoeira,卡波耶拉,ACTIVITY,ACTIVITIES,3
+ACT.traditional.martial_arts_practice.judo,Node;ACTIVITY,ACT.traditional.martial_arts_practice.judo,Judo,柔道,ACTIVITY,ACTIVITIES,3
+ACT.traditional.martial_arts_practice.karate,Node;ACTIVITY,ACT.traditional.martial_arts_practice.karate,Karate,空手道,ACTIVITY,ACTIVITIES,3
+ACT.traditional.martial_arts_practice.kung_fu_wushu,Node;ACTIVITY,ACT.traditional.martial_arts_practice.kung_fu_wushu,Kung Fu / Wushu,功夫武术,ACTIVITY,ACTIVITIES,3
+ACT.traditional.martial_arts_practice.taekwondo,Node;ACTIVITY,ACT.traditional.martial_arts_practice.taekwondo,Taekwondo,跆拳道,ACTIVITY,ACTIVITIES,3
+ACT.traditional.martial_arts_practice.tai_chi,Node;ACTIVITY,ACT.traditional.martial_arts_practice.tai_chi,Tai Chi,太极拳,ACTIVITY,ACTIVITIES,3
+ACT.traditional.origami,Node;ACTIVITY,ACT.traditional.origami,Origami,折纸,ACTIVITY,ACTIVITIES,2
+ACT.traditional.paper_cutting,Node;ACTIVITY,ACT.traditional.paper_cutting,Paper Cutting,剪纸,ACTIVITY,ACTIVITIES,2
+ACT.traditional.rangoli,Node;ACTIVITY,ACT.traditional.rangoli,Rangoli,兰戈利,ACTIVITY,ACTIVITIES,2
+ACT.traditional.seal_carving,Node;ACTIVITY,ACT.traditional.seal_carving,Seal Carving,篆刻,ACTIVITY,ACTIVITIES,2
+ACT.traditional.shadow_puppetry,Node;ACTIVITY,ACT.traditional.shadow_puppetry,Shadow Puppetry,皮影戏,ACTIVITY,ACTIVITIES,2
+ACT.traditional.tea_ceremony,Node;ACTIVITY,ACT.traditional.tea_ceremony,Tea Ceremony,茶道,ACTIVITY,ACTIVITIES,2
+ACT.traditional.tea_ceremony.chinese_tea_ceremony,Node;ACTIVITY,ACT.traditional.tea_ceremony.chinese_tea_ceremony,Chinese Tea Ceremony,功夫茶,ACTIVITY,ACTIVITIES,3
+ACT.traditional.tea_ceremony.japanese_tea_ceremony,Node;ACTIVITY,ACT.traditional.tea_ceremony.japanese_tea_ceremony,Japanese Tea Ceremony,日本茶道,ACTIVITY,ACTIVITIES,3
+ACT.traditional.traditional_dance,Node;ACTIVITY,ACT.traditional.traditional_dance,Traditional Dance,传统舞蹈,ACTIVITY,ACTIVITIES,2
+ACT.traditional.traditional_dance.chinese_folk_dance,Node;ACTIVITY,ACT.traditional.traditional_dance.chinese_folk_dance,Chinese Folk Dance,中国民间舞,ACTIVITY,ACTIVITIES,3
+ACT.traditional.traditional_dance.flamenco,Node;ACTIVITY,ACT.traditional.traditional_dance.flamenco,Flamenco,弗拉门戈,ACTIVITY,ACTIVITIES,3
+ACT.traditional.traditional_dance.irish_dance,Node;ACTIVITY,ACT.traditional.traditional_dance.irish_dance,Irish Dance,爱尔兰舞,ACTIVITY,ACTIVITIES,3
+ACT.traditional.traditional_dance.square_dance,Node;ACTIVITY,ACT.traditional.traditional_dance.square_dance,Square Dance,方块舞,ACTIVITY,ACTIVITIES,3
+ACTIVITIES,Node;UNIVERSE,ACTIVITIES,Activities,人类活动,UNIVERSE,ACTIVITIES,0
 ART.animation,Node;ART_FORM,ART.animation,Animation,动画,ART_FORM,ARTS_AND_CULTURE,1
 ART.animation.2d_animation,Node;ART_TECHNIQUE,ART.animation.2d_animation,2D Animation,二维动画,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.animation.2d_animation.cutout_animation,Node;ART_TECHNIQUE,ART.animation.2d_animation.cutout_animation,Cutout Animation,剪纸动画,ART_TECHNIQUE,ARTS_AND_CULTURE,3

@@ -47,7 +47,7 @@ const METRIC_VOCAB = {
   cultural_visibility: new Set(["negligible","low","moderate","high","very_high","unknown"]),
   economic_weight: new Set(["negligible","low","moderate","high","very_high","unknown"]),
   cultural_weight: new Set(["negligible","low","moderate","high","very_high","unknown"]),
-  method: new Set(["measured","census","survey","model_estimate","qualitative","expert_judgment"]),
+  method: new Set(["measured","census","survey","model_estimate","qualitative","expert_judgment","inherited_estimate"]),
 };
 
 function walk(dir, acc = []) {

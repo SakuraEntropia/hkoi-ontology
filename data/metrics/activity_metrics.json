@@ -1,0 +1,318 @@
+{
+ "ACT.outdoor_adventure": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~500M",
+   "note": "hikers/mountaineers/trekkers worldwide"
+  },
+  "economy": {
+   "est": "~$30B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "outdoor gear + guiding"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "ACT.extreme_sports": {
+  "method": "model_estimate",
+  "confidence": 0.4,
+  "population": {
+   "est": "~20M"
+  },
+  "economy": {
+   "est": "~$10B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "low",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "high",
+  "economic_weight": "low",
+  "cultural_weight": "moderate"
+ },
+ "ACT.science_hobbies": {
+  "method": "model_estimate",
+  "confidence": 0.4,
+  "population": {
+   "est": "~20M",
+   "note": "amateur astronomers, radio operators, citizen scientists"
+  },
+  "economy": {
+   "est": "~$3B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 35
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "low",
+  "cultural_weight": "moderate"
+ },
+ "ACT.making_craft": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~500M",
+   "note": "DIY, crafting, model building"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "hobby/craft supplies"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "ACT.creative_hobbies": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~1B",
+   "note": "amateur photo/music/writing/art"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "ACT.fandom_collecting": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~500M"
+  },
+  "economy": {
+   "est": "~$30B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "collectibles + conventions"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "ACT.gaming": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~3B",
+   "note": "players worldwide"
+  },
+  "economy": {
+   "est": "~$200B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "video games + adjacent"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "ACT.domestic_garden": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~1B",
+   "note": "gardeners + home cooks"
+  },
+  "economy": {
+   "est": "~$100B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "garden/cook supplies"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "ACT.performing_social": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~500M",
+   "note": "amateur dance/singing/theater"
+  },
+  "economy": {
+   "est": "~$20B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "low",
+  "cultural_weight": "very_high"
+ },
+ "ACT.physical_recreation": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~1B",
+   "note": "casual cycling/running/swimming/yoga"
+  },
+  "economy": {
+   "est": "~$100B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "recreation equipment"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "ACT.traditional": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~200M"
+  },
+  "economy": {
+   "est": "~$10B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "very_high",
+  "growth": "declining",
+  "geography": [
+   "global",
+   "Asia/Africa/Indigenous"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "moderate",
+  "economic_weight": "negligible",
+  "cultural_weight": "very_high"
+ },
+ "ACT.online_communities": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~4B",
+   "note": "internet users in communities"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "very_high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ }
+}

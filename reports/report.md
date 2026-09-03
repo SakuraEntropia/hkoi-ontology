@@ -1,11 +1,11 @@
 # HK-OI Ontology Report
 
-Generated: 2026-09-03T06:11:56.385Z
+Generated: 2026-09-03T06:27:50.605Z
 
 ## 1. Summary
 
-- **Nodes**: 12334  (with metrics: 455)
-- **Relations**: 14877
+- **Nodes**: 12713  (with metrics: 10213)
+- **Relations**: 16429
 
 ### By universe
 
@@ -20,6 +20,7 @@ Generated: 2026-09-03T06:11:56.385Z
 | SPORTS_AND_GAMES | 619 |
 | MEDIA_AND_CONTENT | 437 |
 | SOCIAL_ROLES | 398 |
+| ACTIVITIES | 379 |
 | ORGANIZATIONS_AND_INSTITUTIONS | 359 |
 | HISTORICAL_OCCUPATIONS | 297 |
 | EMERGING_FIELDS | 27 |
@@ -28,10 +29,10 @@ Generated: 2026-09-03T06:11:56.385Z
 
 | level | nodes |
 |---|---|
-| L0 | 12 |
-| L1 | 266 |
-| L2 | 2462 |
-| L3 | 6497 |
+| L0 | 13 |
+| L1 | 278 |
+| L2 | 2698 |
+| L3 | 6627 |
 | L4 | 2630 |
 | L5 | 427 |
 | L6 | 40 |
@@ -48,6 +49,7 @@ Generated: 2026-09-03T06:11:56.385Z
 | ART_GENRE | 525 |
 | SPORT | 448 |
 | SOCIAL_ROLE | 411 |
+| ACTIVITY | 378 |
 | MEDIA_FORM | 223 |
 | INSTITUTION | 222 |
 | METHODOLOGY | 217 |
@@ -62,7 +64,7 @@ Generated: 2026-09-03T06:11:56.385Z
 | EMERGING_FIELD | 109 |
 | MATERIAL | 69 |
 | SECTOR | 39 |
-| UNIVERSE | 12 |
+| UNIVERSE | 13 |
 
 ## 2. Civilization Metrics
 
@@ -70,101 +72,103 @@ Generated: 2026-09-03T06:11:56.385Z
 
 | growth | nodes |
 |---|---|
-| stable | 171 |
-| growing | 118 |
+| unknown | 9746 |
+| stable | 173 |
+| growing | 125 |
 | null | 95 |
-| rapidly_growing | 33 |
+| rapidly_growing | 35 |
 | rapidly_declining | 20 |
-| declining | 18 |
+| declining | 19 |
 
 ### Historical significance
 
 | level | nodes |
 |---|---|
-| high | 133 |
+| very_high | 3230 |
+| high | 2885 |
+| foundational | 1661 |
+| unknown | 1293 |
+| moderate | 999 |
 | null | 109 |
-| very_high | 102 |
-| moderate | 66 |
-| foundational | 40 |
-| low | 3 |
-| unknown | 2 |
+| low | 36 |
 
 ### Economic vs cultural weight (NOT ranked by economics)
 
 | economic_weight | cultural_weight | nodes |
 |---|---|---|
+| very_high | moderate | 1298 |
+| unknown | unknown | 1256 |
+| very_high | high | 1115 |
+| high | very_high | 920 |
+| very_high | very_high | 774 |
+| moderate | high | 588 |
+| moderate | very_high | 556 |
+| low | high | 538 |
+| high | high | 536 |
+| negligible | moderate | 416 |
+| low | very_high | 401 |
+| very_high | low | 351 |
+| low | moderate | 262 |
+| negligible | high | 230 |
+| high | moderate | 200 |
+| negligible | very_high | 196 |
+| moderate | moderate | 193 |
+| high | low | 164 |
 | null | null | 109 |
-| negligible | high | 33 |
-| negligible | moderate | 31 |
-| very_high | moderate | 30 |
-| very_high | high | 26 |
-| high | very_high | 25 |
-| moderate | high | 25 |
-| low | high | 22 |
-| high | high | 18 |
-| low | moderate | 17 |
-| very_high | very_high | 17 |
-| moderate | very_high | 16 |
-| low | very_high | 15 |
-| high | low | 14 |
-| negligible | very_high | 14 |
-| moderate | moderate | 12 |
-| very_high | low | 12 |
-| high | moderate | 9 |
-| moderate | low | 7 |
-| low | low | 2 |
+| moderate | low | 91 |
 
 ### Fields where cultural weight exceeds economic weight (culture-first nodes)
 
 - Social Roles (cultural very_high / economic low)
+- Performing & Social (cultural very_high / economic low)
+- Traditional, Folk & Regional Activities (cultural very_high / economic negligible)
 - Craft (cultural high / economic low)
-- Digital Art (cultural high / economic low)
-- Performing Arts (cultural very_high / economic low)
-- Metaphysics (cultural very_high / economic negligible)
-- Epistemology (cultural very_high / economic negligible)
-- Aesthetics (cultural very_high / economic low)
-- Philosophy of Mind (cultural high / economic negligible)
-- Philosophy of Language (cultural high / economic negligible)
-- Philosophy of Science (cultural high / economic low)
-- Philosophy of Religion (cultural high / economic negligible)
-- Philosophy of Law (cultural high / economic low)
-- Social Philosophy (cultural high / economic negligible)
-- History of Philosophy (cultural very_high / economic negligible)
-- Philosophy of Technology (cultural high / economic low)
-- Philosophy of Education (cultural high / economic negligible)
-- Historiography (cultural high / economic negligible)
-- Prehistory (cultural high / economic negligible)
-- Ancient History (cultural very_high / economic negligible)
-- Medieval History (cultural high / economic negligible)
-- Early Modern History (cultural high / economic negligible)
-- Modern History (cultural very_high / economic negligible)
-- Contemporary History (cultural high / economic negligible)
-- World History (cultural high / economic negligible)
-- Social History (cultural high / economic negligible)
-- Cultural History (cultural high / economic negligible)
-- Economic History (cultural high / economic low)
-- Political History (cultural high / economic negligible)
-- Military History (cultural high / economic negligible)
-- Intellectual History (cultural high / economic negligible)
-- Environmental History (cultural high / economic negligible)
-- History of Science (cultural high / economic negligible)
-- History of Medicine (cultural high / economic negligible)
-- History of Technology (cultural high / economic negligible)
-- Oral History (cultural high / economic negligible)
-- History of Africa (cultural high / economic negligible)
-- History of Asia (cultural very_high / economic negligible)
-- History of Europe (cultural high / economic negligible)
-- History of the Americas (cultural high / economic negligible)
-- Poetry (cultural very_high / economic low)
+- Basketry (cultural high / economic low)
+- Bookbinding (cultural high / economic low)
+- Glazing (cultural high / economic low)
+- Hand Building (cultural high / economic low)
+- Kiln Firing (cultural high / economic low)
+- Earthenware (cultural high / economic low)
+- Porcelain (cultural high / economic low)
+- Raku Ware (cultural high / economic low)
+- Stoneware (cultural high / economic low)
+- Wheel Throwing (cultural high / economic low)
+- Fused Glass (cultural high / economic low)
+- Glassblowing (cultural high / economic low)
+- Glass Casting (cultural high / economic low)
+- Lampworking (cultural high / economic low)
+- Ikebana (cultural high / economic low)
+- Filigree (cultural high / economic low)
+- Gem Setting (cultural high / economic low)
+- Urushi (cultural high / economic low)
+- Leatherwork (cultural high / economic low)
+- Blacksmithing (cultural high / economic low)
+- Bronze Casting (cultural high / economic low)
+- Enameling (cultural high / economic low)
+- Goldsmithing (cultural high / economic low)
+- Silversmithing (cultural high / economic low)
+- Origami (cultural high / economic low)
+- Papermaking (cultural high / economic low)
+- Batik (cultural high / economic low)
+- Crochet (cultural high / economic low)
+- Dyeing (cultural high / economic low)
+- Embroidery (cultural high / economic low)
+- Feltmaking (cultural high / economic low)
+- Knitting (cultural high / economic low)
+- Lace Making (cultural high / economic low)
+- Quilting (cultural high / economic low)
+- Spinning (cultural high / economic low)
+- Tapestry (cultural high / economic low)
 
 ### Data confidence (distribution)
 
 | confidence | nodes |
 |---|---|
 | null | 14 |
-| 0.4 | 5 |
-| 0.45 | 218 |
-| 0.5 | 129 |
+| 0.2 | 9746 |
+| 0.4 | 7 |
+| 0.45 | 225 |
+| 0.5 | 132 |
 | 0.55 | 33 |
 | 0.6 | 55 |
 | 0.7 | 1 |
@@ -173,7 +177,8 @@ Generated: 2026-09-03T06:11:56.385Z
 
 | method | nodes |
 |---|---|
-| model_estimate | 193 |
+| inherited_estimate | 9746 |
+| model_estimate | 205 |
 | expert_judgment | 170 |
 | qualitative | 78 |
 | null | 14 |
@@ -187,6 +192,7 @@ Generated: 2026-09-03T06:11:56.385Z
 | EMERGING_FIELDS | 26 | ⚠ under-developed |
 | HISTORICAL_OCCUPATIONS | 296 | ok |
 | ORGANIZATIONS_AND_INSTITUTIONS | 358 | ok |
+| ACTIVITIES | 378 | ok |
 | SOCIAL_ROLES | 397 | ok |
 | MEDIA_AND_CONTENT | 436 | ok |
 | SPORTS_AND_GAMES | 618 | ok |
@@ -211,6 +217,7 @@ Generated: 2026-09-03T06:11:56.385Z
 | TECHNOLOGIES | 5 |
 | HISTORICAL_OCCUPATIONS | 4 |
 | ORGANIZATIONS_AND_INSTITUTIONS | 4 |
+| ACTIVITIES | 3 |
 | SOCIAL_ROLES | 3 |
 | EMERGING_FIELDS | 1 |
 
@@ -219,12 +226,12 @@ Generated: 2026-09-03T06:11:56.385Z
 | relation | count |
 |---|---|
 | SUBFIELD_OF | 5519 |
+| OVERLAPS_WITH | 2030 |
 | SPECIALIZATION_OF | 1983 |
-| SUBTYPE_OF | 1508 |
-| OVERLAPS_WITH | 902 |
+| SUBTYPE_OF | 1886 |
 | PART_OF | 783 |
 | SUBTECHNOLOGY_OF | 715 |
-| RELATED_TO | 531 |
+| RELATED_TO | 577 |
 | SUBGENRE_OF | 526 |
 | SUBSPORT_OF | 448 |
 | APPLICATION_OF | 369 |
@@ -252,6 +259,7 @@ Generated: 2026-09-03T06:11:56.385Z
 ### D. Duplication — identical names
 
 Potential duplicate names: 30
+- Weaving (x4)
 - Synthetic Biology (x4)
 - Semiconductor Materials (x4)
 - Public Relations (x4)
@@ -260,13 +268,15 @@ Potential duplicate names: 30
 - Natural Language Processing (x4)
 - Medical Devices (x4)
 - Landscape Architecture (x4)
+- Knitting (x4)
 - Interior Design (x4)
 - Higher Education (x4)
 - Geodesy (x4)
 - Genomics (x4)
 - Bioprinting (x4)
 - Biomaterials (x4)
-- Weaving (x3)
+- Woodworking (x3)
+- Wildlife Photography (x3)
 - Water Treatment (x3)
 - Wastewater Treatment (x3)
 - Waste-to-Energy (x3)
@@ -279,12 +289,9 @@ Potential duplicate names: 30
 - Transcriptomics (x3)
 - Traditional Chinese Medicine (x3)
 - Town Crier (x3)
-- Tissue Engineering (x3)
-- Thriller (x3)
-- Textile Machinery (x3)
 
 ### F. Cultural bias — region-specific nodes
-- region-specific (global=false): 903
+- region-specific (global=false): 932
 
 ### G. Historical — extinct categories
 - historical: 501
@@ -360,6 +367,7 @@ Potential duplicate names: 30
 - Sociologist: 1
 
 ### Q. 哪些产业拥有最多不同职业? (industry -> occupation links)
+- Aviation: 1
 - Semiconductor Industry: 1
 
 ### Q. 关联最多的节点 (most cross-linked)
@@ -381,10 +389,10 @@ Potential duplicate names: 30
 | Artificial Intelligence | 6 |
 | Computer Vision | 6 |
 | Energy & Power Generation | 6 |
+| Artificial Intelligence | 6 |
 | Medical Devices | 6 |
 | Landscape Architecture | 5 |
 | Interior Design | 5 |
-| Bioinformatics | 5 |
 
 ## 5. Method note
 
