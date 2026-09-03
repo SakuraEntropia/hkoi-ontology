@@ -1,0 +1,386 @@
+[
+ {
+  "id": "HK.physics.condensed_matter_physics.solid_state_physics.band_theory",
+  "name": "Band Theory",
+  "name_en": "Band Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.solid_state_physics",
+  "name_zh": "能带理论"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.solid_state_physics.crystal_structure",
+  "name": "Crystal Structure",
+  "name_en": "Crystal Structure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.solid_state_physics",
+  "name_zh": "晶体结构"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.solid_state_physics.phonons",
+  "name": "Phonons",
+  "name_en": "Phonons",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.solid_state_physics",
+  "name_zh": "声子"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.solid_state_physics.electronic_structure",
+  "name": "Electronic Structure",
+  "name_en": "Electronic Structure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.solid_state_physics",
+  "name_zh": "电子结构"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.superconductivity.bcs_theory",
+  "name": "BCS Theory",
+  "name_en": "BCS Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.superconductivity",
+  "name_zh": "BCS理论"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.superconductivity.high_temperature_superconductivity",
+  "name": "High-Temperature Superconductivity",
+  "name_en": "High-Temperature Superconductivity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.superconductivity",
+  "name_zh": "高温超导"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.superconductivity.unconventional_superconductivity",
+  "name": "Unconventional Superconductivity",
+  "name_en": "Unconventional Superconductivity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.superconductivity",
+  "name_zh": "非常规超导"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.topological_matter.topological_insulators",
+  "name": "Topological Insulators",
+  "name_en": "Topological Insulators",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.topological_matter",
+  "name_zh": "拓扑绝缘体"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.topological_matter.weyl_semimetals",
+  "name": "Weyl Semimetals",
+  "name_en": "Weyl Semimetals",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.topological_matter",
+  "name_zh": "外尔半金属"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.topological_matter.quantum_spin_liquids",
+  "name": "Quantum Spin Liquids",
+  "name_en": "Quantum Spin Liquids",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.topological_matter",
+  "name_zh": "量子自旋液体"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.magnetism.ferromagnetism",
+  "name": "Ferromagnetism",
+  "name_en": "Ferromagnetism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.magnetism",
+  "name_zh": "铁磁性"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.magnetism.antiferromagnetism",
+  "name": "Antiferromagnetism",
+  "name_en": "Antiferromagnetism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.magnetism",
+  "name_zh": "反铁磁性"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.magnetism.spin_glasses",
+  "name": "Spin Glasses",
+  "name_en": "Spin Glasses",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.magnetism",
+  "name_zh": "自旋玻璃"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.soft_matter.liquid_crystals",
+  "name": "Liquid Crystals",
+  "name_en": "Liquid Crystals",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.soft_matter",
+  "name_zh": "液晶"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.soft_matter.polymers",
+  "name": "Polymers",
+  "name_en": "Polymers",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.soft_matter",
+  "name_zh": "聚合物"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.soft_matter.colloids",
+  "name": "Colloids",
+  "name_en": "Colloids",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics.soft_matter",
+  "name_zh": "胶体"
+ },
+ {
+  "id": "HK.physics.nuclear_physics.nuclear_structure.nuclear_models",
+  "name": "Nuclear Models",
+  "name_en": "Nuclear Models",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.nuclear_physics.nuclear_structure",
+  "name_zh": "核模型"
+ },
+ {
+  "id": "HK.physics.nuclear_physics.nuclear_structure.nuclear_magic_numbers",
+  "name": "Nuclear Magic Numbers",
+  "name_en": "Nuclear Magic Numbers",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.nuclear_physics.nuclear_structure",
+  "name_zh": "核幻数"
+ },
+ {
+  "id": "HK.physics.astrophysics.stellar_astrophysics.stellar_evolution",
+  "name": "Stellar Evolution",
+  "name_en": "Stellar Evolution",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.stellar_astrophysics",
+  "name_zh": "恒星演化"
+ },
+ {
+  "id": "HK.physics.astrophysics.stellar_astrophysics.stellar_nucleosynthesis",
+  "name": "Stellar Nucleosynthesis",
+  "name_en": "Stellar Nucleosynthesis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.stellar_astrophysics",
+  "name_zh": "恒星核合成"
+ },
+ {
+  "id": "HK.physics.astrophysics.stellar_astrophysics.supernovae",
+  "name": "Supernovae",
+  "name_en": "Supernovae",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.stellar_astrophysics",
+  "name_zh": "超新星"
+ },
+ {
+  "id": "HK.physics.astrophysics.stellar_astrophysics.neutron_stars",
+  "name": "Neutron Stars",
+  "name_en": "Neutron Stars",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.stellar_astrophysics",
+  "name_zh": "中子星"
+ },
+ {
+  "id": "HK.physics.astrophysics.stellar_astrophysics.white_dwarfs",
+  "name": "White Dwarfs",
+  "name_en": "White Dwarfs",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.stellar_astrophysics",
+  "name_zh": "白矮星"
+ },
+ {
+  "id": "HK.physics.astrophysics.compact_objects.black_holes",
+  "name": "Black Holes",
+  "name_en": "Black Holes",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.compact_objects",
+  "name_zh": "黑洞"
+ },
+ {
+  "id": "HK.physics.astrophysics.compact_objects.pulsars",
+  "name": "Pulsars",
+  "name_en": "Pulsars",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.compact_objects",
+  "name_zh": "脉冲星"
+ },
+ {
+  "id": "HK.physics.astrophysics.compact_objects.magnetars",
+  "name": "Magnetars",
+  "name_en": "Magnetars",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.compact_objects",
+  "name_zh": "磁星"
+ },
+ {
+  "id": "HK.physics.astrophysics.high_energy_astrophysics.cosmic_rays",
+  "name": "Cosmic Rays",
+  "name_en": "Cosmic Rays",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.high_energy_astrophysics",
+  "name_zh": "宇宙线"
+ },
+ {
+  "id": "HK.physics.astrophysics.high_energy_astrophysics.gamma_ray_astronomy",
+  "name": "Gamma-Ray Astronomy",
+  "name_en": "Gamma-Ray Astronomy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.high_energy_astrophysics",
+  "name_zh": "伽马射线天文学"
+ },
+ {
+  "id": "HK.physics.astrophysics.high_energy_astrophysics.x_ray_astronomy",
+  "name": "X-Ray Astronomy",
+  "name_en": "X-Ray Astronomy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics.high_energy_astrophysics",
+  "name_zh": "X射线天文学"
+ },
+ {
+  "id": "HK.physics.cosmology.early_universe.inflation",
+  "name": "Inflation",
+  "name_en": "Inflation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology.early_universe",
+  "name_zh": "暴胀"
+ },
+ {
+  "id": "HK.physics.cosmology.early_universe.baryogenesis",
+  "name": "Baryogenesis",
+  "name_en": "Baryogenesis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology.early_universe",
+  "name_zh": "重子生成"
+ },
+ {
+  "id": "HK.physics.cosmology.early_universe.big_bang_nucleosynthesis",
+  "name": "Big Bang Nucleosynthesis",
+  "name_en": "Big Bang Nucleosynthesis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology.early_universe",
+  "name_zh": "大爆炸核合成"
+ },
+ {
+  "id": "HK.physics.cosmology.observational_cosmology.redshift_surveys",
+  "name": "Redshift Surveys",
+  "name_en": "Redshift Surveys",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology.observational_cosmology",
+  "name_zh": "红移巡天"
+ },
+ {
+  "id": "HK.physics.cosmology.observational_cosmology.weak_lensing",
+  "name": "Weak Lensing",
+  "name_en": "Weak Lensing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology.observational_cosmology",
+  "name_zh": "弱引力透镜"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.atomic_physics.atomic_structure",
+  "name": "Atomic Structure",
+  "name_en": "Atomic Structure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical.atomic_physics",
+  "name_zh": "原子结构"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.atomic_physics.atomic_spectroscopy",
+  "name": "Atomic Spectroscopy",
+  "name_en": "Atomic Spectroscopy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical.atomic_physics",
+  "name_zh": "原子光谱"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.atomic_physics.atom_interferometry",
+  "name": "Atom Interferometry",
+  "name_en": "Atom Interferometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical.atomic_physics",
+  "name_zh": "原子干涉测量"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.quantum_optics.cavity_qed",
+  "name": "Cavity QED",
+  "name_en": "Cavity QED",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical.quantum_optics",
+  "name_zh": "腔量子电动力学"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.quantum_optics.quantum_optomechanics",
+  "name": "Quantum Optomechanics",
+  "name_en": "Quantum Optomechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical.quantum_optics",
+  "name_zh": "量子光力学"
+ },
+ {
+  "id": "HK.physics.plasma_physics.space_plasma_physics.solar_wind",
+  "name": "Solar Wind",
+  "name_en": "Solar Wind",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.plasma_physics.space_plasma_physics",
+  "name_zh": "太阳风"
+ },
+ {
+  "id": "HK.physics.plasma_physics.space_plasma_physics.magnetosphere_physics",
+  "name": "Magnetosphere Physics",
+  "name_en": "Magnetosphere Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.plasma_physics.space_plasma_physics",
+  "name_zh": "磁层物理"
+ },
+ {
+  "id": "HK.physics.particle_physics.neutrino_physics.neutrino_oscillations",
+  "name": "Neutrino Oscillations",
+  "name_en": "Neutrino Oscillations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.particle_physics.neutrino_physics",
+  "name_zh": "中微子振荡"
+ },
+ {
+  "id": "HK.physics.particle_physics.neutrino_physics.solar_neutrinos",
+  "name": "Solar Neutrinos",
+  "name_en": "Solar Neutrinos",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.particle_physics.neutrino_physics",
+  "name_zh": "太阳中微子"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.string_theory.heterotic_string_theory",
+  "name": "Heterotic String Theory",
+  "name_en": "Heterotic String Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "name_zh": "杂化弦理论"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.string_theory.type_ii_string_theory",
+  "name": "Type II String Theory",
+  "name_en": "Type II String Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "name_zh": "II型弦理论"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.string_theory.ads_cft_correspondence",
+  "name": "AdS/CFT Correspondence",
+  "name_en": "AdS/CFT Correspondence",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "name_zh": "AdS/CFT对偶"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.gauge_theory.yang_mills_theory",
+  "name": "Yang-Mills Theory",
+  "name_en": "Yang-Mills Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory.gauge_theory",
+  "name_zh": "杨-米尔斯理论"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.gauge_theory.topological_field_theory",
+  "name": "Topological Field Theory",
+  "name_en": "Topological Field Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory.gauge_theory",
+  "name_zh": "拓扑场论"
+ }
+]

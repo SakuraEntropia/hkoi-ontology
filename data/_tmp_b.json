@@ -1,0 +1,2363 @@
+[
+ {
+  "id": "ind.manufacturing",
+  "name": "Manufacturing",
+  "type": "SECTOR",
+  "parent": "INDUSTRIES",
+  "description": "Transformation of materials and components into finished goods by physical, chemical and mechanical processes.",
+  "name_zh": "制造业"
+ },
+ {
+  "id": "ind.manufacturing.food",
+  "name": "Food & Beverage Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Processing of agricultural products into food and beverages.",
+  "name_zh": "食品饮料制造"
+ },
+ {
+  "id": "ind.manufacturing.food.meat_processing",
+  "name": "Meat Processing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Slaughtering, cutting and processing of livestock into meat products.",
+  "name_zh": "肉类加工"
+ },
+ {
+  "id": "ind.manufacturing.food.dairy_products",
+  "name": "Dairy Products",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Processing of milk into cheese, butter, yogurt and powders.",
+  "name_zh": "乳制品"
+ },
+ {
+  "id": "ind.manufacturing.food.grain_milling",
+  "name": "Grain Milling",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Milling of wheat, rice and maize into flour, starch and feeds.",
+  "name_zh": "粮食加工"
+ },
+ {
+  "id": "ind.manufacturing.food.bakery",
+  "name": "Bakery & Baked Goods",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Industrial and artisan production of bread, pastry and biscuits.",
+  "name_zh": "烘焙食品"
+ },
+ {
+  "id": "ind.manufacturing.food.sugar_refining",
+  "name": "Sugar Refining",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Refining of cane and beet sugar and molasses.",
+  "name_zh": "制糖"
+ },
+ {
+  "id": "ind.manufacturing.food.confectionery",
+  "name": "Confectionery & Chocolate",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Manufacture of chocolate, candy and chewing gum.",
+  "name_zh": "糖果制造"
+ },
+ {
+  "id": "ind.manufacturing.food.edible_oils",
+  "name": "Edible Oil Processing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Extraction and refining of vegetable oils and fats.",
+  "name_zh": "食用油加工"
+ },
+ {
+  "id": "ind.manufacturing.food.frozen_food",
+  "name": "Frozen & Prepared Food",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Production of frozen and ready-to-eat meals and components.",
+  "name_zh": "冷冻食品"
+ },
+ {
+  "id": "ind.manufacturing.food.canned_food",
+  "name": "Canning & Preserving",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Thermal preservation of fruits, vegetables and meals in sealed containers."
+ },
+ {
+  "id": "ind.manufacturing.food.snacks",
+  "name": "Snack Food Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Production of chips, extruded and baked snack foods.",
+  "name_zh": "休闲食品"
+ },
+ {
+  "id": "ind.manufacturing.food.pet_food",
+  "name": "Pet Food",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Manufacture of nutritionally formulated food for companion animals."
+ },
+ {
+  "id": "ind.manufacturing.food.functional_food",
+  "name": "Functional & Fortified Food",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Foods enhanced with nutrients, probiotics or health claims.",
+  "name_zh": "功能性食品"
+ },
+ {
+  "id": "ind.manufacturing.food.fermented_foods",
+  "name": "Traditional Fermented Foods",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Culturally specific fermented products such as miso, kimchi, tempeh and natto.",
+  "name_zh": "发酵食品",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.food.halal_food",
+  "name": "Halal Food Processing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Food produced under Islamic dietary law and certification.",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.food.beverages",
+  "name": "Beverage Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.food",
+  "description": "Production of soft drinks, bottled water, juices and alcoholic beverages.",
+  "name_zh": "饮料制造"
+ },
+ {
+  "id": "ind.manufacturing.food.beverages.soft_drinks",
+  "name": "Soft Drinks",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food.beverages",
+  "description": "Carbonated and non-carbonated sweetened beverages.",
+  "name_zh": "软饮料"
+ },
+ {
+  "id": "ind.manufacturing.food.beverages.bottled_water",
+  "name": "Bottled Water",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food.beverages",
+  "description": "Purification and bottling of still and sparkling water.",
+  "name_zh": "瓶装水"
+ },
+ {
+  "id": "ind.manufacturing.food.beverages.juices",
+  "name": "Juice & Nectar",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food.beverages",
+  "description": "Extraction and packaging of fruit and vegetable juices."
+ },
+ {
+  "id": "ind.manufacturing.food.beverages.brewery",
+  "name": "Brewing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food.beverages",
+  "description": "Fermentation of malted grain into beer.",
+  "name_zh": "啤酒酿造"
+ },
+ {
+  "id": "ind.manufacturing.food.beverages.winery",
+  "name": "Winemaking",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food.beverages",
+  "description": "Fermentation and aging of grapes into wine.",
+  "name_zh": "葡萄酒酿造"
+ },
+ {
+  "id": "ind.manufacturing.food.beverages.distillery",
+  "name": "Distilling",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food.beverages",
+  "description": "Distillation of spirits such as whisky, vodka, gin and rum.",
+  "name_zh": "烈酒蒸馏"
+ },
+ {
+  "id": "ind.manufacturing.food.beverages.baijiu",
+  "name": "Baijiu Distilling",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food.beverages",
+  "description": "Chinese grain liquor produced by solid-state fermentation.",
+  "name_zh": "白酒",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.food.beverages.sake",
+  "name": "Sake Brewing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food.beverages",
+  "description": "Japanese rice wine brewed from polished rice and koji.",
+  "name_zh": "清酒",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.food.coffee_tea_processing",
+  "name": "Coffee & Tea Processing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Roasting, grinding, blending and packaging of coffee and tea."
+ },
+ {
+  "id": "ind.manufacturing.food.condiments",
+  "name": "Condiments & Sauces",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.food",
+  "description": "Manufacture of sauces, seasonings, vinegar and soy-based condiments.",
+  "name_zh": "调味品"
+ },
+ {
+  "id": "ind.manufacturing.textiles",
+  "name": "Textiles & Apparel",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Processing of fibres into yarn, fabric, garments and footwear.",
+  "name_zh": "纺织服装"
+ },
+ {
+  "id": "ind.manufacturing.textiles.spinning",
+  "name": "Yarn Spinning",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Conversion of staple fibre into yarn by ring, rotor and air-jet spinning."
+ },
+ {
+  "id": "ind.manufacturing.textiles.weaving",
+  "name": "Weaving",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Interlacing of warp and weft yarns into woven fabric.",
+  "name_zh": "织造"
+ },
+ {
+  "id": "ind.manufacturing.textiles.knitting",
+  "name": "Knitting",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Formation of fabric by interlooping yarn in weft or warp knitting."
+ },
+ {
+  "id": "ind.manufacturing.textiles.dyeing_finishing",
+  "name": "Dyeing & Finishing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Colouring, printing and finishing of fabric to specification.",
+  "name_zh": "染整"
+ },
+ {
+  "id": "ind.manufacturing.textiles.nonwovens",
+  "name": "Nonwoven Fabric",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Bonded fibre webs for hygiene, filtration and medical uses."
+ },
+ {
+  "id": "ind.manufacturing.textiles.technical_textiles",
+  "name": "Technical Textiles",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Engineered textiles for automotive, medical, geotechnical and protective use.",
+  "name_zh": "产业用纺织品"
+ },
+ {
+  "id": "ind.manufacturing.textiles.apparel",
+  "name": "Garment Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Cutting, sewing and finishing of clothing.",
+  "name_zh": "服装制造"
+ },
+ {
+  "id": "ind.manufacturing.textiles.footwear",
+  "name": "Footwear Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Manufacture of shoes, boots and sandals.",
+  "name_zh": "制鞋"
+ },
+ {
+  "id": "ind.manufacturing.textiles.leather",
+  "name": "Leather & Leather Goods",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Tanning of hides and manufacture of leather articles.",
+  "name_zh": "皮革"
+ },
+ {
+  "id": "ind.manufacturing.textiles.carpets",
+  "name": "Carpets & Rugs",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Machine and hand manufacture of carpets and rugs.",
+  "name_zh": "地毯"
+ },
+ {
+  "id": "ind.manufacturing.textiles.carpets.persian_carpets",
+  "name": "Persian & Oriental Carpets",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles.carpets",
+  "description": "Hand-knotted carpets of Iranian and Central Asian tradition.",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.textiles.silk_weaving",
+  "name": "Silk Weaving",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Weaving of silk into luxury and traditional fabrics.",
+  "name_zh": "丝绸织造"
+ },
+ {
+  "id": "ind.manufacturing.textiles.handloom",
+  "name": "Handloom Weaving",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Manual weaving traditions such as Indian khadi and West African kente.",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.textiles.batik",
+  "name": "Batik",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Wax-resist dyed cloth of Javanese and Malay tradition.",
+  "name_zh": "蜡染",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.textiles.ikat",
+  "name": "Ikat",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.textiles",
+  "description": "Resist-dyed yarn weaving traditions across Central Asia and Indonesia.",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.wood_paper",
+  "name": "Wood Products & Paper",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of lumber, panels, pulp, paper and packaging.",
+  "name_zh": "木材造纸"
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.sawmilling",
+  "name": "Sawmilling",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Conversion of logs into sawn lumber and boards.",
+  "name_zh": "制材"
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.plywood",
+  "name": "Plywood & Veneer",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Manufacture of plywood, veneer and laminated panels.",
+  "name_zh": "胶合板"
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.engineered_wood",
+  "name": "Engineered Wood",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Manufacture of cross-laminated timber, glulam and structural panels.",
+  "name_zh": "工程木材"
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.millwork",
+  "name": "Millwork & Joinery",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Manufacture of doors, windows, mouldings and architectural woodwork."
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.pulp",
+  "name": "Pulp",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Mechanical and chemical pulping of wood and fibre.",
+  "name_zh": "制浆"
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.paper",
+  "name": "Paper Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Formation and coating of paper for printing, writing and tissue.",
+  "name_zh": "造纸"
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.paperboard",
+  "name": "Paperboard & Containerboard",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Manufacture of board stock for boxes and packaging."
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.corrugated",
+  "name": "Corrugated Packaging",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Conversion of containerboard into corrugated boxes."
+ },
+ {
+  "id": "ind.manufacturing.wood_paper.wood_pellets",
+  "name": "Wood Pellets",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.wood_paper",
+  "description": "Densification of biomass into pellets for bioenergy.",
+  "name_zh": "木颗粒"
+ },
+ {
+  "id": "ind.manufacturing.chemicals",
+  "name": "Chemical Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Production of organic, inorganic and specialty chemicals.",
+  "name_zh": "化学工业"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.petrochemicals",
+  "name": "Petrochemicals",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Conversion of oil and gas feedstocks into basic chemicals and polymers.",
+  "name_zh": "石油化工"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.petrochemicals.olefins",
+  "name": "Olefins & Aromatics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.petrochemicals",
+  "description": "Cracking of naphtha into ethylene, propylene, benzene and xylene."
+ },
+ {
+  "id": "ind.manufacturing.chemicals.petrochemicals.polymers",
+  "name": "Polymer & Resin Production",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.petrochemicals",
+  "description": "Polymerization of monomers into polyethylene, polypropylene and PVC.",
+  "name_zh": "合成树脂"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.base_chemicals",
+  "name": "Basic Inorganic Chemicals",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Production of acids, alkalis, chlorine and industrial salts.",
+  "name_zh": "基础化工"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.industrial_gases",
+  "name": "Industrial Gases",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Production and supply of oxygen, nitrogen, hydrogen and specialty gases.",
+  "name_zh": "工业气体"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.agrochemicals",
+  "name": "Agrochemicals",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Manufacture of fertilizers and crop protection chemicals.",
+  "name_zh": "农用化学品"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.agrochemicals.fertilizers",
+  "name": "Fertilizers",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.agrochemicals",
+  "description": "Production of nitrogen, phosphate and potash fertilizers.",
+  "name_zh": "化肥"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.agrochemicals.pesticides",
+  "name": "Pesticides & Herbicides",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.agrochemicals",
+  "description": "Manufacture of insecticides, fungicides and herbicides.",
+  "name_zh": "农药"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.specialty_chemicals",
+  "name": "Specialty Chemicals",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "High-value chemicals formulated for specific performance functions.",
+  "name_zh": "精细化工"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.specialty_chemicals.coatings",
+  "name": "Paints & Coatings",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.specialty_chemicals",
+  "description": "Manufacture of architectural and industrial paints and coatings.",
+  "name_zh": "涂料"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.specialty_chemicals.adhesives",
+  "name": "Adhesives & Sealants",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.specialty_chemicals",
+  "description": "Manufacture of bonding and sealing formulations.",
+  "name_zh": "胶粘剂"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.specialty_chemicals.catalysts",
+  "name": "Catalysts",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.specialty_chemicals",
+  "description": "Manufacture of catalysts for refining, chemicals and emission control.",
+  "name_zh": "催化剂"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.specialty_chemicals.surfactants",
+  "name": "Surfactants & Detergents",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.specialty_chemicals",
+  "description": "Manufacture of surface-active agents for cleaning and formulations.",
+  "name_zh": "表面活性剂"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.specialty_chemicals.additives",
+  "name": "Chemical Additives",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals.specialty_chemicals",
+  "description": "Plasticizers, stabilizers, antioxidants and functional additives."
+ },
+ {
+  "id": "ind.manufacturing.chemicals.dyes_pigments",
+  "name": "Dyes & Pigments",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Manufacture of colorants for textiles, inks, plastics and cosmetics.",
+  "name_zh": "染料颜料"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.synthetic_rubber",
+  "name": "Synthetic Rubber",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Polymerization of elastomers for tires and industrial goods.",
+  "name_zh": "合成橡胶"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.explosives",
+  "name": "Explosives & Pyrotechnics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Manufacture of industrial and commercial explosives.",
+  "name_zh": "炸药"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.fine_chemicals",
+  "name": "Fine Chemicals",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "High-purity intermediates for pharmaceuticals and agrochemicals.",
+  "name_zh": "精细化工中间体"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.bio_chemicals",
+  "name": "Bio-based Chemicals",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Chemicals and platform molecules produced by fermentation from biomass.",
+  "name_zh": "生物基化学品"
+ },
+ {
+  "id": "ind.manufacturing.chemicals.photographic_film",
+  "name": "Photographic Film",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.chemicals",
+  "description": "Manufacture of silver-halide film, largely displaced by digital imaging.",
+  "historical": true
+ },
+ {
+  "id": "ind.manufacturing.materials",
+  "name": "Non-Metallic Materials",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of cement, glass, ceramics and advanced materials.",
+  "name_zh": "非金属材料"
+ },
+ {
+  "id": "ind.manufacturing.materials.cement",
+  "name": "Cement Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Production of Portland and blended cements.",
+  "name_zh": "水泥"
+ },
+ {
+  "id": "ind.manufacturing.materials.concrete_products",
+  "name": "Concrete Products",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Ready-mix concrete and precast concrete elements.",
+  "name_zh": "混凝土制品"
+ },
+ {
+  "id": "ind.manufacturing.materials.glass",
+  "name": "Glass Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Melting and forming of glass products.",
+  "name_zh": "玻璃"
+ },
+ {
+  "id": "ind.manufacturing.materials.glass.flat_glass",
+  "name": "Flat Glass",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials.glass",
+  "description": "Float glass for windows, automotive and solar panels.",
+  "name_zh": "平板玻璃"
+ },
+ {
+  "id": "ind.manufacturing.materials.glass.container_glass",
+  "name": "Container Glass",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials.glass",
+  "description": "Bottles and jars for beverages, food and pharmaceuticals."
+ },
+ {
+  "id": "ind.manufacturing.materials.glass.specialty_glass",
+  "name": "Specialty & Technical Glass",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials.glass",
+  "description": "Optical, display and laboratory glass."
+ },
+ {
+  "id": "ind.manufacturing.materials.ceramics",
+  "name": "Ceramics",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Forming and firing of clay and technical ceramic products.",
+  "name_zh": "陶瓷"
+ },
+ {
+  "id": "ind.manufacturing.materials.ceramics.traditional_ceramics",
+  "name": "Traditional Ceramics & Porcelain",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials.ceramics",
+  "description": "Tableware, sanitaryware and tiles including Chinese porcelain and Japanese raku.",
+  "name_zh": "传统陶瓷"
+ },
+ {
+  "id": "ind.manufacturing.materials.ceramics.advanced_ceramics",
+  "name": "Advanced & Technical Ceramics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials.ceramics",
+  "description": "Engineered ceramics for electronics, aerospace and biomedical use.",
+  "name_zh": "先进陶瓷"
+ },
+ {
+  "id": "ind.manufacturing.materials.refractories",
+  "name": "Refractories",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Heat-resistant linings for furnaces and kilns.",
+  "name_zh": "耐火材料"
+ },
+ {
+  "id": "ind.manufacturing.materials.bricks",
+  "name": "Bricks & Clay Products",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Fired clay bricks, tiles and structural clay.",
+  "name_zh": "砖瓦"
+ },
+ {
+  "id": "ind.manufacturing.materials.gypsum",
+  "name": "Gypsum & Plaster Products",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Manufacture of gypsum board and plaster.",
+  "name_zh": "石膏制品"
+ },
+ {
+  "id": "ind.manufacturing.materials.lime",
+  "name": "Lime Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Calcination of limestone into quicklime and hydrated lime.",
+  "name_zh": "石灰"
+ },
+ {
+  "id": "ind.manufacturing.materials.abrasives",
+  "name": "Abrasives",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials",
+  "description": "Grinding wheels, sandpaper and bonded abrasives.",
+  "name_zh": "磨料"
+ },
+ {
+  "id": "ind.manufacturing.materials.advanced_materials",
+  "name": "Advanced Materials",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.materials",
+  "description": "High-performance materials engineered for demanding applications.",
+  "name_zh": "先进材料"
+ },
+ {
+  "id": "ind.manufacturing.materials.advanced_materials.composites",
+  "name": "Composites",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials.advanced_materials",
+  "description": "Fibre-reinforced polymer and metal-matrix composites.",
+  "name_zh": "复合材料"
+ },
+ {
+  "id": "ind.manufacturing.materials.advanced_materials.carbon_fiber",
+  "name": "Carbon Fibre",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.materials.advanced_materials",
+  "description": "Production of carbon fibre reinforcement for aerospace and sports.",
+  "name_zh": "碳纤维"
+ },
+ {
+  "id": "ind.manufacturing.materials.advanced_materials.graphene",
+  "name": "Graphene & 2D Materials",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.materials.advanced_materials",
+  "description": "Atomically thin carbon materials for electronics and composites.",
+  "name_zh": "石墨烯"
+ },
+ {
+  "id": "ind.manufacturing.materials.advanced_materials.nanomaterials",
+  "name": "Nanomaterials",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.materials.advanced_materials",
+  "description": "Engineered nanoparticles and nanostructured materials.",
+  "name_zh": "纳米材料"
+ },
+ {
+  "id": "ind.manufacturing.materials.advanced_materials.smart_materials",
+  "name": "Smart & Responsive Materials",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.materials.advanced_materials",
+  "description": "Materials that respond to stimuli, including shape-memory and piezoelectric."
+ },
+ {
+  "id": "ind.manufacturing.materials.advanced_materials.biomaterials",
+  "name": "Biomaterials",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.materials.advanced_materials",
+  "description": "Materials engineered for interaction with biological systems."
+ },
+ {
+  "id": "ind.manufacturing.metals",
+  "name": "Metals & Fabricated Metal Products",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Smelting, refining, forming and fabrication of metals.",
+  "name_zh": "金属加工"
+ },
+ {
+  "id": "ind.manufacturing.metals.steel",
+  "name": "Iron & Steel",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Production of crude steel and finished steel products.",
+  "name_zh": "钢铁"
+ },
+ {
+  "id": "ind.manufacturing.metals.steel.integrated",
+  "name": "Integrated Steelmaking",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals.steel",
+  "description": "Blast furnace and basic oxygen furnace production from iron ore."
+ },
+ {
+  "id": "ind.manufacturing.metals.steel.minimill",
+  "name": "Electric Arc Furnace Steel",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals.steel",
+  "description": "Recycling scrap steel into new steel in electric arc furnaces.",
+  "name_zh": "电炉炼钢"
+ },
+ {
+  "id": "ind.manufacturing.metals.steel.stainless",
+  "name": "Stainless Steel",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals.steel",
+  "description": "Corrosion-resistant alloy steels containing chromium and nickel.",
+  "name_zh": "不锈钢"
+ },
+ {
+  "id": "ind.manufacturing.metals.aluminium",
+  "name": "Aluminium Smelting & Refining",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Electrolytic reduction of alumina into primary aluminium.",
+  "name_zh": "电解铝"
+ },
+ {
+  "id": "ind.manufacturing.metals.copper_refining",
+  "name": "Copper Smelting & Refining",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Conversion of copper concentrate into cathode and products.",
+  "name_zh": "铜冶炼"
+ },
+ {
+  "id": "ind.manufacturing.metals.zinc_lead",
+  "name": "Zinc & Lead Smelting",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Pyrometallurgical and hydrometallurgical zinc and lead production."
+ },
+ {
+  "id": "ind.manufacturing.metals.precious_metals",
+  "name": "Precious Metal Refining",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Refining of gold, silver and platinum group metals.",
+  "name_zh": "贵金属精炼"
+ },
+ {
+  "id": "ind.manufacturing.metals.foundry",
+  "name": "Foundries & Casting",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Casting of molten metal into shaped components.",
+  "name_zh": "铸造"
+ },
+ {
+  "id": "ind.manufacturing.metals.forging",
+  "name": "Forging & Stamping",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Shaping of metal by compressive force and dies.",
+  "name_zh": "锻造"
+ },
+ {
+  "id": "ind.manufacturing.metals.fabrication",
+  "name": "Metal Fabrication",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Cutting, bending and welding of metal into structures and products.",
+  "name_zh": "金属制品"
+ },
+ {
+  "id": "ind.manufacturing.metals.machining",
+  "name": "Precision Machining",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "CNC and conventional machining of metal parts.",
+  "name_zh": "机械加工"
+ },
+ {
+  "id": "ind.manufacturing.metals.surface_treatment",
+  "name": "Metal Surface Treatment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Plating, anodizing, coating and heat treatment of metals.",
+  "name_zh": "表面处理"
+ },
+ {
+  "id": "ind.manufacturing.metals.powder_metallurgy",
+  "name": "Powder Metallurgy",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.metals",
+  "description": "Consolidation of metal powders into components.",
+  "name_zh": "粉末冶金"
+ },
+ {
+  "id": "ind.manufacturing.machinery",
+  "name": "Machinery & Equipment",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of industrial machinery, tools and capital equipment.",
+  "name_zh": "机械设备"
+ },
+ {
+  "id": "ind.manufacturing.machinery.machine_tools",
+  "name": "Machine Tools",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of lathes, mills, presses and CNC machining centers.",
+  "name_zh": "机床"
+ },
+ {
+  "id": "ind.manufacturing.machinery.industrial_machinery",
+  "name": "Industrial Machinery",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of general-purpose processing and production machinery."
+ },
+ {
+  "id": "ind.manufacturing.machinery.agricultural_machinery",
+  "name": "Agricultural Machinery",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of tractors, harvesters and implements.",
+  "name_zh": "农机"
+ },
+ {
+  "id": "ind.manufacturing.machinery.construction_machinery",
+  "name": "Construction Machinery",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of excavators, loaders, cranes and bulldozers.",
+  "name_zh": "工程机械"
+ },
+ {
+  "id": "ind.manufacturing.machinery.mining_machinery",
+  "name": "Mining Machinery",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of drills, shovels, crushers and conveyors for mining."
+ },
+ {
+  "id": "ind.manufacturing.machinery.packaging_machinery",
+  "name": "Packaging Machinery",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of filling, sealing, labelling and wrapping machines."
+ },
+ {
+  "id": "ind.manufacturing.machinery.textile_machinery",
+  "name": "Textile Machinery",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of spinning, weaving, knitting and finishing machines."
+ },
+ {
+  "id": "ind.manufacturing.machinery.food_machinery",
+  "name": "Food Processing Machinery",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of equipment for food production and packaging."
+ },
+ {
+  "id": "ind.manufacturing.machinery.pumps",
+  "name": "Pumps & Compressors",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of pumps, compressors and fluid handling equipment.",
+  "name_zh": "泵与压缩机"
+ },
+ {
+  "id": "ind.manufacturing.machinery.bearings",
+  "name": "Bearings & Gears",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of bearings, gears and power transmission components.",
+  "name_zh": "轴承齿轮"
+ },
+ {
+  "id": "ind.manufacturing.machinery.engines",
+  "name": "Engines & Turbines",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of internal combustion engines, turbines and generators.",
+  "name_zh": "发动机"
+ },
+ {
+  "id": "ind.manufacturing.machinery.hvac_equipment",
+  "name": "HVAC Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of heating, ventilation and air-conditioning equipment."
+ },
+ {
+  "id": "ind.manufacturing.machinery.automation",
+  "name": "Automation & Conveying Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.machinery",
+  "description": "Manufacture of industrial automation, robotics and material handling systems.",
+  "name_zh": "自动化装备"
+ },
+ {
+  "id": "ind.manufacturing.machinery.additive",
+  "name": "Additive Manufacturing",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.machinery",
+  "description": "3D printing of metal and polymer parts for industrial production.",
+  "name_zh": "增材制造"
+ },
+ {
+  "id": "ind.manufacturing.electronics",
+  "name": "Electronics & Electrical Equipment",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of electronic devices, components and electrical equipment.",
+  "name_zh": "电子电气"
+ },
+ {
+  "id": "ind.manufacturing.electronics.consumer_electronics",
+  "name": "Consumer Electronics",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of electronic goods for personal and household use.",
+  "name_zh": "消费电子"
+ },
+ {
+  "id": "ind.manufacturing.electronics.consumer_electronics.televisions",
+  "name": "Televisions & Displays",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.consumer_electronics",
+  "description": "Manufacture of television sets and display panels.",
+  "name_zh": "电视机"
+ },
+ {
+  "id": "ind.manufacturing.electronics.consumer_electronics.audio",
+  "name": "Audio Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.consumer_electronics",
+  "description": "Manufacture of speakers, headphones and home audio systems.",
+  "name_zh": "音响"
+ },
+ {
+  "id": "ind.manufacturing.electronics.consumer_electronics.wearables",
+  "name": "Wearable Devices",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.consumer_electronics",
+  "description": "Manufacture of smartwatches, fitness bands and hearables.",
+  "name_zh": "可穿戴设备"
+ },
+ {
+  "id": "ind.manufacturing.electronics.computer_hardware",
+  "name": "Computer Hardware",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of computers, servers and peripherals.",
+  "name_zh": "计算机硬件"
+ },
+ {
+  "id": "ind.manufacturing.electronics.computer_hardware.computers",
+  "name": "Personal Computers",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.computer_hardware",
+  "description": "Assembly of desktops, laptops and workstations."
+ },
+ {
+  "id": "ind.manufacturing.electronics.computer_hardware.servers",
+  "name": "Servers & Data Center Hardware",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.computer_hardware",
+  "description": "Manufacture of servers, storage and networking hardware.",
+  "name_zh": "服务器"
+ },
+ {
+  "id": "ind.manufacturing.electronics.computer_hardware.peripherals",
+  "name": "Computer Peripherals",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.computer_hardware",
+  "description": "Manufacture of monitors, keyboards, printers and input devices."
+ },
+ {
+  "id": "ind.manufacturing.electronics.telecom_equipment",
+  "name": "Telecommunications Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of network, switching, transmission and 5G equipment.",
+  "name_zh": "通信设备"
+ },
+ {
+  "id": "ind.manufacturing.electronics.components",
+  "name": "Electronic Components",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of passive and interconnection components.",
+  "name_zh": "电子元件"
+ },
+ {
+  "id": "ind.manufacturing.electronics.components.passives",
+  "name": "Passive Components",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.components",
+  "description": "Manufacture of resistors, capacitors and inductors."
+ },
+ {
+  "id": "ind.manufacturing.electronics.components.pcb",
+  "name": "Printed Circuit Boards",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.components",
+  "description": "Fabrication and assembly of printed circuit boards.",
+  "name_zh": "印制电路板"
+ },
+ {
+  "id": "ind.manufacturing.electronics.components.connectors",
+  "name": "Connectors & Interconnects",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.components",
+  "description": "Manufacture of connectors, sockets and wiring harnesses.",
+  "name_zh": "连接器"
+ },
+ {
+  "id": "ind.manufacturing.electronics.components.sensors",
+  "name": "Sensors & Actuators",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics.components",
+  "description": "Manufacture of sensing and actuation components.",
+  "name_zh": "传感器"
+ },
+ {
+  "id": "ind.manufacturing.electronics.display_panels",
+  "name": "Display Panel Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Fabrication of LCD and OLED display panels.",
+  "name_zh": "显示面板"
+ },
+ {
+  "id": "ind.manufacturing.electronics.batteries",
+  "name": "Battery Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of lithium-ion and other battery cells and packs.",
+  "name_zh": "电池制造"
+ },
+ {
+  "id": "ind.manufacturing.electronics.power_electronics",
+  "name": "Power Electronics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of inverters, converters and power modules.",
+  "name_zh": "电力电子"
+ },
+ {
+  "id": "ind.manufacturing.electronics.lighting",
+  "name": "Lighting & LED",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of LED and conventional lighting products.",
+  "name_zh": "照明"
+ },
+ {
+  "id": "ind.manufacturing.electronics.home_appliances",
+  "name": "Home Appliances",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of major and small household appliances.",
+  "name_zh": "家电"
+ },
+ {
+  "id": "ind.manufacturing.electronics.photonics",
+  "name": "Photonics & Optoelectronics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.electronics",
+  "description": "Manufacture of lasers, optical components and optoelectronic devices.",
+  "name_zh": "光电子"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors",
+  "name": "Semiconductor Industry",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Design, fabrication, packaging, testing and supply of integrated circuits.",
+  "name_zh": "半导体"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design",
+  "name": "Semiconductor Design",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.semiconductors",
+  "description": "Design of integrated circuits at register-transfer and physical levels.",
+  "name_zh": "芯片设计"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.fabless",
+  "name": "Fabless Design",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.design",
+  "description": "Chip design companies that outsource manufacturing to foundries.",
+  "name_zh": "无晶圆设计"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.idm",
+  "name": "Integrated Device Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.design",
+  "description": "Companies that both design and manufacture their own chips.",
+  "name_zh": "整合制造"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.ip_cores",
+  "name": "Semiconductor IP Cores",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.design",
+  "description": "Licensing of reusable processor, memory and interface IP blocks.",
+  "name_zh": "芯片IP"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.design_services",
+  "name": "Chip Design Services",
+  "type": "SERVICE",
+  "parent": "ind.manufacturing.semiconductors.design",
+  "description": "Contract design and layout services for ASIC and SoC development."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.eda",
+  "name": "Electronic Design Automation",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.semiconductors.design",
+  "description": "Software tools and flows for chip design, verification and sign-off.",
+  "name_zh": "EDA工具"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.eda.synthesis",
+  "name": "Logic Synthesis",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.design.eda",
+  "description": "Conversion of RTL into gate-level netlists."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.eda.place_route",
+  "name": "Place & Route",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.design.eda",
+  "description": "Physical placement and routing of standard cells into layout."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.eda.verification",
+  "name": "Design Verification",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.design.eda",
+  "description": "Functional verification of designs before tape-out."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.eda.simulation",
+  "name": "Circuit Simulation",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.design.eda",
+  "description": "SPICE-level simulation of analog and digital circuits."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.design.eda.dfm",
+  "name": "Design for Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.design.eda",
+  "description": "Tools ensuring manufacturability, yield and testability."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments",
+  "name": "Semiconductor Device Segments",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.semiconductors",
+  "description": "Market categories of integrated circuits by function.",
+  "name_zh": "芯片品类"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.logic",
+  "name": "Logic & Microprocessors",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments",
+  "description": "CPUs, GPUs and logic ICs for computing.",
+  "name_zh": "逻辑芯片"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.memory",
+  "name": "Memory Semiconductors",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.semiconductors.device_segments",
+  "description": "Volatile and non-volatile memory integrated circuits.",
+  "name_zh": "存储芯片"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.memory.dram",
+  "name": "DRAM",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments.memory",
+  "description": "Dynamic random-access memory for main memory."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.memory.nand",
+  "name": "NAND Flash",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments.memory",
+  "description": "Non-volatile flash storage for SSDs and mobile devices."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.memory.nor",
+  "name": "NOR Flash",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments.memory",
+  "description": "Execute-in-place non-volatile memory for embedded systems."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.analog",
+  "name": "Analog & Mixed-Signal",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments",
+  "description": "ICs processing continuous signals for power and sensing.",
+  "name_zh": "模拟芯片"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.power",
+  "name": "Power Semiconductors",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments",
+  "description": "IGBTs, MOSFETs and wide-bandgap power devices.",
+  "name_zh": "功率半导体"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.discrete",
+  "name": "Discrete Semiconductors",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments",
+  "description": "Individual diodes, transistors and thyristors."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.mems",
+  "name": "Sensors & MEMS",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments",
+  "description": "Micro-electromechanical sensors and inertial devices.",
+  "name_zh": "MEMS传感器"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.opto",
+  "name": "Optoelectronic Semiconductors",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments",
+  "description": "LEDs, laser diodes and image sensors.",
+  "name_zh": "光电子芯片"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.device_segments.mcu",
+  "name": "Microcontrollers & SoC",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.device_segments",
+  "description": "Embedded microcontrollers and systems-on-chip."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.fabrication",
+  "name": "Wafer Fabrication",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.semiconductors",
+  "description": "Front-end manufacturing of integrated circuits on silicon wafers.",
+  "name_zh": "晶圆制造"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.fabrication.foundry",
+  "name": "Pure-Play Foundry",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.fabrication",
+  "description": "Contract wafer manufacturing for fabless and IDM customers.",
+  "name_zh": "晶圆代工"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.fabrication.idm_fab",
+  "name": "Captive IDM Fabrication",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.fabrication",
+  "description": "In-house wafer fabs operated by integrated device manufacturers."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies",
+  "name": "Semiconductor Process Technologies",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors",
+  "description": "Unit processes that pattern, deposit, dope and planarize devices.",
+  "name_zh": "芯片工艺"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.lithography",
+  "name": "Lithography",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies",
+  "description": "Patterning of circuits by projecting light through photomasks.",
+  "name_zh": "光刻"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.lithography.duv",
+  "name": "DUV Lithography",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.lithography",
+  "description": "Deep-ultraviolet exposure at 193nm and 248nm wavelengths."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.lithography.euv",
+  "name": "EUV Lithography",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.lithography",
+  "description": "Extreme-ultraviolet 13.5nm exposure for the finest nodes.",
+  "name_zh": "极紫外光刻"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.lithography.immersion",
+  "name": "Immersion Lithography",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.lithography",
+  "description": "Water-immersion optics to enhance 193nm resolution."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.etching",
+  "name": "Etching",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies",
+  "description": "Removal of material to transfer patterns into films.",
+  "name_zh": "刻蚀"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.etching.plasma",
+  "name": "Plasma & Reactive-Ion Etching",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.etching",
+  "description": "Dry anisotropic etching using reactive plasma.",
+  "name_zh": "等离子刻蚀"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.etching.wet",
+  "name": "Wet Etching",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.etching",
+  "description": "Isotropic chemical etching in liquid baths."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.deposition",
+  "name": "Thin-Film Deposition",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies",
+  "description": "Growth and coating of insulating, conducting and semiconducting films.",
+  "name_zh": "薄膜沉积"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.deposition.cvd",
+  "name": "Chemical Vapor Deposition",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.deposition",
+  "description": "Deposition of films from gas-phase chemical reactions.",
+  "name_zh": "化学气相沉积"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.deposition.pvd",
+  "name": "Physical Vapor Deposition",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.deposition",
+  "description": "Sputtering and evaporation of metal films.",
+  "name_zh": "物理气相沉积"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.deposition.ald",
+  "name": "Atomic Layer Deposition",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.deposition",
+  "description": "Layer-by-layer deposition with atomic-scale thickness control.",
+  "name_zh": "原子层沉积"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.deposition.epitaxy",
+  "name": "Epitaxy",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies.deposition",
+  "description": "Growth of crystalline layers on a substrate.",
+  "name_zh": "外延"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.doping",
+  "name": "Doping & Ion Implantation",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies",
+  "description": "Introduction of dopants to control electrical properties.",
+  "name_zh": "离子注入"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.cmp",
+  "name": "Chemical Mechanical Planarization",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies",
+  "description": "Polishing of wafer surfaces to nanometre flatness.",
+  "name_zh": "化学机械抛光"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.cleaning",
+  "name": "Wafer Cleaning",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies",
+  "description": "Removal of particles and contaminants between process steps.",
+  "name_zh": "晶圆清洗"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.process_technologies.metrology",
+  "name": "Metrology & Inspection",
+  "type": "TECHNOLOGY",
+  "parent": "ind.manufacturing.semiconductors.process_technologies",
+  "description": "Measurement of critical dimensions, overlay and defects.",
+  "name_zh": "量测检测"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.packaging_testing",
+  "name": "Packaging & Test",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.semiconductors",
+  "description": "Assembly, packaging and electrical testing of finished die.",
+  "name_zh": "封装测试"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.packaging_testing.osat",
+  "name": "OSAT Services",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.packaging_testing",
+  "description": "Outsourced semiconductor assembly and test providers.",
+  "name_zh": "封测代工"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.packaging_testing.wire_bonding",
+  "name": "Wire Bonding",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.packaging_testing",
+  "description": "Electrical connection of die to package using fine wire."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.packaging_testing.flip_chip",
+  "name": "Flip-Chip Assembly",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.packaging_testing",
+  "description": "Direct die-to-substrate connection via solder bumps."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.packaging_testing.wafer_level",
+  "name": "Wafer-Level Packaging",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.packaging_testing",
+  "description": "Packaging performed at wafer scale before singulation."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.packaging_testing.advanced_packaging",
+  "name": "Advanced Packaging",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.semiconductors.packaging_testing",
+  "description": "2.5D and 3D integration, chiplets and silicon interposers.",
+  "name_zh": "先进封装"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.packaging_testing.test",
+  "name": "Semiconductor Test",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.packaging_testing",
+  "description": "Wafer sort and final test using automated test equipment.",
+  "name_zh": "芯片测试"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment",
+  "name": "Semiconductor Equipment",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.semiconductors",
+  "description": "Manufacture of machines used in wafer fabrication and assembly.",
+  "name_zh": "半导体设备"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.lithography_equipment",
+  "name": "Lithography Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "Scanners, steppers and mask aligners for wafer patterning.",
+  "name_zh": "光刻机"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.etch_equipment",
+  "name": "Etch Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "Plasma and wet etch chambers and systems."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.deposition_equipment",
+  "name": "Deposition Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "CVD, PVD, ALD and epitaxy reactors."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.implant_equipment",
+  "name": "Ion Implant Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "High-energy ion implanters for doping."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.cmp_equipment",
+  "name": "CMP Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "Polishing tools for wafer planarization."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.metrology_equipment",
+  "name": "Metrology & Inspection Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "Scatterometry, SEM, overlay and defect inspection tools.",
+  "name_zh": "量测设备"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.thermal_equipment",
+  "name": "Thermal Processing Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "Diffusion furnaces and rapid thermal processing systems."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.wafer_handling",
+  "name": "Wafer Handling & Robotics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "Automated wafer transport and factory automation systems."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.photomask",
+  "name": "Photomask Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "Fabrication of reticles used to pattern wafers.",
+  "name_zh": "光罩制造"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.equipment.cleanroom",
+  "name": "Cleanroom Facilities",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.equipment",
+  "description": "Construction and operation of ultra-clean fab environments.",
+  "name_zh": "洁净室"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials",
+  "name": "Semiconductor Materials",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors",
+  "description": "Specialty materials consumed in chip fabrication and packaging.",
+  "name_zh": "半导体材料"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.silicon_wafers",
+  "name": "Silicon Wafers",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "Polished monocrystalline silicon substrates.",
+  "name_zh": "硅片"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.photoresist",
+  "name": "Photoresist",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "Light-sensitive polymers for patterning.",
+  "name_zh": "光刻胶"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.wet_chemicals",
+  "name": "Wet Chemicals",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "Ultra-pure acids, solvents and etchants.",
+  "name_zh": "湿电子化学品"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.specialty_gases",
+  "name": "Electronic Specialty Gases",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "High-purity process gases for deposition and etch.",
+  "name_zh": "电子特气"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.sputtering_targets",
+  "name": "Sputtering Targets",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "High-purity metal targets for PVD.",
+  "name_zh": "靶材"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.cmp_slurries",
+  "name": "CMP Slurries",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "Abrasive polishing slurries and pads.",
+  "name_zh": "抛光液"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.lead_frames",
+  "name": "Lead Frames",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "Metal frames connecting die to package leads."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.substrates",
+  "name": "IC Substrates",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "Organic and ceramic packages and substrates.",
+  "name_zh": "封装基板"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.materials.packaging_materials",
+  "name": "Packaging Materials",
+  "type": "MATERIAL",
+  "parent": "ind.manufacturing.semiconductors.materials",
+  "description": "Mold compounds, bonding wire and underfill materials."
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.distribution",
+  "name": "Semiconductor Distribution",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.semiconductors",
+  "description": "Distribution and supply of components and finished devices.",
+  "name_zh": "半导体分销"
+ },
+ {
+  "id": "ind.manufacturing.semiconductors.distribution.component_distribution",
+  "name": "Electronic Component Distribution",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.semiconductors.distribution",
+  "description": "Wholesale distribution of components to equipment makers."
+ },
+ {
+  "id": "ind.manufacturing.automotive",
+  "name": "Automotive Industry",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Design, manufacture and sale of motor vehicles and components.",
+  "name_zh": "汽车制造"
+ },
+ {
+  "id": "ind.manufacturing.automotive.vehicles",
+  "name": "Vehicle Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.automotive",
+  "description": "Assembly of complete motor vehicles by original equipment manufacturers.",
+  "name_zh": "整车制造"
+ },
+ {
+  "id": "ind.manufacturing.automotive.vehicles.passenger_cars",
+  "name": "Passenger Cars",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.vehicles",
+  "description": "Manufacture of cars and light passenger vehicles.",
+  "name_zh": "乘用车"
+ },
+ {
+  "id": "ind.manufacturing.automotive.vehicles.commercial_vehicles",
+  "name": "Commercial Vehicles",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.vehicles",
+  "description": "Manufacture of trucks, buses and vans.",
+  "name_zh": "商用车"
+ },
+ {
+  "id": "ind.manufacturing.automotive.vehicles.two_wheelers",
+  "name": "Motorcycles & Scooters",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.vehicles",
+  "description": "Manufacture of motorcycles, scooters and mopeds.",
+  "name_zh": "摩托车"
+ },
+ {
+  "id": "ind.manufacturing.automotive.ev",
+  "name": "Electric Vehicles",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.automotive",
+  "description": "Manufacture of battery-electric, hybrid and fuel-cell vehicles.",
+  "name_zh": "新能源汽车"
+ },
+ {
+  "id": "ind.manufacturing.automotive.ev.batteries",
+  "name": "EV Battery Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.ev",
+  "description": "Production of traction battery cells and packs.",
+  "name_zh": "动力电池"
+ },
+ {
+  "id": "ind.manufacturing.automotive.ev.charging",
+  "name": "EV Charging Infrastructure",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.ev",
+  "description": "Manufacture and operation of charging stations.",
+  "name_zh": "充电桩"
+ },
+ {
+  "id": "ind.manufacturing.automotive.parts",
+  "name": "Auto Parts & Components",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.automotive",
+  "description": "Manufacture of components supplied to vehicle assemblers.",
+  "name_zh": "汽车零部件"
+ },
+ {
+  "id": "ind.manufacturing.automotive.parts.powertrain",
+  "name": "Powertrain Components",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.parts",
+  "description": "Engines, transmissions and driveline components.",
+  "name_zh": "动力总成"
+ },
+ {
+  "id": "ind.manufacturing.automotive.parts.chassis",
+  "name": "Chassis & Braking Systems",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.parts",
+  "description": "Suspension, steering and braking components.",
+  "name_zh": "底盘"
+ },
+ {
+  "id": "ind.manufacturing.automotive.parts.interiors",
+  "name": "Automotive Interiors",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.parts",
+  "description": "Seats, trim, instrument panels and interior systems.",
+  "name_zh": "汽车内饰"
+ },
+ {
+  "id": "ind.manufacturing.automotive.parts.electronics",
+  "name": "Automotive Electronics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.parts",
+  "description": "ADAS, infotainment and body electronics.",
+  "name_zh": "汽车电子"
+ },
+ {
+  "id": "ind.manufacturing.automotive.parts.tires",
+  "name": "Tire Manufacturing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive.parts",
+  "description": "Manufacture of pneumatic tires.",
+  "name_zh": "轮胎"
+ },
+ {
+  "id": "ind.manufacturing.automotive.aftermarket",
+  "name": "Automotive Aftermarket",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.automotive",
+  "description": "Replacement parts, accessories and service equipment.",
+  "name_zh": "汽车后市场"
+ },
+ {
+  "id": "ind.manufacturing.automotive.autonomous",
+  "name": "Autonomous Vehicles",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.automotive",
+  "description": "Development of self-driving vehicle systems and platforms.",
+  "name_zh": "自动驾驶"
+ },
+ {
+  "id": "ind.manufacturing.aerospace",
+  "name": "Aerospace Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of civil aircraft, engines, systems and space vehicles.",
+  "name_zh": "航空航天制造"
+ },
+ {
+  "id": "ind.manufacturing.aerospace.commercial_aircraft",
+  "name": "Commercial Aircraft",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Manufacture of airliners and regional aircraft.",
+  "name_zh": "民用飞机"
+ },
+ {
+  "id": "ind.manufacturing.aerospace.business_aviation",
+  "name": "Business & General Aviation",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Manufacture of business jets and light aircraft."
+ },
+ {
+  "id": "ind.manufacturing.aerospace.helicopters",
+  "name": "Helicopters & Rotorcraft",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Manufacture of rotary-wing aircraft.",
+  "name_zh": "直升机"
+ },
+ {
+  "id": "ind.manufacturing.aerospace.engines",
+  "name": "Aircraft Engines",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Manufacture of turbofan, turboprop and turboshaft engines.",
+  "name_zh": "航空发动机"
+ },
+ {
+  "id": "ind.manufacturing.aerospace.avionics",
+  "name": "Avionics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Manufacture of flight electronics, navigation and control systems.",
+  "name_zh": "航电系统"
+ },
+ {
+  "id": "ind.manufacturing.aerospace.aerostructures",
+  "name": "Aerostructures",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Manufacture of airframes, wings, fuselage and components.",
+  "name_zh": "机体结构"
+ },
+ {
+  "id": "ind.manufacturing.aerospace.interiors",
+  "name": "Aircraft Interiors",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Cabin seating, galleys and interior systems."
+ },
+ {
+  "id": "ind.manufacturing.aerospace.mro",
+  "name": "Aircraft Maintenance & Repair",
+  "type": "SERVICE",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Maintenance, repair and overhaul of aircraft and components.",
+  "name_zh": "航空维修"
+ },
+ {
+  "id": "ind.manufacturing.aerospace.uav",
+  "name": "Unmanned Aerial Vehicles",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Manufacture of drones and uncrewed aircraft systems.",
+  "name_zh": "无人机"
+ },
+ {
+  "id": "ind.manufacturing.aerospace.evtol",
+  "name": "eVTOL & Air Taxis",
+  "type": "EMERGING_FIELD",
+  "parent": "ind.manufacturing.aerospace",
+  "description": "Electric vertical take-off and landing aircraft.",
+  "name_zh": "电动垂直起降"
+ },
+ {
+  "id": "ind.manufacturing.shipbuilding",
+  "name": "Shipbuilding & Marine Equipment",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Construction and repair of ships, boats and marine equipment.",
+  "name_zh": "造船"
+ },
+ {
+  "id": "ind.manufacturing.shipbuilding.cargo_ships",
+  "name": "Cargo Shipbuilding",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.shipbuilding",
+  "description": "Construction of bulk carriers, container ships and tankers.",
+  "name_zh": "货船建造"
+ },
+ {
+  "id": "ind.manufacturing.shipbuilding.naval",
+  "name": "Naval Shipbuilding",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.shipbuilding",
+  "description": "Construction of warships and submarines.",
+  "name_zh": "军舰建造"
+ },
+ {
+  "id": "ind.manufacturing.shipbuilding.ship_repair",
+  "name": "Ship Repair & Conversion",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.shipbuilding",
+  "description": "Dry-docking, repair and conversion of vessels."
+ },
+ {
+  "id": "ind.manufacturing.shipbuilding.marine_equipment",
+  "name": "Marine Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.shipbuilding",
+  "description": "Manufacture of propulsion, deck and marine systems.",
+  "name_zh": "船舶设备"
+ },
+ {
+  "id": "ind.manufacturing.shipbuilding.leisure_boats",
+  "name": "Leisure Boats & Yachts",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.shipbuilding",
+  "description": "Manufacture of recreational boats and yachts.",
+  "name_zh": "游艇"
+ },
+ {
+  "id": "ind.manufacturing.shipbuilding.offshore_structures",
+  "name": "Offshore Structures",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.shipbuilding",
+  "description": "Fabrication of platforms and structures for offshore energy."
+ },
+ {
+  "id": "ind.manufacturing.rail",
+  "name": "Railway Rolling Stock",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of locomotives, rolling stock and rail systems.",
+  "name_zh": "轨道交通装备"
+ },
+ {
+  "id": "ind.manufacturing.rail.rolling_stock",
+  "name": "Rolling Stock Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing.rail",
+  "description": "Manufacture of locomotives and passenger and freight cars.",
+  "name_zh": "机车车辆"
+ },
+ {
+  "id": "ind.manufacturing.rail.rolling_stock.locomotives",
+  "name": "Locomotives",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.rail.rolling_stock",
+  "description": "Manufacture of electric, diesel and high-speed locomotives."
+ },
+ {
+  "id": "ind.manufacturing.rail.rolling_stock.passenger_cars",
+  "name": "Passenger Rolling Stock",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.rail.rolling_stock",
+  "description": "Manufacture of coaches, EMUs and high-speed trains."
+ },
+ {
+  "id": "ind.manufacturing.rail.rolling_stock.freight_wagons",
+  "name": "Freight Wagons",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.rail.rolling_stock",
+  "description": "Manufacture of freight cars and intermodal wagons."
+ },
+ {
+  "id": "ind.manufacturing.rail.signaling",
+  "name": "Rail Signaling & Control",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.rail",
+  "description": "Manufacture of signalling, interlocking and train control systems.",
+  "name_zh": "信号系统"
+ },
+ {
+  "id": "ind.manufacturing.rail.electrification",
+  "name": "Rail Electrification",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.rail",
+  "description": "Overhead catenary and traction power supply systems."
+ },
+ {
+  "id": "ind.manufacturing.rail.maintenance",
+  "name": "Rolling Stock Maintenance",
+  "type": "SERVICE",
+  "parent": "ind.manufacturing.rail",
+  "description": "Servicing and overhaul of rail vehicles."
+ },
+ {
+  "id": "ind.manufacturing.medical_devices",
+  "name": "Medical Devices",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of instruments, implants and diagnostic equipment.",
+  "name_zh": "医疗器械"
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.diagnostic_imaging",
+  "name": "Diagnostic Imaging Equipment",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of MRI, CT, ultrasound and X-ray systems.",
+  "name_zh": "医学影像"
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.surgical_instruments",
+  "name": "Surgical Instruments",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of scalpels, forceps and surgical tools.",
+  "name_zh": "手术器械"
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.orthopedic",
+  "name": "Orthopedic Implants",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of joint replacements and fixation devices.",
+  "name_zh": "骨科植入物"
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.cardiovascular",
+  "name": "Cardiovascular Devices",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of stents, pacemakers and catheters.",
+  "name_zh": "心血管器械"
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.ivd",
+  "name": "In Vitro Diagnostics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of test kits, reagents and analyzers.",
+  "name_zh": "体外诊断"
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.wearable_medical",
+  "name": "Wearable Medical Devices",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of continuous monitors and therapeutic wearables."
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.dental",
+  "name": "Dental Equipment & Supplies",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of dental units, instruments and materials."
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.prosthetics",
+  "name": "Prosthetics & Orthotics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of artificial limbs and orthotic supports."
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.consumables",
+  "name": "Medical Consumables",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Manufacture of syringes, tubing, dressings and disposables.",
+  "name_zh": "医用耗材"
+ },
+ {
+  "id": "ind.manufacturing.medical_devices.sterilization",
+  "name": "Sterilization Services",
+  "type": "SERVICE",
+  "parent": "ind.manufacturing.medical_devices",
+  "description": "Sterilization of medical devices and instruments."
+ },
+ {
+  "id": "ind.manufacturing.furniture",
+  "name": "Furniture & Fixtures",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of furniture and building fixtures.",
+  "name_zh": "家具制造"
+ },
+ {
+  "id": "ind.manufacturing.furniture.household",
+  "name": "Household Furniture",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.furniture",
+  "description": "Manufacture of residential furniture.",
+  "name_zh": "民用家具"
+ },
+ {
+  "id": "ind.manufacturing.furniture.office",
+  "name": "Office Furniture",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.furniture",
+  "description": "Manufacture of desks, seating and office systems.",
+  "name_zh": "办公家具"
+ },
+ {
+  "id": "ind.manufacturing.furniture.mattresses",
+  "name": "Mattresses & Bedding",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.furniture",
+  "description": "Manufacture of mattresses and bedding products."
+ },
+ {
+  "id": "ind.manufacturing.furniture.cabinetry",
+  "name": "Cabinetry & Custom Woodwork",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.furniture",
+  "description": "Kitchen, bath and custom built-in cabinetry."
+ },
+ {
+  "id": "ind.manufacturing.furniture.fixtures",
+  "name": "Store & Display Fixtures",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.furniture",
+  "description": "Manufacture of retail and commercial fixtures."
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods",
+  "name": "Consumer Goods Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of durable and non-durable household consumer goods.",
+  "name_zh": "消费品制造"
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.toys",
+  "name": "Toys & Games",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of toys, puzzles and games.",
+  "name_zh": "玩具"
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.sporting_goods",
+  "name": "Sporting Goods",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of sports equipment and apparel.",
+  "name_zh": "体育用品"
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.jewelry",
+  "name": "Jewelry",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of precious metal and gemstone jewelry.",
+  "name_zh": "珠宝首饰"
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.watches",
+  "name": "Watches & Clocks",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of watches and timepieces.",
+  "name_zh": "钟表"
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.luggage",
+  "name": "Luggage & Leather Goods",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of bags, luggage and travel goods."
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.musical_instruments",
+  "name": "Musical Instruments",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of instruments including guzheng, sitar and piano.",
+  "name_zh": "乐器"
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.eyewear",
+  "name": "Eyewear",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of spectacles, lenses and sunglasses.",
+  "name_zh": "眼镜"
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.stationery",
+  "name": "Stationery & Office Supplies",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of writing instruments and office supplies."
+ },
+ {
+  "id": "ind.manufacturing.consumer_goods.kitchenware",
+  "name": "Kitchenware & Housewares",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.consumer_goods",
+  "description": "Manufacture of cookware, tableware and household goods.",
+  "name_zh": "厨具"
+ },
+ {
+  "id": "ind.manufacturing.printing_packaging",
+  "name": "Printing & Packaging",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Printing and conversion of packaging and printed materials.",
+  "name_zh": "印刷包装"
+ },
+ {
+  "id": "ind.manufacturing.printing_packaging.commercial_printing",
+  "name": "Commercial Printing",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.printing_packaging",
+  "description": "Offset and digital printing of books, catalogs and marketing materials.",
+  "name_zh": "印刷"
+ },
+ {
+  "id": "ind.manufacturing.printing_packaging.flexible_packaging",
+  "name": "Flexible Packaging",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.printing_packaging",
+  "description": "Manufacture of film, foil and flexible pouches.",
+  "name_zh": "软包装"
+ },
+ {
+  "id": "ind.manufacturing.printing_packaging.rigid_packaging",
+  "name": "Rigid Packaging",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.printing_packaging",
+  "description": "Manufacture of cans, bottles and rigid containers."
+ },
+ {
+  "id": "ind.manufacturing.printing_packaging.labels",
+  "name": "Labels & Tags",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.printing_packaging",
+  "description": "Manufacture of labels, tags and pressure-sensitive materials."
+ },
+ {
+  "id": "ind.manufacturing.cosmetics",
+  "name": "Cosmetics & Personal Care",
+  "type": "INDUSTRY",
+  "parent": "ind.manufacturing",
+  "description": "Manufacture of beauty, skin and personal care products.",
+  "name_zh": "化妆品"
+ },
+ {
+  "id": "ind.manufacturing.cosmetics.skincare",
+  "name": "Skincare",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.cosmetics",
+  "description": "Manufacture of creams, serums and skincare formulations.",
+  "name_zh": "护肤"
+ },
+ {
+  "id": "ind.manufacturing.cosmetics.haircare",
+  "name": "Hair Care",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.cosmetics",
+  "description": "Manufacture of shampoo, conditioner and styling products."
+ },
+ {
+  "id": "ind.manufacturing.cosmetics.fragrance",
+  "name": "Fragrance",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.cosmetics",
+  "description": "Manufacture of perfumes and colognes.",
+  "name_zh": "香水"
+ },
+ {
+  "id": "ind.manufacturing.cosmetics.color_cosmetics",
+  "name": "Color Cosmetics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.cosmetics",
+  "description": "Manufacture of makeup products.",
+  "name_zh": "彩妆"
+ },
+ {
+  "id": "ind.manufacturing.cosmetics.personal_care",
+  "name": "Personal Care",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.cosmetics",
+  "description": "Manufacture of hygiene, oral and bath products.",
+  "name_zh": "个人护理"
+ },
+ {
+  "id": "ind.manufacturing.cosmetics.natural_cosmetics",
+  "name": "Natural & Organic Cosmetics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.cosmetics",
+  "description": "Plant-based and certified-organic beauty products."
+ },
+ {
+  "id": "ind.manufacturing.cosmetics.k_beauty",
+  "name": "K-Beauty",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.cosmetics",
+  "description": "Korean beauty products and routines.",
+  "name_zh": "韩妆",
+  "global": false
+ },
+ {
+  "id": "ind.manufacturing.cosmetics.halal_cosmetics",
+  "name": "Halal Cosmetics",
+  "type": "ECONOMIC_ACTIVITY",
+  "parent": "ind.manufacturing.cosmetics",
+  "description": "Cosmetics certified under Islamic law.",
+  "global": false
+ }
+]
