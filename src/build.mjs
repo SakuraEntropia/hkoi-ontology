@@ -1,5 +1,5 @@
 // HK-OI build: data/**/*.json -> exports/ontology.json + exports/ontology.db (SQLite)
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, renameSync } from "node:fs";
 import { join } from "node:path";
 
 const DATA = "data";
@@ -170,9 +170,10 @@ writeFileSync(join(OUT_DIR, "ontology.json"), JSON.stringify(combined, null, 1))
 // ---- SQLite ----
 const schema = readFileSync("schema.sql", "utf8");
 const dbPath = join(OUT_DIR, "ontology.db");
-try { writeFileSync(dbPath, ""); } catch {}
+const dbTmp = join(OUT_DIR, "ontology.db.tmp");
+try { writeFileSync(dbTmp, ""); } catch {}
 const { DatabaseSync } = await import("node:sqlite");
-const db = new DatabaseSync(dbPath);
+const db = new DatabaseSync(dbTmp);
 db.exec(schema);
 const insNode = db.prepare(`INSERT OR REPLACE INTO nodes
   (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,source)
@@ -188,6 +189,7 @@ db.exec(`INSERT OR REPLACE INTO meta VALUES ('generated_at', '${new Date().toISO
 db.exec(`INSERT OR REPLACE INTO meta VALUES ('node_count', '${normalized.length}')`);
 db.exec(`INSERT OR REPLACE INTO meta VALUES ('relation_count', '${allRelations.length}')`);
 db.close();
+renameSync(dbTmp, dbPath);
 
 // ---- summary ----
 const byUniv = {}, byType = {}, byLevel = {};

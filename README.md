@@ -83,6 +83,24 @@ omitted where no reliable basis exists; measured vs model-based estimates are di
 **economic and cultural weight are kept as separate orthogonal dimensions** — a small economy can
 have enormous cultural/scientific/historical significance, so no single ranking is imposed.
 
+
+## Web UI viewer
+
+```bash
+pnpm ui        # or: node src/server.mjs
+# open http://localhost:4173
+```
+
+Features: lazy-loading universe tree · full-text search (English/中文/ID) · node detail
+(description/aliases/examples) · relations (in/out graph edges) · civilization-metrics panel
+(population, economy, awareness, growth, geography, institutionalization, economic-vs-cultural weight,
+confidence) · analytics dashboard answering the sample questions.
+
+## Current scale (auto-reported)
+
+See `reports/report.md`. The build prints live counts; as of the latest build:
+**12,334 nodes · 14,877 relations · 455 nodes with civilization metrics · 12 universes · depth L0–L7.**
+
 ## Build
 
 ```bash

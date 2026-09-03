@@ -1,17 +1,17 @@
 # HK-OI Ontology Report
 
-Generated: 2026-09-03T06:03:49.927Z
+Generated: 2026-09-03T06:11:56.385Z
 
 ## 1. Summary
 
-- **Nodes**: 11491  (with metrics: 346)
-- **Relations**: 13395
+- **Nodes**: 12334  (with metrics: 455)
+- **Relations**: 14877
 
 ### By universe
 
 | universe | nodes |
 |---|---|
-| HUMAN_KNOWLEDGE | 4928 |
+| HUMAN_KNOWLEDGE | 5771 |
 | OCCUPATIONS | 1300 |
 | ARTS_AND_CULTURE | 894 |
 | INDUSTRIES | 864 |
@@ -30,17 +30,17 @@ Generated: 2026-09-03T06:03:49.927Z
 |---|---|
 | L0 | 12 |
 | L1 | 266 |
-| L2 | 2367 |
-| L3 | 6224 |
-| L4 | 2307 |
-| L5 | 292 |
-| L6 | 23 |
+| L2 | 2462 |
+| L3 | 6497 |
+| L4 | 2630 |
+| L5 | 427 |
+| L6 | 40 |
 
 ### By type
 
 | type | nodes |
 |---|---|
-| KNOWLEDGE_FIELD | 4588 |
+| KNOWLEDGE_FIELD | 5406 |
 | OCCUPATION | 1556 |
 | TECHNOLOGY | 715 |
 | ECONOMIC_ACTIVITY | 629 |
@@ -50,7 +50,7 @@ Generated: 2026-09-03T06:03:49.927Z
 | SOCIAL_ROLE | 411 |
 | MEDIA_FORM | 223 |
 | INSTITUTION | 222 |
-| METHODOLOGY | 213 |
+| METHODOLOGY | 217 |
 | GAME | 207 |
 | SERVICE | 167 |
 | ART_FORM | 143 |
@@ -59,7 +59,7 @@ Generated: 2026-09-03T06:03:49.927Z
 | ORGANIZATION_TYPE | 136 |
 | CONTENT_TYPE | 133 |
 | ART_TECHNIQUE | 128 |
-| EMERGING_FIELD | 88 |
+| EMERGING_FIELD | 109 |
 | MATERIAL | 69 |
 | SECTOR | 39 |
 | UNIVERSE | 12 |
@@ -70,22 +70,22 @@ Generated: 2026-09-03T06:03:49.927Z
 
 | growth | nodes |
 |---|---|
-| stable | 111 |
+| stable | 171 |
+| growing | 118 |
 | null | 95 |
-| growing | 80 |
-| rapidly_growing | 26 |
+| rapidly_growing | 33 |
 | rapidly_declining | 20 |
-| declining | 14 |
+| declining | 18 |
 
 ### Historical significance
 
 | level | nodes |
 |---|---|
+| high | 133 |
 | null | 109 |
-| high | 75 |
-| very_high | 70 |
-| moderate | 54 |
-| foundational | 33 |
+| very_high | 102 |
+| moderate | 66 |
+| foundational | 40 |
 | low | 3 |
 | unknown | 2 |
 
@@ -94,25 +94,25 @@ Generated: 2026-09-03T06:03:49.927Z
 | economic_weight | cultural_weight | nodes |
 |---|---|---|
 | null | null | 109 |
-| very_high | moderate | 27 |
-| negligible | moderate | 26 |
-| very_high | high | 24 |
-| high | very_high | 23 |
-| moderate | high | 22 |
-| low | moderate | 16 |
-| very_high | very_high | 16 |
-| low | high | 14 |
-| moderate | very_high | 12 |
-| high | high | 11 |
-| low | very_high | 10 |
-| moderate | moderate | 7 |
-| negligible | high | 6 |
-| high | low | 5 |
-| very_high | low | 5 |
-| high | moderate | 4 |
-| negligible | very_high | 4 |
-| moderate | low | 3 |
-| low | low | 1 |
+| negligible | high | 33 |
+| negligible | moderate | 31 |
+| very_high | moderate | 30 |
+| very_high | high | 26 |
+| high | very_high | 25 |
+| moderate | high | 25 |
+| low | high | 22 |
+| high | high | 18 |
+| low | moderate | 17 |
+| very_high | very_high | 17 |
+| moderate | very_high | 16 |
+| low | very_high | 15 |
+| high | low | 14 |
+| negligible | very_high | 14 |
+| moderate | moderate | 12 |
+| very_high | low | 12 |
+| high | moderate | 9 |
+| moderate | low | 7 |
+| low | low | 2 |
 
 ### Fields where cultural weight exceeds economic weight (culture-first nodes)
 
@@ -120,36 +120,42 @@ Generated: 2026-09-03T06:03:49.927Z
 - Craft (cultural high / economic low)
 - Digital Art (cultural high / economic low)
 - Performing Arts (cultural very_high / economic low)
-- Astronomy (cultural high / economic low)
-- Sociology (cultural high / economic low)
-- Anthropology (cultural high / economic low)
-- Philosophy (cultural very_high / economic low)
-- Religious Studies (cultural very_high / economic low)
-- Art History (cultural high / economic low)
-- Archaeology (cultural high / economic low)
-- Library & Information Science (cultural high / economic low)
-- Gender Studies (cultural high / economic negligible)
-- Area Studies (cultural high / economic negligible)
-- Oral Tradition (cultural very_high / economic negligible)
-- Photography (cultural high / economic low)
-- Podcasting (cultural high / economic low)
-- Religious and Spiritual (cultural very_high / economic low)
-- Religious Institution (cultural very_high / economic low)
-- Cultural Institution (cultural very_high / economic low)
-- Community Organization (cultural high / economic low)
-- Family & Kinship Roles (cultural very_high / economic negligible)
-- Community & Civil Roles (cultural very_high / economic low)
-- Political & Civic Roles (cultural very_high / economic low)
-- Religious & Spiritual Roles (cultural very_high / economic low)
-- Ceremonial & Ritual Roles (cultural high / economic negligible)
-- Gender Roles (cultural very_high / economic negligible)
-- Age-Graded & Life-Stage Roles (cultural very_high / economic negligible)
-- Clan & Village Roles (cultural high / economic low)
-- Mind Sports (cultural high / economic low)
-- Board Games (cultural high / economic low)
-- Tile Games (cultural high / economic negligible)
-- Traditional & Indigenous Games (cultural high / economic negligible)
-- Children's Games (cultural high / economic negligible)
+- Metaphysics (cultural very_high / economic negligible)
+- Epistemology (cultural very_high / economic negligible)
+- Aesthetics (cultural very_high / economic low)
+- Philosophy of Mind (cultural high / economic negligible)
+- Philosophy of Language (cultural high / economic negligible)
+- Philosophy of Science (cultural high / economic low)
+- Philosophy of Religion (cultural high / economic negligible)
+- Philosophy of Law (cultural high / economic low)
+- Social Philosophy (cultural high / economic negligible)
+- History of Philosophy (cultural very_high / economic negligible)
+- Philosophy of Technology (cultural high / economic low)
+- Philosophy of Education (cultural high / economic negligible)
+- Historiography (cultural high / economic negligible)
+- Prehistory (cultural high / economic negligible)
+- Ancient History (cultural very_high / economic negligible)
+- Medieval History (cultural high / economic negligible)
+- Early Modern History (cultural high / economic negligible)
+- Modern History (cultural very_high / economic negligible)
+- Contemporary History (cultural high / economic negligible)
+- World History (cultural high / economic negligible)
+- Social History (cultural high / economic negligible)
+- Cultural History (cultural high / economic negligible)
+- Economic History (cultural high / economic low)
+- Political History (cultural high / economic negligible)
+- Military History (cultural high / economic negligible)
+- Intellectual History (cultural high / economic negligible)
+- Environmental History (cultural high / economic negligible)
+- History of Science (cultural high / economic negligible)
+- History of Medicine (cultural high / economic negligible)
+- History of Technology (cultural high / economic negligible)
+- Oral History (cultural high / economic negligible)
+- History of Africa (cultural high / economic negligible)
+- History of Asia (cultural very_high / economic negligible)
+- History of Europe (cultural high / economic negligible)
+- History of the Americas (cultural high / economic negligible)
+- Poetry (cultural very_high / economic low)
 
 ### Data confidence (distribution)
 
@@ -157,9 +163,9 @@ Generated: 2026-09-03T06:03:49.927Z
 |---|---|
 | null | 14 |
 | 0.4 | 5 |
-| 0.45 | 128 |
-| 0.5 | 111 |
-| 0.55 | 32 |
+| 0.45 | 218 |
+| 0.5 | 129 |
+| 0.55 | 33 |
 | 0.6 | 55 |
 | 0.7 | 1 |
 
@@ -167,8 +173,8 @@ Generated: 2026-09-03T06:03:49.927Z
 
 | method | nodes |
 |---|---|
+| model_estimate | 193 |
 | expert_judgment | 170 |
-| model_estimate | 84 |
 | qualitative | 78 |
 | null | 14 |
 
@@ -189,7 +195,7 @@ Generated: 2026-09-03T06:03:49.927Z
 | INDUSTRIES | 863 | ok |
 | ARTS_AND_CULTURE | 893 | ok |
 | OCCUPATIONS | 1299 | ok |
-| HUMAN_KNOWLEDGE | 4927 | ok |
+| HUMAN_KNOWLEDGE | 5770 | ok |
 
 ### B. Granularity — max depth per universe
 
@@ -212,35 +218,35 @@ Generated: 2026-09-03T06:03:49.927Z
 
 | relation | count |
 |---|---|
-| SUBFIELD_OF | 4680 |
+| SUBFIELD_OF | 5519 |
 | SPECIALIZATION_OF | 1983 |
 | SUBTYPE_OF | 1508 |
+| OVERLAPS_WITH | 902 |
 | PART_OF | 783 |
 | SUBTECHNOLOGY_OF | 715 |
-| OVERLAPS_WITH | 663 |
+| RELATED_TO | 531 |
 | SUBGENRE_OF | 526 |
 | SUBSPORT_OF | 448 |
-| RELATED_TO | 401 |
-| APPLICATION_OF | 255 |
-| METHOD_OF | 213 |
+| APPLICATION_OF | 369 |
+| USES | 279 |
+| METHOD_OF | 219 |
 | SUBGAME_OF | 207 |
 | SUBINDUSTRY_OF | 182 |
-| USES | 180 |
 | SUBFORM_OF | 157 |
+| HISTORICAL_SUCCESSOR | 136 |
 | TECHNIQUE_OF | 134 |
-| HISTORICAL_SUCCESSOR | 110 |
-| USED_BY | 56 |
+| USED_BY | 62 |
 | ROLE_IN | 36 |
-| PRODUCES | 32 |
-| PRECURSOR_OF | 31 |
-| APPLIES_TO | 27 |
+| PRODUCES | 35 |
+| PRECURSOR_OF | 35 |
+| APPLIES_TO | 29 |
 | CONSUMES | 20 |
+| INTERSECTS_WITH | 19 |
 | HISTORICAL_PREDECESSOR | 15 |
-| INTERSECTS_WITH | 12 |
-| MATERIAL_OF | 11 |
+| MATERIAL_OF | 14 |
+| METHOD_FOR | 6 |
+| SUCCESSOR_OF | 4 |
 | TECHNOLOGY_OF | 3 |
-| SUCCESSOR_OF | 3 |
-| METHOD_FOR | 3 |
 | SECTOR_OF | 1 |
 
 ### D. Duplication — identical names
@@ -257,6 +263,8 @@ Potential duplicate names: 30
 - Interior Design (x4)
 - Higher Education (x4)
 - Geodesy (x4)
+- Genomics (x4)
+- Bioprinting (x4)
 - Biomaterials (x4)
 - Weaving (x3)
 - Water Treatment (x3)
@@ -269,19 +277,17 @@ Potential duplicate names: 30
 - Urban Design (x3)
 - Travel Writing (x3)
 - Transcriptomics (x3)
+- Traditional Chinese Medicine (x3)
 - Town Crier (x3)
+- Tissue Engineering (x3)
 - Thriller (x3)
 - Textile Machinery (x3)
-- Taxation (x3)
-- Takaful (x3)
-- Soviet Montage (x3)
-- Software as a Service (x3)
 
 ### F. Cultural bias — region-specific nodes
-- region-specific (global=false): 818
+- region-specific (global=false): 903
 
 ### G. Historical — extinct categories
-- historical: 489
+- historical: 501
 
 ## 4. Analytics (sample questions)
 
@@ -334,6 +340,7 @@ Potential duplicate names: 30
 - USED_BY Internet & Cloud
 - RELATED_TO Video Games
 - RELATED_TO Electronics & Electrical Equipment
+- USES Dynamic Random-Access Memory
 
 ### Q. 哪些职业跨越最多知识领域? (occupation -> knowledge links)
 - Mathematician: 3
@@ -358,7 +365,7 @@ Potential duplicate names: 30
 ### Q. 关联最多的节点 (most cross-linked)
 | node | degree |
 |---|---|
-| Graphics Processing Unit | 9 |
+| Graphics Processing Unit | 10 |
 | Life Sciences & Healthcare | 9 |
 | Manufacturing | 9 |
 | Semiconductor Industry | 9 |
@@ -366,18 +373,18 @@ Potential duplicate names: 30
 | Information & Communications Technology | 8 |
 | Cognitive Science | 7 |
 | Agriculture & Agrifood | 7 |
+| Synthetic Biology | 6 |
+| Public Relations | 6 |
+| Computer Vision | 6 |
 | Data Science | 6 |
 | Engineering and Technology | 6 |
+| Artificial Intelligence | 6 |
+| Computer Vision | 6 |
 | Energy & Power Generation | 6 |
+| Medical Devices | 6 |
+| Landscape Architecture | 5 |
+| Interior Design | 5 |
 | Bioinformatics | 5 |
-| Semiconductors | 5 |
-| Human Computer | 5 |
-| Construction & Civil Engineering | 5 |
-| Artificial Intelligence | 5 |
-| Oil & Gas Extraction | 5 |
-| Professional, Scientific & Technical Services | 5 |
-| Transportation & Logistics | 5 |
-| Architecture | 4 |
 
 ## 5. Method note
 

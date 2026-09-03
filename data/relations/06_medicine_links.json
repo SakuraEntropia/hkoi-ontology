@@ -1,0 +1,82 @@
+[
+ {
+  "source": "HK.medicine.medical_informatics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.medicine.medical_informatics",
+  "relation": "RELATED_TO",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine",
+  "relation": "RELATED_TO",
+  "target": "OCC.medicine"
+ },
+ {
+  "source": "HK.medicine.regenerative_medicine",
+  "relation": "RELATED_TO",
+  "target": "TECH.biotechnology"
+ },
+ {
+  "source": "HK.medicine.precision_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "EMERGING_FIELDS.personalized_medicine"
+ },
+ {
+  "source": "HK.medicine.nanomedicine",
+  "relation": "RELATED_TO",
+  "target": "TECH.medical_technology"
+ },
+ {
+  "source": "HK.medicine.regenerative_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology"
+ },
+ {
+  "source": "HK.public_health.epidemiology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.public_health.biostatistics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.public_health.global_health",
+  "relation": "RELATED_TO",
+  "target": "ind.life_sciences_healthcare"
+ },
+ {
+  "source": "HK.medicine.forensic_medicine",
+  "relation": "APPLICATION_OF",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.area_studies"
+ },
+ {
+  "source": "HK.pharmacy.pharmacognosy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.traditional_medicine"
+ },
+ {
+  "source": "HK.nursing.midwifery",
+  "relation": "RELATED_TO",
+  "target": "OCC.medicine"
+ },
+ {
+  "source": "HK.medicine.medical_informatics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.bioinformatics"
+ }
+]

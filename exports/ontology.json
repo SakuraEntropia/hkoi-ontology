@@ -3,7 +3,7 @@
   "name": "HK-OI",
   "title": "Human Knowledge, Occupation & Industry Ontology",
   "version": "0.2.0",
-  "generatedAt": "2026-09-03T06:10:22.756Z",
+  "generatedAt": "2026-09-03T06:11:56.150Z",
   "universes": [
    "HUMAN_KNOWLEDGE",
    "OCCUPATIONS",
@@ -20,10 +20,10 @@
   ],
   "counts": {
    "nodes": 12334,
-   "relations": 14862,
-   "explicitRelations": 2552,
+   "relations": 14877,
+   "explicitRelations": 2568,
    "parentEdges": 12322,
-   "withMetrics": 431
+   "withMetrics": 455
   }
  },
  "nodes": [
@@ -69718,7 +69718,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "very_high",
+    "cultural_visibility": "low",
+    "economic_weight": "very_high",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -69735,7 +69761,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 95
+    },
+    "historical_significance": "foundational",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "very_high",
+    "cultural_visibility": "very_high",
+    "economic_weight": "very_high",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -69752,7 +69804,34 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 75
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global",
+     "China/India/Japan/Middle East"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "high",
+    "economic_weight": "moderate",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -69769,7 +69848,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 65
+    },
+    "historical_significance": "moderate",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "high",
+    "economic_weight": "moderate",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -69786,7 +69891,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "rapidly_growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -69803,7 +69934,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 20
+    },
+    "historical_significance": "moderate",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "low",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -69820,7 +69977,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "moderate",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -69837,7 +70020,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "rapidly_growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -69854,7 +70063,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "rapidly_growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -69871,7 +70106,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "moderate",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -69888,7 +70149,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -69905,7 +70192,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "moderate",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "moderate",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -79580,7 +79893,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "very_high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "very_high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -79597,7 +79936,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -79631,7 +79996,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "moderate",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -79648,7 +80039,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -79682,7 +80099,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 60
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "high",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -79699,7 +80142,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 50
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -79733,7 +80202,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 50
+    },
+    "historical_significance": "very_high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -80991,7 +81486,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -81093,7 +81614,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 60
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -81688,7 +82235,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 50
+    },
+    "historical_significance": "moderate",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "moderate",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -82283,7 +82856,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -83354,7 +83953,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "moderate",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -297858,6 +298483,102 @@
    "kind": "explicit"
   },
   {
+   "source": "HK.medicine.medical_informatics",
+   "relation": "APPLICATION_OF",
+   "target": "HK.computer_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.medical_informatics",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.clinical_medicine",
+   "relation": "RELATED_TO",
+   "target": "OCC.medicine",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.regenerative_medicine",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.precision_medicine",
+   "relation": "OVERLAPS_WITH",
+   "target": "EMERGING_FIELDS.personalized_medicine",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.nanomedicine",
+   "relation": "RELATED_TO",
+   "target": "TECH.medical_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.regenerative_medicine",
+   "relation": "OVERLAPS_WITH",
+   "target": "TECH.biotechnology",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.public_health.epidemiology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.statistics",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.public_health.biostatistics",
+   "relation": "APPLICATION_OF",
+   "target": "HK.statistics",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.public_health.global_health",
+   "relation": "RELATED_TO",
+   "target": "ind.life_sciences_healthcare",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.forensic_medicine",
+   "relation": "APPLICATION_OF",
+   "target": "HK.law",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.clinical_medicine",
+   "relation": "APPLICATION_OF",
+   "target": "HK.biology",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.traditional_medicine",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.area_studies",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.pharmacy.pharmacognosy",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.medicine.traditional_medicine",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.nursing.midwifery",
+   "relation": "RELATED_TO",
+   "target": "OCC.medicine",
+   "kind": "explicit"
+  },
+  {
+   "source": "HK.medicine.medical_informatics",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.bioinformatics",
+   "kind": "explicit"
+  },
+  {
    "source": "ART.animation.2d_animation.rotoscoping",
    "relation": "USES",
    "target": "ART.film",
@@ -301089,12 +301810,6 @@
    "source": "HK.medicine.precision_medicine.genomic_medicine",
    "relation": "APPLICATION_OF",
    "target": "HK.bioinformatics",
-   "kind": "explicit"
-  },
-  {
-   "source": "HK.public_health.biostatistics",
-   "relation": "APPLICATION_OF",
-   "target": "HK.statistics",
    "kind": "explicit"
   },
   {

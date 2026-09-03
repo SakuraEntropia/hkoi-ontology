@@ -5936,5 +5936,654 @@
   "cultural_visibility": "moderate",
   "economic_weight": "low",
   "cultural_weight": "high"
+ },
+ "HK.medicine.basic_medical_sciences": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 40
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "low",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "HK.medicine.clinical_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 95
+  },
+  "historical_significance": "foundational",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "HK.medicine.traditional_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global",
+   "China/India/Japan/Middle East"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "HK.medicine.complementary_and_alternative_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 65
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.medicine.medical_informatics": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 30
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "HK.medicine.medical_humanities": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 20
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "low",
+  "economic_weight": "negligible",
+  "cultural_weight": "moderate"
+ },
+ "HK.medicine.forensic_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.medicine.regenerative_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 35
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "moderate"
+ },
+ "HK.medicine.precision_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 40
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "moderate"
+ },
+ "HK.medicine.nanomedicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 25
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "moderate",
+  "cultural_weight": "low"
+ },
+ "HK.medicine.translational_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 25
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "HK.medicine.environmental_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 35
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.public_health.epidemiology": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "HK.public_health.biostatistics": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 30
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "HK.public_health.global_health": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "HK.public_health.health_policy_and_management": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 40
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "HK.public_health.preventive_medicine": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 50
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "HK.public_health.maternal_and_child_health": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 50
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "HK.public_health.occupational_health": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 30
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.nursing.midwifery": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "HK.nursing.critical_care_nursing": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 45
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "moderate"
+ },
+ "HK.dentistry.orthodontics": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 50
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "low"
+ },
+ "HK.pharmacy.clinical_pharmacy": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 35
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "HK.veterinary_medicine.veterinary_public_health": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline"
+  },
+  "public_awareness": {
+   "score": 25
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
  }
 }
