@@ -1,14 +1,5 @@
 [
  {
-  "id": "HK.cognitive_science",
-  "name": "Cognitive Science",
-  "name_en": "Cognitive Science",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "认知科学",
-  "description": "The interdisciplinary study of mind and cognition."
- },
- {
   "id": "HK.cognitive_science.cognitive_psychology",
   "name": "Cognitive Psychology",
   "name_en": "Cognitive Psychology",
@@ -47,15 +38,6 @@
   "type": "KNOWLEDGE_FIELD",
   "parent": "HK.cognitive_science",
   "name_zh": "认知语言学"
- },
- {
-  "id": "HK.neuroscience",
-  "name": "Neuroscience",
-  "name_en": "Neuroscience",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "神经科学",
-  "description": "The scientific study of the nervous system."
  },
  {
   "id": "HK.neuroscience.neuroanatomy",
@@ -146,15 +128,6 @@
   "name_zh": "发育神经科学"
  },
  {
-  "id": "HK.complexity_science",
-  "name": "Complexity Science",
-  "name_en": "Complexity Science",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "复杂性科学",
-  "description": "The study of complex systems and emergence."
- },
- {
   "id": "HK.complexity_science.complex_adaptive_systems",
   "name": "Complex Adaptive Systems",
   "name_en": "Complex Adaptive Systems",
@@ -203,15 +176,6 @@
   "name_zh": "复杂性经济学"
  },
  {
-  "id": "HK.sustainability_science",
-  "name": "Sustainability Science",
-  "name_en": "Sustainability Science",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "可持续性科学",
-  "description": "The study of sustainable human-environment systems."
- },
- {
   "id": "HK.sustainability_science.sustainable_development",
   "name": "Sustainable Development",
   "name_en": "Sustainable Development",
@@ -252,15 +216,6 @@
   "name_zh": "环境治理"
  },
  {
-  "id": "HK.gender_studies",
-  "name": "Gender Studies",
-  "name_en": "Gender Studies",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "性别研究",
-  "description": "The interdisciplinary study of gender and sexuality."
- },
- {
   "id": "HK.gender_studies.feminist_theory",
   "name": "Feminist Theory",
   "name_en": "Feminist Theory",
@@ -299,15 +254,6 @@
   "type": "KNOWLEDGE_FIELD",
   "parent": "HK.gender_studies",
   "name_zh": "交叉性"
- },
- {
-  "id": "HK.area_studies",
-  "name": "Area Studies",
-  "name_en": "Area Studies",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "区域研究",
-  "description": "The interdisciplinary study of world regions."
  },
  {
   "id": "HK.area_studies.sinology",
@@ -414,15 +360,6 @@
   "name_zh": "大洋洲研究"
  },
  {
-  "id": "HK.bioinformatics",
-  "name": "Bioinformatics",
-  "name_en": "Bioinformatics",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "生物信息学",
-  "description": "The computational analysis of biological data."
- },
- {
   "id": "HK.bioinformatics.genomics",
   "name": "Genomics",
   "name_en": "Genomics",
@@ -477,15 +414,6 @@
   "type": "KNOWLEDGE_FIELD",
   "parent": "HK.bioinformatics",
   "name_zh": "宏基因组学"
- },
- {
-  "id": "HK.digital_humanities",
-  "name": "Digital Humanities",
-  "name_en": "Digital Humanities",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "数字人文",
-  "description": "Computational methods applied to humanities."
  },
  {
   "id": "HK.digital_humanities.text_mining",

@@ -1,0 +1,727 @@
+[
+ {
+  "source": "HK.mathematics.analysis.partial_differential_equations",
+  "relation": "USES",
+  "target": "HK.mathematics.analysis.functional_analysis"
+ },
+ {
+  "source": "HK.mathematics.analysis.partial_differential_equations",
+  "relation": "USES",
+  "target": "HK.mathematics.analysis.harmonic_analysis"
+ },
+ {
+  "source": "HK.mathematics.geometry.differential_geometry",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.mathematical_physics"
+ },
+ {
+  "source": "HK.mathematics.geometry.differential_geometry",
+  "relation": "USES",
+  "target": "HK.mathematics.analysis"
+ },
+ {
+  "source": "HK.mathematics.geometry.differential_geometry.geometric_analysis",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.analysis.partial_differential_equations"
+ },
+ {
+  "source": "HK.mathematics.geometry.differential_geometry.riemannian_geometry",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.mathematical_physics.general_relativity"
+ },
+ {
+  "source": "HK.mathematics.mathematical_physics",
+  "relation": "USES",
+  "target": "HK.mathematics.geometry.differential_geometry"
+ },
+ {
+  "source": "HK.mathematics.mathematical_physics",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.lie_theory"
+ },
+ {
+  "source": "HK.mathematics.mathematical_physics",
+  "relation": "USES",
+  "target": "HK.mathematics.analysis.functional_analysis"
+ },
+ {
+  "source": "HK.mathematics.geometry.algebraic_geometry",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.commutative_algebra"
+ },
+ {
+  "source": "HK.mathematics.geometry.algebraic_geometry",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.category_theory"
+ },
+ {
+  "source": "HK.mathematics.number_theory.analytic_number_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.analysis.complex_analysis"
+ },
+ {
+  "source": "HK.mathematics.number_theory.algebraic_number_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra"
+ },
+ {
+  "source": "HK.mathematics.number_theory.arithmetic_geometry",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.geometry.algebraic_geometry"
+ },
+ {
+  "source": "HK.mathematics.combinatorics.algebraic_combinatorics",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra"
+ },
+ {
+  "source": "HK.mathematics.combinatorics.probabilistic_combinatorics",
+  "relation": "USES",
+  "target": "HK.mathematics.probability"
+ },
+ {
+  "source": "HK.mathematics.combinatorics.graph_theory",
+  "relation": "USED_BY",
+  "target": "HK.operations_research"
+ },
+ {
+  "source": "HK.mathematics.combinatorics.graph_theory",
+  "relation": "RELATED_TO",
+  "target": "HK.mathematics.topology.algebraic_topology"
+ },
+ {
+  "source": "HK.mathematics.topology.algebraic_topology",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.homological_algebra"
+ },
+ {
+  "source": "HK.mathematics.topology.algebraic_topology",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.category_theory"
+ },
+ {
+  "source": "HK.mathematics.topology.homotopy_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.category_theory"
+ },
+ {
+  "source": "HK.mathematics.optimization",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.applied_mathematics.mathematical_economics"
+ },
+ {
+  "source": "HK.mathematics.optimization.convex_optimization",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.applied_mathematics.mathematical_finance"
+ },
+ {
+  "source": "HK.mathematics.game_theory",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.applied_mathematics.mathematical_economics"
+ },
+ {
+  "source": "HK.mathematics.control_theory",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.applied_mathematics.industrial_mathematics"
+ },
+ {
+  "source": "HK.mathematics.information_theory",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.applied_mathematics.mathematical_finance"
+ },
+ {
+  "source": "HK.mathematics.statistics",
+  "relation": "USES",
+  "target": "HK.mathematics.probability"
+ },
+ {
+  "source": "HK.mathematics.statistics",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.linear_algebra"
+ },
+ {
+  "source": "HK.mathematics.foundations.category_theory",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.topology.algebraic_topology"
+ },
+ {
+  "source": "HK.mathematics.foundations.category_theory",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.geometry.algebraic_geometry"
+ },
+ {
+  "source": "HK.mathematics.foundations.category_theory.homotopy_type_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.foundations.type_theory"
+ },
+ {
+  "source": "HK.mathematics.foundations.mathematical_logic.model_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.set_theory"
+ },
+ {
+  "source": "HK.mathematics.foundations.mathematical_logic.proof_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.foundations.type_theory"
+ },
+ {
+  "source": "HK.mathematics.probability.stochastic_processes",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.applied_mathematics.mathematical_finance"
+ },
+ {
+  "source": "HK.mathematics.probability.stochastic_processes",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.applied_mathematics.actuarial_mathematics"
+ },
+ {
+  "source": "HK.mathematics.analysis.operator_theory.index_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.topology.algebraic_topology"
+ },
+ {
+  "source": "HK.mathematics.dynamical_systems",
+  "relation": "USED_BY",
+  "target": "HK.mathematics.applied_mathematics.mathematical_biology"
+ },
+ {
+  "source": "HK.mathematics.dynamical_systems.ergodic_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.probability.probability_theory"
+ },
+ {
+  "source": "HK.physics.quantum_field_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.representation_theory"
+ },
+ {
+  "source": "HK.physics.quantum_field_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.analysis.functional_analysis"
+ },
+ {
+  "source": "HK.physics.quantum_mechanics",
+  "relation": "USES",
+  "target": "HK.mathematics.analysis.functional_analysis"
+ },
+ {
+  "source": "HK.physics.quantum_mechanics",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.linear_algebra"
+ },
+ {
+  "source": "HK.physics.relativity.general_relativity",
+  "relation": "USES",
+  "target": "HK.mathematics.geometry.differential_geometry"
+ },
+ {
+  "source": "HK.physics.relativity.general_relativity",
+  "relation": "USES",
+  "target": "HK.mathematics.topology.differential_topology"
+ },
+ {
+  "source": "HK.physics.thermodynamics_and_statistical_mechanics",
+  "relation": "USES",
+  "target": "HK.mathematics.probability"
+ },
+ {
+  "source": "HK.physics.condensed_matter_physics",
+  "relation": "USES",
+  "target": "HK.physics.quantum_mechanics"
+ },
+ {
+  "source": "HK.physics.condensed_matter_physics",
+  "relation": "USES",
+  "target": "HK.physics.thermodynamics_and_statistical_mechanics"
+ },
+ {
+  "source": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.geometry.algebraic_geometry"
+ },
+ {
+  "source": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.geometry.differential_geometry"
+ },
+ {
+  "source": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.category_theory"
+ },
+ {
+  "source": "HK.physics.cosmology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.physics.astrophysics"
+ },
+ {
+  "source": "HK.physics.astrophysics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.physics.particle_physics"
+ },
+ {
+  "source": "HK.physics.biophysics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.physics.geophysics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.physics.chemical_physics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.physics.computational_physics",
+  "relation": "USES",
+  "target": "HK.mathematics.numerical_mathematics"
+ },
+ {
+  "source": "HK.physics.quantum_mechanics.quantum_information",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.information_theory.quantum_information_theory"
+ },
+ {
+  "source": "HK.physics.plasma_physics",
+  "relation": "USES",
+  "target": "HK.mathematics.dynamical_systems"
+ },
+ {
+  "source": "HK.physics.fluid_dynamics.turbulence",
+  "relation": "USES",
+  "target": "HK.mathematics.dynamical_systems.chaos_theory"
+ },
+ {
+  "source": "HK.physics.optics_and_photonics",
+  "relation": "USES",
+  "target": "HK.mathematics.analysis.fourier_analysis"
+ },
+ {
+  "source": "HK.computer_science.computer_vision",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.computer_science.computer_vision",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.linear_algebra"
+ },
+ {
+  "source": "HK.computer_science.computer_vision",
+  "relation": "USES",
+  "target": "HK.mathematics.statistics"
+ },
+ {
+  "source": "HK.computer_science.machine_learning",
+  "relation": "USES",
+  "target": "HK.mathematics.statistics"
+ },
+ {
+  "source": "HK.computer_science.machine_learning",
+  "relation": "USES",
+  "target": "HK.mathematics.optimization"
+ },
+ {
+  "source": "HK.computer_science.machine_learning",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.linear_algebra"
+ },
+ {
+  "source": "HK.computer_science.deep_learning",
+  "relation": "USES",
+  "target": "HK.mathematics.optimization"
+ },
+ {
+  "source": "HK.computer_science.cryptography",
+  "relation": "USES",
+  "target": "HK.mathematics.number_theory"
+ },
+ {
+  "source": "HK.computer_science.cryptography",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra"
+ },
+ {
+  "source": "HK.computer_science.quantum_computing",
+  "relation": "USES",
+  "target": "HK.physics.quantum_mechanics"
+ },
+ {
+  "source": "HK.computer_science.quantum_computing",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.linear_algebra"
+ },
+ {
+  "source": "HK.computer_science.computer_graphics",
+  "relation": "USES",
+  "target": "HK.mathematics.algebra.linear_algebra"
+ },
+ {
+  "source": "HK.computer_science.computer_graphics",
+  "relation": "USES",
+  "target": "HK.mathematics.geometry.differential_geometry"
+ },
+ {
+  "source": "HK.computer_science.natural_language_processing",
+  "relation": "USES",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.computer_science.robotics",
+  "relation": "USES",
+  "target": "HK.mathematics.control_theory"
+ },
+ {
+  "source": "HK.computer_science.robotics",
+  "relation": "USES",
+  "target": "HK.computer_science.computer_vision"
+ },
+ {
+  "source": "HK.computer_science.robotics",
+  "relation": "USES",
+  "target": "HK.computer_science.machine_learning"
+ },
+ {
+  "source": "HK.computer_science.theory_of_computation",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.mathematical_logic"
+ },
+ {
+  "source": "HK.computer_science.theory_of_computation.complexity_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.mathematical_logic"
+ },
+ {
+  "source": "HK.computer_science.theory_of_computation.computability_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.foundations.mathematical_logic.computability_theory"
+ },
+ {
+  "source": "HK.computer_science.algorithms_and_data_structures",
+  "relation": "USES",
+  "target": "HK.mathematics.combinatorics"
+ },
+ {
+  "source": "HK.computer_science.algorithms_and_data_structures",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.mathematical_logic"
+ },
+ {
+  "source": "HK.computer_science.algorithms_and_data_structures.geometric_algorithms",
+  "relation": "USES",
+  "target": "HK.mathematics.geometry.computational_geometry"
+ },
+ {
+  "source": "HK.computer_science.formal_methods",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.mathematical_logic"
+ },
+ {
+  "source": "HK.computer_science.formal_methods.model_checking",
+  "relation": "USES",
+  "target": "HK.logic"
+ },
+ {
+  "source": "HK.computer_science.programming_languages.type_systems",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.type_theory"
+ },
+ {
+  "source": "HK.computer_science.databases",
+  "relation": "USES",
+  "target": "HK.mathematics.foundations.mathematical_logic"
+ },
+ {
+  "source": "HK.computer_science.computer_graphics.rendering",
+  "relation": "USES",
+  "target": "HK.mathematics.numerical_mathematics"
+ },
+ {
+  "source": "HK.computer_science.information_retrieval",
+  "relation": "USES",
+  "target": "HK.mathematics.statistics"
+ },
+ {
+  "source": "HK.computer_science.information_retrieval.recommendation_systems",
+  "relation": "USES",
+  "target": "HK.computer_science.machine_learning"
+ },
+ {
+  "source": "HK.computer_science.data_mining",
+  "relation": "USES",
+  "target": "HK.mathematics.statistics"
+ },
+ {
+  "source": "HK.computer_science.data_mining",
+  "relation": "USES",
+  "target": "HK.computer_science.machine_learning"
+ },
+ {
+  "source": "HK.computer_science.artificial_intelligence",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.cognitive_science"
+ },
+ {
+  "source": "HK.statistics",
+  "relation": "USES",
+  "target": "HK.mathematics.probability"
+ },
+ {
+  "source": "HK.statistics.causal_inference",
+  "relation": "USES",
+  "target": "HK.mathematics.combinatorics.graph_theory"
+ },
+ {
+  "source": "HK.statistics.statistical_learning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.machine_learning"
+ },
+ {
+  "source": "HK.statistics.biostatistics",
+  "relation": "USES",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.statistics.econometrics",
+  "relation": "USES",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.operations_research",
+  "relation": "USES",
+  "target": "HK.mathematics.optimization"
+ },
+ {
+  "source": "HK.operations_research",
+  "relation": "USES",
+  "target": "HK.mathematics.combinatorics.graph_theory"
+ },
+ {
+  "source": "HK.operations_research.queueing_theory",
+  "relation": "USES",
+  "target": "HK.mathematics.probability.stochastic_processes"
+ },
+ {
+  "source": "HK.data_science",
+  "relation": "USES",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.data_science",
+  "relation": "USES",
+  "target": "HK.computer_science.machine_learning"
+ },
+ {
+  "source": "HK.data_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.information_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.information_retrieval"
+ },
+ {
+  "source": "HK.information_science.information_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.information_theory"
+ },
+ {
+  "source": "HK.systems_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.dynamical_systems"
+ },
+ {
+  "source": "HK.systems_science.network_science",
+  "relation": "USES",
+  "target": "HK.mathematics.combinatorics.graph_theory"
+ },
+ {
+  "source": "HK.logic",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.foundations.mathematical_logic"
+ },
+ {
+  "source": "HK.logic.mathematical_logic",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics.foundations.mathematical_logic"
+ },
+ {
+  "source": "HK.cognitive_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.cognitive_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.neuroscience"
+ },
+ {
+  "source": "HK.cognitive_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.cognitive_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.cognitive_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy"
+ },
+ {
+  "source": "HK.neuroscience",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.neuroscience",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.bioinformatics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.bioinformatics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.bioinformatics",
+  "relation": "USES",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.complexity_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.systems_science"
+ },
+ {
+  "source": "HK.complexity_science",
+  "relation": "USES",
+  "target": "HK.mathematics.dynamical_systems"
+ },
+ {
+  "source": "HK.sustainability_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "HK.sustainability_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.digital_humanities",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.digital_humanities",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history"
+ },
+ {
+  "source": "HK.digital_humanities",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature"
+ },
+ {
+  "source": "HK.digital_humanities.computational_linguistics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.gender_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "HK.gender_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.area_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.area_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history"
+ },
+ {
+  "source": "HK.area_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.computer_science",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.statistics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.operations_research",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.physics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.data_science",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.data_science",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.bioinformatics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.cognitive_science",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.neuroscience",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.computer_science.computer_systems.high_performance_computing",
+  "relation": "USED_BY",
+  "target": "HK.physics.computational_physics"
+ }
+]

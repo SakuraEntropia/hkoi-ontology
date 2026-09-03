@@ -1,14 +1,5 @@
 [
  {
-  "id": "EMERGING_FIELDS",
-  "name": "Emerging Fields",
-  "name_en": "Emerging Fields",
-  "type": "UNIVERSE",
-  "parent": null,
-  "name_zh": "新兴领域",
-  "description": "Nascent cross-disciplinary fields."
- },
- {
   "id": "EMERGING_FIELDS.artificial_general_intelligence",
   "name": "Artificial General Intelligence",
   "name_en": "Artificial General Intelligence",

@@ -1,14 +1,5 @@
 [
  {
-  "id": "HK.physics",
-  "name": "Physics",
-  "name_en": "Physics",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "物理学",
-  "description": "The science of matter, energy, space, time, and fundamental forces."
- },
- {
   "id": "HK.physics.classical_mechanics",
   "name": "Classical Mechanics",
   "name_en": "Classical Mechanics",

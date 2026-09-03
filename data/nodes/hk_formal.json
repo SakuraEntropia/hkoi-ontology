@@ -1,14 +1,5 @@
 [
  {
-  "id": "HK.logic",
-  "name": "Logic",
-  "name_en": "Logic",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "逻辑学",
-  "description": "The study of valid reasoning and inference."
- },
- {
   "id": "HK.logic.philosophical_logic",
   "name": "Philosophical Logic",
   "name_en": "Philosophical Logic",
@@ -143,15 +134,6 @@
   "type": "KNOWLEDGE_FIELD",
   "parent": "HK.logic",
   "name_zh": "计算机逻辑"
- },
- {
-  "id": "HK.statistics",
-  "name": "Statistics",
-  "name_en": "Statistics",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "统计学",
-  "description": "The science of data and inference."
  },
  {
   "id": "HK.statistics.descriptive_statistics",
@@ -306,15 +288,6 @@
   "name_zh": "官方统计"
  },
  {
-  "id": "HK.information_science",
-  "name": "Information Science",
-  "name_en": "Information Science",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "信息科学",
-  "description": "The study of information and its representation, storage, and retrieval."
- },
- {
   "id": "HK.information_science.information_theory",
   "name": "Information Theory",
   "name_en": "Information Theory",
@@ -395,15 +368,6 @@
   "name_zh": "信息可视化"
  },
  {
-  "id": "HK.systems_science",
-  "name": "Systems Science",
-  "name_en": "Systems Science",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "系统科学",
-  "description": "The study of systems and their behavior."
- },
- {
   "id": "HK.systems_science.general_systems_theory",
   "name": "General Systems Theory",
   "name_en": "General Systems Theory",
@@ -458,15 +422,6 @@
   "type": "KNOWLEDGE_FIELD",
   "parent": "HK.systems_science",
   "name_zh": "网络科学"
- },
- {
-  "id": "HK.operations_research",
-  "name": "Operations Research",
-  "name_en": "Operations Research",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "运筹学",
-  "description": "Applied mathematics for optimal decision-making."
  },
  {
   "id": "HK.operations_research.linear_programming",
@@ -563,15 +518,6 @@
   "type": "KNOWLEDGE_FIELD",
   "parent": "HK.operations_research",
   "name_zh": "供应链优化"
- },
- {
-  "id": "HK.data_science",
-  "name": "Data Science",
-  "name_en": "Data Science",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "数据科学",
-  "description": "The extraction of insight from data."
  },
  {
   "id": "HK.data_science.data_engineering",

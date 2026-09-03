@@ -1,14 +1,5 @@
 [
  {
-  "id": "HK.computer_science",
-  "name": "Computer Science",
-  "name_en": "Computer Science",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HUMAN_KNOWLEDGE",
-  "name_zh": "计算机科学",
-  "description": "The study of computation, algorithms, information, and computing systems."
- },
- {
   "id": "HK.computer_science.theory_of_computation",
   "name": "Theory of Computation",
   "name_en": "Theory of Computation",
