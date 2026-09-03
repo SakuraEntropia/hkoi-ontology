@@ -55,6 +55,34 @@ knowledge, labour, culture, and economic activity.
 { "source": "computer_vision.id", "relation": "APPLICATION_OF", "target": "mathematics.id" }
 ```
 
+
+## Civilization Metrics (per-node quantitative/estimated metadata)
+
+Every relevant node carries optional `metrics` (stored as JSON in SQLite `nodes.metrics` and in
+`exports/ontology.json`). Schema:
+
+```json
+{
+  "population": { "est": "~30M", "note": "..." },            // practitioners/participants
+  "economy":    { "est": "$5T", "basis": "...", "year": 2025, "currency": "USD", "note": "..." },
+  "public_awareness": { "score": 80, "basis": "..." },       // 0-100
+  "historical_significance": "very_high",                    // negligible|low|moderate|high|very_high|foundational|unknown
+  "growth": "rapidly_growing",                               // rapidly_growing|growing|stable|declining|rapidly_declining|unknown
+  "geography": ["global", "East Asia"],                      // major regions
+  "institutionalization": "very_high",                       // minimal|low|moderate|high|very_high
+  "cultural_visibility": "high",                             // negligible|low|moderate|high|very_high
+  "economic_weight": "very_high",                            // orthogonal to cultural_weight
+  "cultural_weight": "very_high",                            // orthogonal to economic_weight
+  "confidence": 0.5,                                         // 0-1
+  "method": "model_estimate"                                 // measured|census|survey|model_estimate|expert_judgment|qualitative
+}
+```
+
+**Principles**: order-of-magnitude estimates with explicit confidence and provenance; `unknown` /
+omitted where no reliable basis exists; measured vs model-based estimates are distinguished; and
+**economic and cultural weight are kept as separate orthogonal dimensions** — a small economy can
+have enormous cultural/scientific/historical significance, so no single ranking is imposed.
+
 ## Build
 
 ```bash

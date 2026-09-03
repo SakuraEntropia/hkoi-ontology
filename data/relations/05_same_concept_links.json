@@ -1,0 +1,727 @@
+[
+ {
+  "source": "EMERGING_FIELDS.synthetic_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology.synthetic_biology"
+ },
+ {
+  "source": "EMERGING_FIELDS.synthetic_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.life_sciences_healthcare.biotech.synthetic_biology"
+ },
+ {
+  "source": "EMERGING_FIELDS.synthetic_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.synthetic_biology"
+ },
+ {
+  "source": "HK.biology.synthetic_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.life_sciences_healthcare.biotech.synthetic_biology"
+ },
+ {
+  "source": "HK.biology.synthetic_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.synthetic_biology"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.biotech.synthetic_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.synthetic_biology"
+ },
+ {
+  "source": "HK.engineering.materials_engineering.electronic_materials.semiconductor_materials",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.materials_science.semiconductor_materials"
+ },
+ {
+  "source": "HK.engineering.materials_engineering.electronic_materials.semiconductor_materials",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.semiconductors.materials"
+ },
+ {
+  "source": "HK.engineering.materials_engineering.electronic_materials.semiconductor_materials",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.semiconductor_materials"
+ },
+ {
+  "source": "HK.materials_science.semiconductor_materials",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.semiconductors.materials"
+ },
+ {
+  "source": "HK.materials_science.semiconductor_materials",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.semiconductor_materials"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.materials",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.semiconductor_materials"
+ },
+ {
+  "source": "HK.bioinformatics.proteomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology.molecular_biology.proteomics"
+ },
+ {
+  "source": "HK.bioinformatics.proteomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.life_sciences_healthcare.biotech.proteomics"
+ },
+ {
+  "source": "HK.bioinformatics.proteomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.omics_technology.proteomics"
+ },
+ {
+  "source": "HK.biology.molecular_biology.proteomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.life_sciences_healthcare.biotech.proteomics"
+ },
+ {
+  "source": "HK.biology.molecular_biology.proteomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.omics_technology.proteomics"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.biotech.proteomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.omics_technology.proteomics"
+ },
+ {
+  "source": "HK.bioinformatics.transcriptomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology.molecular_biology.transcriptomics"
+ },
+ {
+  "source": "HK.bioinformatics.transcriptomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.omics_technology.transcriptomics"
+ },
+ {
+  "source": "HK.biology.molecular_biology.transcriptomics",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.omics_technology.transcriptomics"
+ },
+ {
+  "source": "HK.engineering.materials_engineering.metallurgy.powder_metallurgy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.materials_science.metallurgy.powder_metallurgy"
+ },
+ {
+  "source": "HK.engineering.materials_engineering.metallurgy.powder_metallurgy",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.metals.powder_metallurgy"
+ },
+ {
+  "source": "HK.engineering.materials_engineering.metallurgy.powder_metallurgy",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.metallurgy.powder_metallurgy"
+ },
+ {
+  "source": "HK.materials_science.metallurgy.powder_metallurgy",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.metals.powder_metallurgy"
+ },
+ {
+  "source": "HK.materials_science.metallurgy.powder_metallurgy",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.metallurgy.powder_metallurgy"
+ },
+ {
+  "source": "ind.manufacturing.metals.powder_metallurgy",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.metallurgy.powder_metallurgy"
+ },
+ {
+  "source": "HK.computer_science.natural_language_processing",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics.computational_linguistics.natural_language_processing"
+ },
+ {
+  "source": "HK.computer_science.natural_language_processing",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.information_technology.ai.nlp"
+ },
+ {
+  "source": "HK.computer_science.natural_language_processing",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.artificial_intelligence.natural_language_processing"
+ },
+ {
+  "source": "HK.linguistics.computational_linguistics.natural_language_processing",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.information_technology.ai.nlp"
+ },
+ {
+  "source": "HK.linguistics.computational_linguistics.natural_language_processing",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.artificial_intelligence.natural_language_processing"
+ },
+ {
+  "source": "ind.information_technology.ai.nlp",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.artificial_intelligence.natural_language_processing"
+ },
+ {
+  "source": "HK.engineering.biomedical_engineering.medical_devices",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.medical_devices"
+ },
+ {
+  "source": "HK.engineering.biomedical_engineering.medical_devices",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.medical_devices"
+ },
+ {
+  "source": "HK.engineering.biomedical_engineering.medical_devices",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.medical_technology.medical_devices"
+ },
+ {
+  "source": "ind.manufacturing.medical_devices",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.medical_devices"
+ },
+ {
+  "source": "ind.manufacturing.medical_devices",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.medical_technology.medical_devices"
+ },
+ {
+  "source": "PROD.medical_devices",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.medical_technology.medical_devices"
+ },
+ {
+  "source": "HK.engineering.biomedical_engineering.biomaterials",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.materials_science.biomaterials"
+ },
+ {
+  "source": "HK.engineering.biomedical_engineering.biomaterials",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.materials.advanced_materials.biomaterials"
+ },
+ {
+  "source": "HK.engineering.biomedical_engineering.biomaterials",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.biomaterials"
+ },
+ {
+  "source": "HK.materials_science.biomaterials",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.materials.advanced_materials.biomaterials"
+ },
+ {
+  "source": "HK.materials_science.biomaterials",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.biomaterials"
+ },
+ {
+  "source": "ind.manufacturing.materials.advanced_materials.biomaterials",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.materials_technology.biomaterials"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.geomatics_engineering.geodesy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.earth_science.geophysics.geodesy"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.geomatics_engineering.geodesy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.physics.geophysics.geodesy"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.geomatics_engineering.geodesy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.geography.geomatics.geodesy"
+ },
+ {
+  "source": "HK.earth_science.geophysics.geodesy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.physics.geophysics.geodesy"
+ },
+ {
+  "source": "HK.earth_science.geophysics.geodesy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.geography.geomatics.geodesy"
+ },
+ {
+  "source": "HK.physics.geophysics.geodesy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.geography.geomatics.geodesy"
+ },
+ {
+  "source": "HK.finance.public_finance.taxation",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.accounting.taxation"
+ },
+ {
+  "source": "HK.finance.public_finance.taxation",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.economics.public_economics.taxation"
+ },
+ {
+  "source": "HK.accounting.taxation",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.economics.public_economics.taxation"
+ },
+ {
+  "source": "HK.engineering.industrial_engineering.production_planning_and_control.scheduling",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.operations_research.scheduling"
+ },
+ {
+  "source": "HK.engineering.industrial_engineering.production_planning_and_control.scheduling",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.operations_management.scheduling"
+ },
+ {
+  "source": "HK.operations_research.scheduling",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.operations_management.scheduling"
+ },
+ {
+  "source": "HK.computer_science.quantum_computing.quantum_error_correction",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.physics.quantum_mechanics.quantum_information.quantum_error_correction"
+ },
+ {
+  "source": "HK.computer_science.quantum_computing.quantum_error_correction",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.quantum_computing.quantum_error_correction"
+ },
+ {
+  "source": "HK.physics.quantum_mechanics.quantum_information.quantum_error_correction",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.quantum_computing.quantum_error_correction"
+ },
+ {
+  "source": "HK.engineering.environmental_engineering.wastewater_treatment",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.environmental_science.waste_management.wastewater_treatment"
+ },
+ {
+  "source": "HK.engineering.environmental_engineering.wastewater_treatment",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.clean_technology.water_treatment.wastewater_treatment"
+ },
+ {
+  "source": "HK.environmental_science.waste_management.wastewater_treatment",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.clean_technology.water_treatment.wastewater_treatment"
+ },
+ {
+  "source": "HK.engineering.environmental_engineering.water_treatment",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.utilities.water_supply.water_treatment"
+ },
+ {
+  "source": "HK.engineering.environmental_engineering.water_treatment",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.clean_technology.water_treatment"
+ },
+ {
+  "source": "ind.utilities.water_supply.water_treatment",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.clean_technology.water_treatment"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.power_engineering.smart_grid",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.utilities.power_grid.smart_grid"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.power_engineering.smart_grid",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.energy_technology.smart_grid"
+ },
+ {
+  "source": "ind.utilities.power_grid.smart_grid",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.energy_technology.smart_grid"
+ },
+ {
+  "source": "EMERGING_FIELDS.precision_agriculture",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.agriculture.agritech.precision_agriculture"
+ },
+ {
+  "source": "EMERGING_FIELDS.precision_agriculture",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.agricultural_technology.precision_agriculture"
+ },
+ {
+  "source": "ind.agriculture.agritech.precision_agriculture",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.agricultural_technology.precision_agriculture"
+ },
+ {
+  "source": "ind.information_technology.software.saas",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.digital_products.software_as_a_service"
+ },
+ {
+  "source": "ind.information_technology.software.saas",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.cloud_computing.software_as_a_service"
+ },
+ {
+  "source": "PROD.digital_products.software_as_a_service",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.cloud_computing.software_as_a_service"
+ },
+ {
+  "source": "ind.information_technology.internet.cloud.paas",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.information_technology_services.cloud_services.paas"
+ },
+ {
+  "source": "ind.information_technology.internet.cloud.paas",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.cloud_computing.platform_as_a_service"
+ },
+ {
+  "source": "PROD.information_technology_services.cloud_services.paas",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.cloud_computing.platform_as_a_service"
+ },
+ {
+  "source": "HK.business.entrepreneurship.startup_financing.venture_capital",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.investments.alternative_investments.venture_capital"
+ },
+ {
+  "source": "HK.business.entrepreneurship.startup_financing.venture_capital",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.financial_services.asset_management.venture_capital"
+ },
+ {
+  "source": "HK.finance.investments.alternative_investments.venture_capital",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.financial_services.asset_management.venture_capital"
+ },
+ {
+  "source": "HK.finance.banking.retail_banking",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.financial_services.banking.retail"
+ },
+ {
+  "source": "HK.finance.banking.retail_banking",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.financial_services.banking.retail_banking"
+ },
+ {
+  "source": "ind.financial_services.banking.retail",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.financial_services.banking.retail_banking"
+ },
+ {
+  "source": "HK.finance.insurance.reinsurance",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.financial_services.insurance.reinsurance"
+ },
+ {
+  "source": "HK.finance.insurance.reinsurance",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.financial_services.insurance.reinsurance"
+ },
+ {
+  "source": "ind.financial_services.insurance.reinsurance",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.financial_services.insurance.reinsurance"
+ },
+ {
+  "source": "HK.finance.insurance.takaful",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.financial_services.insurance.takaful"
+ },
+ {
+  "source": "HK.finance.insurance.takaful",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.financial_services.islamic_finance.takaful"
+ },
+ {
+  "source": "ind.financial_services.insurance.takaful",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.financial_services.islamic_finance.takaful"
+ },
+ {
+  "source": "HK.engineering.textile_engineering.textile_machinery",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.machinery.textile_machinery"
+ },
+ {
+  "source": "HK.engineering.textile_engineering.textile_machinery",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.industrial_goods.machinery_and_equipment.textile_machinery"
+ },
+ {
+  "source": "ind.manufacturing.machinery.textile_machinery",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.industrial_goods.machinery_and_equipment.textile_machinery"
+ },
+ {
+  "source": "ART.craft.textile_arts.weaving",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.textiles.weaving"
+ },
+ {
+  "source": "ART.craft.textile_arts.weaving",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.textile_technology.weaving"
+ },
+ {
+  "source": "ind.manufacturing.textiles.weaving",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.textile_technology.weaving"
+ },
+ {
+  "source": "ART.games.video_games",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.media_entertainment.gaming"
+ },
+ {
+  "source": "ART.games.video_games",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.digital_products.video_games"
+ },
+ {
+  "source": "ind.media_entertainment.gaming",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.digital_products.video_games"
+ },
+ {
+  "source": "ART.animation.visual_effects",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.computer_graphics.visual_effects"
+ },
+ {
+  "source": "ART.animation.visual_effects",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.media_entertainment.film.vfx"
+ },
+ {
+  "source": "HK.computer_science.computer_graphics.visual_effects",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.media_entertainment.film.vfx"
+ },
+ {
+  "source": "ART.architecture.urban_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.architecture.urban_design"
+ },
+ {
+  "source": "ART.architecture.urban_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.professional_services.architecture.urban_design"
+ },
+ {
+  "source": "HK.architecture.urban_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.professional_services.architecture.urban_design"
+ },
+ {
+  "source": "ART.design.interior_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.architecture.interior_architecture.interior_design"
+ },
+ {
+  "source": "ART.design.interior_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.professional_services.architecture.interior"
+ },
+ {
+  "source": "ART.design.interior_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.architecture_and_design_services.interior_design"
+ },
+ {
+  "source": "HK.architecture.interior_architecture.interior_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.professional_services.architecture.interior"
+ },
+ {
+  "source": "HK.architecture.interior_architecture.interior_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.architecture_and_design_services.interior_design"
+ },
+ {
+  "source": "ind.professional_services.architecture.interior",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.architecture_and_design_services.interior_design"
+ },
+ {
+  "source": "ART.architecture.landscape_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.architecture.landscape_architecture"
+ },
+ {
+  "source": "ART.architecture.landscape_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.professional_services.architecture.landscape"
+ },
+ {
+  "source": "ART.architecture.landscape_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.architecture_and_design_services.landscape_architecture"
+ },
+ {
+  "source": "HK.architecture.landscape_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.professional_services.architecture.landscape"
+ },
+ {
+  "source": "HK.architecture.landscape_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.architecture_and_design_services.landscape_architecture"
+ },
+ {
+  "source": "ind.professional_services.architecture.landscape",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.architecture_and_design_services.landscape_architecture"
+ },
+ {
+  "source": "HK.education.higher_education",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.education.higher_education"
+ },
+ {
+  "source": "HK.education.higher_education",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.education.higher_education"
+ },
+ {
+  "source": "HK.education.higher_education",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.education_services.higher_education"
+ },
+ {
+  "source": "ind.education.higher_education",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.education.higher_education"
+ },
+ {
+  "source": "ind.education.higher_education",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.education_services.higher_education"
+ },
+ {
+  "source": "OCC.education.higher_education",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.education_services.higher_education"
+ },
+ {
+  "source": "HK.engineering.industrial_engineering.logistics_engineering.warehousing",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.supply_chain_management.logistics.warehousing"
+ },
+ {
+  "source": "HK.engineering.industrial_engineering.logistics_engineering.warehousing",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.transport_services.logistics_services.warehousing"
+ },
+ {
+  "source": "HK.business.supply_chain_management.logistics.warehousing",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.transport_services.logistics_services.warehousing"
+ },
+ {
+  "source": "HK.business.marketing.public_relations",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.communication.public_relations"
+ },
+ {
+  "source": "HK.business.marketing.public_relations",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.media_entertainment.advertising.pr"
+ },
+ {
+  "source": "HK.business.marketing.public_relations",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.marketing_and_advertising_services.public_relations"
+ },
+ {
+  "source": "HK.communication.public_relations",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.media_entertainment.advertising.pr"
+ },
+ {
+  "source": "HK.communication.public_relations",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.marketing_and_advertising_services.public_relations"
+ },
+ {
+  "source": "ind.media_entertainment.advertising.pr",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.professional_services.marketing_and_advertising_services.public_relations"
+ },
+ {
+  "source": "HK.computer_science.robotics",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.information_technology.robotics"
+ },
+ {
+  "source": "HK.computer_science.machine_learning",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.artificial_intelligence.machine_learning"
+ },
+ {
+  "source": "HK.computer_science.deep_learning",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.artificial_intelligence.deep_learning"
+ },
+ {
+  "source": "HK.finance.fintech.cryptocurrency",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.blockchain.cryptocurrency"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.biotech.gene_therapy",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology.genetic_engineering.gene_therapy"
+ },
+ {
+  "source": "ind.energy.electricity_generation.nuclear",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.energy_products.electricity.nuclear_power"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.biotech",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.biotechnology"
+ },
+ {
+  "source": "HK.computer_science.cybersecurity",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.it_computing.cybersecurity"
+ },
+ {
+  "source": "HK.computer_science.cybersecurity",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.cybersecurity"
+ },
+ {
+  "source": "OCC.it_computing.cybersecurity",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology.cybersecurity"
+ },
+ {
+  "source": "HK.computer_science.computer_vision",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.information_technology.ai.computer_vision"
+ },
+ {
+  "source": "HK.computer_science.computer_vision",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.artificial_intelligence.computer_vision"
+ },
+ {
+  "source": "ind.information_technology.ai.computer_vision",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.artificial_intelligence.computer_vision"
+ }
+]

@@ -1,43 +1,183 @@
 [
  {
-  "source": "HK.engineering.mechanical_engineering.manufacturing_engineering.additive_manufacturing",
+  "source": "HK.agriculture.agricultural_economics",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.materials_engineering"
+  "target": "HK.economics"
  },
  {
-  "source": "HK.engineering.electrical_engineering.electronics.vacuum_tube_electronics",
+  "source": "HK.agriculture.agricultural_entomology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.agriculture.agroecology.chinampa",
   "relation": "HISTORICAL_SUCCESSOR",
-  "target": "HK.engineering.electrical_engineering.electronics.digital_electronics"
+  "target": "HK.agriculture.agroecology.sustainable_agriculture"
  },
  {
-  "source": "HK.engineering.electrical_engineering.telecommunications_engineering.telegraphy",
-  "relation": "HISTORICAL_SUCCESSOR",
-  "target": "HK.engineering.electrical_engineering.telecommunications_engineering.digital_communications"
- },
- {
-  "source": "HK.engineering.electrical_engineering.microelectronics",
+  "source": "HK.agriculture.agroecology",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.computer_engineering"
+  "target": "HK.environmental_science"
  },
  {
-  "source": "HK.engineering.civil_engineering.hydraulic_engineering",
+  "source": "HK.agriculture.agroforestry",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.mechanical_engineering.fluid_mechanics"
+  "target": "HK.agriculture.agroecology"
  },
  {
-  "source": "HK.engineering.civil_engineering.coastal_engineering",
+  "source": "HK.agriculture.agroforestry",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.marine_engineering"
+  "target": "HK.forestry"
  },
  {
-  "source": "HK.engineering.civil_engineering.water_resources_engineering",
+  "source": "HK.agriculture.agronomy.terrace_farming",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.agriculture.soil_science.soil_conservation"
+ },
+ {
+  "source": "HK.agriculture.agronomy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.agriculture.animal_science",
+  "relation": "RELATED_TO",
+  "target": "HK.veterinary_medicine"
+ },
+ {
+  "source": "HK.agriculture.apiculture.pollination_services",
+  "relation": "RELATED_TO",
+  "target": "HK.agriculture.horticulture"
+ },
+ {
+  "source": "HK.agriculture.aquaculture",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.agricultural_engineering.aquaculture_engineering"
+ },
+ {
+  "source": "HK.agriculture.horticulture.viticulture",
+  "relation": "RELATED_TO",
+  "target": "HK.agriculture.horticulture.enology"
+ },
+ {
+  "source": "HK.agriculture.plant_breeding.molecular_breeding",
+  "relation": "USES",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.agriculture.plant_breeding",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.agriculture.plant_pathology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.agriculture.sericulture",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.textile_engineering"
+ },
+ {
+  "source": "HK.agriculture.soil_science.soil_chemistry",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.agriculture.soil_science",
+  "relation": "RELATED_TO",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.architecture.architectural_design.adaptive_reuse",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.architecture.historic_preservation"
+ },
+ {
+  "source": "HK.architecture.architectural_history.chinese_traditional_architecture.dougong_construction",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering.civil_engineering.structural_engineering"
+ },
+ {
+  "source": "HK.architecture.architectural_history.vernacular_architecture",
+  "relation": "RELATED_TO",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.architecture.architectural_history.western_architecture.classical_architecture",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.architecture.architectural_history.western_architecture.renaissance_architecture"
+ },
+ {
+  "source": "HK.architecture.architectural_history.western_architecture.modern_architecture",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.architecture.architectural_history.western_architecture.postmodern_architecture"
+ },
+ {
+  "source": "HK.architecture.architectural_history.western_architecture.renaissance_architecture",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.architecture.architectural_history.western_architecture.baroque_architecture"
+ },
+ {
+  "source": "HK.architecture.architectural_history",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "HK.architecture.building_science.building_acoustics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.acoustical_engineering.architectural_acoustics"
+ },
+ {
+  "source": "HK.architecture.building_science",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.architecture.building_services",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.mechanical_engineering.hvac"
+ },
+ {
+  "source": "HK.architecture.building_technology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.civil_engineering"
+ },
+ {
+  "source": "HK.architecture.historic_preservation",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "HK.architecture.landscape_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.agriculture.horticulture"
+ },
+ {
+  "source": "HK.architecture.sustainable_architecture.net_zero_energy_buildings",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.mechanical_engineering.energy_systems"
+ },
+ {
+  "source": "HK.architecture.sustainable_architecture",
   "relation": "OVERLAPS_WITH",
   "target": "HK.engineering.environmental_engineering"
  },
  {
-  "source": "HK.engineering.chemical_engineering.process_control",
+  "source": "HK.architecture.urban_design",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.electrical_engineering.control_systems"
+  "target": "HK.urban_planning"
+ },
+ {
+  "source": "HK.engineering.acoustical_engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.engineering.aerospace_engineering.aerodynamics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
  },
  {
   "source": "HK.engineering.aerospace_engineering.aerodynamics",
@@ -55,94 +195,9 @@
   "target": "HK.engineering.mechanical_engineering.turbomachinery.gas_turbines"
  },
  {
-  "source": "HK.engineering.nuclear_engineering.nuclear_materials",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.materials_engineering"
- },
- {
-  "source": "HK.engineering.nuclear_engineering.nuclear_thermal_hydraulics",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.mechanical_engineering.heat_transfer"
- },
- {
-  "source": "HK.engineering.biomedical_engineering.neural_engineering.brain_computer_interfaces",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.software_engineering"
- },
- {
-  "source": "HK.engineering.environmental_engineering",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.civil_engineering"
- },
- {
-  "source": "HK.engineering.environmental_engineering.noise_pollution_control",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.acoustical_engineering"
- },
- {
-  "source": "HK.engineering.materials_engineering",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.chemical_engineering"
- },
- {
-  "source": "HK.engineering.computer_engineering.vlsi_design",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.electrical_engineering.microelectronics"
- },
- {
-  "source": "HK.engineering.systems_engineering.cyber_physical_systems",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.computer_engineering.embedded_systems"
- },
- {
-  "source": "HK.engineering.industrial_engineering.manufacturing_systems",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.mechanical_engineering.manufacturing_engineering"
- },
- {
-  "source": "HK.engineering.robotics_engineering.robot_perception",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.electrical_engineering.signal_processing"
- },
- {
-  "source": "HK.engineering.robotics_engineering.robot_control",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.electrical_engineering.control_systems"
- },
- {
-  "source": "HK.engineering.robotics_engineering.autonomous_vehicle_engineering",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.mechanical_engineering.automotive_engineering"
- },
- {
-  "source": "HK.engineering.petroleum_engineering.drilling_engineering.offshore_drilling",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.marine_engineering.ocean_engineering"
- },
- {
-  "source": "HK.engineering.marine_engineering",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.civil_engineering.coastal_engineering"
- },
- {
-  "source": "HK.engineering.marine_engineering.marine_propulsion.marine_steam_propulsion",
-  "relation": "HISTORICAL_SUCCESSOR",
-  "target": "HK.engineering.marine_engineering.marine_propulsion.marine_diesel_propulsion"
- },
- {
-  "source": "HK.engineering.marine_engineering.marine_renewable_energy",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.electrical_engineering.power_engineering.power_generation"
- },
- {
-  "source": "HK.engineering.mining_engineering.mineral_processing",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.materials_engineering.metallurgy"
- },
- {
-  "source": "HK.engineering.mining_engineering.mining_geomechanics",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.civil_engineering.geotechnical_engineering"
+  "source": "HK.engineering.aerospace_engineering.astronautical_engineering.orbital_mechanics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
  },
  {
   "source": "HK.engineering.agricultural_engineering.irrigation_and_drainage_engineering",
@@ -155,19 +210,139 @@
   "target": "HK.engineering.robotics_engineering"
  },
  {
-  "source": "HK.engineering.textile_engineering.fiber_science",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.materials_engineering"
+  "source": "HK.engineering.biomedical_engineering.biomaterials",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
  },
  {
-  "source": "HK.engineering.food_engineering.food_bioprocess_engineering",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.chemical_engineering.biochemical_engineering"
+  "source": "HK.engineering.biomedical_engineering.biomechanics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
  },
  {
-  "source": "HK.engineering.fire_protection_engineering.structural_fire_protection",
+  "source": "HK.engineering.biomedical_engineering.neural_engineering.brain_computer_interfaces",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.civil_engineering.structural_engineering"
+  "target": "HK.engineering.software_engineering"
+ },
+ {
+  "source": "HK.engineering.biomedical_engineering",
+  "relation": "APPLIES_TO",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "HK.engineering.chemical_engineering.biochemical_engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.engineering.chemical_engineering.chemical_reaction_engineering.reaction_kinetics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.engineering.chemical_engineering.electrochemical_engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.engineering.chemical_engineering.polymer_engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.engineering.chemical_engineering.process_control",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.electrical_engineering.control_systems"
+ },
+ {
+  "source": "HK.engineering.chemical_engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.coastal_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.marine_engineering"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.geomatics_engineering.geodesy",
+  "relation": "RELATED_TO",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.geotechnical_engineering.soil_mechanics",
+  "relation": "RELATED_TO",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.hydraulic_engineering.hydrology",
+  "relation": "RELATED_TO",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.hydraulic_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.mechanical_engineering.fluid_mechanics"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.structural_engineering.structural_analysis",
+  "relation": "USES",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.engineering.civil_engineering.water_resources_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.environmental_engineering"
+ },
+ {
+  "source": "HK.engineering.computer_engineering.computer_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.engineering.computer_engineering.vlsi_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.electrical_engineering.microelectronics"
+ },
+ {
+  "source": "HK.engineering.computer_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.control_systems",
+  "relation": "USES",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.electromagnetics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.electronics.vacuum_tube_electronics",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.engineering.electrical_engineering.electronics.digital_electronics"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.microelectronics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.computer_engineering"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.photonics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.signal_processing",
+  "relation": "USES",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.engineering.electrical_engineering.telecommunications_engineering.telegraphy",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.engineering.electrical_engineering.telecommunications_engineering.digital_communications"
  },
  {
   "source": "HK.engineering.engineering_design.computer_aided_engineering",
@@ -185,54 +360,229 @@
   "target": "HK.engineering.systems_engineering"
  },
  {
-  "source": "HK.agriculture.agroecology.chinampa",
+  "source": "HK.engineering.environmental_engineering.noise_pollution_control",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.acoustical_engineering"
+ },
+ {
+  "source": "HK.engineering.environmental_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.civil_engineering"
+ },
+ {
+  "source": "HK.engineering.environmental_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "HK.engineering.fire_protection_engineering.structural_fire_protection",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.civil_engineering.structural_engineering"
+ },
+ {
+  "source": "HK.engineering.food_engineering.food_bioprocess_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.chemical_engineering.biochemical_engineering"
+ },
+ {
+  "source": "HK.engineering.industrial_engineering.manufacturing_systems",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.mechanical_engineering.manufacturing_engineering"
+ },
+ {
+  "source": "HK.engineering.industrial_engineering.operations_research",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.operations_research"
+ },
+ {
+  "source": "HK.engineering.industrial_engineering.quality_engineering.design_of_experiments",
+  "relation": "USES",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.engineering.industrial_engineering.quality_engineering.statistical_process_control",
+  "relation": "USES",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.engineering.marine_engineering.marine_propulsion.marine_steam_propulsion",
   "relation": "HISTORICAL_SUCCESSOR",
-  "target": "HK.agriculture.agroecology.sustainable_agriculture"
+  "target": "HK.engineering.marine_engineering.marine_propulsion.marine_diesel_propulsion"
  },
  {
-  "source": "HK.agriculture.aquaculture",
+  "source": "HK.engineering.marine_engineering.marine_renewable_energy",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.agricultural_engineering.aquaculture_engineering"
+  "target": "HK.engineering.electrical_engineering.power_engineering.power_generation"
  },
  {
-  "source": "HK.agriculture.apiculture.pollination_services",
-  "relation": "RELATED_TO",
-  "target": "HK.agriculture.horticulture"
- },
- {
-  "source": "HK.agriculture.sericulture",
+  "source": "HK.engineering.marine_engineering",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.textile_engineering"
+  "target": "HK.engineering.civil_engineering.coastal_engineering"
  },
  {
-  "source": "HK.agriculture.horticulture.viticulture",
-  "relation": "RELATED_TO",
-  "target": "HK.agriculture.horticulture.enology"
+  "source": "HK.engineering.materials_engineering.corrosion_engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
  },
  {
-  "source": "HK.agriculture.agronomy.terrace_farming",
+  "source": "HK.engineering.materials_engineering.electronic_materials",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.engineering.materials_engineering.materials_characterization.spectroscopy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.engineering.materials_engineering.metallurgy",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.agriculture.soil_science.soil_conservation"
+  "target": "HK.materials_science"
  },
  {
-  "source": "HK.agriculture.agroforestry",
+  "source": "HK.engineering.materials_engineering.nanomaterials_engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "HK.engineering.materials_engineering",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.agriculture.agroecology"
+  "target": "HK.engineering.chemical_engineering"
  },
  {
-  "source": "HK.forestry.wood_science",
+  "source": "HK.engineering.materials_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "HK.engineering.mechanical_engineering.computational_mechanics.finite_element_method",
+  "relation": "USES",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.engineering.mechanical_engineering.fluid_mechanics.computational_fluid_dynamics",
+  "relation": "USES",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.engineering.mechanical_engineering.fluid_mechanics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.engineering.mechanical_engineering.manufacturing_engineering.additive_manufacturing",
   "relation": "OVERLAPS_WITH",
   "target": "HK.engineering.materials_engineering"
  },
  {
-  "source": "HK.forestry.forest_management",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.agriculture.agroforestry"
+  "source": "HK.engineering.mechanical_engineering.solid_mechanics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
  },
  {
-  "source": "HK.forestry.silviculture.tree_breeding",
+  "source": "HK.engineering.mechanical_engineering.thermodynamics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.engineering.mining_engineering.mineral_processing",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.agriculture.plant_breeding"
+  "target": "HK.engineering.materials_engineering.metallurgy"
+ },
+ {
+  "source": "HK.engineering.mining_engineering.mining_geomechanics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.civil_engineering.geotechnical_engineering"
+ },
+ {
+  "source": "HK.engineering.nuclear_engineering.nuclear_materials",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.materials_engineering"
+ },
+ {
+  "source": "HK.engineering.nuclear_engineering.nuclear_thermal_hydraulics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.mechanical_engineering.heat_transfer"
+ },
+ {
+  "source": "HK.engineering.nuclear_engineering.reactor_physics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.engineering.petroleum_engineering.drilling_engineering.offshore_drilling",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.marine_engineering.ocean_engineering"
+ },
+ {
+  "source": "HK.engineering.petroleum_engineering.petroleum_geology",
+  "relation": "RELATED_TO",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.engineering.robotics_engineering.autonomous_vehicle_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.mechanical_engineering.automotive_engineering"
+ },
+ {
+  "source": "HK.engineering.robotics_engineering.robot_control",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.electrical_engineering.control_systems"
+ },
+ {
+  "source": "HK.engineering.robotics_engineering.robot_perception",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.electrical_engineering.signal_processing"
+ },
+ {
+  "source": "HK.engineering.robotics_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.engineering.software_engineering.formal_methods.model_checking",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.engineering.software_engineering.formal_methods",
+  "relation": "APPLICATION_OF",
+  "target": "HK.logic"
+ },
+ {
+  "source": "HK.engineering.software_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.engineering.systems_engineering.cyber_physical_systems",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.computer_engineering.embedded_systems"
+ },
+ {
+  "source": "HK.engineering.systems_engineering",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.systems_science"
+ },
+ {
+  "source": "HK.engineering.textile_engineering.fiber_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.materials_engineering"
+ },
+ {
+  "source": "HK.forestry.forest_biometrics.dendrochronology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.forestry.forest_biometrics",
+  "relation": "USES",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.forestry.forest_ecology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
  },
  {
   "source": "HK.forestry.forest_entomology",
@@ -240,69 +590,39 @@
   "target": "HK.agriculture.agricultural_entomology"
  },
  {
+  "source": "HK.forestry.forest_hydrology",
+  "relation": "RELATED_TO",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.forestry.forest_management",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.agriculture.agroforestry"
+ },
+ {
   "source": "HK.forestry.forest_pathology",
   "relation": "OVERLAPS_WITH",
   "target": "HK.agriculture.plant_pathology"
  },
  {
-  "source": "HK.architecture.building_technology",
+  "source": "HK.forestry.silviculture.reforestation",
+  "relation": "APPLIES_TO",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "HK.forestry.silviculture.tree_breeding",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.civil_engineering"
+  "target": "HK.agriculture.plant_breeding"
  },
  {
-  "source": "HK.architecture.building_services",
+  "source": "HK.forestry.urban_forestry",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.mechanical_engineering.hvac"
+  "target": "HK.urban_planning"
  },
  {
-  "source": "HK.architecture.landscape_architecture",
+  "source": "HK.forestry.wood_science",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.agriculture.horticulture"
- },
- {
-  "source": "HK.architecture.sustainable_architecture",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.environmental_engineering"
- },
- {
-  "source": "HK.architecture.architectural_history.western_architecture.classical_architecture",
-  "relation": "PRECURSOR_OF",
-  "target": "HK.architecture.architectural_history.western_architecture.renaissance_architecture"
- },
- {
-  "source": "HK.architecture.architectural_history.western_architecture.renaissance_architecture",
-  "relation": "PRECURSOR_OF",
-  "target": "HK.architecture.architectural_history.western_architecture.baroque_architecture"
- },
- {
-  "source": "HK.architecture.architectural_history.western_architecture.modern_architecture",
-  "relation": "PRECURSOR_OF",
-  "target": "HK.architecture.architectural_history.western_architecture.postmodern_architecture"
- },
- {
-  "source": "HK.architecture.architectural_history.chinese_traditional_architecture.dougong_construction",
-  "relation": "APPLICATION_OF",
-  "target": "HK.engineering.civil_engineering.structural_engineering"
- },
- {
-  "source": "HK.architecture.building_science.building_acoustics",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.acoustical_engineering.architectural_acoustics"
- },
- {
-  "source": "HK.architecture.architectural_design.adaptive_reuse",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.architecture.historic_preservation"
- },
- {
-  "source": "HK.urban_planning.transportation_planning",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.civil_engineering.transportation_engineering"
- },
- {
-  "source": "HK.urban_planning.environmental_planning",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.environmental_engineering"
+  "target": "HK.engineering.materials_engineering"
  },
  {
   "source": "HK.urban_planning.community_planning.machizukuri",
@@ -310,14 +630,19 @@
   "target": "HK.architecture.urban_design"
  },
  {
-  "source": "HK.urban_planning.urban_economics.land_economics",
-  "relation": "OVERLAPS_WITH",
-  "target": "HK.agriculture.agricultural_economics"
- },
- {
   "source": "HK.urban_planning.environmental_planning.open_space_planning",
   "relation": "OVERLAPS_WITH",
   "target": "HK.architecture.landscape_architecture"
+ },
+ {
+  "source": "HK.urban_planning.environmental_planning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.environmental_engineering"
+ },
+ {
+  "source": "HK.urban_planning.land_use_planning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.geography"
  },
  {
   "source": "HK.urban_planning.planning_theory.feng_shui_siting",
@@ -325,8 +650,28 @@
   "target": "HK.architecture.architectural_history.chinese_traditional_architecture"
  },
  {
-  "source": "HK.architecture.sustainable_architecture.net_zero_energy_buildings",
+  "source": "HK.urban_planning.planning_theory",
+  "relation": "RELATED_TO",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "HK.urban_planning.smart_city_planning",
   "relation": "OVERLAPS_WITH",
-  "target": "HK.engineering.mechanical_engineering.energy_systems"
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.urban_planning.transportation_planning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering.civil_engineering.transportation_engineering"
+ },
+ {
+  "source": "HK.urban_planning.urban_economics.land_economics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.agriculture.agricultural_economics"
+ },
+ {
+  "source": "HK.urban_planning.urban_economics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.economics"
  }
 ]
