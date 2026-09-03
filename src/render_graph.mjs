@@ -40,10 +40,10 @@ function svgHeader(W, H, title) { return '<?xml version="1.0" encoding="UTF-8"?>
 const ovNodes = nodes.filter(n => n.level <= 1).map(n => ({ ...n }));
 const ovIds = new Set(ovNodes.map(n => n.id));
 const ovEdges = rels.filter(e => ovIds.has(e.source) && ovIds.has(e.target));
-force(ovNodes, ovEdges, 4000, 3000, 500);
-let s = svgHeader(4000, 3000, "HK-OI · 全景总览 (L0-L1, " + ovNodes.length + " 节点)");
+force(ovNodes, ovEdges, 6000, 4500, 500);
+let s = svgHeader(6000, 4500, "HK-OI · 全景总览 (L0-L1, " + ovNodes.length + " 节点)");
 s += ovEdges.map(e => { const a = ovNodes.find(n => n.id === e.source), b = ovNodes.find(n => n.id === e.target); if (!a || !b) return ""; return '<line x1="' + a.x.toFixed(1) + '" y1="' + a.y.toFixed(1) + '" x2="' + b.x.toFixed(1) + '" y2="' + b.y.toFixed(1) + '" stroke="#333a4d" stroke-width="0.6" opacity="0.5"/>'; }).join("");
-s += ovNodes.map(n => '<circle cx="' + n.x.toFixed(1) + '" cy="' + n.y.toFixed(1) + '" r="' + (n.type === "UNIVERSE" ? 11 : 6) + '" fill="' + c(n.type) + '" stroke="' + (n.historical ? "#eab308" : "#0f1117") + '" stroke-width="1"/><text x="' + (n.x + (n.type === "UNIVERSE" ? 15 : 9)).toFixed(1) + '" y="' + (n.y + 3).toFixed(1) + '" fill="#aeb6c8" font-size="' + (n.type === "UNIVERSE" ? 16 : 12) + '" font-family="sans-serif">' + esc(n.name) + '</text>').join("");
+s += ovNodes.map(n => '<circle cx="' + n.x.toFixed(1) + '" cy="' + n.y.toFixed(1) + '" r="' + (n.type === "UNIVERSE" ? 16 : 9) + '" fill="' + c(n.type) + '" stroke="' + (n.historical ? "#eab308" : "#0f1117") + '" stroke-width="1"/><text x="' + (n.x + (n.type === "UNIVERSE" ? 15 : 9)).toFixed(1) + '" y="' + (n.y + 3).toFixed(1) + '" fill="#aeb6c8" font-size="' + (n.type === "UNIVERSE" ? 24 : 17) + '" font-family="sans-serif">' + esc(n.name) + '</text>').join("");
 s += "</svg>";
 writeFileSync(join(process.cwd(), "exports", "graph", "ontology_overview.svg"), s);
 
@@ -51,16 +51,16 @@ writeFileSync(join(process.cwd(), "exports", "graph", "ontology_overview.svg"), 
 const deg = new Map();
 for (const e of rels) { deg.set(e.source, (deg.get(e.source) || 0) + 1); deg.set(e.target, (deg.get(e.target) || 0) + 1); }
 const all = nodes.map(n => ({ ...n, deg: deg.get(n.id) || 0 }));
-const W = 9000, H = 9000;
+const W = 14000, H = 14000;
 const allEdges = rels;
 force(all, allEdges, W, H, 350);
 // label top hubs
 const hubs = [...all].sort((a, b) => b.deg - a.deg).slice(0, 60).map(n => n.id);
 const hubSet = new Set(hubs);
 let s2 = svgHeader(W, H, "HK-OI · 全图 (全部 " + all.length + " 节点 · " + allEdges.length + " 边)");
-s2 += allEdges.map(e => { const a = all.find(n => n.id === e.source), b = all.find(n => n.id === e.target); if (!a || !b) return ""; return '<line x1="' + a.x.toFixed(1) + '" y1="' + a.y.toFixed(1) + '" x2="' + b.x.toFixed(1) + '" y2="' + b.y.toFixed(1) + '" stroke="#3a4152" stroke-width="0.35" opacity="0.12"/>'; }).join("");
-s2 += all.map(n => { const r = hubSet.has(n.id) ? 4.5 : (n.type === "UNIVERSE" ? 3 : 1.6); return '<circle cx="' + n.x.toFixed(1) + '" cy="' + n.y.toFixed(1) + '" r="' + r + '" fill="' + c(n.type) + '"/>'; }).join("");
-s2 += all.filter(n => hubSet.has(n.id)).map(n => '<text x="' + (n.x + 7).toFixed(1) + '" y="' + (n.y + 3).toFixed(1) + '" fill="#e6e8ee" font-size="14" font-family="sans-serif">' + esc(n.name) + '</text>').join("");
+s2 += allEdges.map(e => { const a = all.find(n => n.id === e.source), b = all.find(n => n.id === e.target); if (!a || !b) return ""; return '<line x1="' + a.x.toFixed(1) + '" y1="' + a.y.toFixed(1) + '" x2="' + b.x.toFixed(1) + '" y2="' + b.y.toFixed(1) + '" stroke="#2a3040" stroke-width="0.6" opacity="0.08"/>'; }).join("");
+s2 += all.map(n => { const r = hubSet.has(n.id) ? 10 : (n.type === "UNIVERSE" ? 7 : 4); return '<circle cx="' + n.x.toFixed(1) + '" cy="' + n.y.toFixed(1) + '" r="' + r + '" fill="' + c(n.type) + '" stroke="#ffffff" stroke-width="0.8"/>'; }).join("");
+s2 += all.filter(n => hubSet.has(n.id)).map(n => '<text x="' + (n.x + 7).toFixed(1) + '" y="' + (n.y + 3).toFixed(1) + '" fill="#ffffff" font-size="26" font-weight="bold" font-family="sans-serif">' + esc(n.name) + '</text>').join("");
 s2 += "</svg>";
 writeFileSync(join(process.cwd(), "exports", "graph", "ontology_full.svg"), s2);
 
