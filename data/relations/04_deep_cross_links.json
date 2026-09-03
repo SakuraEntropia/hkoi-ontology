@@ -1,0 +1,167 @@
+[
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+  "relation": "RELATED_TO",
+  "target": "ind.manufacturing.semiconductors"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+  "relation": "USED_BY",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+  "relation": "USED_BY",
+  "target": "TECH.artificial_intelligence"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+  "relation": "RELATED_TO",
+  "target": "ART.games"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science.computer_graphics"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.ai_accelerator",
+  "relation": "USED_BY",
+  "target": "TECH.artificial_intelligence"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.ai_accelerator",
+  "relation": "RELATED_TO",
+  "target": "ind.manufacturing.semiconductors"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+  "relation": "USED_BY",
+  "target": "ind.information_technology.internet"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+  "relation": "RELATED_TO",
+  "target": "ind.media_entertainment.gaming"
+ },
+ {
+  "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+  "relation": "RELATED_TO",
+  "target": "ind.manufacturing.electronics"
+ },
+ {
+  "source": "TECH.artificial_intelligence",
+  "relation": "USED_BY",
+  "target": "ind.life_sciences_healthcare"
+ },
+ {
+  "source": "TECH.artificial_intelligence.computer_vision",
+  "relation": "USED_BY",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "TECH.artificial_intelligence.computer_vision",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science.computer_vision.medical_image_analysis"
+ },
+ {
+  "source": "TECH.artificial_intelligence.computer_vision",
+  "relation": "RELATED_TO",
+  "target": "OCC.medicine.physicians.radiologist"
+ },
+ {
+  "source": "TECH.artificial_intelligence",
+  "relation": "RELATED_TO",
+  "target": "OCC.medicine.physicians.radiologist"
+ },
+ {
+  "source": "TECH.artificial_intelligence.natural_language_processing",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "EMERGING_FIELDS.personalized_medicine",
+  "relation": "USES",
+  "target": "TECH.artificial_intelligence"
+ },
+ {
+  "source": "OCC.science.formal_sciences.mathematician",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "OCC.science.formal_sciences.mathematician",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.it_computing.data_analytics.data_scientist"
+ },
+ {
+  "source": "OCC.science.formal_sciences.mathematician",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.business.finance.quantitative_analyst"
+ },
+ {
+  "source": "OCC.science.formal_sciences.mathematician",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics.applied_mathematics.quantitative_finance"
+ },
+ {
+  "source": "OCC.science.formal_sciences.mathematician",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.business.finance.actuary"
+ },
+ {
+  "source": "OCC.science.formal_sciences.mathematician",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.it_computing.cybersecurity.cryptographer"
+ },
+ {
+  "source": "OCC.science.formal_sciences.mathematician",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics.number_theory"
+ },
+ {
+  "source": "OCC.science.formal_sciences.statistician",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "OCC.it_computing.data_analytics.data_scientist.machine_learning_engineer",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science.machine_learning"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics.condensed_matter_physics.semiconductor_physics"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science.semiconductor_materials"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science.computer_architecture"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors",
+  "relation": "USES",
+  "target": "TECH.materials_technology"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors",
+  "relation": "RELATED_TO",
+  "target": "OCC.engineering.computer_hardware.hardware_engineer.semiconductor_engineer"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.design.eda",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.process_technologies.lithography",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics.optics_and_photonics"
+ }
+]

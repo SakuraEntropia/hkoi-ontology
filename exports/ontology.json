@@ -3,7 +3,7 @@
   "name": "HK-OI",
   "title": "Human Knowledge, Occupation & Industry Ontology",
   "version": "0.2.0",
-  "generatedAt": "2026-09-03T06:02:25.530Z",
+  "generatedAt": "2026-09-03T06:03:14.001Z",
   "universes": [
    "HUMAN_KNOWLEDGE",
    "OCCUPATIONS",
@@ -20,8 +20,8 @@
   ],
   "counts": {
    "nodes": 9823,
-   "relations": 11490,
-   "explicitRelations": 1686,
+   "relations": 11520,
+   "explicitRelations": 1719,
    "parentEdges": 9811,
    "withMetrics": 346
   }
@@ -236766,6 +236766,204 @@
    "kind": "explicit"
   },
   {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "RELATED_TO",
+   "target": "ind.manufacturing.semiconductors",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "USED_BY",
+   "target": "ind.information_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "USED_BY",
+   "target": "TECH.artificial_intelligence",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "RELATED_TO",
+   "target": "ART.games",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "RELATED_TO",
+   "target": "HK.computer_science.computer_graphics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.ai_accelerator",
+   "relation": "USED_BY",
+   "target": "TECH.artificial_intelligence",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.ai_accelerator",
+   "relation": "RELATED_TO",
+   "target": "ind.manufacturing.semiconductors",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "USED_BY",
+   "target": "ind.information_technology.internet",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "RELATED_TO",
+   "target": "ind.media_entertainment.gaming",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "RELATED_TO",
+   "target": "ind.manufacturing.electronics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence",
+   "relation": "USED_BY",
+   "target": "ind.life_sciences_healthcare",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.computer_vision",
+   "relation": "USED_BY",
+   "target": "HK.medicine",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.computer_vision",
+   "relation": "RELATED_TO",
+   "target": "HK.computer_science.computer_vision.medical_image_analysis",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.computer_vision",
+   "relation": "RELATED_TO",
+   "target": "OCC.medicine.physicians.radiologist",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence",
+   "relation": "RELATED_TO",
+   "target": "OCC.medicine.physicians.radiologist",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.natural_language_processing",
+   "relation": "RELATED_TO",
+   "target": "HK.medicine",
+   "kind": "explicit"
+  },
+  {
+   "source": "EMERGING_FIELDS.personalized_medicine",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.science.formal_sciences.mathematician",
+   "relation": "APPLICATION_OF",
+   "target": "HK.mathematics",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.science.formal_sciences.mathematician",
+   "relation": "OVERLAPS_WITH",
+   "target": "OCC.it_computing.data_analytics.data_scientist",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.science.formal_sciences.mathematician",
+   "relation": "OVERLAPS_WITH",
+   "target": "OCC.business.finance.quantitative_analyst",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.science.formal_sciences.mathematician",
+   "relation": "APPLICATION_OF",
+   "target": "HK.mathematics.applied_mathematics.quantitative_finance",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.science.formal_sciences.mathematician",
+   "relation": "OVERLAPS_WITH",
+   "target": "OCC.business.finance.actuary",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.science.formal_sciences.mathematician",
+   "relation": "OVERLAPS_WITH",
+   "target": "OCC.it_computing.cybersecurity.cryptographer",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.science.formal_sciences.mathematician",
+   "relation": "APPLICATION_OF",
+   "target": "HK.mathematics.number_theory",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.science.formal_sciences.statistician",
+   "relation": "APPLICATION_OF",
+   "target": "HK.statistics",
+   "kind": "explicit"
+  },
+  {
+   "source": "OCC.it_computing.data_analytics.data_scientist.machine_learning_engineer",
+   "relation": "APPLICATION_OF",
+   "target": "HK.computer_science.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing.semiconductors",
+   "relation": "APPLICATION_OF",
+   "target": "HK.physics.condensed_matter_physics.semiconductor_physics",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing.semiconductors",
+   "relation": "APPLICATION_OF",
+   "target": "HK.materials_science.semiconductor_materials",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing.semiconductors",
+   "relation": "APPLICATION_OF",
+   "target": "HK.computer_science.computer_architecture",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing.semiconductors",
+   "relation": "USES",
+   "target": "TECH.materials_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing.semiconductors",
+   "relation": "RELATED_TO",
+   "target": "OCC.engineering.computer_hardware.hardware_engineer.semiconductor_engineer",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing.semiconductors.design.eda",
+   "relation": "APPLICATION_OF",
+   "target": "HK.computer_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing.semiconductors.process_technologies.lithography",
+   "relation": "APPLICATION_OF",
+   "target": "HK.physics.optics_and_photonics",
+   "kind": "explicit"
+  },
+  {
    "source": "ART.animation.2d_animation.rotoscoping",
    "relation": "USES",
    "target": "ART.film",
@@ -241146,12 +241344,6 @@
    "kind": "explicit"
   },
   {
-   "source": "ind.manufacturing.semiconductors.design.eda",
-   "relation": "APPLICATION_OF",
-   "target": "HK.computer_science",
-   "kind": "explicit"
-  },
-  {
    "source": "ind.manufacturing.electronics",
    "relation": "APPLICATION_OF",
    "target": "HK.physics",
@@ -242547,18 +242739,6 @@
    "source": "OCC.science.social_sciences.archaeologist",
    "relation": "APPLICATION_OF",
    "target": "HK.archaeology",
-   "kind": "explicit"
-  },
-  {
-   "source": "OCC.science.formal_sciences.mathematician",
-   "relation": "APPLICATION_OF",
-   "target": "HK.mathematics",
-   "kind": "explicit"
-  },
-  {
-   "source": "OCC.science.formal_sciences.statistician",
-   "relation": "APPLICATION_OF",
-   "target": "HK.statistics",
    "kind": "explicit"
   },
   {
