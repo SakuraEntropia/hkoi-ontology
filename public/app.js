@@ -165,85 +165,95 @@ const GZ={rapidly_growing:"快速增长",growing:"增长",stable:"稳定",declin
 const MZ={measured:"实测",census:"普查",survey:"调查",model_estimate:"模型估计",expert_judgment:"专家判断",qualitative:"定性",inherited_estimate:"继承估计"};
 function wbar(l){const w={negligible:5,minimal:8,low:25,moderate:50,high:75,very_high:95,foundational:100,unknown:0}[l]||0;return '<div class="bar"><i style="width:'+w+'%"></i></div>';}
 
-function renderNetwork(container, outRel, inRel, centerNode, onNodeClick) {
-  const nodes = new Map();
-  const add = (n) => { if (n && n.id && !nodes.has(n.id)) nodes.set(n.id, {id:n.id, name:n.name, type:n.type, historical:n.historical}); };
-  if (centerNode) add({id:centerNode.id, name:centerNode.name, type:centerNode.type, historical:centerNode.historical});
-  const edges = [];
-  if (outRel) for (const r of outRel) { add({id:r.id,name:r.name,type:r.type}); edges.push({a:centerNode?centerNode.id:r.source, b:r.id, label:r.relation}); }
-  if (inRel) for (const r of inRel) { add({id:r.id,name:r.name,type:r.type}); edges.push({a:r.id, b:centerNode?centerNode.id:r.target, label:r.relation}); }
-  const arr = [...nodes.values()];
-  if (arr.length <= 1) { container.innerHTML = '<div class="empty">无关系</div>'; return; }
-  const W = container.clientWidth || 900, H = container.clientHeight || 500;
+
+// ---- performant force-directed graph (rAF + spatial grid + capping + label culling) ----
+function forceGraph(container, graph) {
+  const { nodes, edges, centerId, onNodeClick } = graph;
+  if (!nodes || !nodes.length) { container.innerHTML = '<div class="empty">无数据</div>'; return; }
+  const MAX = 220;
+  const capped = nodes.length > MAX;
+  const arr = nodes.slice(0, MAX).map(n => ({ id:n.id, name:n.name, type:n.type, level:n.level, historical:n.historical, x:0, y:0, vx:0, vy:0 }));
+  const idSet = new Set(arr.map(n => n.id));
+  const es = (edges || []).filter(e => idSet.has(e.source) && idSet.has(e.target));
+  const W = container.clientWidth || 900, H = (container.clientHeight || 540);
   container.innerHTML = "";
-  const svg = mk("svg", {width:W, height:H});
-  const viewport = mk("g"); svg.appendChild(viewport); container.appendChild(svg);
-  let tx = 0, ty = 0, scale = 1;
-  const apply = () => viewport.setAttribute("transform", "translate("+tx+","+ty+") scale("+scale+")");
-  const cx = W/2, cy = H/2;
-  arr.forEach((n,i)=>{ const a=2*Math.PI*i/arr.length; const r=Math.min(W,H)/3; n.x=cx+r*Math.cos(a); n.y=cy+r*Math.sin(a); n.vx=0; n.vy=0; });
-  const byId = new Map(arr.map(n=>[n.id,n]));
-  for (let t=0;t<300;t++) {
-    for (let i=0;i<arr.length;i++) for (let j=i+1;j<arr.length;j++) { const a=arr[i],b=arr[j]; let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy||1,d=Math.sqrt(d2); const f=9000/d2; a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f; }
-    for (const e of edges) { const a=byId.get(e.a),b=byId.get(e.b); if(!a||!b)continue; let dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||1; const f=(d-80)*0.012; a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f; }
-    for (const n of arr) { n.vx+=(cx-n.x)*0.012; n.vy+=(cy-n.y)*0.012; }
-    for (const n of arr) { n.vx*=0.85;n.vy*=0.85;n.x+=n.vx;n.y+=n.vy; }
-  }
-  const ns="http://www.w3.org/2000/svg";
-  const lineEls = edges.map(e => { const l=document.createElementNS(ns,"line"); l.setAttribute("stroke","#333a4d"); l.setAttribute("stroke-width","1"); viewport.appendChild(l); return l; });
+  const head = document.createElement("div");
+  head.style.cssText = "padding:4px 10px;font-size:12px;color:var(--muted)";
+  head.innerHTML = arr.length + " 节点 · " + es.length + " 边" + (capped ? ' · <span style="color:var(--warn)">已截断前 '+MAX+'</span>' : '') + ' · <a id="fg-fit" style="cursor:pointer;color:var(--accent)">适应视图</a> · <a id="fg-lbl" style="cursor:pointer;color:var(--accent)">标签</a>';
+  container.appendChild(head);
+  const svgH = H - 26;
+  const svg = mk("svg", { width: W, height: svgH });
+  container.appendChild(svg);
+  const viewport = mk("g"); svg.appendChild(viewport);
+  let tx = 0, ty = 0, scale = 1, showLabel = arr.length <= 70;
+  const apply = () => viewport.setAttribute("transform", "translate(" + tx + "," + ty + ") scale(" + scale + ")");
+  const cx = W / 2, cy = svgH / 2;
+  arr.forEach((n, i) => { const ang = 2 * Math.PI * i / arr.length; const r = Math.min(W, svgH) / 2.6; n.x = cx + r * Math.cos(ang); n.y = cy + r * Math.sin(ang); });
+  const byId = new Map(arr.map(n => [n.id, n]));
+  const ns = "http://www.w3.org/2000/svg";
+  const lineEls = es.map(e => { const l = document.createElementNS(ns, "line"); l.setAttribute("stroke", "#333a4d"); l.setAttribute("stroke-width", "1"); viewport.appendChild(l); return l; });
   const nodeEls = arr.map(n => {
-    const g=document.createElementNS(ns,"g"); g.style.cursor="pointer";
-    const c=document.createElementNS(ns,"circle"); c.setAttribute("r","5"); c.setAttribute("fill",colorFor(n.type)); if(n.historical)c.setAttribute("stroke","#eab308"); else c.setAttribute("stroke","#0f1117"); c.setAttribute("stroke-width","1.5");
-    const t=document.createElementNS(ns,"text"); t.setAttribute("font-size","10"); t.setAttribute("fill","#aeb6c8"); t.setAttribute("x","9"); t.setAttribute("y","3"); t.textContent=truncate(n.name,24);
-    g.append(c,t); g.addEventListener("click",(e)=>{e.stopPropagation(); onNodeClick(n.id);}); viewport.appendChild(g); return {g,n,c};
+    const g = document.createElementNS(ns, "g"); g.style.cursor = "pointer";
+    const c = document.createElementNS(ns, "circle"); c.setAttribute("r", n.level <= 1 ? 7 : 5); c.setAttribute("fill", colorFor(n.type)); c.setAttribute("stroke", n.historical ? "#eab308" : "#0f1117"); c.setAttribute("stroke-width", "1.5");
+    const t = document.createElementNS(ns, "text"); t.setAttribute("font-size", "10"); t.setAttribute("fill", "#aeb6c8"); t.setAttribute("x", "9"); t.setAttribute("y", "3"); t.textContent = truncate(n.name, 22);
+    g.append(c, t);
+    g.addEventListener("click", e => { e.stopPropagation(); if (onNodeClick) onNodeClick(n.id); });
+    viewport.appendChild(g);
+    return { g, n, c, t };
   });
-  const paint = () => {
-    lineEls.forEach((l,i)=>{const e=edges[i],a=byId.get(e.a),b=byId.get(e.b);if(!a||!b)return;l.setAttribute("x1",a.x);l.setAttribute("y1",a.y);l.setAttribute("x2",b.x);l.setAttribute("y2",b.y);});
-    nodeEls.forEach(o=>{o.g.setAttribute("transform","translate("+o.n.x.toFixed(1)+","+o.n.y.toFixed(1)+")");o.c.setAttribute("r",o.n.id===centerNode?.id?8:5);});
-  };
-  paint();
-  svg.addEventListener("wheel", e => { e.preventDefault(); const r=svg.getBoundingClientRect(); const mx=e.clientX-r.left,my=e.clientY-r.top; const f=e.deltaY<0?1.1:0.9; scale=Math.max(0.15,Math.min(6,scale*f)); tx=mx-(mx-tx)*f; ty=my-(my-ty)*f; apply(); }, {passive:false});
-  let drag=false,sx,sy,stx,sty;
-  svg.addEventListener("mousedown",e=>{drag=true;sx=e.clientX;sy=e.clientY;stx=tx;sty=ty;});
-  window.addEventListener("mousemove",e=>{if(!drag)return;tx=stx+(e.clientX-sx);ty=sty+(e.clientY-sy);apply();});
-  window.addEventListener("mouseup",()=>{drag=false;});
+  const CELL = 110;
+  function buildGrid() {
+    const grid = new Map();
+    for (const n of arr) { const k = Math.floor(n.x / CELL) + "," + Math.floor(n.y / CELL); if (!grid.has(k)) grid.set(k, []); grid.get(k).push(n); }
+    return grid;
+  }
+  let alpha = 1;
+  function tick() {
+    const grid = buildGrid();
+    for (const n of arr) {
+      const gx = Math.floor(n.x / CELL), gy = Math.floor(n.y / CELL);
+      for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
+        const bucket = grid.get((gx + dx) + "," + (gy + dy)); if (!bucket) continue;
+        for (const m of bucket) {
+          if (m === n) continue;
+          let ddx = n.x - m.x, ddy = n.y - m.y; let d2 = ddx * ddx + ddy * ddy; if (d2 < 1) d2 = 1;
+          if (d2 > CELL * CELL * 4) continue;
+          const d = Math.sqrt(d2), f = alpha * 9000 / d2;
+          n.vx += ddx / d * f; n.vy += ddy / d * f;
+        }
+      }
+    }
+    for (const e of es) { const aa = byId.get(e.source), b = byId.get(e.target); if (!aa || !b) continue; let dx = b.x - aa.x, dy = b.y - aa.y; let d = Math.sqrt(dx * dx + dy * dy) || 1; const f = (d - 70) * 0.01 * alpha; aa.vx += dx / d * f; aa.vy += dy / d * f; b.vx -= dx / d * f; b.vy -= dy / d * f; }
+    for (const n of arr) { n.vx += (cx - n.x) * 0.012 * alpha; n.vy += (cy - n.y) * 0.012 * alpha; }
+    for (const n of arr) { n.vx *= 0.85; n.vy *= 0.85; n.x += n.vx; n.y += n.vy; }
+    alpha *= 0.985;
+  }
+  function paint() {
+    lineEls.forEach((l, i) => { const e = es[i], aa = byId.get(e.source), b = byId.get(e.target); if (!aa || !b) return; l.setAttribute("x1", aa.x); l.setAttribute("y1", aa.y); l.setAttribute("x2", b.x); l.setAttribute("y2", b.y); });
+    nodeEls.forEach(o => { o.g.setAttribute("transform", "translate(" + o.n.x.toFixed(1) + "," + o.n.y.toFixed(1) + ")"); o.c.setAttribute("r", o.n.id === centerId ? 8 : (o.n.level <= 1 ? 7 : 5)); o.t.style.display = showLabel ? "" : "none"; });
+  }
+  let raf;
+  function loop() { if (alpha > 0.02) { for (let k = 0; k < 3; k++) tick(); paint(); raf = requestAnimationFrame(loop); } }
+  loop(); paint();
+  svg.addEventListener("wheel", e => { e.preventDefault(); const r = svg.getBoundingClientRect(); const mx = e.clientX - r.left, my = e.clientY - r.top; const f = e.deltaY < 0 ? 1.1 : 0.9; scale = Math.max(0.1, Math.min(8, scale * f)); tx = mx - (mx - tx) * f; ty = my - (my - ty) * f; apply(); paint(); }, { passive: false });
+  let drag = false, sx, sy, stx, sty;
+  svg.addEventListener("mousedown", e => { drag = true; sx = e.clientX; sy = e.clientY; stx = tx; sty = ty; });
+  window.addEventListener("mousemove", e => { if (!drag) return; tx = stx + (e.clientX - sx); ty = sty + (e.clientY - sy); apply(); });
+  window.addEventListener("mouseup", () => { drag = false; });
+  head.querySelector("#fg-fit").addEventListener("click", () => { tx = 0; ty = 0; scale = 1; apply(); paint(); });
+  head.querySelector("#fg-lbl").addEventListener("click", () => { showLabel = !showLabel; paint(); });
 }
 
-async function renderGraphView() {
-  const u = $("#g-universe").value, t = $("#g-type").value, h = $("#g-hist").value;
-  const g = await api("/api/graph?"+new URLSearchParams({universe:u,type:t,historical:h}).toString());
-  $("#g-info").textContent = g.nodes.length+" 节点 · "+g.edges.length+" 边";
-  const cont = $("#g-container"); cont.innerHTML = "";
-  renderGraphNetwork(cont, g.nodes, g.edges, expandGraph);
+function renderNetwork(container, outRel, inRel, centerNode, onNodeClick) {
+  const nodes = new Map();
+  const add = n => { if (n && n.id && !nodes.has(n.id)) nodes.set(n.id, { id:n.id, name:n.name, type:n.type, historical:n.historical }); };
+  if (centerNode) add({ id: centerNode.id, name: centerNode.name, type: centerNode.type, historical: centerNode.historical });
+  const edges = [];
+  if (outRel) for (const r of outRel) { add({ id:r.id, name:r.name, type:r.type }); edges.push({ source: centerNode ? centerNode.id : r.source, target: r.id, label: r.relation }); }
+  if (inRel) for (const r of inRel) { add({ id:r.id, name:r.name, type:r.type }); edges.push({ source: r.id, target: centerNode ? centerNode.id : r.target, label: r.relation }); }
+  forceGraph(container, { nodes: [...nodes.values()], edges, centerId: centerNode ? centerNode.id : null, onNodeClick });
 }
-function renderGraphNetwork(container, nodes, edges, onNodeClick) {
-  if (!nodes.length) { container.innerHTML='<div class="empty">无数据</div>'; return; }
-  const W=container.clientWidth, H=container.clientHeight;
-  container.innerHTML="";
-  const svg=mk("svg",{width:W,height:H}); const viewport=mk("g"); svg.appendChild(viewport); container.appendChild(svg);
-  let tx=0,ty=0,scale=1; const apply=()=>viewport.setAttribute("transform","translate("+tx+","+ty+") scale("+scale+")");
-  const arr = nodes.map(n=>({...n, x:0,y:0,vx:0,vy:0}));
-  const cx=W/2, cy=H/2;
-  arr.forEach((n,i)=>{const a=2*Math.PI*i/arr.length;const r=Math.min(W,H)/2.6;n.x=cx+r*Math.cos(a);n.y=cy+r*Math.sin(a);});
-  const byId=new Map(arr.map(n=>[n.id,n]));
-  const es = edges.filter(e=>byId.has(e.source)&&byId.has(e.target));
-  for(let t=0;t<280;t++){
-    for(let i=0;i<arr.length;i++)for(let j=i+1;j<arr.length;j++){const a=arr[i],b=arr[j];let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy||1,d=Math.sqrt(d2);const f=14000/d2;a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;}
-    for(const e of es){const a=byId.get(e.source),b=byId.get(e.target);if(!a||!b)continue;let dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||1;const f=(d-60)*0.01;a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;}
-    for(const n of arr){n.vx+=(cx-n.x)*0.01;n.vy+=(cy-n.y)*0.01;}
-    for(const n of arr){n.vx*=0.85;n.vy*=0.85;n.x+=n.vx;n.y+=n.vy;}
-  }
-  const ns="http://www.w3.org/2000/svg";
-  es.forEach(e=>{const l=document.createElementNS(ns,"line");l.setAttribute("stroke","#333a4d");l.setAttribute("stroke-width","1");viewport.appendChild(l);});
-  arr.forEach(n=>{const g=document.createElementNS(ns,"g");g.style.cursor="pointer";const c=document.createElementNS(ns,"circle");c.setAttribute("r",n.level<=1?7:5);c.setAttribute("fill",colorFor(n.type));if(n.historical)c.setAttribute("stroke","#eab308");else c.setAttribute("stroke","#0f1117");c.setAttribute("stroke-width","1.5");const t=document.createElementNS(ns,"text");t.setAttribute("font-size","10");t.setAttribute("fill","#aeb6c8");t.setAttribute("x","9");t.setAttribute("y","3");t.textContent=truncate(n.name,22);g.append(c,t);g.addEventListener("click",(e)=>{e.stopPropagation();onNodeClick(n.id);});viewport.appendChild(g);});
-  const paint=()=>{es.forEach((e,i)=>{const a=byId.get(e.source),b=byId.get(e.target);if(!a||!b)return;const l=viewport.children[i];l.setAttribute("x1",a.x);l.setAttribute("y1",a.y);l.setAttribute("x2",b.x);l.setAttribute("y2",b.y);});arr.forEach((n,i)=>{const g=viewport.children[es.length+i];g.setAttribute("transform","translate("+n.x.toFixed(1)+","+n.y.toFixed(1)+")");});};
-  paint();
-  svg.addEventListener("wheel",e=>{e.preventDefault();const r=svg.getBoundingClientRect();const mx=e.clientX-r.left,my=e.clientY-r.top;const f=e.deltaY<0?1.1:0.9;scale=Math.max(0.1,Math.min(8,scale*f));tx=mx-(mx-tx)*f;ty=my-(my-ty)*f;apply();},{passive:false});
-  let drag=false,sx,sy,stx,sty;
-  svg.addEventListener("mousedown",e=>{drag=true;sx=e.clientX;sy=e.clientY;stx=tx;sty=ty;});
-  window.addEventListener("mousemove",e=>{if(!drag)return;tx=stx+(e.clientX-sx);ty=sty+(e.clientY-sy);apply();});
-  window.addEventListener("mouseup",()=>{drag=false;});
-}
+
 async function expandGraph(id) {
   const g = await api("/api/graph?seed="+encodeURIComponent(id));
   $("#g-info").textContent = g.nodes.length+" 节点 · "+g.edges.length+" 边";
