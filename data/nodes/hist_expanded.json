@@ -3958,5 +3958,149 @@
     "global"
    ]
   }
+ },
+ {
+  "id": "hist.gov_offices.yangban",
+  "name": "Yangban",
+  "name_en": "Yangban",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.military_roles.hwarang",
+  "name": "Hwarang",
+  "name_en": "Hwarang",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.gov_offices.devaraja",
+  "name": "Devaraja (God-King)",
+  "name_en": "Devaraja (God-King)",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.gov_offices.mongol_khan",
+  "name": "Mongol Khan",
+  "name_en": "Mongol Khan",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.transport_navigation.sogdian_merchant",
+  "name": "Sogdian Merchant",
+  "name_en": "Sogdian Merchant",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.knowledge_work.mesopotamian_scribe",
+  "name": "Mesopotamian Scribe",
+  "name_en": "Mesopotamian Scribe",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.gov_offices.aksumite_king",
+  "name": "Aksumite King (Negus)",
+  "name_en": "Aksumite King (Negus)",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.knowledge_work.griot",
+  "name": "Griot / Jali",
+  "name_en": "Griot / Jali",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.knowledge_work.quipucamayoc",
+  "name": "Quipucamayoc",
+  "name_en": "Quipucamayoc",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.transport_navigation.chasqui",
+  "name": "Chasqui Runner",
+  "name_en": "Chasqui Runner",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.religious_roles.maya_scribe",
+  "name": "Maya Scribe",
+  "name_en": "Maya Scribe",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.religious_roles.vestal_virgin",
+  "name": "Vestal Virgin",
+  "name_en": "Vestal Virgin",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.military_roles.janissary",
+  "name": "Janissary",
+  "name_en": "Janissary",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.military_roles.mamluk",
+  "name": "Mamluk",
+  "name_en": "Mamluk",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.military_roles.viking_raider",
+  "name": "Viking Raider",
+  "name_en": "Viking Raider",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
+ },
+ {
+  "id": "hist.gov_offices.scholar_official",
+  "name": "Scholar-Official (Shidafu)",
+  "name_en": "Scholar-Official (Shidafu)",
+  "type": "OCCUPATION",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT"
  }
 ]

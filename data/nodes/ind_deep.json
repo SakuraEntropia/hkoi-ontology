@@ -1,0 +1,335 @@
+[
+ {
+  "id": "ind.information_technology.ai.model_development",
+  "name": "AI Model Development",
+  "name_en": "AI Model Development",
+  "type": "INDUSTRY",
+  "parent": "ind.information_technology.ai",
+  "description": "Training and fine-tuning foundation models and LLMs — the compute- and capital-intensive core of modern AI. Dominated by a few frontier labs; billion-dollar-scale training runs.",
+  "name_zh": "AI模型开发"
+ },
+ {
+  "id": "ind.information_technology.ai.ai_infrastructure",
+  "name": "AI Infrastructure",
+  "name_en": "AI Infrastructure",
+  "type": "INDUSTRY",
+  "parent": "ind.information_technology.ai",
+  "description": "The GPU/TPU clusters, interconnects, and data pipelines that make model training possible. Includes cloud AI compute, HPC fabrics, and vector databases; the 'picks and shovels' layer.",
+  "name_zh": "AI基础设施"
+ },
+ {
+  "id": "ind.information_technology.ai.mlops",
+  "name": "MLOps & Model Deployment",
+  "name_en": "MLOps & Model Deployment",
+  "type": "INDUSTRY",
+  "parent": "ind.information_technology.ai",
+  "description": "Operationalizing models: serving, monitoring, versioning, retraining, and evaluation. Turns trained models into reliable production systems.",
+  "name_zh": "MLOps与模型部署"
+ },
+ {
+  "id": "ind.information_technology.ai.ai_applications",
+  "name": "Applied AI Solutions",
+  "name_en": "Applied AI Solutions",
+  "type": "INDUSTRY",
+  "parent": "ind.information_technology.ai",
+  "description": "Vertical AI products: medical imaging AI, fraud detection, autonomous driving, customer-service agents, code assistants. Where AI meets specific industries and revenue.",
+  "name_zh": "AI行业应用"
+ },
+ {
+  "id": "ind.information_technology.ai.edge_ai",
+  "name": "Edge & On-Device AI",
+  "name_en": "Edge & On-Device AI",
+  "type": "INDUSTRY",
+  "parent": "ind.information_technology.ai",
+  "description": "Inference on phones, cameras, vehicles, and industrial sensors rather than cloud. Driven by NPU chips, privacy, and latency; fast-growing.",
+  "name_zh": "边缘AI"
+ },
+ {
+  "id": "ind.information_technology.ai.ai_safety",
+  "name": "AI Safety & Alignment",
+  "name_en": "AI Safety & Alignment",
+  "type": "INDUSTRY",
+  "parent": "ind.information_technology.ai",
+  "description": "Evaluating and aligning frontier models: red-teaming, interpretability, governance, and safety tooling. A small but strategically critical segment.",
+  "name_zh": "AI安全与对齐"
+ },
+ {
+  "id": "ind.information_technology.ai.generative_ai_media",
+  "name": "Generative AI & Synthetic Media",
+  "name_en": "Generative AI & Synthetic Media",
+  "type": "INDUSTRY",
+  "parent": "ind.information_technology.ai",
+  "description": "Text, image, video, audio, and code generation products. Consumer and enterprise; the most visible AI market (ChatGPT-class tools).",
+  "name_zh": "生成式AI与合成媒体"
+ },
+ {
+  "id": "ind.financial_services.wealth_management",
+  "name": "Wealth Management",
+  "name_en": "Wealth Management",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "Advising and managing assets for high-net-worth individuals and families: discretionary portfolios, estate planning, and private banking. Fee-based, relationship-driven.",
+  "name_zh": "财富管理"
+ },
+ {
+  "id": "ind.financial_services.private_equity",
+  "name": "Private Equity",
+  "name_en": "Private Equity",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "Buyout and growth investing in private companies: leveraged buyouts, restructuring, and operational value creation. Large pools of committed capital.",
+  "name_zh": "私募股权"
+ },
+ {
+  "id": "ind.financial_services.venture_capital",
+  "name": "Venture Capital",
+  "name_en": "Venture Capital",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "Early-stage equity investment in startups, concentrated in tech and life sciences. High risk, outsized-return model; fuels innovation ecosystems.",
+  "name_zh": "风险投资"
+ },
+ {
+  "id": "ind.financial_services.mortgage_lending",
+  "name": "Mortgage Lending",
+  "name_en": "Mortgage Lending",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "Originating and servicing home loans, plus securitization into mortgage-backed securities. Cornerstone of consumer credit and housing markets.",
+  "name_zh": "抵押贷款"
+ },
+ {
+  "id": "ind.financial_services.consumer_finance",
+  "name": "Consumer Finance",
+  "name_en": "Consumer Finance",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "Credit cards, personal loans, auto finance, and buy-now-pay-later. Point-of-sale and digital lending; high-volume, data-driven underwriting.",
+  "name_zh": "消费金融"
+ },
+ {
+  "id": "ind.financial_services.custody_services",
+  "name": "Custody & Asset Servicing",
+  "name_en": "Custody & Asset Servicing",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "Safekeeping securities, settlement, fund administration, and reporting for institutions. Low-margin, scale-driven infrastructure of the capital markets.",
+  "name_zh": "资产托管"
+ },
+ {
+  "id": "ind.financial_services.securities_exchanges",
+  "name": "Securities Exchanges",
+  "name_en": "Securities Exchanges",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "Venues for listing and trading equities, derivatives, and commodities. Includes electronic matching, market data, and listing services.",
+  "name_zh": "证券交易所"
+ },
+ {
+  "id": "ind.financial_services.clearing_settlement",
+  "name": "Clearing & Settlement",
+  "name_en": "Clearing & Settlement",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "Post-trade infrastructure: central counterparties, netting, and securities settlement that eliminate counterparty risk.",
+  "name_zh": "清算结算"
+ },
+ {
+  "id": "ind.financial_services.sovereign_wealth",
+  "name": "Sovereign Wealth & Public Funds",
+  "name_en": "Sovereign Wealth & Public Funds",
+  "type": "INDUSTRY",
+  "parent": "ind.financial_services",
+  "description": "State-owned investment funds managing national savings, commodities revenue, and pension reserves. Major long-horizon allocators.",
+  "name_zh": "主权财富基金"
+ },
+ {
+  "id": "ind.defense_space.defense.aerospace_defense",
+  "name": "Aerospace & Military Aircraft",
+  "name_en": "Aerospace & Military Aircraft",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.defense",
+  "description": "Fighter jets, bombers, transport and tanker aircraft, and military helicopters. Long-cycle, platform-based, highly regulated.",
+  "name_zh": "军用航空"
+ },
+ {
+  "id": "ind.defense_space.defense.land_systems",
+  "name": "Land Systems",
+  "name_en": "Land Systems",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.defense",
+  "description": "Tanks, armored vehicles, artillery, and small arms. Includes munitions and soldier systems.",
+  "name_zh": "地面系统"
+ },
+ {
+  "id": "ind.defense_space.defense.naval_systems",
+  "name": "Naval Systems",
+  "name_en": "Naval Systems",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.defense",
+  "description": "Warships, submarines, and naval propulsion. Shipyard-intensive, decades-long programs.",
+  "name_zh": "海军系统"
+ },
+ {
+  "id": "ind.defense_space.defense.missile_defense",
+  "name": "Missiles & Missile Defense",
+  "name_en": "Missiles & Missile Defense",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.defense",
+  "description": "Ballistic, cruise, hypersonic missiles and their interception systems. High R&D, precision-guided.",
+  "name_zh": "导弹与导弹防御"
+ },
+ {
+  "id": "ind.defense_space.defense.c4isr",
+  "name": "C4ISR Systems",
+  "name_en": "C4ISR Systems",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.defense",
+  "description": "Command, control, communications, computers, intelligence, surveillance, reconnaissance. Sensors, radars, and secure networks.",
+  "name_zh": "指挥控制情报系统"
+ },
+ {
+  "id": "ind.defense_space.defense.defense_services",
+  "name": "Defense Services & Logistics",
+  "name_en": "Defense Services & Logistics",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.defense",
+  "description": "Contractor logistics, maintenance, training, and base support. Private military and security services.",
+  "name_zh": "防务服务与后勤"
+ },
+ {
+  "id": "ind.defense_space.space.launch_services",
+  "name": "Launch Services",
+  "name_en": "Launch Services",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.space",
+  "description": "Rockets that carry payloads to orbit: reusable launchers, small-lift, medium-lift, heavy-lift. Rapidly falling cost per kg.",
+  "name_zh": "发射服务"
+ },
+ {
+  "id": "ind.defense_space.space.satellite_manufacturing",
+  "name": "Satellite Manufacturing",
+  "name_en": "Satellite Manufacturing",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.space",
+  "description": "Building satellites and constellations: buses, payloads, and subsystems. Shift toward mass production of smallsats.",
+  "name_zh": "卫星制造"
+ },
+ {
+  "id": "ind.defense_space.space.satellite_operations",
+  "name": "Satellite Operations",
+  "name_en": "Satellite Operations",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.space",
+  "description": "Operating constellations and selling capacity: communications, broadband, and Earth-observation data.",
+  "name_zh": "卫星运营"
+ },
+ {
+  "id": "ind.defense_space.space.ground_segment",
+  "name": "Ground Segment",
+  "name_en": "Ground Segment",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.space",
+  "description": "Ground stations, antennas, and mission control that track and command spacecraft.",
+  "name_zh": "地面段"
+ },
+ {
+  "id": "ind.defense_space.space.space_services",
+  "name": "Space Services & In-Orbit",
+  "name_en": "Space Services & In-Orbit",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.space",
+  "description": "In-orbit servicing, refueling, debris removal, and on-orbit manufacturing. Nascent but growing.",
+  "name_zh": "太空服务"
+ },
+ {
+  "id": "ind.defense_space.space.space_tourism",
+  "name": "Space Tourism",
+  "name_en": "Space Tourism",
+  "type": "INDUSTRY",
+  "parent": "ind.defense_space.space",
+  "description": "Suborbital and orbital passenger flights, and commercial space stations. Small ultra-high-net-worth market.",
+  "name_zh": "太空旅游"
+ },
+ {
+  "id": "ind.hospitality_tourism.restaurants",
+  "name": "Restaurants & Catering",
+  "name_en": "Restaurants & Catering",
+  "type": "INDUSTRY",
+  "parent": "ind.hospitality_tourism",
+  "description": "Food-service establishments from fast food to fine dining, plus catering and ghost kitchens. Labor-intensive, low-margin.",
+  "name_zh": "餐饮"
+ },
+ {
+  "id": "ind.hospitality_tourism.travel_services",
+  "name": "Travel Agencies & Tour Operators",
+  "name_en": "Travel Agencies & Tour Operators",
+  "type": "INDUSTRY",
+  "parent": "ind.hospitality_tourism",
+  "description": "Packaging and selling travel: agents, online travel agencies, and tour operators.",
+  "name_zh": "旅行社与旅游运营"
+ },
+ {
+  "id": "ind.hospitality_tourism.events_meetings",
+  "name": "Events, Meetings & Conventions",
+  "name_en": "Events, Meetings & Conventions",
+  "type": "INDUSTRY",
+  "parent": "ind.hospitality_tourism",
+  "description": "MICE: meetings, incentives, conferences, exhibitions. Tied to business travel and convention centers.",
+  "name_zh": "会展业"
+ },
+ {
+  "id": "ind.hospitality_tourism.cruise_industry",
+  "name": "Cruise Lines",
+  "name_en": "Cruise Lines",
+  "type": "INDUSTRY",
+  "parent": "ind.hospitality_tourism",
+  "description": "Operating cruise ships and river cruises; floating resorts with captive hospitality spending.",
+  "name_zh": "邮轮业"
+ },
+ {
+  "id": "ind.retail_trade.grocery_retail",
+  "name": "Grocery & Supermarkets",
+  "name_en": "Grocery & Supermarkets",
+  "type": "INDUSTRY",
+  "parent": "ind.retail_trade",
+  "description": "Food and daily-goods retail: supermarkets, hypermarkets, and discount grocers. High volume, thin margins.",
+  "name_zh": "超市零售"
+ },
+ {
+  "id": "ind.retail_trade.department_stores",
+  "name": "Department Stores",
+  "name_en": "Department Stores",
+  "type": "INDUSTRY",
+  "parent": "ind.retail_trade",
+  "description": "Multi-category large-format retail. Under pressure from e-commerce and specialty.",
+  "name_zh": "百货"
+ },
+ {
+  "id": "ind.retail_trade.specialty_retail",
+  "name": "Specialty Retail",
+  "name_en": "Specialty Retail",
+  "type": "INDUSTRY",
+  "parent": "ind.retail_trade",
+  "description": "Category-focused chains: apparel, electronics, beauty, home improvement.",
+  "name_zh": "专卖零售"
+ },
+ {
+  "id": "ind.retail_trade.luxury_goods",
+  "name": "Luxury Goods Retail",
+  "name_en": "Luxury Goods Retail",
+  "type": "INDUSTRY",
+  "parent": "ind.retail_trade",
+  "description": "High-end fashion, jewelry, watches, and accessories. Brand-driven, high-margin.",
+  "name_zh": "奢侈品零售"
+ },
+ {
+  "id": "ind.retail_trade.online_marketplaces",
+  "name": "Online Marketplaces",
+  "name_en": "Online Marketplaces",
+  "type": "INDUSTRY",
+  "parent": "ind.retail_trade",
+  "description": "Two-sided platforms connecting buyers and sellers, monetized via commission and advertising.",
+  "name_zh": "电商平台"
+ }
+]
