@@ -1,0 +1,1443 @@
+{
+ "nodes": [
+  {
+   "id": "HK.agriculture.agronomy",
+   "name": "Agronomy",
+   "name_en": "Agronomy",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Science of crop production and soil management.",
+   "name_zh": "农学"
+  },
+  {
+   "id": "HK.agriculture.agronomy.crop_physiology",
+   "name": "Crop Physiology",
+   "name_en": "Crop Physiology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy",
+   "description": "Physiology of crop growth, development, and yield.",
+   "name_zh": "作物生理学"
+  },
+  {
+   "id": "HK.agriculture.agronomy.crop_ecology",
+   "name": "Crop Ecology",
+   "name_en": "Crop Ecology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy",
+   "description": "Ecology of crops in relation to their environment.",
+   "name_zh": "作物生态学"
+  },
+  {
+   "id": "HK.agriculture.agronomy.field_crop_production",
+   "name": "Field Crop Production",
+   "name_en": "Field Crop Production",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy",
+   "description": "Cultivation of field crops at farm scale.",
+   "name_zh": "大田作物生产"
+  },
+  {
+   "id": "HK.agriculture.agronomy.field_crop_production.cereal_crops",
+   "name": "Cereal Crops",
+   "name_en": "Cereal Crops",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy.field_crop_production",
+   "description": "Grain crops such as rice, wheat, maize, and barley.",
+   "name_zh": "谷类作物",
+   "examples": [
+    "rice",
+    "wheat",
+    "maize"
+   ]
+  },
+  {
+   "id": "HK.agriculture.agronomy.field_crop_production.oilseed_crops",
+   "name": "Oilseed Crops",
+   "name_en": "Oilseed Crops",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy.field_crop_production",
+   "description": "Crops grown for vegetable oil such as soybean and canola.",
+   "name_zh": "油料作物"
+  },
+  {
+   "id": "HK.agriculture.agronomy.field_crop_production.legume_crops",
+   "name": "Legume Crops",
+   "name_en": "Legume Crops",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy.field_crop_production",
+   "description": "Nitrogen-fixing pulse crops such as beans and lentils.",
+   "name_zh": "豆类作物"
+  },
+  {
+   "id": "HK.agriculture.agronomy.field_crop_production.root_and_tuber_crops",
+   "name": "Root and Tuber Crops",
+   "name_en": "Root and Tuber Crops",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy.field_crop_production",
+   "description": "Underground storage crops such as potato and cassava.",
+   "name_zh": "根茎类作物"
+  },
+  {
+   "id": "HK.agriculture.agronomy.field_crop_production.fiber_crops",
+   "name": "Fiber Crops",
+   "name_en": "Fiber Crops",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy.field_crop_production",
+   "description": "Crops grown for fiber such as cotton and flax.",
+   "name_zh": "纤维作物"
+  },
+  {
+   "id": "HK.agriculture.agronomy.forage_and_pasture_science",
+   "name": "Forage and Pasture Science",
+   "name_en": "Forage and Pasture Science",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy",
+   "description": "Management of forage plants and grazing lands.",
+   "name_zh": "牧草与草地科学"
+  },
+  {
+   "id": "HK.agriculture.agronomy.agrometeorology",
+   "name": "Agrometeorology",
+   "name_en": "Agrometeorology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy",
+   "description": "Application of meteorology to agriculture.",
+   "name_zh": "农业气象学"
+  },
+  {
+   "id": "HK.agriculture.agronomy.seed_science",
+   "name": "Seed Science",
+   "name_en": "Seed Science",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy",
+   "description": "Science of seed production, quality, and germination.",
+   "name_zh": "种子科学"
+  },
+  {
+   "id": "HK.agriculture.agronomy.terrace_farming",
+   "name": "Terrace Farming",
+   "name_en": "Terrace Farming",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agronomy",
+   "description": "Cultivation on stepped slopes to control erosion and water.",
+   "name_zh": "梯田农业",
+   "global": false
+  },
+  {
+   "id": "HK.agriculture.horticulture",
+   "name": "Horticulture",
+   "name_en": "Horticulture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Science and art of cultivating fruits, vegetables, and ornamentals.",
+   "name_zh": "园艺学"
+  },
+  {
+   "id": "HK.agriculture.horticulture.pomology",
+   "name": "Pomology",
+   "name_en": "Pomology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.horticulture",
+   "description": "Cultivation of fruit trees and fruits.",
+   "name_zh": "果树学"
+  },
+  {
+   "id": "HK.agriculture.horticulture.olericulture",
+   "name": "Olericulture",
+   "name_en": "Olericulture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.horticulture",
+   "description": "Cultivation of vegetables.",
+   "name_zh": "蔬菜学"
+  },
+  {
+   "id": "HK.agriculture.horticulture.floriculture",
+   "name": "Floriculture",
+   "name_en": "Floriculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.horticulture",
+   "description": "Cultivation of flowering and ornamental plants.",
+   "name_zh": "花卉学"
+  },
+  {
+   "id": "HK.agriculture.horticulture.viticulture",
+   "name": "Viticulture",
+   "name_en": "Viticulture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.horticulture",
+   "description": "Cultivation of grapevines.",
+   "name_zh": "葡萄栽培"
+  },
+  {
+   "id": "HK.agriculture.horticulture.enology",
+   "name": "Enology",
+   "name_en": "Enology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.horticulture",
+   "description": "Science of winemaking and wine.",
+   "name_zh": "酿酒学"
+  },
+  {
+   "id": "HK.agriculture.horticulture.landscape_horticulture",
+   "name": "Landscape Horticulture",
+   "name_en": "Landscape Horticulture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.horticulture",
+   "description": "Cultivation of plants for landscape design.",
+   "name_zh": "园林园艺"
+  },
+  {
+   "id": "HK.agriculture.horticulture.greenhouse_production",
+   "name": "Greenhouse Production",
+   "name_en": "Greenhouse Production",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.horticulture",
+   "description": "Controlled-environment cultivation of crops.",
+   "name_zh": "温室生产"
+  },
+  {
+   "id": "HK.agriculture.animal_science",
+   "name": "Animal Science",
+   "name_en": "Animal Science",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Science of domesticated animal biology and production.",
+   "name_zh": "畜牧学",
+   "aliases": [
+    "Animal Husbandry"
+   ]
+  },
+  {
+   "id": "HK.agriculture.animal_science.animal_nutrition",
+   "name": "Animal Nutrition",
+   "name_en": "Animal Nutrition",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science",
+   "description": "Nutrition of livestock and companion animals.",
+   "name_zh": "动物营养学"
+  },
+  {
+   "id": "HK.agriculture.animal_science.animal_genetics",
+   "name": "Animal Genetics",
+   "name_en": "Animal Genetics",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science",
+   "description": "Genetics and improvement of domesticated animals.",
+   "name_zh": "动物遗传学"
+  },
+  {
+   "id": "HK.agriculture.animal_science.animal_physiology",
+   "name": "Animal Physiology",
+   "name_en": "Animal Physiology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science",
+   "description": "Physiology of domesticated animals.",
+   "name_zh": "动物生理学"
+  },
+  {
+   "id": "HK.agriculture.animal_science.animal_reproduction",
+   "name": "Animal Reproduction",
+   "name_en": "Animal Reproduction",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science",
+   "description": "Reproduction and breeding management of animals.",
+   "name_zh": "动物繁殖学"
+  },
+  {
+   "id": "HK.agriculture.animal_science.animal_behavior",
+   "name": "Animal Behavior",
+   "name_en": "Animal Behavior",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science",
+   "description": "Behavior of domesticated animals and welfare.",
+   "name_zh": "动物行为学",
+   "aliases": [
+    "Ethology"
+   ]
+  },
+  {
+   "id": "HK.agriculture.animal_science.livestock_production",
+   "name": "Livestock Production",
+   "name_en": "Livestock Production",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science",
+   "description": "Management of livestock for meat, milk, and fiber.",
+   "name_zh": "家畜生产"
+  },
+  {
+   "id": "HK.agriculture.animal_science.livestock_production.beef_cattle_production",
+   "name": "Beef Cattle Production",
+   "name_en": "Beef Cattle Production",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science.livestock_production",
+   "description": "Raising cattle for beef.",
+   "name_zh": "肉牛生产"
+  },
+  {
+   "id": "HK.agriculture.animal_science.livestock_production.sheep_and_goat_production",
+   "name": "Sheep and Goat Production",
+   "name_en": "Sheep and Goat Production",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science.livestock_production",
+   "description": "Raising sheep and goats for meat, milk, and wool.",
+   "name_zh": "羊生产"
+  },
+  {
+   "id": "HK.agriculture.animal_science.livestock_production.swine_production",
+   "name": "Swine Production",
+   "name_en": "Swine Production",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science.livestock_production",
+   "description": "Raising pigs for pork.",
+   "name_zh": "猪生产"
+  },
+  {
+   "id": "HK.agriculture.animal_science.poultry_science",
+   "name": "Poultry Science",
+   "name_en": "Poultry Science",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science",
+   "description": "Science and production of chickens and other fowl.",
+   "name_zh": "家禽科学"
+  },
+  {
+   "id": "HK.agriculture.animal_science.dairy_science",
+   "name": "Dairy Science",
+   "name_en": "Dairy Science",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.animal_science",
+   "description": "Science and production of milk and dairy animals.",
+   "name_zh": "乳品科学"
+  },
+  {
+   "id": "HK.agriculture.soil_science",
+   "name": "Soil Science",
+   "name_en": "Soil Science",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Study of soil as a natural resource.",
+   "name_zh": "土壤学"
+  },
+  {
+   "id": "HK.agriculture.soil_science.soil_physics",
+   "name": "Soil Physics",
+   "name_en": "Soil Physics",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.soil_science",
+   "description": "Physical properties and processes of soils.",
+   "name_zh": "土壤物理学"
+  },
+  {
+   "id": "HK.agriculture.soil_science.soil_chemistry",
+   "name": "Soil Chemistry",
+   "name_en": "Soil Chemistry",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.soil_science",
+   "description": "Chemical composition and reactions of soils.",
+   "name_zh": "土壤化学"
+  },
+  {
+   "id": "HK.agriculture.soil_science.soil_biology",
+   "name": "Soil Biology",
+   "name_en": "Soil Biology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.soil_science",
+   "description": "Organisms living in and processes of soil.",
+   "name_zh": "土壤生物学"
+  },
+  {
+   "id": "HK.agriculture.soil_science.soil_fertility",
+   "name": "Soil Fertility",
+   "name_en": "Soil Fertility",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.soil_science",
+   "description": "Capacity of soils to supply plant nutrients.",
+   "name_zh": "土壤肥力"
+  },
+  {
+   "id": "HK.agriculture.soil_science.pedology",
+   "name": "Pedology",
+   "name_en": "Pedology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.soil_science",
+   "description": "Formation, classification, and mapping of soils.",
+   "name_zh": "土壤发生学"
+  },
+  {
+   "id": "HK.agriculture.soil_science.soil_conservation",
+   "name": "Soil Conservation",
+   "name_en": "Soil Conservation",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.soil_science",
+   "description": "Prevention of soil erosion and degradation.",
+   "name_zh": "水土保持"
+  },
+  {
+   "id": "HK.agriculture.plant_pathology",
+   "name": "Plant Pathology",
+   "name_en": "Plant Pathology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Study of plant diseases and their control.",
+   "name_zh": "植物病理学"
+  },
+  {
+   "id": "HK.agriculture.plant_pathology.mycology",
+   "name": "Mycology",
+   "name_en": "Mycology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_pathology",
+   "description": "Study of fungi including plant pathogens.",
+   "name_zh": "真菌学"
+  },
+  {
+   "id": "HK.agriculture.plant_pathology.plant_virology",
+   "name": "Plant Virology",
+   "name_en": "Plant Virology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_pathology",
+   "description": "Study of viruses that infect plants.",
+   "name_zh": "植物病毒学"
+  },
+  {
+   "id": "HK.agriculture.plant_pathology.plant_bacteriology",
+   "name": "Plant Bacteriology",
+   "name_en": "Plant Bacteriology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_pathology",
+   "description": "Study of bacteria that cause plant disease.",
+   "name_zh": "植物细菌学"
+  },
+  {
+   "id": "HK.agriculture.plant_pathology.nematology",
+   "name": "Nematology",
+   "name_en": "Nematology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_pathology",
+   "description": "Study of nematodes including plant parasites.",
+   "name_zh": "线虫学"
+  },
+  {
+   "id": "HK.agriculture.plant_pathology.plant_disease_epidemiology",
+   "name": "Plant Disease Epidemiology",
+   "name_en": "Plant Disease Epidemiology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_pathology",
+   "description": "Spread and dynamics of plant disease in populations.",
+   "name_zh": "植物病害流行学"
+  },
+  {
+   "id": "HK.agriculture.agricultural_entomology",
+   "name": "Agricultural Entomology",
+   "name_en": "Agricultural Entomology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Study of insects affecting agriculture.",
+   "name_zh": "农业昆虫学"
+  },
+  {
+   "id": "HK.agriculture.agricultural_entomology.integrated_pest_management",
+   "name": "Integrated Pest Management",
+   "name_en": "Integrated Pest Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_entomology",
+   "description": "Ecologically based management of pests.",
+   "name_zh": "有害生物综合治理",
+   "aliases": [
+    "IPM"
+   ]
+  },
+  {
+   "id": "HK.agriculture.agricultural_entomology.biological_control",
+   "name": "Biological Control",
+   "name_en": "Biological Control",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_entomology",
+   "description": "Control of pests using natural enemies.",
+   "name_zh": "生物防治"
+  },
+  {
+   "id": "HK.agriculture.agricultural_entomology.insect_ecology",
+   "name": "Insect Ecology",
+   "name_en": "Insect Ecology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_entomology",
+   "description": "Ecology of insect populations.",
+   "name_zh": "昆虫生态学"
+  },
+  {
+   "id": "HK.agriculture.agricultural_entomology.pollinator_health",
+   "name": "Pollinator Health",
+   "name_en": "Pollinator Health",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_entomology",
+   "description": "Health and conservation of pollinating insects.",
+   "name_zh": "传粉昆虫健康"
+  },
+  {
+   "id": "HK.agriculture.agricultural_economics",
+   "name": "Agricultural Economics",
+   "name_en": "Agricultural Economics",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Economics of agricultural production and policy.",
+   "name_zh": "农业经济学"
+  },
+  {
+   "id": "HK.agriculture.agricultural_economics.farm_management",
+   "name": "Farm Management",
+   "name_en": "Farm Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_economics",
+   "description": "Decision-making and resource allocation on farms.",
+   "name_zh": "农场管理"
+  },
+  {
+   "id": "HK.agriculture.agricultural_economics.agricultural_policy",
+   "name": "Agricultural Policy",
+   "name_en": "Agricultural Policy",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_economics",
+   "description": "Government policy affecting agriculture.",
+   "name_zh": "农业政策"
+  },
+  {
+   "id": "HK.agriculture.agricultural_economics.agricultural_marketing",
+   "name": "Agricultural Marketing",
+   "name_en": "Agricultural Marketing",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_economics",
+   "description": "Marketing and distribution of farm products.",
+   "name_zh": "农产品营销"
+  },
+  {
+   "id": "HK.agriculture.agricultural_economics.agribusiness",
+   "name": "Agribusiness",
+   "name_en": "Agribusiness",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_economics",
+   "description": "Business of agricultural production and processing.",
+   "name_zh": "农业企业"
+  },
+  {
+   "id": "HK.agriculture.agricultural_economics.rural_development",
+   "name": "Rural Development",
+   "name_en": "Rural Development",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agricultural_economics",
+   "description": "Economic and social development of rural areas.",
+   "name_zh": "农村发展"
+  },
+  {
+   "id": "HK.agriculture.agroecology",
+   "name": "Agroecology",
+   "name_en": "Agroecology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Application of ecological principles to agriculture.",
+   "name_zh": "农业生态学"
+  },
+  {
+   "id": "HK.agriculture.agroecology.sustainable_agriculture",
+   "name": "Sustainable Agriculture",
+   "name_en": "Sustainable Agriculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroecology",
+   "description": "Agriculture meeting present needs without degrading resources.",
+   "name_zh": "可持续农业"
+  },
+  {
+   "id": "HK.agriculture.agroecology.organic_farming",
+   "name": "Organic Farming",
+   "name_en": "Organic Farming",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroecology",
+   "description": "Farming without synthetic pesticides and fertilizers.",
+   "name_zh": "有机农业"
+  },
+  {
+   "id": "HK.agriculture.agroecology.permaculture",
+   "name": "Permaculture",
+   "name_en": "Permaculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroecology",
+   "description": "Design of self-sustaining agricultural ecosystems.",
+   "name_zh": "永续农业"
+  },
+  {
+   "id": "HK.agriculture.agroecology.regenerative_agriculture",
+   "name": "Regenerative Agriculture",
+   "name_en": "Regenerative Agriculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroecology",
+   "description": "Farming that restores soil and ecosystem health.",
+   "name_zh": "再生农业"
+  },
+  {
+   "id": "HK.agriculture.agroecology.conservation_agriculture",
+   "name": "Conservation Agriculture",
+   "name_en": "Conservation Agriculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroecology",
+   "description": "Minimal soil disturbance with cover and rotation.",
+   "name_zh": "保护性农业"
+  },
+  {
+   "id": "HK.agriculture.agroecology.chinampa",
+   "name": "Chinampa Agriculture",
+   "name_en": "Chinampa Agriculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroecology",
+   "description": "Historical Aztec raised-field wetland agriculture.",
+   "name_zh": "奇南帕农业",
+   "historical": true,
+   "global": false
+  },
+  {
+   "id": "HK.agriculture.plant_breeding",
+   "name": "Plant Breeding",
+   "name_en": "Plant Breeding",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Genetic improvement of crop plants.",
+   "name_zh": "植物育种"
+  },
+  {
+   "id": "HK.agriculture.plant_breeding.conventional_breeding",
+   "name": "Conventional Breeding",
+   "name_en": "Conventional Breeding",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_breeding",
+   "description": "Improvement by selection and controlled crossing.",
+   "name_zh": "常规育种"
+  },
+  {
+   "id": "HK.agriculture.plant_breeding.hybrid_breeding",
+   "name": "Hybrid Breeding",
+   "name_en": "Hybrid Breeding",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_breeding",
+   "description": "Production of high-yielding hybrid cultivars.",
+   "name_zh": "杂交育种"
+  },
+  {
+   "id": "HK.agriculture.plant_breeding.molecular_breeding",
+   "name": "Molecular Breeding",
+   "name_en": "Molecular Breeding",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_breeding",
+   "description": "Breeding aided by molecular markers.",
+   "name_zh": "分子育种",
+   "aliases": [
+    "Marker-Assisted Breeding"
+   ]
+  },
+  {
+   "id": "HK.agriculture.plant_breeding.mutation_breeding",
+   "name": "Mutation Breeding",
+   "name_en": "Mutation Breeding",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_breeding",
+   "description": "Induction of mutations for crop improvement.",
+   "name_zh": "诱变育种"
+  },
+  {
+   "id": "HK.agriculture.plant_breeding.seed_technology",
+   "name": "Seed Technology",
+   "name_en": "Seed Technology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.plant_breeding",
+   "description": "Production, processing, and certification of seed.",
+   "name_zh": "种子技术"
+  },
+  {
+   "id": "HK.agriculture.weed_science",
+   "name": "Weed Science",
+   "name_en": "Weed Science",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Study of weeds and their management.",
+   "name_zh": "杂草学"
+  },
+  {
+   "id": "HK.agriculture.weed_science.weed_ecology",
+   "name": "Weed Ecology",
+   "name_en": "Weed Ecology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.weed_science",
+   "description": "Ecology of weed populations.",
+   "name_zh": "杂草生态学"
+  },
+  {
+   "id": "HK.agriculture.weed_science.herbicide_resistance",
+   "name": "Herbicide Resistance",
+   "name_en": "Herbicide Resistance",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.weed_science",
+   "description": "Evolution and management of herbicide-resistant weeds.",
+   "name_zh": "除草剂抗性"
+  },
+  {
+   "id": "HK.agriculture.weed_science.integrated_weed_management",
+   "name": "Integrated Weed Management",
+   "name_en": "Integrated Weed Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.weed_science",
+   "description": "Combined approaches to weed control.",
+   "name_zh": "杂草综合治理"
+  },
+  {
+   "id": "HK.agriculture.aquaculture",
+   "name": "Aquaculture",
+   "name_en": "Aquaculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Farming of fish, shellfish, and aquatic plants.",
+   "name_zh": "水产养殖"
+  },
+  {
+   "id": "HK.agriculture.aquaculture.fish_farming",
+   "name": "Fish Farming",
+   "name_en": "Fish Farming",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.aquaculture",
+   "description": "Culture of finfish for food.",
+   "name_zh": "鱼类养殖",
+   "aliases": [
+    "Pisciculture"
+   ]
+  },
+  {
+   "id": "HK.agriculture.aquaculture.shellfish_farming",
+   "name": "Shellfish Farming",
+   "name_en": "Shellfish Farming",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.aquaculture",
+   "description": "Culture of mollusks and crustaceans.",
+   "name_zh": "贝类养殖"
+  },
+  {
+   "id": "HK.agriculture.aquaculture.shrimp_farming",
+   "name": "Shrimp Farming",
+   "name_en": "Shrimp Farming",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.aquaculture",
+   "description": "Culture of shrimp and prawns.",
+   "name_zh": "虾类养殖"
+  },
+  {
+   "id": "HK.agriculture.aquaculture.seaweed_farming",
+   "name": "Seaweed Farming",
+   "name_en": "Seaweed Farming",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.aquaculture",
+   "description": "Culture of marine algae.",
+   "name_zh": "海藻养殖",
+   "aliases": [
+    "Algaculture"
+   ]
+  },
+  {
+   "id": "HK.agriculture.aquaculture.mariculture",
+   "name": "Mariculture",
+   "name_en": "Mariculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.aquaculture",
+   "description": "Marine aquaculture in ocean environments.",
+   "name_zh": "海水养殖"
+  },
+  {
+   "id": "HK.agriculture.aquaculture.integrated_multi_trophic_aquaculture",
+   "name": "Integrated Multi-Trophic Aquaculture",
+   "name_en": "Integrated Multi-Trophic Aquaculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.aquaculture",
+   "description": "Aquaculture combining fed and extractive species.",
+   "name_zh": "多营养级综合养殖",
+   "aliases": [
+    "IMTA"
+   ]
+  },
+  {
+   "id": "HK.agriculture.apiculture",
+   "name": "Apiculture",
+   "name_en": "Apiculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Keeping and management of honey bees.",
+   "name_zh": "养蜂学",
+   "aliases": [
+    "Beekeeping"
+   ]
+  },
+  {
+   "id": "HK.agriculture.apiculture.honey_production",
+   "name": "Honey Production",
+   "name_en": "Honey Production",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.apiculture",
+   "description": "Production and harvesting of honey.",
+   "name_zh": "蜂蜜生产"
+  },
+  {
+   "id": "HK.agriculture.apiculture.pollination_services",
+   "name": "Pollination Services",
+   "name_en": "Pollination Services",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.apiculture",
+   "description": "Use of bees to pollinate crops.",
+   "name_zh": "授粉服务"
+  },
+  {
+   "id": "HK.agriculture.apiculture.pollinator_conservation",
+   "name": "Pollinator Conservation",
+   "name_en": "Pollinator Conservation",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.apiculture",
+   "description": "Conservation of bee and pollinator populations.",
+   "name_zh": "传粉昆虫保护"
+  },
+  {
+   "id": "HK.agriculture.sericulture",
+   "name": "Sericulture",
+   "name_en": "Sericulture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Rearing of silkworms for silk production.",
+   "name_zh": "养蚕业"
+  },
+  {
+   "id": "HK.agriculture.sericulture.silkworm_rearing",
+   "name": "Silkworm Rearing",
+   "name_en": "Silkworm Rearing",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.sericulture",
+   "description": "Raising of silkworm larvae.",
+   "name_zh": "养蚕"
+  },
+  {
+   "id": "HK.agriculture.sericulture.mulberry_cultivation",
+   "name": "Mulberry Cultivation",
+   "name_en": "Mulberry Cultivation",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.sericulture",
+   "description": "Growing mulberry trees as silkworm feed.",
+   "name_zh": "桑树栽培"
+  },
+  {
+   "id": "HK.agriculture.sericulture.silk_reeling",
+   "name": "Silk Reeling",
+   "name_en": "Silk Reeling",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.sericulture",
+   "description": "Extraction of silk filament from cocoons.",
+   "name_zh": "缫丝"
+  },
+  {
+   "id": "HK.agriculture.agroforestry",
+   "name": "Agroforestry",
+   "name_en": "Agroforestry",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture",
+   "description": "Integration of trees with crops and livestock.",
+   "name_zh": "农林复合经营"
+  },
+  {
+   "id": "HK.agriculture.agroforestry.alley_cropping",
+   "name": "Alley Cropping",
+   "name_en": "Alley Cropping",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroforestry",
+   "description": "Growing crops between rows of trees.",
+   "name_zh": "林带间作"
+  },
+  {
+   "id": "HK.agriculture.agroforestry.silvopasture",
+   "name": "Silvopasture",
+   "name_en": "Silvopasture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroforestry",
+   "description": "Integration of trees with grazing livestock.",
+   "name_zh": "林牧复合"
+  },
+  {
+   "id": "HK.agriculture.agroforestry.forest_farming",
+   "name": "Forest Farming",
+   "name_en": "Forest Farming",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroforestry",
+   "description": "Cultivation of specialty crops under forest canopy.",
+   "name_zh": "林下种植"
+  },
+  {
+   "id": "HK.agriculture.agroforestry.windbreaks_and_shelterbelts",
+   "name": "Windbreaks and Shelterbelts",
+   "name_en": "Windbreaks and Shelterbelts",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.agriculture.agroforestry",
+   "description": "Tree plantings that protect crops from wind.",
+   "name_zh": "防风林带"
+  },
+  {
+   "id": "HK.forestry.silviculture",
+   "name": "Silviculture",
+   "name_en": "Silviculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Science of establishing, growing, and tending forests.",
+   "name_zh": "森林培育学"
+  },
+  {
+   "id": "HK.forestry.silviculture.reforestation",
+   "name": "Reforestation",
+   "name_en": "Reforestation",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.silviculture",
+   "description": "Re-establishment of forest on deforested land.",
+   "name_zh": "造林"
+  },
+  {
+   "id": "HK.forestry.silviculture.natural_regeneration",
+   "name": "Natural Regeneration",
+   "name_en": "Natural Regeneration",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.silviculture",
+   "description": "Regrowth of forest from natural seed and sprouts.",
+   "name_zh": "天然更新"
+  },
+  {
+   "id": "HK.forestry.silviculture.thinning",
+   "name": "Thinning",
+   "name_en": "Thinning",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.silviculture",
+   "description": "Selective removal of trees to improve stand growth.",
+   "name_zh": "抚育间伐"
+  },
+  {
+   "id": "HK.forestry.silviculture.tree_breeding",
+   "name": "Tree Breeding",
+   "name_en": "Tree Breeding",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.silviculture",
+   "description": "Genetic improvement of forest trees.",
+   "name_zh": "林木育种"
+  },
+  {
+   "id": "HK.forestry.silviculture.coppicing",
+   "name": "Coppicing",
+   "name_en": "Coppicing",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.silviculture",
+   "description": "Regrowth of trees from cut stumps.",
+   "name_zh": "矮林作业"
+  },
+  {
+   "id": "HK.forestry.forest_ecology",
+   "name": "Forest Ecology",
+   "name_en": "Forest Ecology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Ecology of forest ecosystems.",
+   "name_zh": "森林生态学"
+  },
+  {
+   "id": "HK.forestry.forest_ecology.forest_succession",
+   "name": "Forest Succession",
+   "name_en": "Forest Succession",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_ecology",
+   "description": "Change in forest communities over time.",
+   "name_zh": "森林演替"
+  },
+  {
+   "id": "HK.forestry.forest_ecology.fire_ecology",
+   "name": "Fire Ecology",
+   "name_en": "Fire Ecology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_ecology",
+   "description": "Role of fire in forest ecosystems.",
+   "name_zh": "火生态学"
+  },
+  {
+   "id": "HK.forestry.forest_ecology.old_growth_forests",
+   "name": "Old-Growth Forests",
+   "name_en": "Old-Growth Forests",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_ecology",
+   "description": "Ecologically mature, largely undisturbed forests.",
+   "name_zh": "原始林"
+  },
+  {
+   "id": "HK.forestry.forest_ecology.dendrology",
+   "name": "Dendrology",
+   "name_en": "Dendrology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_ecology",
+   "description": "Taxonomy and identification of trees and shrubs.",
+   "name_zh": "树木学"
+  },
+  {
+   "id": "HK.forestry.forest_ecology.forest_biodiversity",
+   "name": "Forest Biodiversity",
+   "name_en": "Forest Biodiversity",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_ecology",
+   "description": "Diversity of species and habitats in forests.",
+   "name_zh": "森林生物多样性"
+  },
+  {
+   "id": "HK.forestry.forest_management",
+   "name": "Forest Management",
+   "name_en": "Forest Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Administration and stewardship of forest resources.",
+   "name_zh": "森林经理学"
+  },
+  {
+   "id": "HK.forestry.forest_management.forest_inventory",
+   "name": "Forest Inventory",
+   "name_en": "Forest Inventory",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_management",
+   "description": "Measurement and survey of forest resources.",
+   "name_zh": "森林资源清查"
+  },
+  {
+   "id": "HK.forestry.forest_management.sustainable_forest_management",
+   "name": "Sustainable Forest Management",
+   "name_en": "Sustainable Forest Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_management",
+   "description": "Management maintaining forest productivity and services.",
+   "name_zh": "森林可持续经营"
+  },
+  {
+   "id": "HK.forestry.forest_management.timber_harvesting",
+   "name": "Timber Harvesting",
+   "name_en": "Timber Harvesting",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_management",
+   "description": "Felling and extraction of trees for wood.",
+   "name_zh": "木材采伐",
+   "aliases": [
+    "Logging"
+   ]
+  },
+  {
+   "id": "HK.forestry.forest_management.forest_planning",
+   "name": "Forest Planning",
+   "name_en": "Forest Planning",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_management",
+   "description": "Long-term planning of forest use.",
+   "name_zh": "森林规划"
+  },
+  {
+   "id": "HK.forestry.forest_management.forest_certification",
+   "name": "Forest Certification",
+   "name_en": "Forest Certification",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_management",
+   "description": "Third-party certification of sustainable forestry.",
+   "name_zh": "森林认证"
+  },
+  {
+   "id": "HK.forestry.forest_management.sacred_grove_conservation",
+   "name": "Sacred Grove Conservation",
+   "name_en": "Sacred Grove Conservation",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_management",
+   "description": "Community conservation of culturally protected forests.",
+   "name_zh": "圣林保护",
+   "global": false
+  },
+  {
+   "id": "HK.forestry.forest_biometrics",
+   "name": "Forest Biometrics",
+   "name_en": "Forest Biometrics",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Quantitative methods in forestry.",
+   "name_zh": "森林计测学"
+  },
+  {
+   "id": "HK.forestry.forest_biometrics.forest_mensuration",
+   "name": "Forest Mensuration",
+   "name_en": "Forest Mensuration",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_biometrics",
+   "description": "Measurement of tree and stand dimensions.",
+   "name_zh": "测树学"
+  },
+  {
+   "id": "HK.forestry.forest_biometrics.growth_and_yield_modeling",
+   "name": "Growth and Yield Modeling",
+   "name_en": "Growth and Yield Modeling",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_biometrics",
+   "description": "Modeling of forest growth and timber yield.",
+   "name_zh": "生长收获模型"
+  },
+  {
+   "id": "HK.forestry.forest_biometrics.dendrochronology",
+   "name": "Dendrochronology",
+   "name_en": "Dendrochronology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_biometrics",
+   "description": "Dating and climate study using tree rings.",
+   "name_zh": "树木年轮学"
+  },
+  {
+   "id": "HK.forestry.wood_science",
+   "name": "Wood Science",
+   "name_en": "Wood Science",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Science of wood structure, properties, and uses.",
+   "name_zh": "木材科学"
+  },
+  {
+   "id": "HK.forestry.wood_science.wood_anatomy",
+   "name": "Wood Anatomy",
+   "name_en": "Wood Anatomy",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.wood_science",
+   "description": "Microscopic structure of wood.",
+   "name_zh": "木材解剖学"
+  },
+  {
+   "id": "HK.forestry.wood_science.wood_mechanics",
+   "name": "Wood Mechanics",
+   "name_en": "Wood Mechanics",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.wood_science",
+   "description": "Mechanical properties of wood.",
+   "name_zh": "木材力学"
+  },
+  {
+   "id": "HK.forestry.wood_science.wood_preservation",
+   "name": "Wood Preservation",
+   "name_en": "Wood Preservation",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.wood_science",
+   "description": "Treatment of wood against decay and pests.",
+   "name_zh": "木材防腐"
+  },
+  {
+   "id": "HK.forestry.wood_science.forest_products",
+   "name": "Forest Products",
+   "name_en": "Forest Products",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.wood_science",
+   "description": "Products derived from forest biomass including timber and pulp.",
+   "name_zh": "林产品"
+  },
+  {
+   "id": "HK.forestry.forest_pathology",
+   "name": "Forest Pathology",
+   "name_en": "Forest Pathology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Study of diseases of forest trees.",
+   "name_zh": "森林病理学"
+  },
+  {
+   "id": "HK.forestry.forest_pathology.forest_disease_ecology",
+   "name": "Forest Disease Ecology",
+   "name_en": "Forest Disease Ecology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_pathology",
+   "description": "Ecology of forest tree diseases.",
+   "name_zh": "森林病害生态"
+  },
+  {
+   "id": "HK.forestry.forest_pathology.tree_disease_management",
+   "name": "Tree Disease Management",
+   "name_en": "Tree Disease Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_pathology",
+   "description": "Management and control of tree diseases.",
+   "name_zh": "林木病害管理"
+  },
+  {
+   "id": "HK.forestry.forest_entomology",
+   "name": "Forest Entomology",
+   "name_en": "Forest Entomology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Study of insects affecting forest trees.",
+   "name_zh": "森林昆虫学"
+  },
+  {
+   "id": "HK.forestry.forest_entomology.forest_insect_ecology",
+   "name": "Forest Insect Ecology",
+   "name_en": "Forest Insect Ecology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_entomology",
+   "description": "Ecology of forest insect populations.",
+   "name_zh": "森林昆虫生态"
+  },
+  {
+   "id": "HK.forestry.forest_entomology.forest_pest_management",
+   "name": "Forest Pest Management",
+   "name_en": "Forest Pest Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_entomology",
+   "description": "Management of insect pests of forests.",
+   "name_zh": "森林害虫管理"
+  },
+  {
+   "id": "HK.forestry.forest_hydrology",
+   "name": "Forest Hydrology",
+   "name_en": "Forest Hydrology",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Role of forests in the water cycle.",
+   "name_zh": "森林水文学"
+  },
+  {
+   "id": "HK.forestry.forest_hydrology.watershed_management",
+   "name": "Watershed Management",
+   "name_en": "Watershed Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_hydrology",
+   "description": "Management of water catchment areas.",
+   "name_zh": "流域管理"
+  },
+  {
+   "id": "HK.forestry.forest_hydrology.forest_erosion_control",
+   "name": "Forest Erosion Control",
+   "name_en": "Forest Erosion Control",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_hydrology",
+   "description": "Use of forests to control soil erosion.",
+   "name_zh": "森林水土保持"
+  },
+  {
+   "id": "HK.forestry.forest_hydrology.riparian_management",
+   "name": "Riparian Management",
+   "name_en": "Riparian Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_hydrology",
+   "description": "Management of streamside forest zones.",
+   "name_zh": "河岸带管理"
+  },
+  {
+   "id": "HK.forestry.urban_forestry",
+   "name": "Urban Forestry",
+   "name_en": "Urban Forestry",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Management of trees in urban areas.",
+   "name_zh": "城市林业"
+  },
+  {
+   "id": "HK.forestry.urban_forestry.arboriculture",
+   "name": "Arboriculture",
+   "name_en": "Arboriculture",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.urban_forestry",
+   "description": "Cultivation and care of individual trees.",
+   "name_zh": "树木栽培学"
+  },
+  {
+   "id": "HK.forestry.urban_forestry.street_tree_management",
+   "name": "Street Tree Management",
+   "name_en": "Street Tree Management",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.urban_forestry",
+   "description": "Management of trees along streets.",
+   "name_zh": "行道树管理"
+  },
+  {
+   "id": "HK.forestry.urban_forestry.urban_tree_health",
+   "name": "Urban Tree Health",
+   "name_en": "Urban Tree Health",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.urban_forestry",
+   "description": "Health assessment of urban trees.",
+   "name_zh": "城市树木健康"
+  },
+  {
+   "id": "HK.forestry.forest_economics",
+   "name": "Forest Economics",
+   "name_en": "Forest Economics",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry",
+   "description": "Economics of forest resources and products.",
+   "name_zh": "林业经济学"
+  },
+  {
+   "id": "HK.forestry.forest_economics.forest_valuation",
+   "name": "Forest Valuation",
+   "name_en": "Forest Valuation",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_economics",
+   "description": "Economic valuation of forests.",
+   "name_zh": "森林资产评估"
+  },
+  {
+   "id": "HK.forestry.forest_economics.timber_markets",
+   "name": "Timber Markets",
+   "name_en": "Timber Markets",
+   "type": "KNOWLEDGE_FIELD",
+   "parent": "HK.forestry.forest_economics",
+   "description": "Markets for timber and wood products.",
+   "name_zh": "木材市场"
+  }
+ ],
+ "relations": [
+  {
+   "source": "HK.agriculture.agronomy",
+   "relation": "APPLICATION_OF",
+   "target": "HK.biology"
+  },
+  {
+   "source": "HK.agriculture.soil_science",
+   "relation": "RELATED_TO",
+   "target": "HK.earth_science"
+  },
+  {
+   "source": "HK.agriculture.soil_science.soil_chemistry",
+   "relation": "APPLICATION_OF",
+   "target": "HK.chemistry"
+  },
+  {
+   "source": "HK.agriculture.plant_pathology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.biology"
+  },
+  {
+   "source": "HK.agriculture.plant_breeding",
+   "relation": "APPLICATION_OF",
+   "target": "HK.biology"
+  },
+  {
+   "source": "HK.agriculture.agricultural_entomology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.biology"
+  },
+  {
+   "source": "HK.agriculture.animal_science",
+   "relation": "RELATED_TO",
+   "target": "HK.veterinary_medicine"
+  },
+  {
+   "source": "HK.agriculture.agroecology",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.environmental_science"
+  },
+  {
+   "source": "HK.agriculture.agroecology.chinampa",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "HK.agriculture.agroecology.sustainable_agriculture"
+  },
+  {
+   "source": "HK.agriculture.agroforestry",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.forestry"
+  },
+  {
+   "source": "HK.agriculture.agricultural_economics",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.economics"
+  },
+  {
+   "source": "HK.agriculture.aquaculture",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.engineering.agricultural_engineering.aquaculture_engineering"
+  },
+  {
+   "source": "HK.agriculture.apiculture.pollination_services",
+   "relation": "RELATED_TO",
+   "target": "HK.agriculture.horticulture"
+  },
+  {
+   "source": "HK.agriculture.sericulture",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.engineering.textile_engineering"
+  },
+  {
+   "source": "HK.agriculture.horticulture.viticulture",
+   "relation": "RELATED_TO",
+   "target": "HK.agriculture.horticulture.enology"
+  },
+  {
+   "source": "HK.agriculture.agronomy.terrace_farming",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.agriculture.soil_science.soil_conservation"
+  },
+  {
+   "source": "HK.agriculture.agroforestry",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.agriculture.agroecology"
+  },
+  {
+   "source": "HK.agriculture.plant_breeding.molecular_breeding",
+   "relation": "USES",
+   "target": "HK.biology"
+  },
+  {
+   "source": "HK.forestry.forest_ecology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.biology"
+  },
+  {
+   "source": "HK.forestry",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.environmental_science"
+  },
+  {
+   "source": "HK.forestry.wood_science",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.engineering.materials_engineering"
+  },
+  {
+   "source": "HK.forestry.forest_hydrology",
+   "relation": "RELATED_TO",
+   "target": "HK.earth_science"
+  },
+  {
+   "source": "HK.forestry.forest_biometrics",
+   "relation": "USES",
+   "target": "HK.statistics"
+  },
+  {
+   "source": "HK.forestry.forest_management",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.agriculture.agroforestry"
+  },
+  {
+   "source": "HK.forestry.silviculture.tree_breeding",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.agriculture.plant_breeding"
+  },
+  {
+   "source": "HK.forestry.forest_entomology",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.agriculture.agricultural_entomology"
+  },
+  {
+   "source": "HK.forestry.forest_pathology",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.agriculture.plant_pathology"
+  },
+  {
+   "source": "HK.forestry.forest_biometrics.dendrochronology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.earth_science"
+  },
+  {
+   "source": "HK.forestry.urban_forestry",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.urban_planning"
+  },
+  {
+   "source": "HK.forestry.silviculture.reforestation",
+   "relation": "APPLIES_TO",
+   "target": "HK.environmental_science"
+  }
+ ]
+}

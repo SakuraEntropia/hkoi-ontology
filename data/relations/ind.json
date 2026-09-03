@@ -1,0 +1,707 @@
+[
+ {
+  "source": "ind.agriculture",
+  "relation": "APPLICATION_OF",
+  "target": "HK.agriculture"
+ },
+ {
+  "source": "ind.forestry",
+  "relation": "APPLICATION_OF",
+  "target": "HK.forestry"
+ },
+ {
+  "source": "ind.mining",
+  "relation": "APPLICATION_OF",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "ind.oil_gas",
+  "relation": "APPLICATION_OF",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "ind.energy.electricity_generation.nuclear",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "ind.energy.electricity_generation.solar",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "ind.construction",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.manufacturing.chemicals",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "ind.manufacturing.materials",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "ind.manufacturing.metals",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.design.eda",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ind.manufacturing.electronics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "ind.manufacturing.medical_devices",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.biotech",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.pharma",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.healthcare_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.traditional_medicine.tcm",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.veterinary",
+  "relation": "APPLICATION_OF",
+  "target": "HK.veterinary_medicine"
+ },
+ {
+  "source": "ind.information_technology.ai",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ind.information_technology.ai",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "ind.information_technology.software",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ind.information_technology.data_analytics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.data_science"
+ },
+ {
+  "source": "ind.information_technology.internet",
+  "relation": "APPLICATION_OF",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "ind.financial_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance"
+ },
+ {
+  "source": "ind.financial_services.capital_markets",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "ind.professional_services.accounting",
+  "relation": "APPLICATION_OF",
+  "target": "HK.accounting"
+ },
+ {
+  "source": "ind.professional_services.legal",
+  "relation": "APPLICATION_OF",
+  "target": "HK.law"
+ },
+ {
+  "source": "ind.professional_services.market_research",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "ind.professional_services.engineering_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.professional_services.architecture",
+  "relation": "APPLICATION_OF",
+  "target": "HK.architecture"
+ },
+ {
+  "source": "ind.education",
+  "relation": "APPLICATION_OF",
+  "target": "HK.education"
+ },
+ {
+  "source": "ind.media_entertainment.news",
+  "relation": "APPLICATION_OF",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "ind.transport_logistics.logistics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.operations_research"
+ },
+ {
+  "source": "ind.hospitality_tourism.tourism",
+  "relation": "APPLICATION_OF",
+  "target": "HK.geography"
+ },
+ {
+  "source": "ind.utilities",
+  "relation": "APPLICATION_OF",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "ind.defense_space.space",
+  "relation": "APPLICATION_OF",
+  "target": "HK.astronomy"
+ },
+ {
+  "source": "ind.energy.electricity_generation.coal_power",
+  "relation": "CONSUMES",
+  "target": "ind.mining.coal"
+ },
+ {
+  "source": "ind.energy.electricity_generation.gas_power",
+  "relation": "CONSUMES",
+  "target": "ind.oil_gas"
+ },
+ {
+  "source": "ind.energy.electricity_generation.nuclear",
+  "relation": "CONSUMES",
+  "target": "ind.mining.metal_ore.uranium"
+ },
+ {
+  "source": "ind.energy.electricity_generation.bioenergy.biomass",
+  "relation": "CONSUMES",
+  "target": "ind.manufacturing.wood_paper.wood_pellets"
+ },
+ {
+  "source": "ind.manufacturing.metals.steel",
+  "relation": "CONSUMES",
+  "target": "ind.mining.metal_ore.iron"
+ },
+ {
+  "source": "ind.manufacturing.metals.aluminium",
+  "relation": "CONSUMES",
+  "target": "ind.mining.metal_ore.aluminium"
+ },
+ {
+  "source": "ind.manufacturing.metals.copper_refining",
+  "relation": "CONSUMES",
+  "target": "ind.mining.metal_ore.copper"
+ },
+ {
+  "source": "ind.manufacturing.materials.cement",
+  "relation": "CONSUMES",
+  "target": "ind.mining.nonmetal.limestone"
+ },
+ {
+  "source": "ind.construction",
+  "relation": "CONSUMES",
+  "target": "ind.manufacturing.materials.concrete_products"
+ },
+ {
+  "source": "ind.manufacturing.chemicals.petrochemicals",
+  "relation": "CONSUMES",
+  "target": "ind.oil_gas"
+ },
+ {
+  "source": "ind.manufacturing.automotive.parts.tires",
+  "relation": "CONSUMES",
+  "target": "ind.manufacturing.chemicals.synthetic_rubber"
+ },
+ {
+  "source": "ind.manufacturing.electronics.batteries",
+  "relation": "CONSUMES",
+  "target": "ind.mining.metal_ore.lithium"
+ },
+ {
+  "source": "ind.information_technology.internet.data_centers",
+  "relation": "CONSUMES",
+  "target": "ind.energy"
+ },
+ {
+  "source": "ind.manufacturing.food",
+  "relation": "CONSUMES",
+  "target": "ind.agriculture"
+ },
+ {
+  "source": "ind.manufacturing.food.meat_processing",
+  "relation": "USES",
+  "target": "ind.agriculture.livestock"
+ },
+ {
+  "source": "ind.manufacturing.food.dairy_products",
+  "relation": "USES",
+  "target": "ind.agriculture.livestock.dairy"
+ },
+ {
+  "source": "ind.manufacturing.food.beverages.brewery",
+  "relation": "USES",
+  "target": "ind.agriculture.crop_farming.cereals"
+ },
+ {
+  "source": "ind.manufacturing.food.beverages.winery",
+  "relation": "CONSUMES",
+  "target": "ind.agriculture.horticulture.viticulture"
+ },
+ {
+  "source": "ind.manufacturing.food.sugar_refining",
+  "relation": "USES",
+  "target": "ind.agriculture.crop_farming.sugar_crops"
+ },
+ {
+  "source": "ind.manufacturing.food.coffee_tea_processing",
+  "relation": "USES",
+  "target": "ind.agriculture.plantation_crops"
+ },
+ {
+  "source": "ind.manufacturing.textiles",
+  "relation": "CONSUMES",
+  "target": "ind.agriculture.crop_farming.fiber_crops"
+ },
+ {
+  "source": "ind.manufacturing.textiles.silk_weaving",
+  "relation": "USES",
+  "target": "ind.agriculture.sericulture"
+ },
+ {
+  "source": "ind.manufacturing.wood_paper",
+  "relation": "CONSUMES",
+  "target": "ind.forestry"
+ },
+ {
+  "source": "ind.manufacturing.wood_paper.pulp",
+  "relation": "USES",
+  "target": "ind.forestry.pulpwood"
+ },
+ {
+  "source": "ind.agriculture",
+  "relation": "USES",
+  "target": "ind.manufacturing.chemicals.agrochemicals"
+ },
+ {
+  "source": "ind.agriculture.agritech.precision_agriculture",
+  "relation": "USES",
+  "target": "ind.defense_space.space.earth_observation"
+ },
+ {
+  "source": "ind.agriculture.livestock.apiculture",
+  "relation": "USED_BY",
+  "target": "ind.agriculture.horticulture"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.biotech.ag_biotech",
+  "relation": "USED_BY",
+  "target": "ind.agriculture.seed_industry"
+ },
+ {
+  "source": "ind.manufacturing.machinery.agricultural_machinery",
+  "relation": "USED_BY",
+  "target": "ind.agriculture"
+ },
+ {
+  "source": "ind.manufacturing.machinery.construction_machinery",
+  "relation": "USED_BY",
+  "target": "ind.construction"
+ },
+ {
+  "source": "ind.manufacturing.machinery.mining_machinery",
+  "relation": "USED_BY",
+  "target": "ind.mining"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.pharma",
+  "relation": "USES",
+  "target": "ind.manufacturing.chemicals.fine_chemicals"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.biotech.genomics",
+  "relation": "USED_BY",
+  "target": "ind.life_sciences_healthcare.pharma.drug_discovery"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.equipment",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.semiconductors.fabrication"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.materials",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.semiconductors.fabrication"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.process_technologies",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.semiconductors.fabrication"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.design.eda",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.semiconductors.design.fabless"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.materials.silicon_wafers",
+  "relation": "MATERIAL_OF",
+  "target": "ind.manufacturing.semiconductors.fabrication"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.materials.photoresist",
+  "relation": "MATERIAL_OF",
+  "target": "ind.manufacturing.semiconductors.process_technologies.lithography"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.process_technologies.lithography",
+  "relation": "TECHNOLOGY_OF",
+  "target": "ind.manufacturing.semiconductors.fabrication"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.process_technologies.etching",
+  "relation": "TECHNOLOGY_OF",
+  "target": "ind.manufacturing.semiconductors.fabrication"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.process_technologies.deposition",
+  "relation": "TECHNOLOGY_OF",
+  "target": "ind.manufacturing.semiconductors.fabrication"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.distribution",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.electronics"
+ },
+ {
+  "source": "ind.manufacturing.electronics",
+  "relation": "USES",
+  "target": "ind.manufacturing.semiconductors"
+ },
+ {
+  "source": "ind.manufacturing.electronics.components.pcb",
+  "relation": "USES",
+  "target": "ind.manufacturing.semiconductors"
+ },
+ {
+  "source": "ind.manufacturing.electronics.display_panels",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.electronics.consumer_electronics.televisions"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.device_segments.memory.nand",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.electronics.computer_hardware.servers"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.device_segments.logic",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.electronics.computer_hardware"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors.device_segments.mems",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing.automotive"
+ },
+ {
+  "source": "ind.information_technology.ai",
+  "relation": "USES",
+  "target": "ind.manufacturing.semiconductors"
+ },
+ {
+  "source": "ind.information_technology.telecom",
+  "relation": "USES",
+  "target": "ind.manufacturing.electronics.telecom_equipment"
+ },
+ {
+  "source": "ind.information_technology.internet.cloud",
+  "relation": "USES",
+  "target": "ind.information_technology.internet.data_centers"
+ },
+ {
+  "source": "ind.information_technology.telecom.satellite_comms",
+  "relation": "USES",
+  "target": "ind.defense_space.space.satellite_operations"
+ },
+ {
+  "source": "ind.manufacturing.automotive.parts",
+  "relation": "USES",
+  "target": "ind.manufacturing.semiconductors"
+ },
+ {
+  "source": "ind.manufacturing.automotive.autonomous",
+  "relation": "USES",
+  "target": "ind.information_technology.ai"
+ },
+ {
+  "source": "ind.energy.energy_storage.battery",
+  "relation": "USES",
+  "target": "ind.manufacturing.electronics.batteries"
+ },
+ {
+  "source": "ind.energy.hydrogen.green_hydrogen",
+  "relation": "USES",
+  "target": "ind.energy.electricity_generation.solar"
+ },
+ {
+  "source": "ind.manufacturing.electronics.power_electronics",
+  "relation": "USED_BY",
+  "target": "ind.energy.electricity_generation.solar"
+ },
+ {
+  "source": "ind.manufacturing.medical_devices",
+  "relation": "USED_BY",
+  "target": "ind.life_sciences_healthcare.healthcare_services"
+ },
+ {
+  "source": "ind.manufacturing.materials.advanced_materials.composites",
+  "relation": "MATERIAL_OF",
+  "target": "ind.manufacturing.aerospace"
+ },
+ {
+  "source": "ind.manufacturing.aerospace",
+  "relation": "USES",
+  "target": "ind.manufacturing.materials.advanced_materials.composites"
+ },
+ {
+  "source": "ind.manufacturing.shipbuilding",
+  "relation": "USES",
+  "target": "ind.manufacturing.metals.steel"
+ },
+ {
+  "source": "ind.manufacturing.machinery",
+  "relation": "USES",
+  "target": "ind.manufacturing.metals.steel"
+ },
+ {
+  "source": "ind.manufacturing.semiconductors",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.electronics"
+ },
+ {
+  "source": "ind.manufacturing.medical_devices",
+  "relation": "SECTOR_OF",
+  "target": "ind.life_sciences_healthcare"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.pharma",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.life_sciences_healthcare.biotech"
+ },
+ {
+  "source": "ind.manufacturing.chemicals",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.life_sciences_healthcare.pharma"
+ },
+ {
+  "source": "ind.manufacturing.electronics.batteries",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.automotive.ev.batteries"
+ },
+ {
+  "source": "ind.manufacturing.automotive.ev.batteries",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.energy.energy_storage.battery"
+ },
+ {
+  "source": "ind.information_technology.internet.ecommerce_platforms",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.retail_trade.ecommerce"
+ },
+ {
+  "source": "ind.manufacturing.aerospace.uav",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.information_technology.robotics"
+ },
+ {
+  "source": "ind.manufacturing.aerospace",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.defense_space.defense.aerospace_defense"
+ },
+ {
+  "source": "ind.manufacturing.shipbuilding.naval",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.defense_space.defense.naval"
+ },
+ {
+  "source": "ind.defense_space.space.satellite_manufacturing",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.aerospace"
+ },
+ {
+  "source": "ind.utilities.power_grid",
+  "relation": "RELATED_TO",
+  "target": "ind.energy.electricity_generation"
+ },
+ {
+  "source": "ind.oil_gas.midstream.pipelines",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.transport_logistics.pipeline"
+ },
+ {
+  "source": "ind.real_estate.investment",
+  "relation": "RELATED_TO",
+  "target": "ind.financial_services.asset_management"
+ },
+ {
+  "source": "ind.financial_services.insurance.health",
+  "relation": "RELATED_TO",
+  "target": "ind.life_sciences_healthcare.healthcare_services"
+ },
+ {
+  "source": "ind.hospitality_tourism.tourism.medical_tourism",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.life_sciences_healthcare.healthcare_services"
+ },
+ {
+  "source": "ind.manufacturing.rail",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.transport_logistics.rail"
+ },
+ {
+  "source": "ind.manufacturing.automotive.vehicles",
+  "relation": "RELATED_TO",
+  "target": "ind.transport_logistics.road"
+ },
+ {
+  "source": "ind.manufacturing.aerospace.commercial_aircraft",
+  "relation": "RELATED_TO",
+  "target": "ind.transport_logistics.aviation"
+ },
+ {
+  "source": "ind.manufacturing.shipbuilding.cargo_ships",
+  "relation": "RELATED_TO",
+  "target": "ind.transport_logistics.maritime"
+ },
+ {
+  "source": "ind.energy.electricity_generation.wind.offshore",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.manufacturing.shipbuilding.offshore_structures"
+ },
+ {
+  "source": "ind.financial_services.fintech",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "ind.media_entertainment.gaming",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.information_technology.software"
+ },
+ {
+  "source": "ind.media_entertainment.advertising",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.information_technology.internet"
+ },
+ {
+  "source": "ind.media_entertainment.gambling",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.hospitality_tourism.casinos"
+ },
+ {
+  "source": "ind.retail_trade.ecommerce.livestream",
+  "relation": "RELATED_TO",
+  "target": "ind.media_entertainment.creator_economy"
+ },
+ {
+  "source": "ind.manufacturing.food",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.hospitality_tourism.food_service"
+ },
+ {
+  "source": "ind.information_technology.ai",
+  "relation": "OVERLAPS_WITH",
+  "target": "ind.life_sciences_healthcare.digital_health"
+ },
+ {
+  "source": "ind.information_technology.robotics",
+  "relation": "INTERSECTS_WITH",
+  "target": "ind.information_technology.ai"
+ },
+ {
+  "source": "ind.information_technology.software.cybersecurity",
+  "relation": "INTERSECTS_WITH",
+  "target": "ind.defense_space.defense.cyber_defense"
+ },
+ {
+  "source": "ind.life_sciences_healthcare.digital_health",
+  "relation": "INTERSECTS_WITH",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "ind.financial_services.fintech",
+  "relation": "INTERSECTS_WITH",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "ind.information_technology.telecom.telegraph",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ind.information_technology.telecom.fixed_line"
+ },
+ {
+  "source": "ind.utilities.town_gas",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ind.utilities.gas_distribution"
+ },
+ {
+  "source": "ind.manufacturing.chemicals.photographic_film",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ind.manufacturing.electronics.consumer_electronics"
+ },
+ {
+  "source": "ind.fishing.capture.whaling",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ind.oil_gas"
+ },
+ {
+  "source": "ind.agriculture.crop_farming.chinampa",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ind.agriculture.horticulture"
+ },
+ {
+  "source": "ind.energy.electricity_generation.nuclear.smr",
+  "relation": "SUCCESSOR_OF",
+  "target": "ind.energy.electricity_generation.nuclear.fission"
+ },
+ {
+  "source": "ind.energy.electricity_generation.nuclear.fusion",
+  "relation": "SUCCESSOR_OF",
+  "target": "ind.energy.electricity_generation.nuclear.fission"
+ },
+ {
+  "source": "ind.manufacturing.automotive.ev",
+  "relation": "SUCCESSOR_OF",
+  "target": "ind.manufacturing.automotive.vehicles"
+ }
+]

@@ -1,0 +1,447 @@
+[
+ {
+  "source": "PROD.digital_products.software",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "PROD.digital_products.software_as_a_service",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "PROD.information_technology_services.data_services.data_analytics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "PROD.information_technology_services.data_services.data_analytics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.data_science"
+ },
+ {
+  "source": "PROD.information_technology_services.data_services.business_intelligence",
+  "relation": "APPLICATION_OF",
+  "target": "HK.data_science"
+ },
+ {
+  "source": "PROD.pharmaceuticals",
+  "relation": "APPLICATION_OF",
+  "target": "HK.pharmacy"
+ },
+ {
+  "source": "PROD.pharmaceuticals.prescription_drugs",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "PROD.medical_devices",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "PROD.medical_devices.diagnostic_devices.imaging_equipment",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "PROD.financial_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance"
+ },
+ {
+  "source": "PROD.financial_services.investment_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "PROD.professional_services.accounting_and_audit",
+  "relation": "APPLICATION_OF",
+  "target": "HK.accounting"
+ },
+ {
+  "source": "PROD.professional_services.legal_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.law"
+ },
+ {
+  "source": "PROD.professional_services.engineering_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "PROD.professional_services.architecture_and_design_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.architecture"
+ },
+ {
+  "source": "PROD.education_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.education"
+ },
+ {
+  "source": "PROD.healthcare_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "PROD.healthcare_services.mental_health_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "PROD.pharmaceuticals.biologics.vaccines",
+  "relation": "APPLICATION_OF",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "PROD.agricultural_products",
+  "relation": "APPLICATION_OF",
+  "target": "HK.agriculture"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.metals",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "PROD.vehicles",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "PROD.capital_goods.infrastructure.transportation_infrastructure",
+  "relation": "APPLICATION_OF",
+  "target": "HK.urban_planning"
+ },
+ {
+  "source": "PROD.energy_products.fossil_fuels.petroleum.crude_oil",
+  "relation": "APPLICATION_OF",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "PROD.pharmaceuticals.biologics.gene_therapies",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.electronic_components.semiconductors",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.electronic_components.semiconductors",
+  "relation": "PART_OF",
+  "target": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.smartphones"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.electronic_components.semiconductors",
+  "relation": "PART_OF",
+  "target": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.laptop_computers"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.electronic_components.microprocessors",
+  "relation": "PART_OF",
+  "target": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.smartphones"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.electronic_components.memory_chips",
+  "relation": "PART_OF",
+  "target": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.smartphones"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.automotive_parts.automotive_engines",
+  "relation": "PART_OF",
+  "target": "PROD.vehicles.road_vehicles.passenger_cars"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.automotive_parts.transmissions",
+  "relation": "PART_OF",
+  "target": "PROD.vehicles.road_vehicles.passenger_cars"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.automotive_parts.tires",
+  "relation": "PART_OF",
+  "target": "PROD.vehicles.road_vehicles.passenger_cars"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.automotive_parts.brakes",
+  "relation": "PART_OF",
+  "target": "PROD.vehicles.road_vehicles.passenger_cars"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.metals.steel",
+  "relation": "MATERIAL_OF",
+  "target": "PROD.vehicles.road_vehicles.passenger_cars"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.metals.aluminum",
+  "relation": "MATERIAL_OF",
+  "target": "PROD.vehicles.aircraft.airliners"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.metals.steel",
+  "relation": "MATERIAL_OF",
+  "target": "PROD.capital_goods.infrastructure.transportation_infrastructure.bridges"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.textile_fibers.cotton_fiber",
+  "relation": "MATERIAL_OF",
+  "target": "PROD.consumer_goods.apparel_and_footwear.apparel"
+ },
+ {
+  "source": "PROD.agricultural_products.livestock_products.wool",
+  "relation": "MATERIAL_OF",
+  "target": "PROD.consumer_goods.apparel_and_footwear.apparel"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.timber_and_wood_products.lumber",
+  "relation": "MATERIAL_OF",
+  "target": "PROD.consumer_goods.furniture_and_home.furniture"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.paper_and_pulp",
+  "relation": "MATERIAL_OF",
+  "target": "PROD.consumer_goods.household_products.paper_products"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.industrial_chemicals.polymers",
+  "relation": "MATERIAL_OF",
+  "target": "PROD.consumer_goods.toys_and_games.toys"
+ },
+ {
+  "source": "PROD.energy_products.fossil_fuels.petroleum.crude_oil",
+  "relation": "PRODUCES",
+  "target": "PROD.energy_products.fossil_fuels.petroleum.gasoline"
+ },
+ {
+  "source": "PROD.energy_products.fossil_fuels.petroleum.crude_oil",
+  "relation": "PRODUCES",
+  "target": "PROD.industrial_goods.raw_materials_and_commodities.industrial_chemicals.petrochemicals"
+ },
+ {
+  "source": "PROD.agricultural_products.crops.cereals.wheat",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.food.baked_goods.bread"
+ },
+ {
+  "source": "PROD.agricultural_products.crops.cereals.paddy_rice",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.food.grains_and_pasta.rice"
+ },
+ {
+  "source": "PROD.agricultural_products.crops.beverage_crops.coffee_beans",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.beverages.non_alcoholic_beverages.coffee"
+ },
+ {
+  "source": "PROD.agricultural_products.crops.beverage_crops.tea_leaves",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.beverages.non_alcoholic_beverages.tea"
+ },
+ {
+  "source": "PROD.agricultural_products.crops.beverage_crops.cocoa_beans",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.food.snack_foods.chocolate_and_confectionery"
+ },
+ {
+  "source": "PROD.agricultural_products.livestock_products.cattle",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.food.dairy_products.milk"
+ },
+ {
+  "source": "PROD.agricultural_products.livestock_products.cattle",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.food.meat_and_poultry.fresh_meat"
+ },
+ {
+  "source": "PROD.agricultural_products.livestock_products.poultry",
+  "relation": "PRODUCES",
+  "target": "PROD.agricultural_products.livestock_products.eggs"
+ },
+ {
+  "source": "PROD.agricultural_products.livestock_products.sheep",
+  "relation": "PRODUCES",
+  "target": "PROD.agricultural_products.livestock_products.wool"
+ },
+ {
+  "source": "PROD.agricultural_products.crops.legumes.soybeans",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.food.plant_based_foods.tofu_and_tempeh"
+ },
+ {
+  "source": "PROD.agricultural_products.aquaculture.farmed_fish",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods.food_and_beverage.food.seafood.fresh_fish"
+ },
+ {
+  "source": "PROD.agricultural_products.forestry_products.timber_logs",
+  "relation": "PRODUCES",
+  "target": "PROD.industrial_goods.raw_materials_and_commodities.timber_and_wood_products.lumber"
+ },
+ {
+  "source": "PROD.vehicles.road_vehicles.passenger_cars",
+  "relation": "CONSUMES",
+  "target": "PROD.energy_products.fossil_fuels.petroleum.gasoline"
+ },
+ {
+  "source": "PROD.vehicles.aircraft.airliners",
+  "relation": "CONSUMES",
+  "target": "PROD.energy_products.fossil_fuels.petroleum.jet_fuel"
+ },
+ {
+  "source": "PROD.vehicles.road_vehicles.commercial_vehicles.trucks",
+  "relation": "CONSUMES",
+  "target": "PROD.energy_products.fossil_fuels.petroleum.diesel_fuel"
+ },
+ {
+  "source": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.smartphones",
+  "relation": "USES",
+  "target": "PROD.digital_products.mobile_apps"
+ },
+ {
+  "source": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.laptop_computers",
+  "relation": "USES",
+  "target": "PROD.digital_products.software.operating_systems"
+ },
+ {
+  "source": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.video_game_consoles",
+  "relation": "USES",
+  "target": "PROD.digital_products.video_games"
+ },
+ {
+  "source": "PROD.professional_services.marketing_and_advertising_services.digital_marketing",
+  "relation": "USES",
+  "target": "PROD.digital_products.mobile_apps.social_media_apps"
+ },
+ {
+  "source": "PROD.hospitality_services.food_services.restaurants",
+  "relation": "USES",
+  "target": "PROD.consumer_goods.food_and_beverage.food"
+ },
+ {
+  "source": "PROD.personal_services.repair_and_maintenance_services.automotive_repair",
+  "relation": "USES",
+  "target": "PROD.industrial_goods.components_and_parts.automotive_parts"
+ },
+ {
+  "source": "PROD.personal_services.repair_and_maintenance_services.electronics_repair",
+  "relation": "USES",
+  "target": "PROD.industrial_goods.components_and_parts.electronic_components"
+ },
+ {
+  "source": "PROD.personal_services.repair_and_maintenance_services.appliance_repair",
+  "relation": "USES",
+  "target": "PROD.consumer_goods.consumer_electronics.home_appliances"
+ },
+ {
+  "source": "PROD.information_technology_services.software_development_services.custom_software_development",
+  "relation": "PRODUCES",
+  "target": "PROD.digital_products.software"
+ },
+ {
+  "source": "PROD.information_technology_services.software_development_services.mobile_app_development",
+  "relation": "PRODUCES",
+  "target": "PROD.digital_products.mobile_apps"
+ },
+ {
+  "source": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.crt_television",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.smart_tvs"
+ },
+ {
+  "source": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.film_camera",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.digital_cameras"
+ },
+ {
+  "source": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.vhs_videotape",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "PROD.digital_products.digital_media_products.streaming_subscriptions"
+ },
+ {
+  "source": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.cassette_tape",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "PROD.digital_products.digital_media_products.digital_music"
+ },
+ {
+  "source": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.computer_peripherals.floppy_disk",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.computer_peripherals.usb_flash_drives"
+ },
+ {
+  "source": "PROD.consumer_goods.household_products.light_bulbs.incandescent_light_bulbs",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "PROD.consumer_goods.household_products.light_bulbs.led_light_bulbs"
+ },
+ {
+  "source": "PROD.vehicles.rail_vehicles.steam_locomotives",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "PROD.vehicles.rail_vehicles.locomotives"
+ },
+ {
+  "source": "PROD.capital_goods",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.industrial_goods"
+ },
+ {
+  "source": "PROD.information_technology_services.cloud_services",
+  "relation": "OVERLAPS_WITH",
+  "target": "PROD.digital_products.software_as_a_service"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.industrial_chemicals.fertilizers",
+  "relation": "USED_BY",
+  "target": "PROD.agricultural_products.crops"
+ },
+ {
+  "source": "PROD.industrial_goods.machinery_and_equipment.agricultural_machinery",
+  "relation": "USED_BY",
+  "target": "PROD.agricultural_products.crops"
+ },
+ {
+  "source": "PROD.industrial_goods.components_and_parts.electronic_components.semiconductors",
+  "relation": "USED_BY",
+  "target": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.video_game_consoles"
+ },
+ {
+  "source": "PROD.industrial_goods.raw_materials_and_commodities.metals.rare_earth_metals",
+  "relation": "USED_BY",
+  "target": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.smartphones"
+ },
+ {
+  "source": "PROD.energy_products.electricity",
+  "relation": "USED_BY",
+  "target": "PROD.consumer_goods.consumer_electronics.home_appliances"
+ },
+ {
+  "source": "PROD.healthcare_services.diagnostic_services.medical_laboratories",
+  "relation": "USES",
+  "target": "PROD.medical_devices.diagnostic_devices.in_vitro_diagnostics"
+ },
+ {
+  "source": "PROD.healthcare_services.hospital_services.surgical_services",
+  "relation": "USES",
+  "target": "PROD.medical_devices.therapeutic_devices.surgical_instruments"
+ },
+ {
+  "source": "PROD.healthcare_services.diagnostic_services.radiology_services",
+  "relation": "USES",
+  "target": "PROD.medical_devices.diagnostic_devices.imaging_equipment"
+ },
+ {
+  "source": "PROD.healthcare_services.preventive_health.vaccination_services",
+  "relation": "USES",
+  "target": "PROD.pharmaceuticals.biologics.vaccines"
+ },
+ {
+  "source": "PROD.digital_products.digital_media_products.ebooks",
+  "relation": "RELATED_TO",
+  "target": "PROD.consumer_goods.consumer_electronics.personal_computing_devices.e_readers"
+ },
+ {
+  "source": "PROD.digital_products.digital_media_products.streaming_subscriptions",
+  "relation": "RELATED_TO",
+  "target": "PROD.consumer_goods.consumer_electronics.audio_video_equipment.smart_tvs"
+ }
+]

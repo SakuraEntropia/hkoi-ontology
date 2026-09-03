@@ -530,11 +530,6 @@
   "target": "HK.finance.capital_markets.foreign_exchange_markets"
  },
  {
-  "source": "HK.finance.international_finance.currency_risk_management",
-  "relation": "APPLIES_TO",
-  "target": "HK.finance.risk_management.market_risk"
- },
- {
   "source": "HK.finance.international_finance.sovereign_debt",
   "relation": "OVERLAPS_WITH",
   "target": "HK.finance.public_finance.public_debt_management"
@@ -665,11 +660,6 @@
   "target": "HK.business.business_ethics"
  },
  {
-  "source": "HK.journalism.data_journalism.data_visualization_in_journalism",
-  "relation": "RELATED_TO",
-  "target": "HK.business.business_analytics"
- },
- {
   "source": "HK.library_science.cataloging_and_classification",
   "relation": "OVERLAPS_WITH",
   "target": "HK.library_science.knowledge_organization"
@@ -738,5 +728,20 @@
   "source": "HK.business.project_management.critical_path_method",
   "relation": "METHOD_FOR",
   "target": "HK.business.project_management.project_scheduling"
+ },
+ {
+  "source": "HK.business.marketing.marketing_strategy.branding.brand_positioning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.marketing.marketing_strategy.targeting_and_positioning"
+ },
+ {
+  "source": "HK.business.marketing.digital_marketing.social_media_marketing.social_commerce",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.management_information_systems.e_commerce"
+ },
+ {
+  "source": "HK.finance.investments.alternative_investments.private_equity.leveraged_buyouts",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.corporate_finance"
  }
 ]

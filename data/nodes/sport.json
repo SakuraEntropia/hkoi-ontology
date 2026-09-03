@@ -1,0 +1,5060 @@
+[
+ {
+  "id": "SPORT.ball_sports",
+  "name": "Ball Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Team and individual sports played with a ball as the central object of play.",
+  "name_zh": "球类运动"
+ },
+ {
+  "id": "SPORT.racket_sports",
+  "name": "Racket Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports in which players strike a ball or shuttlecock with a strung racket, paddle, or bat.",
+  "name_zh": "球拍运动"
+ },
+ {
+  "id": "SPORT.combat_sports",
+  "name": "Combat Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports and martial arts centred on striking, grappling, or weapon techniques between opponents.",
+  "name_zh": "格斗运动"
+ },
+ {
+  "id": "SPORT.athletics",
+  "name": "Athletics",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Track-and-field sports of running, jumping, throwing, and combined events.",
+  "name_zh": "田径"
+ },
+ {
+  "id": "SPORT.gymnastics",
+  "name": "Gymnastics",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports of controlled body movement, strength, flexibility, and apparatus work.",
+  "name_zh": "体操"
+ },
+ {
+  "id": "SPORT.aquatic_sports",
+  "name": "Aquatic Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports performed in or on water, including swimming, diving, water polo, and board sports.",
+  "name_zh": "水上运动"
+ },
+ {
+  "id": "SPORT.paddling_sports",
+  "name": "Paddling Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports that propel a craft across water with paddles or oars.",
+  "name_zh": "划桨运动"
+ },
+ {
+  "id": "SPORT.winter_sports",
+  "name": "Winter Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports practised on snow or ice.",
+  "name_zh": "冬季运动"
+ },
+ {
+  "id": "SPORT.motorsports",
+  "name": "Motorsports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Competitive racing of motorised vehicles on land, water, and in the air.",
+  "name_zh": "赛车运动"
+ },
+ {
+  "id": "SPORT.cycling_sports",
+  "name": "Cycling Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports raced or performed on bicycles.",
+  "name_zh": "自行车运动"
+ },
+ {
+  "id": "SPORT.equestrian_sports",
+  "name": "Equestrian Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports involving horses, riding, and horsemanship.",
+  "name_zh": "马术运动"
+ },
+ {
+  "id": "SPORT.target_sports",
+  "name": "Target Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports scored by propelling projectiles at targets, pins, or goals.",
+  "name_zh": "投准运动"
+ },
+ {
+  "id": "SPORT.golf",
+  "name": "Golf",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Precision ball sport of striking a ball into a series of holes in the fewest strokes.",
+  "name_zh": "高尔夫"
+ },
+ {
+  "id": "SPORT.strength_sports",
+  "name": "Strength Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports measuring or displaying muscular strength, power, and physique.",
+  "name_zh": "力量运动"
+ },
+ {
+  "id": "SPORT.multisport",
+  "name": "Multi-Sport",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Endurance sports that combine several athletic disciplines into one event.",
+  "name_zh": "综合运动"
+ },
+ {
+  "id": "SPORT.extreme_sports",
+  "name": "Extreme & Adventure Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "High-adrenaline sports emphasizing speed, height, and physical risk.",
+  "name_zh": "极限运动"
+ },
+ {
+  "id": "SPORT.mind_sports",
+  "name": "Mind Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Competitive games of strategy and intellect played for organized competition.",
+  "name_zh": "智力运动"
+ },
+ {
+  "id": "SPORT.board_games",
+  "name": "Board Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Games played on a board with pieces, counters, or cards.",
+  "name_zh": "桌游"
+ },
+ {
+  "id": "SPORT.card_games",
+  "name": "Card Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Games played with a deck of playing cards.",
+  "name_zh": "纸牌游戏"
+ },
+ {
+  "id": "SPORT.dice_games",
+  "name": "Dice Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Games whose outcome depends primarily on thrown dice.",
+  "name_zh": "骰子游戏"
+ },
+ {
+  "id": "SPORT.tile_games",
+  "name": "Tile Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Games played with tiles, such as dominoes and mahjong.",
+  "name_zh": "骨牌游戏"
+ },
+ {
+  "id": "SPORT.cue_sports",
+  "name": "Cue Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Billiards sports played with a cue and balls on a cloth-covered table.",
+  "name_zh": "台球"
+ },
+ {
+  "id": "SPORT.table_games",
+  "name": "Table Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Games played on a table, often involving dexterity, flicking, or air.",
+  "name_zh": "桌上游戏"
+ },
+ {
+  "id": "SPORT.esports",
+  "name": "Esports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Organized competitive play of video games, usually in leagues and tournaments.",
+  "name_zh": "电子竞技"
+ },
+ {
+  "id": "SPORT.traditional_games",
+  "name": "Traditional & Indigenous Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Traditional, folk, and indigenous games rooted in specific cultures and histories.",
+  "name_zh": "传统游戏"
+ },
+ {
+  "id": "SPORT.childrens_games",
+  "name": "Children's Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Simple physical and social games traditionally played by children.",
+  "name_zh": "儿童游戏"
+ },
+ {
+  "id": "SPORT.puzzle_games",
+  "name": "Puzzle Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Games and pastimes centred on solving puzzles and mechanical challenges.",
+  "name_zh": "益智游戏"
+ },
+ {
+  "id": "SPORT.arcade_games",
+  "name": "Arcade Games",
+  "type": "GAME",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Coin-operated or electronic amusement games played in arcades.",
+  "name_zh": "街机游戏"
+ },
+ {
+  "id": "SPORT.flying_disc_sports",
+  "name": "Flying Disc Sports",
+  "type": "SPORT",
+  "parent": "SPORTS_AND_GAMES",
+  "description": "Sports played with a flying disc, including ultimate and disc golf.",
+  "name_zh": "飞盘运动"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes",
+  "name": "Football Codes",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "The family of football games descended from medieval and folk ball games.",
+  "name_zh": "足球类运动"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.association_football",
+  "name": "Association Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes",
+  "description": "The world's most popular team sport, played with a round ball scored by foot into a goal.",
+  "name_zh": "足球",
+  "aliases": [
+   "soccer",
+   "football"
+  ]
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.association_football.futsal",
+  "name": "Futsal",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.association_football",
+  "description": "Indoor five-a-side association football played on a hard court with a smaller, low-bounce ball.",
+  "name_zh": "五人制足球"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.association_football.beach_soccer",
+  "name": "Beach Soccer",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.association_football",
+  "description": "Association football variant played on sand with five players per side.",
+  "name_zh": "沙滩足球"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.association_football.five_a_side_football",
+  "name": "Five-a-Side Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.association_football",
+  "description": "Small-sided association football played recreationally and in organized leagues."
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.rugby",
+  "name": "Rugby Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes",
+  "description": "The rugby family of handling-and-carrying football codes.",
+  "name_zh": "橄榄球"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.rugby.rugby_union",
+  "name": "Rugby Union",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.rugby",
+  "description": "Fifteen-a-side rugby code with contested scrums, line-outs, and continuous play.",
+  "name_zh": "英式橄榄球联合会式"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.rugby.rugby_union.rugby_sevens",
+  "name": "Rugby Sevens",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.rugby.rugby_union",
+  "description": "Seven-a-side, faster rugby union variant played over seven-minute halves.",
+  "name_zh": "七人制橄榄球"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.rugby.rugby_union.touch_rugby",
+  "name": "Touch Rugby",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.rugby.rugby_union",
+  "description": "Minimal-contact rugby variant in which a touch replaces the tackle."
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.rugby.rugby_league",
+  "name": "Rugby League",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.rugby",
+  "description": "Thirteen-a-side rugby code with limited tackles and faster, more structured play.",
+  "name_zh": "联盟式橄榄球"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.rugby.rugby_league.rugby_nines",
+  "name": "Rugby Nines",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.rugby.rugby_league",
+  "description": "Nine-a-side variant of rugby league played in shortened matches."
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.american_football",
+  "name": "American Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes",
+  "description": "Eleven-a-side gridiron sport of downs, plays, and forward passing for field position.",
+  "name_zh": "美式橄榄球",
+  "aliases": [
+   "gridiron football"
+  ]
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.american_football.flag_football",
+  "name": "Flag Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.american_football",
+  "description": "Non-contact American football in which a tackle is a pulled flag from a belt."
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.american_football.arena_football",
+  "name": "Arena Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.american_football",
+  "description": "Indoor American football played on a smaller field with rebound nets."
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.american_football.touch_football",
+  "name": "Touch Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes.american_football",
+  "description": "Non-contact American football variant using a touch to end a down."
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.canadian_football",
+  "name": "Canadian Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes",
+  "description": "Twelve-a-side gridiron code played on a wider, longer field with three downs.",
+  "name_zh": "加拿大式橄榄球"
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.gaelic_football",
+  "name": "Gaelic Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes",
+  "description": "Irish team sport combining soccer-style kicking with handling and hand-passing.",
+  "name_zh": "盖尔式足球",
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.football_codes.australian_rules_football",
+  "name": "Australian Rules Football",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.football_codes",
+  "description": "Eighteen-a-side Australian code played on an oval with handballing and kicking between posts.",
+  "name_zh": "澳式橄榄球",
+  "aliases": [
+   "Aussie rules"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.basketball_family",
+  "name": "Basketball Family",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "Hoop-and-ball team sports scored by throwing a ball into an elevated basket.",
+  "name_zh": "篮球类运动"
+ },
+ {
+  "id": "SPORT.ball_sports.basketball_family.basketball",
+  "name": "Basketball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.basketball_family",
+  "description": "Five-a-side court sport of dribbling and shooting a ball through a hoop.",
+  "name_zh": "篮球"
+ },
+ {
+  "id": "SPORT.ball_sports.basketball_family.basketball.three_on_three_basketball",
+  "name": "3x3 Basketball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.basketball_family.basketball",
+  "description": "Half-court three-a-side basketball variant on a single hoop.",
+  "aliases": [
+   "3x3"
+  ]
+ },
+ {
+  "id": "SPORT.ball_sports.basketball_family.basketball.streetball",
+  "name": "Streetball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.basketball_family.basketball",
+  "description": "Informal, style-driven basketball played on outdoor courts."
+ },
+ {
+  "id": "SPORT.ball_sports.basketball_family.basketball.wheelchair_basketball",
+  "name": "Wheelchair Basketball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.basketball_family.basketball",
+  "description": "Basketball adapted for athletes using wheelchairs, a major Paralympic sport.",
+  "name_zh": "轮椅篮球"
+ },
+ {
+  "id": "SPORT.ball_sports.basketball_family.netball",
+  "name": "Netball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.basketball_family",
+  "description": "Seven-a-side court sport in which players shoot into a ringed net without dribbling.",
+  "name_zh": "篮网球",
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.basketball_family.netball.fast5_netball",
+  "name": "Fast5 Netball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.basketball_family.netball",
+  "description": "Shorter, faster five-a-side netball variant with modified scoring.",
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.basketball_family.korfball",
+  "name": "Korfball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.basketball_family",
+  "description": "Mixed-gender Dutch court sport of shooting into a raised basket.",
+  "name_zh": "合球",
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.volleyball_family",
+  "name": "Volleyball Family",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "Net sports in which teams keep a ball aloft over a net.",
+  "name_zh": "排球类运动"
+ },
+ {
+  "id": "SPORT.ball_sports.volleyball_family.volleyball",
+  "name": "Volleyball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.volleyball_family",
+  "description": "Six-a-side court sport of volleying a ball over a high net.",
+  "name_zh": "排球"
+ },
+ {
+  "id": "SPORT.ball_sports.volleyball_family.beach_volleyball",
+  "name": "Beach Volleyball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.volleyball_family",
+  "description": "Two-a-side volleyball played on sand.",
+  "name_zh": "沙滩排球"
+ },
+ {
+  "id": "SPORT.ball_sports.volleyball_family.sitting_volleyball",
+  "name": "Sitting Volleyball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.volleyball_family",
+  "description": "Paralympic volleyball variant played by seated athletes on a lower net.",
+  "name_zh": "坐式排球"
+ },
+ {
+  "id": "SPORT.ball_sports.handball_family",
+  "name": "Handball Family",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "Team sports in which players throw a ball into a defended goal.",
+  "name_zh": "手球类运动"
+ },
+ {
+  "id": "SPORT.ball_sports.handball_family.team_handball",
+  "name": "Team Handball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.handball_family",
+  "description": "Seven-a-side indoor sport of throwing a ball into a goal from outside the crease.",
+  "name_zh": "手球",
+  "aliases": [
+   "handball",
+   "Olympic handball"
+  ]
+ },
+ {
+  "id": "SPORT.ball_sports.handball_family.team_handball.beach_handball",
+  "name": "Beach Handball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.handball_family.team_handball",
+  "description": "Handball variant played on sand with acrobatic, aerial scoring.",
+  "name_zh": "沙滩手球"
+ },
+ {
+  "id": "SPORT.ball_sports.handball_family.team_handball.field_handball",
+  "name": "Field Handball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.handball_family.team_handball",
+  "description": "Eleven-a-side outdoor handball form played on grass, now largely historical.",
+  "name_zh": "场地手球",
+  "historical": true
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball",
+  "name": "Bat-and-Ball Sports",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "Sports in which a batter strikes a ball and fielders defend bases or wickets.",
+  "name_zh": "棒球类运动"
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.baseball",
+  "name": "Baseball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball",
+  "description": "Nine-a-side diamond sport of batting, base-running, and fielding outs.",
+  "name_zh": "棒球"
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.baseball.softball",
+  "name": "Softball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball.baseball",
+  "description": "Baseball-like sport played with a larger ball on a smaller diamond.",
+  "name_zh": "垒球"
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.baseball.softball.fastpitch_softball",
+  "name": "Fastpitch Softball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball.baseball.softball",
+  "description": "Softball variant with a windmill pitching motion and high ball speed."
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.baseball.softball.slowpitch_softball",
+  "name": "Slowpitch Softball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball.baseball.softball",
+  "description": "Recreational softball variant with a lobbed, arcing pitch."
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.baseball.tee_ball",
+  "name": "Tee-Ball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball.baseball",
+  "description": "Introductory baseball for children, hitting a stationary ball off a tee."
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.baseball.wiffle_ball",
+  "name": "Wiffle Ball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball.baseball",
+  "description": "Backyard baseball variant played with a perforated plastic ball and bat."
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.baseball.pesapallo",
+  "name": "Pesäpallo",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball.baseball",
+  "description": "Finnish baseball variant with a zigzag base path and vertical pitching.",
+  "name_zh": "芬兰棒球",
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.cricket",
+  "name": "Cricket",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball",
+  "description": "Eleven-a-side bat-and-ball sport of wickets, batting, and bowling.",
+  "name_zh": "板球"
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.cricket.indoor_cricket",
+  "name": "Indoor Cricket",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball.cricket",
+  "description": "Enclosed-court cricket variant played with nets and modified rules.",
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.rounders",
+  "name": "Rounders",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball",
+  "description": "English bat-and-ball game played between two teams on a diamond of posts.",
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.bat_and_ball.rounders.stoolball",
+  "name": "Stoolball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.bat_and_ball.rounders",
+  "description": "English bat-and-ball game, an early ancestor of cricket, scored at wickets.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.ball_sports.hockey",
+  "name": "Hockey",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "The hockey family of stick-and-ball team games played with a goal.",
+  "name_zh": "曲棍球"
+ },
+ {
+  "id": "SPORT.ball_sports.hockey.field_hockey",
+  "name": "Field Hockey",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.hockey",
+  "description": "Eleven-a-side grass or turf hockey played with a hooked stick and hard ball.",
+  "name_zh": "曲棍球"
+ },
+ {
+  "id": "SPORT.ball_sports.hockey.field_hockey.indoor_hockey",
+  "name": "Indoor Hockey",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.hockey.field_hockey",
+  "description": "Six-a-side hockey played on an indoor boarded court."
+ },
+ {
+  "id": "SPORT.ball_sports.hockey.roller_hockey",
+  "name": "Roller Hockey",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.hockey",
+  "description": "Hockey played on quad roller skates, popular in southern Europe and Latin America.",
+  "name_zh": "轮滑曲棍球",
+  "aliases": [
+   "rink hockey"
+  ]
+ },
+ {
+  "id": "SPORT.ball_sports.hockey.inline_hockey",
+  "name": "Inline Hockey",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.hockey",
+  "description": "Hockey played on inline roller skates, resembling ice hockey on a hard surface."
+ },
+ {
+  "id": "SPORT.ball_sports.hockey.floorball",
+  "name": "Floorball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports.hockey",
+  "description": "Indoor hockey-like sport played with a light plastic stick and perforated ball.",
+  "name_zh": "福乐球",
+  "aliases": [
+   "innebandy",
+   "salibandy"
+  ]
+ },
+ {
+  "id": "SPORT.ball_sports.tchoukball",
+  "name": "Tchoukball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "Non-contact team sport scored by bouncing a ball off a rebound frame.",
+  "name_zh": "巧固球"
+ },
+ {
+  "id": "SPORT.ball_sports.dodgeball",
+  "name": "Dodgeball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "Team sport of eliminating opponents by hitting them with thrown balls.",
+  "name_zh": "躲避球"
+ },
+ {
+  "id": "SPORT.ball_sports.goalball",
+  "name": "Goalball",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "Paralympic team sport for visually impaired athletes, played with a sound-emitting ball.",
+  "name_zh": "盲人门球"
+ },
+ {
+  "id": "SPORT.ball_sports.wheelchair_rugby",
+  "name": "Wheelchair Rugby",
+  "type": "SPORT",
+  "parent": "SPORT.ball_sports",
+  "description": "Paralympic mixed-gender contact sport played in wheelchairs, distinct from rugby.",
+  "name_zh": "轮椅橄榄球",
+  "aliases": [
+   "murderball"
+  ]
+ },
+ {
+  "id": "SPORT.racket_sports.tennis",
+  "name": "Tennis",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Racket sport of rallying a ball over a net on a marked court.",
+  "name_zh": "网球"
+ },
+ {
+  "id": "SPORT.racket_sports.tennis.soft_tennis",
+  "name": "Soft Tennis",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports.tennis",
+  "description": "Japanese tennis variant played with a softer rubber ball.",
+  "name_zh": "软式网球",
+  "global": false
+ },
+ {
+  "id": "SPORT.racket_sports.tennis.beach_tennis",
+  "name": "Beach Tennis",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports.tennis",
+  "description": "Tennis variant played on sand without a second bounce."
+ },
+ {
+  "id": "SPORT.racket_sports.tennis.real_tennis",
+  "name": "Real Tennis",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports.tennis",
+  "description": "Historic indoor racket sport with asymmetric courts and sloping roofs, ancestor of tennis.",
+  "name_zh": "室内网球",
+  "aliases": [
+   "court tennis",
+   "jeu de paume"
+  ],
+  "historical": true
+ },
+ {
+  "id": "SPORT.racket_sports.tennis.wheelchair_tennis",
+  "name": "Wheelchair Tennis",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports.tennis",
+  "description": "Tennis adapted for wheelchair athletes, allowing two bounces.",
+  "name_zh": "轮椅网球"
+ },
+ {
+  "id": "SPORT.racket_sports.badminton",
+  "name": "Badminton",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Racket sport of rallying a feathered shuttlecock over a high net.",
+  "name_zh": "羽毛球"
+ },
+ {
+  "id": "SPORT.racket_sports.squash",
+  "name": "Squash",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Indoor racket sport of hitting a ball against walls within a court.",
+  "name_zh": "壁球"
+ },
+ {
+  "id": "SPORT.racket_sports.squash.hardball_squash",
+  "name": "Hardball Squash",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports.squash",
+  "description": "Older North American squash variant played with a harder, faster ball.",
+  "historical": true
+ },
+ {
+  "id": "SPORT.racket_sports.racquetball",
+  "name": "Racquetball",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Fast indoor racket sport played with a larger ball in an enclosed court.",
+  "name_zh": "美式壁球"
+ },
+ {
+  "id": "SPORT.racket_sports.table_tennis",
+  "name": "Table Tennis",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Racket sport of rallying a light ball across a small table and net.",
+  "name_zh": "乒乓球",
+  "aliases": [
+   "ping pong"
+  ]
+ },
+ {
+  "id": "SPORT.racket_sports.padel",
+  "name": "Padel",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Doubles racket sport played in an enclosed glass-and-mesh court with solid paddles.",
+  "name_zh": "板式网球"
+ },
+ {
+  "id": "SPORT.racket_sports.pickleball",
+  "name": "Pickleball",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Paddle sport combining elements of tennis, badminton, and table tennis.",
+  "name_zh": "匹克球"
+ },
+ {
+  "id": "SPORT.racket_sports.platform_tennis",
+  "name": "Platform Tennis",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Winter paddle sport played on a raised, heated court with wire surrounds.",
+  "name_zh": "平台网球"
+ },
+ {
+  "id": "SPORT.racket_sports.paddle_tennis",
+  "name": "Paddle Tennis",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Small-court paddle sport predating and distinct from padel."
+ },
+ {
+  "id": "SPORT.racket_sports.frescobol",
+  "name": "Frescobol",
+  "type": "SPORT",
+  "parent": "SPORT.racket_sports",
+  "description": "Brazilian beach paddle sport of cooperative rallying with a wooden bat.",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts",
+  "name": "Striking Martial Arts",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports",
+  "description": "Combat sports and martial arts centred on punches, kicks, and other strikes.",
+  "name_zh": "打击系格斗"
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.boxing",
+  "name": "Boxing",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts",
+  "description": "Combat sport of gloved fist strikes within a roped ring.",
+  "name_zh": "拳击"
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.boxing.bare_knuckle_boxing",
+  "name": "Bare-Knuckle Boxing",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts.boxing",
+  "description": "Boxing without gloves, a historic form revived in regulated promotions."
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.kickboxing",
+  "name": "Kickboxing",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts",
+  "description": "Stand-up combat sport combining punches and kicks under various rulesets.",
+  "name_zh": "踢拳"
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.kickboxing.savate",
+  "name": "Savate",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts.kickboxing",
+  "description": "French kickboxing art using shod feet and precise kicks.",
+  "name_zh": "法国踢腿术",
+  "aliases": [
+   "French boxing"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.kickboxing.japanese_kickboxing",
+  "name": "Japanese Kickboxing",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts.kickboxing",
+  "description": "Kickboxing style blending karate and Muay Thai, associated with K-1 rules.",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.muay_thai",
+  "name": "Muay Thai",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts",
+  "description": "Thai stand-up art using fists, elbows, knees, and shins in the clinch.",
+  "name_zh": "泰拳",
+  "aliases": [
+   "Thai boxing"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.muay_thai.lethwei",
+  "name": "Lethwei",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts.muay_thai",
+  "description": "Burmese bare-knuckle striking art allowing headbutts.",
+  "name_zh": "缅甸拳",
+  "aliases": [
+   "Burmese bare-knuckle boxing"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.taekwondo",
+  "name": "Taekwondo",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts",
+  "description": "Korean martial art emphasizing fast, high kicks and Olympic sparring.",
+  "name_zh": "跆拳道"
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.karate",
+  "name": "Karate",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts",
+  "description": "Okinawan-Japanese striking art of punches, kicks, and blocks, now an Olympic sport.",
+  "name_zh": "空手道"
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.karate.shotokan_karate",
+  "name": "Shotokan Karate",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts.karate",
+  "description": "Widely practised karate style with deep stances and linear techniques."
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.karate.kyokushin_karate",
+  "name": "Kyokushin Karate",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts.karate",
+  "description": "Full-contact karate style known for bare-knuckle body conditioning."
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.karate.goju_ryu_karate",
+  "name": "Goju-Ryu Karate",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts.karate",
+  "description": "Okinawan karate style combining hard and soft techniques."
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.karate.wado_ryu_karate",
+  "name": "Wado-Ryu Karate",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts.karate",
+  "description": "Japanese karate style integrating jujutsu body movement."
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.sanda",
+  "name": "Sanda",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts",
+  "description": "Chinese full-contact kickboxing with throws, the combat side of wushu.",
+  "name_zh": "散打",
+  "aliases": [
+   "sanshou"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.striking_arts.capoeira",
+  "name": "Capoeira",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.striking_arts",
+  "description": "Afro-Brazilian martial art blending acrobatic kicks, dance, and music.",
+  "name_zh": "卡波耶拉",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts",
+  "name": "Grappling Martial Arts",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports",
+  "description": "Combat sports and martial arts centred on holds, throws, and submissions.",
+  "name_zh": "摔柔系格斗"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling",
+  "name": "Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "Combat sport of takedowns, pins, and control without strikes.",
+  "name_zh": "摔跤"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.freestyle_wrestling",
+  "name": "Freestyle Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling",
+  "description": "Olympic wrestling style allowing holds on any part of the body.",
+  "name_zh": "自由式摔跤"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.greco_roman_wrestling",
+  "name": "Greco-Roman Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling",
+  "description": "Olympic wrestling style forbidding holds below the waist.",
+  "name_zh": "古典式摔跤"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folkstyle_wrestling",
+  "name": "Folkstyle Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling",
+  "description": "American scholastic wrestling style emphasising control and riding time."
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.catch_wrestling",
+  "name": "Catch Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling",
+  "description": "Submission-oriented wrestling style that influenced modern grappling and MMA."
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.belt_wrestling",
+  "name": "Belt Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling",
+  "description": "Folk wrestling styles in which competitors grip each other's belts."
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling",
+  "name": "Folk Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling",
+  "description": "Traditional regional wrestling styles with distinct rules and costumes.",
+  "name_zh": "民间摔跤"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling.mongolian_wrestling",
+  "name": "Mongolian Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling",
+  "description": "Mongolian open-air wrestling with no weight classes and ceremonial costumes.",
+  "name_zh": "蒙古式摔跤",
+  "aliases": [
+   "bökh"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling.turkish_oil_wrestling",
+  "name": "Turkish Oil Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling",
+  "description": "Turkish wrestling in which competitors are coated in olive oil.",
+  "name_zh": "土耳其摔跤",
+  "aliases": [
+   "yağlı güreş"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling.senegalese_wrestling",
+  "name": "Senegalese Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling",
+  "description": "West African wrestling combining grappling with striking, a national sport of Senegal.",
+  "name_zh": "塞内加尔摔跤",
+  "aliases": [
+   "laamb"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling.ssireum",
+  "name": "Ssireum",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling",
+  "description": "Korean belt wrestling fought in a sand ring.",
+  "name_zh": "韩国摔跤",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling.glima",
+  "name": "Glima",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling",
+  "description": "Icelandic standing wrestling using a special grip belt.",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling.schwingen",
+  "name": "Schwingen",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling",
+  "description": "Swiss alpine wrestling fought in sawdust rings with special shorts.",
+  "name_zh": "瑞士摔跤",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling.pehlwani",
+  "name": "Pehlwani",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.wrestling.folk_wrestling",
+  "description": "South Asian wrestling tradition practised in clay akharas.",
+  "name_zh": "印度摔跤",
+  "aliases": [
+   "kushti"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.judo",
+  "name": "Judo",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "Japanese grappling art of throws, pins, and submissions founded by Jigoro Kano.",
+  "name_zh": "柔道"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.brazilian_jiu_jitsu",
+  "name": "Brazilian Jiu-Jitsu",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "Ground-focused grappling art of positional control and submissions, derived from judo.",
+  "name_zh": "巴西柔术",
+  "aliases": [
+   "BJJ"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.jiu_jitsu",
+  "name": "Jujutsu",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "Traditional Japanese unarmed martial art from which judo and aikido descend.",
+  "name_zh": "柔术",
+  "aliases": [
+   "jiu-jitsu"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.sambo",
+  "name": "Sambo",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "Soviet grappling sport combining judo and folk wrestling, with and without jackets.",
+  "name_zh": "桑搏"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.sambo.combat_sambo",
+  "name": "Combat Sambo",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.sambo",
+  "description": "Sambo variant permitting strikes and greater combat application."
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.sambo.sport_sambo",
+  "name": "Sport Sambo",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts.sambo",
+  "description": "Competition sambo focused on throws, pins, and submissions."
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.aikido",
+  "name": "Aikido",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "Japanese martial art of joint locks and throws redirecting an attacker's energy.",
+  "name_zh": "合气道"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.hapkido",
+  "name": "Hapkido",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "Korean martial art blending joint locks, throws, and kicks.",
+  "name_zh": "韩式合气道"
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.submission_grappling",
+  "name": "Submission Grappling",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "No-gi grappling sport of positional control and submissions without a jacket.",
+  "name_zh": "无道服缠斗",
+  "aliases": [
+   "no-gi grappling"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.grappling_arts.sumo",
+  "name": "Sumo",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.grappling_arts",
+  "description": "Japanese wrestling in which opponents force each other out of a ring or to the ground.",
+  "name_zh": "相扑",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts",
+  "name": "Weapon Martial Arts",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports",
+  "description": "Combat arts and sports centred on swords, staves, and other weapons.",
+  "name_zh": "器械武术"
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.fencing",
+  "name": "Fencing",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts",
+  "description": "Olympic sword sport of scoring touches with foil, épée, or sabre.",
+  "name_zh": "击剑"
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.fencing.foil_fencing",
+  "name": "Foil Fencing",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts.fencing",
+  "description": "Fencing discipline with a light thrusting weapon and torso target area."
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.fencing.epee_fencing",
+  "name": "Épée Fencing",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts.fencing",
+  "description": "Fencing discipline with a heavier thrusting weapon and full-body target."
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.fencing.sabre_fencing",
+  "name": "Sabre Fencing",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts.fencing",
+  "description": "Fencing discipline with a cutting weapon and upper-body target."
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.kendo",
+  "name": "Kendo",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts",
+  "description": "Japanese fencing art using bamboo swords and armour.",
+  "name_zh": "剑道",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.iaido",
+  "name": "Iaido",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts",
+  "description": "Japanese art of drawing, cutting, and resheathing the sword.",
+  "name_zh": "居合道",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.hema",
+  "name": "Historical European Martial Arts",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts",
+  "description": "Revival of medieval and Renaissance European sword and weapon fighting systems.",
+  "name_zh": "欧洲历史武术",
+  "aliases": [
+   "HEMA"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.arnis",
+  "name": "Arnis",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts",
+  "description": "Filipino martial art of stick and blade fighting.",
+  "name_zh": "菲律宾短棍术",
+  "aliases": [
+   "eskrima",
+   "kali"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.gatka",
+  "name": "Gatka",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts",
+  "description": "Sikh martial art of staff and sword fighting.",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.weapon_martial_arts.krabi_krabong",
+  "name": "Krabi Krabong",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.weapon_martial_arts",
+  "description": "Thai weapons art of sword, staff, and shield.",
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.chinese_martial_arts",
+  "name": "Chinese Martial Arts",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports",
+  "description": "The family of Chinese fighting arts and their modern sport forms.",
+  "name_zh": "中国武术"
+ },
+ {
+  "id": "SPORT.combat_sports.chinese_martial_arts.kung_fu",
+  "name": "Kung Fu",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.chinese_martial_arts",
+  "description": "Umbrella term for traditional Chinese martial arts styles.",
+  "name_zh": "功夫",
+  "aliases": [
+   "gongfu"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.chinese_martial_arts.wushu",
+  "name": "Wushu",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.chinese_martial_arts",
+  "description": "Modern competitive Chinese martial art with forms (taolu) and sparring (sanda).",
+  "name_zh": "武术"
+ },
+ {
+  "id": "SPORT.combat_sports.chinese_martial_arts.tai_chi",
+  "name": "Tai Chi",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.chinese_martial_arts",
+  "description": "Chinese internal martial art practised for health, meditation, and self-defence.",
+  "name_zh": "太极拳",
+  "aliases": [
+   "taijiquan"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.chinese_martial_arts.wing_chun",
+  "name": "Wing Chun",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.chinese_martial_arts",
+  "description": "Southern Chinese martial art of close-range striking and trapping.",
+  "name_zh": "咏春拳"
+ },
+ {
+  "id": "SPORT.combat_sports.chinese_martial_arts.shaolin_kung_fu",
+  "name": "Shaolin Kung Fu",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.chinese_martial_arts",
+  "description": "Buddhist temple martial tradition renowned for its vast array of styles.",
+  "name_zh": "少林功夫"
+ },
+ {
+  "id": "SPORT.combat_sports.southeast_asian_martial_arts",
+  "name": "Southeast Asian Martial Arts",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports",
+  "description": "Martial arts of Southeast Asia, often blending striking and weapons.",
+  "name_zh": "东南亚武术"
+ },
+ {
+  "id": "SPORT.combat_sports.southeast_asian_martial_arts.pencak_silat",
+  "name": "Pencak Silat",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.southeast_asian_martial_arts",
+  "description": "Indonesian-Malay martial art of strikes, sweeps, and weapons.",
+  "name_zh": "班卡西拉"
+ },
+ {
+  "id": "SPORT.combat_sports.southeast_asian_martial_arts.muay_boran",
+  "name": "Muay Boran",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.southeast_asian_martial_arts",
+  "description": "Predecessor fighting art of Muay Thai, practised without modern rules.",
+  "name_zh": "古泰拳",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.southeast_asian_martial_arts.kun_khmer",
+  "name": "Kun Khmer",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.southeast_asian_martial_arts",
+  "description": "Cambodian stand-up striking art similar to Muay Thai.",
+  "name_zh": "高棉拳",
+  "aliases": [
+   "Pradal Serey"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.mixed_combat",
+  "name": "Mixed Combat Sports",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports",
+  "description": "Combat sports permitting both striking and grappling techniques.",
+  "name_zh": "综合格斗"
+ },
+ {
+  "id": "SPORT.combat_sports.mixed_combat.mixed_martial_arts",
+  "name": "Mixed Martial Arts",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.mixed_combat",
+  "description": "Full-contact sport combining striking and grappling across martial disciplines.",
+  "name_zh": "综合格斗",
+  "aliases": [
+   "MMA"
+  ]
+ },
+ {
+  "id": "SPORT.combat_sports.mixed_combat.pankration",
+  "name": "Pankration",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.mixed_combat",
+  "description": "Ancient Greek no-holds-barred combat sport, an ancestor of MMA.",
+  "name_zh": "古希腊式搏击",
+  "historical": true
+ },
+ {
+  "id": "SPORT.combat_sports.mixed_combat.vale_tudo",
+  "name": "Vale Tudo",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports.mixed_combat",
+  "description": "Brazilian minimal-rules fighting that directly preceded modern MMA.",
+  "name_zh": "无限制格斗",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.combat_sports.kalaripayattu",
+  "name": "Kalaripayattu",
+  "type": "SPORT",
+  "parent": "SPORT.combat_sports",
+  "description": "Ancient Indian martial art of strikes, kicks, and weapon forms.",
+  "name_zh": "卡拉里帕亚图",
+  "global": false
+ },
+ {
+  "id": "SPORT.athletics.running",
+  "name": "Running",
+  "type": "SPORT",
+  "parent": "SPORT.athletics",
+  "description": "Racing events over track, road, and cross-country courses.",
+  "name_zh": "跑步"
+ },
+ {
+  "id": "SPORT.athletics.running.sprinting",
+  "name": "Sprinting",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Short-distance running at maximal speed, from 60 to 400 metres.",
+  "name_zh": "短跑"
+ },
+ {
+  "id": "SPORT.athletics.running.middle_distance_running",
+  "name": "Middle-Distance Running",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Running events from 800 to 3000 metres balancing speed and endurance.",
+  "name_zh": "中长跑"
+ },
+ {
+  "id": "SPORT.athletics.running.long_distance_running",
+  "name": "Long-Distance Running",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Track running of 5000 and 10000 metres and beyond.",
+  "name_zh": "长跑"
+ },
+ {
+  "id": "SPORT.athletics.running.hurdling",
+  "name": "Hurdling",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Sprint and middle-distance races over a series of barriers.",
+  "name_zh": "跨栏"
+ },
+ {
+  "id": "SPORT.athletics.running.steeplechase",
+  "name": "Steeplechase",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Long-distance race combining hurdles with a water jump.",
+  "name_zh": "障碍赛"
+ },
+ {
+  "id": "SPORT.athletics.running.relay_racing",
+  "name": "Relay Racing",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Team running events in which a baton is passed between runners.",
+  "name_zh": "接力赛"
+ },
+ {
+  "id": "SPORT.athletics.running.marathon",
+  "name": "Marathon",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "42.195-kilometre road race of sustained endurance.",
+  "name_zh": "马拉松"
+ },
+ {
+  "id": "SPORT.athletics.running.ultramarathon",
+  "name": "Ultramarathon",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Foot races longer than the marathon distance, often over trails.",
+  "name_zh": "超级马拉松"
+ },
+ {
+  "id": "SPORT.athletics.running.racewalking",
+  "name": "Race Walking",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Walking race requiring continuous ground contact and a straight leg.",
+  "name_zh": "竞走"
+ },
+ {
+  "id": "SPORT.athletics.running.cross_country_running",
+  "name": "Cross-Country Running",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Running races over natural terrain, grass, and hills.",
+  "name_zh": "越野跑"
+ },
+ {
+  "id": "SPORT.athletics.running.trail_running",
+  "name": "Trail Running",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Distance running on unpaved trails and mountainous paths.",
+  "name_zh": "越野跑"
+ },
+ {
+  "id": "SPORT.athletics.running.road_running",
+  "name": "Road Running",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Running races on paved roads, from 5K to marathon distances."
+ },
+ {
+  "id": "SPORT.athletics.running.orienteering",
+  "name": "Orienteering",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running",
+  "description": "Navigation race in which runners find checkpoints using a map and compass.",
+  "name_zh": "定向越野"
+ },
+ {
+  "id": "SPORT.athletics.running.orienteering.rogaining",
+  "name": "Rogaining",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.running.orienteering",
+  "description": "Long-duration team orienteering over cross-country terrain."
+ },
+ {
+  "id": "SPORT.athletics.jumping",
+  "name": "Jumping Events",
+  "type": "SPORT",
+  "parent": "SPORT.athletics",
+  "description": "Field events measuring horizontal or vertical jumping distance or height.",
+  "name_zh": "跳跃项目"
+ },
+ {
+  "id": "SPORT.athletics.jumping.long_jump",
+  "name": "Long Jump",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.jumping",
+  "description": "Horizontal jump for distance from a take-off board.",
+  "name_zh": "跳远"
+ },
+ {
+  "id": "SPORT.athletics.jumping.triple_jump",
+  "name": "Triple Jump",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.jumping",
+  "description": "Horizontal jump of hop, step, and jump phases.",
+  "name_zh": "三级跳远"
+ },
+ {
+  "id": "SPORT.athletics.jumping.high_jump",
+  "name": "High Jump",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.jumping",
+  "description": "Vertical jump over a raised bar without aids.",
+  "name_zh": "跳高"
+ },
+ {
+  "id": "SPORT.athletics.jumping.pole_vault",
+  "name": "Pole Vault",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.jumping",
+  "description": "Vertical jump over a bar using a flexible pole.",
+  "name_zh": "撑竿跳高"
+ },
+ {
+  "id": "SPORT.athletics.throwing",
+  "name": "Throwing Events",
+  "type": "SPORT",
+  "parent": "SPORT.athletics",
+  "description": "Field events measuring the distance an implement is thrown.",
+  "name_zh": "投掷项目"
+ },
+ {
+  "id": "SPORT.athletics.throwing.shot_put",
+  "name": "Shot Put",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.throwing",
+  "description": "Throwing a heavy metal ball for distance.",
+  "name_zh": "铅球"
+ },
+ {
+  "id": "SPORT.athletics.throwing.discus_throw",
+  "name": "Discus Throw",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.throwing",
+  "description": "Throwing a heavy disc for distance from a circle.",
+  "name_zh": "铁饼"
+ },
+ {
+  "id": "SPORT.athletics.throwing.javelin_throw",
+  "name": "Javelin Throw",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.throwing",
+  "description": "Throwing a spear-like implement for distance.",
+  "name_zh": "标枪"
+ },
+ {
+  "id": "SPORT.athletics.throwing.hammer_throw",
+  "name": "Hammer Throw",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.throwing",
+  "description": "Throwing a heavy ball on a wire for distance.",
+  "name_zh": "链球"
+ },
+ {
+  "id": "SPORT.athletics.combined_events",
+  "name": "Combined Events",
+  "type": "SPORT",
+  "parent": "SPORT.athletics",
+  "description": "Multi-discipline athletics competitions scored across track and field events.",
+  "name_zh": "全能项目"
+ },
+ {
+  "id": "SPORT.athletics.combined_events.decathlon",
+  "name": "Decathlon",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.combined_events",
+  "description": "Ten-event men's combined competition over two days.",
+  "name_zh": "十项全能"
+ },
+ {
+  "id": "SPORT.athletics.combined_events.heptathlon",
+  "name": "Heptathlon",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.combined_events",
+  "description": "Seven-event women's combined competition over two days.",
+  "name_zh": "七项全能"
+ },
+ {
+  "id": "SPORT.athletics.combined_events.pentathlon",
+  "name": "Pentathlon",
+  "type": "SPORT",
+  "parent": "SPORT.athletics.combined_events",
+  "description": "Five-event indoor combined athletics competition.",
+  "name_zh": "五项全能"
+ },
+ {
+  "id": "SPORT.gymnastics.artistic_gymnastics",
+  "name": "Artistic Gymnastics",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics",
+  "description": "Olympic gymnastics on apparatus including floor, bars, beam, rings, and vault.",
+  "name_zh": "竞技体操"
+ },
+ {
+  "id": "SPORT.gymnastics.rhythmic_gymnastics",
+  "name": "Rhythmic Gymnastics",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics",
+  "description": "Gymnastics combining dance and apparatus such as hoop, ball, ribbon, and clubs.",
+  "name_zh": "艺术体操"
+ },
+ {
+  "id": "SPORT.gymnastics.trampoline_gymnastics",
+  "name": "Trampoline Gymnastics",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics",
+  "description": "Gymnastics performed on trampolines, judged on height and execution.",
+  "name_zh": "蹦床"
+ },
+ {
+  "id": "SPORT.gymnastics.trampoline_gymnastics.synchronized_trampoline",
+  "name": "Synchronized Trampoline",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics.trampoline_gymnastics",
+  "description": "Trampoline event in which two gymnasts bounce in unison."
+ },
+ {
+  "id": "SPORT.gymnastics.trampoline_gymnastics.tumbling",
+  "name": "Tumbling",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics.trampoline_gymnastics",
+  "description": "Power tumbling along a sprung track with acrobatic passes.",
+  "name_zh": "翻腾"
+ },
+ {
+  "id": "SPORT.gymnastics.trampoline_gymnastics.double_mini_trampoline",
+  "name": "Double Mini-Trampoline",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics.trampoline_gymnastics",
+  "description": "Trampoline discipline using a small double trampoline for aerial skills."
+ },
+ {
+  "id": "SPORT.gymnastics.acrobatic_gymnastics",
+  "name": "Acrobatic Gymnastics",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics",
+  "description": "Gymnastics of partner balances, lifts, and throws performed to music.",
+  "name_zh": "技巧运动"
+ },
+ {
+  "id": "SPORT.gymnastics.aerobic_gymnastics",
+  "name": "Aerobic Gymnastics",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics",
+  "description": "High-intensity choreographed gymnastics emphasizing continuous aerobic movement.",
+  "name_zh": "健美操",
+  "aliases": [
+   "sport aerobics"
+  ]
+ },
+ {
+  "id": "SPORT.gymnastics.aesthetic_group_gymnastics",
+  "name": "Aesthetic Group Gymnastics",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics",
+  "description": "Nordic team gymnastics judged on unified, expressive group movement.",
+  "global": false
+ },
+ {
+  "id": "SPORT.gymnastics.wheel_gymnastics",
+  "name": "Wheel Gymnastics",
+  "type": "SPORT",
+  "parent": "SPORT.gymnastics",
+  "description": "Gymnastics performed inside and around a large rolling wheel.",
+  "name_zh": "圈操",
+  "aliases": [
+   "rhönrad"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.aquatic_sports.swimming",
+  "name": "Swimming",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Competitive racing through water using the four swimming strokes.",
+  "name_zh": "游泳"
+ },
+ {
+  "id": "SPORT.aquatic_sports.swimming.open_water_swimming",
+  "name": "Open Water Swimming",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.swimming",
+  "description": "Swimming races held in lakes, seas, and rivers rather than pools.",
+  "name_zh": "公开水域游泳"
+ },
+ {
+  "id": "SPORT.aquatic_sports.swimming.marathon_swimming",
+  "name": "Marathon Swimming",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.swimming",
+  "description": "Long-distance open water swimming of 10 kilometres and more."
+ },
+ {
+  "id": "SPORT.aquatic_sports.diving",
+  "name": "Diving",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Aerial sport of performing acrobatics into water from a board or platform.",
+  "name_zh": "跳水"
+ },
+ {
+  "id": "SPORT.aquatic_sports.diving.springboard_diving",
+  "name": "Springboard Diving",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.diving",
+  "description": "Diving from a flexible springboard, typically 1 or 3 metres."
+ },
+ {
+  "id": "SPORT.aquatic_sports.diving.platform_diving",
+  "name": "Platform Diving",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.diving",
+  "description": "Diving from a rigid platform, typically 10 metres."
+ },
+ {
+  "id": "SPORT.aquatic_sports.diving.high_diving",
+  "name": "High Diving",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.diving",
+  "description": "Diving from extreme heights of 20 metres and above."
+ },
+ {
+  "id": "SPORT.aquatic_sports.water_polo",
+  "name": "Water Polo",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Team ball sport played while treading water, scored into a floating goal.",
+  "name_zh": "水球"
+ },
+ {
+  "id": "SPORT.aquatic_sports.artistic_swimming",
+  "name": "Artistic Swimming",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Choreographed swimming to music, judged on artistry and technique.",
+  "name_zh": "花样游泳",
+  "aliases": [
+   "synchronised swimming"
+  ]
+ },
+ {
+  "id": "SPORT.aquatic_sports.finswimming",
+  "name": "Finswimming",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Speed swimming using fins and sometimes a monofin.",
+  "name_zh": "蹼泳"
+ },
+ {
+  "id": "SPORT.aquatic_sports.lifesaving_sport",
+  "name": "Lifesaving Sport",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Competitive sport based on lifesaving and rescue swimming skills.",
+  "name_zh": "救生运动"
+ },
+ {
+  "id": "SPORT.aquatic_sports.underwater_sports",
+  "name": "Underwater Sports",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Sports performed underwater, including hockey, rugby, and freediving.",
+  "name_zh": "潜水运动"
+ },
+ {
+  "id": "SPORT.aquatic_sports.underwater_sports.freediving",
+  "name": "Freediving",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.underwater_sports",
+  "description": "Competitive breath-hold diving for depth or distance.",
+  "name_zh": "自由潜水",
+  "aliases": [
+   "apnea"
+  ]
+ },
+ {
+  "id": "SPORT.aquatic_sports.underwater_sports.spearfishing",
+  "name": "Spearfishing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.underwater_sports",
+  "description": "Hunting fish underwater while breath-holding.",
+  "name_zh": "鱼叉捕鱼"
+ },
+ {
+  "id": "SPORT.aquatic_sports.underwater_sports.underwater_hockey",
+  "name": "Underwater Hockey",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.underwater_sports",
+  "description": "Team sport of pushing a puck into a goal along a pool floor."
+ },
+ {
+  "id": "SPORT.aquatic_sports.underwater_sports.underwater_rugby",
+  "name": "Underwater Rugby",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.underwater_sports",
+  "description": "Three-dimensional team ball sport played below the water surface."
+ },
+ {
+  "id": "SPORT.aquatic_sports.rowing",
+  "name": "Rowing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Racing of narrow boats propelled by oars, seated facing backward.",
+  "name_zh": "赛艇",
+  "aliases": [
+   "crew"
+  ]
+ },
+ {
+  "id": "SPORT.aquatic_sports.rowing.coastal_rowing",
+  "name": "Coastal Rowing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.rowing",
+  "description": "Rowing in open coastal waters with wider, more stable boats."
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports",
+  "name": "Surf & Board Sports",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Surface water sports ridden on boards, skis, or kites.",
+  "name_zh": "冲浪板运动"
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.surfing",
+  "name": "Surfing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Riding ocean waves on a surfboard.",
+  "name_zh": "冲浪"
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.big_wave_surfing",
+  "name": "Big Wave Surfing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Surfing exceptionally large ocean swells, often with tow-in assistance."
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.bodyboarding",
+  "name": "Bodyboarding",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Wave riding on a short, soft board while lying prone."
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.bodysurfing",
+  "name": "Bodysurfing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Riding waves using only the body, without a board."
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.skimboarding",
+  "name": "Skimboarding",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Riding a thin board across shallow water to meet breaking waves."
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.windsurfing",
+  "name": "Windsurfing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Surfing a board propelled by a hand-held sail.",
+  "name_zh": "帆板"
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.kitesurfing",
+  "name": "Kitesurfing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Riding a board while pulled by a large controllable kite.",
+  "name_zh": "风筝冲浪",
+  "aliases": [
+   "kiteboarding"
+  ]
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.wakeboarding",
+  "name": "Wakeboarding",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Riding a board over a boat's wake performing aerial tricks.",
+  "name_zh": "尾波滑水"
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.wakesurfing",
+  "name": "Wakesurfing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Surfing the endless wake of a boat without a tow rope."
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.water_skiing",
+  "name": "Water Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Being towed across water on skis behind a boat.",
+  "name_zh": "滑水"
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.barefoot_skiing",
+  "name": "Barefoot Water Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Water skiing on bare feet at high speed."
+ },
+ {
+  "id": "SPORT.aquatic_sports.board_sports.kneeboarding",
+  "name": "Kneeboarding",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports.board_sports",
+  "description": "Water sport of riding a board on one's knees behind a boat."
+ },
+ {
+  "id": "SPORT.paddling_sports.canoeing",
+  "name": "Canoeing",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports",
+  "description": "Racing open craft paddled with single-bladed paddles from a kneeling position.",
+  "name_zh": "皮划艇"
+ },
+ {
+  "id": "SPORT.paddling_sports.canoeing.canoe_sprint",
+  "name": "Canoe Sprint",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports.canoeing",
+  "description": "Flat-water canoe and kayak racing over set distances.",
+  "name_zh": "静水皮划艇"
+ },
+ {
+  "id": "SPORT.paddling_sports.canoeing.canoe_slalom",
+  "name": "Canoe Slalom",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports.canoeing",
+  "description": "Whitewater racing through hanging gates on a rapid course.",
+  "name_zh": "激流回旋"
+ },
+ {
+  "id": "SPORT.paddling_sports.canoeing.canoe_marathon",
+  "name": "Canoe Marathon",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports.canoeing",
+  "description": "Long-distance flat-water canoe racing with portages."
+ },
+ {
+  "id": "SPORT.paddling_sports.canoeing.canoe_polo",
+  "name": "Canoe Polo",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports.canoeing",
+  "description": "Team ball sport played in kayaks on a marked pitch."
+ },
+ {
+  "id": "SPORT.paddling_sports.canoeing.wildwater_canoeing",
+  "name": "Wildwater Canoeing",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports.canoeing",
+  "description": "Downriver racing against the clock on fast whitewater."
+ },
+ {
+  "id": "SPORT.paddling_sports.kayaking",
+  "name": "Kayaking",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports",
+  "description": "Racing or paddling closed-deck craft with double-bladed paddles.",
+  "name_zh": "皮艇"
+ },
+ {
+  "id": "SPORT.paddling_sports.kayaking.whitewater_kayaking",
+  "name": "Whitewater Kayaking",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports.kayaking",
+  "description": "Paddling kayaks down rapids, rivers, and waterfalls."
+ },
+ {
+  "id": "SPORT.paddling_sports.kayaking.sea_kayaking",
+  "name": "Sea Kayaking",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports.kayaking",
+  "description": "Long-distance kayaking on open ocean and coastal waters."
+ },
+ {
+  "id": "SPORT.paddling_sports.kayaking.kayak_freestyle",
+  "name": "Kayak Freestyle",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports.kayaking",
+  "description": "Performing acrobatic tricks on a standing river wave in a kayak."
+ },
+ {
+  "id": "SPORT.paddling_sports.dragon_boat_racing",
+  "name": "Dragon Boat Racing",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports",
+  "description": "Paddling a long, decorated boat with a crew beating a drum.",
+  "name_zh": "龙舟",
+  "global": false
+ },
+ {
+  "id": "SPORT.paddling_sports.outrigger_canoeing",
+  "name": "Outrigger Canoeing",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports",
+  "description": "Ocean canoeing in craft with lateral outrigger floats, a Polynesian tradition.",
+  "aliases": [
+   "va'a"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.paddling_sports.stand_up_paddleboarding",
+  "name": "Stand-Up Paddleboarding",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports",
+  "description": "Standing on a board and propelling with a long paddle.",
+  "name_zh": "站立式桨板",
+  "aliases": [
+   "SUP"
+  ]
+ },
+ {
+  "id": "SPORT.paddling_sports.rafting",
+  "name": "Rafting",
+  "type": "SPORT",
+  "parent": "SPORT.paddling_sports",
+  "description": "Navigating rivers in an inflatable raft, recreationally and competitively.",
+  "name_zh": "漂流"
+ },
+ {
+  "id": "SPORT.winter_sports.ice_skating",
+  "name": "Ice Skating",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Sports performed on ice using bladed skates.",
+  "name_zh": "滑冰"
+ },
+ {
+  "id": "SPORT.winter_sports.ice_skating.figure_skating",
+  "name": "Figure Skating",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_skating",
+  "description": "Skating of jumps, spins, and choreography, judged on artistry and technique.",
+  "name_zh": "花样滑冰"
+ },
+ {
+  "id": "SPORT.winter_sports.ice_skating.figure_skating.pair_skating",
+  "name": "Pair Skating",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_skating.figure_skating",
+  "description": "Figure skating performed by a man and woman in unison with lifts.",
+  "name_zh": "双人滑"
+ },
+ {
+  "id": "SPORT.winter_sports.ice_skating.figure_skating.ice_dance",
+  "name": "Ice Dance",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_skating.figure_skating",
+  "description": "Ballroom-style figure skating emphasizing rhythm and footwork.",
+  "name_zh": "冰舞"
+ },
+ {
+  "id": "SPORT.winter_sports.ice_skating.figure_skating.synchronized_skating",
+  "name": "Synchronized Skating",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_skating.figure_skating",
+  "description": "Team figure skating performed in precise formations.",
+  "name_zh": "队列滑"
+ },
+ {
+  "id": "SPORT.winter_sports.ice_skating.speed_skating",
+  "name": "Speed Skating",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_skating",
+  "description": "Racing on ice skates over set distances on an oval.",
+  "name_zh": "速度滑冰"
+ },
+ {
+  "id": "SPORT.winter_sports.ice_skating.speed_skating.long_track_speed_skating",
+  "name": "Long Track Speed Skating",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_skating.speed_skating",
+  "description": "Speed skating on a 400-metre oval in paired lanes."
+ },
+ {
+  "id": "SPORT.winter_sports.ice_skating.speed_skating.short_track_speed_skating",
+  "name": "Short Track Speed Skating",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_skating.speed_skating",
+  "description": "Pack-style speed skating on a 111-metre oval."
+ },
+ {
+  "id": "SPORT.winter_sports.ice_hockey",
+  "name": "Ice Hockey",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Fast team sport of stickhandling a puck into a goal on ice.",
+  "name_zh": "冰球"
+ },
+ {
+  "id": "SPORT.winter_sports.ice_hockey.para_ice_hockey",
+  "name": "Para Ice Hockey",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_hockey",
+  "description": "Ice hockey played on sleds by athletes with lower-limb impairments.",
+  "name_zh": "残奥冰球",
+  "aliases": [
+   "sledge hockey"
+  ]
+ },
+ {
+  "id": "SPORT.winter_sports.ice_hockey.rink_bandy",
+  "name": "Rink Bandy",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.ice_hockey",
+  "description": "Small-rink bandy variant played in an ice hockey rink."
+ },
+ {
+  "id": "SPORT.winter_sports.bandy",
+  "name": "Bandy",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Ice hockey-like sport played outdoors on a large rink with a ball.",
+  "name_zh": "班迪球",
+  "global": false
+ },
+ {
+  "id": "SPORT.winter_sports.curling",
+  "name": "Curling",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Precision ice sport of sliding granite stones toward a target house.",
+  "name_zh": "冰壶"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing",
+  "name": "Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Sports of gliding over snow on skis.",
+  "name_zh": "滑雪"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.alpine_skiing",
+  "name": "Alpine Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing",
+  "description": "Downhill skiing through gates on groomed slopes.",
+  "name_zh": "高山滑雪"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.cross_country_skiing",
+  "name": "Cross-Country Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing",
+  "description": "Endurance skiing over rolling terrain using skating or classic technique.",
+  "name_zh": "越野滑雪"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.ski_jumping",
+  "name": "Ski Jumping",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing",
+  "description": "Skiing off a large ramp to fly and land for distance.",
+  "name_zh": "跳台滑雪"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.nordic_combined",
+  "name": "Nordic Combined",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing",
+  "description": "Winter sport combining ski jumping and cross-country skiing.",
+  "name_zh": "北欧两项"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.freestyle_skiing",
+  "name": "Freestyle Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing",
+  "description": "Aerial and acrobatic skiing disciplines judged or raced on terrain.",
+  "name_zh": "自由式滑雪"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.freestyle_skiing.mogul_skiing",
+  "name": "Mogul Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing.freestyle_skiing",
+  "description": "Bump skiing judged on turns, speed, and aerial jumps."
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.freestyle_skiing.aerial_skiing",
+  "name": "Aerial Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing.freestyle_skiing",
+  "description": "Skiing acrobatics launched off ramps with twists and flips."
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.freestyle_skiing.ski_cross",
+  "name": "Ski Cross",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing.freestyle_skiing",
+  "description": "Head-to-head ski racing on a course with jumps and banks."
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.biathlon",
+  "name": "Biathlon",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing",
+  "description": "Sport combining cross-country skiing with rifle shooting.",
+  "name_zh": "冬季两项"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.ski_mountaineering",
+  "name": "Ski Mountaineering",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing",
+  "description": "Ascending and descending mountain terrain on skis with climbing skins.",
+  "name_zh": "登山滑雪"
+ },
+ {
+  "id": "SPORT.winter_sports.skiing.telemark_skiing",
+  "name": "Telemark Skiing",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.skiing",
+  "description": "Free-heel skiing technique with a distinctive lunge turn."
+ },
+ {
+  "id": "SPORT.winter_sports.snowboarding",
+  "name": "Snowboarding",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Riding snow on a single wide board.",
+  "name_zh": "单板滑雪"
+ },
+ {
+  "id": "SPORT.winter_sports.snowboarding.alpine_snowboarding",
+  "name": "Alpine Snowboarding",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.snowboarding",
+  "description": "Carving-oriented snowboard racing through gates."
+ },
+ {
+  "id": "SPORT.winter_sports.snowboarding.freestyle_snowboarding",
+  "name": "Freestyle Snowboarding",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.snowboarding",
+  "description": "Trick snowboarding in halfpipes, parks, and on rails."
+ },
+ {
+  "id": "SPORT.winter_sports.snowboarding.snowboard_cross",
+  "name": "Snowboard Cross",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports.snowboarding",
+  "description": "Head-to-head snowboard racing on a jump-filled course."
+ },
+ {
+  "id": "SPORT.winter_sports.luge",
+  "name": "Luge",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Sliding feet-first down an ice track on a small sled.",
+  "name_zh": "雪橇"
+ },
+ {
+  "id": "SPORT.winter_sports.skeleton",
+  "name": "Skeleton",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Sliding head-first down an ice track on a small sled.",
+  "name_zh": "钢架雪车"
+ },
+ {
+  "id": "SPORT.winter_sports.bobsleigh",
+  "name": "Bobsleigh",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Racing a steerable sled down an ice track.",
+  "name_zh": "有舵雪橇",
+  "aliases": [
+   "bobsled"
+  ]
+ },
+ {
+  "id": "SPORT.winter_sports.snowshoeing",
+  "name": "Snowshoeing",
+  "type": "SPORT",
+  "parent": "SPORT.winter_sports",
+  "description": "Walking or running over snow on wide snowshoes.",
+  "name_zh": "雪鞋行走"
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing",
+  "name": "Automobile Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports",
+  "description": "Racing of four-wheeled motor vehicles on circuits, roads, and off-road.",
+  "name_zh": "汽车赛"
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.open_wheel_racing",
+  "name": "Open-Wheel Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Single-seat formula and open-wheel car racing."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing",
+  "name": "Formula Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.open_wheel_racing",
+  "description": "The FIA single-seater ladder of formula car championships."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing.formula_one",
+  "name": "Formula One",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing",
+  "description": "The pinnacle open-wheel single-seater world championship.",
+  "name_zh": "一级方程式",
+  "aliases": [
+   "F1"
+  ]
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing.formula_e",
+  "name": "Formula E",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing",
+  "description": "World championship for all-electric single-seater cars.",
+  "name_zh": "电动方程式"
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing.formula_two",
+  "name": "Formula 2",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing",
+  "description": "Second-tier single-seater championship feeding Formula One."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing.formula_three",
+  "name": "Formula 3",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.open_wheel_racing.formula_racing",
+  "description": "Junior single-seater championship on the road to Formula One."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.open_wheel_racing.indycar_racing",
+  "name": "IndyCar Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.open_wheel_racing",
+  "description": "North American open-wheel championship racing on ovals and road courses."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.open_wheel_racing.super_formula",
+  "name": "Super Formula",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.open_wheel_racing",
+  "description": "Japanese top-tier open-wheel single-seater championship.",
+  "global": false
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.stock_car_racing",
+  "name": "Stock Car Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Racing of production-based cars, typified by NASCAR oval racing."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.touring_car_racing",
+  "name": "Touring Car Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Circuit racing of modified production saloon cars."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.sports_car_racing",
+  "name": "Sports Car Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Racing of two-seat sports prototypes and GT cars."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.sports_car_racing.endurance_racing",
+  "name": "Endurance Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.sports_car_racing",
+  "description": "Long-duration sports car racing, such as the 24 Hours of Le Mans."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.rallying",
+  "name": "Rallying",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Timed racing on closed public roads over varied surfaces.",
+  "name_zh": "拉力赛"
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.rallying.rallycross",
+  "name": "Rallycross",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.rallying",
+  "description": "Mixed-surface circuit racing in rally cars with multiple cars per heat."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.rallying.rally_raid",
+  "name": "Rally Raid",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing.rallying",
+  "description": "Cross-country desert and wilderness endurance rallies such as Dakar."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.drifting",
+  "name": "Drifting",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Judged motorsport of controlled oversteer slides through corners.",
+  "name_zh": "漂移"
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.drag_racing",
+  "name": "Drag Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Straight-line acceleration racing over a quarter-mile or shorter.",
+  "name_zh": "直线加速赛"
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.karting",
+  "name": "Karting",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Racing of small open-wheel karts, the entry point of motor racing.",
+  "name_zh": "卡丁车"
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.hill_climbing",
+  "name": "Hill Climbing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Timed racing of vehicles up a steep, winding course."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.off_road_racing",
+  "name": "Off-Road Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Racing of trucks and buggies over rough natural terrain."
+ },
+ {
+  "id": "SPORT.motorsports.automobile_racing.truck_racing",
+  "name": "Truck Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.automobile_racing",
+  "description": "Circuit racing of heavy goods vehicles."
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing",
+  "name": "Motorcycle Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports",
+  "description": "Racing of two-wheeled motorcycles on circuits and off-road.",
+  "name_zh": "摩托车赛"
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.grand_prix_motorcycle_racing",
+  "name": "Grand Prix Motorcycle Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "The premier road-racing motorcycle world championship.",
+  "name_zh": "世界摩托车锦标赛",
+  "aliases": [
+   "MotoGP"
+  ]
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.superbike_racing",
+  "name": "Superbike Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "Racing of production-derived motorcycles on road circuits."
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.motocross",
+  "name": "Motocross",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "Off-road motorcycle racing on closed dirt circuits with jumps.",
+  "name_zh": "越野摩托"
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.supercross",
+  "name": "Supercross",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "Indoor stadium motocross on artificial, jump-heavy tracks."
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.enduro_racing",
+  "name": "Enduro Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "Long-distance off-road motorcycle racing with timed sections."
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.motorcycle_trials",
+  "name": "Motorcycle Trials",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "Observed trials of balance and control over obstacles without touching down."
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.speedway",
+  "name": "Motorcycle Speedway",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "Four-lap dirt oval racing on brakeless, single-gear bikes."
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.flat_track_racing",
+  "name": "Flat Track Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "Oval dirt racing on motorcycles, drifting through corners."
+ },
+ {
+  "id": "SPORT.motorsports.motorcycle_racing.sidecar_racing",
+  "name": "Sidecar Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.motorcycle_racing",
+  "description": "Racing of motorcycles with a sidecar and passenger, who shifts weight."
+ },
+ {
+  "id": "SPORT.motorsports.powerboat_racing",
+  "name": "Powerboat Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports",
+  "description": "Racing of high-speed motorised boats.",
+  "name_zh": "摩托艇赛"
+ },
+ {
+  "id": "SPORT.motorsports.powerboat_racing.offshore_powerboat_racing",
+  "name": "Offshore Powerboat Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.powerboat_racing",
+  "description": "Long-distance powerboat racing in open ocean waters."
+ },
+ {
+  "id": "SPORT.motorsports.powerboat_racing.hydroplane_racing",
+  "name": "Hydroplane Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports.powerboat_racing",
+  "description": "Racing of planing hulls that skim the water at high speed."
+ },
+ {
+  "id": "SPORT.motorsports.drone_racing",
+  "name": "Drone Racing",
+  "type": "SPORT",
+  "parent": "SPORT.motorsports",
+  "description": "First-person-view racing of small quadcopter drones through gates.",
+  "name_zh": "无人机竞速"
+ },
+ {
+  "id": "SPORT.cycling_sports.road_cycling",
+  "name": "Road Cycling",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Bicycle racing on paved roads, including stage races and one-day classics.",
+  "name_zh": "公路自行车"
+ },
+ {
+  "id": "SPORT.cycling_sports.track_cycling",
+  "name": "Track Cycling",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Bicycle racing on a banked indoor velodrome.",
+  "name_zh": "场地自行车"
+ },
+ {
+  "id": "SPORT.cycling_sports.track_cycling.keirin",
+  "name": "Keirin",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports.track_cycling",
+  "description": "Motor-paced sprint track event originating in Japan.",
+  "name_zh": "凯林赛",
+  "global": false
+ },
+ {
+  "id": "SPORT.cycling_sports.mountain_biking",
+  "name": "Mountain Biking",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Off-road bicycle racing and riding on rough terrain.",
+  "name_zh": "山地自行车"
+ },
+ {
+  "id": "SPORT.cycling_sports.mountain_biking.cross_country_mtb",
+  "name": "Cross-Country Mountain Biking",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports.mountain_biking",
+  "description": "Mountain bike racing over lap-based off-road circuits."
+ },
+ {
+  "id": "SPORT.cycling_sports.mountain_biking.downhill_mtb",
+  "name": "Downhill Mountain Biking",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports.mountain_biking",
+  "description": "Timed mountain bike racing down steep, technical descents."
+ },
+ {
+  "id": "SPORT.cycling_sports.mountain_biking.enduro_mtb",
+  "name": "Enduro Mountain Biking",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports.mountain_biking",
+  "description": "Mountain biking combining timed downhill stages with untimed climbs."
+ },
+ {
+  "id": "SPORT.cycling_sports.bmx",
+  "name": "BMX",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Racing and freestyle on small 20-inch-wheel bicycles.",
+  "name_zh": "小轮车"
+ },
+ {
+  "id": "SPORT.cycling_sports.bmx.bmx_racing",
+  "name": "BMX Racing",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports.bmx",
+  "description": "Sprint racing on dirt BMX tracks with jumps and berms."
+ },
+ {
+  "id": "SPORT.cycling_sports.bmx.bmx_freestyle",
+  "name": "BMX Freestyle",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports.bmx",
+  "description": "Trick BMX riding in parks, on ramps, and on flat ground."
+ },
+ {
+  "id": "SPORT.cycling_sports.cyclocross",
+  "name": "Cyclocross",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Lap-based racing over mixed terrain requiring dismounts and carries.",
+  "name_zh": "公路越野"
+ },
+ {
+  "id": "SPORT.cycling_sports.gravel_cycling",
+  "name": "Gravel Cycling",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Long-distance cycling over unpaved gravel roads."
+ },
+ {
+  "id": "SPORT.cycling_sports.artistic_cycling",
+  "name": "Artistic Cycling",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Gymnastic-style bicycle riding performed to music.",
+  "global": false
+ },
+ {
+  "id": "SPORT.cycling_sports.cycle_ball",
+  "name": "Cycle Ball",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Team ball game played on bicycles using the wheels to strike.",
+  "name_zh": "自行车球",
+  "aliases": [
+   "radball"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.cycling_sports.bike_trials",
+  "name": "Bike Trials",
+  "type": "SPORT",
+  "parent": "SPORT.cycling_sports",
+  "description": "Observed bicycle trials of balance over obstacles without touching down."
+ },
+ {
+  "id": "SPORT.equestrian_sports.dressage",
+  "name": "Dressage",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Horse training and competition judged on precision and harmony of movement.",
+  "name_zh": "盛装舞步"
+ },
+ {
+  "id": "SPORT.equestrian_sports.show_jumping",
+  "name": "Show Jumping",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Jumping horses over a course of fences against the clock.",
+  "name_zh": "场地障碍"
+ },
+ {
+  "id": "SPORT.equestrian_sports.eventing",
+  "name": "Eventing",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Equestrian combined competition of dressage, cross-country, and show jumping.",
+  "name_zh": "三项赛",
+  "aliases": [
+   "three-day eventing"
+  ]
+ },
+ {
+  "id": "SPORT.equestrian_sports.endurance_riding",
+  "name": "Endurance Riding",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Long-distance horse racing over natural terrain.",
+  "name_zh": "耐力赛马"
+ },
+ {
+  "id": "SPORT.equestrian_sports.horse_racing",
+  "name": "Horse Racing",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Racing of ridden or driven horses, a major gambling and breeding industry.",
+  "name_zh": "赛马"
+ },
+ {
+  "id": "SPORT.equestrian_sports.horse_racing.flat_racing",
+  "name": "Flat Racing",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports.horse_racing",
+  "description": "Horse racing on level turf or dirt tracks without obstacles."
+ },
+ {
+  "id": "SPORT.equestrian_sports.horse_racing.steeplechase_racing",
+  "name": "Steeplechase Racing",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports.horse_racing",
+  "description": "Horse racing over fences and ditches."
+ },
+ {
+  "id": "SPORT.equestrian_sports.horse_racing.harness_racing",
+  "name": "Harness Racing",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports.horse_racing",
+  "description": "Racing of horses pulling a sulky at a trot or pace."
+ },
+ {
+  "id": "SPORT.equestrian_sports.polo",
+  "name": "Polo",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Mounted team sport of driving a ball into a goal with a mallet.",
+  "name_zh": "马球"
+ },
+ {
+  "id": "SPORT.equestrian_sports.rodeo",
+  "name": "Rodeo",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Western sport of riding and roping events with livestock.",
+  "name_zh": "牛仔竞技",
+  "global": false
+ },
+ {
+  "id": "SPORT.equestrian_sports.rodeo.bull_riding",
+  "name": "Bull Riding",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports.rodeo",
+  "description": "Rodeo event of staying mounted on a bucking bull."
+ },
+ {
+  "id": "SPORT.equestrian_sports.rodeo.barrel_racing",
+  "name": "Barrel Racing",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports.rodeo",
+  "description": "Timed rodeo event of riding a cloverleaf pattern around barrels."
+ },
+ {
+  "id": "SPORT.equestrian_sports.carriage_driving",
+  "name": "Carriage Driving",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Competitive driving of horse-drawn carriages through obstacles.",
+  "name_zh": "马车驾驭"
+ },
+ {
+  "id": "SPORT.equestrian_sports.equestrian_vaulting",
+  "name": "Equestrian Vaulting",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Gymnastics performed on a moving horse.",
+  "name_zh": "马上体操"
+ },
+ {
+  "id": "SPORT.equestrian_sports.reining",
+  "name": "Reining",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Western riding discipline of precise stops, spins, and circles.",
+  "name_zh": "西部驭马术",
+  "global": false
+ },
+ {
+  "id": "SPORT.equestrian_sports.tent_pegging",
+  "name": "Tent Pegging",
+  "type": "SPORT",
+  "parent": "SPORT.equestrian_sports",
+  "description": "Mounted sport of spearing ground targets at a gallop.",
+  "global": false
+ },
+ {
+  "id": "SPORT.target_sports.archery",
+  "name": "Archery",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports",
+  "description": "Sport of shooting arrows at a target with a bow.",
+  "name_zh": "射箭"
+ },
+ {
+  "id": "SPORT.target_sports.archery.target_archery",
+  "name": "Target Archery",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.archery",
+  "description": "Olympic archery at set distances on a flat range."
+ },
+ {
+  "id": "SPORT.target_sports.archery.field_archery",
+  "name": "Field Archery",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.archery",
+  "description": "Archery over woodland courses with varied distances and terrain."
+ },
+ {
+  "id": "SPORT.target_sports.archery.3d_archery",
+  "name": "3D Archery",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.archery",
+  "description": "Archery at life-size foam animal targets on a course."
+ },
+ {
+  "id": "SPORT.target_sports.archery.clout_archery",
+  "name": "Clout Archery",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.archery",
+  "description": "Long-distance archery at a flag target marked on the ground."
+ },
+ {
+  "id": "SPORT.target_sports.archery.flight_archery",
+  "name": "Flight Archery",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.archery",
+  "description": "Archery for maximum distance rather than accuracy."
+ },
+ {
+  "id": "SPORT.target_sports.archery.kyudo",
+  "name": "Kyudo",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.archery",
+  "description": "Japanese ceremonial archery emphasising form and ritual.",
+  "name_zh": "弓道",
+  "global": false
+ },
+ {
+  "id": "SPORT.target_sports.shooting_sports",
+  "name": "Shooting Sports",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports",
+  "description": "Competitive marksmanship with rifles, pistols, and shotguns.",
+  "name_zh": "射击运动"
+ },
+ {
+  "id": "SPORT.target_sports.shooting_sports.rifle_shooting",
+  "name": "Rifle Shooting",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.shooting_sports",
+  "description": "Target shooting with rifles from standing, kneeling, and prone positions."
+ },
+ {
+  "id": "SPORT.target_sports.shooting_sports.pistol_shooting",
+  "name": "Pistol Shooting",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.shooting_sports",
+  "description": "Target shooting with pistols at set distances."
+ },
+ {
+  "id": "SPORT.target_sports.shooting_sports.shotgun_shooting",
+  "name": "Shotgun Shooting",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.shooting_sports",
+  "description": "Shooting at moving clay targets with shotguns."
+ },
+ {
+  "id": "SPORT.target_sports.shooting_sports.shotgun_shooting.skeet_shooting",
+  "name": "Skeet Shooting",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.shooting_sports.shotgun_shooting",
+  "description": "Clay shooting from eight stations crossing two trajectories."
+ },
+ {
+  "id": "SPORT.target_sports.shooting_sports.shotgun_shooting.trap_shooting",
+  "name": "Trap Shooting",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.shooting_sports.shotgun_shooting",
+  "description": "Clay shooting at targets launched away from the shooter."
+ },
+ {
+  "id": "SPORT.target_sports.shooting_sports.shotgun_shooting.sporting_clays",
+  "name": "Sporting Clays",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.shooting_sports.shotgun_shooting",
+  "description": "Clay shooting simulating field shooting over varied targets."
+ },
+ {
+  "id": "SPORT.target_sports.shooting_sports.practical_shooting",
+  "name": "Practical Shooting",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.shooting_sports",
+  "description": "Dynamic shooting sport combining speed, power, and accuracy.",
+  "aliases": [
+   "IPSC"
+  ]
+ },
+ {
+  "id": "SPORT.target_sports.darts",
+  "name": "Darts",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports",
+  "description": "Throwing small missiles at a circular dartboard, played in pubs and professionally.",
+  "name_zh": "飞镖"
+ },
+ {
+  "id": "SPORT.target_sports.bowling",
+  "name": "Bowling",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports",
+  "description": "Rolling a ball down a lane to knock over pins.",
+  "name_zh": "保龄球"
+ },
+ {
+  "id": "SPORT.target_sports.bowling.ten_pin_bowling",
+  "name": "Ten-Pin Bowling",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowling",
+  "description": "Bowling at ten pins with a finger-holed ball, the dominant form."
+ },
+ {
+  "id": "SPORT.target_sports.bowling.nine_pin_bowling",
+  "name": "Nine-Pin Bowling",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowling",
+  "description": "European bowling at a diamond of nine pins.",
+  "global": false
+ },
+ {
+  "id": "SPORT.target_sports.bowling.candlepin_bowling",
+  "name": "Candlepin Bowling",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowling",
+  "description": "New England bowling at tall, thin pins with a small ball.",
+  "global": false
+ },
+ {
+  "id": "SPORT.target_sports.bowling.duckpin_bowling",
+  "name": "Duckpin Bowling",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowling",
+  "description": "Bowling at short, squat pins with a small ball.",
+  "global": false
+ },
+ {
+  "id": "SPORT.target_sports.bowling.five_pin_bowling",
+  "name": "Five-Pin Bowling",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowling",
+  "description": "Canadian bowling at five pins with a small hand-sized ball.",
+  "global": false
+ },
+ {
+  "id": "SPORT.target_sports.bowls",
+  "name": "Bowls",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports",
+  "description": "Precision sports of rolling biased balls to rest near a target jack.",
+  "name_zh": "草地滚球"
+ },
+ {
+  "id": "SPORT.target_sports.bowls.lawn_bowls",
+  "name": "Lawn Bowls",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowls",
+  "description": "Bowls played on a flat grass or synthetic green."
+ },
+ {
+  "id": "SPORT.target_sports.bowls.bocce",
+  "name": "Bocce",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowls",
+  "description": "Italian bowls game played on a court with large balls.",
+  "name_zh": "意大利滚球",
+  "global": false
+ },
+ {
+  "id": "SPORT.target_sports.bowls.boccia",
+  "name": "Boccia",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowls",
+  "description": "Paralympic precision ball sport related to bocce.",
+  "name_zh": "硬地滚球"
+ },
+ {
+  "id": "SPORT.target_sports.bowls.petanque",
+  "name": "Pétanque",
+  "type": "SPORT",
+  "parent": "SPORT.target_sports.bowls",
+  "description": "French bowls game of tossing steel boules toward a wooden jack.",
+  "name_zh": "法式滚球",
+  "global": false
+ },
+ {
+  "id": "SPORT.golf.golf",
+  "name": "Golf",
+  "type": "SPORT",
+  "parent": "SPORT.golf",
+  "description": "The sport of striking a ball into a series of holes in the fewest strokes.",
+  "name_zh": "高尔夫球"
+ },
+ {
+  "id": "SPORT.golf.golf.mini_golf",
+  "name": "Miniature Golf",
+  "type": "SPORT",
+  "parent": "SPORT.golf.golf",
+  "description": "Putting golf on a themed obstacle course.",
+  "name_zh": "迷你高尔夫",
+  "aliases": [
+   "mini golf"
+  ]
+ },
+ {
+  "id": "SPORT.golf.golf.footgolf",
+  "name": "Footgolf",
+  "type": "SPORT",
+  "parent": "SPORT.golf.golf",
+  "description": "Golf played by kicking a football into oversized holes."
+ },
+ {
+  "id": "SPORT.golf.golf.speed_golf",
+  "name": "Speed Golf",
+  "type": "SPORT",
+  "parent": "SPORT.golf.golf",
+  "description": "Golf scored on both strokes and running time between holes."
+ },
+ {
+  "id": "SPORT.flying_disc_sports.ultimate",
+  "name": "Ultimate",
+  "type": "SPORT",
+  "parent": "SPORT.flying_disc_sports",
+  "description": "Self-refereed team sport of passing a disc into an end zone.",
+  "name_zh": "极限飞盘",
+  "aliases": [
+   "ultimate frisbee"
+  ]
+ },
+ {
+  "id": "SPORT.flying_disc_sports.disc_golf",
+  "name": "Disc Golf",
+  "type": "SPORT",
+  "parent": "SPORT.flying_disc_sports",
+  "description": "Golf played by throwing a flying disc into a chain basket.",
+  "name_zh": "飞盘高尔夫"
+ },
+ {
+  "id": "SPORT.flying_disc_sports.freestyle_frisbee",
+  "name": "Freestyle Frisbee",
+  "type": "SPORT",
+  "parent": "SPORT.flying_disc_sports",
+  "description": "Artistic disc sport of spinning, catching, and trick throws."
+ },
+ {
+  "id": "SPORT.flying_disc_sports.guts",
+  "name": "Guts",
+  "type": "SPORT",
+  "parent": "SPORT.flying_disc_sports",
+  "description": "Team disc sport of throwing at speed through an opposing line."
+ },
+ {
+  "id": "SPORT.strength_sports.weightlifting",
+  "name": "Weightlifting",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Olympic sport of lifting a barbell in the snatch and clean and jerk.",
+  "name_zh": "举重",
+  "aliases": [
+   "Olympic weightlifting"
+  ]
+ },
+ {
+  "id": "SPORT.strength_sports.powerlifting",
+  "name": "Powerlifting",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Strength sport of maximal squat, bench press, and deadlift.",
+  "name_zh": "力量举"
+ },
+ {
+  "id": "SPORT.strength_sports.strongman",
+  "name": "Strongman",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Strength athletics of lifting, carrying, and pulling heavy odd objects.",
+  "name_zh": "大力士"
+ },
+ {
+  "id": "SPORT.strength_sports.bodybuilding",
+  "name": "Bodybuilding",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Sport of developing and displaying muscular physique and symmetry.",
+  "name_zh": "健美"
+ },
+ {
+  "id": "SPORT.strength_sports.kettlebell_sport",
+  "name": "Kettlebell Sport",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Endurance lifting of kettlebells for repetitions within a time limit.",
+  "name_zh": "壶铃运动",
+  "aliases": [
+   "girevoy sport"
+  ]
+ },
+ {
+  "id": "SPORT.strength_sports.arm_wrestling",
+  "name": "Arm Wrestling",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Combat of arm and wrist strength at a table.",
+  "name_zh": "掰手腕"
+ },
+ {
+  "id": "SPORT.strength_sports.tug_of_war",
+  "name": "Tug of War",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Team strength contest of pulling a rope against an opposing team.",
+  "name_zh": "拔河"
+ },
+ {
+  "id": "SPORT.strength_sports.stone_lifting",
+  "name": "Stone Lifting",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Traditional strength feats of lifting heavy natural stones.",
+  "name_zh": "举石",
+  "global": false
+ },
+ {
+  "id": "SPORT.strength_sports.highland_games",
+  "name": "Highland Games",
+  "type": "SPORT",
+  "parent": "SPORT.strength_sports",
+  "description": "Scottish strength and throwing festival including the caber toss.",
+  "name_zh": "苏格兰高地运动会",
+  "global": false
+ },
+ {
+  "id": "SPORT.multisport.triathlon",
+  "name": "Triathlon",
+  "type": "SPORT",
+  "parent": "SPORT.multisport",
+  "description": "Endurance event of swim, cycle, and run in sequence.",
+  "name_zh": "铁人三项"
+ },
+ {
+  "id": "SPORT.multisport.triathlon.duathlon",
+  "name": "Duathlon",
+  "type": "SPORT",
+  "parent": "SPORT.multisport.triathlon",
+  "description": "Run-cycle-run multisport event."
+ },
+ {
+  "id": "SPORT.multisport.triathlon.aquathlon",
+  "name": "Aquathlon",
+  "type": "SPORT",
+  "parent": "SPORT.multisport.triathlon",
+  "description": "Swim-run multisport event."
+ },
+ {
+  "id": "SPORT.multisport.modern_pentathlon",
+  "name": "Modern Pentathlon",
+  "type": "SPORT",
+  "parent": "SPORT.multisport",
+  "description": "Multisport of fencing, swimming, riding, shooting, and running.",
+  "name_zh": "现代五项"
+ },
+ {
+  "id": "SPORT.extreme_sports.skateboarding",
+  "name": "Skateboarding",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Riding and performing tricks on a wheeled board.",
+  "name_zh": "滑板"
+ },
+ {
+  "id": "SPORT.extreme_sports.skateboarding.vert_skateboarding",
+  "name": "Vert Skateboarding",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.skateboarding",
+  "description": "Skateboarding on a large half-pipe ramp."
+ },
+ {
+  "id": "SPORT.extreme_sports.skateboarding.street_skateboarding",
+  "name": "Street Skateboarding",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.skateboarding",
+  "description": "Skateboarding on urban obstacles such as stairs, rails, and ledges."
+ },
+ {
+  "id": "SPORT.extreme_sports.sport_climbing",
+  "name": "Sport Climbing",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Competitive climbing on artificial walls in three disciplines.",
+  "name_zh": "竞技攀岩"
+ },
+ {
+  "id": "SPORT.extreme_sports.sport_climbing.bouldering",
+  "name": "Bouldering",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.sport_climbing",
+  "description": "Rope-free climbing on short walls above crash pads.",
+  "name_zh": "抱石"
+ },
+ {
+  "id": "SPORT.extreme_sports.sport_climbing.lead_climbing",
+  "name": "Lead Climbing",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.sport_climbing",
+  "description": "Roped climbing as high as possible on a tall route."
+ },
+ {
+  "id": "SPORT.extreme_sports.sport_climbing.speed_climbing",
+  "name": "Speed Climbing",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.sport_climbing",
+  "description": "Head-to-head racing up a standardised 15-metre wall."
+ },
+ {
+  "id": "SPORT.extreme_sports.mountaineering",
+  "name": "Mountaineering",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Ascending mountains by climbing, often in alpine environments.",
+  "name_zh": "登山",
+  "aliases": [
+   "alpinism"
+  ]
+ },
+ {
+  "id": "SPORT.extreme_sports.mountaineering.ice_climbing",
+  "name": "Ice Climbing",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.mountaineering",
+  "description": "Climbing frozen waterfalls and ice walls with axes and crampons.",
+  "name_zh": "攀冰"
+ },
+ {
+  "id": "SPORT.extreme_sports.parkour",
+  "name": "Parkour",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Traversing urban obstacles by running, vaulting, and jumping.",
+  "name_zh": "跑酷"
+ },
+ {
+  "id": "SPORT.extreme_sports.parkour.freerunning",
+  "name": "Freerunning",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.parkour",
+  "description": "Parkour extended with acrobatic flips and expressive movement."
+ },
+ {
+  "id": "SPORT.extreme_sports.skydiving",
+  "name": "Skydiving",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Jumping from aircraft and free-falling before deploying a parachute.",
+  "name_zh": "跳伞",
+  "aliases": [
+   "parachuting"
+  ]
+ },
+ {
+  "id": "SPORT.extreme_sports.skydiving.base_jumping",
+  "name": "BASE Jumping",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.skydiving",
+  "description": "Parachuting from fixed objects such as buildings, antennas, and cliffs."
+ },
+ {
+  "id": "SPORT.extreme_sports.skydiving.wingsuit_flying",
+  "name": "Wingsuit Flying",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.skydiving",
+  "description": "Gliding in a winged suit before parachute deployment.",
+  "name_zh": "翼装飞行"
+ },
+ {
+  "id": "SPORT.extreme_sports.paragliding",
+  "name": "Paragliding",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Free-flying with a foot-launched inflatable wing.",
+  "name_zh": "滑翔伞"
+ },
+ {
+  "id": "SPORT.extreme_sports.hang_gliding",
+  "name": "Hang Gliding",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Free-flying with a rigid, foot-launched wing.",
+  "name_zh": "悬挂式滑翔"
+ },
+ {
+  "id": "SPORT.extreme_sports.slacklining",
+  "name": "Slacklining",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Balancing and performing tricks on a tensioned flat webbing line.",
+  "name_zh": "走扁带"
+ },
+ {
+  "id": "SPORT.extreme_sports.slacklining.highlining",
+  "name": "Highlining",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports.slacklining",
+  "description": "Slacklining at great height, usually with a safety harness."
+ },
+ {
+  "id": "SPORT.extreme_sports.canyoning",
+  "name": "Canyoning",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Descending canyons by walking, swimming, abseiling, and jumping.",
+  "name_zh": "溪降",
+  "aliases": [
+   "canyoneering"
+  ]
+ },
+ {
+  "id": "SPORT.extreme_sports.cave_diving",
+  "name": "Cave Diving",
+  "type": "SPORT",
+  "parent": "SPORT.extreme_sports",
+  "description": "Technical scuba diving through underwater caves.",
+  "name_zh": "洞穴潜水"
+ },
+ {
+  "id": "SPORT.mind_sports.chess",
+  "name": "Chess",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Two-player abstract strategy game of checkmating the opposing king.",
+  "name_zh": "国际象棋"
+ },
+ {
+  "id": "SPORT.mind_sports.chess.chess960",
+  "name": "Chess960",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports.chess",
+  "description": "Chess variant with a randomised back rank of pieces.",
+  "aliases": [
+   "Fischer Random Chess"
+  ]
+ },
+ {
+  "id": "SPORT.mind_sports.chess.correspondence_chess",
+  "name": "Correspondence Chess",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports.chess",
+  "description": "Chess played by long-distance message over days or months."
+ },
+ {
+  "id": "SPORT.mind_sports.go",
+  "name": "Go",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Two-player strategy game of surrounding territory with stones on a grid.",
+  "name_zh": "围棋",
+  "aliases": [
+   "weiqi",
+   "baduk"
+  ]
+ },
+ {
+  "id": "SPORT.mind_sports.shogi",
+  "name": "Shogi",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Japanese chess in which captured pieces can be redeployed.",
+  "name_zh": "将棋",
+  "aliases": [
+   "Japanese chess"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.mind_sports.shogi.chu_shogi",
+  "name": "Chu Shogi",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports.shogi",
+  "description": "Larger historical shogi variant played on a 12x12 board.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.mind_sports.xiangqi",
+  "name": "Xiangqi",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Chinese chess played on intersecting lines with a river and palace.",
+  "name_zh": "象棋",
+  "aliases": [
+   "Chinese chess"
+  ]
+ },
+ {
+  "id": "SPORT.mind_sports.janggi",
+  "name": "Janggi",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Korean chess similar to xiangqi with distinctive cannon rules.",
+  "name_zh": "韩国象棋",
+  "aliases": [
+   "Korean chess"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.mind_sports.makruk",
+  "name": "Makruk",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Thai chess descended from chaturanga with a slow, positional style.",
+  "name_zh": "泰国象棋",
+  "aliases": [
+   "Thai chess"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.mind_sports.draughts",
+  "name": "Draughts",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Two-player game of capturing opposing pieces by diagonal jumps.",
+  "name_zh": "国际跳棋",
+  "aliases": [
+   "checkers"
+  ]
+ },
+ {
+  "id": "SPORT.mind_sports.draughts.international_draughts",
+  "name": "International Draughts",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports.draughts",
+  "description": "10x10 draughts variant with flying kings."
+ },
+ {
+  "id": "SPORT.mind_sports.draughts.english_draughts",
+  "name": "English Draughts",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports.draughts",
+  "description": "8x8 draughts variant most common in the English-speaking world.",
+  "aliases": [
+   "checkers"
+  ]
+ },
+ {
+  "id": "SPORT.mind_sports.gomoku",
+  "name": "Gomoku",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Five-in-a-row game played on a Go board.",
+  "name_zh": "五子棋",
+  "aliases": [
+   "renju"
+  ]
+ },
+ {
+  "id": "SPORT.mind_sports.othello",
+  "name": "Othello",
+  "type": "GAME",
+  "parent": "SPORT.mind_sports",
+  "description": "Two-player game of flipping discs to control the most squares.",
+  "name_zh": "黑白棋",
+  "aliases": [
+   "reversi"
+  ]
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy",
+  "name": "Abstract Strategy Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Board games with no hidden information or chance, decided purely by strategy."
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.mancala_family",
+  "name": "Mancala",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy",
+  "description": "Family of count-and-capture sowing games played across Africa and Asia.",
+  "name_zh": "播棋"
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.mancala_family.bawo",
+  "name": "Bao",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy.mancala_family",
+  "description": "East African mancala game noted for its strategic complexity.",
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.mancala_family.oware",
+  "name": "Oware",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy.mancala_family",
+  "description": "West African mancala game played widely in Ghana.",
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.mancala_family.kalah",
+  "name": "Kalah",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy.mancala_family",
+  "description": "Modern commercial mancala variant played on a two-row board."
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.mancala_family.congkak",
+  "name": "Congkak",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy.mancala_family",
+  "description": "Southeast Asian mancala game traditionally carved in wood.",
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.nine_mens_morris",
+  "name": "Nine Men's Morris",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy",
+  "description": "Ancient alignment game of placing and moving pieces on a mill board."
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.tafl",
+  "name": "Tafl Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy",
+  "description": "Historical Nordic family of asymmetric capture games such as hnefatafl.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.fanorona",
+  "name": "Fanorona",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy",
+  "description": "Traditional Malagasy capture game on a grid.",
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.abstract_strategy.alquerque",
+  "name": "Alquerque",
+  "type": "GAME",
+  "parent": "SPORT.board_games.abstract_strategy",
+  "description": "Medieval capture game, an ancestor of draughts.",
+  "historical": true
+ },
+ {
+  "id": "SPORT.board_games.race_games",
+  "name": "Race Board Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Board games in which players race pieces to a finishing point."
+ },
+ {
+  "id": "SPORT.board_games.race_games.backgammon",
+  "name": "Backgammon",
+  "type": "GAME",
+  "parent": "SPORT.board_games.race_games",
+  "description": "Two-player tables game combining dice rolls with strategic movement.",
+  "name_zh": "西洋双陆棋"
+ },
+ {
+  "id": "SPORT.board_games.race_games.backgammon.nard",
+  "name": "Nard",
+  "type": "GAME",
+  "parent": "SPORT.board_games.race_games.backgammon",
+  "description": "Persian ancestor of backgammon in the tables family.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.race_games.pachisi",
+  "name": "Pachisi",
+  "type": "GAME",
+  "parent": "SPORT.board_games.race_games",
+  "description": "Indian cross-and-circle race game, ancestor of Ludo.",
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.race_games.ludo",
+  "name": "Ludo",
+  "type": "GAME",
+  "parent": "SPORT.board_games.race_games",
+  "description": "Simplified cross-and-circle race game for two to four players.",
+  "name_zh": "飞行棋类"
+ },
+ {
+  "id": "SPORT.board_games.race_games.snakes_and_ladders",
+  "name": "Snakes and Ladders",
+  "type": "GAME",
+  "parent": "SPORT.board_games.race_games",
+  "description": "Roll-and-move race game with moralistic ladders and snakes.",
+  "name_zh": "蛇梯棋",
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.race_games.parcheesi",
+  "name": "Parcheesi",
+  "type": "GAME",
+  "parent": "SPORT.board_games.race_games",
+  "description": "American commercial adaptation of pachisi."
+ },
+ {
+  "id": "SPORT.board_games.race_games.chinese_checkers",
+  "name": "Chinese Checkers",
+  "type": "GAME",
+  "parent": "SPORT.board_games.race_games",
+  "description": "Star-shaped board game of hopping marbles to the opposite corner."
+ },
+ {
+  "id": "SPORT.board_games.strategy_board_games",
+  "name": "Strategy Board Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Modern hobby board games emphasizing planning, economy, or conflict.",
+  "name_zh": "策略桌游"
+ },
+ {
+  "id": "SPORT.board_games.strategy_board_games.eurogames",
+  "name": "Eurogames",
+  "type": "GAME",
+  "parent": "SPORT.board_games.strategy_board_games",
+  "description": "European-style strategy games favouring resource management over conflict."
+ },
+ {
+  "id": "SPORT.board_games.strategy_board_games.wargames",
+  "name": "Wargames",
+  "type": "GAME",
+  "parent": "SPORT.board_games.strategy_board_games",
+  "description": "Strategy games simulating military conflict on maps and hex grids."
+ },
+ {
+  "id": "SPORT.board_games.strategy_board_games.cooperative_board_games",
+  "name": "Cooperative Board Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games.strategy_board_games",
+  "description": "Board games in which players work together against the game."
+ },
+ {
+  "id": "SPORT.board_games.strategy_board_games.legacy_games",
+  "name": "Legacy Board Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games.strategy_board_games",
+  "description": "Board games that permanently change through repeated play."
+ },
+ {
+  "id": "SPORT.board_games.strategy_board_games.economic_board_games",
+  "name": "Economic Board Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games.strategy_board_games",
+  "description": "Board games centred on markets, trade, and investment."
+ },
+ {
+  "id": "SPORT.board_games.strategy_board_games.area_control_games",
+  "name": "Area Control Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games.strategy_board_games",
+  "description": "Board games of contesting territory on a shared map."
+ },
+ {
+  "id": "SPORT.board_games.roll_and_move_games",
+  "name": "Roll-and-Move Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Board games in which a die roll determines movement each turn."
+ },
+ {
+  "id": "SPORT.board_games.trivia_games",
+  "name": "Trivia Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Games testing general knowledge through questions and answers."
+ },
+ {
+  "id": "SPORT.board_games.party_games",
+  "name": "Party Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Light social games for larger groups emphasising interaction."
+ },
+ {
+  "id": "SPORT.board_games.party_games.social_deduction_games",
+  "name": "Social Deduction Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games.party_games",
+  "description": "Party games of hidden roles and bluffing, such as Werewolf."
+ },
+ {
+  "id": "SPORT.board_games.word_games",
+  "name": "Word Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Games based on forming, finding, or guessing words."
+ },
+ {
+  "id": "SPORT.board_games.word_games.scrabble",
+  "name": "Scrabble",
+  "type": "GAME",
+  "parent": "SPORT.board_games.word_games",
+  "description": "Tile word game of forming words for points on a grid.",
+  "name_zh": "拼字游戏"
+ },
+ {
+  "id": "SPORT.board_games.word_games.boggle",
+  "name": "Boggle",
+  "type": "GAME",
+  "parent": "SPORT.board_games.word_games",
+  "description": "Timed word-finding game in a grid of letter dice."
+ },
+ {
+  "id": "SPORT.board_games.word_games.bananagrams",
+  "name": "Bananagrams",
+  "type": "GAME",
+  "parent": "SPORT.board_games.word_games",
+  "description": "Fast-paced tile word game without a board."
+ },
+ {
+  "id": "SPORT.board_games.deduction_games",
+  "name": "Deduction Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Games of logical deduction and elimination."
+ },
+ {
+  "id": "SPORT.board_games.deduction_games.clue",
+  "name": "Clue",
+  "type": "GAME",
+  "parent": "SPORT.board_games.deduction_games",
+  "description": "Deduction game of solving a fictional murder.",
+  "name_zh": "妙探寻凶",
+  "aliases": [
+   "Cluedo"
+  ]
+ },
+ {
+  "id": "SPORT.board_games.ancient_board_games",
+  "name": "Ancient Board Games",
+  "type": "GAME",
+  "parent": "SPORT.board_games",
+  "description": "Historic board games of the ancient world.",
+  "name_zh": "古代棋类"
+ },
+ {
+  "id": "SPORT.board_games.ancient_board_games.senet",
+  "name": "Senet",
+  "type": "GAME",
+  "parent": "SPORT.board_games.ancient_board_games",
+  "description": "Ancient Egyptian race game found in tombs.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.ancient_board_games.mehen",
+  "name": "Mehen",
+  "type": "GAME",
+  "parent": "SPORT.board_games.ancient_board_games",
+  "description": "Ancient Egyptian spiral board game.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.ancient_board_games.royal_game_of_ur",
+  "name": "Royal Game of Ur",
+  "type": "GAME",
+  "parent": "SPORT.board_games.ancient_board_games",
+  "description": "Mesopotamian race game, among the oldest known board games.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.ancient_board_games.chaturanga",
+  "name": "Chaturanga",
+  "type": "GAME",
+  "parent": "SPORT.board_games.ancient_board_games",
+  "description": "Ancient Indian ancestor of chess, shogi, and xiangqi.",
+  "name_zh": "恰图兰卡",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.board_games.ancient_board_games.ludus_latrunculorum",
+  "name": "Ludus Latrunculorum",
+  "type": "GAME",
+  "parent": "SPORT.board_games.ancient_board_games",
+  "description": "Roman strategy game of military capture.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games",
+  "name": "Trick-Taking Games",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Card games in which players win tricks by playing the highest card."
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.bridge",
+  "name": "Contract Bridge",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "Four-player trick-taking partnership game, a major mind sport.",
+  "name_zh": "桥牌"
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.whist",
+  "name": "Whist",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "Classic four-player trick-taking game, ancestor of bridge."
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.spades",
+  "name": "Spades",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "Partnership trick-taking game with trump spades."
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.hearts",
+  "name": "Hearts",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "Trick-avoidance game in which hearts and the queen of spades are penalty."
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.euchre",
+  "name": "Euchre",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "Four-player trick-taking game with a changing trump suit.",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.pinochle",
+  "name": "Pinochle",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "Trick-taking game using a double deck and melds.",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.tarot_card_games",
+  "name": "Tarot Card Games",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "Trick-taking games played with tarot decks, distinct from cartomancy.",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.belote",
+  "name": "Belote",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "French trick-taking game with bidding and declarations.",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.skat",
+  "name": "Skat",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "German three-player trick-taking game with bidding.",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.trick_taking_games.sheepshead",
+  "name": "Sheepshead",
+  "type": "GAME",
+  "parent": "SPORT.card_games.trick_taking_games",
+  "description": "German-American trick-taking game with a trump family.",
+  "aliases": [
+   "Schafkopf"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.shedding_games",
+  "name": "Shedding Games",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Card games in which players race to empty their hands."
+ },
+ {
+  "id": "SPORT.card_games.shedding_games.crazy_eights",
+  "name": "Crazy Eights",
+  "type": "GAME",
+  "parent": "SPORT.card_games.shedding_games",
+  "description": "Shedding game matching rank or suit, ancestor of Uno."
+ },
+ {
+  "id": "SPORT.card_games.shedding_games.uno",
+  "name": "Uno",
+  "type": "GAME",
+  "parent": "SPORT.card_games.shedding_games",
+  "description": "Commercial shedding game with action and wild cards."
+ },
+ {
+  "id": "SPORT.card_games.shedding_games.mau_mau",
+  "name": "Mau Mau",
+  "type": "GAME",
+  "parent": "SPORT.card_games.shedding_games",
+  "description": "German shedding game on which Crazy Eights is based.",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.rummy_family",
+  "name": "Rummy Family",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Card games of forming matching sets and runs."
+ },
+ {
+  "id": "SPORT.card_games.rummy_family.rummy",
+  "name": "Rummy",
+  "type": "GAME",
+  "parent": "SPORT.card_games.rummy_family",
+  "description": "Melding game of forming sets and runs from a hand.",
+  "name_zh": "拉米纸牌"
+ },
+ {
+  "id": "SPORT.card_games.rummy_family.gin_rummy",
+  "name": "Gin Rummy",
+  "type": "GAME",
+  "parent": "SPORT.card_games.rummy_family",
+  "description": "Two-player rummy variant scored on deadwood."
+ },
+ {
+  "id": "SPORT.card_games.rummy_family.canasta",
+  "name": "Canasta",
+  "type": "GAME",
+  "parent": "SPORT.card_games.rummy_family",
+  "description": "Partnership rummy game of building melds of seven."
+ },
+ {
+  "id": "SPORT.card_games.poker",
+  "name": "Poker",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Family of gambling and competition card games of betting and hand rankings.",
+  "name_zh": "扑克"
+ },
+ {
+  "id": "SPORT.card_games.poker.texas_holdem",
+  "name": "Texas Hold'em",
+  "type": "GAME",
+  "parent": "SPORT.card_games.poker",
+  "description": "Community-card poker variant, the dominant tournament form."
+ },
+ {
+  "id": "SPORT.card_games.poker.omaha_holdem",
+  "name": "Omaha Hold'em",
+  "type": "GAME",
+  "parent": "SPORT.card_games.poker",
+  "description": "Community-card poker using four hole cards."
+ },
+ {
+  "id": "SPORT.card_games.poker.seven_card_stud",
+  "name": "Seven-Card Stud",
+  "type": "GAME",
+  "parent": "SPORT.card_games.poker",
+  "description": "Poker variant dealt seven cards with betting rounds."
+ },
+ {
+  "id": "SPORT.card_games.poker.five_card_draw",
+  "name": "Five-Card Draw",
+  "type": "GAME",
+  "parent": "SPORT.card_games.poker",
+  "description": "Classic draw poker in which players exchange cards."
+ },
+ {
+  "id": "SPORT.card_games.gambling_card_games",
+  "name": "Casino Card Games",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Banking and house-banked card games played for stakes."
+ },
+ {
+  "id": "SPORT.card_games.gambling_card_games.blackjack",
+  "name": "Blackjack",
+  "type": "GAME",
+  "parent": "SPORT.card_games.gambling_card_games",
+  "description": "Casino banking game of reaching 21 without busting.",
+  "name_zh": "二十一点",
+  "aliases": [
+   "twenty-one"
+  ]
+ },
+ {
+  "id": "SPORT.card_games.gambling_card_games.baccarat",
+  "name": "Baccarat",
+  "type": "GAME",
+  "parent": "SPORT.card_games.gambling_card_games",
+  "description": "Casino comparing game between player and banker hands.",
+  "name_zh": "百家乐"
+ },
+ {
+  "id": "SPORT.card_games.solitaire",
+  "name": "Solitaire",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Single-player card games of arranging a deck by suit and rank.",
+  "name_zh": "接龙",
+  "aliases": [
+   "patience"
+  ]
+ },
+ {
+  "id": "SPORT.card_games.solitaire.klondike_solitaire",
+  "name": "Klondike Solitaire",
+  "type": "GAME",
+  "parent": "SPORT.card_games.solitaire",
+  "description": "The most familiar solitaire, building tableau and foundations."
+ },
+ {
+  "id": "SPORT.card_games.solitaire.spider_solitaire",
+  "name": "Spider Solitaire",
+  "type": "GAME",
+  "parent": "SPORT.card_games.solitaire",
+  "description": "Two-deck solitaire building descending same-suit sequences."
+ },
+ {
+  "id": "SPORT.card_games.solitaire.freecell",
+  "name": "FreeCell",
+  "type": "GAME",
+  "parent": "SPORT.card_games.solitaire",
+  "description": "Solitaire variant with free cells for temporary storage."
+ },
+ {
+  "id": "SPORT.card_games.collectible_card_games",
+  "name": "Collectible Card Games",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Card games built from individually owned decks of collectible cards.",
+  "name_zh": "集换式卡牌游戏",
+  "aliases": [
+   "trading card games"
+  ]
+ },
+ {
+  "id": "SPORT.card_games.fishing_games",
+  "name": "Fishing Card Games",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Card games of pairing cards from a central pool."
+ },
+ {
+  "id": "SPORT.card_games.fishing_games.go_fish",
+  "name": "Go Fish",
+  "type": "GAME",
+  "parent": "SPORT.card_games.fishing_games",
+  "description": "Children's fishing game of asking for matching ranks."
+ },
+ {
+  "id": "SPORT.card_games.east_asian_card_games",
+  "name": "East Asian Card Games",
+  "type": "GAME",
+  "parent": "SPORT.card_games",
+  "description": "Traditional card games of East Asia played with dedicated decks."
+ },
+ {
+  "id": "SPORT.card_games.east_asian_card_games.hanafuda",
+  "name": "Hanafuda",
+  "type": "GAME",
+  "parent": "SPORT.card_games.east_asian_card_games",
+  "description": "Japanese flower-card deck of twelve suits.",
+  "name_zh": "花札",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.east_asian_card_games.karuta",
+  "name": "Karuta",
+  "type": "GAME",
+  "parent": "SPORT.card_games.east_asian_card_games",
+  "description": "Japanese card game of matching poems or proverbs.",
+  "name_zh": "歌留多",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.east_asian_card_games.gostop",
+  "name": "Go-Stop",
+  "type": "GAME",
+  "parent": "SPORT.card_games.east_asian_card_games",
+  "description": "Korean fishing game played with hanafuda cards.",
+  "name_zh": "花牌",
+  "global": false
+ },
+ {
+  "id": "SPORT.card_games.east_asian_card_games.koi_koi",
+  "name": "Koi-Koi",
+  "type": "GAME",
+  "parent": "SPORT.card_games.east_asian_card_games",
+  "description": "Japanese hanafuda matching game of collecting scoring combos.",
+  "name_zh": "小滑稽",
+  "global": false
+ },
+ {
+  "id": "SPORT.dice_games.craps",
+  "name": "Craps",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "Casino dice game of wagering on rolls of two dice.",
+  "name_zh": "骰子赌局"
+ },
+ {
+  "id": "SPORT.dice_games.hazard",
+  "name": "Hazard",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "English dice game, the ancestor of craps.",
+  "historical": true
+ },
+ {
+  "id": "SPORT.dice_games.sic_bo",
+  "name": "Sic Bo",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "Chinese casino dice game wagering on combinations of three dice.",
+  "name_zh": "骰宝",
+  "global": false
+ },
+ {
+  "id": "SPORT.dice_games.cho_han",
+  "name": "Chō-Han",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "Japanese dice game of betting odd or even.",
+  "name_zh": "丁半",
+  "global": false
+ },
+ {
+  "id": "SPORT.dice_games.liars_dice",
+  "name": "Liar's Dice",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "Bluffing dice game of bidding on hidden dice.",
+  "name_zh": "吹牛骰子"
+ },
+ {
+  "id": "SPORT.dice_games.yahtzee",
+  "name": "Yahtzee",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "Dice game of scoring combinations over thirteen rounds.",
+  "name_zh": "快艇骰子",
+  "aliases": [
+   "yatzy"
+  ]
+ },
+ {
+  "id": "SPORT.dice_games.farkle",
+  "name": "Farkle",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "Push-your-luck dice game of accumulating and risking points."
+ },
+ {
+  "id": "SPORT.dice_games.bunco",
+  "name": "Bunco",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "Social dice game played in rounds at large gatherings."
+ },
+ {
+  "id": "SPORT.dice_games.crown_and_anchor",
+  "name": "Crown and Anchor",
+  "type": "GAME",
+  "parent": "SPORT.dice_games",
+  "description": "Traditional gambling dice game using three special dice.",
+  "global": false
+ },
+ {
+  "id": "SPORT.tile_games.mahjong",
+  "name": "Mahjong",
+  "type": "GAME",
+  "parent": "SPORT.tile_games",
+  "description": "Four-player tile game of drawing and discarding to form sets, widely used for gambling.",
+  "name_zh": "麻将"
+ },
+ {
+  "id": "SPORT.tile_games.mahjong.riichi_mahjong",
+  "name": "Riichi Mahjong",
+  "type": "GAME",
+  "parent": "SPORT.tile_games.mahjong",
+  "description": "Japanese competitive mahjong with riichi declarations and yaku.",
+  "name_zh": "立直麻将",
+  "global": false
+ },
+ {
+  "id": "SPORT.tile_games.mahjong.hong_kong_mahjong",
+  "name": "Hong Kong Mahjong",
+  "type": "GAME",
+  "parent": "SPORT.tile_games.mahjong",
+  "description": "Popular Cantonese mahjong ruleset.",
+  "name_zh": "香港麻将",
+  "global": false
+ },
+ {
+  "id": "SPORT.tile_games.mahjong.american_mahjong",
+  "name": "American Mahjong",
+  "type": "GAME",
+  "parent": "SPORT.tile_games.mahjong",
+  "description": "American mahjong variant using jokers and a fixed score card."
+ },
+ {
+  "id": "SPORT.tile_games.dominoes",
+  "name": "Dominoes",
+  "type": "GAME",
+  "parent": "SPORT.tile_games",
+  "description": "Family of games played with rectangular tiles marked with pips.",
+  "name_zh": "多米诺骨牌"
+ },
+ {
+  "id": "SPORT.tile_games.dominoes.draw_dominoes",
+  "name": "Draw Dominoes",
+  "type": "GAME",
+  "parent": "SPORT.tile_games.dominoes",
+  "description": "Dominoes game in which players draw from the boneyard to match ends."
+ },
+ {
+  "id": "SPORT.tile_games.dominoes.block_dominoes",
+  "name": "Block Dominoes",
+  "type": "GAME",
+  "parent": "SPORT.tile_games.dominoes",
+  "description": "Simplest dominoes variant without drawing."
+ },
+ {
+  "id": "SPORT.tile_games.pai_gow",
+  "name": "Pai Gow",
+  "type": "GAME",
+  "parent": "SPORT.tile_games",
+  "description": "Chinese domino game played in casinos and socially.",
+  "name_zh": "牌九",
+  "global": false
+ },
+ {
+  "id": "SPORT.tile_games.rummikub",
+  "name": "Rummikub",
+  "type": "GAME",
+  "parent": "SPORT.tile_games",
+  "description": "Tile-based rummy game of forming runs and groups.",
+  "name_zh": "拉密"
+ },
+ {
+  "id": "SPORT.cue_sports.pool",
+  "name": "Pool",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports",
+  "description": "Pocket billiards played on a six-pocket table.",
+  "name_zh": "花式台球",
+  "aliases": [
+   "pocket billiards"
+  ]
+ },
+ {
+  "id": "SPORT.cue_sports.pool.eight_ball",
+  "name": "Eight-Ball",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports.pool",
+  "description": "Pool game in which players pocket their group then the eight ball.",
+  "name_zh": "八球"
+ },
+ {
+  "id": "SPORT.cue_sports.pool.nine_ball",
+  "name": "Nine-Ball",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports.pool",
+  "description": "Rotation pool game in which balls must be hit in order.",
+  "name_zh": "九球"
+ },
+ {
+  "id": "SPORT.cue_sports.pool.straight_pool",
+  "name": "Straight Pool",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports.pool",
+  "description": "Pool game of pocketing any ball for continuous points."
+ },
+ {
+  "id": "SPORT.cue_sports.pool.one_pocket",
+  "name": "One-Pocket",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports.pool",
+  "description": "Tactical pool game in which each player defends one pocket."
+ },
+ {
+  "id": "SPORT.cue_sports.snooker",
+  "name": "Snooker",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports",
+  "description": "Cue sport of potting reds and colours on a large table.",
+  "name_zh": "斯诺克"
+ },
+ {
+  "id": "SPORT.cue_sports.carom_billiards",
+  "name": "Carom Billiards",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports",
+  "description": "Pocketless billiards scored by caroming the cue ball off object balls.",
+  "name_zh": "开伦台球"
+ },
+ {
+  "id": "SPORT.cue_sports.carom_billiards.three_cushion_billiards",
+  "name": "Three-Cushion Billiards",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports.carom_billiards",
+  "description": "Carom game requiring three rail contacts before the final ball."
+ },
+ {
+  "id": "SPORT.cue_sports.english_billiards",
+  "name": "English Billiards",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports",
+  "description": "Three-ball cue sport combining potting, cannons, and in-offs."
+ },
+ {
+  "id": "SPORT.cue_sports.russian_pyramid",
+  "name": "Russian Pyramid",
+  "type": "SPORT",
+  "parent": "SPORT.cue_sports",
+  "description": "Pocket billiards with large balls and tight pockets, popular in Russia.",
+  "global": false
+ },
+ {
+  "id": "SPORT.table_games.table_football",
+  "name": "Table Football",
+  "type": "GAME",
+  "parent": "SPORT.table_games",
+  "description": "Table game of rotating rods to flick a ball into a goal.",
+  "name_zh": "桌上足球",
+  "aliases": [
+   "foosball"
+  ]
+ },
+ {
+  "id": "SPORT.table_games.air_hockey",
+  "name": "Air Hockey",
+  "type": "GAME",
+  "parent": "SPORT.table_games",
+  "description": "Table game of striking a puck on a cushion of air into a goal.",
+  "name_zh": "空气曲棍球"
+ },
+ {
+  "id": "SPORT.table_games.carrom",
+  "name": "Carrom",
+  "type": "GAME",
+  "parent": "SPORT.table_games",
+  "description": "South Asian table game of flicking discs into corner pockets.",
+  "name_zh": "卡罗姆",
+  "global": false
+ },
+ {
+  "id": "SPORT.table_games.crokinole",
+  "name": "Crokinole",
+  "type": "GAME",
+  "parent": "SPORT.table_games",
+  "description": "Canadian flicking game of shooting discs at a centre hole.",
+  "global": false
+ },
+ {
+  "id": "SPORT.table_games.table_shuffleboard",
+  "name": "Table Shuffleboard",
+  "type": "GAME",
+  "parent": "SPORT.table_games",
+  "description": "Table game of sliding weighted pucks into scoring zones."
+ },
+ {
+  "id": "SPORT.esports.moba",
+  "name": "Multiplayer Online Battle Arena",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Team esports genre of heroes destroying an enemy base.",
+  "name_zh": "多人在线竞技",
+  "aliases": [
+   "MOBA"
+  ]
+ },
+ {
+  "id": "SPORT.esports.fps_esports",
+  "name": "First-Person Shooter Esports",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Competitive tactical or arena shooting esports."
+ },
+ {
+  "id": "SPORT.esports.battle_royale",
+  "name": "Battle Royale",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Last-player-standing esports on a shrinking map.",
+  "name_zh": "大逃杀"
+ },
+ {
+  "id": "SPORT.esports.rts_esports",
+  "name": "Real-Time Strategy Esports",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Competitive strategy esports of base-building and army control."
+ },
+ {
+  "id": "SPORT.esports.fighting_game_esports",
+  "name": "Fighting Game Esports",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Competitive one-on-one fighting video games."
+ },
+ {
+  "id": "SPORT.esports.sports_sim_esports",
+  "name": "Sports Simulation Esports",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Competitive play of simulated team sports video games."
+ },
+ {
+  "id": "SPORT.esports.card_game_esports",
+  "name": "Card Game Esports",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Competitive digital card games such as Hearthstone."
+ },
+ {
+  "id": "SPORT.esports.auto_battler",
+  "name": "Auto Battler",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Strategy genre of drafting units that fight automatically."
+ },
+ {
+  "id": "SPORT.esports.sim_racing",
+  "name": "Sim Racing",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Competitive driving simulation racing esports.",
+  "name_zh": "模拟赛车"
+ },
+ {
+  "id": "SPORT.esports.puzzle_esports",
+  "name": "Puzzle Esports",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Competitive play of puzzle and falling-block games."
+ },
+ {
+  "id": "SPORT.esports.vr_esports",
+  "name": "VR Esports",
+  "type": "GAME",
+  "parent": "SPORT.esports",
+  "description": "Emerging competitive play in virtual reality."
+ },
+ {
+  "id": "SPORT.traditional_games.south_asian_games",
+  "name": "South Asian Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Traditional games of the Indian subcontinent.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.south_asian_games.kabaddi",
+  "name": "Kabaddi",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.south_asian_games",
+  "description": "South Asian team raid-and-tag sport, now an Asian Games sport.",
+  "name_zh": "卡巴迪",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.south_asian_games.kho_kho",
+  "name": "Kho Kho",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.south_asian_games",
+  "description": "Indian team tag sport of chasing and dodging on a field.",
+  "name_zh": "可霍可霍",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.south_asian_games.gilli_danda",
+  "name": "Gilli Danda",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games.south_asian_games",
+  "description": "South Asian stick-and-peg game, an ancestor of cricket.",
+  "name_zh": "吉利丹达",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.south_asian_games.yubi_lakpi",
+  "name": "Yubi Lakpi",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.south_asian_games",
+  "description": "Manipuri rugby-like team game played with an oiled coconut.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.southeast_asian_games",
+  "name": "Southeast Asian Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Traditional games of Southeast Asia.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.southeast_asian_games.sepak_takraw",
+  "name": "Sepak Takraw",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.southeast_asian_games",
+  "description": "Southeast Asian sport of volleying a rattan ball over a net with the feet.",
+  "name_zh": "藤球",
+  "aliases": [
+   "kick volleyball"
+  ],
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.southeast_asian_games.chinlone",
+  "name": "Chinlone",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.southeast_asian_games",
+  "description": "Myanmar non-competitive team game of keeping a rattan ball aloft.",
+  "name_zh": "缅甸藤球",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.east_asian_games",
+  "name": "East Asian Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Traditional games of China, Japan, and Korea.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.east_asian_games.cuju",
+  "name": "Cuju",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.east_asian_games",
+  "description": "Ancient Chinese football-like kicking game, a UNESCO-recognised ancestor of soccer.",
+  "name_zh": "蹴鞠",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.east_asian_games.kemari",
+  "name": "Kemari",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.east_asian_games",
+  "description": "Japanese non-competitive court game of keeping a ball aloft.",
+  "name_zh": "蹴鞠",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.east_asian_games.yabusame",
+  "name": "Yabusame",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.east_asian_games",
+  "description": "Japanese mounted archery ritual at a gallop.",
+  "name_zh": "流镝马",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.gaelic_celtic_games",
+  "name": "Gaelic & Celtic Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Traditional stick-and-ball games of Ireland, Scotland, and the Celtic world.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.gaelic_celtic_games.hurling",
+  "name": "Hurling",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.gaelic_celtic_games",
+  "description": "Fast Irish field game of striking a sliotar with a hurley.",
+  "name_zh": "爱尔兰板棍球",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.gaelic_celtic_games.camogie",
+  "name": "Camogie",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.gaelic_celtic_games",
+  "description": "Women's form of hurling.",
+  "name_zh": "爱尔兰女子板棍球",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.gaelic_celtic_games.shinty",
+  "name": "Shinty",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.gaelic_celtic_games",
+  "description": "Scottish stick-and-ball game related to hurling.",
+  "name_zh": "苏格兰板棍球",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.gaelic_celtic_games.gaelic_handball",
+  "name": "Gaelic Handball",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.gaelic_celtic_games",
+  "description": "Irish wall handball game played with the hand.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.basque_games",
+  "name": "Basque Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Traditional ball and strength games of the Basque Country.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.basque_games.basque_pelota",
+  "name": "Basque Pelota",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.basque_games",
+  "description": "Family of Basque wall ball games played with hand, racket, or basket.",
+  "name_zh": "巴斯克回力球"
+ },
+ {
+  "id": "SPORT.traditional_games.basque_games.jai_alai",
+  "name": "Jai Alai",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.basque_games",
+  "description": "Fast Basque pelota game using a curved basket to hurl the ball.",
+  "name_zh": "回力球",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.basque_games.frontenis",
+  "name": "Frontenis",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.basque_games",
+  "description": "Basque pelota variant combining tennis and fronton walls.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.indigenous_american_games",
+  "name": "Indigenous American Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Games of the Indigenous peoples of the Americas.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.indigenous_american_games.lacrosse",
+  "name": "Lacrosse",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.indigenous_american_games",
+  "description": "Indigenous stick-and-ball field game of the Haudenosaunee, now an Olympic sport.",
+  "name_zh": "长曲棍球",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.indigenous_american_games.lacrosse.box_lacrosse",
+  "name": "Box Lacrosse",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.indigenous_american_games.lacrosse",
+  "description": "Indoor lacrosse played in a rink.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.indigenous_american_games.mesoamerican_ballgame",
+  "name": "Mesoamerican Ballgame",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.indigenous_american_games",
+  "description": "Ancient Mesoamerican ritual ballgame played in stone courts.",
+  "aliases": [
+   "pok-ta-pok",
+   "ullamaliztli"
+  ],
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.indigenous_american_games.chunkey",
+  "name": "Chunkey",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.indigenous_american_games",
+  "description": "Native American game of rolling a stone disc and throwing spears.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.central_asian_games",
+  "name": "Central Asian Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Traditional mounted and strength games of Central Asia.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.central_asian_games.buzkashi",
+  "name": "Buzkashi",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.central_asian_games",
+  "description": "Central Asian mounted game of carrying a goat carcass to a goal.",
+  "name_zh": "叼羊",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.central_asian_games.kok_boru",
+  "name": "Kok Boru",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.central_asian_games",
+  "description": "Kyrgyz mounted team game similar to buzkashi.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.pacific_oceanian_games",
+  "name": "Pacific & Oceanian Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Traditional games of the Pacific islands and Oceania.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.pacific_oceanian_games.marngrook",
+  "name": "Marngrook",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.pacific_oceanian_games",
+  "description": "Australian Aboriginal kicking-and-catching ball game, sometimes cited as a precursor of Aussie rules.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.pacific_oceanian_games.ki_o_rahi",
+  "name": "Ki-o-Rahi",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.pacific_oceanian_games",
+  "description": "Māori ball game of attacking and defending a central target.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.pacific_oceanian_games.kilikiti",
+  "name": "Kilikiti",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.pacific_oceanian_games",
+  "description": "Samoan form of cricket played with long bats and lively singing.",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.historical_european_games",
+  "name": "Historical European Games",
+  "type": "GAME",
+  "parent": "SPORT.traditional_games",
+  "description": "Historic European ball and folk games.",
+  "historical": true
+ },
+ {
+  "id": "SPORT.traditional_games.historical_european_games.calcio_storico",
+  "name": "Calcio Storico",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.historical_european_games",
+  "description": "Florentine historic football played annually in costume.",
+  "name_zh": "佛罗伦萨足球",
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.historical_european_games.episkyros",
+  "name": "Episkyros",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.historical_european_games",
+  "description": "Ancient Greek team ball game, an early football-like sport.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.traditional_games.historical_european_games.harpastum",
+  "name": "Harpastum",
+  "type": "SPORT",
+  "parent": "SPORT.traditional_games.historical_european_games",
+  "description": "Ancient Roman ball game derived from Greek episkyros.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "SPORT.childrens_games.tag",
+  "name": "Tag",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Chasing game in which one player pursues and tags others.",
+  "name_zh": "捉人游戏"
+ },
+ {
+  "id": "SPORT.childrens_games.tag.freeze_tag",
+  "name": "Freeze Tag",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games.tag",
+  "description": "Tag variant in which tagged players freeze in place."
+ },
+ {
+  "id": "SPORT.childrens_games.hide_and_seek",
+  "name": "Hide and Seek",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Game in which players hide while a seeker searches for them.",
+  "name_zh": "捉迷藏"
+ },
+ {
+  "id": "SPORT.childrens_games.hopscotch",
+  "name": "Hopscotch",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Hopping game on a chalked court of numbered squares.",
+  "name_zh": "跳房子"
+ },
+ {
+  "id": "SPORT.childrens_games.jump_rope",
+  "name": "Jump Rope",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Skipping over a swinging rope, solo or in groups.",
+  "name_zh": "跳绳",
+  "aliases": [
+   "skipping"
+  ]
+ },
+ {
+  "id": "SPORT.childrens_games.marbles",
+  "name": "Marbles",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Game of shooting small glass spheres to hit targets or opponents' marbles.",
+  "name_zh": "弹珠"
+ },
+ {
+  "id": "SPORT.childrens_games.jacks",
+  "name": "Jacks",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Game of bouncing a ball while picking up small pieces.",
+  "name_zh": "抓石子",
+  "aliases": [
+   "knucklebones"
+  ]
+ },
+ {
+  "id": "SPORT.childrens_games.leapfrog",
+  "name": "Leapfrog",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Vaulting game in which players leap over one another.",
+  "name_zh": "跳山羊"
+ },
+ {
+  "id": "SPORT.childrens_games.capture_the_flag",
+  "name": "Capture the Flag",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Outdoor team game of seizing the opposing team's flag.",
+  "name_zh": "夺旗"
+ },
+ {
+  "id": "SPORT.childrens_games.duck_duck_goose",
+  "name": "Duck Duck Goose",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Circle chase game of tapping players as duck or goose."
+ },
+ {
+  "id": "SPORT.childrens_games.musical_chairs",
+  "name": "Musical Chairs",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Elimination game of circling chairs while music plays.",
+  "name_zh": "抢椅子"
+ },
+ {
+  "id": "SPORT.childrens_games.simon_says",
+  "name": "Simon Says",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Following-commands game obeying only the phrase 'Simon says'."
+ },
+ {
+  "id": "SPORT.childrens_games.cats_cradle",
+  "name": "Cat's Cradle",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "String-figure game passed between two players' hands."
+ },
+ {
+  "id": "SPORT.childrens_games.rock_paper_scissors",
+  "name": "Rock Paper Scissors",
+  "type": "GAME",
+  "parent": "SPORT.childrens_games",
+  "description": "Hand game of three gestures that beat one another cyclically.",
+  "name_zh": "石头剪刀布"
+ },
+ {
+  "id": "SPORT.puzzle_games.crossword_puzzles",
+  "name": "Crossword Puzzles",
+  "type": "GAME",
+  "parent": "SPORT.puzzle_games",
+  "description": "Word puzzles solved by filling a grid from clues.",
+  "name_zh": "填字游戏"
+ },
+ {
+  "id": "SPORT.puzzle_games.sudoku",
+  "name": "Sudoku",
+  "type": "GAME",
+  "parent": "SPORT.puzzle_games",
+  "description": "Logic puzzle of filling a 9x9 grid with digits without repetition.",
+  "name_zh": "数独"
+ },
+ {
+  "id": "SPORT.puzzle_games.jigsaw_puzzles",
+  "name": "Jigsaw Puzzles",
+  "type": "GAME",
+  "parent": "SPORT.puzzle_games",
+  "description": "Puzzles assembled by fitting interlocking cut pieces into an image.",
+  "name_zh": "拼图"
+ },
+ {
+  "id": "SPORT.puzzle_games.logic_puzzles",
+  "name": "Logic Puzzles",
+  "type": "GAME",
+  "parent": "SPORT.puzzle_games",
+  "description": "Puzzles solved by deduction from given constraints."
+ },
+ {
+  "id": "SPORT.puzzle_games.mechanical_puzzles",
+  "name": "Mechanical Puzzles",
+  "type": "GAME",
+  "parent": "SPORT.puzzle_games",
+  "description": "Physical puzzles such as twisty and disentanglement puzzles."
+ },
+ {
+  "id": "SPORT.puzzle_games.mechanical_puzzles.speedcubing",
+  "name": "Speedcubing",
+  "type": "SPORT",
+  "parent": "SPORT.puzzle_games.mechanical_puzzles",
+  "description": "Competitive solving of Rubik's-style twisty puzzles against the clock.",
+  "name_zh": "魔方速拧"
+ },
+ {
+  "id": "SPORT.arcade_games.pinball",
+  "name": "Pinball",
+  "type": "GAME",
+  "parent": "SPORT.arcade_games",
+  "description": "Arcade game of flipping a ball to score on a sloped table.",
+  "name_zh": "弹珠台"
+ },
+ {
+  "id": "SPORT.arcade_games.pachinko",
+  "name": "Pachinko",
+  "type": "GAME",
+  "parent": "SPORT.arcade_games",
+  "description": "Japanese vertical pinball gambling machine game.",
+  "name_zh": "柏青哥",
+  "global": false
+ },
+ {
+  "id": "SPORT.arcade_games.arcade_video_games",
+  "name": "Arcade Video Games",
+  "type": "GAME",
+  "parent": "SPORT.arcade_games",
+  "description": "Coin-operated video games played on dedicated cabinets."
+ },
+ {
+  "id": "SPORT.arcade_games.skee_ball",
+  "name": "Skee-Ball",
+  "type": "GAME",
+  "parent": "SPORT.arcade_games",
+  "description": "Arcade game of rolling balls up a ramp into scoring holes."
+ }
+]

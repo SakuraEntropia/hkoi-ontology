@@ -1,0 +1,477 @@
+[
+ {
+  "source": "SPORT.traditional_games.east_asian_games.cuju",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.ball_sports.football_codes.association_football"
+ },
+ {
+  "source": "SPORT.traditional_games.historical_european_games.episkyros",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.ball_sports.football_codes.association_football"
+ },
+ {
+  "source": "SPORT.traditional_games.historical_european_games.harpastum",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.ball_sports.football_codes.association_football"
+ },
+ {
+  "source": "SPORT.traditional_games.historical_european_games.calcio_storico",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.ball_sports.football_codes.association_football"
+ },
+ {
+  "source": "SPORT.traditional_games.east_asian_games.kemari",
+  "relation": "RELATED_TO",
+  "target": "SPORT.traditional_games.east_asian_games.cuju"
+ },
+ {
+  "source": "SPORT.board_games.ancient_board_games.chaturanga",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.mind_sports.chess"
+ },
+ {
+  "source": "SPORT.board_games.ancient_board_games.chaturanga",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.mind_sports.xiangqi"
+ },
+ {
+  "source": "SPORT.board_games.ancient_board_games.chaturanga",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.mind_sports.shogi"
+ },
+ {
+  "source": "SPORT.board_games.abstract_strategy.alquerque",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.mind_sports.draughts"
+ },
+ {
+  "source": "SPORT.board_games.race_games.backgammon.nard",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.board_games.race_games.backgammon"
+ },
+ {
+  "source": "SPORT.dice_games.hazard",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.dice_games.craps"
+ },
+ {
+  "source": "SPORT.racket_sports.tennis.real_tennis",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.racket_sports.tennis"
+ },
+ {
+  "source": "SPORT.combat_sports.mixed_combat.pankration",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.combat_sports.mixed_combat.mixed_martial_arts"
+ },
+ {
+  "source": "SPORT.combat_sports.mixed_combat.vale_tudo",
+  "relation": "PRECURSOR_OF",
+  "target": "SPORT.combat_sports.mixed_combat.mixed_martial_arts"
+ },
+ {
+  "source": "SPORT.combat_sports.southeast_asian_martial_arts.muay_boran",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.combat_sports.striking_arts.muay_thai"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.jiu_jitsu",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.combat_sports.grappling_arts.judo"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.judo",
+  "relation": "PRECURSOR_OF",
+  "target": "SPORT.combat_sports.grappling_arts.brazilian_jiu_jitsu"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.judo",
+  "relation": "PRECURSOR_OF",
+  "target": "SPORT.combat_sports.grappling_arts.sambo"
+ },
+ {
+  "source": "SPORT.ball_sports.handball_family.team_handball.field_handball",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "SPORT.ball_sports.handball_family.team_handball"
+ },
+ {
+  "source": "SPORT.card_games.trick_taking_games.whist",
+  "relation": "PRECURSOR_OF",
+  "target": "SPORT.card_games.trick_taking_games.bridge"
+ },
+ {
+  "source": "SPORT.ball_sports.football_codes.rugby.rugby_union",
+  "relation": "PRECURSOR_OF",
+  "target": "SPORT.ball_sports.football_codes.american_football"
+ },
+ {
+  "source": "SPORT.traditional_games.pacific_oceanian_games.marngrook",
+  "relation": "PRECURSOR_OF",
+  "target": "SPORT.ball_sports.football_codes.australian_rules_football"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.wrestling.catch_wrestling",
+  "relation": "PRECURSOR_OF",
+  "target": "SPORT.combat_sports.mixed_combat.mixed_martial_arts"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.wrestling",
+  "relation": "PRECURSOR_OF",
+  "target": "SPORT.combat_sports.mixed_combat.mixed_martial_arts"
+ },
+ {
+  "source": "SPORT.combat_sports.striking_arts.karate",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.striking_arts.taekwondo"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.aikido",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.grappling_arts.judo"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.hapkido",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.grappling_arts.aikido"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.sumo",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.grappling_arts.wrestling"
+ },
+ {
+  "source": "SPORT.combat_sports.striking_arts.sanda",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.striking_arts.kickboxing"
+ },
+ {
+  "source": "SPORT.combat_sports.striking_arts.kickboxing.savate",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.striking_arts.kickboxing"
+ },
+ {
+  "source": "SPORT.combat_sports.striking_arts.muay_thai.lethwei",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.striking_arts.muay_thai"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.brazilian_jiu_jitsu",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.grappling_arts.submission_grappling"
+ },
+ {
+  "source": "SPORT.combat_sports.weapon_martial_arts.kendo",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.weapon_martial_arts.fencing"
+ },
+ {
+  "source": "SPORT.combat_sports.mixed_combat.mixed_martial_arts",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.striking_arts.kickboxing"
+ },
+ {
+  "source": "SPORT.combat_sports.grappling_arts.sambo",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.grappling_arts.wrestling"
+ },
+ {
+  "source": "SPORT.ball_sports.football_codes.gaelic_football",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.football_codes.australian_rules_football"
+ },
+ {
+  "source": "SPORT.ball_sports.football_codes.canadian_football",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.football_codes.american_football"
+ },
+ {
+  "source": "SPORT.ball_sports.football_codes.rugby.rugby_union",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.football_codes.rugby.rugby_league"
+ },
+ {
+  "source": "SPORT.traditional_games.southeast_asian_games.sepak_takraw",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.volleyball_family.volleyball"
+ },
+ {
+  "source": "SPORT.aquatic_sports.water_polo",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.handball_family.team_handball"
+ },
+ {
+  "source": "SPORT.winter_sports.ice_hockey",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.hockey.field_hockey"
+ },
+ {
+  "source": "SPORT.winter_sports.bandy",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.hockey.field_hockey"
+ },
+ {
+  "source": "SPORT.ball_sports.hockey.floorball",
+  "relation": "RELATED_TO",
+  "target": "SPORT.winter_sports.ice_hockey"
+ },
+ {
+  "source": "SPORT.ball_sports.hockey.roller_hockey",
+  "relation": "RELATED_TO",
+  "target": "SPORT.winter_sports.ice_hockey"
+ },
+ {
+  "source": "SPORT.ball_sports.tchoukball",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.handball_family.team_handball"
+ },
+ {
+  "source": "SPORT.equestrian_sports.polo",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports.hockey.field_hockey"
+ },
+ {
+  "source": "SPORT.traditional_games.gaelic_celtic_games.hurling",
+  "relation": "RELATED_TO",
+  "target": "SPORT.traditional_games.gaelic_celtic_games.shinty"
+ },
+ {
+  "source": "SPORT.mind_sports.chess",
+  "relation": "RELATED_TO",
+  "target": "SPORT.mind_sports.xiangqi"
+ },
+ {
+  "source": "SPORT.mind_sports.chess",
+  "relation": "RELATED_TO",
+  "target": "SPORT.mind_sports.shogi"
+ },
+ {
+  "source": "SPORT.mind_sports.xiangqi",
+  "relation": "RELATED_TO",
+  "target": "SPORT.mind_sports.janggi"
+ },
+ {
+  "source": "SPORT.mind_sports.makruk",
+  "relation": "RELATED_TO",
+  "target": "SPORT.mind_sports.chess"
+ },
+ {
+  "source": "SPORT.tile_games.mahjong",
+  "relation": "RELATED_TO",
+  "target": "SPORT.card_games.rummy_family.rummy"
+ },
+ {
+  "source": "SPORT.board_games.abstract_strategy.tafl",
+  "relation": "RELATED_TO",
+  "target": "SPORT.mind_sports.chess"
+ },
+ {
+  "source": "SPORT.card_games.east_asian_card_games.hanafuda",
+  "relation": "RELATED_TO",
+  "target": "SPORT.card_games.east_asian_card_games.karuta"
+ },
+ {
+  "source": "SPORT.card_games.east_asian_card_games.gostop",
+  "relation": "RELATED_TO",
+  "target": "SPORT.card_games.east_asian_card_games.hanafuda"
+ },
+ {
+  "source": "SPORT.card_games.collectible_card_games",
+  "relation": "RELATED_TO",
+  "target": "SPORT.esports.card_game_esports"
+ },
+ {
+  "source": "SPORT.esports",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.mind_sports"
+ },
+ {
+  "source": "SPORT.esports.fighting_game_esports",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.combat_sports"
+ },
+ {
+  "source": "SPORT.esports.sports_sim_esports",
+  "relation": "RELATED_TO",
+  "target": "SPORT.ball_sports"
+ },
+ {
+  "source": "SPORT.esports.sim_racing",
+  "relation": "RELATED_TO",
+  "target": "SPORT.motorsports"
+ },
+ {
+  "source": "SPORT.esports.card_game_esports",
+  "relation": "RELATED_TO",
+  "target": "SPORT.card_games.collectible_card_games"
+ },
+ {
+  "source": "SPORT.esports.auto_battler",
+  "relation": "RELATED_TO",
+  "target": "SPORT.esports.card_game_esports"
+ },
+ {
+  "source": "SPORT.esports.battle_royale",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.esports.fps_esports"
+ },
+ {
+  "source": "SPORT.arcade_games.arcade_video_games",
+  "relation": "RELATED_TO",
+  "target": "SPORT.esports"
+ },
+ {
+  "source": "SPORT.winter_sports.snowboarding",
+  "relation": "RELATED_TO",
+  "target": "SPORT.extreme_sports.skateboarding"
+ },
+ {
+  "source": "SPORT.aquatic_sports.board_sports.windsurfing",
+  "relation": "RELATED_TO",
+  "target": "SPORT.aquatic_sports.board_sports.surfing"
+ },
+ {
+  "source": "SPORT.aquatic_sports.board_sports.kitesurfing",
+  "relation": "RELATED_TO",
+  "target": "SPORT.aquatic_sports.board_sports.windsurfing"
+ },
+ {
+  "source": "SPORT.extreme_sports.parkour",
+  "relation": "RELATED_TO",
+  "target": "SPORT.gymnastics"
+ },
+ {
+  "source": "SPORT.motorsports.motorcycle_racing.motorcycle_trials",
+  "relation": "RELATED_TO",
+  "target": "SPORT.cycling_sports.bike_trials"
+ },
+ {
+  "source": "SPORT.winter_sports.skiing.ski_jumping",
+  "relation": "RELATED_TO",
+  "target": "SPORT.winter_sports.skiing.nordic_combined"
+ },
+ {
+  "source": "SPORT.winter_sports.skiing.biathlon",
+  "relation": "RELATED_TO",
+  "target": "SPORT.target_sports.shooting_sports.rifle_shooting"
+ },
+ {
+  "source": "SPORT.multisport.modern_pentathlon",
+  "relation": "RELATED_TO",
+  "target": "SPORT.combat_sports.weapon_martial_arts.fencing"
+ },
+ {
+  "source": "SPORT.multisport.triathlon",
+  "relation": "RELATED_TO",
+  "target": "SPORT.cycling_sports.road_cycling"
+ },
+ {
+  "source": "SPORT.multisport.triathlon",
+  "relation": "RELATED_TO",
+  "target": "SPORT.aquatic_sports.swimming"
+ },
+ {
+  "source": "SPORT.flying_disc_sports.disc_golf",
+  "relation": "RELATED_TO",
+  "target": "SPORT.golf.golf"
+ },
+ {
+  "source": "SPORT.winter_sports.curling",
+  "relation": "RELATED_TO",
+  "target": "SPORT.target_sports.bowls.lawn_bowls"
+ },
+ {
+  "source": "SPORT.cue_sports",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.table_games"
+ },
+ {
+  "source": "SPORT.racket_sports.table_tennis",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.table_games"
+ },
+ {
+  "source": "SPORT.ball_sports.dodgeball",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.childrens_games"
+ },
+ {
+  "source": "SPORT.strength_sports.tug_of_war",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.childrens_games"
+ },
+ {
+  "source": "SPORT.winter_sports.skeleton",
+  "relation": "RELATED_TO",
+  "target": "SPORT.winter_sports.luge"
+ },
+ {
+  "source": "SPORT.winter_sports.bobsleigh",
+  "relation": "RELATED_TO",
+  "target": "SPORT.winter_sports.luge"
+ },
+ {
+  "source": "SPORT.winter_sports.skiing.freestyle_skiing",
+  "relation": "RELATED_TO",
+  "target": "SPORT.winter_sports.snowboarding"
+ },
+ {
+  "source": "SPORT.golf.golf",
+  "relation": "OVERLAPS_WITH",
+  "target": "SPORT.target_sports"
+ },
+ {
+  "source": "SPORT.target_sports.archery.kyudo",
+  "relation": "RELATED_TO",
+  "target": "SPORT.traditional_games.east_asian_games.yabusame"
+ },
+ {
+  "source": "SPORT.mind_sports.chess",
+  "relation": "RELATED_TO",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "SPORT.mind_sports.go",
+  "relation": "RELATED_TO",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "SPORT.esports",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "SPORT.motorsports",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "SPORT.athletics",
+  "relation": "RELATED_TO",
+  "target": "HK.biology"
+ },
+ {
+  "source": "SPORT.gymnastics",
+  "relation": "RELATED_TO",
+  "target": "HK.physics"
+ },
+ {
+  "source": "SPORT.traditional_games",
+  "relation": "RELATED_TO",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "SPORT.card_games.poker",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "SPORT.mind_sports",
+  "relation": "RELATED_TO",
+  "target": "HK.logic"
+ },
+ {
+  "source": "SPORT.cue_sports",
+  "relation": "RELATED_TO",
+  "target": "HK.physics"
+ }
+]

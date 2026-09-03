@@ -382,15 +382,6 @@
   "name_zh": "工作态度"
  },
  {
-  "id": "HK.business.organizational_behavior.perception_and_attribution",
-  "name": "Perception and Attribution",
-  "name_en": "Perception and Attribution",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.organizational_behavior",
-  "description": "The study of how people perceive and interpret others' behavior and events in organizations.",
-  "name_zh": "知觉与归因"
- },
- {
   "id": "HK.business.organizational_behavior.group_dynamics",
   "name": "Group Dynamics",
   "name_en": "Group Dynamics",
@@ -452,15 +443,6 @@
   "parent": "HK.business.organizational_behavior",
   "description": "The study of the shared values, beliefs, and norms that shape how organizational members act.",
   "name_zh": "组织文化"
- },
- {
-  "id": "HK.business.organizational_behavior.organizational_climate",
-  "name": "Organizational Climate",
-  "name_en": "Organizational Climate",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.organizational_behavior",
-  "description": "The study of employees' shared perceptions of organizational policies, practices, and procedures.",
-  "name_zh": "组织氛围"
  },
  {
   "id": "HK.business.organizational_behavior.organizational_development",
@@ -601,18 +583,6 @@
   ]
  },
  {
-  "id": "HK.business.human_resource_management.hr_information_systems",
-  "name": "HR Information Systems",
-  "name_en": "HR Information Systems",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.human_resource_management",
-  "description": "Information systems for recording, managing, and analyzing employee data.",
-  "name_zh": "人力资源信息系统",
-  "aliases": [
-   "HRIS"
-  ]
- },
- {
   "id": "HK.business.operations_management.process_analysis_and_design",
   "name": "Process Analysis and Design",
   "name_en": "Process Analysis and Design",
@@ -701,15 +671,6 @@
   "parent": "HK.business.operations_management",
   "description": "Aligning operational capabilities and decisions with competitive strategy.",
   "name_zh": "运营战略"
- },
- {
-  "id": "HK.business.operations_management.maintenance_management",
-  "name": "Maintenance Management",
-  "name_en": "Maintenance Management",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.operations_management",
-  "description": "Planning and controlling the upkeep and reliability of equipment and facilities.",
-  "name_zh": "维护管理"
  },
  {
   "id": "HK.business.supply_chain_management.procurement",
@@ -817,15 +778,6 @@
   ]
  },
  {
-  "id": "HK.business.supply_chain_management.global_sourcing",
-  "name": "Global Sourcing",
-  "name_en": "Global Sourcing",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.supply_chain_management",
-  "description": "Procuring goods and services from international suppliers across borders.",
-  "name_zh": "全球采购"
- },
- {
   "id": "HK.business.marketing.consumer_behavior",
   "name": "Consumer Behavior",
   "name_en": "Consumer Behavior",
@@ -914,15 +866,6 @@
   "parent": "HK.business.marketing.marketing_strategy",
   "description": "Designing and managing the distribution channels through which products reach buyers.",
   "name_zh": "渠道管理"
- },
- {
-  "id": "HK.business.marketing.marketing_strategy.marketing_mix",
-  "name": "Marketing Mix",
-  "name_en": "Marketing Mix",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.marketing.marketing_strategy",
-  "description": "The combination of product, price, place, and promotion used to satisfy a target market.",
-  "name_zh": "营销组合"
  },
  {
   "id": "HK.business.marketing.advertising",
@@ -1156,15 +1099,6 @@
   "name_zh": "全球战略"
  },
  {
-  "id": "HK.business.strategy.growth_strategy",
-  "name": "Growth Strategy",
-  "name_en": "Growth Strategy",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.strategy",
-  "description": "The set of choices for expanding sales, scope, or scale, organically or inorganically.",
-  "name_zh": "成长战略"
- },
- {
   "id": "HK.business.strategy.business_model",
   "name": "Business Model",
   "name_en": "Business Model",
@@ -1321,15 +1255,6 @@
   "name_zh": "技术创业"
  },
  {
-  "id": "HK.business.entrepreneurship.innovation_ecosystem",
-  "name": "Innovation Ecosystem",
-  "name_en": "Innovation Ecosystem",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.entrepreneurship",
-  "description": "The network of firms, investors, universities, and institutions that support entrepreneurship.",
-  "name_zh": "创新生态系统"
- },
- {
   "id": "HK.business.international_business.foreign_market_entry",
   "name": "Foreign Market Entry",
   "name_en": "Foreign Market Entry",
@@ -1445,15 +1370,6 @@
   "parent": "HK.business.management_information_systems.business_intelligence",
   "description": "The design of centralized repositories that integrate data for analysis and reporting.",
   "name_zh": "数据仓库"
- },
- {
-  "id": "HK.business.management_information_systems.decision_support_systems",
-  "name": "Decision Support Systems",
-  "name_en": "Decision Support Systems",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.management_information_systems",
-  "description": "Computer systems that aid managerial decision making through models and data.",
-  "name_zh": "决策支持系统"
  },
  {
   "id": "HK.business.management_information_systems.e_commerce",
@@ -1645,15 +1561,6 @@
   "name_zh": "规范性分析"
  },
  {
-  "id": "HK.business.business_analytics.data_visualization",
-  "name": "Data Visualization",
-  "name_en": "Data Visualization",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.business_analytics",
-  "description": "Representing data graphically to communicate insights and support decisions.",
-  "name_zh": "数据可视化"
- },
- {
   "id": "HK.business.business_analytics.big_data_analytics",
   "name": "Big Data Analytics",
   "name_en": "Big Data Analytics",
@@ -1709,15 +1616,6 @@
   "parent": "HK.business.project_management",
   "description": "Identifying, analyzing, and responding to uncertainties in a project.",
   "name_zh": "项目风险管理"
- },
- {
-  "id": "HK.business.project_management.project_quality_management",
-  "name": "Project Quality Management",
-  "name_en": "Project Quality Management",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.project_management",
-  "description": "Ensuring a project satisfies the requirements and standards it was undertaken to meet.",
-  "name_zh": "项目质量管理"
  },
  {
   "id": "HK.business.project_management.agile_project_management",
@@ -1862,15 +1760,6 @@
   "parent": "HK.business.organizational_theory",
   "description": "The theory that organizations act to secure critical resources and reduce dependence on others.",
   "name_zh": "资源依赖理论"
- },
- {
-  "id": "HK.business.organizational_theory.interorganizational_relations",
-  "name": "Interorganizational Relations",
-  "name_en": "Interorganizational Relations",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.business.organizational_theory",
-  "description": "The study of alliances, networks, and exchanges among organizations.",
-  "name_zh": "组织间关系"
  },
  {
   "id": "HK.business.organizational_theory.organizational_learning",
@@ -2410,15 +2299,6 @@
   "name_zh": "信用衍生品"
  },
  {
-  "id": "HK.finance.derivatives.exotic_derivatives",
-  "name": "Exotic Derivatives",
-  "name_en": "Exotic Derivatives",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.finance.derivatives",
-  "description": "Complex, non-standard derivatives with path-dependent or bespoke payoffs.",
-  "name_zh": "奇异衍生品"
- },
- {
   "id": "HK.finance.risk_management.market_risk",
   "name": "Market Risk",
   "name_en": "Market Risk",
@@ -2601,15 +2481,6 @@
   "parent": "HK.finance.behavioral_finance",
   "description": "Empirical price patterns inconsistent with market efficiency, such as momentum and calendar effects.",
   "name_zh": "市场异象"
- },
- {
-  "id": "HK.finance.behavioral_finance.behavioral_portfolio_theory",
-  "name": "Behavioral Portfolio Theory",
-  "name_en": "Behavioral Portfolio Theory",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.finance.behavioral_finance",
-  "description": "Portfolio theory incorporating layered goals and mental accounts rather than a single risk-return tradeoff.",
-  "name_zh": "行为投资组合理论"
  },
  {
   "id": "HK.finance.behavioral_finance.herding_and_bubbles",
@@ -2812,15 +2683,6 @@
   "name_zh": "国际资本流动"
  },
  {
-  "id": "HK.finance.international_finance.currency_risk_management",
-  "name": "Currency Risk Management",
-  "name_en": "Currency Risk Management",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.finance.international_finance",
-  "description": "Hedging and managing exposure to exchange rate movements.",
-  "name_zh": "汇率风险管理"
- },
- {
   "id": "HK.finance.international_finance.sovereign_debt",
   "name": "Sovereign Debt",
   "name_en": "Sovereign Debt",
@@ -2873,15 +2735,6 @@
   "parent": "HK.finance.personal_finance",
   "description": "Arranging finances to legally minimize tax liabilities.",
   "name_zh": "税务筹划"
- },
- {
-  "id": "HK.finance.personal_finance.consumer_credit",
-  "name": "Consumer Credit",
-  "name_en": "Consumer Credit",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.finance.personal_finance",
-  "description": "Household borrowing through credit cards, mortgages, and installment loans.",
-  "name_zh": "消费信贷"
  },
  {
   "id": "HK.finance.financial_regulation.bank_regulation",
@@ -3343,15 +3196,6 @@
   "name_zh": "转让定价"
  },
  {
-  "id": "HK.accounting.taxation.tax_compliance",
-  "name": "Tax Compliance",
-  "name_en": "Tax Compliance",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.accounting.taxation",
-  "description": "Meeting tax filing, payment, and reporting obligations accurately and on time.",
-  "name_zh": "税务合规"
- },
- {
   "id": "HK.accounting.forensic_accounting",
   "name": "Forensic Accounting",
   "name_en": "Forensic Accounting",
@@ -3653,15 +3497,6 @@
   "aliases": [
    "CAR"
   ]
- },
- {
-  "id": "HK.journalism.data_journalism.data_visualization_in_journalism",
-  "name": "News Data Visualization",
-  "name_en": "News Data Visualization",
-  "type": "KNOWLEDGE_FIELD",
-  "parent": "HK.journalism.data_journalism",
-  "description": "Presenting data graphically to reveal patterns and support stories.",
-  "name_zh": "新闻数据可视化"
  },
  {
   "id": "HK.journalism.broadcast_journalism",
@@ -4619,5 +4454,182 @@
   "parent": "HK.public_administration",
   "description": "The study of how public services are produced, delivered, and experienced by citizens.",
   "name_zh": "公共服务供给"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.branding.brand_positioning",
+  "name": "Brand Positioning",
+  "name_en": "Brand Positioning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy.branding",
+  "description": "Defining the distinct place a brand occupies in consumers' minds relative to competitors.",
+  "name_zh": "品牌定位"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.branding.brand_architecture",
+  "name": "Brand Architecture",
+  "name_en": "Brand Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy.branding",
+  "description": "The structure organizing a firm's brands into a coherent hierarchy, such as a branded house or house of brands.",
+  "name_zh": "品牌架构"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.branding.brand_extension",
+  "name": "Brand Extension",
+  "name_en": "Brand Extension",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy.branding",
+  "description": "Leveraging an established brand name into new product categories.",
+  "name_zh": "品牌延伸"
+ },
+ {
+  "id": "HK.business.marketing.digital_marketing.search_engine_marketing.search_engine_optimization",
+  "name": "Search Engine Optimization",
+  "name_en": "Search Engine Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.digital_marketing.search_engine_marketing",
+  "description": "Improving a site's organic visibility in search results through content and technical optimization.",
+  "name_zh": "搜索引擎优化",
+  "aliases": [
+   "SEO"
+  ]
+ },
+ {
+  "id": "HK.business.marketing.digital_marketing.search_engine_marketing.paid_search_advertising",
+  "name": "Paid Search Advertising",
+  "name_en": "Paid Search Advertising",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.digital_marketing.search_engine_marketing",
+  "description": "Buying sponsored placement in search engine results, typically on a pay-per-click basis.",
+  "name_zh": "付费搜索广告",
+  "aliases": [
+   "PPC"
+  ]
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.pricing_strategy.value_based_pricing",
+  "name": "Value-Based Pricing",
+  "name_en": "Value-Based Pricing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy.pricing_strategy",
+  "description": "Setting prices based on the perceived value to the customer rather than cost.",
+  "name_zh": "价值定价"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.pricing_strategy.dynamic_pricing",
+  "name": "Dynamic Pricing",
+  "name_en": "Dynamic Pricing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy.pricing_strategy",
+  "description": "Adjusting prices in real time in response to demand, competition, and context.",
+  "name_zh": "动态定价"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.product_management.product_lifecycle_management",
+  "name": "Product Lifecycle Management",
+  "name_en": "Product Lifecycle Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy.product_management",
+  "description": "Managing a product through the stages of introduction, growth, maturity, and decline.",
+  "name_zh": "产品生命周期管理"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.channel_management.omnichannel_management",
+  "name": "Omnichannel Management",
+  "name_en": "Omnichannel Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy.channel_management",
+  "description": "Delivering a seamless, integrated customer experience across all sales and service channels.",
+  "name_zh": "全渠道管理"
+ },
+ {
+  "id": "HK.business.marketing.digital_marketing.social_media_marketing.social_commerce",
+  "name": "Social Commerce",
+  "name_en": "Social Commerce",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.digital_marketing.social_media_marketing",
+  "description": "Selling products directly through social media platforms and social interactions.",
+  "name_zh": "社交电商"
+ },
+ {
+  "id": "HK.business.strategy.corporate_strategy.mergers_and_acquisitions.hostile_takeovers",
+  "name": "Hostile Takeovers",
+  "name_en": "Hostile Takeovers",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy.corporate_strategy.mergers_and_acquisitions",
+  "description": "Acquisitions pursued against the target board's wishes, often through tender offers or proxy fights.",
+  "name_zh": "敌意收购"
+ },
+ {
+  "id": "HK.business.entrepreneurship.startup_financing.crowdfunding.equity_crowdfunding",
+  "name": "Equity Crowdfunding",
+  "name_en": "Equity Crowdfunding",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship.startup_financing.crowdfunding",
+  "description": "Raising capital by selling equity stakes to many small investors online.",
+  "name_zh": "股权众筹"
+ },
+ {
+  "id": "HK.business.entrepreneurship.startup_financing.crowdfunding.reward_crowdfunding",
+  "name": "Reward Crowdfunding",
+  "name_en": "Reward Crowdfunding",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship.startup_financing.crowdfunding",
+  "description": "Raising funds from backers in exchange for products, perks, or rewards rather than equity.",
+  "name_zh": "回报众筹"
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments.private_equity.leveraged_buyouts",
+  "name": "Leveraged Buyouts",
+  "name_en": "Leveraged Buyouts",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.alternative_investments.private_equity",
+  "description": "Acquiring companies using substantial debt secured by the target's assets and cash flows.",
+  "name_zh": "杠杆收购",
+  "aliases": [
+   "LBO"
+  ]
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments.private_equity.growth_equity",
+  "name": "Growth Equity",
+  "name_en": "Growth Equity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.alternative_investments.private_equity",
+  "description": "Minority equity investment in established companies seeking capital to expand.",
+  "name_zh": "成长型股权投资"
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments.hedge_funds.hedge_fund_strategies",
+  "name": "Hedge Fund Strategies",
+  "name_en": "Hedge Fund Strategies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.alternative_investments.hedge_funds",
+  "description": "The diverse investment approaches of hedge funds, such as long-short equity, arbitrage, and global macro.",
+  "name_zh": "对冲基金策略"
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments.real_estate_investment.real_estate_investment_trusts",
+  "name": "Real Estate Investment Trusts",
+  "name_en": "Real Estate Investment Trusts",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.alternative_investments.real_estate_investment",
+  "description": "Publicly traded vehicles that own and finance income-producing real estate.",
+  "name_zh": "房地产投资信托",
+  "aliases": [
+   "REITs"
+  ]
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.cost_accounting.activity_based_costing.time_driven_activity_based_costing",
+  "name": "Time-Driven Activity-Based Costing",
+  "name_en": "Time-Driven Activity-Based Costing",
+  "type": "METHODOLOGY",
+  "parent": "HK.accounting.managerial_accounting.cost_accounting.activity_based_costing",
+  "description": "A simplified ABC variant that assigns costs using time equations and capacity cost rates.",
+  "name_zh": "时间驱动作业成本法",
+  "aliases": [
+   "TDABC"
+  ]
  }
 ]
