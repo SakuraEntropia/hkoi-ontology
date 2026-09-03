@@ -11733,11 +11733,13 @@ hist.food_provisioning_occupations.miller,Miller,Miller,磨坊主,OCCUPATION,his
 hist.food_provisioning_occupations.peddler,Peddler,Peddler,货郎,OCCUPATION,hist.food_provisioning_occupations,2,HISTORICAL_OCCUPATIONS,Travelled selling small goods door to door.,1,1
 hist.food_provisioning_occupations.water_carrier,Water Carrier,Water Carrier,送水人,OCCUPATION,hist.food_provisioning_occupations,2,HISTORICAL_OCCUPATIONS,Carried and sold fresh water from wells or springs.,1,1
 hist.gov_offices,Government & Political Offices,Government & Political Offices,政府与政治职位,OFFICE,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Historical sovereign, administrative, and court offices.",1,1
+hist.gov_offices.aksumite_king,Aksumite King (Negus),Aksumite King (Negus),阿克苏姆国王,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,"The monarch of the Aksumite Empire, a major Red Sea trading power and among the first states to adopt Christianity. Issued its own coinage and erected monumental stelae.",1,1
 hist.gov_offices.caliph,Caliph,Caliph,哈里发,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.chancellor,Chancellor,Chancellor,宰相,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.chinese_emperor,Chinese Emperor (Huangdi),Chinese Emperor (Huangdi),中国皇帝,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.court_astrologer,Court Astrologer,Court Astrologer,宫廷占星官,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.daimyo,Daimyō,Daimyō,大名,STATUS,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.devaraja,Devaraja (God-King),Devaraja (God-King),神王,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,"The divine-kingship office of the Khmer Empire, in which the ruler was identified with a deity and legitimized by monumental temple-mountains such as Angkor Wat. Coordinated the irrigation systems that sustained the empire.",1,1
 hist.gov_offices.emperor_roman,Roman Emperor,Roman Emperor,罗马皇帝,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.feudal_lord,Feudal Lord,Feudal Lord,封建领主,STATUS,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.herald,Herald,Herald,传令官,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
@@ -11745,13 +11747,16 @@ hist.gov_offices.imperial_censor,Imperial Censor,Imperial Censor,御史,OFFICE,h
 hist.gov_offices.japanese_emperor,Japanese Emperor (Tennō),Japanese Emperor (Tennō),日本天皇,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.king,King,King,国王,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.magistrate,Magistrate,Magistrate,地方官,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.mongol_khan,Mongol Khan,Mongol Khan,蒙古大汗,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,"The elected supreme ruler of the Mongol Empire, chosen at a kurultai and bound by the yassa legal code. Commanded the largest contiguous land empire in history via a decimal army and the yam courier relay.",1,1
 hist.gov_offices.pharaoh,Pharaoh,Pharaoh,法老,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.royal_genealogist,Royal Genealogist,Royal Genealogist,王室谱系官,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.scholar_official,Scholar-Official (Shidafu),Scholar-Official (Shidafu),士大夫,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,The Confucian scholar-bureaucrats selected by the imperial examinations who administered China for over a millennium. Fused political office with moral and literary authority.,1,1
 hist.gov_offices.shogun,Shōgun,Shōgun,幕府将军,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.sultan,Sultan,Sultan,苏丹,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.tax_collector,Tax Collector,Tax Collector,税吏,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.tribute_collector,Tribute Collector,Tribute Collector,贡赋征收者,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.gov_offices.vizier,Vizier,Vizier,维齐尔,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.yangban,Yangban,Yangban,两班,STATUS,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,The hereditary aristocratic class of Joseon Korea that monopolized official posts and land through the Confucian civil-service examinations. Collapsed with the abolition of the class system under Japanese rule.,1,1
 hist.health_occupations,Historical Healing & Body Occupations,Historical Healing & Body Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations of folk medicine, surgery and bodily care.",1,1
 hist.health_occupations.apothecary,Apothecary,Apothecary,药剂师,OCCUPATION,hist.health_occupations,2,HISTORICAL_OCCUPATIONS,Compounded and sold medicines and simples.,1,1
 hist.health_occupations.barber_surgeon,Barber-Surgeon,Barber-Surgeon,理发师兼外科医生,OCCUPATION,hist.health_occupations,2,HISTORICAL_OCCUPATIONS,"Cut hair, pulled teeth and performed surgery before the professions separated.",1,1
@@ -11781,10 +11786,13 @@ hist.industrial_occupations.stoker,Stoker,Stoker,司炉,OCCUPATION,hist.industri
 hist.knowledge_work,"Writing, Information & Knowledge Work","Writing, Information & Knowledge Work",书写信息与知识工作,PROFESSION,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Historical information and computation workers.,1,1
 hist.knowledge_work.abacus_calculator,Abacus Calculator,Abacus Calculator,算盘计算师,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.knowledge_work.census_enumerator,Census Enumerator,Census Enumerator,人口普查员,OCCUPATION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.griot,Griot / Jali,Griot / Jali,格里奥,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,"Hereditary oral historians, musicians, and praise-singers of the Mande peoples of West Africa. As living archives, they preserved royal genealogies and epics such as Sundiata for centuries before writing.",1,1
 hist.knowledge_work.logarithm_table_calculator,Logarithm-Table Calculator,Logarithm-Table Calculator,对数表计算员,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.knowledge_work.manuscript_corrector,Manuscript Corrector,Manuscript Corrector,手稿校对者,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.mesopotamian_scribe,Mesopotamian Scribe,Mesopotamian Scribe,美索不达米亚书吏,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,"The cuneiform scribes who produced the earliest written records of humanity — contracts, tax accounts, and literature. Trained in the edubba school, they formed a literate elite at the core of Mesopotamian temple and palace administration.",1,1
 hist.knowledge_work.papyrus_maker,Papyrus Maker,Papyrus Maker,纸莎草纸匠,CRAFT,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.knowledge_work.postal_rider,Postal Rider,Postal Rider,驿马信使,OCCUPATION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.quipucamayoc,Quipucamayoc,Quipucamayoc,结绳记事官,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,"Specialists of the Inca Empire who encoded census, tribute, and historical data on quipu — knotted cords using a positional decimal system. A bureaucratic memory apparatus that functioned entirely without writing.",1,1
 hist.knowledge_work.royal_courier,Royal Courier,Royal Courier,皇家信使,OCCUPATION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.knowledge_work.scroll_maker,Scroll Maker,Scroll Maker,卷轴制作匠,CRAFT,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.lighting_urban_occupations,Lighting & Urban Services Occupations,Lighting & Urban Services Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations of lighting, waking, cleaning and scavenging the pre-modern city.",1,1
@@ -11835,10 +11843,13 @@ hist.military_roles.archer,Archer,Archer,弓箭手,MILITARY_ROLE,hist.military_r
 hist.military_roles.chariot_warrior,Chariot Warrior,Chariot Warrior,战车武士,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.crossbowman,Crossbowman,Crossbowman,弩手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.hoplite,Hoplite,Hoplite,重装步兵,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.hwarang,Hwarang,Hwarang,花郎,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,"An elite youth warrior order of the Silla kingdom, blending martial training with Buddhist and Confucian moral cultivation. Central to Silla's unification of the Korean peninsula.",1,1
+hist.military_roles.janissary,Janissary,Janissary,耶尼切里,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,"The elite standing infantry of the Ottoman Empire, originally recruited through the devshirme levy of Christian boys. Among Europe's first professional gunpowder armies; disbanded by force in 1826.",1,1
 hist.military_roles.knight,Knight,Knight,骑士,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.landsknecht,Landsknecht,Landsknecht,德意志雇佣兵,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.legionary,Legionary,Legionary,军团士兵,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.longbowman,Longbowman,Longbowman,长弓手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.mamluk,Mamluk,Mamluk,马穆鲁克,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,"Enslaved soldiers, mostly Turkic and Circassian, who rose to become the ruling military elite of Egypt. Defeated the Mongols at Ain Jalut in 1260 and ruled a sultanate until the 16th century.",1,1
 hist.military_roles.man_at_arms,Man-at-Arms,Man-at-Arms,重甲武士,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.military_drummer,Military Drummer,Military Drummer,军中鼓手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.musketeer,Musketeer,Musketeer,火枪手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
@@ -11846,6 +11857,7 @@ hist.military_roles.pikeman,Pikeman,Pikeman,长矛兵,MILITARY_ROLE,hist.militar
 hist.military_roles.samurai,Samurai,Samurai,武士,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.siege_engineer,Siege Engineer,Siege Engineer,攻城技师,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.military_roles.standard_bearer,Standard Bearer,Standard Bearer,旗手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.viking_raider,Viking Raider,Viking Raider,维京掠夺者,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,"Seaborne Norse warriors who raided, traded, and settled from Ireland to the Caspian and reached North America. The longship's shallow draft made their mobility decisive.",1,1
 hist.military_roles.war_elephant_handler,War Elephant Handler,War Elephant Handler,战象驭手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.occult_occupations,Proto-Scientific & Occult Occupations,Proto-Scientific & Occult Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations of speculative natural philosophy, divination and pseudoscience.",1,1
 hist.occult_occupations.alchemist,Alchemist,Alchemist,炼金术士,OCCUPATION,hist.occult_occupations,2,HISTORICAL_OCCUPATIONS,Sought transmutation and the philosopher's stone through proto-chemical practice.,1,1
@@ -11887,6 +11899,7 @@ hist.religious_roles.diviner,Diviner,Diviner,占卜者,RELIGIOUS_ROLE,hist.relig
 hist.religious_roles.egyptian_priest,Egyptian Priest,Egyptian Priest,埃及祭司,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.religious_roles.high_priest,High Priest,High Priest,大祭司,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.religious_roles.inquisition_official,Inquisition Official,Inquisition Official,宗教裁判官,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.maya_scribe,Maya Scribe,Maya Scribe,玛雅书吏,PROFESSION,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,"Literate elite specialists of the Classic Maya who composed hieroglyphic texts recording dynastic histories, astronomy, and ritual on stone monuments and bark-paper codices. Their script is the most complete writing system of the pre-Columbian Americas.",1,1
 hist.religious_roles.monastic_scribe,Monastic Scribe,Monastic Scribe,寺院抄写员,PROFESSION,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.religious_roles.oracle,Oracle,Oracle,神谕/神媒,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.religious_roles.oracle_interpreter,Oracle Interpreter,Oracle Interpreter,神谕解读者,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
@@ -11896,6 +11909,7 @@ hist.religious_roles.religious_cantor,Religious Cantor,Religious Cantor,领唱�
 hist.religious_roles.sacrificial_specialist,Sacrificial Specialist,Sacrificial Specialist,祭牲执事,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.religious_roles.shaman,Shaman,Shaman,萨满,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.religious_roles.temple_attendant,Temple Attendant,Temple Attendant,庙祝/神殿侍者,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.vestal_virgin,Vestal Virgin,Vestal Virgin,维斯塔贞女,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,"Priestesses of Vesta who tended Rome's sacred hearth, on whose purity the city's fate was believed to depend. Held unusual legal autonomy in a deeply patriarchal society.",1,1
 hist.scribal_occupations,Scribal & Documentary Occupations,Scribal & Documentary Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations of writing, copying and decorating documents by hand.",1,1
 hist.scribal_occupations.calligrapher,Court Calligrapher,Court Calligrapher,宫廷书家,OCCUPATION,hist.scribal_occupations,2,HISTORICAL_OCCUPATIONS,Produced official and artistic brush or pen writing for court documents.,1,1
 hist.scribal_occupations.copyist,Copyist,Copyist,抄写员,OCCUPATION,hist.scribal_occupations,2,HISTORICAL_OCCUPATIONS,Reproduced texts and music by hand for distribution.,1,1
@@ -11926,6 +11940,7 @@ hist.textile_occupations.weaver,Handloom Weaver,Handloom Weaver,织布工,OCCUPA
 hist.transport_navigation,Transportation & Navigation,Transportation & Navigation,运输与导航,OCCUPATION,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Historical transport and navigation roles.,1,1
 hist.transport_navigation.carriage_maker,Carriage Maker,Carriage Maker,马车制造匠,CRAFT,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.transport_navigation.charioteer,Charioteer,Charioteer,战车御者,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.chasqui,Chasqui Runner,Chasqui Runner,查斯基信使,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,"Highly trained relay runners of the Inca Empire who carried messages and goods along the 40,000-km Qhapaq Ñan road network. Teams at tambo posts relayed information across the Andes in days.",1,1
 hist.transport_navigation.coachman,Coachman,Coachman,马车夫,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.transport_navigation.galley_rower,Galley Rower,Galley Rower,帆桨船桨手,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.transport_navigation.lighthouse_keeper,Lighthouse Keeper,Lighthouse Keeper,灯塔看守,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
@@ -11936,6 +11951,7 @@ hist.transport_navigation.porter,Porter,Porter,搬运工,OCCUPATION,hist.transpo
 hist.transport_navigation.sailmaker,Sailmaker,Sailmaker,制帆匠,CRAFT,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.transport_navigation.ships_telegraph_operator,Ship's Telegraph Operator,Ship's Telegraph Operator,船用电报员,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.transport_navigation.shipwright,Shipwright,Shipwright,造船匠,CRAFT,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.sogdian_merchant,Sogdian Merchant,Sogdian Merchant,粟特商人,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,"Iranian-speaking merchants of Sogdiana who dominated Silk Road trade between China and the West. Their caravan networks also transmitted Buddhism, Manichaeism, and writing systems across Central Asia.",1,1
 hist.transport_navigation.stable_master,Stable Master,Stable Master,马厩总管,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.transport_navigation.stagecoach_driver,Stagecoach Driver,Stagecoach Driver,驿马车夫,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.transport_navigation.traditional_navigator,Traditional Navigator,Traditional Navigator,传统航海师,PROFESSION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
@@ -12045,18 +12061,24 @@ ind.defense_space.defense,Defense Industry,Defense Industry,国防工业,INDUSTR
 ind.defense_space.defense.aerospace_defense,Aerospace Defense,Aerospace Defense,,ECONOMIC_ACTIVITY,ind.defense_space.defense,3,INDUSTRIES,Military aircraft and missile defense.,0,1
 ind.defense_space.defense.c4isr,C4ISR Systems,C4ISR Systems,,ECONOMIC_ACTIVITY,ind.defense_space.defense,3,INDUSTRIES,"Command, control, communications, intelligence and surveillance systems.",0,1
 ind.defense_space.defense.cyber_defense,Defense Cybersecurity,Defense Cybersecurity,,ECONOMIC_ACTIVITY,ind.defense_space.defense,3,INDUSTRIES,Protection of military networks and cyber operations.,0,1
+ind.defense_space.defense.defense_services,Defense Services & Logistics,Defense Services & Logistics,防务服务与后勤,INDUSTRY,ind.defense_space.defense,3,INDUSTRIES,"Contractor logistics, maintenance, training, and base support. Private military and security services.",0,1
 ind.defense_space.defense.land,Land Defense Systems,Land Defense Systems,,ECONOMIC_ACTIVITY,ind.defense_space.defense,3,INDUSTRIES,"Tanks, armored vehicles and land platforms.",0,1
+ind.defense_space.defense.land_systems,Land Systems,Land Systems,地面系统,INDUSTRY,ind.defense_space.defense,3,INDUSTRIES,"Tanks, armored vehicles, artillery, and small arms. Includes munitions and soldier systems.",0,1
+ind.defense_space.defense.missile_defense,Missiles & Missile Defense,Missiles & Missile Defense,导弹与导弹防御,INDUSTRY,ind.defense_space.defense,3,INDUSTRIES,"Ballistic, cruise, hypersonic missiles and their interception systems. High R&D, precision-guided.",0,1
 ind.defense_space.defense.missiles,Missiles & Guided Weapons,Missiles & Guided Weapons,,ECONOMIC_ACTIVITY,ind.defense_space.defense,3,INDUSTRIES,"Missiles, munitions and precision weapons.",0,1
 ind.defense_space.defense.naval,Naval Defense Systems,Naval Defense Systems,,ECONOMIC_ACTIVITY,ind.defense_space.defense,3,INDUSTRIES,"Warships, submarines and naval systems.",0,1
+ind.defense_space.defense.naval_systems,Naval Systems,Naval Systems,海军系统,INDUSTRY,ind.defense_space.defense,3,INDUSTRIES,"Warships, submarines, and naval propulsion. Shipyard-intensive, decades-long programs.",0,1
 ind.defense_space.defense.services,Defense Services & Logistics,Defense Services & Logistics,,SERVICE,ind.defense_space.defense,3,INDUSTRIES,"Training, maintenance and logistics support to militaries.",0,1
 ind.defense_space.defense.small_arms,Small Arms & Ammunition,Small Arms & Ammunition,枪械弹药,ECONOMIC_ACTIVITY,ind.defense_space.defense,3,INDUSTRIES,Firearms and ammunition manufacturing.,0,1
 ind.defense_space.space,Space Industry,Space Industry,航天,INDUSTRY,ind.defense_space,2,INDUSTRIES,Commercial and civil space activities.,0,1
 ind.defense_space.space.earth_observation,Earth Observation,Earth Observation,对地观测,ECONOMIC_ACTIVITY,ind.defense_space.space,3,INDUSTRIES,Remote sensing and geospatial imagery services.,0,1
 ind.defense_space.space.ground_segment,Ground Segment & Stations,Ground Segment & Stations,,ECONOMIC_ACTIVITY,ind.defense_space.space,3,INDUSTRIES,Ground stations and mission control infrastructure.,0,1
 ind.defense_space.space.launch,Launch Services,Launch Services,火箭发射,ECONOMIC_ACTIVITY,ind.defense_space.space,3,INDUSTRIES,Launch of payloads into orbit.,0,1
+ind.defense_space.space.launch_services,Launch Services,Launch Services,发射服务,INDUSTRY,ind.defense_space.space,3,INDUSTRIES,"Rockets that carry payloads to orbit: reusable launchers, small-lift, medium-lift, heavy-lift. Rapidly falling cost per kg.",0,1
 ind.defense_space.space.satellite_manufacturing,Satellite Manufacturing,Satellite Manufacturing,卫星制造,ECONOMIC_ACTIVITY,ind.defense_space.space,3,INDUSTRIES,Manufacture of satellites and spacecraft.,0,1
 ind.defense_space.space.satellite_operations,Satellite Operations,Satellite Operations,卫星运营,ECONOMIC_ACTIVITY,ind.defense_space.space,3,INDUSTRIES,Operation and control of satellite fleets.,0,1
 ind.defense_space.space.space_logistics,Space Logistics & Servicing,Space Logistics & Servicing,太空物流,EMERGING_FIELD,ind.defense_space.space,3,INDUSTRIES,"In-orbit servicing, refueling and debris removal.",0,1
+ind.defense_space.space.space_services,Space Services & In-Orbit,Space Services & In-Orbit,太空服务,INDUSTRY,ind.defense_space.space,3,INDUSTRIES,"In-orbit servicing, refueling, debris removal, and on-orbit manufacturing. Nascent but growing.",0,1
 ind.defense_space.space.space_tourism,Space Tourism,Space Tourism,太空旅游,EMERGING_FIELD,ind.defense_space.space,3,INDUSTRIES,Suborbital and orbital tourism flights.,0,1
 ind.education,Education & Training,Education & Training,教育,SECTOR,INDUSTRIES,1,INDUSTRIES,"Provision of instruction, training and credentialing.",0,1
 ind.education.adult,Adult & Continuing Education,Adult & Continuing Education,成人教育,ECONOMIC_ACTIVITY,ind.education,2,INDUSTRIES,Lifelong learning and continuing education.,0,1
@@ -12134,6 +12156,9 @@ ind.financial_services.capital_markets.derivatives,Derivatives,Derivatives,衍�
 ind.financial_services.capital_markets.equities,Equities,Equities,,ECONOMIC_ACTIVITY,ind.financial_services.capital_markets,3,INDUSTRIES,Issuance and trading of company shares.,0,1
 ind.financial_services.capital_markets.exchanges,Exchanges,Exchanges,交易所,ECONOMIC_ACTIVITY,ind.financial_services.capital_markets,3,INDUSTRIES,Venues for trading securities and derivatives.,0,1
 ind.financial_services.capital_markets.fixed_income,Fixed Income,Fixed Income,债券,ECONOMIC_ACTIVITY,ind.financial_services.capital_markets,3,INDUSTRIES,Issuance and trading of bonds and debt instruments.,0,1
+ind.financial_services.clearing_settlement,Clearing & Settlement,Clearing & Settlement,清算结算,INDUSTRY,ind.financial_services,2,INDUSTRIES,"Post-trade infrastructure: central counterparties, netting, and securities settlement that eliminate counterparty risk.",0,1
+ind.financial_services.consumer_finance,Consumer Finance,Consumer Finance,消费金融,INDUSTRY,ind.financial_services,2,INDUSTRIES,"Credit cards, personal loans, auto finance, and buy-now-pay-later. Point-of-sale and digital lending; high-volume, data-driven underwriting.",0,1
+ind.financial_services.custody_services,Custody & Asset Servicing,Custody & Asset Servicing,资产托管,INDUSTRY,ind.financial_services,2,INDUSTRIES,"Safekeeping securities, settlement, fund administration, and reporting for institutions. Low-margin, scale-driven infrastructure of the capital markets.",0,1
 ind.financial_services.fintech,Fintech,Fintech,金融科技,INDUSTRY,ind.financial_services,2,INDUSTRIES,Technology-enabled financial products and services.,0,1
 ind.financial_services.fintech.crowdfunding,Crowdfunding,Crowdfunding,众筹,ECONOMIC_ACTIVITY,ind.financial_services.fintech,3,INDUSTRIES,Raising funds from many small contributors online.,0,1
 ind.financial_services.fintech.defi,Decentralized Finance,Decentralized Finance,去中心化金融,EMERGING_FIELD,ind.financial_services.fintech,3,INDUSTRIES,Blockchain-based financial services without intermediaries.,0,1
@@ -12148,11 +12173,17 @@ ind.financial_services.insurance.life,Life Insurance,Life Insurance,寿险,ECONO
 ind.financial_services.insurance.property_casualty,Property & Casualty Insurance,Property & Casualty Insurance,财产险,ECONOMIC_ACTIVITY,ind.financial_services.insurance,3,INDUSTRIES,"Coverage for property, liability and casualty risks.",0,1
 ind.financial_services.insurance.reinsurance,Reinsurance,Reinsurance,再保险,ECONOMIC_ACTIVITY,ind.financial_services.insurance,3,INDUSTRIES,"Insurance for insurers, spreading large risks.",0,1
 ind.financial_services.insurance.takaful,Takaful,Takaful,,ECONOMIC_ACTIVITY,ind.financial_services.insurance,3,INDUSTRIES,Sharia-compliant cooperative insurance.,0,0
+ind.financial_services.mortgage_lending,Mortgage Lending,Mortgage Lending,抵押贷款,INDUSTRY,ind.financial_services,2,INDUSTRIES,"Originating and servicing home loans, plus securitization into mortgage-backed securities. Cornerstone of consumer credit and housing markets.",0,1
 ind.financial_services.payments,Payments,Payments,支付,INDUSTRY,ind.financial_services,2,INDUSTRIES,Movement of money between parties and systems.,0,1
 ind.financial_services.payments.bnpl,Buy Now Pay Later,Buy Now Pay Later,,ECONOMIC_ACTIVITY,ind.financial_services.payments,3,INDUSTRIES,Short-term point-of-sale installment credit.,0,1
 ind.financial_services.payments.card_networks,Card Networks,Card Networks,卡组织,ECONOMIC_ACTIVITY,ind.financial_services.payments,3,INDUSTRIES,Payment card schemes and processing networks.,0,1
 ind.financial_services.payments.mobile,Mobile Payments,Mobile Payments,移动支付,ECONOMIC_ACTIVITY,ind.financial_services.payments,3,INDUSTRIES,Payments initiated from mobile devices and wallets.,0,1
 ind.financial_services.payments.remittances,Remittances,Remittances,汇款,ECONOMIC_ACTIVITY,ind.financial_services.payments,3,INDUSTRIES,Cross-border money transfers by individuals.,0,1
+ind.financial_services.private_equity,Private Equity,Private Equity,私募股权,INDUSTRY,ind.financial_services,2,INDUSTRIES,"Buyout and growth investing in private companies: leveraged buyouts, restructuring, and operational value creation. Large pools of committed capital.",0,1
+ind.financial_services.securities_exchanges,Securities Exchanges,Securities Exchanges,证券交易所,INDUSTRY,ind.financial_services,2,INDUSTRIES,"Venues for listing and trading equities, derivatives, and commodities. Includes electronic matching, market data, and listing services.",0,1
+ind.financial_services.sovereign_wealth,Sovereign Wealth & Public Funds,Sovereign Wealth & Public Funds,主权财富基金,INDUSTRY,ind.financial_services,2,INDUSTRIES,"State-owned investment funds managing national savings, commodities revenue, and pension reserves. Major long-horizon allocators.",0,1
+ind.financial_services.venture_capital,Venture Capital,Venture Capital,风险投资,INDUSTRY,ind.financial_services,2,INDUSTRIES,"Early-stage equity investment in startups, concentrated in tech and life sciences. High risk, outsized-return model; fuels innovation ecosystems.",0,1
+ind.financial_services.wealth_management,Wealth Management,Wealth Management,财富管理,INDUSTRY,ind.financial_services,2,INDUSTRIES,"Advising and managing assets for high-net-worth individuals and families: discretionary portfolios, estate planning, and private banking. Fee-based, relationship-driven.",0,1
 ind.fishing,Fishing & Aquaculture,Fishing & Aquaculture,渔业,SECTOR,INDUSTRIES,1,INDUSTRIES,"Capture and cultivation of fish, shellfish, aquatic plants and marine products.",0,1
 ind.fishing.aquaculture,Aquaculture,Aquaculture,水产养殖,INDUSTRY,ind.fishing,2,INDUSTRIES,"Farming of fish, shellfish and aquatic plants in ponds, cages, tanks and coastal waters.",0,1
 ind.fishing.aquaculture.crustaceans,Shrimp & Crustacean Farming,Shrimp & Crustacean Farming,,ECONOMIC_ACTIVITY,ind.fishing.aquaculture,3,INDUSTRIES,Farming of shrimp and prawns in ponds and recirculating systems.,0,1
@@ -12183,6 +12214,8 @@ ind.forestry.urban_forestry,Urban Forestry & Arboriculture,Urban Forestry & Arbo
 ind.forestry.wildfire_management,Wildfire & Forest Health Services,Wildfire & Forest Health Services,,ECONOMIC_ACTIVITY,ind.forestry,2,INDUSTRIES,"Fire suppression, fuel management and forest pest control services.",0,1
 ind.hospitality_tourism,"Hospitality, Food & Tourism","Hospitality, Food & Tourism",酒店餐饮旅游,SECTOR,INDUSTRIES,1,INDUSTRIES,"Lodging, food service, travel and tourism businesses.",0,1
 ind.hospitality_tourism.casinos,Casino & Gaming Resorts,Casino & Gaming Resorts,赌场,INDUSTRY,ind.hospitality_tourism,2,INDUSTRIES,Land-based casino and integrated resort operations.,0,1
+ind.hospitality_tourism.cruise_industry,Cruise Lines,Cruise Lines,邮轮业,INDUSTRY,ind.hospitality_tourism,2,INDUSTRIES,Operating cruise ships and river cruises; floating resorts with captive hospitality spending.,0,1
+ind.hospitality_tourism.events_meetings,"Events, Meetings & Conventions","Events, Meetings & Conventions",会展业,INDUSTRY,ind.hospitality_tourism,2,INDUSTRIES,"MICE: meetings, incentives, conferences, exhibitions. Tied to business travel and convention centers.",0,1
 ind.hospitality_tourism.food_service,Food Service,Food Service,餐饮,INDUSTRY,ind.hospitality_tourism,2,INDUSTRIES,Preparation and serving of food and beverages.,0,1
 ind.hospitality_tourism.food_service.bars,Bars & Nightlife,Bars & Nightlife,酒吧,ECONOMIC_ACTIVITY,ind.hospitality_tourism.food_service,3,INDUSTRIES,Alcoholic beverage and nightlife venues.,0,1
 ind.hospitality_tourism.food_service.cafes,Cafés & Coffeehouses,Cafés & Coffeehouses,咖啡馆,ECONOMIC_ACTIVITY,ind.hospitality_tourism.food_service,3,INDUSTRIES,Coffee and light-meal establishments.,0,1
@@ -12198,6 +12231,7 @@ ind.hospitality_tourism.lodging.hotels,Hotels,Hotels,酒店,ECONOMIC_ACTIVITY,in
 ind.hospitality_tourism.lodging.resorts,Resorts,Resorts,度假村,ECONOMIC_ACTIVITY,ind.hospitality_tourism.lodging,3,INDUSTRIES,Destination properties with extensive amenities.,0,1
 ind.hospitality_tourism.lodging.ryokan,Ryokan,Ryokan,日式旅馆,ECONOMIC_ACTIVITY,ind.hospitality_tourism.lodging,3,INDUSTRIES,Traditional Japanese inns with tatami rooms and onsen.,0,0
 ind.hospitality_tourism.lodging.vacation_rentals,Vacation Rentals,Vacation Rentals,民宿,ECONOMIC_ACTIVITY,ind.hospitality_tourism.lodging,3,INDUSTRIES,Short-term rental of private homes and apartments.,0,1
+ind.hospitality_tourism.restaurants,Restaurants & Catering,Restaurants & Catering,餐饮,INDUSTRY,ind.hospitality_tourism,2,INDUSTRIES,"Food-service establishments from fast food to fine dining, plus catering and ghost kitchens. Labor-intensive, low-margin.",0,1
 ind.hospitality_tourism.tourism,Tourism & Travel Services,Tourism & Travel Services,旅游,INDUSTRY,ind.hospitality_tourism,2,INDUSTRIES,"Planning, selling and operating travel experiences.",0,1
 ind.hospitality_tourism.tourism.adventure_tourism,Adventure Tourism,Adventure Tourism,,ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism,3,INDUSTRIES,Outdoor and adventure travel experiences.,0,1
 ind.hospitality_tourism.tourism.cruise,Cruise Industry,Cruise Industry,邮轮,ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism,3,INDUSTRIES,Operation of cruise ships and itineraries.,0,1
@@ -12210,13 +12244,20 @@ ind.hospitality_tourism.tourism.pilgrimage,Pilgrimage Tourism,Pilgrimage Tourism
 ind.hospitality_tourism.tourism.theme_parks,Theme Parks & Attractions,Theme Parks & Attractions,主题公园,ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism,3,INDUSTRIES,Operation of amusement parks and attractions.,0,1
 ind.hospitality_tourism.tourism.tour_operators,Tour Operators,Tour Operators,旅行社,ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism,3,INDUSTRIES,Packaging and operation of tours.,0,1
 ind.hospitality_tourism.tourism.travel_agencies,Travel Agencies,Travel Agencies,票务代理,ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism,3,INDUSTRIES,Retail sale of travel products.,0,1
+ind.hospitality_tourism.travel_services,Travel Agencies & Tour Operators,Travel Agencies & Tour Operators,旅行社与旅游运营,INDUSTRY,ind.hospitality_tourism,2,INDUSTRIES,"Packaging and selling travel: agents, online travel agencies, and tour operators.",0,1
 ind.information_technology,Information & Communications Technology,Information & Communications Technology,信息通信技术,SECTOR,INDUSTRIES,1,INDUSTRIES,"Telecommunications, internet, software, data, AI and IT services industries.",0,1
 ind.information_technology.ai,Artificial Intelligence,Artificial Intelligence,人工智能,INDUSTRY,ind.information_technology,2,INDUSTRIES,Development and deployment of machine learning and AI systems.,0,1
+ind.information_technology.ai.ai_applications,Applied AI Solutions,Applied AI Solutions,AI行业应用,INDUSTRY,ind.information_technology.ai,3,INDUSTRIES,"Vertical AI products: medical imaging AI, fraud detection, autonomous driving, customer-service agents, code assistants. Where AI meets specific industries and revenue.",0,1
+ind.information_technology.ai.ai_infrastructure,AI Infrastructure,AI Infrastructure,AI基础设施,INDUSTRY,ind.information_technology.ai,3,INDUSTRIES,"The GPU/TPU clusters, interconnects, and data pipelines that make model training possible. Includes cloud AI compute, HPC fabrics, and vector databases; the 'picks and shovels' layer.",0,1
+ind.information_technology.ai.ai_safety,AI Safety & Alignment,AI Safety & Alignment,AI安全与对齐,INDUSTRY,ind.information_technology.ai,3,INDUSTRIES,"Evaluating and aligning frontier models: red-teaming, interpretability, governance, and safety tooling. A small but strategically critical segment.",0,1
 ind.information_technology.ai.computer_vision,Computer Vision,Computer Vision,计算机视觉,ECONOMIC_ACTIVITY,ind.information_technology.ai,3,INDUSTRIES,AI for image and video understanding.,0,1
+ind.information_technology.ai.edge_ai,Edge & On-Device AI,Edge & On-Device AI,边缘AI,INDUSTRY,ind.information_technology.ai,3,INDUSTRIES,"Inference on phones, cameras, vehicles, and industrial sensors rather than cloud. Driven by NPU chips, privacy, and latency; fast-growing.",0,1
 ind.information_technology.ai.foundation_models,Foundation Models,Foundation Models,,EMERGING_FIELD,ind.information_technology.ai,3,INDUSTRIES,Large pretrained models adapted to downstream tasks.,0,1
 ind.information_technology.ai.generative,Generative AI,Generative AI,生成式AI,EMERGING_FIELD,ind.information_technology.ai,3,INDUSTRIES,"Models that generate text, images, audio and video.",0,1
+ind.information_technology.ai.generative_ai_media,Generative AI & Synthetic Media,Generative AI & Synthetic Media,生成式AI与合成媒体,INDUSTRY,ind.information_technology.ai,3,INDUSTRIES,"Text, image, video, audio, and code generation products. Consumer and enterprise; the most visible AI market (ChatGPT-class tools).",0,1
 ind.information_technology.ai.ml_platforms,Machine Learning Platforms,Machine Learning Platforms,,ECONOMIC_ACTIVITY,ind.information_technology.ai,3,INDUSTRIES,Frameworks and platforms for building and serving models.,0,1
 ind.information_technology.ai.mlops,MLOps,MLOps,,ECONOMIC_ACTIVITY,ind.information_technology.ai,3,INDUSTRIES,Operationalization of machine learning model lifecycles.,0,1
+ind.information_technology.ai.model_development,AI Model Development,AI Model Development,AI模型开发,INDUSTRY,ind.information_technology.ai,3,INDUSTRIES,Training and fine-tuning foundation models and LLMs — the compute- and capital-intensive core of modern AI. Dominated by a few frontier labs; billion-dollar-scale training runs.,0,1
 ind.information_technology.ai.nlp,Natural Language Processing,Natural Language Processing,自然语言处理,ECONOMIC_ACTIVITY,ind.information_technology.ai,3,INDUSTRIES,AI for text and speech understanding and generation.,0,1
 ind.information_technology.data_analytics,Data & Analytics,Data & Analytics,数据服务,INDUSTRY,ind.information_technology,2,INDUSTRIES,"Collection, processing and analysis of data at scale.",0,1
 ind.information_technology.data_analytics.big_data,Big Data Analytics,Big Data Analytics,,ECONOMIC_ACTIVITY,ind.information_technology.data_analytics,3,INDUSTRIES,Analysis of large and streaming datasets.,0,1
@@ -12764,13 +12805,18 @@ ind.retail_trade.brick_mortar.discount,Discount Retail,Discount Retail,折扣零
 ind.retail_trade.brick_mortar.luxury,Luxury Retail,Luxury Retail,奢侈品零售,ECONOMIC_ACTIVITY,ind.retail_trade.brick_mortar,3,INDUSTRIES,High-end branded goods retailing.,0,1
 ind.retail_trade.brick_mortar.specialty,Specialty Retail,Specialty Retail,专卖店,ECONOMIC_ACTIVITY,ind.retail_trade.brick_mortar,3,INDUSTRIES,Focused retailers of a single category.,0,1
 ind.retail_trade.brick_mortar.supermarkets,Supermarkets & Grocery,Supermarkets & Grocery,超市,ECONOMIC_ACTIVITY,ind.retail_trade.brick_mortar,3,INDUSTRIES,Food and household retail chains.,0,1
+ind.retail_trade.department_stores,Department Stores,Department Stores,百货,INDUSTRY,ind.retail_trade,2,INDUSTRIES,Multi-category large-format retail. Under pressure from e-commerce and specialty.,0,1
 ind.retail_trade.ecommerce,E-Commerce Retail,E-Commerce Retail,网络零售,INDUSTRY,ind.retail_trade,2,INDUSTRIES,Online retailing of goods to consumers.,0,1
 ind.retail_trade.ecommerce.d2c,Direct-to-Consumer,Direct-to-Consumer,,ECONOMIC_ACTIVITY,ind.retail_trade.ecommerce,3,INDUSTRIES,Brands selling directly without retailers.,0,1
 ind.retail_trade.ecommerce.livestream,Livestream Shopping,Livestream Shopping,直播带货,ECONOMIC_ACTIVITY,ind.retail_trade.ecommerce,3,INDUSTRIES,"Real-time video selling, pioneered in China.",0,0
 ind.retail_trade.ecommerce.online_retail,Online Retail,Online Retail,,ECONOMIC_ACTIVITY,ind.retail_trade.ecommerce,3,INDUSTRIES,Direct online sale of goods by retailers.,0,1
 ind.retail_trade.ecommerce.social_commerce,Social Commerce,Social Commerce,社交电商,ECONOMIC_ACTIVITY,ind.retail_trade.ecommerce,3,INDUSTRIES,Selling through social media platforms.,0,1
 ind.retail_trade.franchise,Franchising,Franchising,特许经营,ECONOMIC_ACTIVITY,ind.retail_trade,2,INDUSTRIES,Licensing of a brand and operating system to franchisees.,0,1
+ind.retail_trade.grocery_retail,Grocery & Supermarkets,Grocery & Supermarkets,超市零售,INDUSTRY,ind.retail_trade,2,INDUSTRIES,"Food and daily-goods retail: supermarkets, hypermarkets, and discount grocers. High volume, thin margins.",0,1
+ind.retail_trade.luxury_goods,Luxury Goods Retail,Luxury Goods Retail,奢侈品零售,INDUSTRY,ind.retail_trade,2,INDUSTRIES,"High-end fashion, jewelry, watches, and accessories. Brand-driven, high-margin.",0,1
+ind.retail_trade.online_marketplaces,Online Marketplaces,Online Marketplaces,电商平台,INDUSTRY,ind.retail_trade,2,INDUSTRIES,"Two-sided platforms connecting buyers and sellers, monetized via commission and advertising.",0,1
 ind.retail_trade.resale,Resale & Secondhand,Resale & Secondhand,二手零售,ECONOMIC_ACTIVITY,ind.retail_trade,2,INDUSTRIES,"Thrift, consignment and recommerce of used goods.",0,1
+ind.retail_trade.specialty_retail,Specialty Retail,Specialty Retail,专卖零售,INDUSTRY,ind.retail_trade,2,INDUSTRIES,"Category-focused chains: apparel, electronics, beauty, home improvement.",0,1
 ind.retail_trade.wholesale,Wholesale Trade,Wholesale Trade,批发,INDUSTRY,ind.retail_trade,2,INDUSTRIES,Bulk sale of goods to retailers and businesses.,0,1
 ind.retail_trade.wholesale.b2b,B2B Marketplaces,B2B Marketplaces,,ECONOMIC_ACTIVITY,ind.retail_trade.wholesale,3,INDUSTRIES,Online platforms for business procurement.,0,1
 ind.retail_trade.wholesale.distributors,Distribution & Wholesale,Distribution & Wholesale,,ECONOMIC_ACTIVITY,ind.retail_trade.wholesale,3,INDUSTRIES,Intermediaries between manufacturers and retailers.,0,1

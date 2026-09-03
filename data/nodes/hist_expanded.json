@@ -3963,144 +3963,627 @@
   "id": "hist.gov_offices.yangban",
   "name": "Yangban",
   "name_en": "Yangban",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "STATUS",
+  "parent": "hist.gov_offices",
+  "description": "The hereditary aristocratic class of Joseon Korea that monopolized official posts and land through the Confucian civil-service examinations. Collapsed with the abolition of the class system under Japanese rule.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "两班",
+  "civilization": "Korea (Joseon)",
+  "social_role": "hereditary aristocratic class",
+  "functions": [
+   "held official posts",
+   "controlled land",
+   "set Confucian norms"
+  ],
+  "skills": [
+   "Confucian classics",
+   "administration",
+   "calligraphy"
+  ],
+  "technologies": [
+   "civil examination"
+  ],
+  "institutions": [
+   "Joseon state",
+   "Confucian bureaucracy"
+  ],
+  "temporal": {
+   "valid_from": "1392 CE",
+   "valid_until": "1910 CE",
+   "peak_period": "Joseon",
+   "geographic_scope": [
+    "Korea"
+   ]
+  }
  },
  {
   "id": "hist.military_roles.hwarang",
   "name": "Hwarang",
   "name_en": "Hwarang",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": "An elite youth warrior order of the Silla kingdom, blending martial training with Buddhist and Confucian moral cultivation. Central to Silla's unification of the Korean peninsula.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "花郎",
+  "civilization": "Korea (Silla)",
+  "social_role": "elite youth warrior order",
+  "functions": [
+   "martial training",
+   "military service",
+   "cultural ideals"
+  ],
+  "skills": [
+   "archery",
+   "swordsmanship",
+   "poetry"
+  ],
+  "technologies": [
+   "bow",
+   "sword"
+  ],
+  "institutions": [
+   "Silla state",
+   "Buddhist orders"
+  ],
+  "temporal": {
+   "valid_from": "576 CE",
+   "valid_until": "935 CE",
+   "peak_period": "Silla",
+   "geographic_scope": [
+    "Korea"
+   ]
+  }
  },
  {
   "id": "hist.gov_offices.devaraja",
   "name": "Devaraja (God-King)",
   "name_en": "Devaraja (God-King)",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": "The divine-kingship office of the Khmer Empire, in which the ruler was identified with a deity and legitimized by monumental temple-mountains such as Angkor Wat. Coordinated the irrigation systems that sustained the empire.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "神王",
+  "civilization": "Khmer Empire / Southeast Asia",
+  "social_role": "divine kingship",
+  "functions": [
+   "sacred kingship",
+   "temple construction",
+   "irrigation management"
+  ],
+  "skills": [
+   "ritual",
+   "hydraulic engineering",
+   "warfare"
+  ],
+  "technologies": [
+   "baray reservoirs",
+   "temple architecture"
+  ],
+  "institutions": [
+   "Angkor",
+   "Mandala polities"
+  ],
+  "temporal": {
+   "valid_from": "800 CE",
+   "valid_until": "1400 CE",
+   "peak_period": "Angkor",
+   "geographic_scope": [
+    "Cambodia",
+    "Southeast Asia"
+   ]
+  }
  },
  {
   "id": "hist.gov_offices.mongol_khan",
   "name": "Mongol Khan",
   "name_en": "Mongol Khan",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": "The elected supreme ruler of the Mongol Empire, chosen at a kurultai and bound by the yassa legal code. Commanded the largest contiguous land empire in history via a decimal army and the yam courier relay.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "蒙古大汗",
+  "civilization": "Mongol Empire",
+  "social_role": "supreme ruler / khan",
+  "functions": [
+   "elected supreme ruler",
+   "military command",
+   "law (yassa)"
+  ],
+  "skills": [
+   "horsemanship",
+   "strategy",
+   "leadership"
+  ],
+  "technologies": [
+   "composite bow",
+   "relay system (yam)"
+  ],
+  "institutions": [
+   "kurultai (assembly)",
+   "decimal army"
+  ],
+  "temporal": {
+   "valid_from": "1206 CE",
+   "valid_until": "1368 CE",
+   "peak_period": "13th c",
+   "geographic_scope": [
+    "Central Asia",
+    "Eurasia"
+   ]
+  }
  },
  {
   "id": "hist.transport_navigation.sogdian_merchant",
   "name": "Sogdian Merchant",
   "name_en": "Sogdian Merchant",
   "type": "OCCUPATION",
-  "description": null,
+  "parent": "hist.transport_navigation",
+  "description": "Iranian-speaking merchants of Sogdiana who dominated Silk Road trade between China and the West. Their caravan networks also transmitted Buddhism, Manichaeism, and writing systems across Central Asia.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "粟特商人",
+  "civilization": "Sogdiana (Central Asia)",
+  "social_role": "long-distance caravan trader",
+  "functions": [
+   "Silk Road trade",
+   "caravan organization",
+   "cultural transmission"
+  ],
+  "skills": [
+   "multilingualism",
+   "accounting",
+   "caravan management"
+  ],
+  "technologies": [
+   "camel caravans",
+   "contracts"
+  ],
+  "institutions": [
+   "caravanserais",
+   "merchant networks"
+  ],
+  "temporal": {
+   "valid_from": "400 CE",
+   "valid_until": "900 CE",
+   "peak_period": "6th–8th c",
+   "geographic_scope": [
+    "Central Asia",
+    "Silk Road"
+   ]
+  }
  },
  {
   "id": "hist.knowledge_work.mesopotamian_scribe",
   "name": "Mesopotamian Scribe",
   "name_en": "Mesopotamian Scribe",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "PROFESSION",
+  "parent": "hist.knowledge_work",
+  "description": "The cuneiform scribes who produced the earliest written records of humanity — contracts, tax accounts, and literature. Trained in the edubba school, they formed a literate elite at the core of Mesopotamian temple and palace administration.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "美索不达米亚书吏",
+  "civilization": "Mesopotamia",
+  "social_role": "cuneiform scribe / record-keeper",
+  "functions": [
+   "recorded contracts and accounts",
+   "copied literature",
+   "temple and palace administration"
+  ],
+  "skills": [
+   "cuneiform",
+   "arithmetic",
+   "Sumerian/Akkadian"
+  ],
+  "technologies": [
+   "clay tablets",
+   "stylus",
+   "sexagesimal numerals"
+  ],
+  "institutions": [
+   "temple",
+   "palace",
+   "edubba (scribe school)"
+  ],
+  "temporal": {
+   "valid_from": "3200 BCE",
+   "valid_until": "500 BCE",
+   "peak_period": "Ur III / Old Babylonian",
+   "geographic_scope": [
+    "Mesopotamia"
+   ]
+  }
  },
  {
   "id": "hist.gov_offices.aksumite_king",
   "name": "Aksumite King (Negus)",
   "name_en": "Aksumite King (Negus)",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": "The monarch of the Aksumite Empire, a major Red Sea trading power and among the first states to adopt Christianity. Issued its own coinage and erected monumental stelae.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "阿克苏姆国王",
+  "civilization": "Aksum (Ethiopia)",
+  "social_role": "sovereign monarch",
+  "functions": [
+   "rule and taxation",
+   "Red Sea trade",
+   "coinage"
+  ],
+  "skills": [
+   "statecraft",
+   "trade",
+   "monumental building"
+  ],
+  "technologies": [
+   "coinage",
+   "stela architecture"
+  ],
+  "institutions": [
+   "Aksumite court",
+   "Red Sea trade network"
+  ],
+  "temporal": {
+   "valid_from": "100 CE",
+   "valid_until": "940 CE",
+   "peak_period": "4th–6th c",
+   "geographic_scope": [
+    "Ethiopia",
+    "Horn of Africa"
+   ]
+  }
  },
  {
   "id": "hist.knowledge_work.griot",
   "name": "Griot / Jali",
   "name_en": "Griot / Jali",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "PROFESSION",
+  "parent": "hist.knowledge_work",
+  "description": "Hereditary oral historians, musicians, and praise-singers of the Mande peoples of West Africa. As living archives, they preserved royal genealogies and epics such as Sundiata for centuries before writing.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "格里奥",
+  "civilization": "West Africa (Mali / Mande)",
+  "social_role": "oral historian and praise-singer",
+  "functions": [
+   "preserved genealogies",
+   "praise-singing",
+   "mediation and counsel"
+  ],
+  "skills": [
+   "oral tradition",
+   "music",
+   "memorization"
+  ],
+  "technologies": [
+   "kora",
+   "balafon",
+   "oral epic"
+  ],
+  "institutions": [
+   "royal courts",
+   "caste of hereditary bards"
+  ],
+  "temporal": {
+   "valid_from": "1200 CE",
+   "valid_until": "present",
+   "peak_period": "Mali Empire",
+   "geographic_scope": [
+    "West Africa"
+   ]
+  }
  },
  {
   "id": "hist.knowledge_work.quipucamayoc",
   "name": "Quipucamayoc",
   "name_en": "Quipucamayoc",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "PROFESSION",
+  "parent": "hist.knowledge_work",
+  "description": "Specialists of the Inca Empire who encoded census, tribute, and historical data on quipu — knotted cords using a positional decimal system. A bureaucratic memory apparatus that functioned entirely without writing.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "结绳记事官",
+  "civilization": "Inca Empire",
+  "social_role": "knot-record keeper",
+  "functions": [
+   "recorded census and tribute on quipu",
+   "state accounting",
+   "historical record"
+  ],
+  "skills": [
+   "quipu knot-reading",
+   "accounting"
+  ],
+  "technologies": [
+   "quipu (knotted cords)",
+   "decimal system"
+  ],
+  "institutions": [
+   "Inca state administration"
+  ],
+  "temporal": {
+   "valid_from": "1400 CE",
+   "valid_until": "1572 CE",
+   "peak_period": "15th c",
+   "geographic_scope": [
+    "Andes",
+    "Peru"
+   ]
+  }
  },
  {
   "id": "hist.transport_navigation.chasqui",
   "name": "Chasqui Runner",
   "name_en": "Chasqui Runner",
   "type": "OCCUPATION",
-  "description": null,
+  "parent": "hist.transport_navigation",
+  "description": "Highly trained relay runners of the Inca Empire who carried messages and goods along the 40,000-km Qhapaq Ñan road network. Teams at tambo posts relayed information across the Andes in days.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "查斯基信使",
+  "civilization": "Inca Empire",
+  "social_role": "relay messenger",
+  "functions": [
+   "carried messages and goods",
+   "relay over road network"
+  ],
+  "skills": [
+   "endurance running",
+   "memorization"
+  ],
+  "technologies": [
+   "Qhapaq Ñan road system",
+   "quipu messages"
+  ],
+  "institutions": [
+   "Inca state",
+   "tambo relay stations"
+  ],
+  "temporal": {
+   "valid_from": "1400 CE",
+   "valid_until": "1572 CE",
+   "peak_period": "15th c",
+   "geographic_scope": [
+    "Andes"
+   ]
+  }
  },
  {
   "id": "hist.religious_roles.maya_scribe",
   "name": "Maya Scribe",
   "name_en": "Maya Scribe",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "PROFESSION",
+  "parent": "hist.religious_roles",
+  "description": "Literate elite specialists of the Classic Maya who composed hieroglyphic texts recording dynastic histories, astronomy, and ritual on stone monuments and bark-paper codices. Their script is the most complete writing system of the pre-Columbian Americas.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "玛雅书吏",
+  "civilization": "Maya civilization",
+  "social_role": "literate elite scribe",
+  "functions": [
+   "recorded dynastic history",
+   "calendar and ritual texts",
+   "painted codices"
+  ],
+  "skills": [
+   "hieroglyphic writing",
+   "calendar mathematics",
+   "painting"
+  ],
+  "technologies": [
+   "bark-paper codices",
+   "long-count calendar"
+  ],
+  "institutions": [
+   "royal courts",
+   "priesthood"
+  ],
+  "temporal": {
+   "valid_from": "300 CE",
+   "valid_until": "900 CE",
+   "peak_period": "Classic period",
+   "geographic_scope": [
+    "Mesoamerica"
+   ]
+  }
  },
  {
   "id": "hist.religious_roles.vestal_virgin",
   "name": "Vestal Virgin",
   "name_en": "Vestal Virgin",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": "Priestesses of Vesta who tended Rome's sacred hearth, on whose purity the city's fate was believed to depend. Held unusual legal autonomy in a deeply patriarchal society.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "维斯塔贞女",
+  "civilization": "Ancient Rome",
+  "social_role": "priestess of Vesta",
+  "functions": [
+   "tended sacred fire",
+   "ritual purity",
+   "guarded wills and treaties"
+  ],
+  "skills": [
+   "ritual",
+   "Latin"
+  ],
+  "technologies": [
+   "sacred hearth"
+  ],
+  "institutions": [
+   "Collegium Pontificum",
+   "Roman state religion"
+  ],
+  "temporal": {
+   "valid_from": "753 BCE",
+   "valid_until": "394 CE",
+   "peak_period": "Republic",
+   "geographic_scope": [
+    "Rome"
+   ]
+  }
  },
  {
   "id": "hist.military_roles.janissary",
   "name": "Janissary",
   "name_en": "Janissary",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": "The elite standing infantry of the Ottoman Empire, originally recruited through the devshirme levy of Christian boys. Among Europe's first professional gunpowder armies; disbanded by force in 1826.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "耶尼切里",
+  "civilization": "Ottoman Empire",
+  "social_role": "elite infantry corps",
+  "functions": [
+   "elite infantry",
+   "palace guard",
+   "artillery"
+  ],
+  "skills": [
+   "musketry",
+   "drill"
+  ],
+  "technologies": [
+   "matchlock",
+   "cannon"
+  ],
+  "institutions": [
+   "devshirme levy",
+   "Ottoman state"
+  ],
+  "temporal": {
+   "valid_from": "1363 CE",
+   "valid_until": "1826 CE",
+   "peak_period": "16th c",
+   "geographic_scope": [
+    "Ottoman Empire"
+   ]
+  }
  },
  {
   "id": "hist.military_roles.mamluk",
   "name": "Mamluk",
   "name_en": "Mamluk",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": "Enslaved soldiers, mostly Turkic and Circassian, who rose to become the ruling military elite of Egypt. Defeated the Mongols at Ain Jalut in 1260 and ruled a sultanate until the 16th century.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "马穆鲁克",
+  "civilization": "Egypt / Islamic world",
+  "social_role": "slave-soldier / military elite",
+  "functions": [
+   "cavalry warfare",
+   "seized political power",
+   "governance"
+  ],
+  "skills": [
+   "horsemanship",
+   "swordsmanship"
+  ],
+  "technologies": [
+   "cavalry armor",
+   "composite bow"
+  ],
+  "institutions": [
+   "Mamluk sultanate",
+   "military households"
+  ],
+  "temporal": {
+   "valid_from": "800 CE",
+   "valid_until": "1811 CE",
+   "peak_period": "13th–16th c",
+   "geographic_scope": [
+    "Egypt",
+    "Levant"
+   ]
+  }
  },
  {
   "id": "hist.military_roles.viking_raider",
   "name": "Viking Raider",
   "name_en": "Viking Raider",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": "Seaborne Norse warriors who raided, traded, and settled from Ireland to the Caspian and reached North America. The longship's shallow draft made their mobility decisive.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "维京掠夺者",
+  "civilization": "Norse / Scandinavia",
+  "social_role": "seaborne raider and trader",
+  "functions": [
+   "raiding",
+   "trade",
+   "settlement and exploration"
+  ],
+  "skills": [
+   "seamanship",
+   "combat",
+   "navigation"
+  ],
+  "technologies": [
+   "longship",
+   "axe",
+   "sword"
+  ],
+  "institutions": [
+   "war bands",
+   "thing (assembly)"
+  ],
+  "temporal": {
+   "valid_from": "793 CE",
+   "valid_until": "1066 CE",
+   "peak_period": "9th–10th c",
+   "geographic_scope": [
+    "Scandinavia",
+    "North Atlantic",
+    "Europe"
+   ]
+  }
  },
  {
   "id": "hist.gov_offices.scholar_official",
   "name": "Scholar-Official (Shidafu)",
   "name_en": "Scholar-Official (Shidafu)",
-  "type": "OCCUPATION",
-  "description": null,
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": "The Confucian scholar-bureaucrats selected by the imperial examinations who administered China for over a millennium. Fused political office with moral and literary authority.",
   "historical": true,
-  "status": "EXTINCT"
+  "status": "EXTINCT",
+  "name_zh": "士大夫",
+  "civilization": "Imperial China",
+  "social_role": "civil-service scholar-bureaucrat",
+  "functions": [
+   "administered state",
+   "adjudicated",
+   "moral leadership"
+  ],
+  "skills": [
+   "Confucian classics",
+   "essay",
+   "calligraphy"
+  ],
+  "technologies": [
+   "civil examination",
+   "woodblock printing"
+  ],
+  "institutions": [
+   "Confucian bureaucracy",
+   "academies"
+  ],
+  "temporal": {
+   "valid_from": "605 CE",
+   "valid_until": "1905 CE",
+   "peak_period": "Song–Ming",
+   "geographic_scope": [
+    "China"
+   ]
+  }
  }
 ]

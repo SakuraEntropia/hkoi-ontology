@@ -11733,11 +11733,13 @@ hist.food_provisioning_occupations.miller,Node;OCCUPATION,hist.food_provisioning
 hist.food_provisioning_occupations.peddler,Node;OCCUPATION,hist.food_provisioning_occupations.peddler,Peddler,货郎,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.food_provisioning_occupations.water_carrier,Node;OCCUPATION,hist.food_provisioning_occupations.water_carrier,Water Carrier,送水人,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices,Node;OFFICE,hist.gov_offices,Government & Political Offices,政府与政治职位,OFFICE,HISTORICAL_OCCUPATIONS,1
+hist.gov_offices.aksumite_king,Node;OFFICE,hist.gov_offices.aksumite_king,Aksumite King (Negus),阿克苏姆国王,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.caliph,Node;OFFICE,hist.gov_offices.caliph,Caliph,哈里发,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.chancellor,Node;OFFICE,hist.gov_offices.chancellor,Chancellor,宰相,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.chinese_emperor,Node;OFFICE,hist.gov_offices.chinese_emperor,Chinese Emperor (Huangdi),中国皇帝,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.court_astrologer,Node;OFFICE,hist.gov_offices.court_astrologer,Court Astrologer,宫廷占星官,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.daimyo,Node;STATUS,hist.gov_offices.daimyo,Daimyō,大名,STATUS,HISTORICAL_OCCUPATIONS,2
+hist.gov_offices.devaraja,Node;OFFICE,hist.gov_offices.devaraja,Devaraja (God-King),神王,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.emperor_roman,Node;OFFICE,hist.gov_offices.emperor_roman,Roman Emperor,罗马皇帝,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.feudal_lord,Node;STATUS,hist.gov_offices.feudal_lord,Feudal Lord,封建领主,STATUS,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.herald,Node;OFFICE,hist.gov_offices.herald,Herald,传令官,OFFICE,HISTORICAL_OCCUPATIONS,2
@@ -11745,13 +11747,16 @@ hist.gov_offices.imperial_censor,Node;OFFICE,hist.gov_offices.imperial_censor,Im
 hist.gov_offices.japanese_emperor,Node;OFFICE,hist.gov_offices.japanese_emperor,Japanese Emperor (Tennō),日本天皇,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.king,Node;OFFICE,hist.gov_offices.king,King,国王,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.magistrate,Node;OFFICE,hist.gov_offices.magistrate,Magistrate,地方官,OFFICE,HISTORICAL_OCCUPATIONS,2
+hist.gov_offices.mongol_khan,Node;OFFICE,hist.gov_offices.mongol_khan,Mongol Khan,蒙古大汗,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.pharaoh,Node;OFFICE,hist.gov_offices.pharaoh,Pharaoh,法老,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.royal_genealogist,Node;OFFICE,hist.gov_offices.royal_genealogist,Royal Genealogist,王室谱系官,OFFICE,HISTORICAL_OCCUPATIONS,2
+hist.gov_offices.scholar_official,Node;OFFICE,hist.gov_offices.scholar_official,Scholar-Official (Shidafu),士大夫,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.shogun,Node;OFFICE,hist.gov_offices.shogun,Shōgun,幕府将军,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.sultan,Node;OFFICE,hist.gov_offices.sultan,Sultan,苏丹,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.tax_collector,Node;OFFICE,hist.gov_offices.tax_collector,Tax Collector,税吏,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.tribute_collector,Node;OFFICE,hist.gov_offices.tribute_collector,Tribute Collector,贡赋征收者,OFFICE,HISTORICAL_OCCUPATIONS,2
 hist.gov_offices.vizier,Node;OFFICE,hist.gov_offices.vizier,Vizier,维齐尔,OFFICE,HISTORICAL_OCCUPATIONS,2
+hist.gov_offices.yangban,Node;STATUS,hist.gov_offices.yangban,Yangban,两班,STATUS,HISTORICAL_OCCUPATIONS,2
 hist.health_occupations,Node;SECTOR,hist.health_occupations,Historical Healing & Body Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1
 hist.health_occupations.apothecary,Node;OCCUPATION,hist.health_occupations.apothecary,Apothecary,药剂师,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.health_occupations.barber_surgeon,Node;OCCUPATION,hist.health_occupations.barber_surgeon,Barber-Surgeon,理发师兼外科医生,OCCUPATION,HISTORICAL_OCCUPATIONS,2
@@ -11781,10 +11786,13 @@ hist.industrial_occupations.stoker,Node;OCCUPATION,hist.industrial_occupations.s
 hist.knowledge_work,Node;PROFESSION,hist.knowledge_work,"Writing, Information & Knowledge Work",书写信息与知识工作,PROFESSION,HISTORICAL_OCCUPATIONS,1
 hist.knowledge_work.abacus_calculator,Node;PROFESSION,hist.knowledge_work.abacus_calculator,Abacus Calculator,算盘计算师,PROFESSION,HISTORICAL_OCCUPATIONS,2
 hist.knowledge_work.census_enumerator,Node;OCCUPATION,hist.knowledge_work.census_enumerator,Census Enumerator,人口普查员,OCCUPATION,HISTORICAL_OCCUPATIONS,2
+hist.knowledge_work.griot,Node;PROFESSION,hist.knowledge_work.griot,Griot / Jali,格里奥,PROFESSION,HISTORICAL_OCCUPATIONS,2
 hist.knowledge_work.logarithm_table_calculator,Node;PROFESSION,hist.knowledge_work.logarithm_table_calculator,Logarithm-Table Calculator,对数表计算员,PROFESSION,HISTORICAL_OCCUPATIONS,2
 hist.knowledge_work.manuscript_corrector,Node;PROFESSION,hist.knowledge_work.manuscript_corrector,Manuscript Corrector,手稿校对者,PROFESSION,HISTORICAL_OCCUPATIONS,2
+hist.knowledge_work.mesopotamian_scribe,Node;PROFESSION,hist.knowledge_work.mesopotamian_scribe,Mesopotamian Scribe,美索不达米亚书吏,PROFESSION,HISTORICAL_OCCUPATIONS,2
 hist.knowledge_work.papyrus_maker,Node;CRAFT,hist.knowledge_work.papyrus_maker,Papyrus Maker,纸莎草纸匠,CRAFT,HISTORICAL_OCCUPATIONS,2
 hist.knowledge_work.postal_rider,Node;OCCUPATION,hist.knowledge_work.postal_rider,Postal Rider,驿马信使,OCCUPATION,HISTORICAL_OCCUPATIONS,2
+hist.knowledge_work.quipucamayoc,Node;PROFESSION,hist.knowledge_work.quipucamayoc,Quipucamayoc,结绳记事官,PROFESSION,HISTORICAL_OCCUPATIONS,2
 hist.knowledge_work.royal_courier,Node;OCCUPATION,hist.knowledge_work.royal_courier,Royal Courier,皇家信使,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.knowledge_work.scroll_maker,Node;CRAFT,hist.knowledge_work.scroll_maker,Scroll Maker,卷轴制作匠,CRAFT,HISTORICAL_OCCUPATIONS,2
 hist.lighting_urban_occupations,Node;SECTOR,hist.lighting_urban_occupations,Lighting & Urban Services Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1
@@ -11835,10 +11843,13 @@ hist.military_roles.archer,Node;MILITARY_ROLE,hist.military_roles.archer,Archer,
 hist.military_roles.chariot_warrior,Node;MILITARY_ROLE,hist.military_roles.chariot_warrior,Chariot Warrior,战车武士,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.crossbowman,Node;MILITARY_ROLE,hist.military_roles.crossbowman,Crossbowman,弩手,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.hoplite,Node;MILITARY_ROLE,hist.military_roles.hoplite,Hoplite,重装步兵,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
+hist.military_roles.hwarang,Node;MILITARY_ROLE,hist.military_roles.hwarang,Hwarang,花郎,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
+hist.military_roles.janissary,Node;MILITARY_ROLE,hist.military_roles.janissary,Janissary,耶尼切里,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.knight,Node;MILITARY_ROLE,hist.military_roles.knight,Knight,骑士,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.landsknecht,Node;MILITARY_ROLE,hist.military_roles.landsknecht,Landsknecht,德意志雇佣兵,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.legionary,Node;MILITARY_ROLE,hist.military_roles.legionary,Legionary,军团士兵,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.longbowman,Node;MILITARY_ROLE,hist.military_roles.longbowman,Longbowman,长弓手,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
+hist.military_roles.mamluk,Node;MILITARY_ROLE,hist.military_roles.mamluk,Mamluk,马穆鲁克,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.man_at_arms,Node;MILITARY_ROLE,hist.military_roles.man_at_arms,Man-at-Arms,重甲武士,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.military_drummer,Node;MILITARY_ROLE,hist.military_roles.military_drummer,Military Drummer,军中鼓手,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.musketeer,Node;MILITARY_ROLE,hist.military_roles.musketeer,Musketeer,火枪手,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
@@ -11846,6 +11857,7 @@ hist.military_roles.pikeman,Node;MILITARY_ROLE,hist.military_roles.pikeman,Pikem
 hist.military_roles.samurai,Node;MILITARY_ROLE,hist.military_roles.samurai,Samurai,武士,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.siege_engineer,Node;MILITARY_ROLE,hist.military_roles.siege_engineer,Siege Engineer,攻城技师,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.standard_bearer,Node;MILITARY_ROLE,hist.military_roles.standard_bearer,Standard Bearer,旗手,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
+hist.military_roles.viking_raider,Node;MILITARY_ROLE,hist.military_roles.viking_raider,Viking Raider,维京掠夺者,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.military_roles.war_elephant_handler,Node;MILITARY_ROLE,hist.military_roles.war_elephant_handler,War Elephant Handler,战象驭手,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.occult_occupations,Node;SECTOR,hist.occult_occupations,Proto-Scientific & Occult Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1
 hist.occult_occupations.alchemist,Node;OCCUPATION,hist.occult_occupations.alchemist,Alchemist,炼金术士,OCCUPATION,HISTORICAL_OCCUPATIONS,2
@@ -11887,6 +11899,7 @@ hist.religious_roles.diviner,Node;RELIGIOUS_ROLE,hist.religious_roles.diviner,Di
 hist.religious_roles.egyptian_priest,Node;RELIGIOUS_ROLE,hist.religious_roles.egyptian_priest,Egyptian Priest,埃及祭司,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.religious_roles.high_priest,Node;RELIGIOUS_ROLE,hist.religious_roles.high_priest,High Priest,大祭司,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.religious_roles.inquisition_official,Node;RELIGIOUS_ROLE,hist.religious_roles.inquisition_official,Inquisition Official,宗教裁判官,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
+hist.religious_roles.maya_scribe,Node;PROFESSION,hist.religious_roles.maya_scribe,Maya Scribe,玛雅书吏,PROFESSION,HISTORICAL_OCCUPATIONS,2
 hist.religious_roles.monastic_scribe,Node;PROFESSION,hist.religious_roles.monastic_scribe,Monastic Scribe,寺院抄写员,PROFESSION,HISTORICAL_OCCUPATIONS,2
 hist.religious_roles.oracle,Node;RELIGIOUS_ROLE,hist.religious_roles.oracle,Oracle,神谕/神媒,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.religious_roles.oracle_interpreter,Node;RELIGIOUS_ROLE,hist.religious_roles.oracle_interpreter,Oracle Interpreter,神谕解读者,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
@@ -11896,6 +11909,7 @@ hist.religious_roles.religious_cantor,Node;RELIGIOUS_ROLE,hist.religious_roles.r
 hist.religious_roles.sacrificial_specialist,Node;RELIGIOUS_ROLE,hist.religious_roles.sacrificial_specialist,Sacrificial Specialist,祭牲执事,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.religious_roles.shaman,Node;RELIGIOUS_ROLE,hist.religious_roles.shaman,Shaman,萨满,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.religious_roles.temple_attendant,Node;RELIGIOUS_ROLE,hist.religious_roles.temple_attendant,Temple Attendant,庙祝/神殿侍者,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
+hist.religious_roles.vestal_virgin,Node;RELIGIOUS_ROLE,hist.religious_roles.vestal_virgin,Vestal Virgin,维斯塔贞女,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,2
 hist.scribal_occupations,Node;SECTOR,hist.scribal_occupations,Scribal & Documentary Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1
 hist.scribal_occupations.calligrapher,Node;OCCUPATION,hist.scribal_occupations.calligrapher,Court Calligrapher,宫廷书家,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.scribal_occupations.copyist,Node;OCCUPATION,hist.scribal_occupations.copyist,Copyist,抄写员,OCCUPATION,HISTORICAL_OCCUPATIONS,2
@@ -11926,6 +11940,7 @@ hist.textile_occupations.weaver,Node;OCCUPATION,hist.textile_occupations.weaver,
 hist.transport_navigation,Node;OCCUPATION,hist.transport_navigation,Transportation & Navigation,运输与导航,OCCUPATION,HISTORICAL_OCCUPATIONS,1
 hist.transport_navigation.carriage_maker,Node;CRAFT,hist.transport_navigation.carriage_maker,Carriage Maker,马车制造匠,CRAFT,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.charioteer,Node;OCCUPATION,hist.transport_navigation.charioteer,Charioteer,战车御者,OCCUPATION,HISTORICAL_OCCUPATIONS,2
+hist.transport_navigation.chasqui,Node;OCCUPATION,hist.transport_navigation.chasqui,Chasqui Runner,查斯基信使,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.coachman,Node;OCCUPATION,hist.transport_navigation.coachman,Coachman,马车夫,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.galley_rower,Node;OCCUPATION,hist.transport_navigation.galley_rower,Galley Rower,帆桨船桨手,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.lighthouse_keeper,Node;OCCUPATION,hist.transport_navigation.lighthouse_keeper,Lighthouse Keeper,灯塔看守,OCCUPATION,HISTORICAL_OCCUPATIONS,2
@@ -11936,6 +11951,7 @@ hist.transport_navigation.porter,Node;OCCUPATION,hist.transport_navigation.porte
 hist.transport_navigation.sailmaker,Node;CRAFT,hist.transport_navigation.sailmaker,Sailmaker,制帆匠,CRAFT,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.ships_telegraph_operator,Node;OCCUPATION,hist.transport_navigation.ships_telegraph_operator,Ship's Telegraph Operator,船用电报员,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.shipwright,Node;CRAFT,hist.transport_navigation.shipwright,Shipwright,造船匠,CRAFT,HISTORICAL_OCCUPATIONS,2
+hist.transport_navigation.sogdian_merchant,Node;OCCUPATION,hist.transport_navigation.sogdian_merchant,Sogdian Merchant,粟特商人,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.stable_master,Node;OCCUPATION,hist.transport_navigation.stable_master,Stable Master,马厩总管,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.stagecoach_driver,Node;OCCUPATION,hist.transport_navigation.stagecoach_driver,Stagecoach Driver,驿马车夫,OCCUPATION,HISTORICAL_OCCUPATIONS,2
 hist.transport_navigation.traditional_navigator,Node;PROFESSION,hist.transport_navigation.traditional_navigator,Traditional Navigator,传统航海师,PROFESSION,HISTORICAL_OCCUPATIONS,2
@@ -12045,18 +12061,24 @@ ind.defense_space.defense,Node;INDUSTRY,ind.defense_space.defense,Defense Indust
 ind.defense_space.defense.aerospace_defense,Node;ECONOMIC_ACTIVITY,ind.defense_space.defense.aerospace_defense,Aerospace Defense,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.defense_space.defense.c4isr,Node;ECONOMIC_ACTIVITY,ind.defense_space.defense.c4isr,C4ISR Systems,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.defense_space.defense.cyber_defense,Node;ECONOMIC_ACTIVITY,ind.defense_space.defense.cyber_defense,Defense Cybersecurity,,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.defense_space.defense.defense_services,Node;INDUSTRY,ind.defense_space.defense.defense_services,Defense Services & Logistics,防务服务与后勤,INDUSTRY,INDUSTRIES,3
 ind.defense_space.defense.land,Node;ECONOMIC_ACTIVITY,ind.defense_space.defense.land,Land Defense Systems,,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.defense_space.defense.land_systems,Node;INDUSTRY,ind.defense_space.defense.land_systems,Land Systems,地面系统,INDUSTRY,INDUSTRIES,3
+ind.defense_space.defense.missile_defense,Node;INDUSTRY,ind.defense_space.defense.missile_defense,Missiles & Missile Defense,导弹与导弹防御,INDUSTRY,INDUSTRIES,3
 ind.defense_space.defense.missiles,Node;ECONOMIC_ACTIVITY,ind.defense_space.defense.missiles,Missiles & Guided Weapons,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.defense_space.defense.naval,Node;ECONOMIC_ACTIVITY,ind.defense_space.defense.naval,Naval Defense Systems,,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.defense_space.defense.naval_systems,Node;INDUSTRY,ind.defense_space.defense.naval_systems,Naval Systems,海军系统,INDUSTRY,INDUSTRIES,3
 ind.defense_space.defense.services,Node;SERVICE,ind.defense_space.defense.services,Defense Services & Logistics,,SERVICE,INDUSTRIES,3
 ind.defense_space.defense.small_arms,Node;ECONOMIC_ACTIVITY,ind.defense_space.defense.small_arms,Small Arms & Ammunition,枪械弹药,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.defense_space.space,Node;INDUSTRY,ind.defense_space.space,Space Industry,航天,INDUSTRY,INDUSTRIES,2
 ind.defense_space.space.earth_observation,Node;ECONOMIC_ACTIVITY,ind.defense_space.space.earth_observation,Earth Observation,对地观测,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.defense_space.space.ground_segment,Node;ECONOMIC_ACTIVITY,ind.defense_space.space.ground_segment,Ground Segment & Stations,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.defense_space.space.launch,Node;ECONOMIC_ACTIVITY,ind.defense_space.space.launch,Launch Services,火箭发射,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.defense_space.space.launch_services,Node;INDUSTRY,ind.defense_space.space.launch_services,Launch Services,发射服务,INDUSTRY,INDUSTRIES,3
 ind.defense_space.space.satellite_manufacturing,Node;ECONOMIC_ACTIVITY,ind.defense_space.space.satellite_manufacturing,Satellite Manufacturing,卫星制造,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.defense_space.space.satellite_operations,Node;ECONOMIC_ACTIVITY,ind.defense_space.space.satellite_operations,Satellite Operations,卫星运营,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.defense_space.space.space_logistics,Node;EMERGING_FIELD,ind.defense_space.space.space_logistics,Space Logistics & Servicing,太空物流,EMERGING_FIELD,INDUSTRIES,3
+ind.defense_space.space.space_services,Node;INDUSTRY,ind.defense_space.space.space_services,Space Services & In-Orbit,太空服务,INDUSTRY,INDUSTRIES,3
 ind.defense_space.space.space_tourism,Node;EMERGING_FIELD,ind.defense_space.space.space_tourism,Space Tourism,太空旅游,EMERGING_FIELD,INDUSTRIES,3
 ind.education,Node;SECTOR,ind.education,Education & Training,教育,SECTOR,INDUSTRIES,1
 ind.education.adult,Node;ECONOMIC_ACTIVITY,ind.education.adult,Adult & Continuing Education,成人教育,ECONOMIC_ACTIVITY,INDUSTRIES,2
@@ -12134,6 +12156,9 @@ ind.financial_services.capital_markets.derivatives,Node;ECONOMIC_ACTIVITY,ind.fi
 ind.financial_services.capital_markets.equities,Node;ECONOMIC_ACTIVITY,ind.financial_services.capital_markets.equities,Equities,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.financial_services.capital_markets.exchanges,Node;ECONOMIC_ACTIVITY,ind.financial_services.capital_markets.exchanges,Exchanges,交易所,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.financial_services.capital_markets.fixed_income,Node;ECONOMIC_ACTIVITY,ind.financial_services.capital_markets.fixed_income,Fixed Income,债券,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.financial_services.clearing_settlement,Node;INDUSTRY,ind.financial_services.clearing_settlement,Clearing & Settlement,清算结算,INDUSTRY,INDUSTRIES,2
+ind.financial_services.consumer_finance,Node;INDUSTRY,ind.financial_services.consumer_finance,Consumer Finance,消费金融,INDUSTRY,INDUSTRIES,2
+ind.financial_services.custody_services,Node;INDUSTRY,ind.financial_services.custody_services,Custody & Asset Servicing,资产托管,INDUSTRY,INDUSTRIES,2
 ind.financial_services.fintech,Node;INDUSTRY,ind.financial_services.fintech,Fintech,金融科技,INDUSTRY,INDUSTRIES,2
 ind.financial_services.fintech.crowdfunding,Node;ECONOMIC_ACTIVITY,ind.financial_services.fintech.crowdfunding,Crowdfunding,众筹,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.financial_services.fintech.defi,Node;EMERGING_FIELD,ind.financial_services.fintech.defi,Decentralized Finance,去中心化金融,EMERGING_FIELD,INDUSTRIES,3
@@ -12148,11 +12173,17 @@ ind.financial_services.insurance.life,Node;ECONOMIC_ACTIVITY,ind.financial_servi
 ind.financial_services.insurance.property_casualty,Node;ECONOMIC_ACTIVITY,ind.financial_services.insurance.property_casualty,Property & Casualty Insurance,财产险,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.financial_services.insurance.reinsurance,Node;ECONOMIC_ACTIVITY,ind.financial_services.insurance.reinsurance,Reinsurance,再保险,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.financial_services.insurance.takaful,Node;ECONOMIC_ACTIVITY,ind.financial_services.insurance.takaful,Takaful,,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.financial_services.mortgage_lending,Node;INDUSTRY,ind.financial_services.mortgage_lending,Mortgage Lending,抵押贷款,INDUSTRY,INDUSTRIES,2
 ind.financial_services.payments,Node;INDUSTRY,ind.financial_services.payments,Payments,支付,INDUSTRY,INDUSTRIES,2
 ind.financial_services.payments.bnpl,Node;ECONOMIC_ACTIVITY,ind.financial_services.payments.bnpl,Buy Now Pay Later,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.financial_services.payments.card_networks,Node;ECONOMIC_ACTIVITY,ind.financial_services.payments.card_networks,Card Networks,卡组织,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.financial_services.payments.mobile,Node;ECONOMIC_ACTIVITY,ind.financial_services.payments.mobile,Mobile Payments,移动支付,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.financial_services.payments.remittances,Node;ECONOMIC_ACTIVITY,ind.financial_services.payments.remittances,Remittances,汇款,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.financial_services.private_equity,Node;INDUSTRY,ind.financial_services.private_equity,Private Equity,私募股权,INDUSTRY,INDUSTRIES,2
+ind.financial_services.securities_exchanges,Node;INDUSTRY,ind.financial_services.securities_exchanges,Securities Exchanges,证券交易所,INDUSTRY,INDUSTRIES,2
+ind.financial_services.sovereign_wealth,Node;INDUSTRY,ind.financial_services.sovereign_wealth,Sovereign Wealth & Public Funds,主权财富基金,INDUSTRY,INDUSTRIES,2
+ind.financial_services.venture_capital,Node;INDUSTRY,ind.financial_services.venture_capital,Venture Capital,风险投资,INDUSTRY,INDUSTRIES,2
+ind.financial_services.wealth_management,Node;INDUSTRY,ind.financial_services.wealth_management,Wealth Management,财富管理,INDUSTRY,INDUSTRIES,2
 ind.fishing,Node;SECTOR,ind.fishing,Fishing & Aquaculture,渔业,SECTOR,INDUSTRIES,1
 ind.fishing.aquaculture,Node;INDUSTRY,ind.fishing.aquaculture,Aquaculture,水产养殖,INDUSTRY,INDUSTRIES,2
 ind.fishing.aquaculture.crustaceans,Node;ECONOMIC_ACTIVITY,ind.fishing.aquaculture.crustaceans,Shrimp & Crustacean Farming,,ECONOMIC_ACTIVITY,INDUSTRIES,3
@@ -12183,6 +12214,8 @@ ind.forestry.urban_forestry,Node;ECONOMIC_ACTIVITY,ind.forestry.urban_forestry,U
 ind.forestry.wildfire_management,Node;ECONOMIC_ACTIVITY,ind.forestry.wildfire_management,Wildfire & Forest Health Services,,ECONOMIC_ACTIVITY,INDUSTRIES,2
 ind.hospitality_tourism,Node;SECTOR,ind.hospitality_tourism,"Hospitality, Food & Tourism",酒店餐饮旅游,SECTOR,INDUSTRIES,1
 ind.hospitality_tourism.casinos,Node;INDUSTRY,ind.hospitality_tourism.casinos,Casino & Gaming Resorts,赌场,INDUSTRY,INDUSTRIES,2
+ind.hospitality_tourism.cruise_industry,Node;INDUSTRY,ind.hospitality_tourism.cruise_industry,Cruise Lines,邮轮业,INDUSTRY,INDUSTRIES,2
+ind.hospitality_tourism.events_meetings,Node;INDUSTRY,ind.hospitality_tourism.events_meetings,"Events, Meetings & Conventions",会展业,INDUSTRY,INDUSTRIES,2
 ind.hospitality_tourism.food_service,Node;INDUSTRY,ind.hospitality_tourism.food_service,Food Service,餐饮,INDUSTRY,INDUSTRIES,2
 ind.hospitality_tourism.food_service.bars,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.food_service.bars,Bars & Nightlife,酒吧,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.hospitality_tourism.food_service.cafes,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.food_service.cafes,Cafés & Coffeehouses,咖啡馆,ECONOMIC_ACTIVITY,INDUSTRIES,3
@@ -12198,6 +12231,7 @@ ind.hospitality_tourism.lodging.hotels,Node;ECONOMIC_ACTIVITY,ind.hospitality_to
 ind.hospitality_tourism.lodging.resorts,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.lodging.resorts,Resorts,度假村,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.hospitality_tourism.lodging.ryokan,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.lodging.ryokan,Ryokan,日式旅馆,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.hospitality_tourism.lodging.vacation_rentals,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.lodging.vacation_rentals,Vacation Rentals,民宿,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.hospitality_tourism.restaurants,Node;INDUSTRY,ind.hospitality_tourism.restaurants,Restaurants & Catering,餐饮,INDUSTRY,INDUSTRIES,2
 ind.hospitality_tourism.tourism,Node;INDUSTRY,ind.hospitality_tourism.tourism,Tourism & Travel Services,旅游,INDUSTRY,INDUSTRIES,2
 ind.hospitality_tourism.tourism.adventure_tourism,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism.adventure_tourism,Adventure Tourism,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.hospitality_tourism.tourism.cruise,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism.cruise,Cruise Industry,邮轮,ECONOMIC_ACTIVITY,INDUSTRIES,3
@@ -12210,13 +12244,20 @@ ind.hospitality_tourism.tourism.pilgrimage,Node;ECONOMIC_ACTIVITY,ind.hospitalit
 ind.hospitality_tourism.tourism.theme_parks,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism.theme_parks,Theme Parks & Attractions,主题公园,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.hospitality_tourism.tourism.tour_operators,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism.tour_operators,Tour Operators,旅行社,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.hospitality_tourism.tourism.travel_agencies,Node;ECONOMIC_ACTIVITY,ind.hospitality_tourism.tourism.travel_agencies,Travel Agencies,票务代理,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.hospitality_tourism.travel_services,Node;INDUSTRY,ind.hospitality_tourism.travel_services,Travel Agencies & Tour Operators,旅行社与旅游运营,INDUSTRY,INDUSTRIES,2
 ind.information_technology,Node;SECTOR,ind.information_technology,Information & Communications Technology,信息通信技术,SECTOR,INDUSTRIES,1
 ind.information_technology.ai,Node;INDUSTRY,ind.information_technology.ai,Artificial Intelligence,人工智能,INDUSTRY,INDUSTRIES,2
+ind.information_technology.ai.ai_applications,Node;INDUSTRY,ind.information_technology.ai.ai_applications,Applied AI Solutions,AI行业应用,INDUSTRY,INDUSTRIES,3
+ind.information_technology.ai.ai_infrastructure,Node;INDUSTRY,ind.information_technology.ai.ai_infrastructure,AI Infrastructure,AI基础设施,INDUSTRY,INDUSTRIES,3
+ind.information_technology.ai.ai_safety,Node;INDUSTRY,ind.information_technology.ai.ai_safety,AI Safety & Alignment,AI安全与对齐,INDUSTRY,INDUSTRIES,3
 ind.information_technology.ai.computer_vision,Node;ECONOMIC_ACTIVITY,ind.information_technology.ai.computer_vision,Computer Vision,计算机视觉,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.information_technology.ai.edge_ai,Node;INDUSTRY,ind.information_technology.ai.edge_ai,Edge & On-Device AI,边缘AI,INDUSTRY,INDUSTRIES,3
 ind.information_technology.ai.foundation_models,Node;EMERGING_FIELD,ind.information_technology.ai.foundation_models,Foundation Models,,EMERGING_FIELD,INDUSTRIES,3
 ind.information_technology.ai.generative,Node;EMERGING_FIELD,ind.information_technology.ai.generative,Generative AI,生成式AI,EMERGING_FIELD,INDUSTRIES,3
+ind.information_technology.ai.generative_ai_media,Node;INDUSTRY,ind.information_technology.ai.generative_ai_media,Generative AI & Synthetic Media,生成式AI与合成媒体,INDUSTRY,INDUSTRIES,3
 ind.information_technology.ai.ml_platforms,Node;ECONOMIC_ACTIVITY,ind.information_technology.ai.ml_platforms,Machine Learning Platforms,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.information_technology.ai.mlops,Node;ECONOMIC_ACTIVITY,ind.information_technology.ai.mlops,MLOps,,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.information_technology.ai.model_development,Node;INDUSTRY,ind.information_technology.ai.model_development,AI Model Development,AI模型开发,INDUSTRY,INDUSTRIES,3
 ind.information_technology.ai.nlp,Node;ECONOMIC_ACTIVITY,ind.information_technology.ai.nlp,Natural Language Processing,自然语言处理,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.information_technology.data_analytics,Node;INDUSTRY,ind.information_technology.data_analytics,Data & Analytics,数据服务,INDUSTRY,INDUSTRIES,2
 ind.information_technology.data_analytics.big_data,Node;ECONOMIC_ACTIVITY,ind.information_technology.data_analytics.big_data,Big Data Analytics,,ECONOMIC_ACTIVITY,INDUSTRIES,3
@@ -12764,13 +12805,18 @@ ind.retail_trade.brick_mortar.discount,Node;ECONOMIC_ACTIVITY,ind.retail_trade.b
 ind.retail_trade.brick_mortar.luxury,Node;ECONOMIC_ACTIVITY,ind.retail_trade.brick_mortar.luxury,Luxury Retail,奢侈品零售,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.retail_trade.brick_mortar.specialty,Node;ECONOMIC_ACTIVITY,ind.retail_trade.brick_mortar.specialty,Specialty Retail,专卖店,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.retail_trade.brick_mortar.supermarkets,Node;ECONOMIC_ACTIVITY,ind.retail_trade.brick_mortar.supermarkets,Supermarkets & Grocery,超市,ECONOMIC_ACTIVITY,INDUSTRIES,3
+ind.retail_trade.department_stores,Node;INDUSTRY,ind.retail_trade.department_stores,Department Stores,百货,INDUSTRY,INDUSTRIES,2
 ind.retail_trade.ecommerce,Node;INDUSTRY,ind.retail_trade.ecommerce,E-Commerce Retail,网络零售,INDUSTRY,INDUSTRIES,2
 ind.retail_trade.ecommerce.d2c,Node;ECONOMIC_ACTIVITY,ind.retail_trade.ecommerce.d2c,Direct-to-Consumer,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.retail_trade.ecommerce.livestream,Node;ECONOMIC_ACTIVITY,ind.retail_trade.ecommerce.livestream,Livestream Shopping,直播带货,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.retail_trade.ecommerce.online_retail,Node;ECONOMIC_ACTIVITY,ind.retail_trade.ecommerce.online_retail,Online Retail,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.retail_trade.ecommerce.social_commerce,Node;ECONOMIC_ACTIVITY,ind.retail_trade.ecommerce.social_commerce,Social Commerce,社交电商,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.retail_trade.franchise,Node;ECONOMIC_ACTIVITY,ind.retail_trade.franchise,Franchising,特许经营,ECONOMIC_ACTIVITY,INDUSTRIES,2
+ind.retail_trade.grocery_retail,Node;INDUSTRY,ind.retail_trade.grocery_retail,Grocery & Supermarkets,超市零售,INDUSTRY,INDUSTRIES,2
+ind.retail_trade.luxury_goods,Node;INDUSTRY,ind.retail_trade.luxury_goods,Luxury Goods Retail,奢侈品零售,INDUSTRY,INDUSTRIES,2
+ind.retail_trade.online_marketplaces,Node;INDUSTRY,ind.retail_trade.online_marketplaces,Online Marketplaces,电商平台,INDUSTRY,INDUSTRIES,2
 ind.retail_trade.resale,Node;ECONOMIC_ACTIVITY,ind.retail_trade.resale,Resale & Secondhand,二手零售,ECONOMIC_ACTIVITY,INDUSTRIES,2
+ind.retail_trade.specialty_retail,Node;INDUSTRY,ind.retail_trade.specialty_retail,Specialty Retail,专卖零售,INDUSTRY,INDUSTRIES,2
 ind.retail_trade.wholesale,Node;INDUSTRY,ind.retail_trade.wholesale,Wholesale Trade,批发,INDUSTRY,INDUSTRIES,2
 ind.retail_trade.wholesale.b2b,Node;ECONOMIC_ACTIVITY,ind.retail_trade.wholesale.b2b,B2B Marketplaces,,ECONOMIC_ACTIVITY,INDUSTRIES,3
 ind.retail_trade.wholesale.distributors,Node;ECONOMIC_ACTIVITY,ind.retail_trade.wholesale.distributors,Distribution & Wholesale,,ECONOMIC_ACTIVITY,INDUSTRIES,3

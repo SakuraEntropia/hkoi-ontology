@@ -1,11 +1,11 @@
 # HK-OI Ontology Report
 
-Generated: 2026-09-03T08:01:22.510Z
+Generated: 2026-09-03T08:03:38.282Z
 
 ## 1. Summary
 
-- **Nodes**: 12829  (with metrics: 10213)
-- **Relations**: 16612
+- **Nodes**: 12875  (with metrics: 10213)
+- **Relations**: 16658
 
 ### By universe
 
@@ -14,12 +14,12 @@ Generated: 2026-09-03T08:01:22.510Z
 | HUMAN_KNOWLEDGE | 5771 |
 | OCCUPATIONS | 1300 |
 | ARTS_AND_CULTURE | 894 |
-| INDUSTRIES | 864 |
+| INDUSTRIES | 894 |
 | TECHNOLOGIES | 719 |
 | PRODUCTS_AND_SERVICES | 649 |
 | SPORTS_AND_GAMES | 619 |
 | MEDIA_AND_CONTENT | 437 |
-| HISTORICAL_OCCUPATIONS | 413 |
+| HISTORICAL_OCCUPATIONS | 429 |
 | SOCIAL_ROLES | 398 |
 | ACTIVITIES | 379 |
 | ORGANIZATIONS_AND_INSTITUTIONS | 359 |
@@ -31,8 +31,8 @@ Generated: 2026-09-03T08:01:22.510Z
 |---|---|
 | L0 | 13 |
 | L1 | 286 |
-| L2 | 2806 |
-| L3 | 6627 |
+| L2 | 2840 |
+| L3 | 6639 |
 | L4 | 2630 |
 | L5 | 427 |
 | L6 | 40 |
@@ -42,7 +42,7 @@ Generated: 2026-09-03T08:01:22.510Z
 | type | nodes |
 |---|---|
 | KNOWLEDGE_FIELD | 5406 |
-| OCCUPATION | 1594 |
+| OCCUPATION | 1596 |
 | TECHNOLOGY | 715 |
 | ECONOMIC_ACTIVITY | 629 |
 | PRODUCT | 556 |
@@ -54,9 +54,9 @@ Generated: 2026-09-03T08:01:22.510Z
 | INSTITUTION | 222 |
 | METHODOLOGY | 217 |
 | GAME | 207 |
+| INDUSTRY | 173 |
 | SERVICE | 167 |
 | ART_FORM | 143 |
-| INDUSTRY | 143 |
 | ART_MOVEMENT | 140 |
 | ORGANIZATION_TYPE | 136 |
 | CONTENT_TYPE | 133 |
@@ -64,13 +64,13 @@ Generated: 2026-09-03T08:01:22.510Z
 | EMERGING_FIELD | 109 |
 | MATERIAL | 69 |
 | SECTOR | 39 |
-| OFFICE | 18 |
+| OFFICE | 22 |
+| MILITARY_ROLE | 21 |
+| RELIGIOUS_ROLE | 18 |
 | CRAFT | 17 |
-| MILITARY_ROLE | 17 |
-| RELIGIOUS_ROLE | 17 |
 | UNIVERSE | 13 |
-| PROFESSION | 7 |
-| STATUS | 2 |
+| PROFESSION | 11 |
+| STATUS | 3 |
 
 ## 2. Civilization Metrics
 
@@ -199,13 +199,13 @@ Generated: 2026-09-03T08:01:22.510Z
 | ORGANIZATIONS_AND_INSTITUTIONS | 358 | ok |
 | ACTIVITIES | 378 | ok |
 | SOCIAL_ROLES | 397 | ok |
-| HISTORICAL_OCCUPATIONS | 412 | ok |
+| HISTORICAL_OCCUPATIONS | 428 | ok |
 | MEDIA_AND_CONTENT | 436 | ok |
 | SPORTS_AND_GAMES | 618 | ok |
 | PRODUCTS_AND_SERVICES | 648 | ok |
 | TECHNOLOGIES | 718 | ok |
-| INDUSTRIES | 863 | ok |
 | ARTS_AND_CULTURE | 893 | ok |
+| INDUSTRIES | 893 | ok |
 | OCCUPATIONS | 1299 | ok |
 | HUMAN_KNOWLEDGE | 5770 | ok |
 
@@ -233,8 +233,8 @@ Generated: 2026-09-03T08:01:22.510Z
 |---|---|
 | SUBFIELD_OF | 5519 |
 | OVERLAPS_WITH | 2030 |
-| SPECIALIZATION_OF | 2021 |
-| SUBTYPE_OF | 1964 |
+| SPECIALIZATION_OF | 2023 |
+| SUBTYPE_OF | 1978 |
 | PART_OF | 783 |
 | SUBTECHNOLOGY_OF | 715 |
 | RELATED_TO | 577 |
@@ -243,8 +243,8 @@ Generated: 2026-09-03T08:01:22.510Z
 | APPLICATION_OF | 369 |
 | USES | 279 |
 | METHOD_OF | 219 |
+| SUBINDUSTRY_OF | 212 |
 | SUBGAME_OF | 207 |
-| SUBINDUSTRY_OF | 182 |
 | SUBFORM_OF | 157 |
 | HISTORICAL_SUCCESSOR | 136 |
 | TECHNIQUE_OF | 134 |
@@ -274,6 +274,7 @@ Generated: 2026-09-03T08:01:22.510Z
 
 Potential duplicate names: 30
 - Weaving (x4)
+- Venture Capital (x4)
 - Synthetic Biology (x4)
 - Semiconductor Materials (x4)
 - Public Relations (x4)
@@ -297,7 +298,6 @@ Potential duplicate names: 30
 - Warehousing (x3)
 - Visual Effects (x3)
 - Video Games (x3)
-- Venture Capital (x3)
 - Urban Design (x3)
 - Travel Writing (x3)
 - Transcriptomics (x3)
@@ -308,7 +308,7 @@ Potential duplicate names: 30
 - region-specific (global=false): 932
 
 ### G. Historical — extinct categories
-- historical: 617
+- historical: 633
 
 ## 4. Analytics (sample questions)
 
@@ -319,12 +319,13 @@ Potential duplicate names: 30
 - count: 74
 
 ### Q. 有哪些已经消失的职业?
-- count: 412
+- count: 428
 - Abacus Calculator
 - Administrative & Clerical Occupations
 - Agricultural & Pastoral Occupations
 - Agricultural Laborer
 - Agriculture & Rural Economy
+- Aksumite King (Negus)
 - Alchemist
 - Almanac Maker
 - Anchorite
@@ -349,7 +350,6 @@ Potential duplicate names: 30
 - Bell Founder
 - Blacksmith
 - Bonesetter
-- Bowyer
 
 ### Q. 一个 GPU 公司属于哪些产业? (graph reach from GPU)
 - SUBTECHNOLOGY_OF Processor Technology
