@@ -254,6 +254,18 @@ function renderNetwork(container, outRel, inRel, centerNode, onNodeClick) {
   forceGraph(container, { nodes: [...nodes.values()], edges, centerId: centerNode ? centerNode.id : null, onNodeClick });
 }
 
+
+function renderGraphNetwork(container, nodes, edges, onNodeClick) {
+  forceGraph(container, { nodes, edges, onNodeClick });
+}
+
+async function renderGraphView() {
+  const u = $("#g-universe").value, t = $("#g-type").value, h = $("#g-hist").value;
+  const g = await api("/api/graph?" + new URLSearchParams({ universe: u, type: t, historical: h }).toString());
+  $("#g-info").textContent = g.nodes.length + " 节点 · " + g.edges.length + " 边";
+  const cont = $("#g-container"); cont.innerHTML = "";
+  renderGraphNetwork(cont, g.nodes, g.edges, expandGraph);
+}
 async function expandGraph(id) {
   const g = await api("/api/graph?seed="+encodeURIComponent(id));
   $("#g-info").textContent = g.nodes.length+" 节点 · "+g.edges.length+" 边";
