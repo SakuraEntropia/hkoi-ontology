@@ -481,7 +481,11 @@ ART.architecture.building_types.industrial_architecture,Node;ART_FORM,ART.archit
 ART.architecture.building_types.religious_architecture,Node;ART_FORM,ART.architecture.building_types.religious_architecture,Religious Architecture,宗教建筑,ART_FORM,ARTS_AND_CULTURE,3
 ART.architecture.building_types.residential_architecture,Node;ART_FORM,ART.architecture.building_types.residential_architecture,Residential Architecture,住宅建筑,ART_FORM,ARTS_AND_CULTURE,3
 ART.architecture.building_types.vernacular_architecture,Node;ART_FORM,ART.architecture.building_types.vernacular_architecture,Vernacular Architecture,乡土建筑,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.computational_design,Node;ART_FORM,ART.architecture.computational_design,Computational Design,计算设计,ART_FORM,ARTS_AND_CULTURE,2
+ART.architecture.digital_fabrication,Node;ART_FORM,ART.architecture.digital_fabrication,Digital Fabrication,数字建造,ART_FORM,ARTS_AND_CULTURE,2
+ART.architecture.generative_design,Node;ART_FORM,ART.architecture.generative_design,Generative Design,生成式设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.landscape_architecture,Node;ART_FORM,ART.architecture.landscape_architecture,Landscape Architecture,景观建筑,ART_FORM,ARTS_AND_CULTURE,2
+ART.architecture.parametric_architecture,Node;ART_FORM,ART.architecture.parametric_architecture,Parametric Architecture,参数化建筑,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.sustainable_architecture,Node;ART_FORM,ART.architecture.sustainable_architecture,Sustainable Architecture,可持续建筑,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.urban_design,Node;ART_FORM,ART.architecture.urban_design,Urban Design,城市设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.comics,Node;ART_FORM,ART.comics,Comics,漫画,ART_FORM,ARTS_AND_CULTURE,1
@@ -885,10 +889,16 @@ ART.music.music_history.renaissance_music,Node;ART_GENRE,ART.music.music_history
 ART.music.music_history.romantic_music,Node;ART_GENRE,ART.music.music_history.romantic_music,Romantic Music,,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.music_history.twentieth_century_music,Node;ART_GENRE,ART.music.music_history.twentieth_century_music,Twentieth-Century Music,,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.music_technology,Node;TECHNOLOGY,ART.music.music_technology,Music Technology,音乐技术,TECHNOLOGY,ARTS_AND_CULTURE,2
+ART.music.music_technology.auto_tune,Node;ART_FORM,ART.music.music_technology.auto_tune,Auto-Tune & Pitch Correction,自动修音,ART_FORM,ARTS_AND_CULTURE,3
+ART.music.music_technology.daw,Node;ART_FORM,ART.music.music_technology.daw,Digital Audio Workstation,数字音频工作站,ART_FORM,ARTS_AND_CULTURE,3
 ART.music.music_technology.digital_audio_workstation,Node;TECHNOLOGY,ART.music.music_technology.digital_audio_workstation,Digital Audio Workstation,数字音频工作站,TECHNOLOGY,ARTS_AND_CULTURE,3
+ART.music.music_technology.midi,Node;ART_FORM,ART.music.music_technology.midi,MIDI,MIDI,ART_FORM,ARTS_AND_CULTURE,3
 ART.music.music_technology.sampling,Node;TECHNOLOGY,ART.music.music_technology.sampling,Sampling,采样,TECHNOLOGY,ARTS_AND_CULTURE,3
 ART.music.music_technology.sound_recording,Node;TECHNOLOGY,ART.music.music_technology.sound_recording,Sound Recording,录音,TECHNOLOGY,ARTS_AND_CULTURE,3
 ART.music.music_technology.sound_synthesis,Node;TECHNOLOGY,ART.music.music_technology.sound_synthesis,Sound Synthesis,声音合成,TECHNOLOGY,ARTS_AND_CULTURE,3
+ART.music.music_technology.virtual_singer,Node;ART_FORM,ART.music.music_technology.virtual_singer,Virtual Singer / Virtual Idol,虚拟歌手/虚拟偶像,ART_FORM,ARTS_AND_CULTURE,3
+ART.music.music_technology.vocal_synthesis,Node;ART_FORM,ART.music.music_technology.vocal_synthesis,Vocal Synthesis,声乐合成,ART_FORM,ARTS_AND_CULTURE,3
+ART.music.music_technology.vocaloid,Node;ART_FORM,ART.music.music_technology.vocaloid,Vocaloid,Vocaloid,ART_FORM,ARTS_AND_CULTURE,3
 ART.music.music_theory,Node;KNOWLEDGE_FIELD,ART.music.music_theory,Music Theory,音乐理论,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,2
 ART.music.music_theory.counterpoint,Node;KNOWLEDGE_FIELD,ART.music.music_theory.counterpoint,Counterpoint,对位法,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,3
 ART.music.music_theory.harmony,Node;KNOWLEDGE_FIELD,ART.music.music_theory.harmony,Harmony,和声,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,3
@@ -1606,6 +1616,7 @@ HK.architecture.architectural_design,Node;KNOWLEDGE_FIELD,HK.architecture.archit
 HK.architecture.architectural_design.adaptive_reuse,Node;KNOWLEDGE_FIELD,HK.architecture.architectural_design.adaptive_reuse,Adaptive Reuse,建筑改造再利用,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.architectural_design.commercial_architecture,Node;KNOWLEDGE_FIELD,HK.architecture.architectural_design.commercial_architecture,Commercial Architecture,商业建筑,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.architectural_design.housing_design,Node;KNOWLEDGE_FIELD,HK.architecture.architectural_design.housing_design,Housing Design,住宅设计,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.architecture.architectural_design.parametric_design,Node;KNOWLEDGE_FIELD,HK.architecture.architectural_design.parametric_design,Parametric Design,参数化设计,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.architectural_design.residential_architecture,Node;KNOWLEDGE_FIELD,HK.architecture.architectural_design.residential_architecture,Residential Architecture,居住建筑,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.architectural_design.sacred_architecture,Node;KNOWLEDGE_FIELD,HK.architecture.architectural_design.sacred_architecture,Sacred Architecture,宗教建筑,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.architectural_history,Node;KNOWLEDGE_FIELD,HK.architecture.architectural_history,Architectural History,建筑史,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
@@ -1648,6 +1659,7 @@ HK.architecture.building_services.fire_protection_in_buildings,Node;KNOWLEDGE_FI
 HK.architecture.building_services.mechanical_services,Node;KNOWLEDGE_FIELD,HK.architecture.building_services.mechanical_services,Mechanical Services,建筑暖通系统,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.building_services.plumbing_systems,Node;KNOWLEDGE_FIELD,HK.architecture.building_services.plumbing_systems,Plumbing Systems,建筑给排水系统,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.building_technology,Node;KNOWLEDGE_FIELD,HK.architecture.building_technology,Building Technology,建筑技术,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
+HK.architecture.building_technology.bim,Node;KNOWLEDGE_FIELD,HK.architecture.building_technology.bim,Building Information Modeling,建筑信息模型,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.building_technology.building_envelope_design,Node;KNOWLEDGE_FIELD,HK.architecture.building_technology.building_envelope_design,Building Envelope Design,建筑围护结构设计,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.building_technology.building_materials_technology,Node;KNOWLEDGE_FIELD,HK.architecture.building_technology.building_materials_technology,Building Materials Technology,建筑材料技术,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.architecture.building_technology.construction_assembly,Node;KNOWLEDGE_FIELD,HK.architecture.building_technology.construction_assembly,Construction Assembly,建筑装配,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3

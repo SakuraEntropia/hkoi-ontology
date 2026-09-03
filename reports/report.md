@@ -1,19 +1,19 @@
 # HK-OI Ontology Report
 
-Generated: 2026-09-03T08:09:56.369Z
+Generated: 2026-09-03T08:14:47.616Z
 
 ## 1. Summary
 
-- **Nodes**: 12910  (with metrics: 10213)
-- **Relations**: 16693
+- **Nodes**: 12922  (with metrics: 10213)
+- **Relations**: 16711
 
 ### By universe
 
 | universe | nodes |
 |---|---|
-| HUMAN_KNOWLEDGE | 5771 |
+| HUMAN_KNOWLEDGE | 5773 |
 | OCCUPATIONS | 1300 |
-| ARTS_AND_CULTURE | 929 |
+| ARTS_AND_CULTURE | 939 |
 | INDUSTRIES | 894 |
 | TECHNOLOGIES | 719 |
 | PRODUCTS_AND_SERVICES | 649 |
@@ -31,8 +31,8 @@ Generated: 2026-09-03T08:09:56.369Z
 |---|---|
 | L0 | 13 |
 | L1 | 286 |
-| L2 | 2852 |
-| L3 | 6662 |
+| L2 | 2856 |
+| L3 | 6670 |
 | L4 | 2630 |
 | L5 | 427 |
 | L6 | 40 |
@@ -41,7 +41,7 @@ Generated: 2026-09-03T08:09:56.369Z
 
 | type | nodes |
 |---|---|
-| KNOWLEDGE_FIELD | 5406 |
+| KNOWLEDGE_FIELD | 5408 |
 | OCCUPATION | 1596 |
 | TECHNOLOGY | 715 |
 | ECONOMIC_ACTIVITY | 629 |
@@ -54,7 +54,7 @@ Generated: 2026-09-03T08:09:56.369Z
 | INSTITUTION | 222 |
 | METHODOLOGY | 217 |
 | GAME | 207 |
-| ART_FORM | 178 |
+| ART_FORM | 188 |
 | INDUSTRY | 173 |
 | SERVICE | 167 |
 | ART_MOVEMENT | 140 |
@@ -205,9 +205,9 @@ Generated: 2026-09-03T08:09:56.369Z
 | PRODUCTS_AND_SERVICES | 648 | ok |
 | TECHNOLOGIES | 718 | ok |
 | INDUSTRIES | 893 | ok |
-| ARTS_AND_CULTURE | 928 | ok |
+| ARTS_AND_CULTURE | 938 | ok |
 | OCCUPATIONS | 1299 | ok |
-| HUMAN_KNOWLEDGE | 5770 | ok |
+| HUMAN_KNOWLEDGE | 5772 | ok |
 
 ### B. Granularity — max depth per universe
 
@@ -231,21 +231,21 @@ Generated: 2026-09-03T08:09:56.369Z
 
 | relation | count |
 |---|---|
-| SUBFIELD_OF | 5519 |
-| OVERLAPS_WITH | 2030 |
+| SUBFIELD_OF | 5521 |
+| OVERLAPS_WITH | 2033 |
 | SPECIALIZATION_OF | 2023 |
 | SUBTYPE_OF | 1978 |
 | PART_OF | 783 |
 | SUBTECHNOLOGY_OF | 715 |
-| RELATED_TO | 577 |
+| RELATED_TO | 578 |
 | SUBGENRE_OF | 526 |
 | SUBSPORT_OF | 448 |
-| APPLICATION_OF | 369 |
+| APPLICATION_OF | 371 |
 | USES | 279 |
 | METHOD_OF | 219 |
 | SUBINDUSTRY_OF | 212 |
 | SUBGAME_OF | 207 |
-| SUBFORM_OF | 192 |
+| SUBFORM_OF | 202 |
 | HISTORICAL_SUCCESSOR | 136 |
 | TECHNIQUE_OF | 134 |
 | USED_BY | 62 |

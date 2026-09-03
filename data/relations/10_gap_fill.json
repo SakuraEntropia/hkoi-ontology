@@ -1,0 +1,32 @@
+[
+ {
+  "source": "ART.architecture.parametric_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.architecture.architectural_design.parametric_design"
+ },
+ {
+  "source": "ART.architecture.computational_design",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ART.architecture.digital_fabrication",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.manufacturing_technology"
+ },
+ {
+  "source": "ART.music.music_technology.vocaloid",
+  "relation": "OVERLAPS_WITH",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "ART.music.music_technology.vocal_synthesis",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science.natural_language_processing"
+ },
+ {
+  "source": "ART.music.music_technology.vocaloid",
+  "relation": "RELATED_TO",
+  "target": "ART.music.electronic_music"
+ }
+]

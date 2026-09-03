@@ -1,0 +1,110 @@
+[
+ {
+  "id": "ART.architecture.parametric_architecture",
+  "name": "Parametric Architecture",
+  "name_en": "Parametric Architecture",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "Design in which form is generated and controlled by algorithmic parameters and rules rather than fixed drawings. Tools like Grasshopper and Rhino let designers explore thousands of variants; Parametricism is its stylistic movement, associated with Zaha Hadid Architects and Patrik Schumacher.",
+  "name_zh": "参数化建筑"
+ },
+ {
+  "id": "ART.architecture.computational_design",
+  "name": "Computational Design",
+  "name_en": "Computational Design",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "The use of computation — scripting, optimization, machine learning — to generate, evaluate, and refine architectural form. Encompasses parametric, generative, and performance-driven design.",
+  "name_zh": "计算设计"
+ },
+ {
+  "id": "ART.architecture.generative_design",
+  "name": "Generative Design",
+  "name_en": "Generative Design",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "Design processes in which algorithms autonomously produce and evolve candidate solutions against goals and constraints, then the designer selects. Widely used for structural optimization and mass-customized fabrication.",
+  "name_zh": "生成式设计"
+ },
+ {
+  "id": "ART.architecture.digital_fabrication",
+  "name": "Digital Fabrication",
+  "name_en": "Digital Fabrication",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "The direct production of building components from digital models via CNC milling, robotic assembly, and 3D-printed concrete or polymer. Collapses the gap between design model and physical construction.",
+  "name_zh": "数字建造"
+ },
+ {
+  "id": "HK.architecture.building_technology.bim",
+  "name": "Building Information Modeling",
+  "name_en": "Building Information Modeling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.architecture.building_technology",
+  "description": "A shared digital model of a building's geometry and data (structure, MEP, cost, schedule) used across design, construction, and operation. Coordinates disciplines and detects clashes before construction.",
+  "name_zh": "建筑信息模型"
+ },
+ {
+  "id": "HK.architecture.architectural_design.parametric_design",
+  "name": "Parametric Design",
+  "name_en": "Parametric Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.architecture.architectural_design",
+  "description": "The design methodology underlying parametric architecture: encoding relationships and constraints into a parametric model so changes propagate through the design.",
+  "name_zh": "参数化设计"
+ },
+ {
+  "id": "ART.music.music_technology.vocaloid",
+  "name": "Vocaloid",
+  "name_en": "Vocaloid",
+  "type": "ART_FORM",
+  "parent": "ART.music.music_technology",
+  "description": "Yamaha's vocal-synthesis software that sings user-written lyrics from voice databases, launched 2004. Spawned virtual singers such as Hatsune Miku and a global producer-driven music culture.",
+  "name_zh": "Vocaloid"
+ },
+ {
+  "id": "ART.music.music_technology.vocal_synthesis",
+  "name": "Vocal Synthesis",
+  "name_en": "Vocal Synthesis",
+  "type": "ART_FORM",
+  "parent": "ART.music.music_technology",
+  "description": "Synthesizing singing voices by concatenating and modifying recorded vocal samples or via neural voice models. The technical foundation of Vocaloid, speech synthesis, and AI singers.",
+  "name_zh": "声乐合成"
+ },
+ {
+  "id": "ART.music.music_technology.virtual_singer",
+  "name": "Virtual Singer / Virtual Idol",
+  "name_en": "Virtual Singer / Virtual Idol",
+  "type": "ART_FORM",
+  "parent": "ART.music.music_technology",
+  "description": "Animated, fictional performers — Hatsune Miku, Luo Tianyi, K/DA — whose voices are synthesized and whose personas live through fan production, concerts (holograms), and media franchises.",
+  "name_zh": "虚拟歌手/虚拟偶像"
+ },
+ {
+  "id": "ART.music.music_technology.daw",
+  "name": "Digital Audio Workstation",
+  "name_en": "Digital Audio Workstation",
+  "type": "ART_FORM",
+  "parent": "ART.music.music_technology",
+  "description": "Software for recording, editing, arranging, and mixing audio and MIDI — Ableton Live, Logic Pro, FL Studio. The central tool of modern music production.",
+  "name_zh": "数字音频工作站"
+ },
+ {
+  "id": "ART.music.music_technology.midi",
+  "name": "MIDI",
+  "name_en": "MIDI",
+  "type": "ART_FORM",
+  "parent": "ART.music.music_technology",
+  "description": "The Musical Instrument Digital Interface (1983) — a protocol for musical instruments, controllers, and software to communicate notes and control data. Standardized electronic music-making.",
+  "name_zh": "MIDI"
+ },
+ {
+  "id": "ART.music.music_technology.auto_tune",
+  "name": "Auto-Tune & Pitch Correction",
+  "name_en": "Auto-Tune & Pitch Correction",
+  "type": "ART_FORM",
+  "parent": "ART.music.music_technology",
+  "description": "Software that corrects or stylizes vocal pitch; its 1998 Auto-Tune effect became a defining sound of 2000s pop, hip-hop, and hyperpop.",
+  "name_zh": "自动修音"
+ }
+]
