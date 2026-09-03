@@ -1,0 +1,3962 @@
+[
+ {
+  "id": "hist.gov_offices",
+  "name": "Government & Political Offices",
+  "name_en": "Government & Political Offices",
+  "name_zh": "政府与政治职位",
+  "type": "OFFICE",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Historical sovereign, administrative, and court offices.",
+  "historical": true,
+  "status": "HISTORICAL_ONLY"
+ },
+ {
+  "id": "hist.religious_roles",
+  "name": "Religious & Ritual Roles",
+  "name_en": "Religious & Ritual Roles",
+  "name_zh": "宗教与仪式角色",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Historically specific priestly, ritual, and divinatory roles.",
+  "historical": true,
+  "status": "HISTORICAL_ONLY"
+ },
+ {
+  "id": "hist.military_roles",
+  "name": "Historical Military Roles",
+  "name_en": "Historical Military Roles",
+  "name_zh": "历史军事角色",
+  "type": "MILITARY_ROLE",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Military roles of different eras and civilizations.",
+  "historical": true,
+  "status": "HISTORICAL_ONLY"
+ },
+ {
+  "id": "hist.knowledge_work",
+  "name": "Writing, Information & Knowledge Work",
+  "name_en": "Writing, Information & Knowledge Work",
+  "name_zh": "书写信息与知识工作",
+  "type": "PROFESSION",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Historical information and computation workers.",
+  "historical": true,
+  "status": "HISTORICAL_ONLY"
+ },
+ {
+  "id": "hist.crafts",
+  "name": "Historical Crafts & Manufacture",
+  "name_en": "Historical Crafts & Manufacture",
+  "name_zh": "历史手工艺",
+  "type": "CRAFT",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete or transformed craft trades.",
+  "historical": true,
+  "status": "HISTORICAL_ONLY"
+ },
+ {
+  "id": "hist.transport_navigation",
+  "name": "Transportation & Navigation",
+  "name_en": "Transportation & Navigation",
+  "name_zh": "运输与导航",
+  "type": "OCCUPATION",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Historical transport and navigation roles.",
+  "historical": true,
+  "status": "HISTORICAL_ONLY"
+ },
+ {
+  "id": "hist.agriculture_rural",
+  "name": "Agriculture & Rural Economy",
+  "name_en": "Agriculture & Rural Economy",
+  "name_zh": "农业与农村经济",
+  "type": "OCCUPATION",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Occupations lost to mechanization.",
+  "historical": true,
+  "status": "HISTORICAL_ONLY"
+ },
+ {
+  "id": "hist.urban_domestic",
+  "name": "Urban & Domestic Occupations",
+  "name_en": "Urban & Domestic Occupations",
+  "name_zh": "城市与家务职业",
+  "type": "OCCUPATION",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete urban and household service roles.",
+  "historical": true,
+  "status": "HISTORICAL_ONLY"
+ },
+ {
+  "id": "hist.gov_offices.emperor_roman",
+  "name": "Roman Emperor",
+  "name_en": "Roman Emperor",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "罗马皇帝",
+  "aliases": [
+   "Augustus",
+   "Caesar"
+  ],
+  "civilization": "Ancient Rome",
+  "social_role": "sovereign / head of state",
+  "functions": [
+   "supreme political-military authority",
+   "law-giving",
+   "imperial cult figurehead"
+  ],
+  "skills": [
+   "command",
+   "statecraft",
+   "patronage"
+  ],
+  "technologies": [
+   "legions",
+   "Roman law"
+  ],
+  "institutions": [
+   "imperial bureaucracy"
+  ],
+  "temporal": {
+   "valid_from": "27 BCE",
+   "valid_until": "476 CE",
+   "peak_period": "1st–3rd c CE",
+   "geographic_scope": [
+    "Mediterranean",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.pharaoh",
+  "name": "Pharaoh",
+  "name_en": "Pharaoh",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "法老",
+  "civilization": "Ancient Egypt",
+  "social_role": "divine kingship",
+  "functions": [
+   "religious-political head of state",
+   "temple patron",
+   "military commander"
+  ],
+  "skills": [
+   "ritual",
+   "administration",
+   "warfare"
+  ],
+  "technologies": [
+   "monumental architecture",
+   "Nile irrigation"
+  ],
+  "institutions": [
+   "temple economy"
+  ],
+  "temporal": {
+   "valid_from": "3150 BCE",
+   "valid_until": "30 BCE",
+   "peak_period": "New Kingdom",
+   "geographic_scope": [
+    "Egypt"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.chinese_emperor",
+  "name": "Chinese Emperor (Huangdi)",
+  "name_en": "Chinese Emperor (Huangdi)",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "中国皇帝",
+  "aliases": [
+   "天子"
+  ],
+  "civilization": "Imperial China",
+  "social_role": "sovereign / Son of Heaven",
+  "functions": [
+   "supreme ruler",
+   "ritual head of state",
+   "appointer of officials"
+  ],
+  "skills": [
+   "statecraft",
+   "ritual",
+   "calligraphy"
+  ],
+  "technologies": [
+   "civil examination",
+   "bureaucracy"
+  ],
+  "institutions": [
+   "dynastic court",
+   "Mandate of Heaven"
+  ],
+  "temporal": {
+   "valid_from": "221 BCE",
+   "valid_until": "1912 CE",
+   "peak_period": "Tang–Song",
+   "geographic_scope": [
+    "China"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.japanese_emperor",
+  "name": "Japanese Emperor (Tennō)",
+  "name_en": "Japanese Emperor (Tennō)",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "日本天皇",
+  "aliases": [
+   "Tennō",
+   "Mikado"
+  ],
+  "civilization": "Japan",
+  "social_role": "sovereign / sacred head of state",
+  "functions": [
+   "symbolic-ritual sovereignty",
+   "Shinto high priest"
+  ],
+  "skills": [
+   "ritual",
+   "lineage",
+   "statecraft"
+  ],
+  "technologies": [
+   "imperial household",
+   "Shinto rites"
+  ],
+  "institutions": [
+   "imperial court"
+  ],
+  "temporal": {
+   "valid_from": "660 BCE",
+   "valid_until": "present",
+   "peak_period": "Heian",
+   "geographic_scope": [
+    "Japan"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.shogun",
+  "name": "Shōgun",
+  "name_en": "Shōgun",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "幕府将军",
+  "civilization": "Japan",
+  "social_role": "military dictator",
+  "functions": [
+   "de facto ruler",
+   "military command",
+   "land distribution"
+  ],
+  "skills": [
+   "warfare",
+   "administration"
+  ],
+  "technologies": [
+   "samurai class",
+   "castle fortification"
+  ],
+  "institutions": [
+   "bakufu (shogunate)"
+  ],
+  "temporal": {
+   "valid_from": "1192 CE",
+   "valid_until": "1868 CE",
+   "peak_period": "Edo",
+   "geographic_scope": [
+    "Japan"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.daimyo",
+  "name": "Daimyō",
+  "name_en": "Daimyō",
+  "type": "STATUS",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "大名",
+  "civilization": "Japan",
+  "social_role": "feudal lord",
+  "functions": [
+   "territorial rule",
+   "samurai retainers",
+   "tribute to shogun"
+  ],
+  "skills": [
+   "estate management",
+   "warfare"
+  ],
+  "technologies": [
+   "castle",
+   "samurai arms"
+  ],
+  "institutions": [
+   "han (domain)",
+   "bakufu"
+  ],
+  "temporal": {
+   "valid_from": "1185 CE",
+   "valid_until": "1871 CE",
+   "peak_period": "Edo",
+   "geographic_scope": [
+    "Japan"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.sultan",
+  "name": "Sultan",
+  "name_en": "Sultan",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "苏丹",
+  "civilization": "Ottoman / Islamic world",
+  "social_role": "sovereign ruler",
+  "functions": [
+   "political-military authority",
+   "patronage",
+   "justice"
+  ],
+  "skills": [
+   "statecraft",
+   "warfare"
+  ],
+  "technologies": [
+   "janissary corps",
+   "court"
+  ],
+  "institutions": [
+   "Ottoman state",
+   "caliphate"
+  ],
+  "temporal": {
+   "valid_from": "1055 CE",
+   "valid_until": "1924 CE",
+   "peak_period": "Ottoman",
+   "geographic_scope": [
+    "Middle East"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.caliph",
+  "name": "Caliph",
+  "name_en": "Caliph",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "哈里发",
+  "civilization": "Islamic world",
+  "social_role": "religious-political leader",
+  "functions": [
+   "religious and political leadership",
+   "commander of the faithful"
+  ],
+  "skills": [
+   "religious law",
+   "statecraft"
+  ],
+  "technologies": [
+   "Islamic jurisprudence",
+   "military"
+  ],
+  "institutions": [
+   "caliphate"
+  ],
+  "temporal": {
+   "valid_from": "632 CE",
+   "valid_until": "1924 CE",
+   "peak_period": "Abbasid",
+   "geographic_scope": [
+    "Middle East"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.king",
+  "name": "King",
+  "name_en": "King",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "国王",
+  "civilization": "global",
+  "social_role": "sovereign monarch",
+  "functions": [
+   "head of state",
+   "law",
+   "military command"
+  ],
+  "skills": [
+   "statecraft",
+   "warfare",
+   "patronage"
+  ],
+  "technologies": [
+   "royal administration",
+   "coinage"
+  ],
+  "institutions": [
+   "monarchy",
+   "court"
+  ],
+  "temporal": {
+   "valid_from": "3000 BCE",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.feudal_lord",
+  "name": "Feudal Lord",
+  "name_en": "Feudal Lord",
+  "type": "STATUS",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "封建领主",
+  "civilization": "Medieval Europe",
+  "social_role": "landed noble",
+  "functions": [
+   "land tenure",
+   "military service",
+   "local justice"
+  ],
+  "skills": [
+   "estate management",
+   "warfare"
+  ],
+  "technologies": [
+   "castle",
+   "manorial system"
+  ],
+  "institutions": [
+   "feudalism"
+  ],
+  "temporal": {
+   "valid_from": "800 CE",
+   "valid_until": "1600 CE",
+   "peak_period": "High Middle Ages",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.vizier",
+  "name": "Vizier",
+  "name_en": "Vizier",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "维齐尔",
+  "civilization": "Islamic / Ancient Egypt",
+  "social_role": "chief minister",
+  "functions": [
+   "head of administration",
+   "advised ruler",
+   "taxation"
+  ],
+  "skills": [
+   "administration",
+   "law",
+   "diplomacy"
+  ],
+  "technologies": [
+   "bureaucracy"
+  ],
+  "institutions": [
+   "court",
+   "chancery"
+  ],
+  "temporal": {
+   "valid_from": "2000 BCE",
+   "valid_until": "1900 CE",
+   "peak_period": "Abbasid/Ottoman",
+   "geographic_scope": [
+    "Middle East"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.chancellor",
+  "name": "Chancellor",
+  "name_en": "Chancellor",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "宰相",
+  "civilization": "global",
+  "social_role": "chief minister",
+  "functions": [
+   "head of administration",
+   "seal keeper",
+   "adviser"
+  ],
+  "skills": [
+   "administration",
+   "law"
+  ],
+  "technologies": [
+   "chancery",
+   "seals"
+  ],
+  "institutions": [
+   "royal court",
+   "bureaucracy"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.imperial_censor",
+  "name": "Imperial Censor",
+  "name_en": "Imperial Censor",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "御史",
+  "civilization": "Imperial China",
+  "social_role": "surveillance/remonstrance official",
+  "functions": [
+   "investigated officials",
+   "remonstrated emperor",
+   "audited administration"
+  ],
+  "skills": [
+   "ethics",
+   "writing"
+  ],
+  "technologies": [
+   "memorials"
+  ],
+  "institutions": [
+   "Censorate"
+  ],
+  "temporal": {
+   "valid_from": "221 BCE",
+   "valid_until": "1912 CE",
+   "peak_period": "Tang–Song",
+   "geographic_scope": [
+    "China"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.magistrate",
+  "name": "Magistrate",
+  "name_en": "Magistrate",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "地方官",
+  "civilization": "global",
+  "social_role": "local judicial/administrative official",
+  "functions": [
+   "local justice",
+   "tax collection",
+   "public order"
+  ],
+  "skills": [
+   "law",
+   "administration"
+  ],
+  "technologies": [
+   "legal codes",
+   "records"
+  ],
+  "institutions": [
+   "local government"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.tax_collector",
+  "name": "Tax Collector",
+  "name_en": "Tax Collector",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "税吏",
+  "civilization": "global",
+  "social_role": "fiscal agent",
+  "functions": [
+   "collected taxes",
+   "enforced levies"
+  ],
+  "skills": [
+   "accounting",
+   "record-keeping"
+  ],
+  "technologies": [
+   "ledgers",
+   "coinage"
+  ],
+  "institutions": [
+   "treasury"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.tribute_collector",
+  "name": "Tribute Collector",
+  "name_en": "Tribute Collector",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "贡赋征收者",
+  "civilization": "empires",
+  "social_role": "imperial fiscal agent",
+  "functions": [
+   "collected tribute from vassals"
+  ],
+  "skills": [
+   "accounting",
+   "diplomacy"
+  ],
+  "technologies": [
+   "tribute lists",
+   "transport"
+  ],
+  "institutions": [
+   "imperial administration"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1800 CE",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.herald",
+  "name": "Herald",
+  "name_en": "Herald",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "传令官",
+  "civilization": "Medieval Europe",
+  "social_role": "ceremonial messenger/arms officer",
+  "functions": [
+   "proclamations",
+   "tournament announcements",
+   "diplomacy"
+  ],
+  "skills": [
+   "oratory",
+   "heraldry"
+  ],
+  "technologies": [
+   "coats of arms",
+   "horns"
+  ],
+  "institutions": [
+   "court",
+   "chivalric orders"
+  ],
+  "temporal": {
+   "valid_from": "1100 CE",
+   "valid_until": "1600 CE",
+   "peak_period": "High Middle Ages",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.court_astrologer",
+  "name": "Court Astrologer",
+  "name_en": "Court Astrologer",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "宫廷占星官",
+  "civilization": "global",
+  "social_role": "adviser/diviner",
+  "functions": [
+   "cast horoscopes",
+   "calendar regulation",
+   "omen interpretation"
+  ],
+  "skills": [
+   "astronomy",
+   "divination"
+  ],
+  "technologies": [
+   "astrolabe",
+   "ephemerides"
+  ],
+  "institutions": [
+   "court",
+   "observatory"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1700 CE",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.gov_offices.royal_genealogist",
+  "name": "Royal Genealogist",
+  "name_en": "Royal Genealogist",
+  "type": "OFFICE",
+  "parent": "hist.gov_offices",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "王室谱系官",
+  "civilization": "global",
+  "social_role": "keeper of dynastic lineage",
+  "functions": [
+   "recorded descent",
+   "legitimized succession"
+  ],
+  "skills": [
+   "record-keeping",
+   "oral tradition"
+  ],
+  "technologies": [
+   "genealogical registers"
+  ],
+  "institutions": [
+   "court"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1800 CE",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.egyptian_priest",
+  "name": "Egyptian Priest",
+  "name_en": "Egyptian Priest",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "埃及祭司",
+  "civilization": "Ancient Egypt",
+  "social_role": "temple servant of the gods",
+  "functions": [
+   "temple ritual",
+   "offering",
+   "oracle maintenance"
+  ],
+  "skills": [
+   "ritual",
+   "purification",
+   "astronomy"
+  ],
+  "technologies": [
+   "temple",
+   "cults"
+  ],
+  "institutions": [
+   "temple complex",
+   "priesthood"
+  ],
+  "temporal": {
+   "valid_from": "3000 BCE",
+   "valid_until": "400 CE",
+   "peak_period": "New Kingdom",
+   "geographic_scope": [
+    "Egypt"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.priestess",
+  "name": "Priestess",
+  "name_en": "Priestess",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "女祭司",
+  "civilization": "global",
+  "social_role": "female ritual officiant",
+  "functions": [
+   "ritual",
+   "oracle",
+   "temple service"
+  ],
+  "skills": [
+   "ritual",
+   "divination"
+  ],
+  "technologies": [
+   "temple",
+   "oracles"
+  ],
+  "institutions": [
+   "temples",
+   "cults"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "varies",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.high_priest",
+  "name": "High Priest",
+  "name_en": "High Priest",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "大祭司",
+  "civilization": "Ancient Near East / global",
+  "social_role": "chief religious authority",
+  "functions": [
+   "oversaw temple",
+   "major sacrifice",
+   "doctrine"
+  ],
+  "skills": [
+   "ritual",
+   "administration"
+  ],
+  "technologies": [
+   "temple",
+   "sacrificial apparatus"
+  ],
+  "institutions": [
+   "temple state",
+   "priesthood"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "varies",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.temple_attendant",
+  "name": "Temple Attendant",
+  "name_en": "Temple Attendant",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "庙祝/神殿侍者",
+  "civilization": "global",
+  "social_role": "temple maintenance and service",
+  "functions": [
+   "temple upkeep",
+   "ritual assistance"
+  ],
+  "skills": [
+   "ritual",
+   "maintenance"
+  ],
+  "technologies": [
+   "temple",
+   "cults"
+  ],
+  "institutions": [
+   "temple"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.oracle",
+  "name": "Oracle",
+  "name_en": "Oracle",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "神谕/神媒",
+  "civilization": "Ancient Greece / global",
+  "social_role": "divine intermediary",
+  "functions": [
+   "uttered prophecy",
+   "divine counsel"
+  ],
+  "skills": [
+   "ecstatic trance",
+   "interpretation"
+  ],
+  "technologies": [
+   "oracle site",
+   "sacred texts"
+  ],
+  "institutions": [
+   "oracle shrines",
+   "cult"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "400 CE",
+   "peak_period": "Classical",
+   "geographic_scope": [
+    "Greece",
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.oracle_interpreter",
+  "name": "Oracle Interpreter",
+  "name_en": "Oracle Interpreter",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "神谕解读者",
+  "civilization": "global",
+  "social_role": "interpreter of divine signs",
+  "functions": [
+   "interpreted omens/prophecy"
+  ],
+  "skills": [
+   "divination",
+   "language"
+  ],
+  "technologies": [
+   "omen texts",
+   "liver divination"
+  ],
+  "institutions": [
+   "temple",
+   "court"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "varies",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.shaman",
+  "name": "Shaman",
+  "name_en": "Shaman",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "萨满",
+  "civilization": "Siberia / Indigenous",
+  "social_role": "ritual healer and spirit mediator",
+  "functions": [
+   "healing",
+   "spirit journey",
+   "community ritual"
+  ],
+  "skills": [
+   "trance",
+   "herbalism",
+   "chant"
+  ],
+  "technologies": [
+   "drum",
+   "costume"
+  ],
+  "institutions": [
+   "clan",
+   "indigenous community"
+  ],
+  "temporal": {
+   "valid_from": "prehistory",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "Siberia",
+    "Americas",
+    "Asia"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.diviner",
+  "name": "Diviner",
+  "name_en": "Diviner",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "占卜者",
+  "civilization": "global",
+  "social_role": "divination specialist",
+  "functions": [
+   "foretold via signs",
+   "advised decisions"
+  ],
+  "skills": [
+   "divination systems",
+   "astrology"
+  ],
+  "technologies": [
+   "yarrow stalks",
+   "shells",
+   "bones"
+  ],
+  "institutions": [
+   "court",
+   "temple"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.augur",
+  "name": "Augur",
+  "name_en": "Augur",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "鸟占官",
+  "civilization": "Ancient Rome",
+  "social_role": "bird-omen interpreter",
+  "functions": [
+   "interpreted bird flight",
+   "sanctioned public acts"
+  ],
+  "skills": [
+   "ornithomancy",
+   "ritual"
+  ],
+  "technologies": [
+   "augural staff",
+   "sky observation"
+  ],
+  "institutions": [
+   "Roman state religion"
+  ],
+  "temporal": {
+   "valid_from": "753 BCE",
+   "valid_until": "400 CE",
+   "peak_period": "Republic",
+   "geographic_scope": "Rome"
+  }
+ },
+ {
+  "id": "hist.religious_roles.sacrificial_specialist",
+  "name": "Sacrificial Specialist",
+  "name_en": "Sacrificial Specialist",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "祭牲执事",
+  "civilization": "global",
+  "social_role": "ritual slaughter and offering",
+  "functions": [
+   "animal sacrifice",
+   "ritual butchery"
+  ],
+  "skills": [
+   "ritual",
+   "butchery"
+  ],
+  "technologies": [
+   "altars",
+   "knives"
+  ],
+  "institutions": [
+   "temple",
+   "cult"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "varies",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.monastic_scribe",
+  "name": "Monastic Scribe",
+  "name_en": "Monastic Scribe",
+  "type": "PROFESSION",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "寺院抄写员",
+  "civilization": "Medieval Europe",
+  "social_role": "monastic manuscript copyist",
+  "functions": [
+   "copied manuscripts",
+   "illumination",
+   "preserved texts"
+  ],
+  "skills": [
+   "Latin",
+   "calligraphy"
+  ],
+  "technologies": [
+   "parchment",
+   "scriptorium"
+  ],
+  "institutions": [
+   "monastery",
+   "scriptorium"
+  ],
+  "temporal": {
+   "valid_from": "500 CE",
+   "valid_until": "1500 CE",
+   "peak_period": "High Middle Ages",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.relic_custodian",
+  "name": "Relic Custodian",
+  "name_en": "Relic Custodian",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "圣物守护者",
+  "civilization": "Medieval Europe",
+  "social_role": "keeper of sacred relics",
+  "functions": [
+   "guarded relics",
+   "pilgrimage management"
+  ],
+  "skills": [
+   "record-keeping",
+   "ritual"
+  ],
+  "technologies": [
+   "reliquaries"
+  ],
+  "institutions": [
+   "church",
+   "pilgrimage shrines"
+  ],
+  "temporal": {
+   "valid_from": "800 CE",
+   "valid_until": "1500 CE",
+   "peak_period": "High Middle Ages",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.religious_cantor",
+  "name": "Religious Cantor",
+  "name_en": "Religious Cantor",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "领唱者",
+  "civilization": "global",
+  "social_role": "liturgical singer",
+  "functions": [
+   "led chant",
+   "liturgical music"
+  ],
+  "skills": [
+   "chant",
+   "music"
+  ],
+  "technologies": [
+   "psalter",
+   "chant books"
+  ],
+  "institutions": [
+   "church",
+   "synagogue",
+   "temple"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.inquisition_official",
+  "name": "Inquisition Official",
+  "name_en": "Inquisition Official",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "宗教裁判官",
+  "civilization": "Medieval/early modern Europe",
+  "social_role": "heresy investigator",
+  "functions": [
+   "investigated heresy",
+   "conducted tribunals"
+  ],
+  "skills": [
+   "canon law",
+   "interrogation"
+  ],
+  "technologies": [
+   "records",
+   "legal codes"
+  ],
+  "institutions": [
+   "Inquisition",
+   "church"
+  ],
+  "temporal": {
+   "valid_from": "1200 CE",
+   "valid_until": "1800 CE",
+   "peak_period": "16th–17th c",
+   "geographic_scope": [
+    "Europe",
+    "Iberia"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.court_chaplain",
+  "name": "Court Chaplain",
+  "name_en": "Court Chaplain",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "宫廷牧师",
+  "civilization": "Medieval Europe",
+  "social_role": "royal religious adviser",
+  "functions": [
+   "royal worship",
+   "spiritual counsel",
+   "record-keeping"
+  ],
+  "skills": [
+   "theology",
+   "Latin"
+  ],
+  "technologies": [
+   "chapel",
+   "liturgy"
+  ],
+  "institutions": [
+   "royal court",
+   "church"
+  ],
+  "temporal": {
+   "valid_from": "800 CE",
+   "valid_until": "1800 CE",
+   "peak_period": "High Middle Ages",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.brahmin",
+  "name": "Brahmin Priest",
+  "name_en": "Brahmin Priest",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "婆罗门祭司",
+  "civilization": "India",
+  "social_role": "hereditary ritual specialist",
+  "functions": [
+   "Vedic ritual",
+   "teaching",
+   "preserving texts"
+  ],
+  "skills": [
+   "Sanskrit",
+   "ritual",
+   "memorization"
+  ],
+  "technologies": [
+   "Vedic texts",
+   "ritual fire"
+  ],
+  "institutions": [
+   "varna system",
+   "temple"
+  ],
+  "temporal": {
+   "valid_from": "1500 BCE",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": [
+    "India",
+    "South Asia"
+   ]
+  }
+ },
+ {
+  "id": "hist.religious_roles.aztec_priest",
+  "name": "Aztec Priest",
+  "name_en": "Aztec Priest",
+  "type": "RELIGIOUS_ROLE",
+  "parent": "hist.religious_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "阿兹特克祭司",
+  "civilization": "Aztec Empire",
+  "social_role": "ritual and sacrificial specialist",
+  "functions": [
+   "human sacrifice",
+   "calendar ritual",
+   "temple service"
+  ],
+  "skills": [
+   "ritual",
+   "astronomy"
+  ],
+  "technologies": [
+   "obsidian knives",
+   "templo mayor"
+  ],
+  "institutions": [
+   "Aztec temple-state"
+  ],
+  "temporal": {
+   "valid_from": "1300 CE",
+   "valid_until": "1521 CE",
+   "peak_period": "15th c",
+   "geographic_scope": "Mesoamerica"
+  }
+ },
+ {
+  "id": "hist.military_roles.hoplite",
+  "name": "Hoplite",
+  "name_en": "Hoplite",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "重装步兵",
+  "civilization": "Ancient Greece",
+  "social_role": "citizen heavy infantry",
+  "functions": [
+   "phalanx warfare",
+   "city-state defense"
+  ],
+  "skills": [
+   "shield drill",
+   "spear"
+  ],
+  "technologies": [
+   "aspis shield",
+   "spear",
+   "bronze armor"
+  ],
+  "institutions": [
+   "polis militia"
+  ],
+  "temporal": {
+   "valid_from": "700 BCE",
+   "valid_until": "300 BCE",
+   "peak_period": "Classical",
+   "geographic_scope": "Greece"
+  }
+ },
+ {
+  "id": "hist.military_roles.legionary",
+  "name": "Legionary",
+  "name_en": "Legionary",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "军团士兵",
+  "civilization": "Ancient Rome",
+  "social_role": "professional heavy infantry",
+  "functions": [
+   "legion warfare",
+   "siege",
+   "engineering"
+  ],
+  "skills": [
+   "drill",
+   "sword",
+   "pilum"
+  ],
+  "technologies": [
+   "gladius",
+   "scutum",
+   "ballista"
+  ],
+  "institutions": [
+   "Roman legion"
+  ],
+  "temporal": {
+   "valid_from": "100 BCE",
+   "valid_until": "400 CE",
+   "peak_period": "Empire",
+   "geographic_scope": "Rome"
+  }
+ },
+ {
+  "id": "hist.military_roles.archer",
+  "name": "Archer",
+  "name_en": "Archer",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "弓箭手",
+  "civilization": "global",
+  "social_role": "missile infantry",
+  "functions": [
+   "ranged attack",
+   "skirmishing"
+  ],
+  "skills": [
+   "archery"
+  ],
+  "technologies": [
+   "bow",
+   "arrows"
+  ],
+  "institutions": [
+   "armies"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": "varies",
+   "geographic_scope": "global"
+  }
+ },
+ {
+  "id": "hist.military_roles.crossbowman",
+  "name": "Crossbowman",
+  "name_en": "Crossbowman",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "China",
+  "name_zh": "弩手",
+  "civilization": "Medieval Europe / China",
+  "social_role": "missile infantry",
+  "functions": [
+   "ranged attack",
+   "siege support"
+  ],
+  "skills": [
+   "crossbow operation"
+  ],
+  "technologies": [
+   "crossbow",
+   "bolts"
+  ],
+  "institutions": [
+   "armies",
+   "garrisons"
+  ],
+  "temporal": {
+   "valid_from": "500 CE",
+   "valid_until": "1500 CE",
+   "peak_period": "Medieval",
+   "geographic_scope": "Europe"
+  }
+ },
+ {
+  "id": "hist.military_roles.longbowman",
+  "name": "Longbowman",
+  "name_en": "Longbowman",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "长弓手",
+  "civilization": "Medieval England",
+  "social_role": "elite missile infantry",
+  "functions": [
+   "massed archery",
+   "battlefield control"
+  ],
+  "skills": [
+   "longbow",
+   "strength"
+  ],
+  "technologies": [
+   "longbow",
+   "cloth-yard arrows"
+  ],
+  "institutions": [
+   "English army"
+  ],
+  "temporal": {
+   "valid_from": "1200 CE",
+   "valid_until": "1500 CE",
+   "peak_period": "Hundred Years War",
+   "geographic_scope": "England"
+  }
+ },
+ {
+  "id": "hist.military_roles.musketeer",
+  "name": "Musketeer",
+  "name_en": "Musketeer",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "火枪手",
+  "civilization": "early modern Europe",
+  "social_role": "firearm infantry",
+  "functions": [
+   "volley fire",
+   "line infantry"
+  ],
+  "skills": [
+   "musketry",
+   "drill"
+  ],
+  "technologies": [
+   "matchlock/flintlock musket"
+  ],
+  "institutions": [
+   "standing armies"
+  ],
+  "temporal": {
+   "valid_from": "1500 CE",
+   "valid_until": "1850 CE",
+   "peak_period": "17th–18th c",
+   "geographic_scope": "Europe"
+  }
+ },
+ {
+  "id": "hist.military_roles.pikeman",
+  "name": "Pikeman",
+  "name_en": "Pikeman",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "长矛兵",
+  "civilization": "early modern Europe",
+  "social_role": "polearm infantry",
+  "functions": [
+   "pike square",
+   "anti-cavalry"
+  ],
+  "skills": [
+   "pike drill"
+  ],
+  "technologies": [
+   "pike"
+  ],
+  "institutions": [
+   "tercio",
+   "armies"
+  ],
+  "temporal": {
+   "valid_from": "1500 CE",
+   "valid_until": "1700 CE",
+   "peak_period": "16th–17th c",
+   "geographic_scope": "Europe"
+  }
+ },
+ {
+  "id": "hist.military_roles.landsknecht",
+  "name": "Landsknecht",
+  "name_en": "Landsknecht",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "德意志雇佣兵",
+  "civilization": "Holy Roman Empire",
+  "social_role": "mercenary infantry",
+  "functions": [
+   "mercenary warfare",
+   "pike and shot"
+  ],
+  "skills": [
+   "pike",
+   "sword"
+  ],
+  "technologies": [
+   "pike",
+   "zweihänder",
+   "arquebus"
+  ],
+  "institutions": [
+   "mercenary companies"
+  ],
+  "temporal": {
+   "valid_from": "1480 CE",
+   "valid_until": "1600 CE",
+   "peak_period": "16th c",
+   "geographic_scope": "Central Europe"
+  }
+ },
+ {
+  "id": "hist.military_roles.samurai",
+  "name": "Samurai",
+  "name_en": "Samurai",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "武士",
+  "civilization": "Japan",
+  "social_role": "feudal warrior class",
+  "functions": [
+   "military service",
+   "lord's retainer",
+   "governance"
+  ],
+  "skills": [
+   "swordsmanship",
+   "horsemanship",
+   "archery"
+  ],
+  "technologies": [
+   "katana",
+   "yumi",
+   "armor"
+  ],
+  "institutions": [
+   "bushi class",
+   "han",
+   "shogunate"
+  ],
+  "temporal": {
+   "valid_from": "1185 CE",
+   "valid_until": "1876 CE",
+   "peak_period": "Sengoku–Edo",
+   "geographic_scope": "Japan"
+  }
+ },
+ {
+  "id": "hist.military_roles.knight",
+  "name": "Knight",
+  "name_en": "Knight",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "骑士",
+  "civilization": "Medieval Europe",
+  "social_role": "mounted armored warrior",
+  "functions": [
+   "heavy cavalry",
+   "feudal military service"
+  ],
+  "skills": [
+   "horsemanship",
+   "sword",
+   "lance"
+  ],
+  "technologies": [
+   "plate armor",
+   "warhorse",
+   "lance"
+  ],
+  "institutions": [
+   "feudalism",
+   "chivalry"
+  ],
+  "temporal": {
+   "valid_from": "800 CE",
+   "valid_until": "1500 CE",
+   "peak_period": "High Middle Ages",
+   "geographic_scope": "Europe"
+  }
+ },
+ {
+  "id": "hist.military_roles.man_at_arms",
+  "name": "Man-at-Arms",
+  "name_en": "Man-at-Arms",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "重甲武士",
+  "civilization": "Medieval Europe",
+  "social_role": "professional armored soldier",
+  "functions": [
+   "heavy combat",
+   "campaign service"
+  ],
+  "skills": [
+   "arms",
+   "armor"
+  ],
+  "technologies": [
+   "plate armor",
+   "polearms"
+  ],
+  "institutions": [
+   "retinues",
+   "armies"
+  ],
+  "temporal": {
+   "valid_from": "1300 CE",
+   "valid_until": "1500 CE",
+   "peak_period": "14th–15th c",
+   "geographic_scope": "Europe"
+  }
+ },
+ {
+  "id": "hist.military_roles.siege_engineer",
+  "name": "Siege Engineer",
+  "name_en": "Siege Engineer",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "攻城技师",
+  "civilization": "global",
+  "social_role": "siege machinery specialist",
+  "functions": [
+   "siege engines",
+   "fortification breach"
+  ],
+  "skills": [
+   "engineering",
+   "mathematics"
+  ],
+  "technologies": [
+   "trebuchet",
+   "catapult",
+   "tunnel"
+  ],
+  "institutions": [
+   "armies",
+   "engineer corps"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1500 CE",
+   "peak_period": "Medieval",
+   "geographic_scope": "global"
+  }
+ },
+ {
+  "id": "hist.military_roles.military_drummer",
+  "name": "Military Drummer",
+  "name_en": "Military Drummer",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "军中鼓手",
+  "civilization": "global",
+  "social_role": "signal and cadence drummer",
+  "functions": [
+   "march cadence",
+   "battlefield signals"
+  ],
+  "skills": [
+   "drumming"
+  ],
+  "technologies": [
+   "drum"
+  ],
+  "institutions": [
+   "armies"
+  ],
+  "temporal": {
+   "valid_from": "1500 CE",
+   "valid_until": "1900 CE",
+   "peak_period": "18th–19th c",
+   "geographic_scope": "global"
+  }
+ },
+ {
+  "id": "hist.military_roles.standard_bearer",
+  "name": "Standard Bearer",
+  "name_en": "Standard Bearer",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "旗手",
+  "civilization": "global",
+  "social_role": "unit flag/standard carrier",
+  "functions": [
+   "carried unit standard",
+   "rally point"
+  ],
+  "skills": [
+   "discipline",
+   "courage"
+  ],
+  "technologies": [
+   "standard",
+   "banner"
+  ],
+  "institutions": [
+   "armies",
+   "legions"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": "varies",
+   "geographic_scope": "global"
+  }
+ },
+ {
+  "id": "hist.military_roles.war_elephant_handler",
+  "name": "War Elephant Handler",
+  "name_en": "War Elephant Handler",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "Southeast Asia",
+  "name_zh": "战象驭手",
+  "civilization": "India / Southeast Asia / Carthage",
+  "social_role": "elephant driver in war",
+  "functions": [
+   "elephant combat",
+   "logistics"
+  ],
+  "skills": [
+   "elephant handling"
+  ],
+  "technologies": [
+   "howdah",
+   "elephant armor"
+  ],
+  "institutions": [
+   "armies"
+  ],
+  "temporal": {
+   "valid_from": "500 BCE",
+   "valid_until": "1800 CE",
+   "peak_period": "Classical–medieval",
+   "geographic_scope": "India"
+  }
+ },
+ {
+  "id": "hist.military_roles.chariot_warrior",
+  "name": "Chariot Warrior",
+  "name_en": "Chariot Warrior",
+  "type": "MILITARY_ROLE",
+  "parent": "hist.military_roles",
+  "description": null,
+  "historical": true,
+  "status": "Egypt",
+  "name_zh": "战车武士",
+  "civilization": "Ancient Near East / Egypt / China",
+  "social_role": "chariot-borne fighter",
+  "functions": [
+   "chariot combat",
+   "archery from chariot"
+  ],
+  "skills": [
+   "charioteering",
+   "archery"
+  ],
+  "technologies": [
+   "chariot",
+   "composite bow"
+  ],
+  "institutions": [
+   "royal armies"
+  ],
+  "temporal": {
+   "valid_from": "2000 BCE",
+   "valid_until": "300 BCE",
+   "peak_period": "Bronze Age",
+   "geographic_scope": "Near East"
+  }
+ },
+ {
+  "id": "hist.knowledge_work.scroll_maker",
+  "name": "Scroll Maker",
+  "name_en": "Scroll Maker",
+  "type": "CRAFT",
+  "parent": "hist.knowledge_work",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "卷轴制作匠",
+  "civilization": "Ancient Mediterranean / East Asia",
+  "social_role": "document producer",
+  "functions": [
+   "prepared scrolls",
+   "mounted texts"
+  ],
+  "skills": [
+   "papyrus/paper handling",
+   "mounting"
+  ],
+  "technologies": [
+   "papyrus",
+   "scrolls"
+  ],
+  "institutions": [
+   "scriptoria",
+   "archives"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1000 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "Mediterranean",
+    "East Asia"
+   ]
+  }
+ },
+ {
+  "id": "hist.knowledge_work.papyrus_maker",
+  "name": "Papyrus Maker",
+  "name_en": "Papyrus Maker",
+  "type": "CRAFT",
+  "parent": "hist.knowledge_work",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "纸莎草纸匠",
+  "civilization": "Ancient Egypt",
+  "social_role": "writing material producer",
+  "functions": [
+   "made papyrus sheets",
+   "export"
+  ],
+  "skills": [
+   "plant processing",
+   "pressing"
+  ],
+  "technologies": [
+   "papyrus plant",
+   "press"
+  ],
+  "institutions": [
+   "state workshops"
+  ],
+  "temporal": {
+   "valid_from": "3000 BCE",
+   "valid_until": "800 CE",
+   "peak_period": "antiquity",
+   "geographic_scope": [
+    "Egypt"
+   ]
+  }
+ },
+ {
+  "id": "hist.knowledge_work.manuscript_corrector",
+  "name": "Manuscript Corrector",
+  "name_en": "Manuscript Corrector",
+  "type": "PROFESSION",
+  "parent": "hist.knowledge_work",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "手稿校对者",
+  "civilization": "Medieval Europe",
+  "social_role": "textual corrector",
+  "functions": [
+   "corrected copied manuscripts",
+   "collated texts"
+  ],
+  "skills": [
+   "Latin",
+   "paleography"
+  ],
+  "technologies": [
+   "manuscripts",
+   "corrector marks"
+  ],
+  "institutions": [
+   "scriptoria",
+   "universities"
+  ],
+  "temporal": {
+   "valid_from": "1200 CE",
+   "valid_until": "1500 CE",
+   "peak_period": "High Middle Ages",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.knowledge_work.royal_courier",
+  "name": "Royal Courier",
+  "name_en": "Royal Courier",
+  "type": "OCCUPATION",
+  "parent": "hist.knowledge_work",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "皇家信使",
+  "civilization": "global",
+  "social_role": "state messenger",
+  "functions": [
+   "delivered royal dispatches",
+   "intelligence"
+  ],
+  "skills": [
+   "riding",
+   "memorization"
+  ],
+  "technologies": [
+   "horses",
+   "sealed dispatches"
+  ],
+  "institutions": [
+   "court",
+   "postal relay"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1800 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.knowledge_work.postal_rider",
+  "name": "Postal Rider",
+  "name_en": "Postal Rider",
+  "type": "OCCUPATION",
+  "parent": "hist.knowledge_work",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "驿马信使",
+  "civilization": "global",
+  "social_role": "relay postal messenger",
+  "functions": [
+   "carried mail across relay stations"
+  ],
+  "skills": [
+   "riding",
+   "endurance"
+  ],
+  "technologies": [
+   "relay horses",
+   "post stations"
+  ],
+  "institutions": [
+   "postal systems"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global",
+    "China",
+    "Mongol Empire"
+   ]
+  }
+ },
+ {
+  "id": "hist.knowledge_work.logarithm_table_calculator",
+  "name": "Logarithm-Table Calculator",
+  "name_en": "Logarithm-Table Calculator",
+  "type": "PROFESSION",
+  "parent": "hist.knowledge_work",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "对数表计算员",
+  "civilization": "global",
+  "social_role": "manual computation worker",
+  "functions": [
+   "computed using logarithm tables"
+  ],
+  "skills": [
+   "numeracy",
+   "logarithms"
+  ],
+  "technologies": [
+   "logarithm tables",
+   "slide rule"
+  ],
+  "institutions": [
+   "observatories",
+   "banks",
+   "navies"
+  ],
+  "temporal": {
+   "valid_from": "1600 CE",
+   "valid_until": "1970 CE",
+   "peak_period": "19th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.knowledge_work.census_enumerator",
+  "name": "Census Enumerator",
+  "name_en": "Census Enumerator",
+  "type": "OCCUPATION",
+  "parent": "hist.knowledge_work",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "人口普查员",
+  "civilization": "global",
+  "social_role": "population surveyor",
+  "functions": [
+   "counted population",
+   "recorded households"
+  ],
+  "skills": [
+   "record-keeping",
+   "arithmetic"
+  ],
+  "technologies": [
+   "forms",
+   "ledgers"
+  ],
+  "institutions": [
+   "state census bureaus"
+  ],
+  "temporal": {
+   "valid_from": "1800 CE",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.knowledge_work.abacus_calculator",
+  "name": "Abacus Calculator",
+  "name_en": "Abacus Calculator",
+  "type": "PROFESSION",
+  "parent": "hist.knowledge_work",
+  "description": null,
+  "historical": true,
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "算盘计算师",
+  "civilization": "East Asia",
+  "social_role": "manual calculation specialist",
+  "functions": [
+   "arithmetic via abacus",
+   "bookkeeping"
+  ],
+  "skills": [
+   "abacus",
+   "mental arithmetic"
+  ],
+  "technologies": [
+   "abacus"
+  ],
+  "institutions": [
+   "merchant houses",
+   "state finance"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "China",
+    "Japan",
+    "East Asia"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.chandler",
+  "name": "Chandler",
+  "name_en": "Chandler",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "蜡烛匠",
+  "civilization": "Medieval Europe",
+  "social_role": "candle/tallow maker",
+  "functions": [
+   "made candles",
+   "soap"
+  ],
+  "skills": [
+   "tallow rendering",
+   "dipping"
+  ],
+  "technologies": [
+   "tallow",
+   "molds"
+  ],
+  "institutions": [
+   "guilds"
+  ],
+  "temporal": {
+   "valid_from": "1000 CE",
+   "valid_until": "1850 CE",
+   "peak_period": "Medieval",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.tanner",
+  "name": "Tanner",
+  "name_en": "Tanner",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "制革匠",
+  "civilization": "global",
+  "social_role": "leather producer",
+  "functions": [
+   "tanned hides",
+   "leather finishing"
+  ],
+  "skills": [
+   "tanning",
+   "chemistry"
+  ],
+  "technologies": [
+   "tannin",
+   "pits"
+  ],
+  "institutions": [
+   "guilds",
+   "tanneries"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.fuller",
+  "name": "Fuller",
+  "name_en": "Fuller",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "漂洗工",
+  "civilization": "Medieval Europe",
+  "social_role": "cloth finisher",
+  "functions": [
+   "fulled and finished cloth"
+  ],
+  "skills": [
+   "cloth working"
+  ],
+  "technologies": [
+   "fulling mill",
+   "water"
+  ],
+  "institutions": [
+   "guilds",
+   "fulling mills"
+  ],
+  "temporal": {
+   "valid_from": "1000 CE",
+   "valid_until": "1700 CE",
+   "peak_period": "Medieval",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.rope_maker",
+  "name": "Rope Maker",
+  "name_en": "Rope Maker",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "制绳匠",
+  "civilization": "global",
+  "social_role": "cordage producer",
+  "functions": [
+   "made rope",
+   "ship cordage"
+  ],
+  "skills": [
+   "fiber twisting"
+  ],
+  "technologies": [
+   "ropewalk",
+   "fibers"
+  ],
+  "institutions": [
+   "guilds",
+   "dockyards"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.armourer",
+  "name": "Armourer",
+  "name_en": "Armourer",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "甲胄匠",
+  "civilization": "global",
+  "social_role": "armor producer",
+  "functions": [
+   "forged armor",
+   "fitted plate"
+  ],
+  "skills": [
+   "metalworking"
+  ],
+  "technologies": [
+   "forge",
+   "anvil"
+  ],
+  "institutions": [
+   "guilds",
+   "armories"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1600 CE",
+   "peak_period": "Medieval",
+   "geographic_scope": [
+    "Europe",
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.fletcher",
+  "name": "Fletcher",
+  "name_en": "Fletcher",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "制箭匠",
+  "civilization": "Medieval Europe",
+  "social_role": "arrow maker",
+  "functions": [
+   "made arrows",
+   "fletching"
+  ],
+  "skills": [
+   "woodworking",
+   "fletching"
+  ],
+  "technologies": [
+   "feathers",
+   "shafts"
+  ],
+  "institutions": [
+   "guilds",
+   "armies"
+  ],
+  "temporal": {
+   "valid_from": "1000 CE",
+   "valid_until": "1600 CE",
+   "peak_period": "Medieval",
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.bowyer",
+  "name": "Bowyer",
+  "name_en": "Bowyer",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "制弓匠",
+  "civilization": "global",
+  "social_role": "bow maker",
+  "functions": [
+   "made bows",
+   "tillering"
+  ],
+  "skills": [
+   "woodworking"
+  ],
+  "technologies": [
+   "yew wood",
+   "staves"
+  ],
+  "institutions": [
+   "guilds"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1800 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.flint_knapper",
+  "name": "Flint Knapper",
+  "name_en": "Flint Knapper",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "燧石打制匠",
+  "civilization": "prehistoric / Indigenous",
+  "social_role": "stone tool maker",
+  "functions": [
+   "knapped flint tools",
+   "weapon points"
+  ],
+  "skills": [
+   "knapping",
+   "stone selection"
+  ],
+  "technologies": [
+   "flint",
+   "hammerstones"
+  ],
+  "institutions": [
+   "bands",
+   "communities"
+  ],
+  "temporal": {
+   "valid_from": "prehistory",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.glassmaker",
+  "name": "Glassmaker",
+  "name_en": "Glassmaker",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "玻璃匠",
+  "civilization": "global",
+  "social_role": "glass producer",
+  "functions": [
+   "blew and shaped glass"
+  ],
+  "skills": [
+   "glassblowing"
+  ],
+  "technologies": [
+   "furnace",
+   "blowpipe"
+  ],
+  "institutions": [
+   "guilds",
+   "workshops"
+  ],
+  "temporal": {
+   "valid_from": "1500 BCE",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.lithographer",
+  "name": "Lithographer",
+  "name_en": "Lithographer",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "平版印刷工",
+  "civilization": "global",
+  "social_role": "lithographic printer",
+  "functions": [
+   "printed via lithography"
+  ],
+  "skills": [
+   "stone drawing",
+   "printing"
+  ],
+  "technologies": [
+   "lithographic stone",
+   "press"
+  ],
+  "institutions": [
+   "print shops"
+  ],
+  "temporal": {
+   "valid_from": "1796 CE",
+   "valid_until": "1990 CE",
+   "peak_period": "19th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.crafts.pottery_specialist",
+  "name": "Pottery Specialist",
+  "name_en": "Pottery Specialist",
+  "type": "CRAFT",
+  "parent": "hist.crafts",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "陶器匠",
+  "civilization": "global",
+  "social_role": "ceramic producer",
+  "functions": [
+   "threw and fired pottery"
+  ],
+  "skills": [
+   "wheel throwing",
+   "firing"
+  ],
+  "technologies": [
+   "potter's wheel",
+   "kiln"
+  ],
+  "institutions": [
+   "workshops",
+   "guilds"
+  ],
+  "temporal": {
+   "valid_from": "prehistory",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.charioteer",
+  "name": "Charioteer",
+  "name_en": "Charioteer",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "战车御者",
+  "civilization": "Ancient Near East / Egypt / China",
+  "social_role": "chariot driver",
+  "functions": [
+   "drove war chariots",
+   "raced"
+  ],
+  "skills": [
+   "charioteering",
+   "horsemanship"
+  ],
+  "technologies": [
+   "chariot",
+   "horses"
+  ],
+  "institutions": [
+   "royal stables",
+   "armies"
+  ],
+  "temporal": {
+   "valid_from": "2000 BCE",
+   "valid_until": "300 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "Near East",
+    "Egypt",
+    "China"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.stagecoach_driver",
+  "name": "Stagecoach Driver",
+  "name_en": "Stagecoach Driver",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "驿马车夫",
+  "civilization": "global",
+  "social_role": "long-distance coach driver",
+  "functions": [
+   "drove stagecoaches",
+   "managed horses"
+  ],
+  "skills": [
+   "driving",
+   "horsemanship"
+  ],
+  "technologies": [
+   "stagecoach",
+   "relay horses"
+  ],
+  "institutions": [
+   "coaching inns",
+   "postal systems"
+  ],
+  "temporal": {
+   "valid_from": "1600 CE",
+   "valid_until": "1900 CE",
+   "peak_period": "18th–19th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.coachman",
+  "name": "Coachman",
+  "name_en": "Coachman",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "马车夫",
+  "civilization": "global",
+  "social_role": "private carriage driver",
+  "functions": [
+   "drove private carriages"
+  ],
+  "skills": [
+   "driving",
+   "horse care"
+  ],
+  "technologies": [
+   "carriage",
+   "horses"
+  ],
+  "institutions": [
+   "aristocratic households"
+  ],
+  "temporal": {
+   "valid_from": "1500 CE",
+   "valid_until": "1900 CE",
+   "peak_period": "18th–19th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.carriage_maker",
+  "name": "Carriage Maker",
+  "name_en": "Carriage Maker",
+  "type": "CRAFT",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "马车制造匠",
+  "civilization": "global",
+  "social_role": "carriage builder",
+  "functions": [
+   "built carriages",
+   "coachwork"
+  ],
+  "skills": [
+   "woodworking",
+   "metalwork"
+  ],
+  "technologies": [
+   "carriage",
+   "workshop"
+  ],
+  "institutions": [
+   "coachworks",
+   "guilds"
+  ],
+  "temporal": {
+   "valid_from": "1500 CE",
+   "valid_until": "1900 CE",
+   "peak_period": "18th–19th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.omnibus_driver",
+  "name": "Horse-Drawn Omnibus Driver",
+  "name_en": "Horse-Drawn Omnibus Driver",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "公共马车夫",
+  "civilization": "global",
+  "social_role": "urban transit driver",
+  "functions": [
+   "drove omnibus",
+   "collected fares"
+  ],
+  "skills": [
+   "driving"
+  ],
+  "technologies": [
+   "omnibus",
+   "horses"
+  ],
+  "institutions": [
+   "transit companies"
+  ],
+  "temporal": {
+   "valid_from": "1820 CE",
+   "valid_until": "1910 CE",
+   "peak_period": "19th c",
+   "geographic_scope": [
+    "Europe",
+    "Americas"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.stable_master",
+  "name": "Stable Master",
+  "name_en": "Stable Master",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "马厩总管",
+  "civilization": "global",
+  "social_role": "stable superintendent",
+  "functions": [
+   "managed stables",
+   "horse care"
+  ],
+  "skills": [
+   "equine care",
+   "management"
+  ],
+  "technologies": [
+   "stables",
+   "tack"
+  ],
+  "institutions": [
+   "royal/noble households",
+   "armies"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.porter",
+  "name": "Porter",
+  "name_en": "Porter",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "搬运工",
+  "civilization": "global",
+  "social_role": "load carrier",
+  "functions": [
+   "carried goods",
+   "human transport"
+  ],
+  "skills": [
+   "strength"
+  ],
+  "technologies": [
+   "palanquin",
+   "handcart"
+  ],
+  "institutions": [
+   "markets",
+   "docks"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.pack_animal_driver",
+  "name": "Pack-Animal Driver",
+  "name_en": "Pack-Animal Driver",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "驮畜驭手",
+  "civilization": "global",
+  "social_role": "caravan pack driver",
+  "functions": [
+   "drove pack caravans",
+   "trade transport"
+  ],
+  "skills": [
+   "animal handling",
+   "route knowledge"
+  ],
+  "technologies": [
+   "mules",
+   "camels",
+   "llamas"
+  ],
+  "institutions": [
+   "caravans",
+   "trade routes"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global",
+    "Silk Road",
+    "Andes"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.sailmaker",
+  "name": "Sailmaker",
+  "name_en": "Sailmaker",
+  "type": "CRAFT",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "制帆匠",
+  "civilization": "maritime civilizations",
+  "social_role": "sail producer",
+  "functions": [
+   "made and repaired sails"
+  ],
+  "skills": [
+   "sewing",
+   "canvas work"
+  ],
+  "technologies": [
+   "canvas",
+   "needles"
+  ],
+  "institutions": [
+   "dockyards",
+   "guilds"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.shipwright",
+  "name": "Shipwright",
+  "name_en": "Shipwright",
+  "type": "CRAFT",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "造船匠",
+  "civilization": "global",
+  "social_role": "wooden ship builder",
+  "functions": [
+   "built wooden ships",
+   "hull construction"
+  ],
+  "skills": [
+   "woodworking",
+   "naval design"
+  ],
+  "technologies": [
+   "timber",
+   "shipyard"
+  ],
+  "institutions": [
+   "dockyards",
+   "guilds"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.oarsman",
+  "name": "Oarsman",
+  "name_en": "Oarsman",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "桨手",
+  "civilization": "Mediterranean / global",
+  "social_role": "galley rower",
+  "functions": [
+   "rowed galleys",
+   "naval propulsion"
+  ],
+  "skills": [
+   "rowing",
+   "endurance"
+  ],
+  "technologies": [
+   "oars",
+   "galleys"
+  ],
+  "institutions": [
+   "navies"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1700 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "Mediterranean",
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.galley_rower",
+  "name": "Galley Rower",
+  "name_en": "Galley Rower",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "帆桨船桨手",
+  "civilization": "Mediterranean / Ottoman",
+  "social_role": "forced/paid galley rower",
+  "functions": [
+   "rowed war galleys"
+  ],
+  "skills": [
+   "rowing",
+   "endurance"
+  ],
+  "technologies": [
+   "galley",
+   "oars"
+  ],
+  "institutions": [
+   "navies",
+   "penal systems"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1800 CE",
+   "peak_period": "16th–17th c",
+   "geographic_scope": [
+    "Mediterranean"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.lighthouse_keeper",
+  "name": "Lighthouse Keeper",
+  "name_en": "Lighthouse Keeper",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "灯塔看守",
+  "civilization": "global",
+  "social_role": "lighthouse operator",
+  "functions": [
+   "maintained light",
+   "maritime safety"
+  ],
+  "skills": [
+   "lamp maintenance",
+   "watchkeeping"
+  ],
+  "technologies": [
+   "oil lamps",
+   "fresnel lens"
+  ],
+  "institutions": [
+   "maritime authorities"
+  ],
+  "temporal": {
+   "valid_from": "1700 CE",
+   "valid_until": "1990 CE",
+   "peak_period": "19th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.traditional_navigator",
+  "name": "Traditional Navigator",
+  "name_en": "Traditional Navigator",
+  "type": "PROFESSION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "传统航海师",
+  "aliases": [
+   "Wayfinder"
+  ],
+  "civilization": "Polynesia / Indigenous",
+  "social_role": "non-instrument navigator",
+  "functions": [
+   "oceanic wayfinding",
+   "star navigation"
+  ],
+  "skills": [
+   "star knowledge",
+   "swell reading"
+  ],
+  "technologies": [
+   "canoes",
+   "star compass"
+  ],
+  "institutions": [
+   "voyaging societies"
+  ],
+  "temporal": {
+   "valid_from": "prehistory",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "Pacific",
+    "Polynesia",
+    "Micronesia"
+   ]
+  }
+ },
+ {
+  "id": "hist.transport_navigation.ships_telegraph_operator",
+  "name": "Ship's Telegraph Operator",
+  "name_en": "Ship's Telegraph Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_navigation",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "船用电报员",
+  "civilization": "global",
+  "social_role": "maritime radio/telegraph operator",
+  "functions": [
+   "ship-to-shore communication",
+   "distress signals"
+  ],
+  "skills": [
+   "telegraphy",
+   "Morse code"
+  ],
+  "technologies": [
+   "wireless telegraph"
+  ],
+  "institutions": [
+   "shipping lines",
+   "navies"
+  ],
+  "temporal": {
+   "valid_from": "1900 CE",
+   "valid_until": "1990 CE",
+   "peak_period": "mid-20th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.scythe_mower",
+  "name": "Scythe Mower",
+  "name_en": "Scythe Mower",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "镰刀割草者",
+  "civilization": "global",
+  "social_role": "manual harvester",
+  "functions": [
+   "cut grain/grass with scythe"
+  ],
+  "skills": [
+   "scythe handling"
+  ],
+  "technologies": [
+   "scythe"
+  ],
+  "institutions": [
+   "manors",
+   "farms"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.reaper",
+  "name": "Reaper",
+  "name_en": "Reaper",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "收割者",
+  "civilization": "global",
+  "social_role": "manual crop harvester",
+  "functions": [
+   "harvested grain by hand"
+  ],
+  "skills": [
+   "sickle",
+   "threshing"
+  ],
+  "technologies": [
+   "sickle",
+   "scythe"
+  ],
+  "institutions": [
+   "farms"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1850 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.thresher",
+  "name": "Thresher",
+  "name_en": "Thresher",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "打谷者",
+  "civilization": "global",
+  "social_role": "manual grain thresher",
+  "functions": [
+   "separated grain from chaff"
+  ],
+  "skills": [
+   "flailing"
+  ],
+  "technologies": [
+   "flail"
+  ],
+  "institutions": [
+   "farms",
+   "manors"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1850 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.ox_ploughman",
+  "name": "Ox Ploughman",
+  "name_en": "Ox Ploughman",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "牛耕者",
+  "civilization": "global",
+  "social_role": "animal-drawn plough operator",
+  "functions": [
+   "ploughed fields with oxen"
+  ],
+  "skills": [
+   "ploughing",
+   "animal handling"
+  ],
+  "technologies": [
+   "oxen",
+   "plough"
+  ],
+  "institutions": [
+   "farms",
+   "manors"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.shepherd",
+  "name": "Shepherd",
+  "name_en": "Shepherd",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "牧羊人",
+  "civilization": "global",
+  "social_role": "flock herder",
+  "functions": [
+   "tended sheep",
+   "transhumance"
+  ],
+  "skills": [
+   "herding",
+   "sheep care"
+  ],
+  "technologies": [
+   "crook",
+   "dogs"
+  ],
+  "institutions": [
+   "pastoral communities"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.traditional_miller",
+  "name": "Traditional Miller",
+  "name_en": "Traditional Miller",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "磨坊主",
+  "civilization": "global",
+  "social_role": "grain miller",
+  "functions": [
+   "ground grain",
+   "flour production"
+  ],
+  "skills": [
+   "milling",
+   "grain handling"
+  ],
+  "technologies": [
+   "millstones"
+  ],
+  "institutions": [
+   "mills",
+   "manors"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.watermill_operator",
+  "name": "Watermill Operator",
+  "name_en": "Watermill Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "水磨操作员",
+  "civilization": "global",
+  "social_role": "watermill operator",
+  "functions": [
+   "operated water-powered mill"
+  ],
+  "skills": [
+   "milling",
+   "water management"
+  ],
+  "technologies": [
+   "waterwheel",
+   "millstones"
+  ],
+  "institutions": [
+   "mills"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.windmill_operator",
+  "name": "Windmill Operator",
+  "name_en": "Windmill Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "风磨操作员",
+  "civilization": "global",
+  "social_role": "windmill operator",
+  "functions": [
+   "operated wind-powered mill"
+  ],
+  "skills": [
+   "milling",
+   "sail handling"
+  ],
+  "technologies": [
+   "windmill",
+   "millstones"
+  ],
+  "institutions": [
+   "mills"
+  ],
+  "temporal": {
+   "valid_from": "1100 CE",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "Europe",
+    "Middle East"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.agricultural_laborer",
+  "name": "Agricultural Laborer",
+  "name_en": "Agricultural Laborer",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "农业雇工",
+  "civilization": "global",
+  "social_role": "landless farm worker",
+  "functions": [
+   "manual farm labor",
+   "seasonal work"
+  ],
+  "skills": [
+   "field labor"
+  ],
+  "technologies": [
+   "hand tools"
+  ],
+  "institutions": [
+   "estates",
+   "farms"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.ice_cutter",
+  "name": "Ice Cutter",
+  "name_en": "Ice Cutter",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "采冰人",
+  "civilization": "global",
+  "social_role": "natural ice harvester",
+  "functions": [
+   "cut lake/river ice",
+   "stored ice"
+  ],
+  "skills": [
+   "ice sawing",
+   "handling"
+  ],
+  "technologies": [
+   "ice saw",
+   "ice houses"
+  ],
+  "institutions": [
+   "ice companies"
+  ],
+  "temporal": {
+   "valid_from": "1800 CE",
+   "valid_until": "1930 CE",
+   "peak_period": "19th c",
+   "geographic_scope": [
+    "North America",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.agriculture_rural.ice_delivery_worker",
+  "name": "Ice Delivery Worker",
+  "name_en": "Ice Delivery Worker",
+  "type": "OCCUPATION",
+  "parent": "hist.agriculture_rural",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "送冰人",
+  "civilization": "global",
+  "social_role": "ice delivery",
+  "functions": [
+   "delivered ice blocks to households"
+  ],
+  "skills": [
+   "cart driving",
+   "delivery"
+  ],
+  "technologies": [
+   "ice wagon",
+   "ice tongs"
+  ],
+  "institutions": [
+   "ice companies"
+  ],
+  "temporal": {
+   "valid_from": "1850 CE",
+   "valid_until": "1940 CE",
+   "peak_period": "19th–20th c",
+   "geographic_scope": [
+    "North America",
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.chimney_sweep",
+  "name": "Chimney Sweep",
+  "name_en": "Chimney Sweep",
+  "type": "OCCUPATION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "烟囱清扫工",
+  "civilization": "Europe",
+  "social_role": "chimney cleaner",
+  "functions": [
+   "cleaned chimneys",
+   "soot removal"
+  ],
+  "skills": [
+   "climbing",
+   "brushing"
+  ],
+  "technologies": [
+   "brushes",
+   "ropes"
+  ],
+  "institutions": [
+   "guilds",
+   "sweep masters"
+  ],
+  "temporal": {
+   "valid_from": "1600 CE",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "Europe"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.elevator_operator",
+  "name": "Elevator Operator",
+  "name_en": "Elevator Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "电梯操作员",
+  "civilization": "global",
+  "social_role": "elevator attendant",
+  "functions": [
+   "operated manual elevators",
+   "announced floors"
+  ],
+  "skills": [
+   "lever operation"
+  ],
+  "technologies": [
+   "manual elevator",
+   "lever"
+  ],
+  "institutions": [
+   "buildings",
+   "hotels"
+  ],
+  "temporal": {
+   "valid_from": "1880 CE",
+   "valid_until": "1970 CE",
+   "peak_period": "early 20th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.milkman",
+  "name": "Milkman",
+  "name_en": "Milkman",
+  "type": "OCCUPATION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "送奶工",
+  "civilization": "global",
+  "social_role": "milk delivery",
+  "functions": [
+   "delivered fresh milk door-to-door"
+  ],
+  "skills": [
+   "delivery",
+   "dairy handling"
+  ],
+  "technologies": [
+   "milk cart",
+   "bottles"
+  ],
+  "institutions": [
+   "dairies"
+  ],
+  "temporal": {
+   "valid_from": "1800 CE",
+   "valid_until": "1970 CE",
+   "peak_period": "mid-20th c",
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.town_watchman",
+  "name": "Town Watchman",
+  "name_en": "Town Watchman",
+  "type": "OCCUPATION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "EXTINCT",
+  "name_zh": "城镇巡夜人",
+  "civilization": "global",
+  "social_role": "night watch",
+  "functions": [
+   "patrolled town at night",
+   "crime watch"
+  ],
+  "skills": [
+   "watchkeeping"
+  ],
+  "technologies": [
+   "lantern",
+   "rattle"
+  ],
+  "institutions": [
+   "town government"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1800 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.street_vendor",
+  "name": "Street Vendor",
+  "name_en": "Street Vendor",
+  "type": "OCCUPATION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "街头小贩",
+  "civilization": "global",
+  "social_role": "itinerant seller",
+  "functions": [
+   "sold goods in streets"
+  ],
+  "skills": [
+   "salesmanship",
+   "hawking"
+  ],
+  "technologies": [
+   "cart",
+   "wares"
+  ],
+  "institutions": [
+   "markets"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.public_letter_writer",
+  "name": "Public Letter Writer",
+  "name_en": "Public Letter Writer",
+  "type": "PROFESSION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "REGIONALLY_SURVIVING",
+  "name_zh": "代书人",
+  "civilization": "global",
+  "social_role": "scribe for the illiterate",
+  "functions": [
+   "wrote letters for the public",
+   "read documents"
+  ],
+  "skills": [
+   "writing",
+   "reading"
+  ],
+  "technologies": [
+   "pen",
+   "paper"
+  ],
+  "institutions": [
+   "street stalls",
+   "markets"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "present",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.domestic_servant",
+  "name": "Domestic Servant",
+  "name_en": "Domestic Servant",
+  "type": "OCCUPATION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "家仆",
+  "civilization": "global",
+  "social_role": "household service worker",
+  "functions": [
+   "household chores",
+   "personal service"
+  ],
+  "skills": [
+   "domestic work"
+  ],
+  "technologies": [
+   "household tools"
+  ],
+  "institutions": [
+   "aristocratic households"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.laundress",
+  "name": "Laundress",
+  "name_en": "Laundress",
+  "type": "OCCUPATION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "洗衣女工",
+  "civilization": "global",
+  "social_role": "laundry worker",
+  "functions": [
+   "washed and ironed laundry"
+  ],
+  "skills": [
+   "washing",
+   "ironing"
+  ],
+  "technologies": [
+   "washboard",
+   "irons"
+  ],
+  "institutions": [
+   "households",
+   "laundries"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ },
+ {
+  "id": "hist.urban_domestic.scullery_worker",
+  "name": "Scullery Worker",
+  "name_en": "Scullery Worker",
+  "type": "OCCUPATION",
+  "parent": "hist.urban_domestic",
+  "description": null,
+  "historical": true,
+  "status": "TRANSFORMED",
+  "name_zh": "洗碗杂役",
+  "civilization": "global",
+  "social_role": "kitchen scullery worker",
+  "functions": [
+   "washed dishes",
+   "kitchen cleaning"
+  ],
+  "skills": [
+   "dishwashing"
+  ],
+  "technologies": [
+   "sinks",
+   "pots"
+  ],
+  "institutions": [
+   "households",
+   "kitchens"
+  ],
+  "temporal": {
+   "valid_from": "antiquity",
+   "valid_until": "1900 CE",
+   "peak_period": null,
+   "geographic_scope": [
+    "global"
+   ]
+  }
+ }
+]

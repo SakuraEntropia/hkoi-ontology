@@ -1,11 +1,11 @@
 # HK-OI Ontology Report
 
-Generated: 2026-09-03T07:11:03.262Z
+Generated: 2026-09-03T07:43:47.560Z
 
 ## 1. Summary
 
-- **Nodes**: 12715  (with metrics: 10213)
-- **Relations**: 16458
+- **Nodes**: 12829  (with metrics: 10213)
+- **Relations**: 16612
 
 ### By universe
 
@@ -19,10 +19,10 @@ Generated: 2026-09-03T07:11:03.262Z
 | PRODUCTS_AND_SERVICES | 649 |
 | SPORTS_AND_GAMES | 619 |
 | MEDIA_AND_CONTENT | 437 |
+| HISTORICAL_OCCUPATIONS | 413 |
 | SOCIAL_ROLES | 398 |
 | ACTIVITIES | 379 |
 | ORGANIZATIONS_AND_INSTITUTIONS | 359 |
-| HISTORICAL_OCCUPATIONS | 299 |
 | EMERGING_FIELDS | 27 |
 
 ### By level
@@ -30,8 +30,8 @@ Generated: 2026-09-03T07:11:03.262Z
 | level | nodes |
 |---|---|
 | L0 | 13 |
-| L1 | 278 |
-| L2 | 2700 |
+| L1 | 286 |
+| L2 | 2806 |
 | L3 | 6627 |
 | L4 | 2630 |
 | L5 | 427 |
@@ -42,7 +42,7 @@ Generated: 2026-09-03T07:11:03.262Z
 | type | nodes |
 |---|---|
 | KNOWLEDGE_FIELD | 5406 |
-| OCCUPATION | 1558 |
+| OCCUPATION | 1594 |
 | TECHNOLOGY | 715 |
 | ECONOMIC_ACTIVITY | 629 |
 | PRODUCT | 556 |
@@ -64,7 +64,13 @@ Generated: 2026-09-03T07:11:03.262Z
 | EMERGING_FIELD | 109 |
 | MATERIAL | 69 |
 | SECTOR | 39 |
+| OFFICE | 18 |
+| CRAFT | 17 |
+| MILITARY_ROLE | 17 |
+| RELIGIOUS_ROLE | 17 |
 | UNIVERSE | 13 |
+| PROFESSION | 7 |
+| STATUS | 2 |
 
 ## 2. Civilization Metrics
 
@@ -190,10 +196,10 @@ Generated: 2026-09-03T07:11:03.262Z
 | universe | nodes | status |
 |---|---|---|
 | EMERGING_FIELDS | 26 | ⚠ under-developed |
-| HISTORICAL_OCCUPATIONS | 298 | ok |
 | ORGANIZATIONS_AND_INSTITUTIONS | 358 | ok |
 | ACTIVITIES | 378 | ok |
 | SOCIAL_ROLES | 397 | ok |
+| HISTORICAL_OCCUPATIONS | 412 | ok |
 | MEDIA_AND_CONTENT | 436 | ok |
 | SPORTS_AND_GAMES | 618 | ok |
 | PRODUCTS_AND_SERVICES | 648 | ok |
@@ -227,8 +233,8 @@ Generated: 2026-09-03T07:11:03.262Z
 |---|---|
 | SUBFIELD_OF | 5519 |
 | OVERLAPS_WITH | 2030 |
-| SPECIALIZATION_OF | 1985 |
-| SUBTYPE_OF | 1886 |
+| SPECIALIZATION_OF | 2021 |
+| SUBTYPE_OF | 1964 |
 | PART_OF | 783 |
 | SUBTECHNOLOGY_OF | 715 |
 | RELATED_TO | 577 |
@@ -247,18 +253,20 @@ Generated: 2026-09-03T07:11:03.262Z
 | PRODUCES | 35 |
 | PRECURSOR_OF | 35 |
 | APPLIES_TO | 29 |
+| REPLACED_BY_TECHNOLOGY | 24 |
+| TRANSFORMED_INTO | 21 |
 | CONSUMES | 20 |
 | INTERSECTS_WITH | 19 |
 | HISTORICAL_PREDECESSOR | 15 |
 | MATERIAL_OF | 14 |
-| TRANSFORMED_INTO | 11 |
-| SUCCEEDED_BY | 6 |
+| SUCCEEDED_BY | 11 |
 | METHOD_FOR | 6 |
-| REPLACED_BY_TECHNOLOGY | 5 |
+| OBSOLETED_BY | 5 |
 | SUCCESSOR_OF | 4 |
 | TECHNOLOGY_OF | 3 |
 | PARTIALLY_AUTOMATED_BY | 3 |
 | SURVIVES_IN | 1 |
+| SURVIVES_AS | 1 |
 | SECTOR_OF | 1 |
 | FUNCTIONALLY_SIMILAR_TO | 1 |
 
@@ -300,7 +308,7 @@ Potential duplicate names: 30
 - region-specific (global=false): 932
 
 ### G. Historical — extinct categories
-- historical: 503
+- historical: 617
 
 ## 4. Analytics (sample questions)
 
@@ -311,19 +319,26 @@ Potential duplicate names: 30
 - count: 74
 
 ### Q. 有哪些已经消失的职业?
-- count: 298
+- count: 412
+- Abacus Calculator
 - Administrative & Clerical Occupations
 - Agricultural & Pastoral Occupations
+- Agricultural Laborer
+- Agriculture & Rural Economy
 - Alchemist
 - Almanac Maker
 - Anchorite
 - Apothecary
 - Archer
+- Archer
+- Armourer
 - Armourer
 - Arquebusier
 - Astrologer
 - Astronomical Computer
 - Augur
+- Augur
+- Aztec Priest
 - Baker
 - Barber-Surgeon
 - Bard
@@ -335,13 +350,6 @@ Potential duplicate names: 30
 - Blacksmith
 - Bonesetter
 - Bowyer
-- Breaker Boy
-- Brewer
-- Brickmaker
-- Broom Squire
-- Bull Leaper
-- Butler
-- Camel Driver
 
 ### Q. 一个 GPU 公司属于哪些产业? (graph reach from GPU)
 - SUBTECHNOLOGY_OF Processor Technology

@@ -11582,6 +11582,18 @@ hist.agricultural_occupations.swineherd,Swineherd,Swineherd,猪倌,OCCUPATION,hi
 hist.agricultural_occupations.thresher,Thresher,Thresher,打谷者,OCCUPATION,hist.agricultural_occupations,2,HISTORICAL_OCCUPATIONS,Separated grain from stalks by flailing or treading.,1,1
 hist.agricultural_occupations.turf_cutter,Turf Cutter,Turf Cutter,泥炭工,OCCUPATION,hist.agricultural_occupations,2,HISTORICAL_OCCUPATIONS,Cut peat or turf for fuel.,1,1
 hist.agricultural_occupations.winnower,Winnower,Winnower,,OCCUPATION,hist.agricultural_occupations,2,HISTORICAL_OCCUPATIONS,Tossed threshed grain to separate chaff in the wind.,1,1
+hist.agriculture_rural,Agriculture & Rural Economy,Agriculture & Rural Economy,农业与农村经济,OCCUPATION,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Occupations lost to mechanization.,1,1
+hist.agriculture_rural.agricultural_laborer,Agricultural Laborer,Agricultural Laborer,农业雇工,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.ice_cutter,Ice Cutter,Ice Cutter,采冰人,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.ice_delivery_worker,Ice Delivery Worker,Ice Delivery Worker,送冰人,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.ox_ploughman,Ox Ploughman,Ox Ploughman,牛耕者,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.reaper,Reaper,Reaper,收割者,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.scythe_mower,Scythe Mower,Scythe Mower,镰刀割草者,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.shepherd,Shepherd,Shepherd,牧羊人,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.thresher,Thresher,Thresher,打谷者,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.traditional_miller,Traditional Miller,Traditional Miller,磨坊主,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.watermill_operator,Watermill Operator,Watermill Operator,水磨操作员,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.agriculture_rural.windmill_operator,Windmill Operator,Windmill Operator,风磨操作员,OCCUPATION,hist.agriculture_rural,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.communication_occupations,Communication & Information Occupations,Communication & Information Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations centred on transmitting, announcing and delivering information before electronic media.",1,1
 hist.communication_occupations.carrier_pigeon_keeper,Carrier Pigeon Keeper,Carrier Pigeon Keeper,,OCCUPATION,hist.communication_occupations,2,HISTORICAL_OCCUPATIONS,"Bred, trained and dispatched homing pigeons for message delivery.",1,1
 hist.communication_occupations.courier,Courier,Courier,信使,OCCUPATION,hist.communication_occupations,2,HISTORICAL_OCCUPATIONS,Carried dispatches and letters over long distances on foot or horseback before regular postal service.,1,1
@@ -11666,6 +11678,18 @@ hist.craft_occupations.woodworking.fletcher,Fletcher,Fletcher,,OCCUPATION,hist.c
 hist.craft_occupations.woodworking.sawyer,Pit Sawyer,Pit Sawyer,锯木工,OCCUPATION,hist.craft_occupations.woodworking,3,HISTORICAL_OCCUPATIONS,Cut logs into boards by hand using a two-man pit saw.,1,1
 hist.craft_occupations.woodworking.wainwright,Wainwright,Wainwright,,OCCUPATION,hist.craft_occupations.woodworking,3,HISTORICAL_OCCUPATIONS,Constructed horse-drawn wagons and carts.,1,1
 hist.craft_occupations.woodworking.wheelwright,Wheelwright,Wheelwright,车轮匠,OCCUPATION,hist.craft_occupations.woodworking,3,HISTORICAL_OCCUPATIONS,Built and repaired wooden spoked wheels for carts and wagons.,1,1
+hist.crafts,Historical Crafts & Manufacture,Historical Crafts & Manufacture,历史手工艺,CRAFT,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Obsolete or transformed craft trades.,1,1
+hist.crafts.armourer,Armourer,Armourer,甲胄匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.bowyer,Bowyer,Bowyer,制弓匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.chandler,Chandler,Chandler,蜡烛匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.fletcher,Fletcher,Fletcher,制箭匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.flint_knapper,Flint Knapper,Flint Knapper,燧石打制匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.fuller,Fuller,Fuller,漂洗工,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.glassmaker,Glassmaker,Glassmaker,玻璃匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.lithographer,Lithographer,Lithographer,平版印刷工,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.pottery_specialist,Pottery Specialist,Pottery Specialist,陶器匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.rope_maker,Rope Maker,Rope Maker,制绳匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.crafts.tanner,Tanner,Tanner,制革匠,CRAFT,hist.crafts,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.domestic_service_occupations,Domestic & Personal Service Occupations,Domestic & Personal Service Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Obsolete occupations of service within households and to individuals.,1,1
 hist.domestic_service_occupations.butler,Butler,Butler,管家,OCCUPATION,hist.domestic_service_occupations,2,HISTORICAL_OCCUPATIONS,Managed the wine cellar and male household staff.,1,1
 hist.domestic_service_occupations.chambermaid,Chambermaid,Chambermaid,,OCCUPATION,hist.domestic_service_occupations,2,HISTORICAL_OCCUPATIONS,Cleaned and maintained bedrooms in a great house or hotel.,1,1
@@ -11708,6 +11732,26 @@ hist.food_provisioning_occupations.milkman,Milkman,Milkman,送奶工,OCCUPATION,
 hist.food_provisioning_occupations.miller,Miller,Miller,磨坊主,OCCUPATION,hist.food_provisioning_occupations,2,HISTORICAL_OCCUPATIONS,Ground grain into flour at a water or wind mill.,1,1
 hist.food_provisioning_occupations.peddler,Peddler,Peddler,货郎,OCCUPATION,hist.food_provisioning_occupations,2,HISTORICAL_OCCUPATIONS,Travelled selling small goods door to door.,1,1
 hist.food_provisioning_occupations.water_carrier,Water Carrier,Water Carrier,送水人,OCCUPATION,hist.food_provisioning_occupations,2,HISTORICAL_OCCUPATIONS,Carried and sold fresh water from wells or springs.,1,1
+hist.gov_offices,Government & Political Offices,Government & Political Offices,政府与政治职位,OFFICE,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Historical sovereign, administrative, and court offices.",1,1
+hist.gov_offices.caliph,Caliph,Caliph,哈里发,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.chancellor,Chancellor,Chancellor,宰相,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.chinese_emperor,Chinese Emperor (Huangdi),Chinese Emperor (Huangdi),中国皇帝,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.court_astrologer,Court Astrologer,Court Astrologer,宫廷占星官,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.daimyo,Daimyō,Daimyō,大名,STATUS,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.emperor_roman,Roman Emperor,Roman Emperor,罗马皇帝,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.feudal_lord,Feudal Lord,Feudal Lord,封建领主,STATUS,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.herald,Herald,Herald,传令官,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.imperial_censor,Imperial Censor,Imperial Censor,御史,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.japanese_emperor,Japanese Emperor (Tennō),Japanese Emperor (Tennō),日本天皇,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.king,King,King,国王,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.magistrate,Magistrate,Magistrate,地方官,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.pharaoh,Pharaoh,Pharaoh,法老,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.royal_genealogist,Royal Genealogist,Royal Genealogist,王室谱系官,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.shogun,Shōgun,Shōgun,幕府将军,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.sultan,Sultan,Sultan,苏丹,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.tax_collector,Tax Collector,Tax Collector,税吏,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.tribute_collector,Tribute Collector,Tribute Collector,贡赋征收者,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.gov_offices.vizier,Vizier,Vizier,维齐尔,OFFICE,hist.gov_offices,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.health_occupations,Historical Healing & Body Occupations,Historical Healing & Body Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations of folk medicine, surgery and bodily care.",1,1
 hist.health_occupations.apothecary,Apothecary,Apothecary,药剂师,OCCUPATION,hist.health_occupations,2,HISTORICAL_OCCUPATIONS,Compounded and sold medicines and simples.,1,1
 hist.health_occupations.barber_surgeon,Barber-Surgeon,Barber-Surgeon,理发师兼外科医生,OCCUPATION,hist.health_occupations,2,HISTORICAL_OCCUPATIONS,"Cut hair, pulled teeth and performed surgery before the professions separated.",1,1
@@ -11734,6 +11778,15 @@ hist.industrial_occupations.piecer,Piecer,Piecer,,OCCUPATION,hist.industrial_occ
 hist.industrial_occupations.pin_boy,Pin Boy,Pin Boy,保龄球童,OCCUPATION,hist.industrial_occupations,2,HISTORICAL_OCCUPATIONS,Reset bowling pins by hand between frames.,1,1
 hist.industrial_occupations.power_loom_weaver,Power Loom Weaver,Power Loom Weaver,,OCCUPATION,hist.industrial_occupations,2,HISTORICAL_OCCUPATIONS,Tended power looms in textile mills.,1,1
 hist.industrial_occupations.stoker,Stoker,Stoker,司炉,OCCUPATION,hist.industrial_occupations,2,HISTORICAL_OCCUPATIONS,Fed coal into steam-engine and ship boilers.,1,1
+hist.knowledge_work,"Writing, Information & Knowledge Work","Writing, Information & Knowledge Work",书写信息与知识工作,PROFESSION,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Historical information and computation workers.,1,1
+hist.knowledge_work.abacus_calculator,Abacus Calculator,Abacus Calculator,算盘计算师,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.census_enumerator,Census Enumerator,Census Enumerator,人口普查员,OCCUPATION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.logarithm_table_calculator,Logarithm-Table Calculator,Logarithm-Table Calculator,对数表计算员,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.manuscript_corrector,Manuscript Corrector,Manuscript Corrector,手稿校对者,PROFESSION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.papyrus_maker,Papyrus Maker,Papyrus Maker,纸莎草纸匠,CRAFT,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.postal_rider,Postal Rider,Postal Rider,驿马信使,OCCUPATION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.royal_courier,Royal Courier,Royal Courier,皇家信使,OCCUPATION,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.knowledge_work.scroll_maker,Scroll Maker,Scroll Maker,卷轴制作匠,CRAFT,hist.knowledge_work,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.lighting_urban_occupations,Lighting & Urban Services Occupations,Lighting & Urban Services Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations of lighting, waking, cleaning and scavenging the pre-modern city.",1,1
 hist.lighting_urban_occupations.chimney_sweep,Chimney Sweep,Chimney Sweep,扫烟囱工,OCCUPATION,hist.lighting_urban_occupations,2,HISTORICAL_OCCUPATIONS,Climbed and swept soot from chimneys.,1,1
 hist.lighting_urban_occupations.crossing_sweeper,Crossing Sweeper,Crossing Sweeper,,OCCUPATION,hist.lighting_urban_occupations,2,HISTORICAL_OCCUPATIONS,Swept a path across muddy streets for pedestrians for tips.,1,0
@@ -11777,6 +11830,23 @@ hist.military_occupations.musketeer,Musketeer,Musketeer,火枪手,OCCUPATION,his
 hist.military_occupations.pikeman,Pikeman,Pikeman,长矛兵,OCCUPATION,hist.military_occupations,2,HISTORICAL_OCCUPATIONS,A foot soldier armed with a long pike.,1,1
 hist.military_occupations.samurai,Samurai,Samurai,武士,SOCIAL_ROLE,hist.military_occupations,2,HISTORICAL_OCCUPATIONS,A member of the Japanese warrior class.,1,0
 hist.military_occupations.standard_bearer,Standard Bearer,Standard Bearer,旗手,OCCUPATION,hist.military_occupations,2,HISTORICAL_OCCUPATIONS,Carried the unit's banner into battle.,1,1
+hist.military_roles,Historical Military Roles,Historical Military Roles,历史军事角色,MILITARY_ROLE,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Military roles of different eras and civilizations.,1,1
+hist.military_roles.archer,Archer,Archer,弓箭手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.chariot_warrior,Chariot Warrior,Chariot Warrior,战车武士,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.crossbowman,Crossbowman,Crossbowman,弩手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.hoplite,Hoplite,Hoplite,重装步兵,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.knight,Knight,Knight,骑士,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.landsknecht,Landsknecht,Landsknecht,德意志雇佣兵,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.legionary,Legionary,Legionary,军团士兵,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.longbowman,Longbowman,Longbowman,长弓手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.man_at_arms,Man-at-Arms,Man-at-Arms,重甲武士,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.military_drummer,Military Drummer,Military Drummer,军中鼓手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.musketeer,Musketeer,Musketeer,火枪手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.pikeman,Pikeman,Pikeman,长矛兵,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.samurai,Samurai,Samurai,武士,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.siege_engineer,Siege Engineer,Siege Engineer,攻城技师,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.standard_bearer,Standard Bearer,Standard Bearer,旗手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.military_roles.war_elephant_handler,War Elephant Handler,War Elephant Handler,战象驭手,MILITARY_ROLE,hist.military_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.occult_occupations,Proto-Scientific & Occult Occupations,Proto-Scientific & Occult Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations of speculative natural philosophy, divination and pseudoscience.",1,1
 hist.occult_occupations.alchemist,Alchemist,Alchemist,炼金术士,OCCUPATION,hist.occult_occupations,2,HISTORICAL_OCCUPATIONS,Sought transmutation and the philosopher's stone through proto-chemical practice.,1,1
 hist.occult_occupations.almanac_maker,Almanac Maker,Almanac Maker,,OCCUPATION,hist.occult_occupations,2,HISTORICAL_OCCUPATIONS,"Compiled calendars, weather and astrological predictions.",1,1
@@ -11808,6 +11878,24 @@ hist.religious_occupations.pardoner,Pardoner,Pardoner,,OCCUPATION,hist.religious
 hist.religious_occupations.sin_eater,Sin Eater,Sin Eater,,SOCIAL_ROLE,hist.religious_occupations,2,HISTORICAL_OCCUPATIONS,Ritually consumed food over a corpse to absorb its sins.,1,0
 hist.religious_occupations.temple_priest,Temple Priest,Temple Priest,,OCCUPATION,hist.religious_occupations,2,HISTORICAL_OCCUPATIONS,Performed sacrifices and rites at an ancient temple.,1,1
 hist.religious_occupations.vestal_virgin,Vestal Virgin,Vestal Virgin,,SOCIAL_ROLE,hist.religious_occupations,2,HISTORICAL_OCCUPATIONS,A priestess of Vesta who tended Rome's sacred hearth fire.,1,0
+hist.religious_roles,Religious & Ritual Roles,Religious & Ritual Roles,宗教与仪式角色,RELIGIOUS_ROLE,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Historically specific priestly, ritual, and divinatory roles.",1,1
+hist.religious_roles.augur,Augur,Augur,鸟占官,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.aztec_priest,Aztec Priest,Aztec Priest,阿兹特克祭司,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.brahmin,Brahmin Priest,Brahmin Priest,婆罗门祭司,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.court_chaplain,Court Chaplain,Court Chaplain,宫廷牧师,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.diviner,Diviner,Diviner,占卜者,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.egyptian_priest,Egyptian Priest,Egyptian Priest,埃及祭司,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.high_priest,High Priest,High Priest,大祭司,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.inquisition_official,Inquisition Official,Inquisition Official,宗教裁判官,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.monastic_scribe,Monastic Scribe,Monastic Scribe,寺院抄写员,PROFESSION,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.oracle,Oracle,Oracle,神谕/神媒,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.oracle_interpreter,Oracle Interpreter,Oracle Interpreter,神谕解读者,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.priestess,Priestess,Priestess,女祭司,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.relic_custodian,Relic Custodian,Relic Custodian,圣物守护者,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.religious_cantor,Religious Cantor,Religious Cantor,领唱者,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.sacrificial_specialist,Sacrificial Specialist,Sacrificial Specialist,祭牲执事,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.shaman,Shaman,Shaman,萨满,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.religious_roles.temple_attendant,Temple Attendant,Temple Attendant,庙祝/神殿侍者,RELIGIOUS_ROLE,hist.religious_roles,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.scribal_occupations,Scribal & Documentary Occupations,Scribal & Documentary Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,"Obsolete occupations of writing, copying and decorating documents by hand.",1,1
 hist.scribal_occupations.calligrapher,Court Calligrapher,Court Calligrapher,宫廷书家,OCCUPATION,hist.scribal_occupations,2,HISTORICAL_OCCUPATIONS,Produced official and artistic brush or pen writing for court documents.,1,1
 hist.scribal_occupations.copyist,Copyist,Copyist,抄写员,OCCUPATION,hist.scribal_occupations,2,HISTORICAL_OCCUPATIONS,Reproduced texts and music by hand for distribution.,1,1
@@ -11835,6 +11923,22 @@ hist.textile_occupations.spinner,Hand Spinner,Hand Spinner,纺纱工,OCCUPATION,
 hist.textile_occupations.tailor,Tailor,Tailor,裁缝,OCCUPATION,hist.textile_occupations,2,HISTORICAL_OCCUPATIONS,Cut and fitted bespoke garments by hand.,1,1
 hist.textile_occupations.tapestry_weaver,Tapestry Weaver,Tapestry Weaver,,OCCUPATION,hist.textile_occupations,2,HISTORICAL_OCCUPATIONS,Wove pictorial hangings on a high-warp loom.,1,1
 hist.textile_occupations.weaver,Handloom Weaver,Handloom Weaver,织布工,OCCUPATION,hist.textile_occupations,2,HISTORICAL_OCCUPATIONS,Wove cloth on a hand or foot-treadle loom.,1,1
+hist.transport_navigation,Transportation & Navigation,Transportation & Navigation,运输与导航,OCCUPATION,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Historical transport and navigation roles.,1,1
+hist.transport_navigation.carriage_maker,Carriage Maker,Carriage Maker,马车制造匠,CRAFT,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.charioteer,Charioteer,Charioteer,战车御者,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.coachman,Coachman,Coachman,马车夫,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.galley_rower,Galley Rower,Galley Rower,帆桨船桨手,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.lighthouse_keeper,Lighthouse Keeper,Lighthouse Keeper,灯塔看守,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.oarsman,Oarsman,Oarsman,桨手,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.omnibus_driver,Horse-Drawn Omnibus Driver,Horse-Drawn Omnibus Driver,公共马车夫,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.pack_animal_driver,Pack-Animal Driver,Pack-Animal Driver,驮畜驭手,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.porter,Porter,Porter,搬运工,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.sailmaker,Sailmaker,Sailmaker,制帆匠,CRAFT,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.ships_telegraph_operator,Ship's Telegraph Operator,Ship's Telegraph Operator,船用电报员,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.shipwright,Shipwright,Shipwright,造船匠,CRAFT,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.stable_master,Stable Master,Stable Master,马厩总管,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.stagecoach_driver,Stagecoach Driver,Stagecoach Driver,驿马车夫,OCCUPATION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.transport_navigation.traditional_navigator,Traditional Navigator,Traditional Navigator,传统航海师,PROFESSION,hist.transport_navigation,2,HISTORICAL_OCCUPATIONS,,1,1
 hist.transport_occupations,Transport & Porterage Occupations,Transport & Porterage Occupations,,SECTOR,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Obsolete occupations of carrying people and goods by human or animal power.,1,1
 hist.transport_occupations.camel_driver,Camel Driver,Camel Driver,,OCCUPATION,hist.transport_occupations,2,HISTORICAL_OCCUPATIONS,Led camel caravans across desert routes.,1,1
 hist.transport_occupations.carter,Carter,Carter,,OCCUPATION,hist.transport_occupations,2,HISTORICAL_OCCUPATIONS,Hauled goods by horse and cart for hire.,1,1
@@ -11851,6 +11955,16 @@ hist.transport_occupations.sedan_bearer,Sedan Bearer,Sedan Bearer,轿夫,OCCUPAT
 hist.transport_occupations.stagecoach_driver,Stagecoach Driver,Stagecoach Driver,驿站车夫,OCCUPATION,hist.transport_occupations,2,HISTORICAL_OCCUPATIONS,Drove a scheduled passenger coach over fixed routes.,1,1
 hist.transport_occupations.teamster,Teamster,Teamster,,OCCUPATION,hist.transport_occupations,2,HISTORICAL_OCCUPATIONS,Drove a team of oxen or mules hauling freight.,1,1
 hist.transport_occupations.wagoner,Wagoner,Wagoner,,OCCUPATION,hist.transport_occupations,2,HISTORICAL_OCCUPATIONS,Drove heavy freight wagons overland.,1,1
+hist.urban_domestic,Urban & Domestic Occupations,Urban & Domestic Occupations,城市与家务职业,OCCUPATION,HISTORICAL_OCCUPATIONS,1,HISTORICAL_OCCUPATIONS,Obsolete urban and household service roles.,1,1
+hist.urban_domestic.chimney_sweep,Chimney Sweep,Chimney Sweep,烟囱清扫工,OCCUPATION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.urban_domestic.domestic_servant,Domestic Servant,Domestic Servant,家仆,OCCUPATION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.urban_domestic.elevator_operator,Elevator Operator,Elevator Operator,电梯操作员,OCCUPATION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.urban_domestic.laundress,Laundress,Laundress,洗衣女工,OCCUPATION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.urban_domestic.milkman,Milkman,Milkman,送奶工,OCCUPATION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.urban_domestic.public_letter_writer,Public Letter Writer,Public Letter Writer,代书人,PROFESSION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.urban_domestic.scullery_worker,Scullery Worker,Scullery Worker,洗碗杂役,OCCUPATION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.urban_domestic.street_vendor,Street Vendor,Street Vendor,街头小贩,OCCUPATION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
+hist.urban_domestic.town_watchman,Town Watchman,Town Watchman,城镇巡夜人,OCCUPATION,hist.urban_domestic,2,HISTORICAL_OCCUPATIONS,,1,1
 ind.agriculture,Agriculture & Agrifood,Agriculture & Agrifood,农业,SECTOR,INDUSTRIES,1,INDUSTRIES,"Cultivation of crops, raising of livestock, and the associated supply, processing and service value chains.",0,1
 ind.agriculture.agricultural_services,Agricultural Support Services,Agricultural Support Services,,INDUSTRY,ind.agriculture,2,INDUSTRIES,"Services supporting farm production, including machinery, irrigation and advisory work.",0,1
 ind.agriculture.agricultural_services.agronomic_services,Agronomic Advisory Services,Agronomic Advisory Services,,ECONOMIC_ACTIVITY,ind.agriculture.agricultural_services,3,INDUSTRIES,"Crop and soil consulting, scouting and extension services to growers.",0,1

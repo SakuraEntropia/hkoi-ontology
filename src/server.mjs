@@ -105,6 +105,8 @@ function api(path, query) {
         historical: !!node.historical, global: !!node.global, metrics,
         participation_modes: node.participation_modes ? safeJson(node.participation_modes) : [],
         temporal: node.temporal ? safeJson(node.temporal) : null,
+        status: node.status ?? null,
+        hist: node.hist ? safeJson(node.hist) : null,
       },
       children, ancestors,
       relationsOut: out, relationsIn: inc,

@@ -87,7 +87,8 @@ function renderDetail(data) {
   const n = data.node;
   const bc = data.ancestors.map(a=>'<a data-id="'+esc(a.id)+'">'+esc(a.name)+'</a>').join(' / ');
   let badges = '<span class="badge type">'+n.type+'</span><span class="badge">'+esc(n.universe)+'</span><span class="badge">L'+n.level+'</span>';
-  if (n.historical) badges += '<span class="badge hist">历史/已消失</span>';
+  if (n.historical) badges += '<span class="badge hist">历史</span>';
+  if (n.status) badges += '<span class="badge hist">'+(STATUS_ZH2[n.status]||n.status)+'</span>';
   if (!n.global) badges += '<span class="badge regional">地域性</span>';
   let html = '<div class="breadcrumb">'+(bc?bc+' / ':"")+'<span>'+esc(n.name)+'</span></div>';
   html += '<h1 class="node-title">'+esc(n.name)+'</h1>';
@@ -97,6 +98,7 @@ function renderDetail(data) {
   if (n.aliases && n.aliases.length) html += '<div><span class="muted">别名：</span>'+n.aliases.map(a=>'<span class="chip">'+esc(a)+'</span>').join("")+'</div>';
   if (n.participation_modes && n.participation_modes.length) html += '<div style="margin-top:6px"><span class="muted">参与方式：</span>'+n.participation_modes.map(m=>'<span class="chip">'+(MODE_ZH[m]||m)+'</span>').join("")+'</div>';
   if (n.temporal) html += renderTemporal(n.temporal);
+  if (n.hist) html += renderHist(n.hist);
   html += '<div class="tabs">'+
     '<div class="tab '+(state.activeTab==="overview"?"active":"")+'" data-tab="overview">子节点 ('+data.children.length+')</div>'+
     '<div class="tab '+(state.activeTab==="relations"?"active":"")+'" data-tab="relations">关系 ('+(data.relationsOut.length+data.relationsIn.length)+')</div>'+
@@ -108,6 +110,8 @@ function renderDetail(data) {
   $("#detail").querySelectorAll(".breadcrumb a[data-id]").forEach(a=>a.addEventListener("click",()=>selectNode(a.dataset.id)));
   renderTab(data);
 }
+const STATUS_ZH2 = { EXTINCT:"已灭绝", TRANSFORMED:"已演变", REGIONALLY_SURVIVING:"局部存续", REVIVED:"复兴", HISTORICAL_ONLY:"仅历史" };
+function renderHist(h){ if(!h) return ""; const bits=[]; if(h.civilization) bits.push('<span class="muted">文明：</span>'+esc(h.civilization)); if(h.social_role) bits.push('<span class="muted">社会角色：</span>'+esc(h.social_role)); if(h.functions&&h.functions.length) bits.push('<span class="muted">职能：</span>'+h.functions.map(x=>'<span class="chip">'+esc(x)+'</span>').join("")); if(h.skills&&h.skills.length) bits.push('<span class="muted">技能：</span>'+h.skills.map(x=>'<span class="chip">'+esc(x)+'</span>').join("")); if(h.technologies&&h.technologies.length) bits.push('<span class="muted">技术：</span>'+h.technologies.map(x=>'<span class="chip">'+esc(x)+'</span>').join("")); if(h.institutions&&h.institutions.length) bits.push('<span class="muted">制度：</span>'+h.institutions.map(x=>'<span class="chip">'+esc(x)+'</span>').join("")); return '<div style="margin-top:6px">'+bits.join(" &nbsp; ")+'</div>'; }
 const MODE_ZH = { professional:"职业实践", amateur:"业余实践", recreational:"娱乐参与", spectator:"观众参与", community:"社群参与" };
 const STATUS_ZH = { exists_today:"现存", disappeared:"已消失", transformed:"已演变", limited_regions:"仅存局部地区", recreational_reconstruction:"仅存娱乐/复原", different_institutional_form:"制度形态已变" };
 function renderTemporal(t) {
@@ -266,11 +270,11 @@ async function renderTimeline() {
   const cont = $("#tl-container"); cont.innerHTML="";
   const groups = {};
   for (const r of rows) {
-    const st = r.temporal?.historical_status || (r.historical ? "disappeared" : "unknown");
+    const st = r.status || r.temporal?.historical_status || (r.historical ? "disappeared" : "unknown");
     (groups[st] = groups[st] || []).push(r);
   }
   for (const [st, list] of Object.entries(groups)) {
-    cont.innerHTML += '<h4 style="margin:12px 0 4px;color:var(--gold)">'+(STATUS_ZH[st]||st)+' ('+list.length+')</h4>';
+    cont.innerHTML += '<h4 style="margin:12px 0 4px;color:var(--gold)">'+(STATUS_ZH2[st]||STATUS_ZH[st]||st)+' ('+list.length+')</h4>';
     for (const r of list.slice(0, 120)) {
       const t = r.temporal;
       const d = document.createElement("div"); d.className = "tl-item " + (st==="disappeared"?"":"cont");

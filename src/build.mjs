@@ -17,7 +17,7 @@ const NODE_TYPES = new Set([
   "PRODUCT","SERVICE","TECHNOLOGY","MATERIAL",
   "ORGANIZATION_TYPE","INSTITUTION",
   "MEDIA_FORM","CONTENT_TYPE",
-  "EMERGING_FIELD","ACTIVITY",
+  "EMERGING_FIELD","ACTIVITY","OFFICE","RELIGIOUS_ROLE","MILITARY_ROLE","STATUS","PROFESSION","CRAFT","FUNCTION",
 ]);
 
 const RELATION_TYPES = new Set([
@@ -29,7 +29,7 @@ const RELATION_TYPES = new Set([
   "HISTORICAL_PREDECESSOR","HISTORICAL_SUCCESSOR","PRECURSOR_OF","SUCCESSOR_OF",
   "PRECEDED_BY","SUCCEEDED_BY","TRANSFORMED_INTO","REPLACED_BY_TECHNOLOGY","REPLACED_BY_INSTITUTION",
   "MERGED_INTO","SPLIT_INTO","RENAMED_AS","PARTIALLY_AUTOMATED_BY","REVIVED_AS","SURVIVES_IN",
-  "HISTORICAL_PRECURSOR_OF","FUNCTIONALLY_SIMILAR_TO","PREDECESSOR_OF",
+  "HISTORICAL_PRECURSOR_OF","FUNCTIONALLY_SIMILAR_TO","PREDECESSOR_OF","REPLACED_BY","AUTOMATED_BY","OBSOLETED_BY","SURVIVES_AS",
   "ROLE_IN","SECTOR_OF","TECHNOLOGY_OF","MARKET_OF","MATERIAL_OF",
 ]);
 
@@ -40,7 +40,7 @@ const PARENT_RELATION = {
   INDUSTRY:"SUBINDUSTRY_OF", SECTOR:"SUBINDUSTRY_OF", ECONOMIC_ACTIVITY:"PART_OF",
   PRODUCT:"SUBTYPE_OF", SERVICE:"SUBTYPE_OF", TECHNOLOGY:"SUBTECHNOLOGY_OF", MATERIAL:"SUBTYPE_OF",
   ORGANIZATION_TYPE:"SUBTYPE_OF", INSTITUTION:"SUBTYPE_OF", MEDIA_FORM:"SUBTYPE_OF",
-  CONTENT_TYPE:"SUBTYPE_OF", EMERGING_FIELD:"SUBFIELD_OF", ACTIVITY:"SUBTYPE_OF", UNIVERSE:"PART_OF",
+  CONTENT_TYPE:"SUBTYPE_OF", EMERGING_FIELD:"SUBFIELD_OF", ACTIVITY:"SUBTYPE_OF", OFFICE:"SUBTYPE_OF", RELIGIOUS_ROLE:"SUBTYPE_OF", MILITARY_ROLE:"SUBTYPE_OF", STATUS:"SUBTYPE_OF", PROFESSION:"SUBTYPE_OF", CRAFT:"SUBTYPE_OF", FUNCTION:"SUBTYPE_OF", UNIVERSE:"PART_OF",
 };
 
 // metric ordinal vocab (validation = warn only)
@@ -141,7 +141,10 @@ for (const [id, n] of nodes) {
     type: n.type, parent: n.parent ?? null, level: levelOf(id), universe: univ,
     description: n.description ?? null, aliases: n.aliases ?? [], examples: n.examples ?? [],
     historical: !!n.historical, global: n.global !== false,
-    metrics: m, participation_modes: n.participation_modes ?? [], temporal: n.temporal ?? temporals.get(id) ?? null, source: n.source ?? null,
+    metrics: m, participation_modes: n.participation_modes ?? [], temporal: n.temporal ?? temporals.get(id) ?? null, status: n.status ?? null,
+    hist: n.hist ?? (n.civilization || n.social_role || n.functions || n.skills || n.technologies || n.institutions
+      ? { civilization: n.civilization ?? null, social_role: n.social_role ?? null, functions: n.functions ?? [], skills: n.skills ?? [], technologies: n.technologies ?? [], institutions: n.institutions ?? [] } : null),
+    source: n.source ?? null,
   });
 }
 for (const r of explicitRelations) {
@@ -188,13 +191,13 @@ const { DatabaseSync } = await import("node:sqlite");
 const db = new DatabaseSync(dbTmp);
 db.exec(schema);
 const insNode = db.prepare(`INSERT OR REPLACE INTO nodes
-  (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,participation_modes,temporal,source)
-  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+  (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,participation_modes,temporal,status,hist,source)
+  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
 const insRel = db.prepare(`INSERT INTO relations (source,relation,target,kind) VALUES (?,?,?,?)`);
 db.exec("BEGIN");
 for (const n of normalized) insNode.run(n.id, n.name, n.name_en, n.name_zh, n.type, n.parent, n.level, n.universe,
   n.description, JSON.stringify(n.aliases), JSON.stringify(n.examples), n.historical?1:0, n.global?1:0,
-  n.metrics ? JSON.stringify(n.metrics) : null, JSON.stringify(n.participation_modes ?? []), n.temporal ? JSON.stringify(n.temporal) : null, n.source);
+  n.metrics ? JSON.stringify(n.metrics) : null, JSON.stringify(n.participation_modes ?? []), n.temporal ? JSON.stringify(n.temporal) : null, n.status ?? null, n.hist ? JSON.stringify(n.hist) : null, n.source);
 for (const r of allRelations) insRel.run(r.source, r.relation, r.target, r.kind);
 db.exec("COMMIT");
 db.exec(`INSERT OR REPLACE INTO meta VALUES ('generated_at', '${new Date().toISOString()}')`);

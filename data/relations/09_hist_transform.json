@@ -1,0 +1,202 @@
+[
+ {
+  "source": "hist.transport_navigation.charioteer",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.transport_navigation.coachman"
+ },
+ {
+  "source": "hist.transport_navigation.coachman",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.transport_navigation.omnibus_driver"
+ },
+ {
+  "source": "hist.transport_navigation.omnibus_driver",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.transport_technology"
+ },
+ {
+  "source": "hist.transport_navigation.stagecoach_driver",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.transport_technology"
+ },
+ {
+  "source": "hist.transport_navigation.coachman",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.transport_technology"
+ },
+ {
+  "source": "hist.transport_navigation.carriage_maker",
+  "relation": "TRANSFORMED_INTO",
+  "target": "ind.manufacturing"
+ },
+ {
+  "source": "hist.transport_navigation.charioteer",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.transport"
+ },
+ {
+  "source": "hist.military_roles.hoplite",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.military_roles.legionary"
+ },
+ {
+  "source": "hist.military_roles.legionary",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.military"
+ },
+ {
+  "source": "hist.military_roles.knight",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.military"
+ },
+ {
+  "source": "hist.military_roles.samurai",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.military"
+ },
+ {
+  "source": "hist.military_roles.archer",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.military_roles.crossbowman"
+ },
+ {
+  "source": "hist.military_roles.crossbowman",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.military_roles.musketeer"
+ },
+ {
+  "source": "hist.military_roles.musketeer",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.military"
+ },
+ {
+  "source": "hist.military_roles.pikeman",
+  "relation": "OBSOLETED_BY",
+  "target": "hist.military_roles.musketeer"
+ },
+ {
+  "source": "hist.military_roles.longbowman",
+  "relation": "OBSOLETED_BY",
+  "target": "hist.military_roles.musketeer"
+ },
+ {
+  "source": "hist.military_roles.siege_engineer",
+  "relation": "TRANSFORMED_INTO",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "hist.agriculture_rural.scythe_mower",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.agricultural_technology"
+ },
+ {
+  "source": "hist.agriculture_rural.reaper",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.agricultural_technology"
+ },
+ {
+  "source": "hist.agriculture_rural.thresher",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.agricultural_technology"
+ },
+ {
+  "source": "hist.agriculture_rural.ox_ploughman",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.agricultural_technology"
+ },
+ {
+  "source": "hist.agriculture_rural.watermill_operator",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.energy_technology"
+ },
+ {
+  "source": "hist.agriculture_rural.windmill_operator",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.energy_technology"
+ },
+ {
+  "source": "hist.agriculture_rural.ice_cutter",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.energy_technology"
+ },
+ {
+  "source": "hist.agriculture_rural.ice_delivery_worker",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.energy_technology"
+ },
+ {
+  "source": "hist.urban_domestic.elevator_operator",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "hist.urban_domestic.milkman",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.energy_technology"
+ },
+ {
+  "source": "hist.urban_domestic.town_watchman",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.government"
+ },
+ {
+  "source": "hist.transport_navigation.ships_telegraph_operator",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.telecommunications"
+ },
+ {
+  "source": "hist.transport_navigation.lighthouse_keeper",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "hist.knowledge_work.logarithm_table_calculator",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "hist.knowledge_work.abacus_calculator",
+  "relation": "SURVIVES_AS",
+  "target": "OCC.business"
+ },
+ {
+  "source": "hist.knowledge_work.census_enumerator",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.government"
+ },
+ {
+  "source": "hist.knowledge_work.postal_rider",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.transport"
+ },
+ {
+  "source": "hist.crafts.armourer",
+  "relation": "OBSOLETED_BY",
+  "target": "hist.military_roles.musketeer"
+ },
+ {
+  "source": "hist.crafts.fletcher",
+  "relation": "OBSOLETED_BY",
+  "target": "hist.military_roles.musketeer"
+ },
+ {
+  "source": "hist.crafts.bowyer",
+  "relation": "OBSOLETED_BY",
+  "target": "hist.military_roles.musketeer"
+ },
+ {
+  "source": "hist.crafts.lithographer",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "hist.crafts.fuller",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.textile_technology"
+ },
+ {
+  "source": "hist.crafts.chandler",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.energy_technology"
+ }
+]
