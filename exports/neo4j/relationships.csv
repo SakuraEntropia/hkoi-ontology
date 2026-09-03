@@ -593,6 +593,7 @@ ART.architecture.architectural_styles.postmodern_architecture,ART.architecture.a
 ART.architecture.architectural_styles.renaissance_architecture,ART.architecture.architectural_styles,PART_OF,PART_OF,parent
 ART.architecture.architectural_styles.renaissance_architecture,HK.architecture.architectural_history.western_architecture.renaissance_architecture,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.architecture.architectural_styles.romanesque,ART.architecture.architectural_styles,PART_OF,PART_OF,parent
+ART.architecture.bioclimatic_architecture,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.building_types,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.building_types.civic_architecture,ART.architecture.building_types,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.building_types.commercial_architecture,ART.architecture.building_types,SUBFORM_OF,SUBFORM_OF,parent
@@ -608,6 +609,7 @@ ART.architecture.computational_design,HK.computer_science,APPLICATION_OF,APPLICA
 ART.architecture.digital_fabrication,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.digital_fabrication,TECH.manufacturing_technology,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.architecture.generative_design,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
+ART.architecture.kinetic_architecture,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.landscape_architecture,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.landscape_architecture,HK.architecture.landscape_architecture,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.architecture.landscape_architecture,ind.professional_services.architecture.landscape,OVERLAPS_WITH,OVERLAPS_WITH,explicit
@@ -615,6 +617,7 @@ ART.architecture.landscape_architecture,PROD.professional_services.architecture_
 ART.architecture.landscape_architecture,HK.environmental_science,RELATED_TO,RELATED_TO,explicit
 ART.architecture.parametric_architecture,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.parametric_architecture,HK.architecture.architectural_design.parametric_design,OVERLAPS_WITH,OVERLAPS_WITH,explicit
+ART.architecture.smart_building,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.sustainable_architecture,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
 ART.architecture.sustainable_architecture,HK.architecture.sustainable_architecture,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.architecture.urban_design,ART.architecture,SUBFORM_OF,SUBFORM_OF,parent
@@ -778,12 +781,15 @@ ART.design.ux_design.interaction_design,HK.cognitive_science,RELATED_TO,RELATED_
 ART.design.ux_design.service_design,ART.design.ux_design,SUBFORM_OF,SUBFORM_OF,parent
 ART.design.ux_design.ui_design,ART.design.ux_design,SUBFORM_OF,SUBFORM_OF,parent
 ART.design.ux_design.usability,ART.design.ux_design,METHOD_OF,METHOD_OF,parent
+ART.design.wabi_sabi,ART.design,PART_OF,PART_OF,parent
 ART.design.web_design,ART.design,SUBFORM_OF,SUBFORM_OF,parent
 ART.design.web_design,HK.computer_science,RELATED_TO,RELATED_TO,explicit
 ART.digital_art,ARTS_AND_CULTURE,SUBFORM_OF,SUBFORM_OF,parent
 ART.digital_art,MEDIA.digital_media,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.digital_art.3d_modeling,ART.digital_art,TECHNIQUE_OF,TECHNIQUE_OF,parent
 ART.digital_art.3d_modeling,ART.animation.3d_animation,APPLIES_TO,APPLIES_TO,explicit
+ART.digital_art.ai_art,ART.digital_art,SUBFORM_OF,SUBFORM_OF,parent
+ART.digital_art.ascii_art,ART.digital_art,SUBFORM_OF,SUBFORM_OF,parent
 ART.digital_art.digital_illustration,ART.digital_art,TECHNIQUE_OF,TECHNIQUE_OF,parent
 ART.digital_art.digital_painting,ART.digital_art,TECHNIQUE_OF,TECHNIQUE_OF,parent
 ART.digital_art.digital_sculpture,ART.digital_art,TECHNIQUE_OF,TECHNIQUE_OF,parent
@@ -1009,6 +1015,9 @@ ART.games.game_design,ART.games,METHOD_OF,METHOD_OF,parent
 ART.games.game_design,HK.systems_science,RELATED_TO,RELATED_TO,explicit
 ART.games.game_music,ART.games,TECHNIQUE_OF,TECHNIQUE_OF,parent
 ART.games.game_music,ART.music.electronic_music,RELATED_TO,RELATED_TO,explicit
+ART.games.idle_game,ART.games,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.games.rhythm_game,ART.games,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.games.soulslike,ART.games,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.games.tabletop_role_playing,ART.games,SUBGAME_OF,SUBGAME_OF,parent
 ART.games.tabletop_role_playing,ART.literary_arts.prose_fiction.novel.fantasy,RELATED_TO,RELATED_TO,explicit
 ART.games.video_games,ART.games,SUBGAME_OF,SUBGAME_OF,parent
@@ -1211,6 +1220,7 @@ ART.music.electronic_music.drum_and_bass.liquid_funk,ART.music.electronic_music.
 ART.music.electronic_music.dubstep,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.edm,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.electro,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.music.electronic_music.generative_music,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.glitch,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.house_music,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.house_music.acid_house,ART.music.electronic_music.house_music,SUBGENRE_OF,SUBGENRE_OF,parent
@@ -1220,12 +1230,14 @@ ART.music.electronic_music.house_music.deep_house,ART.music.electronic_music.hou
 ART.music.electronic_music.house_music.tech_house,ART.music.electronic_music.house_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.idm,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.industrial,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.music.electronic_music.musique_concrete,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.synthwave,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.techno,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.techno.minimal_techno,ART.music.electronic_music.techno,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.techno.minimal_techno,ART.music.electronic_music.techno,HISTORICAL_SUCCESSOR,HISTORICAL_SUCCESSOR,explicit
 ART.music.electronic_music.trance,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.electronic_music.trance.psytrance,ART.music.electronic_music.trance,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.music.electronic_music.vaporwave,ART.music.electronic_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.ethnomusicology,ART.music,SUBFIELD_OF,SUBFIELD_OF,parent
 ART.music.ethnomusicology,HK.musicology.ethnomusicology,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.music.ethnomusicology,HK.musicology,SUBFIELD_OF,SUBFIELD_OF,explicit
@@ -1264,7 +1276,9 @@ ART.music.music_technology,ART.music,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 ART.music.music_technology.auto_tune,ART.music.music_technology,SUBFORM_OF,SUBFORM_OF,parent
 ART.music.music_technology.daw,ART.music.music_technology,SUBFORM_OF,SUBFORM_OF,parent
 ART.music.music_technology.digital_audio_workstation,ART.music.music_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
+ART.music.music_technology.field_recording,ART.music.music_technology,TECHNIQUE_OF,TECHNIQUE_OF,parent
 ART.music.music_technology.midi,ART.music.music_technology,SUBFORM_OF,SUBFORM_OF,parent
+ART.music.music_technology.modular_synthesizer,ART.music.music_technology,SUBFORM_OF,SUBFORM_OF,parent
 ART.music.music_technology.sampling,ART.music.music_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 ART.music.music_technology.sound_recording,ART.music.music_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 ART.music.music_technology.sound_synthesis,ART.music.music_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
@@ -1278,12 +1292,14 @@ ART.music.music_technology.vocaloid,ART.music.electronic_music,RELATED_TO,RELATE
 ART.music.music_theory,ART.music,SUBFIELD_OF,SUBFIELD_OF,parent
 ART.music.music_theory,HK.musicology.music_theory,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.music.music_theory,HK.musicology,RELATED_TO,RELATED_TO,explicit
+ART.music.music_theory.aleatoric_music,ART.music.music_theory,TECHNIQUE_OF,TECHNIQUE_OF,parent
 ART.music.music_theory.counterpoint,ART.music.music_theory,SUBFIELD_OF,SUBFIELD_OF,parent
 ART.music.music_theory.counterpoint,HK.musicology.music_theory.counterpoint,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.music.music_theory.harmony,ART.music.music_theory,SUBFIELD_OF,SUBFIELD_OF,parent
 ART.music.music_theory.harmony,HK.musicology.music_theory.harmony,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.music.music_theory.melody,ART.music.music_theory,SUBFIELD_OF,SUBFIELD_OF,parent
 ART.music.music_theory.melody,HK.musicology.music_theory.melody,OVERLAPS_WITH,OVERLAPS_WITH,explicit
+ART.music.music_theory.microtonality,ART.music.music_theory,TECHNIQUE_OF,TECHNIQUE_OF,parent
 ART.music.music_theory.music_analysis,ART.music.music_theory,METHOD_OF,METHOD_OF,parent
 ART.music.music_theory.music_analysis,HK.musicology.music_analysis,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.music.music_theory.musical_form,ART.music.music_theory,SUBFIELD_OF,SUBFIELD_OF,parent
@@ -1381,11 +1397,13 @@ ART.music.musical_instruments.woodwind_instruments.shakuhachi,ART.music.musical_
 ART.music.musical_instruments.woodwind_instruments.shakuhachi,ART.music.traditional_music.japanese_traditional_music.honkyoku,USED_BY,USED_BY,explicit
 ART.music.popular_music,ART.music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.popular_music.afrobeats,ART.music.popular_music,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.music.popular_music.city_pop,ART.music.popular_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.popular_music.country_music,ART.music.popular_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.popular_music.country_music.bluegrass,ART.music.popular_music.country_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.popular_music.country_music.western_swing,ART.music.popular_music.country_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.popular_music.disco,ART.music.popular_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.popular_music.gospel,ART.music.popular_music,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.music.popular_music.grime,ART.music.popular_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.popular_music.hip_hop,ART.music.popular_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.popular_music.hip_hop,ART.music.music_technology.sampling,USES,USES,explicit
 ART.music.popular_music.hip_hop,ART.music.musical_instruments.electronic_instruments.sampler,USES,USES,explicit
@@ -1475,6 +1493,7 @@ ART.music.traditional_music.korean_traditional_music,ART.music.traditional_music
 ART.music.traditional_music.korean_traditional_music.pansori,ART.music.traditional_music.korean_traditional_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.traditional_music.ottoman_music,ART.music.traditional_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.traditional_music.persian_classical_music,ART.music.traditional_music,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.music.traditional_music.qawwali,ART.music.traditional_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.vocal_music,ART.music,SUBFORM_OF,SUBFORM_OF,parent
 ART.music.vocal_music.a_cappella,ART.music.vocal_music,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.music.vocal_music.beatboxing,ART.music.vocal_music,TECHNIQUE_OF,TECHNIQUE_OF,parent
@@ -1527,6 +1546,7 @@ ART.performing_arts.dance.indian_classical_dance.odissi,ART.performing_arts.danc
 ART.performing_arts.dance.jazz_dance,ART.performing_arts.dance,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.performing_arts.dance.modern_dance,ART.performing_arts.dance,SUBGENRE_OF,SUBGENRE_OF,parent
 ART.performing_arts.dance.tap_dance,ART.performing_arts.dance,SUBGENRE_OF,SUBGENRE_OF,parent
+ART.performing_arts.gesamtkunstwerk,ART.performing_arts,PART_OF,PART_OF,parent
 ART.performing_arts.musical_theatre,ART.performing_arts,SUBFORM_OF,SUBFORM_OF,parent
 ART.performing_arts.musical_theatre,ART.music.popular_music,RELATED_TO,RELATED_TO,explicit
 ART.performing_arts.musical_theatre.book_musical,ART.performing_arts.musical_theatre,SUBGENRE_OF,SUBGENRE_OF,parent
@@ -1707,6 +1727,7 @@ ART.visual_arts.illustration.scientific_illustration,ART.visual_arts.illustratio
 ART.visual_arts.impressionism,ART.visual_arts,PART_OF,PART_OF,parent
 ART.visual_arts.impressionism,HK.art_history.western_art_history.impressionism,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 ART.visual_arts.impressionism,ART.visual_arts.post_impressionism,HISTORICAL_PREDECESSOR,HISTORICAL_PREDECESSOR,explicit
+ART.visual_arts.kinetic_art,ART.visual_arts,PART_OF,PART_OF,parent
 ART.visual_arts.land_art,ART.visual_arts,PART_OF,PART_OF,parent
 ART.visual_arts.minimalism,ART.visual_arts,PART_OF,PART_OF,parent
 ART.visual_arts.mixed_media,ART.visual_arts,SUBFORM_OF,SUBFORM_OF,parent
@@ -2635,6 +2656,7 @@ HK.bioinformatics.proteomics,HK.biology.molecular_biology.proteomics,OVERLAPS_WI
 HK.bioinformatics.proteomics,ind.life_sciences_healthcare.biotech.proteomics,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 HK.bioinformatics.proteomics,TECH.biotechnology.omics_technology.proteomics,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 HK.bioinformatics.structural_bioinformatics,HK.bioinformatics,SUBFIELD_OF,SUBFIELD_OF,parent
+HK.bioinformatics.structural_bioinformatics.protein_structure_prediction,HK.bioinformatics.structural_bioinformatics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.bioinformatics.systems_biology,HK.bioinformatics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.bioinformatics.systems_biology,HK.biology.systems_biology,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 HK.bioinformatics.transcriptomics,HK.bioinformatics,SUBFIELD_OF,SUBFIELD_OF,parent
@@ -2951,6 +2973,7 @@ HK.business.entrepreneurship.startup_financing.venture_capital,HK.business.entre
 HK.business.entrepreneurship.startup_financing.venture_capital,HK.finance.investments.alternative_investments.venture_capital,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 HK.business.entrepreneurship.startup_financing.venture_capital,ind.financial_services.asset_management.venture_capital,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 HK.business.entrepreneurship.technology_entrepreneurship,HK.business.entrepreneurship,SUBFIELD_OF,SUBFIELD_OF,parent
+HK.business.esg,HK.business,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.human_resource_management,HK.business,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.human_resource_management.compensation_and_benefits,HK.business.human_resource_management,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.human_resource_management.employee_relations,HK.business.human_resource_management,SUBFIELD_OF,SUBFIELD_OF,parent
@@ -2985,6 +3008,8 @@ HK.business.international_business.export_import_management,HK.business.internat
 HK.business.international_business.foreign_market_entry,HK.business.international_business,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.international_business.multinational_enterprise,HK.business.international_business,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.international_business.offshoring_and_outsourcing,HK.business.international_business,SUBFIELD_OF,SUBFIELD_OF,parent
+HK.business.kaizen,HK.business,METHOD_OF,METHOD_OF,parent
+HK.business.kanban,HK.business,METHOD_OF,METHOD_OF,parent
 HK.business.management,HK.business,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.management.change_management,HK.business.management,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.management.crisis_management,HK.business.management,SUBFIELD_OF,SUBFIELD_OF,parent
@@ -3091,6 +3116,7 @@ HK.business.marketing.relationship_marketing,HK.business.management_information_
 HK.business.marketing.retail_management,HK.business.marketing,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.marketing.sales_promotion,HK.business.marketing,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.marketing.services_marketing,HK.business.marketing,SUBFIELD_OF,SUBFIELD_OF,parent
+HK.business.okr,HK.business,METHOD_OF,METHOD_OF,parent
 HK.business.operations_management,HK.business,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.business.operations_management,HK.operations_research,APPLICATION_OF,APPLICATION_OF,explicit
 HK.business.operations_management,HK.business.management.quality_management.six_sigma,USES,USES,explicit
@@ -4298,6 +4324,7 @@ HK.economics.financial_economics.financial_econometrics,HK.economics.financial_e
 HK.economics.financial_economics.market_microstructure,HK.economics.financial_economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.financial_economics.portfolio_theory,HK.economics.financial_economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.financial_economics.risk_management,HK.economics.financial_economics,SUBFIELD_OF,SUBFIELD_OF,parent
+HK.economics.gig_economy,HK.economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.health_economics,HK.economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.health_economics,HK.public_health,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 HK.economics.health_economics.cost_effectiveness_analysis,HK.economics.health_economics,METHOD_OF,METHOD_OF,parent
@@ -4435,6 +4462,7 @@ HK.economics.regional_economics,HK.economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.regional_economics.cluster_economics,HK.economics.regional_economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.regional_economics.location_theory,HK.economics.regional_economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.regional_economics.regional_growth,HK.economics.regional_economics,SUBFIELD_OF,SUBFIELD_OF,parent
+HK.economics.sharing_economy,HK.economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.transport_economics,HK.economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.transport_economics.congestion_pricing,HK.economics.transport_economics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.economics.urban_economics,HK.economics,SUBFIELD_OF,SUBFIELD_OF,parent
@@ -8280,6 +8308,7 @@ HK.philosophy.aesthetics.philosophy_of_film,HK.philosophy.aesthetics,SUBFIELD_OF
 HK.philosophy.aesthetics.philosophy_of_literature,HK.philosophy.aesthetics,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.philosophy.aesthetics.philosophy_of_literature,HK.literature,OVERLAPS_WITH,OVERLAPS_WITH,explicit
 HK.philosophy.aesthetics.philosophy_of_music,HK.philosophy.aesthetics,SUBFIELD_OF,SUBFIELD_OF,parent
+HK.philosophy.decolonialism,HK.philosophy,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.philosophy.epistemology,HK.philosophy,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.philosophy.epistemology.epistemology_of_testimony,HK.philosophy.epistemology,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.philosophy.epistemology.formal_epistemology,HK.philosophy.epistemology,SUBFIELD_OF,SUBFIELD_OF,parent
@@ -14374,6 +14403,7 @@ TECH.information_technology.cryptography.public_key_infrastructure,TECH.informat
 TECH.information_technology.cryptography.symmetric_encryption,TECH.information_technology.cryptography,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.cryptography.zero_knowledge_proof,TECH.information_technology.cryptography,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.cryptography.zero_knowledge_proof,TECH.information_technology.cryptography.hash_function,USES,USES,explicit
+TECH.information_technology.cuda,TECH.information_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.cybersecurity,TECH.information_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.cybersecurity.application_security,TECH.information_technology.cybersecurity,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.cybersecurity.endpoint_security,TECH.information_technology.cybersecurity,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent

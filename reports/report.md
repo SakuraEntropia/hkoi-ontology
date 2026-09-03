@@ -1,21 +1,21 @@
 # HK-OI Ontology Report
 
-Generated: 2026-09-03T08:14:47.616Z
+Generated: 2026-09-03T08:17:37.046Z
 
 ## 1. Summary
 
-- **Nodes**: 12922  (with metrics: 10213)
-- **Relations**: 16711
+- **Nodes**: 12952  (with metrics: 10213)
+- **Relations**: 16741
 
 ### By universe
 
 | universe | nodes |
 |---|---|
-| HUMAN_KNOWLEDGE | 5773 |
+| HUMAN_KNOWLEDGE | 5781 |
 | OCCUPATIONS | 1300 |
-| ARTS_AND_CULTURE | 939 |
+| ARTS_AND_CULTURE | 960 |
 | INDUSTRIES | 894 |
-| TECHNOLOGIES | 719 |
+| TECHNOLOGIES | 720 |
 | PRODUCTS_AND_SERVICES | 649 |
 | SPORTS_AND_GAMES | 619 |
 | MEDIA_AND_CONTENT | 437 |
@@ -31,8 +31,8 @@ Generated: 2026-09-03T08:14:47.616Z
 |---|---|
 | L0 | 13 |
 | L1 | 286 |
-| L2 | 2856 |
-| L3 | 6670 |
+| L2 | 2875 |
+| L3 | 6681 |
 | L4 | 2630 |
 | L5 | 427 |
 | L6 | 40 |
@@ -41,26 +41,26 @@ Generated: 2026-09-03T08:14:47.616Z
 
 | type | nodes |
 |---|---|
-| KNOWLEDGE_FIELD | 5408 |
+| KNOWLEDGE_FIELD | 5413 |
 | OCCUPATION | 1596 |
-| TECHNOLOGY | 715 |
+| TECHNOLOGY | 716 |
 | ECONOMIC_ACTIVITY | 629 |
 | PRODUCT | 556 |
-| ART_GENRE | 525 |
+| ART_GENRE | 534 |
 | SPORT | 448 |
 | SOCIAL_ROLE | 411 |
 | ACTIVITY | 378 |
 | MEDIA_FORM | 223 |
 | INSTITUTION | 222 |
-| METHODOLOGY | 217 |
+| METHODOLOGY | 220 |
 | GAME | 207 |
-| ART_FORM | 188 |
+| ART_FORM | 194 |
 | INDUSTRY | 173 |
 | SERVICE | 167 |
-| ART_MOVEMENT | 140 |
+| ART_MOVEMENT | 143 |
 | ORGANIZATION_TYPE | 136 |
 | CONTENT_TYPE | 133 |
-| ART_TECHNIQUE | 128 |
+| ART_TECHNIQUE | 131 |
 | EMERGING_FIELD | 109 |
 | MATERIAL | 69 |
 | SECTOR | 39 |
@@ -203,11 +203,11 @@ Generated: 2026-09-03T08:14:47.616Z
 | MEDIA_AND_CONTENT | 436 | ok |
 | SPORTS_AND_GAMES | 618 | ok |
 | PRODUCTS_AND_SERVICES | 648 | ok |
-| TECHNOLOGIES | 718 | ok |
+| TECHNOLOGIES | 719 | ok |
 | INDUSTRIES | 893 | ok |
-| ARTS_AND_CULTURE | 938 | ok |
+| ARTS_AND_CULTURE | 959 | ok |
 | OCCUPATIONS | 1299 | ok |
-| HUMAN_KNOWLEDGE | 5772 | ok |
+| HUMAN_KNOWLEDGE | 5780 | ok |
 
 ### B. Granularity — max depth per universe
 
@@ -231,23 +231,23 @@ Generated: 2026-09-03T08:14:47.616Z
 
 | relation | count |
 |---|---|
-| SUBFIELD_OF | 5521 |
+| SUBFIELD_OF | 5526 |
 | OVERLAPS_WITH | 2033 |
 | SPECIALIZATION_OF | 2023 |
 | SUBTYPE_OF | 1978 |
-| PART_OF | 783 |
-| SUBTECHNOLOGY_OF | 715 |
+| PART_OF | 786 |
+| SUBTECHNOLOGY_OF | 716 |
 | RELATED_TO | 578 |
-| SUBGENRE_OF | 526 |
+| SUBGENRE_OF | 535 |
 | SUBSPORT_OF | 448 |
 | APPLICATION_OF | 371 |
 | USES | 279 |
-| METHOD_OF | 219 |
+| METHOD_OF | 222 |
 | SUBINDUSTRY_OF | 212 |
+| SUBFORM_OF | 208 |
 | SUBGAME_OF | 207 |
-| SUBFORM_OF | 202 |
+| TECHNIQUE_OF | 137 |
 | HISTORICAL_SUCCESSOR | 136 |
-| TECHNIQUE_OF | 134 |
 | USED_BY | 62 |
 | ROLE_IN | 36 |
 | PRODUCES | 35 |

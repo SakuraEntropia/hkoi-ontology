@@ -1,0 +1,272 @@
+[
+ {
+  "id": "ART.architecture.bioclimatic_architecture",
+  "name": "Bioclimatic Architecture",
+  "name_en": "Bioclimatic Architecture",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "Design that responds to local climate — solar orientation, thermal mass, natural ventilation, shading — to reduce energy use. Rooted in vernacular building; formalized by Victor Olgyay and others.",
+  "name_zh": "生物气候建筑"
+ },
+ {
+  "id": "ART.architecture.kinetic_architecture",
+  "name": "Kinetic Architecture",
+  "name_en": "Kinetic Architecture",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "Buildings and facades with moving parts that adapt to light, wind, or use — rotating, folding, and responsive structures. Blends architecture with engineering and computation.",
+  "name_zh": "动态建筑"
+ },
+ {
+  "id": "ART.architecture.smart_building",
+  "name": "Smart Building",
+  "name_en": "Smart Building",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "Buildings instrumented with sensors and automation for energy, comfort, security, and space management. Includes building automation systems and IoT integration.",
+  "name_zh": "智能建筑"
+ },
+ {
+  "id": "ART.design.wabi_sabi",
+  "name": "Wabi-Sabi",
+  "name_en": "Wabi-Sabi",
+  "type": "ART_MOVEMENT",
+  "parent": "ART.design",
+  "description": "A Japanese aesthetic centered on imperfection, impermanence, and rustic simplicity — asymmetry, roughness, and the beauty of aging. Deeply influential in design, architecture, and craft.",
+  "name_zh": "侘寂"
+ },
+ {
+  "id": "ART.performing_arts.gesamtkunstwerk",
+  "name": "Gesamtkunstwerk",
+  "name_en": "Gesamtkunstwerk",
+  "type": "ART_MOVEMENT",
+  "parent": "ART.performing_arts",
+  "description": "The 'total work of art' — Wagner's ideal fusion of music, drama, poetry, and stagecraft into a unified whole. A concept that echoes through opera, film, and multimedia art.",
+  "name_zh": "总体艺术"
+ },
+ {
+  "id": "ART.music.music_technology.modular_synthesizer",
+  "name": "Modular Synthesizer",
+  "name_en": "Modular Synthesizer",
+  "type": "ART_FORM",
+  "parent": "ART.music.music_technology",
+  "description": "A synthesizer composed of patchable modules — oscillators, filters, envelopes — connected by cables to create custom signal paths. The Moog and Eurorack formats; a cornerstone of electronic music.",
+  "name_zh": "模块化合成器"
+ },
+ {
+  "id": "ART.music.electronic_music.musique_concrete",
+  "name": "Musique Concrète",
+  "name_en": "Musique Concrète",
+  "type": "ART_GENRE",
+  "parent": "ART.music.electronic_music",
+  "description": "Composition from recorded, manipulated real-world sounds on tape, pioneered by Pierre Schaeffer in 1940s Paris. The ancestor of sampling and sound collage.",
+  "name_zh": "具体音乐"
+ },
+ {
+  "id": "ART.music.music_theory.aleatoric_music",
+  "name": "Aleatoric Music",
+  "name_en": "Aleatoric Music",
+  "type": "ART_TECHNIQUE",
+  "parent": "ART.music.music_theory",
+  "description": "Music in which some element of composition or performance is left to chance, associated with John Cage and the 1950s avant-garde. Chance procedures replace fixed notation.",
+  "name_zh": "偶然音乐"
+ },
+ {
+  "id": "ART.music.music_theory.microtonality",
+  "name": "Microtonality",
+  "name_en": "Microtonality",
+  "type": "ART_TECHNIQUE",
+  "parent": "ART.music.music_theory",
+  "description": "The use of intervals smaller than the Western semitone — quarter-tones, just intonation, and non-12-tone scales. Common in Arabic, Indian, and contemporary experimental music.",
+  "name_zh": "微分音"
+ },
+ {
+  "id": "ART.music.electronic_music.generative_music",
+  "name": "Generative Music",
+  "name_en": "Generative Music",
+  "type": "ART_GENRE",
+  "parent": "ART.music.electronic_music",
+  "description": "Music created by systems — algorithms, randomness, and rules — that unfold unpredictably, associated with Brian Eno. Overlaps with algorithmic and AI composition.",
+  "name_zh": "生成音乐"
+ },
+ {
+  "id": "ART.music.music_technology.field_recording",
+  "name": "Field Recording",
+  "name_en": "Field Recording",
+  "type": "ART_TECHNIQUE",
+  "parent": "ART.music.music_technology",
+  "description": "Recording environmental sound — nature, cities, machinery — outside the studio. Foundational to soundscape composition, documentary, and sound design.",
+  "name_zh": "田野录音"
+ },
+ {
+  "id": "ART.music.electronic_music.vaporwave",
+  "name": "Vaporwave",
+  "name_en": "Vaporwave",
+  "type": "ART_GENRE",
+  "parent": "ART.music.electronic_music",
+  "description": "An internet-born microgenre of the 2010s that samples 80s-90s muzak, elevator music, and pop, slowed and filtered into nostalgic, ironic soundscapes.",
+  "name_zh": "蒸汽波"
+ },
+ {
+  "id": "ART.music.popular_music.city_pop",
+  "name": "City Pop",
+  "name_en": "City Pop",
+  "type": "ART_GENRE",
+  "parent": "ART.music.popular_music",
+  "description": "Japanese urban pop of the late 1970s-80s blending funk, jazz-fusion, and yacht rock. Revived globally through YouTube algorithms and lo-fi nostalgia.",
+  "name_zh": "城市流行"
+ },
+ {
+  "id": "ART.music.popular_music.grime",
+  "name": "Grime",
+  "name_en": "Grime",
+  "type": "ART_GENRE",
+  "parent": "ART.music.popular_music",
+  "description": "A UK electronic genre born in early-2000s London, fusing fast 140-BPM beats with MCing and pirate-radio culture. Distinct from hip-hop; led by Wiley and Dizzee Rascal.",
+  "name_zh": "Grime"
+ },
+ {
+  "id": "ART.music.traditional_music.qawwali",
+  "name": "Qawwali",
+  "name_en": "Qawwali",
+  "type": "ART_GENRE",
+  "parent": "ART.music.traditional_music",
+  "description": "Sufi devotional music of South Asia — passionate vocal performances accompanied by harmonium and tabla, built on poetry of divine love. Nusrat Fateh Ali Khan brought it global renown.",
+  "name_zh": "卡瓦利"
+ },
+ {
+  "id": "ART.visual_arts.kinetic_art",
+  "name": "Kinetic Art",
+  "name_en": "Kinetic Art",
+  "type": "ART_MOVEMENT",
+  "parent": "ART.visual_arts",
+  "description": "Art that incorporates actual or apparent motion — motors, wind, light — associated with Alexander Calder's mobiles and the 1960s. Movement is the medium.",
+  "name_zh": "动态艺术"
+ },
+ {
+  "id": "ART.digital_art.ascii_art",
+  "name": "ASCII Art",
+  "name_en": "ASCII Art",
+  "type": "ART_FORM",
+  "parent": "ART.digital_art",
+  "description": "Images constructed from text characters on early terminals and typewriters. A low-tech precursor to pixel art and a staple of early computer culture.",
+  "name_zh": "ASCII艺术"
+ },
+ {
+  "id": "ART.digital_art.ai_art",
+  "name": "AI Art",
+  "name_en": "AI Art",
+  "type": "ART_FORM",
+  "parent": "ART.digital_art",
+  "description": "Artworks generated or co-created with machine-learning models — GANs, diffusion models, and text-to-image systems. Raises deep questions of authorship, copyright, and creativity.",
+  "name_zh": "AI艺术"
+ },
+ {
+  "id": "ART.games.soulslike",
+  "name": "Soulslike",
+  "name_en": "Soulslike",
+  "type": "ART_GENRE",
+  "parent": "ART.games",
+  "description": "Action RPGs defined by punishing difficulty, deliberate combat, and environmental storytelling, following FromSoftware's Demon's Souls and Dark Souls. A named subgenre with a devoted community.",
+  "name_zh": "类魂游戏"
+ },
+ {
+  "id": "ART.games.rhythm_game",
+  "name": "Rhythm Game",
+  "name_en": "Rhythm Game",
+  "type": "ART_GENRE",
+  "parent": "ART.games",
+  "description": "Games where players act in time with music — Dance Dance Revolution, Guitar Hero, osu!. Precision timing is the core mechanic.",
+  "name_zh": "音游"
+ },
+ {
+  "id": "ART.games.idle_game",
+  "name": "Idle / Clicker Game",
+  "name_en": "Idle / Clicker Game",
+  "type": "ART_GENRE",
+  "parent": "ART.games",
+  "description": "Games that progress with minimal input, using timers, exponential numbers, and incremental upgrades — Cookie Clicker, AdVenture Capitalist. A study in compulsion loops.",
+  "name_zh": "放置游戏"
+ },
+ {
+  "id": "HK.business.kanban",
+  "name": "Kanban",
+  "name_en": "Kanban",
+  "type": "METHODOLOGY",
+  "parent": "HK.business",
+  "description": "A visual scheduling system from Toyota using cards and boards to limit work-in-progress and pull work through a process. Core to lean and agile software.",
+  "name_zh": "看板"
+ },
+ {
+  "id": "HK.business.kaizen",
+  "name": "Kaizen",
+  "name_en": "Kaizen",
+  "type": "METHODOLOGY",
+  "parent": "HK.business",
+  "description": "The Japanese practice of continuous, incremental improvement involving all employees. A pillar of Toyota's production system and lean manufacturing.",
+  "name_zh": "改善"
+ },
+ {
+  "id": "HK.business.okr",
+  "name": "OKR (Objectives & Key Results)",
+  "name_en": "OKR (Objectives & Key Results)",
+  "type": "METHODOLOGY",
+  "parent": "HK.business",
+  "description": "A goal-setting framework pairing qualitative objectives with measurable key results, popularized by Intel and Google. Aligns teams and tracks ambition.",
+  "name_zh": "目标与关键成果"
+ },
+ {
+  "id": "HK.business.esg",
+  "name": "ESG (Environmental, Social, Governance)",
+  "name_en": "ESG (Environmental, Social, Governance)",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The framework for evaluating corporate sustainability — environmental impact, social responsibility, and governance. Now central to investment and disclosure.",
+  "name_zh": "环境社会治理"
+ },
+ {
+  "id": "HK.economics.gig_economy",
+  "name": "Gig Economy",
+  "name_en": "Gig Economy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.economics",
+  "description": "Labor markets structured around short-term, platform-mediated freelance work — ride-hailing, delivery, freelance marketplaces. Raises questions of worker classification and precarity.",
+  "name_zh": "零工经济"
+ },
+ {
+  "id": "HK.economics.sharing_economy",
+  "name": "Sharing Economy",
+  "name_en": "Sharing Economy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.economics",
+  "description": "Peer-to-peer access to underused assets — homes, cars, tools — mediated by platforms like Airbnb and Uber. Blurs ownership and consumption.",
+  "name_zh": "共享经济"
+ },
+ {
+  "id": "HK.philosophy.decolonialism",
+  "name": "Decolonial Thought",
+  "name_en": "Decolonial Thought",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.philosophy",
+  "description": "Critique of colonial power in knowledge, institutions, and culture, seeking epistemic and material decolonization. Associated with Fanon, Mignolo, and Indigenous scholarship.",
+  "name_zh": "去殖民思想"
+ },
+ {
+  "id": "TECH.information_technology.cuda",
+  "name": "CUDA",
+  "name_en": "CUDA",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.information_technology",
+  "description": "NVIDIA's parallel-computing platform and programming model for general-purpose GPU computing. The foundation of modern deep learning and scientific computing.",
+  "name_zh": "CUDA"
+ },
+ {
+  "id": "HK.bioinformatics.structural_bioinformatics.protein_structure_prediction",
+  "name": "Protein Structure Prediction",
+  "name_en": "Protein Structure Prediction",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.bioinformatics.structural_bioinformatics",
+  "description": "Computational prediction of protein 3D structure from amino-acid sequence. Transformed by deep-learning systems like AlphaFold and RoseTTAFold.",
+  "name_zh": "蛋白质结构预测"
+ }
+]

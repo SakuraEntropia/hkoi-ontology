@@ -474,6 +474,7 @@ ART.architecture.architectural_styles.organic_architecture,Node;ART_MOVEMENT,ART
 ART.architecture.architectural_styles.postmodern_architecture,Node;ART_MOVEMENT,ART.architecture.architectural_styles.postmodern_architecture,Postmodern Architecture,后现代建筑,ART_MOVEMENT,ARTS_AND_CULTURE,3
 ART.architecture.architectural_styles.renaissance_architecture,Node;ART_MOVEMENT,ART.architecture.architectural_styles.renaissance_architecture,Renaissance Architecture,文艺复兴建筑,ART_MOVEMENT,ARTS_AND_CULTURE,3
 ART.architecture.architectural_styles.romanesque,Node;ART_MOVEMENT,ART.architecture.architectural_styles.romanesque,Romanesque,罗曼式,ART_MOVEMENT,ARTS_AND_CULTURE,3
+ART.architecture.bioclimatic_architecture,Node;ART_FORM,ART.architecture.bioclimatic_architecture,Bioclimatic Architecture,生物气候建筑,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.building_types,Node;ART_FORM,ART.architecture.building_types,Building Types,建筑类型,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.building_types.civic_architecture,Node;ART_FORM,ART.architecture.building_types.civic_architecture,Civic Architecture,公共建筑,ART_FORM,ARTS_AND_CULTURE,3
 ART.architecture.building_types.commercial_architecture,Node;ART_FORM,ART.architecture.building_types.commercial_architecture,Commercial Architecture,商业建筑,ART_FORM,ARTS_AND_CULTURE,3
@@ -484,8 +485,10 @@ ART.architecture.building_types.vernacular_architecture,Node;ART_FORM,ART.archit
 ART.architecture.computational_design,Node;ART_FORM,ART.architecture.computational_design,Computational Design,计算设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.digital_fabrication,Node;ART_FORM,ART.architecture.digital_fabrication,Digital Fabrication,数字建造,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.generative_design,Node;ART_FORM,ART.architecture.generative_design,Generative Design,生成式设计,ART_FORM,ARTS_AND_CULTURE,2
+ART.architecture.kinetic_architecture,Node;ART_FORM,ART.architecture.kinetic_architecture,Kinetic Architecture,动态建筑,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.landscape_architecture,Node;ART_FORM,ART.architecture.landscape_architecture,Landscape Architecture,景观建筑,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.parametric_architecture,Node;ART_FORM,ART.architecture.parametric_architecture,Parametric Architecture,参数化建筑,ART_FORM,ARTS_AND_CULTURE,2
+ART.architecture.smart_building,Node;ART_FORM,ART.architecture.smart_building,Smart Building,智能建筑,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.sustainable_architecture,Node;ART_FORM,ART.architecture.sustainable_architecture,Sustainable Architecture,可持续建筑,ART_FORM,ARTS_AND_CULTURE,2
 ART.architecture.urban_design,Node;ART_FORM,ART.architecture.urban_design,Urban Design,城市设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.comics,Node;ART_FORM,ART.comics,Comics,漫画,ART_FORM,ARTS_AND_CULTURE,1
@@ -592,9 +595,12 @@ ART.design.ux_design.interaction_design,Node;ART_FORM,ART.design.ux_design.inter
 ART.design.ux_design.service_design,Node;ART_FORM,ART.design.ux_design.service_design,Service Design,服务设计,ART_FORM,ARTS_AND_CULTURE,3
 ART.design.ux_design.ui_design,Node;ART_FORM,ART.design.ux_design.ui_design,User Interface Design,用户界面设计,ART_FORM,ARTS_AND_CULTURE,3
 ART.design.ux_design.usability,Node;METHODOLOGY,ART.design.ux_design.usability,Usability,可用性,METHODOLOGY,ARTS_AND_CULTURE,3
+ART.design.wabi_sabi,Node;ART_MOVEMENT,ART.design.wabi_sabi,Wabi-Sabi,侘寂,ART_MOVEMENT,ARTS_AND_CULTURE,2
 ART.design.web_design,Node;ART_FORM,ART.design.web_design,Web Design,网页设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.digital_art,Node;ART_FORM,ART.digital_art,Digital Art,数字艺术,ART_FORM,ARTS_AND_CULTURE,1
 ART.digital_art.3d_modeling,Node;ART_TECHNIQUE,ART.digital_art.3d_modeling,3D Modeling,三维建模,ART_TECHNIQUE,ARTS_AND_CULTURE,2
+ART.digital_art.ai_art,Node;ART_FORM,ART.digital_art.ai_art,AI Art,AI艺术,ART_FORM,ARTS_AND_CULTURE,2
+ART.digital_art.ascii_art,Node;ART_FORM,ART.digital_art.ascii_art,ASCII Art,ASCII艺术,ART_FORM,ARTS_AND_CULTURE,2
 ART.digital_art.digital_illustration,Node;ART_TECHNIQUE,ART.digital_art.digital_illustration,Digital Illustration,数字插画,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.digital_art.digital_painting,Node;ART_TECHNIQUE,ART.digital_art.digital_painting,Digital Painting,数字绘画,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.digital_art.digital_sculpture,Node;ART_TECHNIQUE,ART.digital_art.digital_sculpture,Digital Sculpture,数字雕塑,ART_TECHNIQUE,ARTS_AND_CULTURE,2
@@ -733,6 +739,9 @@ ART.games.game_art,Node;ART_TECHNIQUE,ART.games.game_art,Game Art,游戏美术,A
 ART.games.game_art.concept_art,Node;ART_TECHNIQUE,ART.games.game_art.concept_art,Concept Art,概念设计,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.games.game_design,Node;METHODOLOGY,ART.games.game_design,Game Design,游戏设计,METHODOLOGY,ARTS_AND_CULTURE,2
 ART.games.game_music,Node;ART_TECHNIQUE,ART.games.game_music,Game Music,游戏音乐,ART_TECHNIQUE,ARTS_AND_CULTURE,2
+ART.games.idle_game,Node;ART_GENRE,ART.games.idle_game,Idle / Clicker Game,放置游戏,ART_GENRE,ARTS_AND_CULTURE,2
+ART.games.rhythm_game,Node;ART_GENRE,ART.games.rhythm_game,Rhythm Game,音游,ART_GENRE,ARTS_AND_CULTURE,2
+ART.games.soulslike,Node;ART_GENRE,ART.games.soulslike,Soulslike,类魂游戏,ART_GENRE,ARTS_AND_CULTURE,2
 ART.games.tabletop_role_playing,Node;GAME,ART.games.tabletop_role_playing,Tabletop Role-Playing Game,桌上角色扮演游戏,GAME,ARTS_AND_CULTURE,2
 ART.games.video_games,Node;GAME,ART.games.video_games,Video Games,电子游戏,GAME,ARTS_AND_CULTURE,2
 ART.games.video_games.action_game,Node;GAME,ART.games.video_games.action_game,Action Game,动作游戏,GAME,ARTS_AND_CULTURE,3
@@ -854,6 +863,7 @@ ART.music.electronic_music.drum_and_bass.liquid_funk,Node;ART_GENRE,ART.music.el
 ART.music.electronic_music.dubstep,Node;ART_GENRE,ART.music.electronic_music.dubstep,Dubstep,回响贝斯,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.edm,Node;ART_GENRE,ART.music.electronic_music.edm,Electronic Dance Music,电子舞曲,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.electro,Node;ART_GENRE,ART.music.electronic_music.electro,Electro,电子放克,ART_GENRE,ARTS_AND_CULTURE,3
+ART.music.electronic_music.generative_music,Node;ART_GENRE,ART.music.electronic_music.generative_music,Generative Music,生成音乐,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.glitch,Node;ART_GENRE,ART.music.electronic_music.glitch,Glitch,故障音乐,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.house_music,Node;ART_GENRE,ART.music.electronic_music.house_music,House Music,浩室音乐,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.house_music.acid_house,Node;ART_GENRE,ART.music.electronic_music.house_music.acid_house,Acid House,酸性浩室,ART_GENRE,ARTS_AND_CULTURE,4
@@ -861,11 +871,13 @@ ART.music.electronic_music.house_music.deep_house,Node;ART_GENRE,ART.music.elect
 ART.music.electronic_music.house_music.tech_house,Node;ART_GENRE,ART.music.electronic_music.house_music.tech_house,Tech House,科技浩室,ART_GENRE,ARTS_AND_CULTURE,4
 ART.music.electronic_music.idm,Node;ART_GENRE,ART.music.electronic_music.idm,Intelligent Dance Music,,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.industrial,Node;ART_GENRE,ART.music.electronic_music.industrial,Industrial Music,工业音乐,ART_GENRE,ARTS_AND_CULTURE,3
+ART.music.electronic_music.musique_concrete,Node;ART_GENRE,ART.music.electronic_music.musique_concrete,Musique Concrète,具体音乐,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.synthwave,Node;ART_GENRE,ART.music.electronic_music.synthwave,Synthwave,合成器浪潮,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.techno,Node;ART_GENRE,ART.music.electronic_music.techno,Techno,科技舞曲,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.techno.minimal_techno,Node;ART_GENRE,ART.music.electronic_music.techno.minimal_techno,Minimal Techno,极简科技舞曲,ART_GENRE,ARTS_AND_CULTURE,4
 ART.music.electronic_music.trance,Node;ART_GENRE,ART.music.electronic_music.trance,Trance,迷幻舞曲,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.electronic_music.trance.psytrance,Node;ART_GENRE,ART.music.electronic_music.trance.psytrance,Psytrance,迷幻迷幻舞曲,ART_GENRE,ARTS_AND_CULTURE,4
+ART.music.electronic_music.vaporwave,Node;ART_GENRE,ART.music.electronic_music.vaporwave,Vaporwave,蒸汽波,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.ethnomusicology,Node;KNOWLEDGE_FIELD,ART.music.ethnomusicology,Ethnomusicology,民族音乐学,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,2
 ART.music.jazz,Node;ART_GENRE,ART.music.jazz,Jazz,爵士乐,ART_GENRE,ARTS_AND_CULTURE,2
 ART.music.jazz.avant_garde_jazz,Node;ART_GENRE,ART.music.jazz.avant_garde_jazz,Avant-Garde Jazz,前卫爵士,ART_GENRE,ARTS_AND_CULTURE,3
@@ -892,7 +904,9 @@ ART.music.music_technology,Node;TECHNOLOGY,ART.music.music_technology,Music Tech
 ART.music.music_technology.auto_tune,Node;ART_FORM,ART.music.music_technology.auto_tune,Auto-Tune & Pitch Correction,自动修音,ART_FORM,ARTS_AND_CULTURE,3
 ART.music.music_technology.daw,Node;ART_FORM,ART.music.music_technology.daw,Digital Audio Workstation,数字音频工作站,ART_FORM,ARTS_AND_CULTURE,3
 ART.music.music_technology.digital_audio_workstation,Node;TECHNOLOGY,ART.music.music_technology.digital_audio_workstation,Digital Audio Workstation,数字音频工作站,TECHNOLOGY,ARTS_AND_CULTURE,3
+ART.music.music_technology.field_recording,Node;ART_TECHNIQUE,ART.music.music_technology.field_recording,Field Recording,田野录音,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.music.music_technology.midi,Node;ART_FORM,ART.music.music_technology.midi,MIDI,MIDI,ART_FORM,ARTS_AND_CULTURE,3
+ART.music.music_technology.modular_synthesizer,Node;ART_FORM,ART.music.music_technology.modular_synthesizer,Modular Synthesizer,模块化合成器,ART_FORM,ARTS_AND_CULTURE,3
 ART.music.music_technology.sampling,Node;TECHNOLOGY,ART.music.music_technology.sampling,Sampling,采样,TECHNOLOGY,ARTS_AND_CULTURE,3
 ART.music.music_technology.sound_recording,Node;TECHNOLOGY,ART.music.music_technology.sound_recording,Sound Recording,录音,TECHNOLOGY,ARTS_AND_CULTURE,3
 ART.music.music_technology.sound_synthesis,Node;TECHNOLOGY,ART.music.music_technology.sound_synthesis,Sound Synthesis,声音合成,TECHNOLOGY,ARTS_AND_CULTURE,3
@@ -900,9 +914,11 @@ ART.music.music_technology.virtual_singer,Node;ART_FORM,ART.music.music_technolo
 ART.music.music_technology.vocal_synthesis,Node;ART_FORM,ART.music.music_technology.vocal_synthesis,Vocal Synthesis,声乐合成,ART_FORM,ARTS_AND_CULTURE,3
 ART.music.music_technology.vocaloid,Node;ART_FORM,ART.music.music_technology.vocaloid,Vocaloid,Vocaloid,ART_FORM,ARTS_AND_CULTURE,3
 ART.music.music_theory,Node;KNOWLEDGE_FIELD,ART.music.music_theory,Music Theory,音乐理论,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,2
+ART.music.music_theory.aleatoric_music,Node;ART_TECHNIQUE,ART.music.music_theory.aleatoric_music,Aleatoric Music,偶然音乐,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.music.music_theory.counterpoint,Node;KNOWLEDGE_FIELD,ART.music.music_theory.counterpoint,Counterpoint,对位法,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,3
 ART.music.music_theory.harmony,Node;KNOWLEDGE_FIELD,ART.music.music_theory.harmony,Harmony,和声,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,3
 ART.music.music_theory.melody,Node;KNOWLEDGE_FIELD,ART.music.music_theory.melody,Melody,旋律,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,3
+ART.music.music_theory.microtonality,Node;ART_TECHNIQUE,ART.music.music_theory.microtonality,Microtonality,微分音,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.music.music_theory.music_analysis,Node;METHODOLOGY,ART.music.music_theory.music_analysis,Music Analysis,音乐分析,METHODOLOGY,ARTS_AND_CULTURE,3
 ART.music.music_theory.musical_form,Node;KNOWLEDGE_FIELD,ART.music.music_theory.musical_form,Musical Form,曲式,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,3
 ART.music.music_theory.musical_notation,Node;KNOWLEDGE_FIELD,ART.music.music_theory.musical_notation,Musical Notation,记谱法,KNOWLEDGE_FIELD,ARTS_AND_CULTURE,3
@@ -977,11 +993,13 @@ ART.music.musical_instruments.woodwind_instruments.saxophone,Node;PRODUCT,ART.mu
 ART.music.musical_instruments.woodwind_instruments.shakuhachi,Node;PRODUCT,ART.music.musical_instruments.woodwind_instruments.shakuhachi,Shakuhachi,尺八,PRODUCT,ARTS_AND_CULTURE,4
 ART.music.popular_music,Node;ART_GENRE,ART.music.popular_music,Popular Music,流行音乐,ART_GENRE,ARTS_AND_CULTURE,2
 ART.music.popular_music.afrobeats,Node;ART_GENRE,ART.music.popular_music.afrobeats,Afrobeats,非洲节拍,ART_GENRE,ARTS_AND_CULTURE,3
+ART.music.popular_music.city_pop,Node;ART_GENRE,ART.music.popular_music.city_pop,City Pop,城市流行,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.popular_music.country_music,Node;ART_GENRE,ART.music.popular_music.country_music,Country Music,乡村音乐,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.popular_music.country_music.bluegrass,Node;ART_GENRE,ART.music.popular_music.country_music.bluegrass,Bluegrass,蓝草音乐,ART_GENRE,ARTS_AND_CULTURE,4
 ART.music.popular_music.country_music.western_swing,Node;ART_GENRE,ART.music.popular_music.country_music.western_swing,Western Swing,,ART_GENRE,ARTS_AND_CULTURE,4
 ART.music.popular_music.disco,Node;ART_GENRE,ART.music.popular_music.disco,Disco,迪斯科,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.popular_music.gospel,Node;ART_GENRE,ART.music.popular_music.gospel,Gospel Music,福音音乐,ART_GENRE,ARTS_AND_CULTURE,3
+ART.music.popular_music.grime,Node;ART_GENRE,ART.music.popular_music.grime,Grime,Grime,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.popular_music.hip_hop,Node;ART_GENRE,ART.music.popular_music.hip_hop,Hip-Hop Music,嘻哈音乐,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.popular_music.hip_hop.boom_bap,Node;ART_GENRE,ART.music.popular_music.hip_hop.boom_bap,Boom Bap,,ART_GENRE,ARTS_AND_CULTURE,4
 ART.music.popular_music.hip_hop.conscious_rap,Node;ART_GENRE,ART.music.popular_music.hip_hop.conscious_rap,Conscious Rap,良知说唱,ART_GENRE,ARTS_AND_CULTURE,4
@@ -1062,6 +1080,7 @@ ART.music.traditional_music.korean_traditional_music,Node;ART_GENRE,ART.music.tr
 ART.music.traditional_music.korean_traditional_music.pansori,Node;ART_GENRE,ART.music.traditional_music.korean_traditional_music.pansori,Pansori,板索里,ART_GENRE,ARTS_AND_CULTURE,4
 ART.music.traditional_music.ottoman_music,Node;ART_GENRE,ART.music.traditional_music.ottoman_music,Ottoman Classical Music,奥斯曼古典音乐,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.traditional_music.persian_classical_music,Node;ART_GENRE,ART.music.traditional_music.persian_classical_music,Persian Classical Music,波斯古典音乐,ART_GENRE,ARTS_AND_CULTURE,3
+ART.music.traditional_music.qawwali,Node;ART_GENRE,ART.music.traditional_music.qawwali,Qawwali,卡瓦利,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.vocal_music,Node;ART_FORM,ART.music.vocal_music,Vocal Music,声乐,ART_FORM,ARTS_AND_CULTURE,2
 ART.music.vocal_music.a_cappella,Node;ART_GENRE,ART.music.vocal_music.a_cappella,A Cappella,无伴奏合唱,ART_GENRE,ARTS_AND_CULTURE,3
 ART.music.vocal_music.beatboxing,Node;ART_TECHNIQUE,ART.music.vocal_music.beatboxing,Beatboxing,口技,ART_TECHNIQUE,ARTS_AND_CULTURE,3
@@ -1106,6 +1125,7 @@ ART.performing_arts.dance.indian_classical_dance.odissi,Node;ART_GENRE,ART.perfo
 ART.performing_arts.dance.jazz_dance,Node;ART_GENRE,ART.performing_arts.dance.jazz_dance,Jazz Dance,爵士舞,ART_GENRE,ARTS_AND_CULTURE,3
 ART.performing_arts.dance.modern_dance,Node;ART_GENRE,ART.performing_arts.dance.modern_dance,Modern Dance,现代舞,ART_GENRE,ARTS_AND_CULTURE,3
 ART.performing_arts.dance.tap_dance,Node;ART_GENRE,ART.performing_arts.dance.tap_dance,Tap Dance,踢踏舞,ART_GENRE,ARTS_AND_CULTURE,3
+ART.performing_arts.gesamtkunstwerk,Node;ART_MOVEMENT,ART.performing_arts.gesamtkunstwerk,Gesamtkunstwerk,总体艺术,ART_MOVEMENT,ARTS_AND_CULTURE,2
 ART.performing_arts.musical_theatre,Node;ART_FORM,ART.performing_arts.musical_theatre,Musical Theatre,音乐剧,ART_FORM,ARTS_AND_CULTURE,2
 ART.performing_arts.musical_theatre.book_musical,Node;ART_GENRE,ART.performing_arts.musical_theatre.book_musical,Book Musical,剧情音乐剧,ART_GENRE,ARTS_AND_CULTURE,3
 ART.performing_arts.musical_theatre.jukebox_musical,Node;ART_GENRE,ART.performing_arts.musical_theatre.jukebox_musical,Jukebox Musical,点唱机音乐剧,ART_GENRE,ARTS_AND_CULTURE,3
@@ -1227,6 +1247,7 @@ ART.visual_arts.illustration.fashion_illustration,Node;ART_GENRE,ART.visual_arts
 ART.visual_arts.illustration.medical_illustration,Node;ART_GENRE,ART.visual_arts.illustration.medical_illustration,Medical Illustration,医学插画,ART_GENRE,ARTS_AND_CULTURE,3
 ART.visual_arts.illustration.scientific_illustration,Node;ART_GENRE,ART.visual_arts.illustration.scientific_illustration,Scientific Illustration,科学插画,ART_GENRE,ARTS_AND_CULTURE,3
 ART.visual_arts.impressionism,Node;ART_MOVEMENT,ART.visual_arts.impressionism,Impressionism,印象派,ART_MOVEMENT,ARTS_AND_CULTURE,2
+ART.visual_arts.kinetic_art,Node;ART_MOVEMENT,ART.visual_arts.kinetic_art,Kinetic Art,动态艺术,ART_MOVEMENT,ARTS_AND_CULTURE,2
 ART.visual_arts.land_art,Node;ART_MOVEMENT,ART.visual_arts.land_art,Land Art,大地艺术,ART_MOVEMENT,ARTS_AND_CULTURE,2
 ART.visual_arts.minimalism,Node;ART_MOVEMENT,ART.visual_arts.minimalism,Minimalism,极简主义,ART_MOVEMENT,ARTS_AND_CULTURE,2
 ART.visual_arts.mixed_media,Node;ART_FORM,ART.visual_arts.mixed_media,Mixed Media,综合材料,ART_FORM,ARTS_AND_CULTURE,2
@@ -1895,6 +1916,7 @@ HK.bioinformatics.metagenomics,Node;KNOWLEDGE_FIELD,HK.bioinformatics.metagenomi
 HK.bioinformatics.phylogenetics,Node;KNOWLEDGE_FIELD,HK.bioinformatics.phylogenetics,Phylogenetics,系统发育学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.bioinformatics.proteomics,Node;KNOWLEDGE_FIELD,HK.bioinformatics.proteomics,Proteomics,蛋白质组学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.bioinformatics.structural_bioinformatics,Node;KNOWLEDGE_FIELD,HK.bioinformatics.structural_bioinformatics,Structural Bioinformatics,结构生物信息学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
+HK.bioinformatics.structural_bioinformatics.protein_structure_prediction,Node;KNOWLEDGE_FIELD,HK.bioinformatics.structural_bioinformatics.protein_structure_prediction,Protein Structure Prediction,蛋白质结构预测,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.bioinformatics.systems_biology,Node;KNOWLEDGE_FIELD,HK.bioinformatics.systems_biology,Systems Biology,系统生物学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.bioinformatics.transcriptomics,Node;KNOWLEDGE_FIELD,HK.bioinformatics.transcriptomics,Transcriptomics,转录组学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.biology,Node;KNOWLEDGE_FIELD,HK.biology,Biology,生物学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,1
@@ -2125,6 +2147,7 @@ HK.business.entrepreneurship.startup_financing.crowdfunding.equity_crowdfunding,
 HK.business.entrepreneurship.startup_financing.crowdfunding.reward_crowdfunding,Node;KNOWLEDGE_FIELD,HK.business.entrepreneurship.startup_financing.crowdfunding.reward_crowdfunding,Reward Crowdfunding,回报众筹,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,5
 HK.business.entrepreneurship.startup_financing.venture_capital,Node;KNOWLEDGE_FIELD,HK.business.entrepreneurship.startup_financing.venture_capital,Venture Capital,风险投资,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,4
 HK.business.entrepreneurship.technology_entrepreneurship,Node;KNOWLEDGE_FIELD,HK.business.entrepreneurship.technology_entrepreneurship,Technology Entrepreneurship,技术创业,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.business.esg,Node;KNOWLEDGE_FIELD,HK.business.esg,"ESG (Environmental, Social, Governance)",环境社会治理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.business.human_resource_management,Node;KNOWLEDGE_FIELD,HK.business.human_resource_management,Human Resource Management,人力资源管理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.business.human_resource_management.compensation_and_benefits,Node;KNOWLEDGE_FIELD,HK.business.human_resource_management.compensation_and_benefits,Compensation and Benefits,薪酬与福利,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.business.human_resource_management.employee_relations,Node;KNOWLEDGE_FIELD,HK.business.human_resource_management.employee_relations,Employee and Labor Relations,员工关系,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
@@ -2153,6 +2176,8 @@ HK.business.international_business.export_import_management,Node;KNOWLEDGE_FIELD
 HK.business.international_business.foreign_market_entry,Node;KNOWLEDGE_FIELD,HK.business.international_business.foreign_market_entry,Foreign Market Entry,进入外国市场,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.business.international_business.multinational_enterprise,Node;KNOWLEDGE_FIELD,HK.business.international_business.multinational_enterprise,Multinational Enterprise Management,跨国企业管理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.business.international_business.offshoring_and_outsourcing,Node;KNOWLEDGE_FIELD,HK.business.international_business.offshoring_and_outsourcing,Offshoring and Outsourcing,离岸与外包,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.business.kaizen,Node;METHODOLOGY,HK.business.kaizen,Kaizen,改善,METHODOLOGY,HUMAN_KNOWLEDGE,2
+HK.business.kanban,Node;METHODOLOGY,HK.business.kanban,Kanban,看板,METHODOLOGY,HUMAN_KNOWLEDGE,2
 HK.business.management,Node;KNOWLEDGE_FIELD,HK.business.management,Management,管理学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.business.management.change_management,Node;KNOWLEDGE_FIELD,HK.business.management.change_management,Change Management,变革管理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.business.management.crisis_management,Node;KNOWLEDGE_FIELD,HK.business.management.crisis_management,Crisis Management,危机管理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
@@ -2225,6 +2250,7 @@ HK.business.marketing.relationship_marketing,Node;KNOWLEDGE_FIELD,HK.business.ma
 HK.business.marketing.retail_management,Node;KNOWLEDGE_FIELD,HK.business.marketing.retail_management,Retail Management,零售管理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.business.marketing.sales_promotion,Node;KNOWLEDGE_FIELD,HK.business.marketing.sales_promotion,Sales Promotion,促销,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.business.marketing.services_marketing,Node;KNOWLEDGE_FIELD,HK.business.marketing.services_marketing,Services Marketing,服务营销,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.business.okr,Node;METHODOLOGY,HK.business.okr,OKR (Objectives & Key Results),目标与关键成果,METHODOLOGY,HUMAN_KNOWLEDGE,2
 HK.business.operations_management,Node;KNOWLEDGE_FIELD,HK.business.operations_management,Operations Management,运营管理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.business.operations_management.capacity_management,Node;KNOWLEDGE_FIELD,HK.business.operations_management.capacity_management,Capacity Management,产能管理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.business.operations_management.facility_location_and_layout,Node;KNOWLEDGE_FIELD,HK.business.operations_management.facility_location_and_layout,Facility Location and Layout,设施选址与布局,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
@@ -3106,6 +3132,7 @@ HK.economics.financial_economics.financial_econometrics,Node;KNOWLEDGE_FIELD,HK.
 HK.economics.financial_economics.market_microstructure,Node;KNOWLEDGE_FIELD,HK.economics.financial_economics.market_microstructure,Market Microstructure,市场微观结构,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.economics.financial_economics.portfolio_theory,Node;KNOWLEDGE_FIELD,HK.economics.financial_economics.portfolio_theory,Portfolio Theory,投资组合理论,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.economics.financial_economics.risk_management,Node;KNOWLEDGE_FIELD,HK.economics.financial_economics.risk_management,Risk Management,风险管理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.economics.gig_economy,Node;KNOWLEDGE_FIELD,HK.economics.gig_economy,Gig Economy,零工经济,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.economics.health_economics,Node;KNOWLEDGE_FIELD,HK.economics.health_economics,Health Economics,卫生经济学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.economics.health_economics.cost_effectiveness_analysis,Node;METHODOLOGY,HK.economics.health_economics.cost_effectiveness_analysis,Cost-Effectiveness Analysis,成本效果分析,METHODOLOGY,HUMAN_KNOWLEDGE,3
 HK.economics.health_economics.health_care_financing,Node;KNOWLEDGE_FIELD,HK.economics.health_economics.health_care_financing,Health Care Financing,卫生筹资,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
@@ -3234,6 +3261,7 @@ HK.economics.regional_economics,Node;KNOWLEDGE_FIELD,HK.economics.regional_econo
 HK.economics.regional_economics.cluster_economics,Node;KNOWLEDGE_FIELD,HK.economics.regional_economics.cluster_economics,Industrial Clusters,产业集群,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.economics.regional_economics.location_theory,Node;KNOWLEDGE_FIELD,HK.economics.regional_economics.location_theory,Location Theory,区位理论,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.economics.regional_economics.regional_growth,Node;KNOWLEDGE_FIELD,HK.economics.regional_economics.regional_growth,Regional Growth,区域增长,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.economics.sharing_economy,Node;KNOWLEDGE_FIELD,HK.economics.sharing_economy,Sharing Economy,共享经济,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.economics.transport_economics,Node;KNOWLEDGE_FIELD,HK.economics.transport_economics,Transport Economics,运输经济学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.economics.transport_economics.congestion_pricing,Node;KNOWLEDGE_FIELD,HK.economics.transport_economics.congestion_pricing,Congestion Pricing,拥堵定价,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.economics.urban_economics,Node;KNOWLEDGE_FIELD,HK.economics.urban_economics,Urban Economics,城市经济学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
@@ -6111,6 +6139,7 @@ HK.philosophy.aesthetics.philosophy_of_beauty,Node;KNOWLEDGE_FIELD,HK.philosophy
 HK.philosophy.aesthetics.philosophy_of_film,Node;KNOWLEDGE_FIELD,HK.philosophy.aesthetics.philosophy_of_film,Philosophy of Film,电影哲学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.philosophy.aesthetics.philosophy_of_literature,Node;KNOWLEDGE_FIELD,HK.philosophy.aesthetics.philosophy_of_literature,Philosophy of Literature,文学哲学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.philosophy.aesthetics.philosophy_of_music,Node;KNOWLEDGE_FIELD,HK.philosophy.aesthetics.philosophy_of_music,Philosophy of Music,音乐哲学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.philosophy.decolonialism,Node;KNOWLEDGE_FIELD,HK.philosophy.decolonialism,Decolonial Thought,去殖民思想,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.philosophy.epistemology,Node;KNOWLEDGE_FIELD,HK.philosophy.epistemology,Epistemology,认识论,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.philosophy.epistemology.epistemology_of_testimony,Node;KNOWLEDGE_FIELD,HK.philosophy.epistemology.epistemology_of_testimony,Epistemology of Testimony,证言认识论,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.philosophy.epistemology.formal_epistemology,Node;KNOWLEDGE_FIELD,HK.philosophy.epistemology.formal_epistemology,Formal Epistemology,形式认识论,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
@@ -11240,6 +11269,7 @@ TECH.information_technology.cryptography.post_quantum_cryptography,Node;TECHNOLO
 TECH.information_technology.cryptography.public_key_infrastructure,Node;TECHNOLOGY,TECH.information_technology.cryptography.public_key_infrastructure,Public Key Infrastructure,公钥基础设施,TECHNOLOGY,TECHNOLOGIES,3
 TECH.information_technology.cryptography.symmetric_encryption,Node;TECHNOLOGY,TECH.information_technology.cryptography.symmetric_encryption,Symmetric Encryption,对称加密,TECHNOLOGY,TECHNOLOGIES,3
 TECH.information_technology.cryptography.zero_knowledge_proof,Node;TECHNOLOGY,TECH.information_technology.cryptography.zero_knowledge_proof,Zero-Knowledge Proof,零知识证明,TECHNOLOGY,TECHNOLOGIES,3
+TECH.information_technology.cuda,Node;TECHNOLOGY,TECH.information_technology.cuda,CUDA,CUDA,TECHNOLOGY,TECHNOLOGIES,2
 TECH.information_technology.cybersecurity,Node;TECHNOLOGY,TECH.information_technology.cybersecurity,Cybersecurity,网络安全,TECHNOLOGY,TECHNOLOGIES,2
 TECH.information_technology.cybersecurity.application_security,Node;TECHNOLOGY,TECH.information_technology.cybersecurity.application_security,Application Security,应用安全,TECHNOLOGY,TECHNOLOGIES,3
 TECH.information_technology.cybersecurity.endpoint_security,Node;TECHNOLOGY,TECH.information_technology.cybersecurity.endpoint_security,Endpoint Security,终端安全,TECHNOLOGY,TECHNOLOGIES,3
