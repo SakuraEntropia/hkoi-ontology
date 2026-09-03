@@ -1,0 +1,1052 @@
+[
+ {
+  "source": "HK.medicine.basic_medical_sciences.biochemistry",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pharmacology",
+  "relation": "USES",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.toxicology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.biochemistry.structural_biology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.genetics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.microbiology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.immunology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.physiology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.anatomy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.embryology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.biochemistry.molecular_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.biophysics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.biophysics.biomechanics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.anatomy.neuroanatomy",
+  "relation": "RELATED_TO",
+  "target": "HK.neuroscience"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.physiology.neurophysiology",
+  "relation": "RELATED_TO",
+  "target": "HK.neuroscience"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pharmacology.neuropharmacology",
+  "relation": "RELATED_TO",
+  "target": "HK.neuroscience"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.psychiatry",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.psychiatry",
+  "relation": "RELATED_TO",
+  "target": "HK.cognitive_science"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.neurology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.neuroscience"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.radiology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.medical_sociology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.medical_anthropology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.medical_ethics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.history"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.medical_law",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.medical_education",
+  "relation": "RELATED_TO",
+  "target": "HK.education"
+ },
+ {
+  "source": "HK.medicine.forensic_medicine",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.medicine.forensic_medicine",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.criminology"
+ },
+ {
+  "source": "HK.medicine.forensic_medicine.forensic_anthropology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.medicine.medical_informatics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "HK.medicine.medical_informatics.biomedical_informatics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.bioinformatics"
+ },
+ {
+  "source": "HK.medicine.medical_informatics.ai_in_medicine",
+  "relation": "USES",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.medicine.regenerative_medicine",
+  "relation": "USES",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "HK.medicine.regenerative_medicine.tissue_engineering",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "HK.medicine.nanomedicine",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "HK.medicine.precision_medicine.genomic_medicine",
+  "relation": "APPLICATION_OF",
+  "target": "HK.bioinformatics"
+ },
+ {
+  "source": "HK.public_health.biostatistics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.public_health.epidemiology",
+  "relation": "USES",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.public_health.health_policy_and_management.health_economics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.public_health.environmental_health",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "HK.public_health.environmental_health.radiation_health",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.public_health.health_education_and_promotion.health_behavior_theory",
+  "relation": "APPLICATION_OF",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.public_health.health_education_and_promotion.health_communication",
+  "relation": "USES",
+  "target": "HK.communication"
+ },
+ {
+  "source": "HK.nursing.nursing_education",
+  "relation": "RELATED_TO",
+  "target": "HK.education"
+ },
+ {
+  "source": "HK.nursing.nursing_informatics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "HK.dentistry.oral_biology.dental_materials_science",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "HK.pharmacy.pharmaceutics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.pharmacy.pharmaceutical_chemistry",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.pharmacy.pharmaceutical_analysis",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.pharmacy.nuclear_pharmacy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.pharmacy.pharmaceutical_biotechnology.biopharmaceuticals",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.pharmacy.industrial_pharmacy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "HK.pharmacy.social_and_administrative_pharmacy.pharmacoeconomics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.pharmacy.pharmaceutical_regulatory_science.pharmaceutical_law",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.veterinary_medicine.comparative_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_behavior",
+  "relation": "RELATED_TO",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.medicine.complementary_and_alternative_medicine.mind_body_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pathology.general_pathology.neoplasia",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pathology.general_pathology.inflammation",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.basic_medical_sciences.immunology.immunopathology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pathology.anatomical_pathology.histopathology",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.histology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pathology.clinical_pathology.clinical_chemistry",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.biochemistry"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pathology.clinical_pathology.hematopathology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.hematology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.physiology.pathophysiology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.basic_medical_sciences.pathology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pharmacology.psychopharmacology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.clinical_medicine.psychiatry"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pharmacology.ethnopharmacology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pharmacology.clinical_pharmacology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.pharmacy.clinical_pharmacy"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.pharmacology.pharmacogenomics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.genetics"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.immunology.tumor_immunology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology.cancer_immunotherapy"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.immunology.immunopathology.autoimmunity",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.rheumatology.autoimmune_disease"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.immunology.neuroimmunology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.neurology.demyelinating_disease"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.microbiology.clinical_microbiology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.infectious_diseases"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.microbiology.antimicrobial_resistance",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.infectious_diseases.antimicrobial_stewardship"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.parasitology.parasitic_diseases",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.tropical_medicine"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.genetics.cancer_genetics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.biophysics.radiobiology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.radiology.radiation_oncology"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.toxicology.forensic_toxicology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.forensic_medicine"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.toxicology.environmental_toxicology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health.environmental_health"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.physiology.exercise_physiology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.sports_medicine"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.nutrition.sports_nutrition",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.sports_medicine"
+ },
+ {
+  "source": "HK.medicine.basic_medical_sciences.nutrition",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health.public_health_nutrition"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.cardiology",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.physiology.cardiovascular_physiology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.cardiology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.pharmacology.cardiovascular_pharmacology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.pulmonology",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.physiology.respiratory_physiology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.nephrology",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.physiology.renal_physiology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.gastroenterology",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.physiology.gastrointestinal_physiology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.endocrinology",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.physiology.endocrine_physiology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.neurology",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.physiology.neurophysiology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.anesthesiology",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.pharmacology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.neurology.clinical_neurophysiology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.basic_medical_sciences.physiology.neurophysiology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.radiology.radiation_oncology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.radiology.interventional_radiology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.surgery.vascular_surgery"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.surgery.surgical_oncology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.surgery.pediatric_surgery",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.pediatrics"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.pediatrics.pediatric_cardiology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.cardiology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.pediatrics.pediatric_oncology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.pediatrics.neonatology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.obstetrics"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.maternal_fetal_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.obstetrics"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.reproductive_endocrinology_and_infertility",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.endocrinology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.gynecologic_oncology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.family_planning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health.maternal_and_child_health.reproductive_health"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.psychiatry.neuropsychiatry",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.neurology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.psychiatry.community_psychiatry",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.neurology.neuro_oncology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.dermatology.dermatopathology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.pathology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.ophthalmology.neuro_ophthalmology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.neurology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.otolaryngology.head_and_neck_surgery",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.otolaryngology.facial_plastic_and_reconstructive_surgery",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.surgery.plastic_surgery"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.emergency_medicine.wilderness_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.environmental_medicine"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.emergency_medicine.disaster_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health.public_health_emergency_preparedness"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.critical_care_medicine.neonatal_intensive_care",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.pediatrics.neonatology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.sleep_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.pulmonology"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.family_medicine.preventive_care",
+  "relation": "RELATED_TO",
+  "target": "HK.public_health.preventive_medicine"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.medical_genetics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.basic_medical_sciences.genetics"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.geriatrics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.nursing.gerontological_nursing"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.infectious_diseases.infection_prevention_and_control",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.anesthesiology.regional_anesthesia",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.pain_medicine.interventional_pain_management"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.critical_care_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.nursing.critical_care_nursing"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.emergency_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.nursing.emergency_nursing"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.psychiatry",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.nursing.psychiatric_mental_health_nursing"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.obstetrics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.nursing.midwifery"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.nursing.oncology_nursing"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.pediatrics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.nursing.pediatric_nursing"
+ },
+ {
+  "source": "HK.medicine.clinical_medicine.surgery",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.nursing.perioperative_nursing"
+ },
+ {
+  "source": "HK.public_health.biostatistics.clinical_trial_methodology",
+  "relation": "METHOD_OF",
+  "target": "HK.medicine.clinical_medicine.evidence_based_medicine"
+ },
+ {
+  "source": "HK.public_health.biostatistics.meta_analysis",
+  "relation": "METHOD_OF",
+  "target": "HK.medicine.clinical_medicine.evidence_based_medicine"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.traditional_chinese_medicine.chinese_herbal_medicine",
+  "relation": "USES",
+  "target": "HK.pharmacy.pharmacognosy"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.ayurveda.dravyaguna",
+  "relation": "RELATED_TO",
+  "target": "HK.pharmacy.pharmacognosy"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.traditional_korean_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine.traditional_chinese_medicine"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.kampo",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine.traditional_chinese_medicine"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.traditional_vietnamese_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine.traditional_chinese_medicine"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.tibetan_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine.ayurveda"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.siddha_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine.ayurveda"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.unani_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine.ayurveda"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.traditional_mongolian_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine.tibetan_medicine"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.traditional_chinese_medicine.acupuncture",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.pain_medicine"
+ },
+ {
+  "source": "HK.medicine.traditional_medicine.traditional_chinese_medicine.qigong_therapy",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.complementary_and_alternative_medicine.mind_body_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.islamic_golden_age_medicine",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.traditional_medicine.unani_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.galenic_medicine",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.traditional_medicine.unani_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.humoral_theory",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.basic_medical_sciences.pathology"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.miasma_theory",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.basic_medical_sciences.microbiology.germ_theory_of_disease"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.bloodletting",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.trepanation",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.clinical_medicine.surgery.neurosurgery"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.ancient_egyptian_medicine",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.mesopotamian_medicine",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.ancient_greek_medicine",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.hippocratic_medicine",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.medieval_medicine",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_humanities.history_of_medicine.renaissance_medicine",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.medicine.complementary_and_alternative_medicine.naturopathy",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.complementary_and_alternative_medicine.western_herbalism"
+ },
+ {
+  "source": "HK.medicine.complementary_and_alternative_medicine.chiropractic",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.rehabilitation_medicine"
+ },
+ {
+  "source": "HK.medicine.complementary_and_alternative_medicine.osteopathy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.rehabilitation_medicine"
+ },
+ {
+  "source": "HK.medicine.complementary_and_alternative_medicine.massage_therapy",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine.traditional_chinese_medicine.tui_na"
+ },
+ {
+  "source": "HK.medicine.forensic_medicine.forensic_pathology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.pathology"
+ },
+ {
+  "source": "HK.medicine.forensic_medicine.forensic_odontology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.dentistry"
+ },
+ {
+  "source": "HK.medicine.forensic_medicine.forensic_pathology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.basic_medical_sciences.pathology.anatomical_pathology.autopsy_pathology"
+ },
+ {
+  "source": "HK.medicine.regenerative_medicine.stem_cell_therapy",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.hematology.bone_marrow_transplantation"
+ },
+ {
+  "source": "HK.medicine.regenerative_medicine.gene_therapy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.genetics"
+ },
+ {
+  "source": "HK.medicine.regenerative_medicine.organoid_research",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.basic_medical_sciences.embryology"
+ },
+ {
+  "source": "HK.medicine.precision_medicine.companion_diagnostics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.pathology.molecular_pathology"
+ },
+ {
+  "source": "HK.medicine.precision_medicine.digital_biomarkers",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.medical_informatics.digital_health"
+ },
+ {
+  "source": "HK.medicine.nanomedicine.nanodrug_delivery",
+  "relation": "APPLICATION_OF",
+  "target": "HK.pharmacy.pharmaceutics.drug_delivery_systems"
+ },
+ {
+  "source": "HK.medicine.precision_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology.precision_oncology"
+ },
+ {
+  "source": "HK.medicine.translational_medicine.implementation_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "HK.medicine.medical_informatics.telemedicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.family_medicine"
+ },
+ {
+  "source": "HK.medicine.medical_informatics.digital_health",
+  "relation": "RELATED_TO",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "HK.medicine.medical_informatics.imaging_informatics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.clinical_medicine.radiology"
+ },
+ {
+  "source": "HK.public_health.epidemiology.infectious_disease_epidemiology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.infectious_diseases"
+ },
+ {
+  "source": "HK.public_health.epidemiology.chronic_disease_epidemiology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine"
+ },
+ {
+  "source": "HK.public_health.epidemiology.clinical_epidemiology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.clinical_medicine.evidence_based_medicine"
+ },
+ {
+  "source": "HK.public_health.epidemiology.pharmacoepidemiology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.pharmacology"
+ },
+ {
+  "source": "HK.public_health.biostatistics",
+  "relation": "METHOD_FOR",
+  "target": "HK.public_health.epidemiology"
+ },
+ {
+  "source": "HK.public_health.environmental_health.air_quality_and_health",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.pulmonology"
+ },
+ {
+  "source": "HK.public_health.occupational_health.occupational_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.public_health.global_health",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health.public_health_emergency_preparedness"
+ },
+ {
+  "source": "HK.public_health.maternal_and_child_health.maternal_health",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.obstetrics"
+ },
+ {
+  "source": "HK.public_health.maternal_and_child_health.child_health",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.pediatrics"
+ },
+ {
+  "source": "HK.public_health.preventive_medicine.immunization",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.immunology"
+ },
+ {
+  "source": "HK.public_health.preventive_medicine.health_screening",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.clinical_medicine.radiology.diagnostic_radiology"
+ },
+ {
+  "source": "HK.public_health.occupational_health",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health.environmental_health"
+ },
+ {
+  "source": "HK.public_health.epidemiology.environmental_epidemiology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health.environmental_health"
+ },
+ {
+  "source": "HK.public_health.epidemiology.occupational_epidemiology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health.occupational_health"
+ },
+ {
+  "source": "HK.public_health.health_policy_and_management.health_law",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.medical_humanities.medical_law"
+ },
+ {
+  "source": "HK.nursing.maternal_newborn_nursing",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.obstetrics_and_gynecology.obstetrics"
+ },
+ {
+  "source": "HK.nursing.community_health_nursing",
+  "relation": "RELATED_TO",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "HK.nursing.palliative_and_hospice_nursing",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.palliative_medicine"
+ },
+ {
+  "source": "HK.nursing.advanced_practice_nursing.nurse_anesthesia",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.anesthesiology"
+ },
+ {
+  "source": "HK.dentistry.oral_biology.oral_microbiology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.microbiology"
+ },
+ {
+  "source": "HK.dentistry.oral_and_maxillofacial_surgery",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine.surgery"
+ },
+ {
+  "source": "HK.dentistry.pediatric_dentistry",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.pediatrics"
+ },
+ {
+  "source": "HK.dentistry.dental_public_health",
+  "relation": "RELATED_TO",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "HK.dentistry.oral_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.dermatology"
+ },
+ {
+  "source": "HK.dentistry.geriatric_dentistry",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.geriatrics"
+ },
+ {
+  "source": "HK.dentistry.oral_biology.oral_pathology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.basic_medical_sciences.pathology"
+ },
+ {
+  "source": "HK.dentistry.dental_anesthesiology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.anesthesiology"
+ },
+ {
+  "source": "HK.pharmacy.clinical_pharmacy",
+  "relation": "USES",
+  "target": "HK.medicine.basic_medical_sciences.pharmacology"
+ },
+ {
+  "source": "HK.pharmacy.clinical_pharmacy.pharmacotherapy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.pharmacology"
+ },
+ {
+  "source": "HK.pharmacy.pharmacognosy",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.traditional_medicine"
+ },
+ {
+  "source": "HK.pharmacy.pharmacovigilance",
+  "relation": "RELATED_TO",
+  "target": "HK.public_health.epidemiology.pharmacoepidemiology"
+ },
+ {
+  "source": "HK.pharmacy.social_and_administrative_pharmacy.pharmacoeconomics",
+  "relation": "RELATED_TO",
+  "target": "HK.public_health.health_policy_and_management.health_economics"
+ },
+ {
+  "source": "HK.pharmacy.veterinary_pharmacy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.veterinary_medicine"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_public_health",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_public_health.zoonotic_disease",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.infectious_diseases"
+ },
+ {
+  "source": "HK.veterinary_medicine.comparative_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_pharmacology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.pharmacology"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_pathology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.pathology"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_epidemiology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.public_health.epidemiology"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_microbiology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.microbiology"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_nutrition",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine.basic_medical_sciences.nutrition"
+ },
+ {
+  "source": "HK.veterinary_medicine.laboratory_animal_medicine",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine"
+ },
+ {
+  "source": "HK.veterinary_medicine.veterinary_oncology",
+  "relation": "RELATED_TO",
+  "target": "HK.medicine.clinical_medicine.internal_medicine.medical_oncology"
+ }
+]

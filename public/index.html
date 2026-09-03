@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HK-OI · 人类知识—职业—产业 Ontology 浏览器</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="logo">HK-OI</span><span class="brand-sub">Human Knowledge · Occupation · Industry Ontology</span></div>
+  <div class="search-wrap">
+    <input id="search" type="text" placeholder="搜索节点 (英文 / 中文 / ID)…" autocomplete="off">
+    <div id="search-results" class="search-results hidden"></div>
+  </div>
+  <div class="top-actions">
+    <button id="btn-analytics" class="btn">📊 分析</button>
+  </div>
+</header>
+<div class="layout">
+  <aside id="sidebar">
+    <div class="sidebar-head">Universe <span id="node-count" class="muted"></span></div>
+    <div id="tree" class="tree"></div>
+  </aside>
+  <main id="main">
+    <div id="welcome" class="welcome">
+      <h1>HK-OI Ontology</h1>
+      <p>树 + 图 混合分类体系：人类知识 · 职业 · 社会角色 · 艺术文化 · 体育游戏 · 产业 · 产品服务 · 组织 · 技术 · 媒体 · 历史职业 · 新兴领域。</p>
+      <p class="muted">点击左侧 Universe 展开浏览，或在上方搜索。</p>
+      <div id="welcome-stats" class="welcome-stats"></div>
+    </div>
+    <div id="detail" class="detail hidden"></div>
+    <div id="analytics" class="analytics hidden"></div>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

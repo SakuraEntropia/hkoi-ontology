@@ -10,6 +10,8 @@
   "scripts": {
     "build": "node src/build.mjs",
     "report": "node src/report.mjs",
-    "query": "node src/query.mjs"
+    "query": "node src/query.mjs",
+    "ui": "node src/server.mjs",
+    "serve": "node src/server.mjs"
   }
 }
