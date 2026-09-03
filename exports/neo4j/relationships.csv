@@ -768,6 +768,7 @@ ART.design.interior_design,PROD.professional_services.architecture_and_design_se
 ART.design.interior_design,ART.architecture,RELATED_TO,RELATED_TO,explicit
 ART.design.interior_design.commercial_interior_design,ART.design.interior_design,SUBFORM_OF,SUBFORM_OF,parent
 ART.design.interior_design.residential_interior_design,ART.design.interior_design,SUBFORM_OF,SUBFORM_OF,parent
+ART.design.speculative_design,ART.design,SUBFORM_OF,SUBFORM_OF,parent
 ART.design.sustainable_design,ART.design,SUBFORM_OF,SUBFORM_OF,parent
 ART.design.type_design,ART.design,SUBFORM_OF,SUBFORM_OF,parent
 ART.design.type_design,ART.design.graphic_design.typography,RELATED_TO,RELATED_TO,explicit
@@ -8963,6 +8964,7 @@ HK.psychology.personality_psychology.trait_theory,HK.psychology.personality_psyc
 HK.psychology.personality_psychology.trait_theory.five_factor_model,HK.psychology.personality_psychology.trait_theory,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.psychology.positive_psychology,HK.psychology,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.psychology.positive_psychology.well_being,HK.psychology.positive_psychology,SUBFIELD_OF,SUBFIELD_OF,parent
+HK.psychology.psychoanalysis,HK.psychology,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.psychology.psychometrics,HK.psychology,SUBFIELD_OF,SUBFIELD_OF,parent
 HK.psychology.psychometrics,HK.statistics,USES,USES,explicit
 HK.psychology.psychometrics.classical_test_theory,HK.psychology.psychometrics,SUBFIELD_OF,SUBFIELD_OF,parent
@@ -13243,6 +13245,7 @@ SPORT.aquatic_sports.finswimming,SPORT.aquatic_sports,SUBSPORT_OF,SUBSPORT_OF,pa
 SPORT.aquatic_sports.lifesaving_sport,SPORT.aquatic_sports,SUBSPORT_OF,SUBSPORT_OF,parent
 SPORT.aquatic_sports.rowing,SPORT.aquatic_sports,SUBSPORT_OF,SUBSPORT_OF,parent
 SPORT.aquatic_sports.rowing.coastal_rowing,SPORT.aquatic_sports.rowing,SUBSPORT_OF,SUBSPORT_OF,parent
+SPORT.aquatic_sports.sailing,SPORT.aquatic_sports,SUBSPORT_OF,SUBSPORT_OF,parent
 SPORT.aquatic_sports.swimming,SPORT.aquatic_sports,SUBSPORT_OF,SUBSPORT_OF,parent
 SPORT.aquatic_sports.swimming.marathon_swimming,SPORT.aquatic_sports.swimming,SUBSPORT_OF,SUBSPORT_OF,parent
 SPORT.aquatic_sports.swimming.open_water_swimming,SPORT.aquatic_sports.swimming,SUBSPORT_OF,SUBSPORT_OF,parent
@@ -14336,6 +14339,7 @@ TECH.information_technology.computing.computer_hardware.processor_technology.gra
 TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit,TECH.information_technology.computing.computer_hardware.memory_technology.dynamic_random_access_memory,USES,USES,explicit
 TECH.information_technology.computing.computer_hardware.processor_technology.microcontroller,TECH.information_technology.computing.computer_hardware.processor_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.computing.computer_hardware.processor_technology.system_on_chip,TECH.information_technology.computing.computer_hardware.processor_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
+TECH.information_technology.computing.computer_hardware.processor_technology.tpu,TECH.information_technology.computing.computer_hardware.processor_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.computing.computer_hardware.storage_technology,TECH.information_technology.computing.computer_hardware,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.computing.computer_hardware.storage_technology.floppy_disk,TECH.information_technology.computing.computer_hardware.storage_technology,SUBTECHNOLOGY_OF,SUBTECHNOLOGY_OF,parent
 TECH.information_technology.computing.computer_hardware.storage_technology.floppy_disk,TECH.information_technology.computing.computer_hardware.storage_technology.solid_state_drive,HISTORICAL_SUCCESSOR,HISTORICAL_SUCCESSOR,explicit

@@ -768,6 +768,7 @@ ART.design.interior_design,OVERLAPS_WITH,PROD.professional_services.architecture
 ART.design.interior_design,RELATED_TO,ART.architecture,explicit
 ART.design.interior_design.commercial_interior_design,SUBFORM_OF,ART.design.interior_design,parent
 ART.design.interior_design.residential_interior_design,SUBFORM_OF,ART.design.interior_design,parent
+ART.design.speculative_design,SUBFORM_OF,ART.design,parent
 ART.design.sustainable_design,SUBFORM_OF,ART.design,parent
 ART.design.type_design,SUBFORM_OF,ART.design,parent
 ART.design.type_design,RELATED_TO,ART.design.graphic_design.typography,explicit
@@ -8963,6 +8964,7 @@ HK.psychology.personality_psychology.trait_theory,SUBFIELD_OF,HK.psychology.pers
 HK.psychology.personality_psychology.trait_theory.five_factor_model,SUBFIELD_OF,HK.psychology.personality_psychology.trait_theory,parent
 HK.psychology.positive_psychology,SUBFIELD_OF,HK.psychology,parent
 HK.psychology.positive_psychology.well_being,SUBFIELD_OF,HK.psychology.positive_psychology,parent
+HK.psychology.psychoanalysis,SUBFIELD_OF,HK.psychology,parent
 HK.psychology.psychometrics,SUBFIELD_OF,HK.psychology,parent
 HK.psychology.psychometrics,USES,HK.statistics,explicit
 HK.psychology.psychometrics.classical_test_theory,SUBFIELD_OF,HK.psychology.psychometrics,parent
@@ -13243,6 +13245,7 @@ SPORT.aquatic_sports.finswimming,SUBSPORT_OF,SPORT.aquatic_sports,parent
 SPORT.aquatic_sports.lifesaving_sport,SUBSPORT_OF,SPORT.aquatic_sports,parent
 SPORT.aquatic_sports.rowing,SUBSPORT_OF,SPORT.aquatic_sports,parent
 SPORT.aquatic_sports.rowing.coastal_rowing,SUBSPORT_OF,SPORT.aquatic_sports.rowing,parent
+SPORT.aquatic_sports.sailing,SUBSPORT_OF,SPORT.aquatic_sports,parent
 SPORT.aquatic_sports.swimming,SUBSPORT_OF,SPORT.aquatic_sports,parent
 SPORT.aquatic_sports.swimming.marathon_swimming,SUBSPORT_OF,SPORT.aquatic_sports.swimming,parent
 SPORT.aquatic_sports.swimming.open_water_swimming,SUBSPORT_OF,SPORT.aquatic_sports.swimming,parent
@@ -14336,6 +14339,7 @@ TECH.information_technology.computing.computer_hardware.processor_technology.gra
 TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit,USES,TECH.information_technology.computing.computer_hardware.memory_technology.dynamic_random_access_memory,explicit
 TECH.information_technology.computing.computer_hardware.processor_technology.microcontroller,SUBTECHNOLOGY_OF,TECH.information_technology.computing.computer_hardware.processor_technology,parent
 TECH.information_technology.computing.computer_hardware.processor_technology.system_on_chip,SUBTECHNOLOGY_OF,TECH.information_technology.computing.computer_hardware.processor_technology,parent
+TECH.information_technology.computing.computer_hardware.processor_technology.tpu,SUBTECHNOLOGY_OF,TECH.information_technology.computing.computer_hardware.processor_technology,parent
 TECH.information_technology.computing.computer_hardware.storage_technology,SUBTECHNOLOGY_OF,TECH.information_technology.computing.computer_hardware,parent
 TECH.information_technology.computing.computer_hardware.storage_technology.floppy_disk,SUBTECHNOLOGY_OF,TECH.information_technology.computing.computer_hardware.storage_technology,parent
 TECH.information_technology.computing.computer_hardware.storage_technology.floppy_disk,HISTORICAL_SUCCESSOR,TECH.information_technology.computing.computer_hardware.storage_technology.solid_state_drive,explicit

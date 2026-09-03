@@ -589,6 +589,7 @@ ART.design.industrial_design.transportation_design,Node;ART_FORM,ART.design.indu
 ART.design.interior_design,Node;ART_FORM,ART.design.interior_design,Interior Design,室内设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.design.interior_design.commercial_interior_design,Node;ART_FORM,ART.design.interior_design.commercial_interior_design,Commercial Interior Design,商业室内设计,ART_FORM,ARTS_AND_CULTURE,3
 ART.design.interior_design.residential_interior_design,Node;ART_FORM,ART.design.interior_design.residential_interior_design,Residential Interior Design,住宅室内设计,ART_FORM,ARTS_AND_CULTURE,3
+ART.design.speculative_design,Node;ART_FORM,ART.design.speculative_design,Speculative Design,思辨设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.design.sustainable_design,Node;ART_FORM,ART.design.sustainable_design,Sustainable Design,可持续设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.design.type_design,Node;ART_FORM,ART.design.type_design,Type Design,字体设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.design.universal_design,Node;ART_FORM,ART.design.universal_design,Universal Design,通用设计,ART_FORM,ARTS_AND_CULTURE,2
@@ -6684,6 +6685,7 @@ HK.psychology.personality_psychology.trait_theory,Node;KNOWLEDGE_FIELD,HK.psycho
 HK.psychology.personality_psychology.trait_theory.five_factor_model,Node;KNOWLEDGE_FIELD,HK.psychology.personality_psychology.trait_theory.five_factor_model,Five-Factor Model,大五人格模型,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,4
 HK.psychology.positive_psychology,Node;KNOWLEDGE_FIELD,HK.psychology.positive_psychology,Positive Psychology,积极心理学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.psychology.positive_psychology.well_being,Node;KNOWLEDGE_FIELD,HK.psychology.positive_psychology.well_being,Well-Being,幸福感,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.psychology.psychoanalysis,Node;KNOWLEDGE_FIELD,HK.psychology.psychoanalysis,Psychoanalysis,精神分析,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.psychology.psychometrics,Node;KNOWLEDGE_FIELD,HK.psychology.psychometrics,Psychometrics,心理测量学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.psychology.psychometrics.classical_test_theory,Node;KNOWLEDGE_FIELD,HK.psychology.psychometrics.classical_test_theory,Classical Test Theory,经典测量理论,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.psychology.psychometrics.factor_analysis,Node;METHODOLOGY,HK.psychology.psychometrics.factor_analysis,Factor Analysis,因素分析,METHODOLOGY,HUMAN_KNOWLEDGE,3
@@ -10321,6 +10323,7 @@ SPORT.aquatic_sports.finswimming,Node;SPORT,SPORT.aquatic_sports.finswimming,Fin
 SPORT.aquatic_sports.lifesaving_sport,Node;SPORT,SPORT.aquatic_sports.lifesaving_sport,Lifesaving Sport,救生运动,SPORT,SPORTS_AND_GAMES,2
 SPORT.aquatic_sports.rowing,Node;SPORT,SPORT.aquatic_sports.rowing,Rowing,赛艇,SPORT,SPORTS_AND_GAMES,2
 SPORT.aquatic_sports.rowing.coastal_rowing,Node;SPORT,SPORT.aquatic_sports.rowing.coastal_rowing,Coastal Rowing,,SPORT,SPORTS_AND_GAMES,3
+SPORT.aquatic_sports.sailing,Node;SPORT,SPORT.aquatic_sports.sailing,Sailing / Yachting,帆船运动,SPORT,SPORTS_AND_GAMES,2
 SPORT.aquatic_sports.swimming,Node;SPORT,SPORT.aquatic_sports.swimming,Swimming,游泳,SPORT,SPORTS_AND_GAMES,2
 SPORT.aquatic_sports.swimming.marathon_swimming,Node;SPORT,SPORT.aquatic_sports.swimming.marathon_swimming,Marathon Swimming,,SPORT,SPORTS_AND_GAMES,3
 SPORT.aquatic_sports.swimming.open_water_swimming,Node;SPORT,SPORT.aquatic_sports.swimming.open_water_swimming,Open Water Swimming,公开水域游泳,SPORT,SPORTS_AND_GAMES,3
@@ -11216,6 +11219,7 @@ TECH.information_technology.computing.computer_hardware.processor_technology.fie
 TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit,Node;TECHNOLOGY,TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit,Graphics Processing Unit,图形处理器,TECHNOLOGY,TECHNOLOGIES,5
 TECH.information_technology.computing.computer_hardware.processor_technology.microcontroller,Node;TECHNOLOGY,TECH.information_technology.computing.computer_hardware.processor_technology.microcontroller,Microcontroller,微控制器,TECHNOLOGY,TECHNOLOGIES,5
 TECH.information_technology.computing.computer_hardware.processor_technology.system_on_chip,Node;TECHNOLOGY,TECH.information_technology.computing.computer_hardware.processor_technology.system_on_chip,System on a Chip,片上系统,TECHNOLOGY,TECHNOLOGIES,5
+TECH.information_technology.computing.computer_hardware.processor_technology.tpu,Node;TECHNOLOGY,TECH.information_technology.computing.computer_hardware.processor_technology.tpu,Tensor Processing Unit (TPU),张量处理器,TECHNOLOGY,TECHNOLOGIES,5
 TECH.information_technology.computing.computer_hardware.storage_technology,Node;TECHNOLOGY,TECH.information_technology.computing.computer_hardware.storage_technology,Storage Technology,数据存储技术,TECHNOLOGY,TECHNOLOGIES,4
 TECH.information_technology.computing.computer_hardware.storage_technology.floppy_disk,Node;TECHNOLOGY,TECH.information_technology.computing.computer_hardware.storage_technology.floppy_disk,Floppy Disk,软盘,TECHNOLOGY,TECHNOLOGIES,5
 TECH.information_technology.computing.computer_hardware.storage_technology.hard_disk_drive,Node;TECHNOLOGY,TECH.information_technology.computing.computer_hardware.storage_technology.hard_disk_drive,Hard Disk Drive,硬盘驱动器,TECHNOLOGY,TECHNOLOGIES,5

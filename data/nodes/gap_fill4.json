@@ -1,0 +1,38 @@
+[
+ {
+  "id": "SPORT.aquatic_sports.sailing",
+  "name": "Sailing / Yachting",
+  "name_en": "Sailing / Yachting",
+  "type": "SPORT",
+  "parent": "SPORT.aquatic_sports",
+  "description": "Racing and cruising sailboats and yachts, from Olympic dinghy classes to offshore ocean racing and the America's Cup. One of the oldest organized sports; wind-powered seamanship.",
+  "name_zh": "帆船运动"
+ },
+ {
+  "id": "HK.psychology.psychoanalysis",
+  "name": "Psychoanalysis",
+  "name_en": "Psychoanalysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.psychology",
+  "description": "The therapeutic and theoretical tradition founded by Freud — unconscious drives, repression, transference, and the talking cure. Later schools: Jungian, Kleinian, Lacanian.",
+  "name_zh": "精神分析"
+ },
+ {
+  "id": "TECH.information_technology.computing.computer_hardware.processor_technology.tpu",
+  "name": "Tensor Processing Unit (TPU)",
+  "name_en": "Tensor Processing Unit (TPU)",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.information_technology.computing.computer_hardware.processor_technology",
+  "description": "Google's custom ASIC for neural-network inference and training, optimized for tensor/matrix operations. A key AI accelerator alongside GPUs.",
+  "name_zh": "张量处理器"
+ },
+ {
+  "id": "ART.design.speculative_design",
+  "name": "Speculative Design",
+  "name_en": "Speculative Design",
+  "type": "ART_FORM",
+  "parent": "ART.design",
+  "description": "Design that uses fictional scenarios and prototypes to question possible futures rather than solve immediate problems. Associated with Dunne & Raby's critical design.",
+  "name_zh": "思辨设计"
+ }
+]
