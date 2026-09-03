@@ -18,15 +18,6 @@
   "name_zh": "AI基础设施"
  },
  {
-  "id": "ind.information_technology.ai.mlops",
-  "name": "MLOps & Model Deployment",
-  "name_en": "MLOps & Model Deployment",
-  "type": "INDUSTRY",
-  "parent": "ind.information_technology.ai",
-  "description": "Operationalizing models: serving, monitoring, versioning, retraining, and evaluation. Turns trained models into reliable production systems.",
-  "name_zh": "MLOps与模型部署"
- },
- {
   "id": "ind.information_technology.ai.ai_applications",
   "name": "Applied AI Solutions",
   "name_en": "Applied AI Solutions",
@@ -144,15 +135,6 @@
   "name_zh": "主权财富基金"
  },
  {
-  "id": "ind.defense_space.defense.aerospace_defense",
-  "name": "Aerospace & Military Aircraft",
-  "name_en": "Aerospace & Military Aircraft",
-  "type": "INDUSTRY",
-  "parent": "ind.defense_space.defense",
-  "description": "Fighter jets, bombers, transport and tanker aircraft, and military helicopters. Long-cycle, platform-based, highly regulated.",
-  "name_zh": "军用航空"
- },
- {
   "id": "ind.defense_space.defense.land_systems",
   "name": "Land Systems",
   "name_en": "Land Systems",
@@ -180,15 +162,6 @@
   "name_zh": "导弹与导弹防御"
  },
  {
-  "id": "ind.defense_space.defense.c4isr",
-  "name": "C4ISR Systems",
-  "name_en": "C4ISR Systems",
-  "type": "INDUSTRY",
-  "parent": "ind.defense_space.defense",
-  "description": "Command, control, communications, computers, intelligence, surveillance, reconnaissance. Sensors, radars, and secure networks.",
-  "name_zh": "指挥控制情报系统"
- },
- {
   "id": "ind.defense_space.defense.defense_services",
   "name": "Defense Services & Logistics",
   "name_en": "Defense Services & Logistics",
@@ -207,33 +180,6 @@
   "name_zh": "发射服务"
  },
  {
-  "id": "ind.defense_space.space.satellite_manufacturing",
-  "name": "Satellite Manufacturing",
-  "name_en": "Satellite Manufacturing",
-  "type": "INDUSTRY",
-  "parent": "ind.defense_space.space",
-  "description": "Building satellites and constellations: buses, payloads, and subsystems. Shift toward mass production of smallsats.",
-  "name_zh": "卫星制造"
- },
- {
-  "id": "ind.defense_space.space.satellite_operations",
-  "name": "Satellite Operations",
-  "name_en": "Satellite Operations",
-  "type": "INDUSTRY",
-  "parent": "ind.defense_space.space",
-  "description": "Operating constellations and selling capacity: communications, broadband, and Earth-observation data.",
-  "name_zh": "卫星运营"
- },
- {
-  "id": "ind.defense_space.space.ground_segment",
-  "name": "Ground Segment",
-  "name_en": "Ground Segment",
-  "type": "INDUSTRY",
-  "parent": "ind.defense_space.space",
-  "description": "Ground stations, antennas, and mission control that track and command spacecraft.",
-  "name_zh": "地面段"
- },
- {
   "id": "ind.defense_space.space.space_services",
   "name": "Space Services & In-Orbit",
   "name_en": "Space Services & In-Orbit",
@@ -241,15 +187,6 @@
   "parent": "ind.defense_space.space",
   "description": "In-orbit servicing, refueling, debris removal, and on-orbit manufacturing. Nascent but growing.",
   "name_zh": "太空服务"
- },
- {
-  "id": "ind.defense_space.space.space_tourism",
-  "name": "Space Tourism",
-  "name_en": "Space Tourism",
-  "type": "INDUSTRY",
-  "parent": "ind.defense_space.space",
-  "description": "Suborbital and orbital passenger flights, and commercial space stations. Small ultra-high-net-worth market.",
-  "name_zh": "太空旅游"
  },
  {
   "id": "ind.hospitality_tourism.restaurants",
