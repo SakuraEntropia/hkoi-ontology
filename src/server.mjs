@@ -108,6 +108,7 @@ function api(path, query) {
         participation_modes: node.participation_modes ? safeJson(node.participation_modes) : [],
         temporal: node.temporal ? safeJson(node.temporal) : null,
         status: node.status ?? null,
+        scale: node.scale ?? null,
         hist: node.hist ? safeJson(node.hist) : null,
       },
       children, ancestors,

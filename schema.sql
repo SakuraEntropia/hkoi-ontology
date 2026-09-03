@@ -20,6 +20,7 @@ CREATE TABLE IF NOT EXISTS nodes (
   temporal     TEXT,          -- JSON object {valid_from,valid_until,peak_period,geographic_scope,historical_status}
   status       TEXT,          -- EXTINCT|TRANSFORMED|REGIONALLY_SURVIVING|REVIVED|HISTORICAL_ONLY
   hist         TEXT,          -- JSON {civilization,social_role,functions,skills,technologies,institutions}
+  scale        TEXT,          -- minimal|small|medium|large|huge|massive|enormous
   source      TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_nodes_parent   ON nodes(parent);

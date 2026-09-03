@@ -7,6 +7,7 @@ const NODES_DIR = join(DATA, "nodes");
 const REL_DIR = join(DATA, "relations");
 const METRICS_DIR = join(DATA, "metrics");
 const TEMPORAL_DIR = join(DATA, "temporal");
+const SCALE_DIR = join(DATA, "scale.json");
 const OUT_DIR = "exports";
 
 const NODE_TYPES = new Set([
@@ -98,6 +99,10 @@ for (const f of walk(TEMPORAL_DIR)) {
   else { for (const [id, t] of Object.entries(data)) temporals.set(id, t); }
 }
 
+// ---- load scale ----
+const scaleMap = new Map();
+{ const p = join(DATA, "scale.json"); if (statSync(p, { throwIfNoEntry: false })?.isFile()) { const d = readJson(p); for (const [id, sc] of Object.entries(d)) scaleMap.set(id, sc); } }
+
 // ---- load relations ----
 const explicitRelations = [];
 for (const f of walk(REL_DIR)) {
@@ -122,6 +127,16 @@ function levelOf(id) {
   const lv = levelOf(n.parent) + 1; levelCache.set(id, lv); return lv;
 }
 
+const scaleCache = new Map();
+function scaleOf(id) {
+  if (scaleCache.has(id)) return scaleCache.get(id);
+  const n = byId(id); if (!n) { scaleCache.set(id, null); return null; }
+  const ex = n.scale ?? scaleMap.get(id);
+  if (ex) { scaleCache.set(id, ex); return ex; }
+  if (!n.parent) { scaleCache.set(id, null); return null; }
+  const s = scaleOf(n.parent); scaleCache.set(id, s); return s;
+}
+
 const normalized = [];
 for (const [id, n] of nodes) {
   if (!NODE_TYPES.has(n.type)) errors.push(`${id}: unknown type "${n.type}"`);
@@ -141,7 +156,7 @@ for (const [id, n] of nodes) {
     type: n.type, parent: n.parent ?? null, level: levelOf(id), universe: univ,
     description: n.description ?? null, aliases: n.aliases ?? [], examples: n.examples ?? [],
     historical: !!n.historical, global: n.global !== false,
-    metrics: m, participation_modes: n.participation_modes ?? [], temporal: n.temporal ?? temporals.get(id) ?? null, status: n.status ?? null,
+    metrics: m, participation_modes: n.participation_modes ?? [], temporal: n.temporal ?? temporals.get(id) ?? null, status: n.status ?? null, scale: scaleOf(id),
     hist: n.hist ?? (n.civilization || n.social_role || n.functions || n.skills || n.technologies || n.institutions
       ? { civilization: n.civilization ?? null, social_role: n.social_role ?? null, functions: n.functions ?? [], skills: n.skills ?? [], technologies: n.technologies ?? [], institutions: n.institutions ?? [] } : null),
     source: n.source ?? null,
@@ -191,13 +206,13 @@ const { DatabaseSync } = await import("node:sqlite");
 const db = new DatabaseSync(dbTmp);
 db.exec(schema);
 const insNode = db.prepare(`INSERT OR REPLACE INTO nodes
-  (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,participation_modes,temporal,status,hist,source)
-  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+  (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,participation_modes,temporal,status,hist,scale,source)
+  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
 const insRel = db.prepare(`INSERT INTO relations (source,relation,target,kind) VALUES (?,?,?,?)`);
 db.exec("BEGIN");
 for (const n of normalized) insNode.run(n.id, n.name, n.name_en, n.name_zh, n.type, n.parent, n.level, n.universe,
   n.description, JSON.stringify(n.aliases), JSON.stringify(n.examples), n.historical?1:0, n.global?1:0,
-  n.metrics ? JSON.stringify(n.metrics) : null, JSON.stringify(n.participation_modes ?? []), n.temporal ? JSON.stringify(n.temporal) : null, n.status ?? null, n.hist ? JSON.stringify(n.hist) : null, n.source);
+  n.metrics ? JSON.stringify(n.metrics) : null, JSON.stringify(n.participation_modes ?? []), n.temporal ? JSON.stringify(n.temporal) : null, n.status ?? null, n.hist ? JSON.stringify(n.hist) : null, n.scale ?? null, n.source);
 for (const r of allRelations) insRel.run(r.source, r.relation, r.target, r.kind);
 db.exec("COMMIT");
 db.exec(`INSERT OR REPLACE INTO meta VALUES ('generated_at', '${new Date().toISOString()}')`);

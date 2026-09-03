@@ -90,6 +90,7 @@ function renderDetail(data) {
   let badges = '<span class="badge type">'+n.type+'</span><span class="badge">'+esc(n.universe)+'</span><span class="badge">L'+n.level+'</span>';
   if (n.historical) badges += '<span class="badge hist">历史</span>';
   if (n.status) badges += '<span class="badge hist">'+(STATUS_ZH2[n.status]||n.status)+'</span>';
+  if (n.scale) badges += '<span class="badge" style="color:var(--accent2);border-color:var(--accent2)">规模 '+(SCALE_ZH[n.scale]||n.scale)+'</span>';
   if (!n.global) badges += '<span class="badge regional">地域性</span>';
   let html = '<div class="breadcrumb">'+(bc?bc+' / ':"")+'<span>'+esc(n.name)+'</span></div>';
   html += '<h1 class="node-title">'+esc(n.name)+'</h1>';
@@ -111,6 +112,7 @@ function renderDetail(data) {
   $("#detail").querySelectorAll(".breadcrumb a[data-id]").forEach(a=>a.addEventListener("click",()=>selectNode(a.dataset.id)));
   renderTab(data);
 }
+const SCALE_ZH = { minimal:"极小", small:"较小", medium:"中等", large:"较大", huge:"巨大", massive:"次极大", enormous:"极大" };
 const STATUS_ZH2 = { EXTINCT:"已灭绝", TRANSFORMED:"已演变", REGIONALLY_SURVIVING:"局部存续", REVIVED:"复兴", HISTORICAL_ONLY:"仅历史" };
 function renderHist(h){ if(!h) return ""; const bits=[]; if(h.civilization) bits.push('<span class="muted">文明：</span>'+esc(h.civilization)); if(h.social_role) bits.push('<span class="muted">社会角色：</span>'+esc(h.social_role)); if(h.functions&&h.functions.length) bits.push('<span class="muted">职能：</span>'+h.functions.map(x=>'<span class="chip">'+esc(x)+'</span>').join("")); if(h.skills&&h.skills.length) bits.push('<span class="muted">技能：</span>'+h.skills.map(x=>'<span class="chip">'+esc(x)+'</span>').join("")); if(h.technologies&&h.technologies.length) bits.push('<span class="muted">技术：</span>'+h.technologies.map(x=>'<span class="chip">'+esc(x)+'</span>').join("")); if(h.institutions&&h.institutions.length) bits.push('<span class="muted">制度：</span>'+h.institutions.map(x=>'<span class="chip">'+esc(x)+'</span>').join("")); return '<div style="margin-top:6px">'+bits.join(" &nbsp; ")+'</div>'; }
 const MODE_ZH = { professional:"职业实践", amateur:"业余实践", recreational:"娱乐参与", spectator:"观众参与", community:"社群参与" };
