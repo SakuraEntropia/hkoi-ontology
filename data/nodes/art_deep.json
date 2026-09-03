@@ -1,0 +1,344 @@
+[
+ {
+  "id": "ART.animation.3d_animation.modeling",
+  "name": "3D Modeling",
+  "name_en": "3D Modeling",
+  "type": "ART_FORM",
+  "parent": "ART.animation.3d_animation",
+  "description": "Sculpting and constructing digital surfaces — polygon meshes, NURBS, and subdivision surfaces — that form characters, props, and environments. The geometric foundation of the 3D pipeline.",
+  "name_zh": "三维建模"
+ },
+ {
+  "id": "ART.animation.3d_animation.texturing",
+  "name": "Texturing & Shading",
+  "name_en": "Texturing & Shading",
+  "type": "ART_FORM",
+  "parent": "ART.animation.3d_animation",
+  "description": "Painting surface detail — color, roughness, bump, displacement — and defining material responses to light via UV mapping and procedural shaders.",
+  "name_zh": "贴图与着色"
+ },
+ {
+  "id": "ART.animation.3d_animation.rigging",
+  "name": "Rigging",
+  "name_en": "Rigging",
+  "type": "ART_FORM",
+  "parent": "ART.animation.3d_animation",
+  "description": "Building the digital skeleton and control systems (joints, IK/FK, blendshapes) that let animators pose characters and creatures.",
+  "name_zh": "绑定"
+ },
+ {
+  "id": "ART.animation.3d_animation.lighting",
+  "name": "3D Lighting",
+  "name_en": "3D Lighting",
+  "type": "ART_FORM",
+  "parent": "ART.animation.3d_animation",
+  "description": "Placing and tuning virtual lights — key, fill, rim, HDRI image-based lighting — to define mood, depth, and realism in a scene.",
+  "name_zh": "三维布光"
+ },
+ {
+  "id": "ART.animation.3d_animation.rendering",
+  "name": "Rendering",
+  "name_en": "Rendering",
+  "type": "ART_FORM",
+  "parent": "ART.animation.3d_animation",
+  "description": "Converting 3D scenes to final images: offline ray tracing and path tracing for film, real-time rasterization for games and virtual production.",
+  "name_zh": "渲染"
+ },
+ {
+  "id": "ART.animation.3d_animation.simulation",
+  "name": "Dynamics & Simulation",
+  "name_en": "Dynamics & Simulation",
+  "type": "ART_FORM",
+  "parent": "ART.animation.3d_animation",
+  "description": "Physically based animation of cloth, hair, fluids, particles, and destruction using solvers rather than manual keyframing.",
+  "name_zh": "动力学模拟"
+ },
+ {
+  "id": "ART.animation.visual_effects.motion_tracking",
+  "name": "Motion Tracking",
+  "name_en": "Motion Tracking",
+  "type": "ART_FORM",
+  "parent": "ART.animation.visual_effects",
+  "description": "Recovering the 3D camera movement from live-action footage so CG elements can be inserted with matching perspective.",
+  "name_zh": "运动跟踪"
+ },
+ {
+  "id": "ART.animation.visual_effects.match_moving",
+  "name": "Match Moving",
+  "name_en": "Match Moving",
+  "type": "ART_FORM",
+  "parent": "ART.animation.visual_effects",
+  "description": "Aligning virtual cameras and geometry to real footage frame-by-frame for seamless CG/live-action integration.",
+  "name_zh": "匹配移动"
+ },
+ {
+  "id": "ART.animation.visual_effects.cg_integration",
+  "name": "CG Integration",
+  "name_en": "CG Integration",
+  "type": "ART_FORM",
+  "parent": "ART.animation.visual_effects",
+  "description": "Merging rendered CG elements into live-action plates with consistent lighting, shadows, and lens characteristics.",
+  "name_zh": "CG合成"
+ },
+ {
+  "id": "ART.animation.visual_effects.particle_effects",
+  "name": "Particle Effects",
+  "name_en": "Particle Effects",
+  "type": "ART_FORM",
+  "parent": "ART.animation.visual_effects",
+  "description": "Simulating dust, smoke, sparks, water, and debris with particle systems for explosions and environmental effects.",
+  "name_zh": "粒子特效"
+ },
+ {
+  "id": "ART.animation.visual_effects.crowd_simulation",
+  "name": "Crowd Simulation",
+  "name_en": "Crowd Simulation",
+  "type": "ART_FORM",
+  "parent": "ART.animation.visual_effects",
+  "description": "Generating large-scale crowds and armies procedurally via agent-based simulation, used for battles and stadium scenes.",
+  "name_zh": "群集模拟"
+ },
+ {
+  "id": "ART.animation.visual_effects.set_extension",
+  "name": "Set Extension",
+  "name_en": "Set Extension",
+  "type": "ART_FORM",
+  "parent": "ART.animation.visual_effects",
+  "description": "Digitally extending practical sets and matte paintings into vast environments — cities, landscapes, historical reconstructions.",
+  "name_zh": "场景扩展"
+ },
+ {
+  "id": "ART.animation.animation_director",
+  "name": "Animation Director",
+  "name_en": "Animation Director",
+  "type": "ART_FORM",
+  "parent": "ART.animation",
+  "description": "Leads the creative vision of an animated production, guiding story, performance, and visual style across the pipeline.",
+  "name_zh": "动画导演"
+ },
+ {
+  "id": "ART.animation.storyboard_artist",
+  "name": "Storyboard Artist",
+  "name_en": "Storyboard Artist",
+  "type": "ART_FORM",
+  "parent": "ART.animation",
+  "description": "Draws the pre-visualization of shots — camera, staging, timing — that becomes the blueprint for animation.",
+  "name_zh": "分镜师"
+ },
+ {
+  "id": "ART.animation.layout_artist",
+  "name": "Layout Artist",
+  "name_en": "Layout Artist",
+  "type": "ART_FORM",
+  "parent": "ART.animation",
+  "description": "Establishes shot composition, camera moves, and staging before animation begins.",
+  "name_zh": "构图师"
+ },
+ {
+  "id": "ART.animation.key_animator",
+  "name": "Key Animator",
+  "name_en": "Key Animator",
+  "type": "ART_FORM",
+  "parent": "ART.animation",
+  "description": "Draws or poses the defining keyframes of a character's movement, defining timing and performance.",
+  "name_zh": "原画师"
+ },
+ {
+  "id": "ART.animation.inbetween_artist",
+  "name": "Inbetween Artist",
+  "name_en": "Inbetween Artist",
+  "type": "ART_FORM",
+  "parent": "ART.animation",
+  "description": "Draws the intermediate frames between keyframes to create smooth motion — the bulk of traditional 2D animation labor.",
+  "name_zh": "中间画师"
+ },
+ {
+  "id": "ART.animation.background_artist",
+  "name": "Background Artist",
+  "name_en": "Background Artist",
+  "type": "ART_FORM",
+  "parent": "ART.animation",
+  "description": "Paints the environments and backdrops behind animated characters, establishing world and atmosphere.",
+  "name_zh": "背景画师"
+ },
+ {
+  "id": "ART.animation.animation_producer",
+  "name": "Animation Producer",
+  "name_en": "Animation Producer",
+  "type": "ART_FORM",
+  "parent": "ART.animation",
+  "description": "Manages budget, schedule, and crew of an animation production, coordinating studios and delivery.",
+  "name_zh": "动画制片"
+ },
+ {
+  "id": "ART.architecture.architectural_drawing",
+  "name": "Architectural Drawing",
+  "name_en": "Architectural Drawing",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "The graphic language of design — plans, sections, elevations, and perspectives — through which buildings are conceived and communicated.",
+  "name_zh": "建筑制图"
+ },
+ {
+  "id": "ART.architecture.architectural_drawing.floor_plans",
+  "name": "Floor Plans",
+  "name_en": "Floor Plans",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_drawing",
+  "description": "Two-dimensional horizontal cuts showing room layout, circulation, and spatial relationships.",
+  "name_zh": "平面图"
+ },
+ {
+  "id": "ART.architecture.architectural_drawing.sections",
+  "name": "Sections",
+  "name_en": "Sections",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_drawing",
+  "description": "Vertical cuts through a building revealing structure, floor levels, and spatial sequence.",
+  "name_zh": "剖面图"
+ },
+ {
+  "id": "ART.architecture.architectural_drawing.elevations",
+  "name": "Elevations",
+  "name_en": "Elevations",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_drawing",
+  "description": "Orthographic views of a building's facades showing proportion, materials, and openings.",
+  "name_zh": "立面图"
+ },
+ {
+  "id": "ART.architecture.architectural_drawing.perspective_rendering",
+  "name": "Perspective Rendering",
+  "name_en": "Perspective Rendering",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_drawing",
+  "description": "Three-dimensional representations conveying how a design will appear to the eye.",
+  "name_zh": "透视图"
+ },
+ {
+  "id": "ART.architecture.architectural_drawing.physical_modeling",
+  "name": "Physical Modeling",
+  "name_en": "Physical Modeling",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_drawing",
+  "description": "Scaled three-dimensional models in wood, cardboard, or 3D printing for design study and presentation.",
+  "name_zh": "实体模型"
+ },
+ {
+  "id": "ART.architecture.architectural_elements",
+  "name": "Architectural Elements",
+  "name_en": "Architectural Elements",
+  "type": "ART_FORM",
+  "parent": "ART.architecture",
+  "description": "The constituent parts of buildings — columns, arches, vaults, domes, facades, and ornament — that define architectural language.",
+  "name_zh": "建筑构件"
+ },
+ {
+  "id": "ART.architecture.architectural_elements.column_orders",
+  "name": "Column Orders",
+  "name_en": "Column Orders",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_elements",
+  "description": "The classical systems of columns — Doric, Ionic, Corinthian, and Tuscan — governing proportion and decoration.",
+  "name_zh": "柱式"
+ },
+ {
+  "id": "ART.architecture.architectural_elements.arch_and_vault",
+  "name": "Arch & Vault",
+  "name_en": "Arch & Vault",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_elements",
+  "description": "Curved structural forms — barrel, groin, rib — that span openings and define Romanesque and Gothic space.",
+  "name_zh": "拱与拱顶"
+ },
+ {
+  "id": "ART.architecture.architectural_elements.dome",
+  "name": "Dome",
+  "name_en": "Dome",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_elements",
+  "description": "Hemispherical roofing structures, from the Pantheon to Islamic and Byzantine domes, symbolizing cosmic order.",
+  "name_zh": "穹顶"
+ },
+ {
+  "id": "ART.architecture.architectural_elements.facade_composition",
+  "name": "Facade Composition",
+  "name_en": "Facade Composition",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_elements",
+  "description": "The ordering of a building's exterior — rhythm, proportion, fenestration, and hierarchy.",
+  "name_zh": "立面构成"
+ },
+ {
+  "id": "ART.architecture.architectural_elements.ornamentation",
+  "name": "Ornamentation",
+  "name_en": "Ornamentation",
+  "type": "ART_FORM",
+  "parent": "ART.architecture.architectural_elements",
+  "description": "Decorative detailing — moldings, friezes, tracery, and sculpture — that carries cultural and symbolic meaning.",
+  "name_zh": "装饰"
+ },
+ {
+  "id": "ART.design.graphic_design.branding_design",
+  "name": "Branding & Identity",
+  "name_en": "Branding & Identity",
+  "type": "ART_FORM",
+  "parent": "ART.design.graphic_design",
+  "description": "Creating visual identity systems — logos, color, typography — that define an organization's public face.",
+  "name_zh": "品牌设计"
+ },
+ {
+  "id": "ART.design.graphic_design.typography",
+  "name": "Typography",
+  "name_en": "Typography",
+  "type": "ART_FORM",
+  "parent": "ART.design.graphic_design",
+  "description": "The art of designing and arranging letterforms for legibility, tone, and expression.",
+  "name_zh": "字体设计"
+ },
+ {
+  "id": "ART.design.graphic_design.packaging_design",
+  "name": "Packaging Design",
+  "name_en": "Packaging Design",
+  "type": "ART_FORM",
+  "parent": "ART.design.graphic_design",
+  "description": "Designing containers and labels that protect products and communicate brand at the point of sale.",
+  "name_zh": "包装设计"
+ },
+ {
+  "id": "ART.design.graphic_design.editorial_design",
+  "name": "Editorial Design",
+  "name_en": "Editorial Design",
+  "type": "ART_FORM",
+  "parent": "ART.design.graphic_design",
+  "description": "Layout of books, magazines, and digital publications — grids, hierarchy, and image-text relationships.",
+  "name_zh": "版式设计"
+ },
+ {
+  "id": "ART.fashion.haute_couture",
+  "name": "Haute Couture",
+  "name_en": "Haute Couture",
+  "type": "ART_FORM",
+  "parent": "ART.fashion",
+  "description": "Made-to-measure, hand-finished fashion at the highest craft level, governed by the Chambre Syndicale in Paris.",
+  "name_zh": "高级定制"
+ },
+ {
+  "id": "ART.fashion.ready_to_wear",
+  "name": "Ready-to-Wear",
+  "name_en": "Ready-to-Wear",
+  "type": "ART_FORM",
+  "parent": "ART.fashion",
+  "description": "Factory-produced designer clothing in standard sizes — the commercial core of the fashion industry.",
+  "name_zh": "成衣"
+ },
+ {
+  "id": "ART.fashion.textile_design",
+  "name": "Textile Design",
+  "name_en": "Textile Design",
+  "type": "ART_FORM",
+  "parent": "ART.fashion",
+  "description": "Designing woven, knitted, and printed fabrics — patterns, fibers, and surface treatments for fashion and interiors.",
+  "name_zh": "面料设计"
+ }
+]

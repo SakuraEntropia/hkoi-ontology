@@ -389,9 +389,17 @@ ART.animation.2d_animation.traditional_animation.full_animation,Node;ART_TECHNIQ
 ART.animation.3d_animation,Node;ART_TECHNIQUE,ART.animation.3d_animation,3D Animation,三维动画,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.animation.3d_animation.cgi,Node;TECHNOLOGY,ART.animation.3d_animation.cgi,Computer-Generated Imagery,计算机生成图像,TECHNOLOGY,ARTS_AND_CULTURE,3
 ART.animation.3d_animation.computer_animation,Node;ART_TECHNIQUE,ART.animation.3d_animation.computer_animation,Computer Animation,计算机动画,ART_TECHNIQUE,ARTS_AND_CULTURE,3
+ART.animation.3d_animation.lighting,Node;ART_FORM,ART.animation.3d_animation.lighting,3D Lighting,三维布光,ART_FORM,ARTS_AND_CULTURE,3
+ART.animation.3d_animation.modeling,Node;ART_FORM,ART.animation.3d_animation.modeling,3D Modeling,三维建模,ART_FORM,ARTS_AND_CULTURE,3
 ART.animation.3d_animation.motion_capture,Node;TECHNOLOGY,ART.animation.3d_animation.motion_capture,Motion Capture,动作捕捉,TECHNOLOGY,ARTS_AND_CULTURE,3
+ART.animation.3d_animation.rendering,Node;ART_FORM,ART.animation.3d_animation.rendering,Rendering,渲染,ART_FORM,ARTS_AND_CULTURE,3
+ART.animation.3d_animation.rigging,Node;ART_FORM,ART.animation.3d_animation.rigging,Rigging,绑定,ART_FORM,ARTS_AND_CULTURE,3
+ART.animation.3d_animation.simulation,Node;ART_FORM,ART.animation.3d_animation.simulation,Dynamics & Simulation,动力学模拟,ART_FORM,ARTS_AND_CULTURE,3
+ART.animation.3d_animation.texturing,Node;ART_FORM,ART.animation.3d_animation.texturing,Texturing & Shading,贴图与着色,ART_FORM,ARTS_AND_CULTURE,3
 ART.animation.adult_animation,Node;ART_GENRE,ART.animation.adult_animation,Adult Animation,成人动画,ART_GENRE,ARTS_AND_CULTURE,2
+ART.animation.animation_director,Node;ART_FORM,ART.animation.animation_director,Animation Director,动画导演,ART_FORM,ARTS_AND_CULTURE,2
 ART.animation.animation_film,Node;ART_GENRE,ART.animation.animation_film,Animated Feature Film,动画长片,ART_GENRE,ARTS_AND_CULTURE,2
+ART.animation.animation_producer,Node;ART_FORM,ART.animation.animation_producer,Animation Producer,动画制片,ART_FORM,ARTS_AND_CULTURE,2
 ART.animation.anime,Node;ART_GENRE,ART.animation.anime,Anime,日本动画,ART_GENRE,ARTS_AND_CULTURE,2
 ART.animation.anime.isekai_anime,Node;ART_GENRE,ART.animation.anime.isekai_anime,Isekai Anime,异世界动画,ART_GENRE,ARTS_AND_CULTURE,3
 ART.animation.anime.magical_girl_anime,Node;ART_GENRE,ART.animation.anime.magical_girl_anime,Magical Girl Anime,魔法少女动画,ART_GENRE,ARTS_AND_CULTURE,3
@@ -400,26 +408,49 @@ ART.animation.anime.seinen_anime,Node;ART_GENRE,ART.animation.anime.seinen_anime
 ART.animation.anime.shojo_anime,Node;ART_GENRE,ART.animation.anime.shojo_anime,Shojo Anime,少女动画,ART_GENRE,ARTS_AND_CULTURE,3
 ART.animation.anime.shonen_anime,Node;ART_GENRE,ART.animation.anime.shonen_anime,Shonen Anime,少年动画,ART_GENRE,ARTS_AND_CULTURE,3
 ART.animation.anime.slice_of_life_anime,Node;ART_GENRE,ART.animation.anime.slice_of_life_anime,Slice-of-Life Anime,日常动画,ART_GENRE,ARTS_AND_CULTURE,3
+ART.animation.background_artist,Node;ART_FORM,ART.animation.background_artist,Background Artist,背景画师,ART_FORM,ARTS_AND_CULTURE,2
 ART.animation.character_animation,Node;ART_TECHNIQUE,ART.animation.character_animation,Character Animation,角色动画,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.animation.effects_animation,Node;ART_TECHNIQUE,ART.animation.effects_animation,Effects Animation,特效动画,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.animation.experimental_animation,Node;ART_GENRE,ART.animation.experimental_animation,Experimental Animation,实验动画,ART_GENRE,ARTS_AND_CULTURE,2
 ART.animation.experimental_animation.paint_on_glass,Node;ART_TECHNIQUE,ART.animation.experimental_animation.paint_on_glass,Paint-on-Glass Animation,玻璃彩绘动画,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.animation.experimental_animation.pinscreen_animation,Node;ART_TECHNIQUE,ART.animation.experimental_animation.pinscreen_animation,Pinscreen Animation,针幕动画,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.animation.experimental_animation.sand_animation,Node;ART_TECHNIQUE,ART.animation.experimental_animation.sand_animation,Sand Animation,沙动画,ART_TECHNIQUE,ARTS_AND_CULTURE,3
+ART.animation.inbetween_artist,Node;ART_FORM,ART.animation.inbetween_artist,Inbetween Artist,中间画师,ART_FORM,ARTS_AND_CULTURE,2
+ART.animation.key_animator,Node;ART_FORM,ART.animation.key_animator,Key Animator,原画师,ART_FORM,ARTS_AND_CULTURE,2
+ART.animation.layout_artist,Node;ART_FORM,ART.animation.layout_artist,Layout Artist,构图师,ART_FORM,ARTS_AND_CULTURE,2
 ART.animation.motion_graphics,Node;ART_TECHNIQUE,ART.animation.motion_graphics,Motion Graphics,动态图形,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.animation.stop_motion,Node;ART_TECHNIQUE,ART.animation.stop_motion,Stop Motion,定格动画,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.animation.stop_motion.claymation,Node;ART_TECHNIQUE,ART.animation.stop_motion.claymation,Claymation,黏土动画,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.animation.stop_motion.object_animation,Node;ART_TECHNIQUE,ART.animation.stop_motion.object_animation,Object Animation,实物动画,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.animation.stop_motion.pixilation,Node;ART_TECHNIQUE,ART.animation.stop_motion.pixilation,Pixilation,真人定格,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.animation.stop_motion.puppet_animation,Node;ART_TECHNIQUE,ART.animation.stop_motion.puppet_animation,Puppet Animation,木偶动画,ART_TECHNIQUE,ARTS_AND_CULTURE,3
+ART.animation.storyboard_artist,Node;ART_FORM,ART.animation.storyboard_artist,Storyboard Artist,分镜师,ART_FORM,ARTS_AND_CULTURE,2
 ART.animation.virtual_production,Node;TECHNOLOGY,ART.animation.virtual_production,Virtual Production,虚拟制片,TECHNOLOGY,ARTS_AND_CULTURE,2
 ART.animation.virtual_production.led_volume,Node;TECHNOLOGY,ART.animation.virtual_production.led_volume,LED Volume,LED虚拟影棚,TECHNOLOGY,ARTS_AND_CULTURE,3
 ART.animation.virtual_production.real_time_rendering,Node;TECHNOLOGY,ART.animation.virtual_production.real_time_rendering,Real-Time Rendering,实时渲染,TECHNOLOGY,ARTS_AND_CULTURE,3
 ART.animation.visual_effects,Node;ART_TECHNIQUE,ART.animation.visual_effects,Visual Effects,视觉特效,ART_TECHNIQUE,ARTS_AND_CULTURE,2
+ART.animation.visual_effects.cg_integration,Node;ART_FORM,ART.animation.visual_effects.cg_integration,CG Integration,CG合成,ART_FORM,ARTS_AND_CULTURE,3
 ART.animation.visual_effects.compositing,Node;ART_TECHNIQUE,ART.animation.visual_effects.compositing,Compositing,合成,ART_TECHNIQUE,ARTS_AND_CULTURE,3
+ART.animation.visual_effects.crowd_simulation,Node;ART_FORM,ART.animation.visual_effects.crowd_simulation,Crowd Simulation,群集模拟,ART_FORM,ARTS_AND_CULTURE,3
+ART.animation.visual_effects.match_moving,Node;ART_FORM,ART.animation.visual_effects.match_moving,Match Moving,匹配移动,ART_FORM,ARTS_AND_CULTURE,3
 ART.animation.visual_effects.matte_painting,Node;ART_TECHNIQUE,ART.animation.visual_effects.matte_painting,Matte Painting,接景,ART_TECHNIQUE,ARTS_AND_CULTURE,3
+ART.animation.visual_effects.motion_tracking,Node;ART_FORM,ART.animation.visual_effects.motion_tracking,Motion Tracking,运动跟踪,ART_FORM,ARTS_AND_CULTURE,3
+ART.animation.visual_effects.particle_effects,Node;ART_FORM,ART.animation.visual_effects.particle_effects,Particle Effects,粒子特效,ART_FORM,ARTS_AND_CULTURE,3
 ART.animation.visual_effects.practical_effects,Node;ART_TECHNIQUE,ART.animation.visual_effects.practical_effects,Practical Effects,实体特效,ART_TECHNIQUE,ARTS_AND_CULTURE,3
+ART.animation.visual_effects.set_extension,Node;ART_FORM,ART.animation.visual_effects.set_extension,Set Extension,场景扩展,ART_FORM,ARTS_AND_CULTURE,3
 ART.architecture,Node;ART_FORM,ART.architecture,Architecture,建筑,ART_FORM,ARTS_AND_CULTURE,1
+ART.architecture.architectural_drawing,Node;ART_FORM,ART.architecture.architectural_drawing,Architectural Drawing,建筑制图,ART_FORM,ARTS_AND_CULTURE,2
+ART.architecture.architectural_drawing.elevations,Node;ART_FORM,ART.architecture.architectural_drawing.elevations,Elevations,立面图,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_drawing.floor_plans,Node;ART_FORM,ART.architecture.architectural_drawing.floor_plans,Floor Plans,平面图,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_drawing.perspective_rendering,Node;ART_FORM,ART.architecture.architectural_drawing.perspective_rendering,Perspective Rendering,透视图,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_drawing.physical_modeling,Node;ART_FORM,ART.architecture.architectural_drawing.physical_modeling,Physical Modeling,实体模型,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_drawing.sections,Node;ART_FORM,ART.architecture.architectural_drawing.sections,Sections,剖面图,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_elements,Node;ART_FORM,ART.architecture.architectural_elements,Architectural Elements,建筑构件,ART_FORM,ARTS_AND_CULTURE,2
+ART.architecture.architectural_elements.arch_and_vault,Node;ART_FORM,ART.architecture.architectural_elements.arch_and_vault,Arch & Vault,拱与拱顶,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_elements.column_orders,Node;ART_FORM,ART.architecture.architectural_elements.column_orders,Column Orders,柱式,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_elements.dome,Node;ART_FORM,ART.architecture.architectural_elements.dome,Dome,穹顶,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_elements.facade_composition,Node;ART_FORM,ART.architecture.architectural_elements.facade_composition,Facade Composition,立面构成,ART_FORM,ARTS_AND_CULTURE,3
+ART.architecture.architectural_elements.ornamentation,Node;ART_FORM,ART.architecture.architectural_elements.ornamentation,Ornamentation,装饰,ART_FORM,ARTS_AND_CULTURE,3
 ART.architecture.architectural_styles,Node;ART_MOVEMENT,ART.architecture.architectural_styles,Architectural Styles,建筑风格,ART_MOVEMENT,ARTS_AND_CULTURE,2
 ART.architecture.architectural_styles.art_deco_architecture,Node;ART_MOVEMENT,ART.architecture.architectural_styles.art_deco_architecture,Art Deco Architecture,装饰艺术建筑,ART_MOVEMENT,ARTS_AND_CULTURE,3
 ART.architecture.architectural_styles.art_nouveau_architecture,Node;ART_MOVEMENT,ART.architecture.architectural_styles.art_nouveau_architecture,Art Nouveau Architecture,新艺术建筑,ART_MOVEMENT,ARTS_AND_CULTURE,3
@@ -532,6 +563,7 @@ ART.design.design_thinking,Node;METHODOLOGY,ART.design.design_thinking,Design Th
 ART.design.graphic_design,Node;ART_FORM,ART.design.graphic_design,Graphic Design,平面设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.design.graphic_design.advertising_design,Node;ART_FORM,ART.design.graphic_design.advertising_design,Advertising Design,广告设计,ART_FORM,ARTS_AND_CULTURE,3
 ART.design.graphic_design.branding,Node;METHODOLOGY,ART.design.graphic_design.branding,Branding,品牌设计,METHODOLOGY,ARTS_AND_CULTURE,3
+ART.design.graphic_design.branding_design,Node;ART_FORM,ART.design.graphic_design.branding_design,Branding & Identity,品牌设计,ART_FORM,ARTS_AND_CULTURE,3
 ART.design.graphic_design.editorial_design,Node;ART_FORM,ART.design.graphic_design.editorial_design,Editorial Design,编辑设计,ART_FORM,ARTS_AND_CULTURE,3
 ART.design.graphic_design.logo_design,Node;ART_TECHNIQUE,ART.design.graphic_design.logo_design,Logo Design,标志设计,ART_TECHNIQUE,ARTS_AND_CULTURE,3
 ART.design.graphic_design.packaging_design,Node;ART_FORM,ART.design.graphic_design.packaging_design,Packaging Design,包装设计,ART_FORM,ARTS_AND_CULTURE,3
@@ -624,6 +656,9 @@ ART.fashion.garments.skirt,Node;PRODUCT,ART.fashion.garments.skirt,Skirt,裙子,
 ART.fashion.garments.sportswear,Node;PRODUCT,ART.fashion.garments.sportswear,Sportswear,运动服,PRODUCT,ARTS_AND_CULTURE,3
 ART.fashion.garments.suit,Node;PRODUCT,ART.fashion.garments.suit,Suit,西装,PRODUCT,ARTS_AND_CULTURE,3
 ART.fashion.garments.trousers,Node;PRODUCT,ART.fashion.garments.trousers,Trousers,长裤,PRODUCT,ARTS_AND_CULTURE,3
+ART.fashion.haute_couture,Node;ART_FORM,ART.fashion.haute_couture,Haute Couture,高级定制,ART_FORM,ARTS_AND_CULTURE,2
+ART.fashion.ready_to_wear,Node;ART_FORM,ART.fashion.ready_to_wear,Ready-to-Wear,成衣,ART_FORM,ARTS_AND_CULTURE,2
+ART.fashion.textile_design,Node;ART_FORM,ART.fashion.textile_design,Textile Design,面料设计,ART_FORM,ARTS_AND_CULTURE,2
 ART.film,Node;ART_FORM,ART.film,Film,电影,ART_FORM,ARTS_AND_CULTURE,1
 ART.film.cinematography,Node;ART_TECHNIQUE,ART.film.cinematography,Cinematography,电影摄影,ART_TECHNIQUE,ARTS_AND_CULTURE,2
 ART.film.color_grading,Node;ART_TECHNIQUE,ART.film.color_grading,Color Grading,调色,ART_TECHNIQUE,ARTS_AND_CULTURE,2

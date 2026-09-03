@@ -1,11 +1,11 @@
 # HK-OI Ontology Report
 
-Generated: 2026-09-03T08:04:17.729Z
+Generated: 2026-09-03T08:09:43.606Z
 
 ## 1. Summary
 
-- **Nodes**: 12875  (with metrics: 10213)
-- **Relations**: 16658
+- **Nodes**: 12910  (with metrics: 10213)
+- **Relations**: 16693
 
 ### By universe
 
@@ -13,7 +13,7 @@ Generated: 2026-09-03T08:04:17.729Z
 |---|---|
 | HUMAN_KNOWLEDGE | 5771 |
 | OCCUPATIONS | 1300 |
-| ARTS_AND_CULTURE | 894 |
+| ARTS_AND_CULTURE | 929 |
 | INDUSTRIES | 894 |
 | TECHNOLOGIES | 719 |
 | PRODUCTS_AND_SERVICES | 649 |
@@ -31,8 +31,8 @@ Generated: 2026-09-03T08:04:17.729Z
 |---|---|
 | L0 | 13 |
 | L1 | 286 |
-| L2 | 2840 |
-| L3 | 6639 |
+| L2 | 2852 |
+| L3 | 6662 |
 | L4 | 2630 |
 | L5 | 427 |
 | L6 | 40 |
@@ -54,9 +54,9 @@ Generated: 2026-09-03T08:04:17.729Z
 | INSTITUTION | 222 |
 | METHODOLOGY | 217 |
 | GAME | 207 |
+| ART_FORM | 178 |
 | INDUSTRY | 173 |
 | SERVICE | 167 |
-| ART_FORM | 143 |
 | ART_MOVEMENT | 140 |
 | ORGANIZATION_TYPE | 136 |
 | CONTENT_TYPE | 133 |
@@ -204,8 +204,8 @@ Generated: 2026-09-03T08:04:17.729Z
 | SPORTS_AND_GAMES | 618 | ok |
 | PRODUCTS_AND_SERVICES | 648 | ok |
 | TECHNOLOGIES | 718 | ok |
-| ARTS_AND_CULTURE | 893 | ok |
 | INDUSTRIES | 893 | ok |
+| ARTS_AND_CULTURE | 928 | ok |
 | OCCUPATIONS | 1299 | ok |
 | HUMAN_KNOWLEDGE | 5770 | ok |
 
@@ -245,7 +245,7 @@ Generated: 2026-09-03T08:04:17.729Z
 | METHOD_OF | 219 |
 | SUBINDUSTRY_OF | 212 |
 | SUBGAME_OF | 207 |
-| SUBFORM_OF | 157 |
+| SUBFORM_OF | 192 |
 | HISTORICAL_SUCCESSOR | 136 |
 | TECHNIQUE_OF | 134 |
 | USED_BY | 62 |
