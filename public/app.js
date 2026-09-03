@@ -129,6 +129,7 @@ function renderDetail(data) {
   if (n.description) html += '<div class="desc">'+esc(n.description)+'</div>';
   if (n.aliases && n.aliases.length) html += '<div><span class="muted">别名：</span>' + n.aliases.map(a=>'<span class="chip">'+esc(a)+'</span>').join("") + '</div>';
   if (n.examples && n.examples.length) html += '<div style="margin-top:6px"><span class="muted">实例：</span>' + n.examples.map(a=>'<span class="chip">'+esc(a)+'</span>').join("") + '</div>';
+  if (n.participation_modes && n.participation_modes.length) html += '<div style="margin-top:6px"><span class="muted">参与方式：</span>' + n.participation_modes.map(m=>'<span class="chip">'+(MODE_ZH[m]||m)+'</span>').join("") + '</div>';
 
   html += '<div class="tabs">' +
     '<div class="tab '+(activeTab==="overview"?"active":"")+'" data-tab="overview">子节点 ('+data.children.length+')</div>' +
@@ -267,6 +268,7 @@ function mountForceGraph(container, data) {
     nodeEls.forEach(o => { o.g.setAttribute("transform","translate("+o.n.x.toFixed(1)+","+o.n.y.toFixed(1)+")"); o.c.setAttribute("r", o.n.id===data.node.id?8:5); });
   })();
 }
+const MODE_ZH = { professional:"职业实践", amateur:"业余实践", recreational:"娱乐参与", spectator:"观众参与", community:"社群参与" };
 function colorFor(type) {
   const m = { UNIVERSE:"#ffffff", KNOWLEDGE_FIELD:"#5b8cff", METHODOLOGY:"#60a5fa", OCCUPATION:"#22d3a5", SOCIAL_ROLE:"#a78bfa", ART_FORM:"#f472b6", ART_GENRE:"#f472b6", ART_MOVEMENT:"#f472b6", ART_TECHNIQUE:"#f472b6", SPORT:"#fb923c", GAME:"#fb923c", INDUSTRY:"#f59e0b", SECTOR:"#f59e0b", ECONOMIC_ACTIVITY:"#f59e0b", PRODUCT:"#34d399", SERVICE:"#34d399", TECHNOLOGY:"#2dd4bf", MATERIAL:"#2dd4bf", ORGANIZATION_TYPE:"#eab308", INSTITUTION:"#eab308", MEDIA_FORM:"#f87171", CONTENT_TYPE:"#f87171", EMERGING_FIELD:"#c084fc", ACTIVITY:"#38bdf8" };
   return m[type] || "#94a3b8";

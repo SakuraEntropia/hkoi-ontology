@@ -103,6 +103,7 @@ function api(path, query) {
         aliases: node.aliases ? safeJson(node.aliases) : [],
         examples: node.examples ? safeJson(node.examples) : [],
         historical: !!node.historical, global: !!node.global, metrics,
+        participation_modes: node.participation_modes ? safeJson(node.participation_modes) : [],
       },
       children, ancestors,
       relationsOut: out, relationsIn: inc,
