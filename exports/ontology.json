@@ -3,7 +3,7 @@
   "name": "HK-OI",
   "title": "Human Knowledge, Occupation & Industry Ontology",
   "version": "0.2.0",
-  "generatedAt": "2026-09-03T06:00:42.248Z",
+  "generatedAt": "2026-09-03T06:01:23.152Z",
   "universes": [
    "HUMAN_KNOWLEDGE",
    "OCCUPATIONS",
@@ -19,11 +19,11 @@
    "EMERGING_FIELDS"
   ],
   "counts": {
-   "nodes": 9080,
-   "relations": 10482,
-   "explicitRelations": 1421,
-   "parentEdges": 9068,
-   "withMetrics": 332
+   "nodes": 9093,
+   "relations": 10514,
+   "explicitRelations": 1440,
+   "parentEdges": 9081,
+   "withMetrics": 346
   }
  },
  "nodes": [
@@ -150911,7 +150911,24 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~30M",
+    "popNote": "IT professionals",
+    "econ": "~$5T",
+    "econNote": "IT industry",
+    "aw": 90,
+    "hs": "very_high",
+    "growth": "rapidly_growing",
+    "geo": [
+     "global",
+     "US/India/East Asia"
+    ],
+    "inst": "very_high",
+    "cv": "very_high",
+    "ew": "very_high",
+    "cw": "very_high",
+    "conf": 0.55
+   },
    "source": null
   },
   {
@@ -154139,7 +154156,24 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~2M",
+    "popNote": "AI researchers/engineers",
+    "econ": "~$200B",
+    "econNote": "AI market",
+    "aw": 95,
+    "hs": "very_high",
+    "growth": "rapidly_growing",
+    "geo": [
+     "global",
+     "US/China/EU"
+    ],
+    "inst": "high",
+    "cv": "very_high",
+    "ew": "very_high",
+    "cw": "very_high",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -155227,7 +155261,23 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~2M",
+    "econ": "~$1T",
+    "econNote": "biotech industry",
+    "aw": 65,
+    "hs": "very_high",
+    "growth": "rapidly_growing",
+    "geo": [
+     "global",
+     "US/EU/China"
+    ],
+    "inst": "high",
+    "cv": "moderate",
+    "ew": "very_high",
+    "cw": "moderate",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -156189,7 +156239,22 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~5M",
+    "econ": "~$1.5T",
+    "econNote": "energy technology",
+    "aw": 75,
+    "hs": "very_high",
+    "growth": "rapidly_growing",
+    "geo": [
+     "global"
+    ],
+    "inst": "high",
+    "cv": "high",
+    "ew": "very_high",
+    "cw": "moderate",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -157411,7 +157476,21 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~2M",
+    "econ": "~$1T",
+    "aw": 40,
+    "hs": "very_high",
+    "growth": "growing",
+    "geo": [
+     "global"
+    ],
+    "inst": "high",
+    "cv": "low",
+    "ew": "very_high",
+    "cw": "low",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -158415,7 +158494,22 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~5M",
+    "econ": "~$2T",
+    "aw": 55,
+    "hs": "very_high",
+    "growth": "growing",
+    "geo": [
+     "global",
+     "China/Germany/Japan/US"
+    ],
+    "inst": "high",
+    "cv": "moderate",
+    "ew": "very_high",
+    "cw": "low",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -159475,7 +159569,21 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~3M",
+    "econ": "~$3T",
+    "aw": 75,
+    "hs": "very_high",
+    "growth": "growing",
+    "geo": [
+     "global"
+    ],
+    "inst": "high",
+    "cv": "high",
+    "ew": "very_high",
+    "cw": "moderate",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -160198,7 +160306,22 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~2M",
+    "econ": "~$500B",
+    "econNote": "medical technology",
+    "aw": 60,
+    "hs": "very_high",
+    "growth": "growing",
+    "geo": [
+     "global"
+    ],
+    "inst": "high",
+    "cv": "moderate",
+    "ew": "high",
+    "cw": "moderate",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -160998,7 +161121,21 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~2M",
+    "econ": "~$200B",
+    "aw": 45,
+    "hs": "very_high",
+    "growth": "growing",
+    "geo": [
+     "global"
+    ],
+    "inst": "moderate",
+    "cv": "low",
+    "ew": "high",
+    "cw": "moderate",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -161465,7 +161602,22 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~1M",
+    "econ": "~$500B",
+    "econNote": "space economy",
+    "aw": 75,
+    "hs": "very_high",
+    "growth": "rapidly_growing",
+    "geo": [
+     "US/China/EU/Russia/India"
+    ],
+    "inst": "high",
+    "cv": "high",
+    "ew": "moderate",
+    "cw": "high",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -161896,7 +162048,21 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~10M",
+    "econ": "~$1.5T",
+    "aw": 85,
+    "hs": "very_high",
+    "growth": "stable",
+    "geo": [
+     "global"
+    ],
+    "inst": "very_high",
+    "cv": "high",
+    "ew": "very_high",
+    "cw": "high",
+    "conf": 0.55
+   },
    "source": null
   },
   {
@@ -162360,7 +162526,23 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~2M",
+    "econ": "~$1T",
+    "econNote": "clean tech investment",
+    "aw": 70,
+    "hs": "high",
+    "growth": "rapidly_growing",
+    "geo": [
+     "global",
+     "China/EU/US"
+    ],
+    "inst": "moderate",
+    "cv": "high",
+    "ew": "very_high",
+    "cw": "high",
+    "conf": 0.5
+   },
    "source": null
   },
   {
@@ -162810,7 +162992,22 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~1M",
+    "econ": "~$500B",
+    "aw": 30,
+    "hs": "high",
+    "growth": "stable",
+    "geo": [
+     "Asia",
+     "global"
+    ],
+    "inst": "moderate",
+    "cv": "low",
+    "ew": "high",
+    "cw": "moderate",
+    "conf": 0.45
+   },
    "source": null
   },
   {
@@ -162946,7 +163143,21 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "pop": "~1M",
+    "econ": "~$1T",
+    "aw": 30,
+    "hs": "very_high",
+    "growth": "stable",
+    "geo": [
+     "global"
+    ],
+    "inst": "high",
+    "cv": "low",
+    "ew": "very_high",
+    "cw": "low",
+    "conf": 0.45
+   },
    "source": null
   },
   {
@@ -163218,6 +163429,237 @@
    "examples": [],
    "historical": false,
    "global": false,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics",
+   "name": "Photonics",
+   "name_en": "Photonics",
+   "name_zh": "光子学技术",
+   "type": "TECHNOLOGY",
+   "parent": "TECHNOLOGIES",
+   "level": 1,
+   "universe": "TECHNOLOGIES",
+   "description": "Technology generating, manipulating, and detecting light.",
+   "aliases": [],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.laser",
+   "name": "Laser",
+   "name_en": "Laser",
+   "name_zh": "激光",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "Coherent light amplification by stimulated emission.",
+   "aliases": [],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.laser.solid_state_laser",
+   "name": "Solid-State Laser",
+   "name_en": "Solid-State Laser",
+   "name_zh": "固体激光器",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics.laser",
+   "level": 3,
+   "universe": "TECHNOLOGIES",
+   "description": "A laser using a solid gain medium.",
+   "aliases": [],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.laser.fiber_laser",
+   "name": "Fiber Laser",
+   "name_en": "Fiber Laser",
+   "name_zh": "光纤激光器",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics.laser",
+   "level": 3,
+   "universe": "TECHNOLOGIES",
+   "description": "A laser with an optical-fiber gain medium.",
+   "aliases": [],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.laser.semiconductor_laser",
+   "name": "Semiconductor Laser",
+   "name_en": "Semiconductor Laser",
+   "name_zh": "半导体激光器",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics.laser",
+   "level": 3,
+   "universe": "TECHNOLOGIES",
+   "description": "A compact laser based on a semiconductor diode junction.",
+   "aliases": [
+    "laser diode"
+   ],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.light_emitting_diode",
+   "name": "Light-Emitting Diode",
+   "name_en": "Light-Emitting Diode",
+   "name_zh": "发光二极管",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "A semiconductor diode emitting light when powered.",
+   "aliases": [
+    "LED"
+   ],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.organic_light_emitting_diode",
+   "name": "Organic Light-Emitting Diode",
+   "name_en": "Organic Light-Emitting Diode",
+   "name_zh": "有机发光二极管",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "A display technology using organic emissive materials.",
+   "aliases": [
+    "OLED"
+   ],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.liquid_crystal_display",
+   "name": "Liquid Crystal Display",
+   "name_en": "Liquid Crystal Display",
+   "name_zh": "液晶显示器",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "A flat-panel display using liquid crystals and backlight.",
+   "aliases": [
+    "LCD"
+   ],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.photodetector",
+   "name": "Photodetector",
+   "name_en": "Photodetector",
+   "name_zh": "光电探测器",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "A device converting light into electrical signals.",
+   "aliases": [],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.photonic_integrated_circuit",
+   "name": "Photonic Integrated Circuit",
+   "name_en": "Photonic Integrated Circuit",
+   "name_zh": "光子集成电路",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "Light-based circuits on a chip.",
+   "aliases": [
+    "PIC"
+   ],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.holography",
+   "name": "Holography",
+   "name_en": "Holography",
+   "name_zh": "全息术",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "Recording and reconstructing three-dimensional light fields.",
+   "aliases": [],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.nonlinear_optics",
+   "name": "Nonlinear Optics",
+   "name_en": "Nonlinear Optics",
+   "name_zh": "非线性光学",
+   "type": "TECHNOLOGY",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "Optics in materials whose response depends on light intensity.",
+   "aliases": [],
+   "examples": [],
+   "historical": false,
+   "global": true,
+   "metrics": null,
+   "source": null
+  },
+  {
+   "id": "TECH.photonics.optical_computing",
+   "name": "Optical Computing",
+   "name_en": "Optical Computing",
+   "name_zh": "光计算",
+   "type": "EMERGING_FIELD",
+   "parent": "TECH.photonics",
+   "level": 2,
+   "universe": "TECHNOLOGIES",
+   "description": "Computing using photons instead of electrons.",
+   "aliases": [],
+   "examples": [],
+   "historical": false,
+   "global": true,
    "metrics": null,
    "source": null
   }
@@ -217632,6 +218074,84 @@
    "kind": "parent"
   },
   {
+   "source": "TECH.photonics",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECHNOLOGIES",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.laser",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.laser.solid_state_laser",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics.laser",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.laser.fiber_laser",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics.laser",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.laser.semiconductor_laser",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics.laser",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.light_emitting_diode",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.organic_light_emitting_diode",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.liquid_crystal_display",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.photodetector",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.photonic_integrated_circuit",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.holography",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.nonlinear_optics",
+   "relation": "SUBTECHNOLOGY_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
+   "source": "TECH.photonics.optical_computing",
+   "relation": "SUBFIELD_OF",
+   "target": "TECH.photonics",
+   "kind": "parent"
+  },
+  {
    "source": "HK.mathematics.analysis.partial_differential_equations",
    "relation": "USES",
    "target": "HK.mathematics.analysis.functional_analysis",
@@ -219207,6 +219727,120 @@
    "source": "HK.finance",
    "relation": "USED_BY",
    "target": "ind.financial_services",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.information_technology",
+   "relation": "USES",
+   "target": "TECH.information_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.information_technology",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.information_technology",
+   "relation": "USES",
+   "target": "TECH.telecommunications",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing",
+   "relation": "USES",
+   "target": "TECH.manufacturing_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.manufacturing",
+   "relation": "USES",
+   "target": "TECH.materials_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.life_sciences_healthcare",
+   "relation": "USES",
+   "target": "TECH.biotechnology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.life_sciences_healthcare",
+   "relation": "USES",
+   "target": "TECH.medical_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.energy",
+   "relation": "USES",
+   "target": "TECH.energy_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.energy",
+   "relation": "USES",
+   "target": "TECH.clean_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.agriculture",
+   "relation": "USES",
+   "target": "TECH.agricultural_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.defense_space",
+   "relation": "USES",
+   "target": "TECH.space_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.transport_logistics",
+   "relation": "USES",
+   "target": "TECH.transport_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.media_entertainment",
+   "relation": "USES",
+   "target": "TECH.information_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.construction",
+   "relation": "USES",
+   "target": "TECH.materials_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.oil_gas",
+   "relation": "USES",
+   "target": "TECH.chemical_process_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "ind.utilities",
+   "relation": "USES",
+   "target": "TECH.clean_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.computer_science.artificial_intelligence",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.biology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology",
+   "relation": "OVERLAPS_WITH",
+   "target": "HK.computer_science",
    "kind": "explicit"
   },
   {

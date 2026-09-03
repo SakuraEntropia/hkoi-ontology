@@ -1,0 +1,97 @@
+[
+ {
+  "source": "ind.information_technology",
+  "relation": "USES",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "ind.information_technology",
+  "relation": "USES",
+  "target": "TECH.artificial_intelligence"
+ },
+ {
+  "source": "ind.information_technology",
+  "relation": "USES",
+  "target": "TECH.telecommunications"
+ },
+ {
+  "source": "ind.manufacturing",
+  "relation": "USES",
+  "target": "TECH.manufacturing_technology"
+ },
+ {
+  "source": "ind.manufacturing",
+  "relation": "USES",
+  "target": "TECH.materials_technology"
+ },
+ {
+  "source": "ind.life_sciences_healthcare",
+  "relation": "USES",
+  "target": "TECH.biotechnology"
+ },
+ {
+  "source": "ind.life_sciences_healthcare",
+  "relation": "USES",
+  "target": "TECH.medical_technology"
+ },
+ {
+  "source": "ind.energy",
+  "relation": "USES",
+  "target": "TECH.energy_technology"
+ },
+ {
+  "source": "ind.energy",
+  "relation": "USES",
+  "target": "TECH.clean_technology"
+ },
+ {
+  "source": "ind.agriculture",
+  "relation": "USES",
+  "target": "TECH.agricultural_technology"
+ },
+ {
+  "source": "ind.defense_space",
+  "relation": "USES",
+  "target": "TECH.space_technology"
+ },
+ {
+  "source": "ind.transport_logistics",
+  "relation": "USES",
+  "target": "TECH.transport_technology"
+ },
+ {
+  "source": "ind.media_entertainment",
+  "relation": "USES",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "ind.construction",
+  "relation": "USES",
+  "target": "TECH.materials_technology"
+ },
+ {
+  "source": "ind.oil_gas",
+  "relation": "USES",
+  "target": "TECH.chemical_process_technology"
+ },
+ {
+  "source": "ind.utilities",
+  "relation": "USES",
+  "target": "TECH.clean_technology"
+ },
+ {
+  "source": "TECH.artificial_intelligence",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.artificial_intelligence"
+ },
+ {
+  "source": "TECH.biotechnology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "TECH.information_technology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ }
+]

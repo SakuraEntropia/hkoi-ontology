@@ -4255,5 +4255,230 @@
   "cultural_visibility": "moderate",
   "economic_weight": "low",
   "cultural_weight": "moderate"
+ },
+ "TECH.information_technology": {
+  "pop": "~30M",
+  "popNote": "IT professionals",
+  "econ": "~$5T",
+  "econNote": "IT industry",
+  "aw": 90,
+  "hs": "very_high",
+  "growth": "rapidly_growing",
+  "geo": [
+   "global",
+   "US/India/East Asia"
+  ],
+  "inst": "very_high",
+  "cv": "very_high",
+  "ew": "very_high",
+  "cw": "very_high",
+  "conf": 0.55
+ },
+ "TECH.artificial_intelligence": {
+  "pop": "~2M",
+  "popNote": "AI researchers/engineers",
+  "econ": "~$200B",
+  "econNote": "AI market",
+  "aw": 95,
+  "hs": "very_high",
+  "growth": "rapidly_growing",
+  "geo": [
+   "global",
+   "US/China/EU"
+  ],
+  "inst": "high",
+  "cv": "very_high",
+  "ew": "very_high",
+  "cw": "very_high",
+  "conf": 0.5
+ },
+ "TECH.biotechnology": {
+  "pop": "~2M",
+  "econ": "~$1T",
+  "econNote": "biotech industry",
+  "aw": 65,
+  "hs": "very_high",
+  "growth": "rapidly_growing",
+  "geo": [
+   "global",
+   "US/EU/China"
+  ],
+  "inst": "high",
+  "cv": "moderate",
+  "ew": "very_high",
+  "cw": "moderate",
+  "conf": 0.5
+ },
+ "TECH.energy_technology": {
+  "pop": "~5M",
+  "econ": "~$1.5T",
+  "econNote": "energy technology",
+  "aw": 75,
+  "hs": "very_high",
+  "growth": "rapidly_growing",
+  "geo": [
+   "global"
+  ],
+  "inst": "high",
+  "cv": "high",
+  "ew": "very_high",
+  "cw": "moderate",
+  "conf": 0.5
+ },
+ "TECH.materials_technology": {
+  "pop": "~2M",
+  "econ": "~$1T",
+  "aw": 40,
+  "hs": "very_high",
+  "growth": "growing",
+  "geo": [
+   "global"
+  ],
+  "inst": "high",
+  "cv": "low",
+  "ew": "very_high",
+  "cw": "low",
+  "conf": 0.5
+ },
+ "TECH.manufacturing_technology": {
+  "pop": "~5M",
+  "econ": "~$2T",
+  "aw": 55,
+  "hs": "very_high",
+  "growth": "growing",
+  "geo": [
+   "global",
+   "China/Germany/Japan/US"
+  ],
+  "inst": "high",
+  "cv": "moderate",
+  "ew": "very_high",
+  "cw": "low",
+  "conf": 0.5
+ },
+ "TECH.transport_technology": {
+  "pop": "~3M",
+  "econ": "~$3T",
+  "aw": 75,
+  "hs": "very_high",
+  "growth": "growing",
+  "geo": [
+   "global"
+  ],
+  "inst": "high",
+  "cv": "high",
+  "ew": "very_high",
+  "cw": "moderate",
+  "conf": 0.5
+ },
+ "TECH.medical_technology": {
+  "pop": "~2M",
+  "econ": "~$500B",
+  "econNote": "medical technology",
+  "aw": 60,
+  "hs": "very_high",
+  "growth": "growing",
+  "geo": [
+   "global"
+  ],
+  "inst": "high",
+  "cv": "moderate",
+  "ew": "high",
+  "cw": "moderate",
+  "conf": 0.5
+ },
+ "TECH.agricultural_technology": {
+  "pop": "~2M",
+  "econ": "~$200B",
+  "aw": 45,
+  "hs": "very_high",
+  "growth": "growing",
+  "geo": [
+   "global"
+  ],
+  "inst": "moderate",
+  "cv": "low",
+  "ew": "high",
+  "cw": "moderate",
+  "conf": 0.5
+ },
+ "TECH.space_technology": {
+  "pop": "~1M",
+  "econ": "~$500B",
+  "econNote": "space economy",
+  "aw": 75,
+  "hs": "very_high",
+  "growth": "rapidly_growing",
+  "geo": [
+   "US/China/EU/Russia/India"
+  ],
+  "inst": "high",
+  "cv": "high",
+  "ew": "moderate",
+  "cw": "high",
+  "conf": 0.5
+ },
+ "TECH.telecommunications": {
+  "pop": "~10M",
+  "econ": "~$1.5T",
+  "aw": 85,
+  "hs": "very_high",
+  "growth": "stable",
+  "geo": [
+   "global"
+  ],
+  "inst": "very_high",
+  "cv": "high",
+  "ew": "very_high",
+  "cw": "high",
+  "conf": 0.55
+ },
+ "TECH.clean_technology": {
+  "pop": "~2M",
+  "econ": "~$1T",
+  "econNote": "clean tech investment",
+  "aw": 70,
+  "hs": "high",
+  "growth": "rapidly_growing",
+  "geo": [
+   "global",
+   "China/EU/US"
+  ],
+  "inst": "moderate",
+  "cv": "high",
+  "ew": "very_high",
+  "cw": "high",
+  "conf": 0.5
+ },
+ "TECH.textile_technology": {
+  "pop": "~1M",
+  "econ": "~$500B",
+  "aw": 30,
+  "hs": "high",
+  "growth": "stable",
+  "geo": [
+   "Asia",
+   "global"
+  ],
+  "inst": "moderate",
+  "cv": "low",
+  "ew": "high",
+  "cw": "moderate",
+  "conf": 0.45
+ },
+ "TECH.chemical_process_technology": {
+  "pop": "~1M",
+  "econ": "~$1T",
+  "aw": 30,
+  "hs": "very_high",
+  "growth": "stable",
+  "geo": [
+   "global"
+  ],
+  "inst": "high",
+  "cv": "low",
+  "ew": "very_high",
+  "cw": "low",
+  "conf": 0.45
  }
 }

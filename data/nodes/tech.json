@@ -6165,5 +6165,124 @@
   "parent": "TECH.transport_technology",
   "description": "Traditional Pacific navigation using stars, waves, and wildlife.",
   "global": false
+ },
+ {
+  "id": "TECH.photonics",
+  "name": "Photonics",
+  "name_zh": "光子学技术",
+  "type": "TECHNOLOGY",
+  "parent": "TECHNOLOGIES",
+  "description": "Technology generating, manipulating, and detecting light."
+ },
+ {
+  "id": "TECH.photonics.laser",
+  "name": "Laser",
+  "name_zh": "激光",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics",
+  "description": "Coherent light amplification by stimulated emission."
+ },
+ {
+  "id": "TECH.photonics.laser.solid_state_laser",
+  "name": "Solid-State Laser",
+  "name_zh": "固体激光器",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics.laser",
+  "description": "A laser using a solid gain medium."
+ },
+ {
+  "id": "TECH.photonics.laser.fiber_laser",
+  "name": "Fiber Laser",
+  "name_zh": "光纤激光器",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics.laser",
+  "description": "A laser with an optical-fiber gain medium."
+ },
+ {
+  "id": "TECH.photonics.laser.semiconductor_laser",
+  "name": "Semiconductor Laser",
+  "name_zh": "半导体激光器",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics.laser",
+  "description": "A compact laser based on a semiconductor diode junction.",
+  "aliases": [
+   "laser diode"
+  ]
+ },
+ {
+  "id": "TECH.photonics.light_emitting_diode",
+  "name": "Light-Emitting Diode",
+  "name_zh": "发光二极管",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics",
+  "description": "A semiconductor diode emitting light when powered.",
+  "aliases": [
+   "LED"
+  ]
+ },
+ {
+  "id": "TECH.photonics.organic_light_emitting_diode",
+  "name": "Organic Light-Emitting Diode",
+  "name_zh": "有机发光二极管",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics",
+  "description": "A display technology using organic emissive materials.",
+  "aliases": [
+   "OLED"
+  ]
+ },
+ {
+  "id": "TECH.photonics.liquid_crystal_display",
+  "name": "Liquid Crystal Display",
+  "name_zh": "液晶显示器",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics",
+  "description": "A flat-panel display using liquid crystals and backlight.",
+  "aliases": [
+   "LCD"
+  ]
+ },
+ {
+  "id": "TECH.photonics.photodetector",
+  "name": "Photodetector",
+  "name_zh": "光电探测器",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics",
+  "description": "A device converting light into electrical signals."
+ },
+ {
+  "id": "TECH.photonics.photonic_integrated_circuit",
+  "name": "Photonic Integrated Circuit",
+  "name_zh": "光子集成电路",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics",
+  "description": "Light-based circuits on a chip.",
+  "aliases": [
+   "PIC"
+  ]
+ },
+ {
+  "id": "TECH.photonics.holography",
+  "name": "Holography",
+  "name_zh": "全息术",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics",
+  "description": "Recording and reconstructing three-dimensional light fields."
+ },
+ {
+  "id": "TECH.photonics.nonlinear_optics",
+  "name": "Nonlinear Optics",
+  "name_zh": "非线性光学",
+  "type": "TECHNOLOGY",
+  "parent": "TECH.photonics",
+  "description": "Optics in materials whose response depends on light intensity."
+ },
+ {
+  "id": "TECH.photonics.optical_computing",
+  "name": "Optical Computing",
+  "name_zh": "光计算",
+  "type": "EMERGING_FIELD",
+  "parent": "TECH.photonics",
+  "description": "Computing using photons instead of electrons."
  }
 ]
