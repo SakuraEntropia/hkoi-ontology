@@ -1,0 +1,707 @@
+[
+ {
+  "source": "HK.philosophy.philosophical_logic",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.logic"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_mathematics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_mathematics.foundations_of_mathematics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.logic"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_mind",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.cognitive_science"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_mind",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.neuroscience"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_language",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_law",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.philosophy.social_philosophy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "HK.philosophy.political_philosophy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.political_science"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_history",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_religion",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_education",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.education"
+ },
+ {
+  "source": "HK.philosophy.aesthetics.philosophy_of_art",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "HK.philosophy.aesthetics.philosophy_of_literature",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature"
+ },
+ {
+  "source": "HK.philosophy.ethics.applied_ethics.bioethics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "HK.philosophy.epistemology.philosophy_of_perception",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.cognitive_science"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_science.philosophy_of_physics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_science.philosophy_of_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.philosophy.ethics.moral_psychology",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.philosophy.metaphysics.mind_body_problem",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.philosophy.philosophy_of_mind"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_mind.personal_identity",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.metaphysics.philosophy_of_identity"
+ },
+ {
+  "source": "HK.philosophy.philosophy_of_mind.philosophy_of_cognitive_science",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.cognitive_science"
+ },
+ {
+  "source": "HK.philosophy.ethics.normative_ethics.care_ethics",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.political_philosophy.feminist_philosophy"
+ },
+ {
+  "source": "HK.philosophy.epistemology.virtue_epistemology",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.ethics.normative_ethics.virtue_ethics"
+ },
+ {
+  "source": "HK.philosophy.ethics.applied_ethics.technology_ethics.ai_ethics",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.philosophy_of_technology"
+ },
+ {
+  "source": "HK.philosophy.social_philosophy.critical_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.western_philosophy.continental_philosophy.hermeneutics",
+  "relation": "RELATED_TO",
+  "target": "HK.literature"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.western_philosophy.continental_philosophy.phenomenology",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.history_of_philosophy.western_philosophy.continental_philosophy.existentialism"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.western_philosophy.continental_philosophy",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.social_philosophy.critical_theory"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.indian_philosophy.buddhist_philosophy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.indian_philosophy.hindu_philosophy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.indian_philosophy.jain_philosophy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.western_philosophy.ancient_philosophy.hellenistic_philosophy.epicureanism",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.philosophy.ethics.normative_ethics.consequentialism.utilitarianism"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.western_philosophy.ancient_philosophy.hellenistic_philosophy.cynicism",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.philosophy.history_of_philosophy.western_philosophy.ancient_philosophy.hellenistic_philosophy.stoicism"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.western_philosophy.ancient_philosophy.hellenistic_philosophy.pyrrhonian_skepticism",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.philosophy.epistemology.skepticism"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.chinese_philosophy.legalism",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.philosophy.philosophy_of_law"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.western_philosophy.analytic_philosophy.logical_positivism",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.philosophy.philosophy_of_science"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.chinese_philosophy.confucianism",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "HK.philosophy.history_of_philosophy.chinese_philosophy.chinese_buddhist_philosophy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "HK.history.prehistory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.archaeology"
+ },
+ {
+  "source": "HK.history.historiography",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.philosophy_of_history"
+ },
+ {
+  "source": "HK.history.intellectual_history",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.history_of_philosophy"
+ },
+ {
+  "source": "HK.history.social_history",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "HK.history.economic_history",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.history.gender_history",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.gender_studies"
+ },
+ {
+  "source": "HK.history.history_of_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.philosophy_of_science"
+ },
+ {
+  "source": "HK.history.history_of_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "HK.history.environmental_history",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "HK.history.digital_history",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.history.historiography.quantitative_history",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.history.history_of_technology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "HK.history.ancient_history.ancient_greece",
+  "relation": "RELATED_TO",
+  "target": "HK.classics"
+ },
+ {
+  "source": "HK.history.ancient_history.roman_history",
+  "relation": "RELATED_TO",
+  "target": "HK.classics"
+ },
+ {
+  "source": "HK.history.cultural_history.history_of_the_book",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature"
+ },
+ {
+  "source": "HK.history.intellectual_history.history_of_political_thought",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.political_philosophy"
+ },
+ {
+  "source": "HK.history.history_of_religion",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "HK.literature.literary_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.aesthetics.philosophy_of_literature"
+ },
+ {
+  "source": "HK.literature.literary_theory.narratology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.literature.comparative_literature.translation_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.literature.oral_literature",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.literature.oral_literature.folklore",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.literature.comparative_literature",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.area_studies"
+ },
+ {
+  "source": "HK.literature.literary_criticism",
+  "relation": "RELATED_TO",
+  "target": "HK.literature.literary_theory"
+ },
+ {
+  "source": "HK.literature.literary_theory.feminist_literary_theory",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.political_philosophy.feminist_philosophy"
+ },
+ {
+  "source": "HK.literature.literary_theory.postcolonial_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.social_philosophy"
+ },
+ {
+  "source": "HK.literature.literary_theory.queer_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.gender_studies"
+ },
+ {
+  "source": "HK.literature.poetry.haiku",
+  "relation": "RELATED_TO",
+  "target": "HK.literature.japanese_literature"
+ },
+ {
+  "source": "HK.literature.poetry.ghazal",
+  "relation": "RELATED_TO",
+  "target": "HK.literature.persian_literature"
+ },
+ {
+  "source": "HK.literature.poetry.shi",
+  "relation": "RELATED_TO",
+  "target": "HK.literature.chinese_literature"
+ },
+ {
+  "source": "HK.literature.drama.noh",
+  "relation": "RELATED_TO",
+  "target": "HK.literature.japanese_literature"
+ },
+ {
+  "source": "HK.literature.comparative_literature.world_literature",
+  "relation": "RELATED_TO",
+  "target": "HK.history.world_history"
+ },
+ {
+  "source": "HK.literature.literary_nonfiction.literary_journalism",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "HK.literature.fiction.genre_fiction.historical_fiction",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history"
+ },
+ {
+  "source": "HK.religious_studies.sociology_of_religion",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "HK.religious_studies.anthropology_of_religion",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.religious_studies.psychology_of_religion",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.religious_studies.religion_and_science",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.philosophy.philosophy_of_science"
+ },
+ {
+  "source": "HK.religious_studies.history_of_religion",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.history_of_religion"
+ },
+ {
+  "source": "HK.religious_studies.east_asian_religions",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.history_of_philosophy.chinese_philosophy.confucianism"
+ },
+ {
+  "source": "HK.religious_studies.buddhism",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.history_of_philosophy.indian_philosophy.buddhist_philosophy"
+ },
+ {
+  "source": "HK.religious_studies.hinduism",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.history_of_philosophy.indian_philosophy.hindu_philosophy"
+ },
+ {
+  "source": "HK.religious_studies.jainism",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.history_of_philosophy.indian_philosophy.jain_philosophy"
+ },
+ {
+  "source": "HK.religious_studies.islam.sufism",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.history_of_philosophy.islamic_philosophy.illuminationism"
+ },
+ {
+  "source": "HK.religious_studies.theology.liberation_theology",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.social_philosophy.critical_theory"
+ },
+ {
+  "source": "HK.religious_studies.islam.islamic_law",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.religious_studies.ancient_religions.ancient_greek_religion",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.classics"
+ },
+ {
+  "source": "HK.art_history.western_art_history.prehistoric_art",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.archaeology"
+ },
+ {
+  "source": "HK.art_history.history_of_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.architecture"
+ },
+ {
+  "source": "HK.art_history.western_art_history",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.aesthetics"
+ },
+ {
+  "source": "HK.art_history.iconography",
+  "relation": "RELATED_TO",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "HK.art_history.history_of_photography",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.art_history.history_of_printmaking"
+ },
+ {
+  "source": "HK.art_history.chinese_art_history",
+  "relation": "RELATED_TO",
+  "target": "HK.history.history_of_asia.east_asian_history.chinese_history"
+ },
+ {
+  "source": "HK.art_history.precolumbian_art_history",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.ancient_history.ancient_mesoamerica"
+ },
+ {
+  "source": "HK.art_history.western_art_history.classical_art",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.classics"
+ },
+ {
+  "source": "HK.archaeology.prehistoric_archaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.prehistory"
+ },
+ {
+  "source": "HK.archaeology.archaeological_method.archaeological_dating.radiocarbon_dating",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "HK.archaeology.computational_archaeology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.archaeology.bioarchaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.archaeology.zooarchaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.archaeology.archaeobotany",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "HK.archaeology.geoarchaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "HK.archaeology.environmental_archaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "HK.archaeology.classical_archaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.classics"
+ },
+ {
+  "source": "HK.archaeology.egyptology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.ancient_history.ancient_egypt"
+ },
+ {
+  "source": "HK.archaeology.near_eastern_archaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.ancient_history.ancient_near_east"
+ },
+ {
+  "source": "HK.archaeology.archaeology_of_the_americas",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.history_of_the_americas.indigenous_history_of_the_americas"
+ },
+ {
+  "source": "HK.archaeology.archaeology_of_south_asia",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.ancient_history.ancient_india"
+ },
+ {
+  "source": "HK.archaeology.archaeology_of_china",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.ancient_history.ancient_china"
+ },
+ {
+  "source": "HK.archaeology.archaeology_of_the_americas.mesoamerican_archaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.art_history.precolumbian_art_history"
+ },
+ {
+  "source": "HK.archaeology.archaeological_method.excavation",
+  "relation": "METHOD_FOR",
+  "target": "HK.archaeology.archaeological_method"
+ },
+ {
+  "source": "HK.classics.classical_philology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.classics.ancient_greek_literature",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature"
+ },
+ {
+  "source": "HK.classics.latin_literature",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature"
+ },
+ {
+  "source": "HK.classics.classical_mythology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature.oral_literature.myth"
+ },
+ {
+  "source": "HK.classics.epigraphy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.archaeology"
+ },
+ {
+  "source": "HK.classics.papyrology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.archaeology"
+ },
+ {
+  "source": "HK.classics.numismatics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.archaeology"
+ },
+ {
+  "source": "HK.classics.greek_language",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "HK.classics.byzantine_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.medieval_history.byzantine_history"
+ },
+ {
+  "source": "HK.classics.classical_reception",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature.comparative_literature"
+ },
+ {
+  "source": "HK.classics.ancient_greek_literature.greek_historiography",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history.historiography"
+ },
+ {
+  "source": "HK.classics.ancient_greek_literature.greek_epic",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature.poetry.epic_poetry"
+ },
+ {
+  "source": "HK.classics.ancient_greek_literature.greek_tragedy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.literature.drama.tragedy"
+ },
+ {
+  "source": "HK.classics.classical_philology",
+  "relation": "RELATED_TO",
+  "target": "HK.history.ancient_history"
+ },
+ {
+  "source": "HK.musicology.ethnomusicology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "HK.musicology.music_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.aesthetics.philosophy_of_music"
+ },
+ {
+  "source": "HK.musicology.systematic_musicology.music_psychology",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.musicology.systematic_musicology.music_acoustics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.physics"
+ },
+ {
+  "source": "HK.musicology.systematic_musicology.computational_musicology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.musicology.music_archaeology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.archaeology"
+ },
+ {
+  "source": "HK.musicology.music_philology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.classics.classical_philology"
+ },
+ {
+  "source": "HK.musicology.historical_musicology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.history"
+ },
+ {
+  "source": "HK.musicology.popular_music_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.communication"
+ },
+ {
+  "source": "HK.film_studies.film_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.philosophy.aesthetics.philosophy_of_film"
+ },
+ {
+  "source": "HK.film_studies.film_analysis",
+  "relation": "RELATED_TO",
+  "target": "HK.literature.literary_theory.narratology"
+ },
+ {
+  "source": "HK.film_studies.documentary_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "HK.film_studies.film_industry_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business"
+ },
+ {
+  "source": "HK.film_studies.film_theory.feminist_film_theory",
+  "relation": "RELATED_TO",
+  "target": "HK.philosophy.political_philosophy.feminist_philosophy"
+ },
+ {
+  "source": "HK.film_studies.film_theory.cognitive_film_theory",
+  "relation": "INTERSECTS_WITH",
+  "target": "HK.cognitive_science"
+ },
+ {
+  "source": "HK.film_studies.animation_studies",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "HK.film_studies.film_aesthetics.cinematography",
+  "relation": "RELATED_TO",
+  "target": "HK.art_history.history_of_photography"
+ }
+]
