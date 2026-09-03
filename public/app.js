@@ -42,8 +42,9 @@ function treeNode(n) {
   const row = document.createElement("div"); row.className = "tnode";
   const tw = mk("span", {class:"tw"}); tw.textContent = (n.childCount>0||n.hasChildren) ? "▸" : "";
   const nm = mk("span", {class:"nm"}); nm.textContent = n.name_zh ? n.name+" · "+n.name_zh : n.name; nm.title = n.name;
+  const cnt = mk("span", {class:"cnt"}); cnt.textContent = n.childCount != null ? n.childCount : (n.hasChildren ? "…" : "0");
   const tt = mk("span", {class:"ttype"}); tt.textContent = shortType(n.type);
-  row.append(tw, nm, tt);
+  row.append(tw, nm, cnt, tt);
   row.addEventListener("click", async (e) => {
     e.stopPropagation(); setView("browse"); selectNode(n.id, row);
     if ((n.childCount>0||n.hasChildren) && !wrap.querySelector(".children")) {
@@ -128,7 +129,7 @@ function renderTab(data) {
   const body = $("#tab-body"), n = data.node;
   if (state.activeTab === "overview") {
     if (!data.children.length) { body.innerHTML='<div class="empty">叶子节点</div>'; return; }
-    body.innerHTML = '<div class="panel"><h3>子节点</h3>'+data.children.map(c=>'<div class="rel-row"><a data-id="'+esc(c.id)+'" class="nm" style="flex:1">'+esc(c.name)+(c.name_zh?' · '+esc(c.name_zh):'')+'</a><span class="cnt">'+c.childCount+'</span></div>').join("")+'</div>';
+    body.innerHTML = '<div class="panel"><h3>子节点 ('+data.children.length+') · 后代 ('+(data.descendants||0)+')</h3>'+data.children.map(c=>'<div class="rel-row"><a data-id="'+esc(c.id)+'" class="nm" style="flex:1">'+esc(c.name)+(c.name_zh?' · '+esc(c.name_zh):'')+'</a><span class="cnt">'+c.childCount+'</span></div>').join("")+'</div>';
     body.querySelectorAll("a[data-id]").forEach(a=>a.addEventListener("click",()=>selectNode(a.dataset.id)));
   } else if (state.activeTab === "relations") {
     const out = data.relationsOut.map(r=>'<div class="rel-row"><span class="rel-dir">→</span><span class="rel-type">'+esc(r.relation)+'</span><a data-id="'+esc(r.id)+'" class="nm" style="flex:1">'+esc(r.name)+'</a><span class="muted">'+shortType(r.type)+'</span></div>').join("");

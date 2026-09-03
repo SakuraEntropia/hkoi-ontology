@@ -45,7 +45,7 @@ function api(path, query) {
   // GET /api/roots  (universes)
   if (seg[1] === "roots") {
     return qAll("SELECT id,name,name_zh,type,description FROM nodes WHERE type='UNIVERSE' ORDER BY id")
-      .map(u => ({ ...u, hasChildren: qOne("SELECT COUNT(*) c FROM nodes WHERE parent=?", u.id).c > 0 }));
+      .map(u => ({ ...u, childCount: qOne("SELECT COUNT(*) c FROM nodes WHERE parent=?", u.id).c, hasChildren: true }));
   }
 
   // GET /api/search?q=&limit=
@@ -91,11 +91,13 @@ function api(path, query) {
       p = a.parent;
     }
     // relations out + in
+    const descendants = qOne("WITH RECURSIVE sub(id) AS (SELECT id FROM nodes WHERE parent=?1 UNION ALL SELECT n.id FROM nodes n JOIN sub s ON n.parent=s.id) SELECT COUNT(*) c FROM sub WHERE id != ?1", id).c;
     const out = qAll("SELECT r.relation, n.name, n.type, n.id, r.kind FROM relations r JOIN nodes n ON n.id=r.target WHERE r.source=? ORDER BY r.relation", id);
     const inc = qAll("SELECT r.relation, n.name, n.type, n.id, r.kind FROM relations r JOIN nodes n ON n.id=r.source WHERE r.target=? ORDER BY r.relation", id);
     let metrics = null;
     if (node.metrics) { try { metrics = JSON.parse(node.metrics); } catch {} }
     return {
+      descendants,
       node: {
         id: node.id, name: node.name, name_en: node.name_en, name_zh: node.name_zh,
         type: node.type, parent: node.parent, level: node.level, universe: node.universe,
