@@ -288,33 +288,6 @@
   "name_zh": "品牌设计"
  },
  {
-  "id": "ART.design.graphic_design.typography",
-  "name": "Typography",
-  "name_en": "Typography",
-  "type": "ART_FORM",
-  "parent": "ART.design.graphic_design",
-  "description": "The art of designing and arranging letterforms for legibility, tone, and expression.",
-  "name_zh": "字体设计"
- },
- {
-  "id": "ART.design.graphic_design.packaging_design",
-  "name": "Packaging Design",
-  "name_en": "Packaging Design",
-  "type": "ART_FORM",
-  "parent": "ART.design.graphic_design",
-  "description": "Designing containers and labels that protect products and communicate brand at the point of sale.",
-  "name_zh": "包装设计"
- },
- {
-  "id": "ART.design.graphic_design.editorial_design",
-  "name": "Editorial Design",
-  "name_en": "Editorial Design",
-  "type": "ART_FORM",
-  "parent": "ART.design.graphic_design",
-  "description": "Layout of books, magazines, and digital publications — grids, hierarchy, and image-text relationships.",
-  "name_zh": "版式设计"
- },
- {
   "id": "ART.fashion.haute_couture",
   "name": "Haute Couture",
   "name_en": "Haute Couture",
