@@ -158,6 +158,9 @@ function renderTab(data) {
     body.innerHTML = '<div class="panel"><h3>出边 ('+data.relationsOut.length+')</h3>'+(out||'<div class="empty">无</div>')+'</div>'+
       '<div class="panel"><h3>入边 ('+data.relationsIn.length+')</h3>'+(inc||'<div class="empty">无</div>')+'</div>';
     body.querySelectorAll("a[data-id]").forEach(a => a.addEventListener("click", () => selectNode(a.dataset.id)));
+  } else if (activeTab === "graph") {
+    body.innerHTML = "";
+    mountForceGraph(body, data);
   } else if (activeTab === "metrics") {
     body.innerHTML = renderMetrics(n.metrics);
   }
@@ -215,3 +218,57 @@ $("#btn-analytics").addEventListener("click", async () => {
 // init
 loadMeta();
 loadRoots();
+
+// ---- force-directed ego graph ----
+function mountForceGraph(container, data) {
+  const nodes = new Map();
+  const add = (n) => { if (n && n.id && !nodes.has(n.id)) nodes.set(n.id, { id:n.id, name:n.name, type:n.type, x:0, y:0, vx:0, vy:0 }); };
+  add({ id: data.node.id, name: data.node.name, type: data.node.type });
+  const edges = [];
+  for (const r of data.relationsOut) { add({ id:r.id, name:r.name, type:r.type }); edges.push([data.node.id, r.id, r.relation]); }
+  for (const r of data.relationsIn)  { add({ id:r.id, name:r.name, type:r.type }); edges.push([r.id, data.node.id, r.relation]); }
+  const arr = [...nodes.values()];
+  if (arr.length <= 1) { container.innerHTML = '<div class="empty">该节点无关系边</div>'; return; }
+  const W = Math.max(container.clientWidth - 4, 500), H = 540;
+  container.innerHTML = '<div class="muted" style="margin-bottom:8px">'+arr.length+' 节点 · '+edges.length+' 边 · 中心='+esc(data.node.name)+'</div><svg id="g"></svg>';
+  const svg = container.querySelector("svg");
+  svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+  svg.setAttribute("width", W); svg.setAttribute("height", H);
+  const cx = W/2, cy = H/2;
+  arr.forEach((n,i) => { const a = 2*Math.PI*i/arr.length; const r = Math.min(W,H)/3; n.x = cx + r*Math.cos(a); n.y = cy + r*Math.sin(a); });
+  const ns = "http://www.w3.org/2000/svg";
+  const lineEls = edges.map(e => { const l = document.createElementNS(ns,"line"); l.setAttribute("stroke","#333a4d"); l.setAttribute("stroke-width","1"); svg.appendChild(l); return l; });
+  const nodeEls = arr.map(n => {
+    const g = document.createElementNS(ns,"g");
+    g.style.cursor = "pointer";
+    const c = document.createElementNS(ns,"circle"); c.setAttribute("r","5"); c.setAttribute("fill", colorFor(n.type)); c.setAttribute("stroke","#0f1117"); c.setAttribute("stroke-width","1.5");
+    const t = document.createElementNS(ns,"text"); t.setAttribute("font-size","10"); t.setAttribute("fill","#aeb6c8"); t.setAttribute("x","9"); t.setAttribute("y","3"); t.textContent = truncate(n.name, 26);
+    g.appendChild(c); g.appendChild(t);
+    g.addEventListener("click", () => selectNode(n.id));
+    svg.appendChild(g);
+    return { g, n, c };
+  });
+  const byId = new Map(arr.map(n => [n.id, n]));
+  for (let tick = 0; tick < 320; tick++) {
+    for (let i=0;i<arr.length;i++) for (let j=i+1;j<arr.length;j++) {
+      const a=arr[i], b=arr[j]; let dx=a.x-b.x, dy=a.y-b.y; let d2=dx*dx+dy*dy||1; let d=Math.sqrt(d2);
+      const f = 8000/d2; a.vx+=dx/d*f; a.vy+=dy/d*f; b.vx-=dx/d*f; b.vy-=dy/d*f;
+    }
+    for (const [sa,sb] of edges) {
+      const a=byId.get(sa), b=byId.get(sb); if(!a||!b) continue;
+      let dx=b.x-a.x, dy=b.y-a.y; let d=Math.sqrt(dx*dx+dy*dy)||1; const f=(d-85)*0.012;
+      a.vx+=dx/d*f; a.vy+=dy/d*f; b.vx-=dx/d*f; b.vy-=dy/d*f;
+    }
+    for (const n of arr) { n.vx+=(cx-n.x)*0.012; n.vy+=(cy-n.y)*0.012; }
+    for (const n of arr) { n.vx*=0.85; n.vy*=0.85; n.x+=n.vx; n.y+=n.vy; }
+  }
+  (function render() {
+    lineEls.forEach((l,i) => { const e=edges[i]; const a=byId.get(e[0]), b=byId.get(e[1]); if(!a||!b) return; l.setAttribute("x1",a.x); l.setAttribute("y1",a.y); l.setAttribute("x2",b.x); l.setAttribute("y2",b.y); });
+    nodeEls.forEach(o => { o.g.setAttribute("transform","translate("+o.n.x.toFixed(1)+","+o.n.y.toFixed(1)+")"); o.c.setAttribute("r", o.n.id===data.node.id?8:5); });
+  })();
+}
+function colorFor(type) {
+  const m = { UNIVERSE:"#ffffff", KNOWLEDGE_FIELD:"#5b8cff", METHODOLOGY:"#60a5fa", OCCUPATION:"#22d3a5", SOCIAL_ROLE:"#a78bfa", ART_FORM:"#f472b6", ART_GENRE:"#f472b6", ART_MOVEMENT:"#f472b6", ART_TECHNIQUE:"#f472b6", SPORT:"#fb923c", GAME:"#fb923c", INDUSTRY:"#f59e0b", SECTOR:"#f59e0b", ECONOMIC_ACTIVITY:"#f59e0b", PRODUCT:"#34d399", SERVICE:"#34d399", TECHNOLOGY:"#2dd4bf", MATERIAL:"#2dd4bf", ORGANIZATION_TYPE:"#eab308", INSTITUTION:"#eab308", MEDIA_FORM:"#f87171", CONTENT_TYPE:"#f87171", EMERGING_FIELD:"#c084fc", ACTIVITY:"#38bdf8" };
+  return m[type] || "#94a3b8";
+}
+function truncate(s, n) { return (s && s.length > n) ? s.slice(0, n) + "…" : (s || ""); }

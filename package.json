@@ -12,6 +12,7 @@
     "report": "node src/report.mjs",
     "query": "node src/query.mjs",
     "ui": "node src/server.mjs",
-    "serve": "node src/server.mjs"
+    "serve": "node src/server.mjs",
+    "export": "node src/export.mjs"
   }
 }

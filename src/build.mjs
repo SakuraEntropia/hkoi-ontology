@@ -16,7 +16,7 @@ const NODE_TYPES = new Set([
   "PRODUCT","SERVICE","TECHNOLOGY","MATERIAL",
   "ORGANIZATION_TYPE","INSTITUTION",
   "MEDIA_FORM","CONTENT_TYPE",
-  "EMERGING_FIELD",
+  "EMERGING_FIELD","ACTIVITY",
 ]);
 
 const RELATION_TYPES = new Set([
@@ -36,7 +36,7 @@ const PARENT_RELATION = {
   INDUSTRY:"SUBINDUSTRY_OF", SECTOR:"SUBINDUSTRY_OF", ECONOMIC_ACTIVITY:"PART_OF",
   PRODUCT:"SUBTYPE_OF", SERVICE:"SUBTYPE_OF", TECHNOLOGY:"SUBTECHNOLOGY_OF", MATERIAL:"SUBTYPE_OF",
   ORGANIZATION_TYPE:"SUBTYPE_OF", INSTITUTION:"SUBTYPE_OF", MEDIA_FORM:"SUBTYPE_OF",
-  CONTENT_TYPE:"SUBTYPE_OF", EMERGING_FIELD:"SUBFIELD_OF", UNIVERSE:"PART_OF",
+  CONTENT_TYPE:"SUBTYPE_OF", EMERGING_FIELD:"SUBFIELD_OF", ACTIVITY:"SUBTYPE_OF", UNIVERSE:"PART_OF",
 };
 
 // metric ordinal vocab (validation = warn only)
@@ -129,7 +129,7 @@ for (const [id, n] of nodes) {
     type: n.type, parent: n.parent ?? null, level: levelOf(id), universe: univ,
     description: n.description ?? null, aliases: n.aliases ?? [], examples: n.examples ?? [],
     historical: !!n.historical, global: n.global !== false,
-    metrics: m, source: n.source ?? null,
+    metrics: m, participation_modes: n.participation_modes ?? [], source: n.source ?? null,
   });
 }
 for (const r of explicitRelations) {
@@ -176,13 +176,13 @@ const { DatabaseSync } = await import("node:sqlite");
 const db = new DatabaseSync(dbTmp);
 db.exec(schema);
 const insNode = db.prepare(`INSERT OR REPLACE INTO nodes
-  (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,source)
-  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+  (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,participation_modes,source)
+  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
 const insRel = db.prepare(`INSERT INTO relations (source,relation,target,kind) VALUES (?,?,?,?)`);
 db.exec("BEGIN");
 for (const n of normalized) insNode.run(n.id, n.name, n.name_en, n.name_zh, n.type, n.parent, n.level, n.universe,
   n.description, JSON.stringify(n.aliases), JSON.stringify(n.examples), n.historical?1:0, n.global?1:0,
-  n.metrics ? JSON.stringify(n.metrics) : null, n.source);
+  n.metrics ? JSON.stringify(n.metrics) : null, JSON.stringify(n.participation_modes ?? []), n.source);
 for (const r of allRelations) insRel.run(r.source, r.relation, r.target, r.kind);
 db.exec("COMMIT");
 db.exec(`INSERT OR REPLACE INTO meta VALUES ('generated_at', '${new Date().toISOString()}')`);
