@@ -53,7 +53,11 @@ ACT.domestic_garden.composting,Node;ACTIVITY,ACT.domestic_garden.composting,Comp
 ACT.domestic_garden.cooking_baking,Node;ACTIVITY,ACT.domestic_garden.cooking_baking,Cooking & Baking,烹饪与烘焙,ACTIVITY,ACTIVITIES,2
 ACT.domestic_garden.cooking_baking.baking,Node;ACTIVITY,ACT.domestic_garden.cooking_baking.baking,Baking,烘焙,ACTIVITY,ACTIVITIES,3
 ACT.domestic_garden.cooking_baking.bread_making,Node;ACTIVITY,ACT.domestic_garden.cooking_baking.bread_making,Bread Making,面包制作,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.cooking_baking.cuisine,Node;ACTIVITY,ACT.domestic_garden.cooking_baking.cuisine,Cuisine,菜系/料理,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.cooking_baking.cuisine.sushi,Node;ACTIVITY,ACT.domestic_garden.cooking_baking.cuisine.sushi,Sushi,寿司,ACTIVITY,ACTIVITIES,4
 ACT.domestic_garden.cooking_baking.grilling_barbecue,Node;ACTIVITY,ACT.domestic_garden.cooking_baking.grilling_barbecue,Grilling & Barbecue,烧烤,ACTIVITY,ACTIVITIES,3
+ACT.domestic_garden.cooking_baking.molecular_gastronomy,Node;ART_TECHNIQUE,ACT.domestic_garden.cooking_baking.molecular_gastronomy,Molecular Gastronomy,分子料理,ART_TECHNIQUE,ACTIVITIES,3
+ACT.domestic_garden.cooking_baking.sous_vide,Node;ART_TECHNIQUE,ACT.domestic_garden.cooking_baking.sous_vide,Sous-Vide,低温慢煮,ART_TECHNIQUE,ACTIVITIES,3
 ACT.domestic_garden.fermenting,Node;ACTIVITY,ACT.domestic_garden.fermenting,Fermenting,发酵食品,ACTIVITY,ACTIVITIES,2
 ACT.domestic_garden.fermenting.kombucha_brewing,Node;ACTIVITY,ACT.domestic_garden.fermenting.kombucha_brewing,Kombucha Brewing,康普茶,ACTIVITY,ACTIVITIES,3
 ACT.domestic_garden.foraging,Node;ACTIVITY,ACT.domestic_garden.foraging,Foraging,采集野食,ACTIVITY,ACTIVITIES,2
@@ -680,6 +684,7 @@ ART.film.film_forms.feature_film,Node;MEDIA_FORM,ART.film.film_forms.feature_fil
 ART.film.film_forms.newsreel,Node;MEDIA_FORM,ART.film.film_forms.newsreel,Newsreel,新闻片,MEDIA_FORM,ARTS_AND_CULTURE,3
 ART.film.film_forms.short_film,Node;MEDIA_FORM,ART.film.film_forms.short_film,Short Film,短片,MEDIA_FORM,ARTS_AND_CULTURE,3
 ART.film.film_forms.silent_film,Node;MEDIA_FORM,ART.film.film_forms.silent_film,Silent Film,默片,MEDIA_FORM,ARTS_AND_CULTURE,3
+ART.film.film_forms.stereoscopic_3d_film,Node;ART_FORM,ART.film.film_forms.stereoscopic_3d_film,3D Film,3D立体电影,ART_FORM,ARTS_AND_CULTURE,3
 ART.film.film_genres,Node;ART_GENRE,ART.film.film_genres,Film Genres,电影类型,ART_GENRE,ARTS_AND_CULTURE,2
 ART.film.film_genres.action_film,Node;ART_GENRE,ART.film.film_genres.action_film,Action Film,动作片,ART_GENRE,ARTS_AND_CULTURE,3
 ART.film.film_genres.adventure_film,Node;ART_GENRE,ART.film.film_genres.adventure_film,Adventure Film,冒险片,ART_GENRE,ARTS_AND_CULTURE,3
@@ -692,6 +697,7 @@ ART.film.film_genres.documentary_film,Node;ART_GENRE,ART.film.film_genres.docume
 ART.film.film_genres.drama_film,Node;ART_GENRE,ART.film.film_genres.drama_film,Drama Film,剧情片,ART_GENRE,ARTS_AND_CULTURE,3
 ART.film.film_genres.fantasy_film,Node;ART_GENRE,ART.film.film_genres.fantasy_film,Fantasy Film,奇幻片,ART_GENRE,ARTS_AND_CULTURE,3
 ART.film.film_genres.film_noir,Node;ART_GENRE,ART.film.film_genres.film_noir,Film Noir,黑色电影,ART_GENRE,ARTS_AND_CULTURE,3
+ART.film.film_genres.found_footage,Node;ART_GENRE,ART.film.film_genres.found_footage,Found Footage Film,拾得影像电影,ART_GENRE,ARTS_AND_CULTURE,3
 ART.film.film_genres.historical_film,Node;ART_GENRE,ART.film.film_genres.historical_film,Historical Film,历史片,ART_GENRE,ARTS_AND_CULTURE,3
 ART.film.film_genres.horror_film,Node;ART_GENRE,ART.film.film_genres.horror_film,Horror Film,恐怖片,ART_GENRE,ARTS_AND_CULTURE,3
 ART.film.film_genres.jidaigeki,Node;ART_GENRE,ART.film.film_genres.jidaigeki,Jidaigeki,时代剧,ART_GENRE,ARTS_AND_CULTURE,3
@@ -6410,6 +6416,7 @@ HK.physics.cosmology.observational_cosmology,Node;KNOWLEDGE_FIELD,HK.physics.cos
 HK.physics.cosmology.observational_cosmology.redshift_surveys,Node;KNOWLEDGE_FIELD,HK.physics.cosmology.observational_cosmology.redshift_surveys,Redshift Surveys,红移巡天,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,4
 HK.physics.cosmology.observational_cosmology.weak_lensing,Node;KNOWLEDGE_FIELD,HK.physics.cosmology.observational_cosmology.weak_lensing,Weak Lensing,弱引力透镜,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,4
 HK.physics.cosmology.physical_cosmology,Node;KNOWLEDGE_FIELD,HK.physics.cosmology.physical_cosmology,Physical Cosmology,物理宇宙学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
+HK.physics.cryogenics,Node;KNOWLEDGE_FIELD,HK.physics.cryogenics,Cryogenics,低温物理,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.physics.electromagnetism,Node;KNOWLEDGE_FIELD,HK.physics.electromagnetism,Electromagnetism,电磁学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,2
 HK.physics.electromagnetism.classical_electrodynamics,Node;KNOWLEDGE_FIELD,HK.physics.electromagnetism.classical_electrodynamics,Classical Electrodynamics,经典电动力学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3
 HK.physics.electromagnetism.electrodynamics,Node;KNOWLEDGE_FIELD,HK.physics.electromagnetism.electrodynamics,Electrodynamics,电动力学,KNOWLEDGE_FIELD,HUMAN_KNOWLEDGE,3

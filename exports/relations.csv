@@ -71,7 +71,11 @@ ACT.domestic_garden.composting,SUBTYPE_OF,ACT.domestic_garden,parent
 ACT.domestic_garden.cooking_baking,SUBTYPE_OF,ACT.domestic_garden,parent
 ACT.domestic_garden.cooking_baking.baking,SUBTYPE_OF,ACT.domestic_garden.cooking_baking,parent
 ACT.domestic_garden.cooking_baking.bread_making,SUBTYPE_OF,ACT.domestic_garden.cooking_baking,parent
+ACT.domestic_garden.cooking_baking.cuisine,SUBTYPE_OF,ACT.domestic_garden.cooking_baking,parent
+ACT.domestic_garden.cooking_baking.cuisine.sushi,SUBTYPE_OF,ACT.domestic_garden.cooking_baking.cuisine,parent
 ACT.domestic_garden.cooking_baking.grilling_barbecue,SUBTYPE_OF,ACT.domestic_garden.cooking_baking,parent
+ACT.domestic_garden.cooking_baking.molecular_gastronomy,TECHNIQUE_OF,ACT.domestic_garden.cooking_baking,parent
+ACT.domestic_garden.cooking_baking.sous_vide,TECHNIQUE_OF,ACT.domestic_garden.cooking_baking,parent
 ACT.domestic_garden.fermenting,SUBTYPE_OF,ACT.domestic_garden,parent
 ACT.domestic_garden.fermenting.kombucha_brewing,SUBTYPE_OF,ACT.domestic_garden.fermenting,parent
 ACT.domestic_garden.foraging,SUBTYPE_OF,ACT.domestic_garden,parent
@@ -898,6 +902,7 @@ ART.film.film_forms.short_film,OVERLAPS_WITH,MEDIA.cinema.short_film,explicit
 ART.film.film_forms.silent_film,SUBTYPE_OF,ART.film.film_forms,parent
 ART.film.film_forms.silent_film,OVERLAPS_WITH,HK.film_studies.film_history.silent_film,explicit
 ART.film.film_forms.silent_film,HISTORICAL_PREDECESSOR,ART.film.film_forms.feature_film,explicit
+ART.film.film_forms.stereoscopic_3d_film,SUBFORM_OF,ART.film.film_forms,parent
 ART.film.film_genres,SUBGENRE_OF,ART.film,parent
 ART.film.film_genres,OVERLAPS_WITH,MEDIA.cinema.film_genres,explicit
 ART.film.film_genres.action_film,SUBGENRE_OF,ART.film.film_genres,parent
@@ -923,6 +928,7 @@ ART.film.film_genres.film_noir,SUBGENRE_OF,ART.film.film_genres,parent
 ART.film.film_genres.film_noir,OVERLAPS_WITH,HK.film_studies.genre_studies.film_noir,explicit
 ART.film.film_genres.film_noir,OVERLAPS_WITH,MEDIA.cinema.film_genres.crime_film.film_noir,explicit
 ART.film.film_genres.film_noir,HISTORICAL_SUCCESSOR,ART.film.film_movements.german_expressionism,explicit
+ART.film.film_genres.found_footage,SUBGENRE_OF,ART.film.film_genres,parent
 ART.film.film_genres.historical_film,SUBGENRE_OF,ART.film.film_genres,parent
 ART.film.film_genres.historical_film,OVERLAPS_WITH,MEDIA.cinema.film_genres.historical_film,explicit
 ART.film.film_genres.horror_film,SUBGENRE_OF,ART.film.film_genres,parent
@@ -8645,6 +8651,7 @@ HK.physics.cosmology.observational_cosmology,SUBFIELD_OF,HK.physics.cosmology,pa
 HK.physics.cosmology.observational_cosmology.redshift_surveys,SUBFIELD_OF,HK.physics.cosmology.observational_cosmology,parent
 HK.physics.cosmology.observational_cosmology.weak_lensing,SUBFIELD_OF,HK.physics.cosmology.observational_cosmology,parent
 HK.physics.cosmology.physical_cosmology,SUBFIELD_OF,HK.physics.cosmology,parent
+HK.physics.cryogenics,SUBFIELD_OF,HK.physics,parent
 HK.physics.electromagnetism,SUBFIELD_OF,HK.physics,parent
 HK.physics.electromagnetism.classical_electrodynamics,SUBFIELD_OF,HK.physics.electromagnetism,parent
 HK.physics.electromagnetism.electrodynamics,SUBFIELD_OF,HK.physics.electromagnetism,parent

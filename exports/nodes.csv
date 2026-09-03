@@ -53,7 +53,11 @@ ACT.domestic_garden.composting,Composting,Composting,堆肥,ACTIVITY,ACT.domesti
 ACT.domestic_garden.cooking_baking,Cooking & Baking,Cooking & Baking,烹饪与烘焙,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Preparing meals and baked goods at home for pleasure.,0,1
 ACT.domestic_garden.cooking_baking.baking,Baking,Baking,烘焙,ACTIVITY,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,"Making breads, cakes, and pastries from scratch.",0,1
 ACT.domestic_garden.cooking_baking.bread_making,Bread Making,Bread Making,面包制作,ACTIVITY,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,"Kneading, proofing, and baking bread at home.",0,1
+ACT.domestic_garden.cooking_baking.cuisine,Cuisine,Cuisine,菜系/料理,ACTIVITY,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,"The culinary traditions of a culture or region — ingredient systems, techniques, and flavor principles that define a foodway, from Japanese kaiseki to French haute cuisine.",0,1
+ACT.domestic_garden.cooking_baking.cuisine.sushi,Sushi,Sushi,寿司,ACTIVITY,ACT.domestic_garden.cooking_baking.cuisine,4,ACTIVITIES,"Japanese dish of vinegared rice with fish and other ingredients — nigiri, maki, sashimi-adjacent. Evolved from Edo-period street food into a global cuisine.",0,1
 ACT.domestic_garden.cooking_baking.grilling_barbecue,Grilling & Barbecue,Grilling & Barbecue,烧烤,ACTIVITY,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,Cooking food over open flames and coals outdoors.,0,1
+ACT.domestic_garden.cooking_baking.molecular_gastronomy,Molecular Gastronomy,Molecular Gastronomy,分子料理,ART_TECHNIQUE,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,"A culinary science applying physics and chemistry to cooking — spherification, foams, gels — pioneered by Hervé This and Ferran Adrià.",0,1
+ACT.domestic_garden.cooking_baking.sous_vide,Sous-Vide,Sous-Vide,低温慢煮,ART_TECHNIQUE,ACT.domestic_garden.cooking_baking,3,ACTIVITIES,"Cooking vacuum-sealed food in a precisely controlled water bath for even, repeatable results. Once restaurant-only, now a home technique.",0,1
 ACT.domestic_garden.fermenting,Fermenting,Fermenting,发酵食品,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,Preserving foods through controlled microbial fermentation.,0,1
 ACT.domestic_garden.fermenting.kombucha_brewing,Kombucha Brewing,Kombucha Brewing,康普茶,ACTIVITY,ACT.domestic_garden.fermenting,3,ACTIVITIES,Fermenting sweetened tea into kombucha at home.,0,1
 ACT.domestic_garden.foraging,Foraging,Foraging,采集野食,ACTIVITY,ACT.domestic_garden,2,ACTIVITIES,"Gathering wild edible plants, fungi, and nuts responsibly.",0,1
@@ -680,6 +684,7 @@ ART.film.film_forms.feature_film,Feature Film,Feature Film,长片,MEDIA_FORM,ART
 ART.film.film_forms.newsreel,Newsreel,Newsreel,新闻片,MEDIA_FORM,ART.film.film_forms,3,ARTS_AND_CULTURE,"Short news films shown in cinemas, now obsolete.",1,1
 ART.film.film_forms.short_film,Short Film,Short Film,短片,MEDIA_FORM,ART.film.film_forms,3,ARTS_AND_CULTURE,A brief film under feature length.,0,1
 ART.film.film_forms.silent_film,Silent Film,Silent Film,默片,MEDIA_FORM,ART.film.film_forms,3,ARTS_AND_CULTURE,"Film without synchronized sound, dominant before the late 1920s.",1,1
+ART.film.film_forms.stereoscopic_3d_film,3D Film,3D Film,3D立体电影,ART_FORM,ART.film.film_forms,3,ARTS_AND_CULTURE,"Films projected stereoscopically so images appear to have depth, via polarized, anaglyph, or active-shutter systems. Periodic mainstream revivals since the 1950s.",0,1
 ART.film.film_genres,Film Genres,Film Genres,电影类型,ART_GENRE,ART.film,2,ARTS_AND_CULTURE,"Categories of film defined by shared narrative conventions, mood, and subject matter.",0,1
 ART.film.film_genres.action_film,Action Film,Action Film,动作片,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,"Film driven by physical feats, stunts, and combat.",0,1
 ART.film.film_genres.adventure_film,Adventure Film,Adventure Film,冒险片,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,"Film of quests, exotic journeys, and heroic escapades.",0,1
@@ -692,6 +697,7 @@ ART.film.film_genres.documentary_film,Documentary Film,Documentary Film,纪录�
 ART.film.film_genres.drama_film,Drama Film,Drama Film,剧情片,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,"Film centered on serious, realistic characters and emotional conflict.",0,1
 ART.film.film_genres.fantasy_film,Fantasy Film,Fantasy Film,奇幻片,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,"Film of magic, myth, and imaginary worlds.",0,1
 ART.film.film_genres.film_noir,Film Noir,Film Noir,黑色电影,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,Stylized crime films of moral ambiguity and shadowy cinematography.,0,1
+ART.film.film_genres.found_footage,Found Footage Film,Found Footage Film,拾得影像电影,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,"Films assembled largely from pre-existing footage — archives, home movies, surveillance — recontextualized by the filmmaker. Also names the horror subgenre shot as 'recovered' documentary.",0,1
 ART.film.film_genres.historical_film,Historical Film,Historical Film,历史片,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,Film reconstructing a past era or event.,0,1
 ART.film.film_genres.horror_film,Horror Film,Horror Film,恐怖片,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,Film designed to frighten and unsettle.,0,1
 ART.film.film_genres.jidaigeki,Jidaigeki,Jidaigeki,时代剧,ART_GENRE,ART.film.film_genres,3,ARTS_AND_CULTURE,"Japanese period film set in the Edo era or earlier, often featuring samurai.",0,0
@@ -6410,6 +6416,7 @@ HK.physics.cosmology.observational_cosmology,Observational Cosmology,Observation
 HK.physics.cosmology.observational_cosmology.redshift_surveys,Redshift Surveys,Redshift Surveys,红移巡天,KNOWLEDGE_FIELD,HK.physics.cosmology.observational_cosmology,4,HUMAN_KNOWLEDGE,,0,1
 HK.physics.cosmology.observational_cosmology.weak_lensing,Weak Lensing,Weak Lensing,弱引力透镜,KNOWLEDGE_FIELD,HK.physics.cosmology.observational_cosmology,4,HUMAN_KNOWLEDGE,,0,1
 HK.physics.cosmology.physical_cosmology,Physical Cosmology,Physical Cosmology,物理宇宙学,KNOWLEDGE_FIELD,HK.physics.cosmology,3,HUMAN_KNOWLEDGE,,0,1
+HK.physics.cryogenics,Cryogenics,Cryogenics,低温物理,KNOWLEDGE_FIELD,HK.physics,2,HUMAN_KNOWLEDGE,"The production and study of very low temperatures and the behavior of matter near absolute zero — superconductivity, superfluidity, liquefied gases.",0,1
 HK.physics.electromagnetism,Electromagnetism,Electromagnetism,电磁学,KNOWLEDGE_FIELD,HK.physics,2,HUMAN_KNOWLEDGE,The study of electric and magnetic fields and their interactions.,0,1
 HK.physics.electromagnetism.classical_electrodynamics,Classical Electrodynamics,Classical Electrodynamics,经典电动力学,KNOWLEDGE_FIELD,HK.physics.electromagnetism,3,HUMAN_KNOWLEDGE,,0,1
 HK.physics.electromagnetism.electrodynamics,Electrodynamics,Electrodynamics,电动力学,KNOWLEDGE_FIELD,HK.physics.electromagnetism,3,HUMAN_KNOWLEDGE,,0,1

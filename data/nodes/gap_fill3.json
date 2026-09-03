@@ -1,0 +1,65 @@
+[
+ {
+  "id": "ART.film.film_genres.found_footage",
+  "name": "Found Footage Film",
+  "name_en": "Found Footage Film",
+  "type": "ART_GENRE",
+  "parent": "ART.film.film_genres",
+  "description": "Films assembled largely from pre-existing footage — archives, home movies, surveillance — recontextualized by the filmmaker. Also names the horror subgenre shot as 'recovered' documentary.",
+  "name_zh": "拾得影像电影"
+ },
+ {
+  "id": "ART.film.film_forms.stereoscopic_3d_film",
+  "name": "3D Film",
+  "name_en": "3D Film",
+  "type": "ART_FORM",
+  "parent": "ART.film.film_forms",
+  "description": "Films projected stereoscopically so images appear to have depth, via polarized, anaglyph, or active-shutter systems. Periodic mainstream revivals since the 1950s.",
+  "name_zh": "3D立体电影"
+ },
+ {
+  "id": "ACT.domestic_garden.cooking_baking.cuisine",
+  "name": "Cuisine",
+  "name_en": "Cuisine",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.cooking_baking",
+  "description": "The culinary traditions of a culture or region — ingredient systems, techniques, and flavor principles that define a foodway, from Japanese kaiseki to French haute cuisine.",
+  "name_zh": "菜系/料理"
+ },
+ {
+  "id": "ACT.domestic_garden.cooking_baking.cuisine.sushi",
+  "name": "Sushi",
+  "name_en": "Sushi",
+  "type": "ACTIVITY",
+  "parent": "ACT.domestic_garden.cooking_baking.cuisine",
+  "description": "Japanese dish of vinegared rice with fish and other ingredients — nigiri, maki, sashimi-adjacent. Evolved from Edo-period street food into a global cuisine.",
+  "name_zh": "寿司"
+ },
+ {
+  "id": "ACT.domestic_garden.cooking_baking.molecular_gastronomy",
+  "name": "Molecular Gastronomy",
+  "name_en": "Molecular Gastronomy",
+  "type": "ART_TECHNIQUE",
+  "parent": "ACT.domestic_garden.cooking_baking",
+  "description": "A culinary science applying physics and chemistry to cooking — spherification, foams, gels — pioneered by Hervé This and Ferran Adrià.",
+  "name_zh": "分子料理"
+ },
+ {
+  "id": "ACT.domestic_garden.cooking_baking.sous_vide",
+  "name": "Sous-Vide",
+  "name_en": "Sous-Vide",
+  "type": "ART_TECHNIQUE",
+  "parent": "ACT.domestic_garden.cooking_baking",
+  "description": "Cooking vacuum-sealed food in a precisely controlled water bath for even, repeatable results. Once restaurant-only, now a home technique.",
+  "name_zh": "低温慢煮"
+ },
+ {
+  "id": "HK.physics.cryogenics",
+  "name": "Cryogenics",
+  "name_en": "Cryogenics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "description": "The production and study of very low temperatures and the behavior of matter near absolute zero — superconductivity, superfluidity, liquefied gases.",
+  "name_zh": "低温物理"
+ }
+]
