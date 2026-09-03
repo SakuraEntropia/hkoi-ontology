@@ -1,0 +1,1122 @@
+[
+  {
+    "source": "HK.chemistry.organic_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.inorganic_chemistry.organometallic_chemistry"
+  },
+  {
+    "source": "HK.chemistry.physical_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.theoretical_chemistry.quantum_chemistry"
+  },
+  {
+    "source": "HK.chemistry.physical_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.analytical_chemistry.instrumental_analysis.spectroscopy"
+  },
+  {
+    "source": "HK.chemistry.physical_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.chemistry.theoretical_chemistry.quantum_chemistry",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.chemistry.theoretical_chemistry.computational_chemistry",
+    "relation": "APPLICATION_OF",
+    "target": "HK.computer_science"
+  },
+  {
+    "source": "HK.chemistry.theoretical_chemistry.computational_chemistry.cheminformatics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.computer_science"
+  },
+  {
+    "source": "HK.chemistry.theoretical_chemistry.computational_chemistry.cheminformatics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.data_science"
+  },
+  {
+    "source": "HK.chemistry.analytical_chemistry.chemometrics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.statistics"
+  },
+  {
+    "source": "HK.chemistry.theoretical_chemistry.computational_chemistry.molecular_dynamics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.chemistry.theoretical_chemistry.computational_chemistry.monte_carlo_simulation",
+    "relation": "APPLICATION_OF",
+    "target": "HK.statistics"
+  },
+  {
+    "source": "HK.chemistry.analytical_chemistry.instrumental_analysis.spectroscopy",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.chemistry.analytical_chemistry.instrumental_analysis.spectroscopy.molecular_spectroscopy.nmr_spectroscopy",
+    "relation": "USED_BY",
+    "target": "HK.biology.structural_biology"
+  },
+  {
+    "source": "HK.chemistry.analytical_chemistry.instrumental_analysis.mass_spectrometry",
+    "relation": "USED_BY",
+    "target": "HK.chemistry.biochemistry"
+  },
+  {
+    "source": "HK.chemistry.analytical_chemistry.instrumental_analysis.mass_spectrometry",
+    "relation": "USED_BY",
+    "target": "HK.biology.molecular_biology.proteomics"
+  },
+  {
+    "source": "HK.chemistry.analytical_chemistry.instrumental_analysis.chromatography",
+    "relation": "USED_BY",
+    "target": "HK.chemistry.biochemistry"
+  },
+  {
+    "source": "HK.chemistry.physical_chemistry.electrochemistry",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.chemistry.polymer_chemistry.polymer_physics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.chemistry.polymer_chemistry.biopolymers",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.biochemistry"
+  },
+  {
+    "source": "HK.chemistry.polymer_chemistry.conductive_polymers",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.materials_science.semiconductor_materials"
+  },
+  {
+    "source": "HK.chemistry.inorganic_chemistry.solid_state_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.materials_science"
+  },
+  {
+    "source": "HK.chemistry.materials_chemistry.nanochemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.materials_science.nanomaterials"
+  },
+  {
+    "source": "HK.chemistry.polymer_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.materials_science.polymer_materials"
+  },
+  {
+    "source": "HK.materials_science.metallurgy.corrosion_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.physical_chemistry.electrochemistry"
+  },
+  {
+    "source": "HK.chemistry.nuclear_chemistry",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.chemistry.nuclear_chemistry.radiochemistry",
+    "relation": "USED_BY",
+    "target": "HK.chemistry.nuclear_chemistry.nuclear_forensics"
+  },
+  {
+    "source": "HK.chemistry.medicinal_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.pharmacy"
+  },
+  {
+    "source": "HK.chemistry.medicinal_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.chemistry.medicinal_chemistry.drug_metabolism",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.biochemistry"
+  },
+  {
+    "source": "HK.chemistry.medicinal_chemistry.pharmacokinetics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.chemistry.food_chemistry",
+    "relation": "RELATED_TO",
+    "target": "HK.agriculture"
+  },
+  {
+    "source": "HK.chemistry.food_chemistry.food_biochemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.biochemistry"
+  },
+  {
+    "source": "HK.chemistry.environmental_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science"
+  },
+  {
+    "source": "HK.chemistry.environmental_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.atmospheric_chemistry"
+  },
+  {
+    "source": "HK.chemistry.environmental_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.soil_science.soil_chemistry"
+  },
+  {
+    "source": "HK.chemistry.environmental_chemistry.green_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.sustainability_science"
+  },
+  {
+    "source": "HK.chemistry.materials_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.materials_science"
+  },
+  {
+    "source": "HK.chemistry.biochemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology"
+  },
+  {
+    "source": "HK.chemistry.biochemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.molecular_biology"
+  },
+  {
+    "source": "HK.chemistry.alchemy",
+    "relation": "HISTORICAL_SUCCESSOR",
+    "target": "HK.chemistry"
+  },
+  {
+    "source": "HK.chemistry.chinese_alchemy",
+    "relation": "HISTORICAL_SUCCESSOR",
+    "target": "HK.chemistry"
+  },
+  {
+    "source": "HK.chemistry.organic_chemistry.supramolecular_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.materials_chemistry.crystal_engineering"
+  },
+  {
+    "source": "HK.chemistry.materials_chemistry.metal_organic_frameworks",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.materials_chemistry.zeolite_chemistry"
+  },
+  {
+    "source": "HK.biology.molecular_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.genetics.molecular_genetics"
+  },
+  {
+    "source": "HK.biology.molecular_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.bioinformatics"
+  },
+  {
+    "source": "HK.biology.cell_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.biochemistry"
+  },
+  {
+    "source": "HK.biology.genetics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.molecular_biology"
+  },
+  {
+    "source": "HK.biology.molecular_biology.epigenetics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.genetics.epigenomics"
+  },
+  {
+    "source": "HK.biology.genetics.genomics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.bioinformatics"
+  },
+  {
+    "source": "HK.biology.genetics.genomics.metagenomics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.ecology.microbial_ecology"
+  },
+  {
+    "source": "HK.biology.genetics.population_genetics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.evolutionary_biology"
+  },
+  {
+    "source": "HK.biology.evolutionary_biology.phylogenetics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.evolutionary_biology.molecular_evolution"
+  },
+  {
+    "source": "HK.biology.ecology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.environmental_chemistry"
+  },
+  {
+    "source": "HK.biology.ecology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science"
+  },
+  {
+    "source": "HK.biology.ecology.microbial_ecology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.microbiology.environmental_microbiology"
+  },
+  {
+    "source": "HK.biology.ecology.biogeography",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.geography"
+  },
+  {
+    "source": "HK.biology.ecology.traditional_ecological_knowledge",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.botany.ethnobotany"
+  },
+  {
+    "source": "HK.biology.microbiology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.biology.microbiology.virology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.biology.microbiology.parasitology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.biology.microbiology.mycology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.botany.plant_pathology"
+  },
+  {
+    "source": "HK.biology.botany",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.agriculture"
+  },
+  {
+    "source": "HK.biology.botany.plant_pathology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.agriculture"
+  },
+  {
+    "source": "HK.biology.botany.ethnobotany",
+    "relation": "RELATED_TO",
+    "target": "HK.anthropology"
+  },
+  {
+    "source": "HK.biology.zoology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.paleontology"
+  },
+  {
+    "source": "HK.biology.zoology.ethology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.psychology"
+  },
+  {
+    "source": "HK.biology.zoology.primatology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.anthropology"
+  },
+  {
+    "source": "HK.biology.physiology.neurophysiology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.neuroscience"
+  },
+  {
+    "source": "HK.biology.physiology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.biology.physiology.endocrinology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.biology.immunology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.biology.immunology.vaccinology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.pharmacy"
+  },
+  {
+    "source": "HK.biology.immunology.immunotherapy",
+    "relation": "APPLICATION_OF",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.biology.evolutionary_biology.evolutionary_developmental_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.developmental_biology"
+  },
+  {
+    "source": "HK.biology.structural_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.biochemistry"
+  },
+  {
+    "source": "HK.biology.structural_biology.protein_structure_prediction",
+    "relation": "APPLICATION_OF",
+    "target": "HK.bioinformatics"
+  },
+  {
+    "source": "HK.biology.systems_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.systems_science"
+  },
+  {
+    "source": "HK.biology.systems_biology.computational_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.bioinformatics"
+  },
+  {
+    "source": "HK.biology.synthetic_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.engineering"
+  },
+  {
+    "source": "HK.biology.synthetic_biology.metabolic_engineering",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.engineering"
+  },
+  {
+    "source": "HK.biology.synthetic_biology.genome_engineering",
+    "relation": "APPLICATION_OF",
+    "target": "HK.biology.molecular_biology"
+  },
+  {
+    "source": "HK.biology.marine_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.oceanography.biological_oceanography"
+  },
+  {
+    "source": "HK.biology.conservation_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science"
+  },
+  {
+    "source": "HK.biology.conservation_biology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.ecology.restoration_ecology"
+  },
+  {
+    "source": "HK.biology.biophysics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.biology.biophysics.biomechanics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.biology.biophysics.electrophysiology",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.biology.evolutionary_biology.human_evolution",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.anthropology"
+  },
+  {
+    "source": "HK.biology.botany",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.paleontology.paleobotany"
+  },
+  {
+    "source": "HK.earth_science.geophysics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.earth_science.geophysics.seismology",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.earth_science.geophysics.geodesy",
+    "relation": "RELATED_TO",
+    "target": "HK.geography"
+  },
+  {
+    "source": "HK.earth_science.geochemistry",
+    "relation": "APPLICATION_OF",
+    "target": "HK.chemistry"
+  },
+  {
+    "source": "HK.earth_science.geochemistry.isotope_geochemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geochemistry.geochronology"
+  },
+  {
+    "source": "HK.earth_science.geochemistry.cosmochemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.astronomy.astrochemistry"
+  },
+  {
+    "source": "HK.earth_science.petrology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.mineralogy"
+  },
+  {
+    "source": "HK.earth_science.paleontology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology"
+  },
+  {
+    "source": "HK.earth_science.paleontology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.evolutionary_biology"
+  },
+  {
+    "source": "HK.earth_science.paleontology.vertebrate_paleontology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.zoology"
+  },
+  {
+    "source": "HK.earth_science.paleontology.paleoecology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.ecology"
+  },
+  {
+    "source": "HK.earth_science.paleontology.paleoclimatology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.climatology"
+  },
+  {
+    "source": "HK.earth_science.sedimentology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.stratigraphy"
+  },
+  {
+    "source": "HK.earth_science.sedimentology.sequence_stratigraphy",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.stratigraphy"
+  },
+  {
+    "source": "HK.earth_science.structural_geology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geophysics"
+  },
+  {
+    "source": "HK.earth_science.structural_geology.tectonics.plate_tectonics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geophysics.geodynamics"
+  },
+  {
+    "source": "HK.earth_science.geomorphology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.geography"
+  },
+  {
+    "source": "HK.earth_science.hydrology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.geography"
+  },
+  {
+    "source": "HK.earth_science.hydrology.hydrogeology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science"
+  },
+  {
+    "source": "HK.earth_science.volcanology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.petrology"
+  },
+  {
+    "source": "HK.earth_science.volcanology.magma_dynamics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.petrology.igneous_petrology"
+  },
+  {
+    "source": "HK.earth_science.soil_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.agriculture"
+  },
+  {
+    "source": "HK.earth_science.glaciology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.climatology"
+  },
+  {
+    "source": "HK.earth_science.glaciology.ice_sheet_dynamics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science.climate_change_science"
+  },
+  {
+    "source": "HK.earth_science.planetary_geology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.astronomy.planetary_science"
+  },
+  {
+    "source": "HK.earth_science.economic_geology.petroleum_geology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geochemistry.petroleum_geochemistry"
+  },
+  {
+    "source": "HK.earth_science.economic_geology.ore_genesis",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geochemistry"
+  },
+  {
+    "source": "HK.earth_science.geobiology.geomicrobiology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.microbiology.environmental_microbiology"
+  },
+  {
+    "source": "HK.earth_science.limnology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.oceanography"
+  },
+  {
+    "source": "HK.earth_science.geology.marine_geology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.oceanography.geological_oceanography"
+  },
+  {
+    "source": "HK.astronomy.astrophysics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.astronomy.astrophysics.plasma_astrophysics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.astronomy.astrophysics.relativistic_astrophysics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.astronomy.astrophysics.nuclear_astrophysics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.nuclear_chemistry"
+  },
+  {
+    "source": "HK.astronomy.astrophysics.computational_astrophysics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.computer_science"
+  },
+  {
+    "source": "HK.astronomy.cosmology",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.astronomy.astrophysics.particle_astrophysics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.astronomy.astrophysics.stellar_astrophysics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.astronomy.stellar_astronomy"
+  },
+  {
+    "source": "HK.astronomy.stellar_astronomy.stellar_nucleosynthesis",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.astronomy.astrophysics.nuclear_astrophysics"
+  },
+  {
+    "source": "HK.astronomy.stellar_astronomy.compact_objects.black_holes",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.astronomy.astrophysics.relativistic_astrophysics"
+  },
+  {
+    "source": "HK.astronomy.planetary_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.planetary_geology"
+  },
+  {
+    "source": "HK.astronomy.planetary_science.exoplanet_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.astronomy.planetary_science.planetary_habitability"
+  },
+  {
+    "source": "HK.astronomy.planetary_science.planetary_atmospheres",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science"
+  },
+  {
+    "source": "HK.astronomy.planetary_science.small_body_science.meteoritics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geochemistry.cosmochemistry"
+  },
+  {
+    "source": "HK.astronomy.observational_astronomy",
+    "relation": "USES",
+    "target": "HK.chemistry.analytical_chemistry.instrumental_analysis.spectroscopy"
+  },
+  {
+    "source": "HK.astronomy.observational_astronomy.gravitational_wave_astronomy",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.astronomy.astrometry.celestial_mechanics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.mathematics"
+  },
+  {
+    "source": "HK.astronomy.solar_physics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.astronomy.solar_physics.solar_magnetohydrodynamics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.astronomy.solar_physics.helioseismology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geophysics.seismology"
+  },
+  {
+    "source": "HK.astronomy.astrobiology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology"
+  },
+  {
+    "source": "HK.astronomy.astrobiology.origin_of_life",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.biochemistry"
+  },
+  {
+    "source": "HK.astronomy.astrobiology.origin_of_life.prebiotic_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry"
+  },
+  {
+    "source": "HK.astronomy.astrochemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geochemistry.cosmochemistry"
+  },
+  {
+    "source": "HK.astronomy.astrochemistry.interstellar_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry"
+  },
+  {
+    "source": "HK.astronomy.astrology",
+    "relation": "HISTORICAL_SUCCESSOR",
+    "target": "HK.astronomy"
+  },
+  {
+    "source": "HK.atmospheric_science.meteorology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.atmospheric_science.meteorology.dynamic_meteorology",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.atmospheric_science.meteorology.weather_forecasting.numerical_weather_prediction",
+    "relation": "APPLICATION_OF",
+    "target": "HK.computer_science"
+  },
+  {
+    "source": "HK.atmospheric_science.climatology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science"
+  },
+  {
+    "source": "HK.atmospheric_science.climatology.climate_modeling",
+    "relation": "APPLICATION_OF",
+    "target": "HK.computer_science"
+  },
+  {
+    "source": "HK.atmospheric_science.atmospheric_chemistry",
+    "relation": "APPLICATION_OF",
+    "target": "HK.chemistry"
+  },
+  {
+    "source": "HK.atmospheric_science.atmospheric_physics",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.atmospheric_science.aeronomy",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.astronomy.solar_physics"
+  },
+  {
+    "source": "HK.atmospheric_science.aeronomy.space_weather",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.astronomy.solar_physics.solar_activity"
+  },
+  {
+    "source": "HK.atmospheric_science.atmospheric_chemistry.air_quality_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science.environmental_pollution.air_pollution"
+  },
+  {
+    "source": "HK.atmospheric_science.atmospheric_chemistry.atmospheric_aerosols",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science.environmental_pollution.air_pollution"
+  },
+  {
+    "source": "HK.oceanography.physical_oceanography",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.oceanography.physical_oceanography.ocean_circulation",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.climatology"
+  },
+  {
+    "source": "HK.oceanography.physical_oceanography.ocean_circulation.thermohaline_circulation",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science.climate_change_science"
+  },
+  {
+    "source": "HK.oceanography.physical_oceanography.air_sea_interaction",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.meteorology"
+  },
+  {
+    "source": "HK.oceanography.physical_oceanography.ocean_modeling",
+    "relation": "APPLICATION_OF",
+    "target": "HK.computer_science"
+  },
+  {
+    "source": "HK.oceanography.chemical_oceanography",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.environmental_chemistry"
+  },
+  {
+    "source": "HK.oceanography.chemical_oceanography.marine_chemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.environmental_chemistry.aquatic_chemistry"
+  },
+  {
+    "source": "HK.oceanography.chemical_oceanography.ocean_acidification",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science.climate_change_science.carbon_cycle_science"
+  },
+  {
+    "source": "HK.oceanography.chemical_oceanography.marine_carbon_cycle",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.environmental_science.climate_change_science.carbon_cycle_science"
+  },
+  {
+    "source": "HK.oceanography.biological_oceanography.marine_microbiology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.microbiology.environmental_microbiology"
+  },
+  {
+    "source": "HK.oceanography.biological_oceanography.marine_food_webs",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.ecology.trophic_ecology"
+  },
+  {
+    "source": "HK.oceanography.geological_oceanography.seafloor_spreading",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.structural_geology.tectonics.plate_tectonics"
+  },
+  {
+    "source": "HK.oceanography.geological_oceanography.marine_sedimentology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.sedimentology"
+  },
+  {
+    "source": "HK.oceanography.geological_oceanography.submarine_volcanism",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.volcanology"
+  },
+  {
+    "source": "HK.oceanography.paleoceanography",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.paleontology.paleoclimatology"
+  },
+  {
+    "source": "HK.oceanography.paleoceanography.marine_paleoclimatology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.paleontology.paleoclimatology"
+  },
+  {
+    "source": "HK.oceanography.marine_biogeochemistry",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geochemistry.biogeochemistry"
+  },
+  {
+    "source": "HK.oceanography.marine_biogeochemistry.biological_pump",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.oceanography.chemical_oceanography.marine_carbon_cycle"
+  },
+  {
+    "source": "HK.materials_science.materials_characterization",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.analytical_chemistry"
+  },
+  {
+    "source": "HK.materials_science.materials_characterization.electron_microscopy",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.structural_biology.cryo_electron_microscopy"
+  },
+  {
+    "source": "HK.materials_science.materials_characterization.x_ray_diffraction",
+    "relation": "TECHNIQUE_OF",
+    "target": "HK.earth_science.mineralogy.crystallography"
+  },
+  {
+    "source": "HK.biology.structural_biology.x_ray_crystallography",
+    "relation": "TECHNIQUE_OF",
+    "target": "HK.earth_science.mineralogy.crystallography"
+  },
+  {
+    "source": "HK.materials_science.metallurgy",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.inorganic_chemistry"
+  },
+  {
+    "source": "HK.materials_science.metallurgy.physical_metallurgy",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.inorganic_chemistry.solid_state_chemistry"
+  },
+  {
+    "source": "HK.materials_science.metallurgy.extractive_metallurgy",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.engineering"
+  },
+  {
+    "source": "HK.materials_science.ceramics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.inorganic_chemistry"
+  },
+  {
+    "source": "HK.materials_science.ceramics.glass_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.physical_chemistry"
+  },
+  {
+    "source": "HK.materials_science.polymer_materials.polymer_engineering",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.engineering"
+  },
+  {
+    "source": "HK.materials_science.composites",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.engineering"
+  },
+  {
+    "source": "HK.materials_science.semiconductor_materials",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.materials_science.semiconductor_materials.superconducting_materials",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.materials_science.nanomaterials.quantum_dots",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.materials_science.semiconductor_materials.optoelectronic_materials"
+  },
+  {
+    "source": "HK.materials_science.biomaterials",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.materials_science.biomaterials.tissue_engineering_materials",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.medicine"
+  },
+  {
+    "source": "HK.materials_science.biomaterials.drug_delivery_materials",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.pharmacy"
+  },
+  {
+    "source": "HK.materials_science.functional_materials.magnetic_materials",
+    "relation": "APPLICATION_OF",
+    "target": "HK.physics"
+  },
+  {
+    "source": "HK.materials_science.functional_materials.energy_storage_materials",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.physical_chemistry.electrochemistry.battery_chemistry"
+  },
+  {
+    "source": "HK.materials_science.computational_materials_science",
+    "relation": "APPLICATION_OF",
+    "target": "HK.computer_science"
+  },
+  {
+    "source": "HK.materials_science.computational_materials_science",
+    "relation": "USES",
+    "target": "HK.chemistry.theoretical_chemistry.computational_chemistry.density_functional_theory"
+  },
+  {
+    "source": "HK.materials_science.computational_materials_science.materials_informatics",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.data_science"
+  },
+  {
+    "source": "HK.materials_science.materials_synthesis.crystal_growth",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.materials_chemistry.crystal_engineering"
+  },
+  {
+    "source": "HK.materials_science.materials_synthesis.thin_film_deposition",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.materials_science.nanomaterials.nanofabrication"
+  },
+  {
+    "source": "HK.environmental_science.ecotoxicology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology"
+  },
+  {
+    "source": "HK.environmental_science.ecotoxicology.aquatic_toxicology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.environmental_chemistry.aquatic_chemistry"
+  },
+  {
+    "source": "HK.environmental_science.ecotoxicology.nanotoxicology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.materials_science.nanomaterials"
+  },
+  {
+    "source": "HK.environmental_science.environmental_monitoring",
+    "relation": "USES",
+    "target": "HK.chemistry.environmental_chemistry.environmental_analysis"
+  },
+  {
+    "source": "HK.environmental_science.environmental_monitoring.air_quality_monitoring",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.atmospheric_chemistry.air_quality_science"
+  },
+  {
+    "source": "HK.environmental_science.environmental_monitoring.environmental_remote_sensing",
+    "relation": "APPLICATION_OF",
+    "target": "HK.geography"
+  },
+  {
+    "source": "HK.environmental_science.environmental_pollution.air_pollution",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.atmospheric_chemistry"
+  },
+  {
+    "source": "HK.environmental_science.environmental_pollution.water_pollution",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.environmental_chemistry.aquatic_chemistry"
+  },
+  {
+    "source": "HK.environmental_science.environmental_pollution.soil_pollution",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.soil_science.soil_chemistry"
+  },
+  {
+    "source": "HK.environmental_science.environmental_pollution.radioactive_contamination",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.nuclear_chemistry.radiochemistry"
+  },
+  {
+    "source": "HK.environmental_science.waste_management.wastewater_treatment",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.engineering"
+  },
+  {
+    "source": "HK.environmental_science.environmental_impact_assessment.life_cycle_assessment",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.sustainability_science"
+  },
+  {
+    "source": "HK.environmental_science.environmental_modeling.fate_and_transport_modeling",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.chemistry.environmental_chemistry"
+  },
+  {
+    "source": "HK.environmental_science.environmental_modeling.hydrological_modeling",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.hydrology"
+  },
+  {
+    "source": "HK.environmental_science.environmental_modeling.ecosystem_modeling",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.ecology.ecosystem_ecology"
+  },
+  {
+    "source": "HK.environmental_science.climate_change_science.greenhouse_gas_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.atmospheric_chemistry"
+  },
+  {
+    "source": "HK.environmental_science.climate_change_science.carbon_cycle_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.geochemistry.biogeochemistry"
+  },
+  {
+    "source": "HK.environmental_science.climate_change_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.atmospheric_science.climatology"
+  },
+  {
+    "source": "HK.environmental_science.climate_change_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.sustainability_science"
+  },
+  {
+    "source": "HK.environmental_science.climate_change_science.carbon_capture_and_storage",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.engineering"
+  },
+  {
+    "source": "HK.environmental_science.environmental_remediation.bioremediation",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.microbiology.environmental_microbiology"
+  },
+  {
+    "source": "HK.environmental_science.environmental_remediation.phytoremediation",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.biology.botany"
+  },
+  {
+    "source": "HK.environmental_science.environmental_remediation.groundwater_remediation",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.earth_science.hydrology.hydrogeology"
+  },
+  {
+    "source": "HK.environmental_science.environmental_health.environmental_epidemiology",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.public_health"
+  },
+  {
+    "source": "HK.environmental_science.environmental_health.exposure_science",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.public_health"
+  },
+  {
+    "source": "HK.environmental_science.environmental_health",
+    "relation": "OVERLAPS_WITH",
+    "target": "HK.public_health"
+  }
+]

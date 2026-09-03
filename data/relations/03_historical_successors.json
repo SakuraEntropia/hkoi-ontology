@@ -1,0 +1,112 @@
+[
+ {
+  "source": "hist.scribal_occupations.scribe",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.business.typist"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe.manuscript_scribe",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.business.typist"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe.legal_scribe",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.law.judiciary.court_clerk"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe.court_scribe",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.business.typist"
+ },
+ {
+  "source": "hist.scribal_occupations.illuminator",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.arts.visual_arts.illustrator"
+ },
+ {
+  "source": "hist.scribal_occupations.illuminator.miniaturist",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.arts.visual_arts.illustrator"
+ },
+ {
+  "source": "hist.scribal_occupations.calligrapher",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.arts.visual_arts.calligrapher"
+ },
+ {
+  "source": "hist.printing_occupations.typesetter",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.arts.visual_arts.illustrator"
+ },
+ {
+  "source": "hist.printing_occupations.typesetter.hand_compositor",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.arts.visual_arts.illustrator"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.blacksmith",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.trades.machining.blacksmith"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.swordsmith",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.trades.machining.blacksmith.bladesmith"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.swordsmith.katana_smith",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.trades.machining.blacksmith.bladesmith"
+ },
+ {
+  "source": "hist.textile_occupations.weaver",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.arts.visual_arts.textile_artist.weaver"
+ },
+ {
+  "source": "hist.textile_occupations.tapestry_weaver",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.arts.visual_arts.textile_artist.weaver"
+ },
+ {
+  "source": "hist.health_occupations.apothecary",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.science.physical_sciences.chemist"
+ },
+ {
+  "source": "hist.occult_occupations.alchemist",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.science.physical_sciences.chemist"
+ },
+ {
+  "source": "hist.lighting_urban_occupations.lamplighter",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.construction.construction_trades.electrician"
+ },
+ {
+  "source": "hist.computing_media_occupations.human_computer",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.it_computing.software_development.software_engineer"
+ },
+ {
+  "source": "hist.computing_media_occupations.human_computer.astronomical_computer",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.it_computing.software_development.software_engineer"
+ },
+ {
+  "source": "hist.computing_media_occupations.darkroom_technician",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.arts.visual_arts.fine_art_photographer"
+ },
+ {
+  "source": "hist.communication_occupations.switchboard_operator",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.personal_services.customer_service.customer_service_representative"
+ },
+ {
+  "source": "hist.communication_occupations.town_crier",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.media.journalism.news_anchor"
+ }
+]
