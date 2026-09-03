@@ -3,7 +3,7 @@
   "name": "HK-OI",
   "title": "Human Knowledge, Occupation & Industry Ontology",
   "version": "0.2.0",
-  "generatedAt": "2026-09-03T06:03:56.312Z",
+  "generatedAt": "2026-09-03T06:05:20.102Z",
   "universes": [
    "HUMAN_KNOWLEDGE",
    "OCCUPATIONS",
@@ -20,10 +20,10 @@
   ],
   "counts": {
    "nodes": 11491,
-   "relations": 13395,
-   "explicitRelations": 1926,
+   "relations": 13597,
+   "explicitRelations": 2128,
    "parentEdges": 11479,
-   "withMetrics": 346
+   "withMetrics": 431
   }
  },
  "nodes": [
@@ -29797,7 +29797,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "~20K"
+    },
+    "economy": {
+     "est": "~$10B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 20
+    },
+    "historical_significance": "moderate",
+    "growth": "stable",
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "low",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -29933,7 +29954,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~300K"
+    },
+    "economy": {
+     "est": "~$400B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 70
+    },
+    "historical_significance": "very_high",
+    "growth": "growing",
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -30447,7 +30489,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~200K"
+    },
+    "economy": {
+     "est": "~$100B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -30583,7 +30646,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~300K"
+    },
+    "economy": {
+     "est": "~$500B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "high",
+    "growth": "rapidly_growing",
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -31163,7 +31247,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~1M"
+    },
+    "economy": {
+     "est": "~$2T",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "institutionalization": "very_high",
+    "cultural_visibility": "low",
+    "economic_weight": "very_high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -31745,7 +31850,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~3M"
+    },
+    "economy": {
+     "est": "~$2T",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 70
+    },
+    "historical_significance": "foundational",
+    "growth": "stable",
+    "institutionalization": "very_high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "very_high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -32582,7 +32708,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~2M"
+    },
+    "economy": {
+     "est": "~$1T",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 60
+    },
+    "historical_significance": "very_high",
+    "growth": "growing",
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "very_high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -32945,7 +33092,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~3M"
+    },
+    "economy": {
+     "est": "~$2T",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 65
+    },
+    "historical_significance": "foundational",
+    "growth": "growing",
+    "institutionalization": "very_high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "very_high",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -33869,7 +34037,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "~1M"
+    },
+    "economy": {
+     "est": "~$300B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "high",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -33994,7 +34183,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "~2M"
+    },
+    "economy": {
+     "est": "~$500B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "moderate",
+    "growth": "growing",
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "very_high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -34113,7 +34323,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~300K"
+    },
+    "economy": {
+     "est": "~$100B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 50
+    },
+    "historical_significance": "high",
+    "growth": "rapidly_growing",
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "moderate",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -34642,7 +34873,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "~50K"
+    },
+    "economy": {
+     "est": "~$30B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "moderate",
+    "growth": "stable",
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "moderate",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -34761,7 +35013,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "~100K"
+    },
+    "economy": {
+     "est": "~$200B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "moderate",
+    "growth": "stable",
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -34880,7 +35153,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~1M"
+    },
+    "economy": {
+     "est": "~$500B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "very_high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -35451,7 +35745,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~100K"
+    },
+    "economy": {
+     "est": "~$300B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -35895,7 +36210,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~300K"
+    },
+    "economy": {
+     "est": "~$1T",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "very_high",
+    "growth": "growing",
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "very_high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -36458,7 +36794,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~3M"
+    },
+    "economy": {
+     "est": "~$2T",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 70
+    },
+    "historical_significance": "foundational",
+    "growth": "stable",
+    "institutionalization": "very_high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "very_high",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -37575,7 +37932,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~200K"
+    },
+    "economy": {
+     "est": "~$300B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "very_high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -38051,7 +38429,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~100K"
+    },
+    "economy": {
+     "est": "~$100B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "high",
+    "growth": "declining",
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "moderate",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -38529,7 +38928,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~300K"
+    },
+    "economy": {
+     "est": "~$500B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "high",
+    "growth": "declining",
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "very_high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -38890,7 +39310,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~300K"
+    },
+    "economy": {
+     "est": "~$100B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 65
+    },
+    "historical_significance": "high",
+    "growth": "rapidly_growing",
+    "institutionalization": "moderate",
+    "cultural_visibility": "high",
+    "economic_weight": "high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -39425,7 +39866,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.55,
+    "population": {
+     "est": "~10M"
+    },
+    "economy": {
+     "est": "~$1.5T",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 80
+    },
+    "historical_significance": "very_high",
+    "growth": "rapidly_growing",
+    "institutionalization": "very_high",
+    "cultural_visibility": "very_high",
+    "economic_weight": "very_high",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -40302,7 +40764,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.5,
+    "population": {
+     "est": "~500K"
+    },
+    "economy": {
+     "est": "~$300B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -40773,7 +41256,28 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "~100K"
+    },
+    "economy": {
+     "est": "~$500B",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD"
+    },
+    "public_awareness": {
+     "score": 20
+    },
+    "historical_significance": "high",
+    "growth": "declining",
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "high",
+    "cultural_weight": "low"
+   },
    "source": null
   },
   {
@@ -43773,7 +44277,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "foundational",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -43792,7 +44322,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "foundational",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -43811,7 +44367,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 70
+    },
+    "historical_significance": "foundational",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "moderate",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -43828,7 +44410,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -43845,7 +44453,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "low",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -43862,7 +44496,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 60
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "moderate",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -43879,7 +44539,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -43896,7 +44582,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -43913,7 +44625,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -43930,7 +44668,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -43947,7 +44711,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -43966,7 +44756,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -43983,7 +44799,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -44000,7 +44842,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -44017,7 +44885,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 20
+    },
+    "historical_significance": "moderate",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "low",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -44034,7 +44928,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -44051,7 +44971,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "moderate",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46713,7 +47659,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46730,7 +47702,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 50
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46747,7 +47745,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 65
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -46764,7 +47788,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46781,7 +47831,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46798,7 +47874,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 60
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -46815,7 +47917,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46832,7 +47960,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 50
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46849,7 +48003,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46866,7 +48046,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46883,7 +48089,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "low",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46900,7 +48132,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46917,7 +48175,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46951,7 +48235,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46968,7 +48278,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -46985,7 +48321,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "very_high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -47002,7 +48364,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -47019,7 +48407,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -47053,7 +48467,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "moderate",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -47070,7 +48510,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -47087,7 +48553,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "moderate",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "low",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "moderate"
+   },
    "source": null
   },
   {
@@ -47121,7 +48613,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -47138,7 +48656,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "very_high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -47155,7 +48699,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 50
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -47172,7 +48742,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49439,7 +51035,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 70
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "low",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49456,7 +51078,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 80
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "very_high",
+    "economic_weight": "high",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49473,7 +51121,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 60
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "low",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49492,7 +51166,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "moderate",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49509,7 +51209,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49526,7 +51252,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49543,7 +51295,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49560,7 +51338,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "very_high",
+    "growth": "declining",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "low",
+    "cultural_visibility": "moderate",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49577,7 +51381,33 @@
    "examples": [],
    "historical": false,
    "global": true,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 65
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "moderate",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49611,7 +51441,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 55
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "high",
+    "economic_weight": "low",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49628,7 +51484,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49662,7 +51544,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49679,7 +51587,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49696,7 +51630,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 25
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "low",
+    "economic_weight": "negligible",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49730,7 +51690,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 65
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "very_high",
+    "cultural_visibility": "high",
+    "economic_weight": "moderate",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49747,7 +51733,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 45
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49781,7 +51793,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 40
+    },
+    "historical_significance": "very_high",
+    "growth": "stable",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "high",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "very_high"
+   },
    "source": null
   },
   {
@@ -49832,7 +51870,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 35
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -49849,7 +51913,33 @@
    "examples": [],
    "historical": false,
    "global": false,
-   "metrics": null,
+   "metrics": {
+    "method": "model_estimate",
+    "confidence": 0.45,
+    "population": {
+     "est": "unknown",
+     "note": "practitioners counted within parent discipline"
+    },
+    "economy": {
+     "est": "not separately measured",
+     "basis": "annual global (order-of-magnitude)",
+     "year": 2025,
+     "currency": "USD",
+     "note": "embedded in parent discipline"
+    },
+    "public_awareness": {
+     "score": 30
+    },
+    "historical_significance": "high",
+    "growth": "growing",
+    "geography": [
+     "global"
+    ],
+    "institutionalization": "moderate",
+    "cultural_visibility": "moderate",
+    "economic_weight": "low",
+    "cultural_weight": "high"
+   },
    "source": null
   },
   {
@@ -284978,6 +287068,1218 @@
    "source": "SPORT.cue_sports",
    "relation": "RELATED_TO",
    "target": "HK.physics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.computer_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.information_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.data_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.data_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.database_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.computer_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.cryptography",
+   "relation": "APPLICATION_OF",
+   "target": "HK.mathematics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.quantum_computing",
+   "relation": "APPLICATION_OF",
+   "target": "HK.physics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence",
+   "relation": "APPLICATION_OF",
+   "target": "HK.computer_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence",
+   "relation": "APPLICATION_OF",
+   "target": "HK.cognitive_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.machine_learning",
+   "relation": "APPLICATION_OF",
+   "target": "HK.statistics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.symbolic_ai",
+   "relation": "APPLICATION_OF",
+   "target": "HK.logic",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.biology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.genetic_engineering",
+   "relation": "APPLICATION_OF",
+   "target": "HK.biology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.bioinformatics",
+   "relation": "APPLICATION_OF",
+   "target": "HK.bioinformatics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.physics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.chemistry",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.materials_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.chemistry",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.engineering",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.engineering",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.aerospace",
+   "relation": "APPLICATION_OF",
+   "target": "HK.physics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.medicine",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.engineering",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.neurotechnology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.neuroscience",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.agriculture",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.space_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.physics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.space_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.astronomy",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.space_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.engineering",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications",
+   "relation": "APPLICATION_OF",
+   "target": "HK.information_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.clean_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.environmental_science",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.chemical_process_technology",
+   "relation": "APPLICATION_OF",
+   "target": "HK.chemistry",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.photonics",
+   "relation": "APPLICATION_OF",
+   "target": "HK.physics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.autonomous_vehicle.self_driving_car",
+   "relation": "USES",
+   "target": "TECH.transport_technology.autonomous_vehicle.sensor_fusion",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.autonomous_vehicle.advanced_driver_assistance_system",
+   "relation": "USES",
+   "target": "TECH.transport_technology.autonomous_vehicle.sensor_fusion",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.autonomous_vehicle.advanced_driver_assistance_system",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.computer_vision",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.computer_vision",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning.artificial_neural_network.convolutional_neural_network",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.computer_vision.object_detection",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning.artificial_neural_network.convolutional_neural_network",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.computer_vision.facial_recognition",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning.artificial_neural_network.convolutional_neural_network",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.natural_language_processing.large_language_model",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning.artificial_neural_network.transformer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.deep_learning.artificial_neural_network.transformer",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning.attention_mechanism",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.generative_ai.text_to_image_generation",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning.diffusion_model",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.generative_ai.foundation_model",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning.artificial_neural_network.transformer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.natural_language_processing.retrieval_augmented_generation",
+   "relation": "USES",
+   "target": "TECH.information_technology.database_technology.vector_database",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.natural_language_processing.retrieval_augmented_generation",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.natural_language_processing.large_language_model",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.recommender_system",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.symbolic_ai.knowledge_graph",
+   "relation": "USES",
+   "target": "TECH.information_technology.database_technology.nosql_database.graph_database",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.speech_technology.automatic_speech_recognition",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.speech_technology.text_to_speech",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.deep_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.speech_technology.voice_cloning",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.speech_technology.text_to_speech",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.computer_vision.optical_character_recognition",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.computer_vision.image_classification",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.explainable_ai",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.edge_ai",
+   "relation": "USES",
+   "target": "TECH.information_technology.computing.computer_systems.edge_computer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.ai_safety.adversarial_machine_learning",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.cybersecurity.threat_intelligence",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.in_vitro_diagnostics.molecular_diagnostics",
+   "relation": "USES",
+   "target": "TECH.biotechnology.molecular_biology_techniques.polymerase_chain_reaction",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.medical_imaging.magnetic_resonance_imaging",
+   "relation": "USES",
+   "target": "TECH.materials_technology.superconductors.high_temperature_superconductor",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.surgical_technology.robotic_surgery",
+   "relation": "USES",
+   "target": "TECH.manufacturing_technology.industrial_robotics.robotic_arm",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.surgical_technology.laser_surgery",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.microfabrication.photolithography",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.microfabrication.semiconductor_fabrication",
+   "relation": "USES",
+   "target": "TECH.manufacturing_technology.microfabrication.photolithography",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.microfabrication.semiconductor_fabrication",
+   "relation": "USES",
+   "target": "TECH.materials_technology.coating_technology.chemical_vapor_deposition",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.microfabrication.extreme_ultraviolet_lithography",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.subtractive_manufacturing.laser_cutting",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.joining_processes.welding.laser_welding",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.additive_manufacturing.stereolithography",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.additive_manufacturing.selective_laser_sintering",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.additive_manufacturing.selective_laser_melting",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.additive_manufacturing",
+   "relation": "USES",
+   "target": "TECH.manufacturing_technology.automation.computer_aided_design",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.automation.computer_aided_manufacturing",
+   "relation": "USES",
+   "target": "TECH.manufacturing_technology.automation.computer_aided_design",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.subtractive_manufacturing.cnc_machining",
+   "relation": "USES",
+   "target": "TECH.manufacturing_technology.automation.computer_aided_manufacturing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.metrology.machine_vision_inspection",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.computer_vision",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.smart_manufacturing.digital_twin",
+   "relation": "USES",
+   "target": "TECH.manufacturing_technology.smart_manufacturing.industrial_internet_of_things",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.smart_manufacturing.predictive_maintenance",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications.optical_communication.fiber_optic_communication",
+   "relation": "USES",
+   "target": "TECH.photonics.laser.semiconductor_laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.autonomous_vehicle.lidar",
+   "relation": "USES",
+   "target": "TECH.photonics.laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.autonomous_vehicle.lidar",
+   "relation": "USES",
+   "target": "TECH.photonics.photodetector",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.electric_vehicle.battery_electric_vehicle",
+   "relation": "USES",
+   "target": "TECH.energy_technology.energy_storage.battery_technology.lithium_ion_battery",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.vehicle_engineering.fuel_cell_vehicle",
+   "relation": "USES",
+   "target": "TECH.energy_technology.hydrogen_energy.fuel_cell.proton_exchange_membrane_fuel_cell",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.electric_vehicle.ev_charging",
+   "relation": "USES",
+   "target": "TECH.energy_technology.energy_storage.battery_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.autonomous_vehicle",
+   "relation": "USES",
+   "target": "TECH.space_technology.satellite_technology.navigation_satellite",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology.precision_agriculture.gps_guided_farming",
+   "relation": "USES",
+   "target": "TECH.space_technology.satellite_technology.navigation_satellite",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology.precision_agriculture.crop_monitoring",
+   "relation": "USES",
+   "target": "TECH.space_technology.satellite_technology.earth_observation_satellite",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology.precision_agriculture.agricultural_drone",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.computer_vision",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology.autonomous_tractor",
+   "relation": "USES",
+   "target": "TECH.space_technology.satellite_technology.navigation_satellite",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.space_technology.satellite_technology.satellite_constellation",
+   "relation": "USES",
+   "target": "TECH.telecommunications.satellite_communication.low_earth_orbit_satellite",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.nuclear_energy.nuclear_fusion.tokamak",
+   "relation": "USES",
+   "target": "TECH.materials_technology.superconductors.high_temperature_superconductor",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.smart_grid.advanced_metering_infrastructure",
+   "relation": "USES",
+   "target": "TECH.information_technology.networking.internet_technology.internet_of_things",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.smart_grid.vehicle_to_grid",
+   "relation": "USES",
+   "target": "TECH.transport_technology.electric_vehicle.battery_electric_vehicle",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.processor_technology.graphics_processing_unit",
+   "relation": "USES",
+   "target": "TECH.information_technology.computing.computer_hardware.memory_technology.dynamic_random_access_memory",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.deep_learning",
+   "relation": "USES",
+   "target": "TECH.information_technology.computing.computer_hardware.processor_technology.ai_accelerator",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.blockchain.smart_contract",
+   "relation": "USES",
+   "target": "TECH.information_technology.cryptography.digital_signature",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.cryptography.zero_knowledge_proof",
+   "relation": "USES",
+   "target": "TECH.information_technology.cryptography.hash_function",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.tissue_engineering.bioprinting",
+   "relation": "USES",
+   "target": "TECH.manufacturing_technology.additive_manufacturing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.synthetic_biology",
+   "relation": "USES",
+   "target": "TECH.biotechnology.molecular_biology_techniques.dna_sequencing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.synthetic_biology",
+   "relation": "USES",
+   "target": "TECH.biotechnology.molecular_biology_techniques.dna_synthesis",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.protein_engineering.protein_design",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.bioinformatics",
+   "relation": "USES",
+   "target": "TECH.information_technology.data_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.omics_technology.genomics",
+   "relation": "USES",
+   "target": "TECH.biotechnology.molecular_biology_techniques.dna_sequencing.next_generation_sequencing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.cell_therapy.car_t_cell_therapy",
+   "relation": "USES",
+   "target": "TECH.biotechnology.genetic_engineering",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.genetic_engineering.gene_therapy",
+   "relation": "USES",
+   "target": "TECH.biotechnology.genetic_engineering.gene_editing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.digital_health.clinical_decision_support",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.digital_health.wearable_health_monitor",
+   "relation": "USES",
+   "target": "TECH.information_technology.computing.computer_systems.wearable_computer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.clean_technology.water_treatment.desalination.reverse_osmosis",
+   "relation": "USES",
+   "target": "TECH.chemical_process_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.human_computer_interaction.brain_computer_interface",
+   "relation": "USES",
+   "target": "TECH.artificial_intelligence.machine_learning",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications.satellite_communication.satellite_internet",
+   "relation": "USES",
+   "target": "TECH.space_technology.satellite_technology.satellite_constellation",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.cloud_computing",
+   "relation": "USES",
+   "target": "TECH.information_technology.computing.software_technology.virtualization",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.cloud_computing",
+   "relation": "USES",
+   "target": "TECH.information_technology.computing.software_technology.virtualization.containerization",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_systems.edge_computer",
+   "relation": "OVERLAPS_WITH",
+   "target": "TECH.information_technology.cloud_computing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.edge_ai",
+   "relation": "OVERLAPS_WITH",
+   "target": "TECH.information_technology.computing.computer_systems.edge_computer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.networking.internet_technology.internet_of_things",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.computing.computer_systems.edge_computer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.networking.internet_technology.internet_of_things",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.networking.wireless_networking",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.neuromorphic_computing",
+   "relation": "RELATED_TO",
+   "target": "TECH.artificial_intelligence.deep_learning.artificial_neural_network.spiking_neural_network",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.blockchain",
+   "relation": "INTERSECTS_WITH",
+   "target": "TECH.information_technology.cryptography",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.blockchain",
+   "relation": "INTERSECTS_WITH",
+   "target": "TECH.information_technology.database_technology.distributed_database",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.cryptography.post_quantum_cryptography",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.quantum_computing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.quantum_computing.quantum_networking.quantum_key_distribution",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.cryptography.post_quantum_cryptography",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.blockchain.blockchain_interoperability",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.networking",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.blockchain.blockchain_oracle",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.networking.internet_technology.internet_of_things",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.smart_manufacturing.industrial_internet_of_things",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.networking.internet_technology.internet_of_things",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.autonomous_vehicle",
+   "relation": "OVERLAPS_WITH",
+   "target": "TECH.transport_technology.vehicle_engineering.connected_vehicle",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.vehicle_engineering.connected_vehicle",
+   "relation": "RELATED_TO",
+   "target": "TECH.transport_technology.autonomous_vehicle.vehicle_to_everything",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.autonomous_vehicle.vehicle_to_everything",
+   "relation": "RELATED_TO",
+   "target": "TECH.telecommunications.cellular_network.fifth_generation",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology.agrivoltaics",
+   "relation": "INTERSECTS_WITH",
+   "target": "TECH.energy_technology.solar_energy.photovoltaics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology.cellular_agriculture.cultured_meat",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology.fermentation_technology.precision_fermentation",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology.cellular_agriculture",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology.tissue_engineering",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.regenerative_medicine",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology.tissue_engineering",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.regenerative_medicine",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology.cell_therapy.stem_cell_therapy",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.regenerative_medicine.three_dimensional_bioprinting",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology.tissue_engineering.bioprinting",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.neurotechnology",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.computing.human_computer_interaction.brain_computer_interface",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.neurotechnology.neuroprosthetic",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.computing.human_computer_interaction.brain_computer_interface",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.in_vitro_diagnostics.lab_on_a_chip",
+   "relation": "RELATED_TO",
+   "target": "TECH.manufacturing_technology.microfabrication",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.digital_health.wearable_health_monitor",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.computing.computer_systems.wearable_computer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.medical_technology.medical_imaging.positron_emission_tomography",
+   "relation": "RELATED_TO",
+   "target": "TECH.photonics.photodetector",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.genetic_engineering",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology.synthetic_biology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.synthetic_biology.metabolic_engineering",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology.fermentation_technology.precision_fermentation",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.rna_technology.mrna_vaccine",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology.rna_technology.messenger_rna_therapy",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.fermentation_technology.bioreactor",
+   "relation": "RELATED_TO",
+   "target": "TECH.chemical_process_technology.chemical_reactor",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.biosensor",
+   "relation": "RELATED_TO",
+   "target": "TECH.photonics.photodetector",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.quantum_computing.photonic_quantum_computing",
+   "relation": "RELATED_TO",
+   "target": "TECH.photonics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.photonics.optical_computing",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.quantum_computing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.photonics.holography",
+   "relation": "RELATED_TO",
+   "target": "TECH.medical_technology.medical_imaging",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.photonics.photonic_integrated_circuit",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.computing.computer_hardware.processor_technology.application_specific_integrated_circuit",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.semiconductor_materials.gallium_nitride",
+   "relation": "RELATED_TO",
+   "target": "TECH.photonics.light_emitting_diode",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.semiconductor_materials.gallium_arsenide",
+   "relation": "RELATED_TO",
+   "target": "TECH.photonics.laser.semiconductor_laser",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.nanomaterials.quantum_dot",
+   "relation": "RELATED_TO",
+   "target": "TECH.photonics.light_emitting_diode",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.nanomaterials.graphene",
+   "relation": "RELATED_TO",
+   "target": "TECH.materials_technology.semiconductor_materials",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.energy_storage.battery_technology.lithium_ion_battery.solid_state_battery",
+   "relation": "RELATED_TO",
+   "target": "TECH.materials_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.smart_materials.piezoelectric_material",
+   "relation": "RELATED_TO",
+   "target": "TECH.photonics",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.smart_materials.piezoelectric_material",
+   "relation": "RELATED_TO",
+   "target": "TECH.energy_technology.energy_storage",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.textile_technology.smart_textile",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.computing.computer_systems.wearable_computer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.textile_technology.smart_textile",
+   "relation": "RELATED_TO",
+   "target": "TECH.materials_technology.smart_materials",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.textile_technology.silk_production",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.chemical_process_technology.catalysis",
+   "relation": "RELATED_TO",
+   "target": "TECH.materials_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.clean_technology.waste_management.recycling.chemical_recycling",
+   "relation": "RELATED_TO",
+   "target": "TECH.chemical_process_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.clean_technology.environmental_remediation.bioremediation",
+   "relation": "RELATED_TO",
+   "target": "TECH.biotechnology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.clean_technology.carbon_capture.direct_air_capture",
+   "relation": "RELATED_TO",
+   "target": "TECH.chemical_process_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.bioenergy.waste_to_energy",
+   "relation": "RELATED_TO",
+   "target": "TECH.clean_technology.waste_management",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.energy_storage.pumped_storage_hydropower",
+   "relation": "RELATED_TO",
+   "target": "TECH.energy_technology.hydropower",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.hydrogen_energy",
+   "relation": "RELATED_TO",
+   "target": "TECH.clean_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.smart_grid",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications.cellular_network.open_ran",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.networking.network_infrastructure.software_defined_networking",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications.optical_communication.submarine_cable",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.networking",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.rail_transport.maglev",
+   "relation": "RELATED_TO",
+   "target": "TECH.materials_technology.superconductors.high_temperature_superconductor",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.aerospace.unmanned_aerial_vehicle",
+   "relation": "RELATED_TO",
+   "target": "TECH.transport_technology.autonomous_vehicle.autonomous_drone",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.space_technology.launch_technology.liquid_rocket_engine",
+   "relation": "RELATED_TO",
+   "target": "TECH.transport_technology.aerospace.aircraft_propulsion",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.microfabrication.semiconductor_fabrication",
+   "relation": "RELATED_TO",
+   "target": "TECH.materials_technology.semiconductor_materials.silicon",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.coating_technology.chemical_vapor_deposition",
+   "relation": "RELATED_TO",
+   "target": "TECH.manufacturing_technology.microfabrication",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.software_technology.operating_system.mobile_operating_system",
+   "relation": "RELATED_TO",
+   "target": "TECH.information_technology.computing.computer_hardware.embedded_system",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.human_computer_interaction.voice_user_interface",
+   "relation": "RELATED_TO",
+   "target": "TECH.artificial_intelligence.speech_technology.automatic_speech_recognition",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.human_computer_interaction.gesture_interface",
+   "relation": "RELATED_TO",
+   "target": "TECH.artificial_intelligence.computer_vision",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_systems.abacus",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.information_technology.computing.computer_hardware.processor_technology.central_processing_unit",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_systems.slide_rule",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.information_technology.computing.computer_systems.personal_computer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_systems.punched_card",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.information_technology.computing.computer_hardware.storage_technology.magnetic_tape_storage",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_systems.analog_computer",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.information_technology.computing.computer_systems.supercomputer",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_systems.minicomputer",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.information_technology.computing.computer_systems.server",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.computing.computer_hardware.storage_technology.floppy_disk",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.information_technology.computing.computer_hardware.storage_technology.solid_state_drive",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.printing_technology.woodblock_printing",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.manufacturing_technology.printing_technology.movable_type_printing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.printing_technology.movable_type_printing",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.manufacturing_technology.printing_technology.offset_printing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.metallurgy.wootz_steel",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.materials_technology.metallurgy.ferrous_metallurgy.steelmaking",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.metallurgy.damascus_steel",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.materials_technology.metallurgy.ferrous_metallurgy.steelmaking",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.agricultural_technology.irrigation_technology.qanat",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.agricultural_technology.irrigation_technology.drip_irrigation",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.astrolabe",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.space_technology.satellite_technology.navigation_satellite",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications.cellular_network.gsm",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.telecommunications.cellular_network.lte",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications.cellular_network.umts",
+   "relation": "HISTORICAL_SUCCESSOR",
+   "target": "TECH.telecommunications.cellular_network.lte",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.molecular_biology_techniques.dna_sequencing.sanger_sequencing",
+   "relation": "PRECURSOR_OF",
+   "target": "TECH.biotechnology.molecular_biology_techniques.dna_sequencing.next_generation_sequencing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.molecular_biology_techniques.dna_sequencing.next_generation_sequencing",
+   "relation": "PRECURSOR_OF",
+   "target": "TECH.biotechnology.molecular_biology_techniques.dna_sequencing.third_generation_sequencing",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications.cellular_network.lte",
+   "relation": "PRECURSOR_OF",
+   "target": "TECH.telecommunications.cellular_network.fifth_generation",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.telecommunications.cellular_network.fifth_generation",
+   "relation": "SUCCESSOR_OF",
+   "target": "TECH.telecommunications.cellular_network.lte",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.transport_technology.vehicle_engineering.internal_combustion_engine",
+   "relation": "PRECURSOR_OF",
+   "target": "TECH.transport_technology.electric_vehicle",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.hydrogen_energy.electrolysis",
+   "relation": "PRODUCES",
+   "target": "TECH.energy_technology.hydrogen_energy.hydrogen_storage",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.microfabrication.semiconductor_fabrication",
+   "relation": "PRODUCES",
+   "target": "TECH.information_technology.computing.computer_hardware.processor_technology.application_specific_integrated_circuit",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.energy_technology.energy_storage.battery_technology",
+   "relation": "PRODUCES",
+   "target": "TECH.transport_technology.electric_vehicle.battery_electric_vehicle",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.semiconductor_materials.silicon",
+   "relation": "MATERIAL_OF",
+   "target": "TECH.manufacturing_technology.microfabrication.semiconductor_fabrication",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.semiconductor_materials.gallium_nitride",
+   "relation": "MATERIAL_OF",
+   "target": "TECH.photonics.light_emitting_diode",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.composite_materials.carbon_fiber_reinforced_polymer",
+   "relation": "MATERIAL_OF",
+   "target": "TECH.transport_technology.aerospace",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.biotechnology.protein_engineering.directed_evolution",
+   "relation": "METHOD_FOR",
+   "target": "TECH.biotechnology.protein_engineering.enzyme_engineering",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.manufacturing_technology.microfabrication.photolithography",
+   "relation": "METHOD_FOR",
+   "target": "TECH.manufacturing_technology.microfabrication.semiconductor_fabrication",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.photonics.laser",
+   "relation": "USED_BY",
+   "target": "TECH.medical_technology.surgical_technology.laser_surgery",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.materials_technology.superconductors.high_temperature_superconductor",
+   "relation": "USED_BY",
+   "target": "TECH.medical_technology.medical_imaging.magnetic_resonance_imaging",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.space_technology.satellite_technology.navigation_satellite",
+   "relation": "USED_BY",
+   "target": "TECH.transport_technology.autonomous_vehicle",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.machine_learning",
+   "relation": "USED_BY",
+   "target": "TECH.medical_technology.digital_health.clinical_decision_support",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.artificial_intelligence.computer_vision",
+   "relation": "USED_BY",
+   "target": "TECH.transport_technology.autonomous_vehicle.advanced_driver_assistance_system",
+   "kind": "explicit"
+  },
+  {
+   "source": "TECH.information_technology.database_technology.vector_database",
+   "relation": "USED_BY",
+   "target": "TECH.artificial_intelligence.natural_language_processing.retrieval_augmented_generation",
    "kind": "explicit"
   }
  ]
