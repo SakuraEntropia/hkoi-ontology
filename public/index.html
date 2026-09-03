@@ -3,34 +3,76 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HK-OI · 人类知识—职业—产业 Ontology 浏览器</title>
+<title>HK-OI · 人类文明图谱浏览器</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <div class="brand"><span class="logo">HK-OI</span><span class="brand-sub">Human Knowledge · Occupation · Industry Ontology</span></div>
+  <div class="brand"><span class="logo">HK-OI</span><span class="brand-sub">人类文明图谱 · Human Civilization Graph</span></div>
+  <nav class="nav">
+    <button class="nav-btn active" data-view="browse">🌳 浏览</button>
+    <button class="nav-btn" data-view="graph">🕸️ 图</button>
+    <button class="nav-btn" data-view="timeline">⏳ 时间线</button>
+    <button class="nav-btn" data-view="lineage">🔗 谱系</button>
+    <button class="nav-btn" data-view="stats">📊 统计</button>
+  </nav>
   <div class="search-wrap">
-    <input id="search" type="text" placeholder="搜索节点 (英文 / 中文 / ID)…" autocomplete="off">
+    <input id="search" type="text" placeholder="搜索 (英文/中文/ID)…" autocomplete="off">
     <div id="search-results" class="search-results hidden"></div>
   </div>
-  <div class="top-actions">
-    <button id="btn-analytics" class="btn">📊 分析</button>
-  </div>
+  <div id="stats" class="stats"></div>
 </header>
+
 <div class="layout">
   <aside id="sidebar">
     <div class="sidebar-head">Universe <span id="node-count" class="muted"></span></div>
     <div id="tree" class="tree"></div>
   </aside>
+
   <main id="main">
-    <div id="welcome" class="welcome">
-      <h1>HK-OI Ontology</h1>
-      <p>树 + 图 混合分类体系：人类知识 · 职业 · 社会角色 · 艺术文化 · 体育游戏 · 产业 · 产品服务 · 组织 · 技术 · 媒体 · 历史职业 · 新兴领域。</p>
-      <p class="muted">点击左侧 Universe 展开浏览，或在上方搜索。</p>
-      <div id="welcome-stats" class="welcome-stats"></div>
+    <div id="view-browse" class="view">
+      <div id="welcome" class="welcome">
+        <h1>HK-OI Ontology</h1>
+        <p>树 + 图 混合：人类知识 · 职业 · 角色 · 艺术 · 体育 · 产业 · 产品 · 组织 · 技术 · 媒体 · 历史职业 · 新兴领域 · 活动。</p>
+        <p class="muted">点左侧展开，或搜索。上方切换：图 / 时间线 / 谱系 / 统计。</p>
+        <div id="welcome-stats" class="welcome-stats"></div>
+      </div>
+      <div id="detail" class="detail hidden"></div>
     </div>
-    <div id="detail" class="detail hidden"></div>
-    <div id="analytics" class="analytics hidden"></div>
+
+    <div id="view-graph" class="view hidden">
+      <div class="view-toolbar">
+        <label>Universe <select id="g-universe"></select></label>
+        <label>类型 <select id="g-type"></select></label>
+        <label>历史 <select id="g-hist"><option value="all">全部</option><option value="hist">仅历史</option><option value="cont">仅当代</option></select></label>
+        <button class="btn" id="g-reload">加载</button>
+        <button class="btn" id="g-reset">重置</button>
+        <span id="g-info" class="muted"></span>
+      </div>
+      <div id="g-container" class="graph-container"></div>
+      <div id="g-detail" class="g-detail"></div>
+    </div>
+
+    <div id="view-timeline" class="view hidden">
+      <div class="view-toolbar"><h3>时间线（历史/消逝/演变实体）</h3><span id="tl-info" class="muted"></span></div>
+      <div id="tl-container" class="timeline-container"></div>
+    </div>
+
+    <div id="view-lineage" class="view hidden">
+      <div class="view-toolbar"><h3>谱系（职业演化链）</h3>
+        <input id="ln-input" placeholder="输入节点 ID 或点示例" style="flex:1;max-width:420px">
+        <button class="btn" id="ln-go">追踪</button>
+        <span class="muted">示例：</span>
+        <button class="btn ln-ex" data-id="hist.computing_media_occupations.human_computer">Human Computer</button>
+        <button class="btn ln-ex" data-id="hist.scribal_occupations.scribe">Scribe</button>
+        <button class="btn ln-ex" data-id="hist.communication_occupations.switchboard_operator">Switchboard Operator</button>
+      </div>
+      <div id="ln-container" class="graph-container"></div>
+    </div>
+
+    <div id="view-stats" class="view hidden">
+      <div id="analytics" class="analytics"></div>
+    </div>
   </main>
 </div>
 <script src="app.js"></script>

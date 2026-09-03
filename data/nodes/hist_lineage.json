@@ -1,0 +1,20 @@
+[
+ {
+  "id": "hist.computing_media_occupations.mechanical_calculator_operator",
+  "name": "Mechanical Calculator Operator",
+  "name_zh": "机械计算器操作员",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Operated mechanical calculators and tabulating machines (Comptometer, Hollerith) before electronic computers.",
+  "historical": true
+ },
+ {
+  "id": "hist.computing_media_occupations.computer_operator",
+  "name": "Computer Operator",
+  "name_zh": "计算机操作员",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Operated early mainframe/electronic computers via punched cards and consoles, 1950s-1980s.",
+  "historical": true
+ }
+]

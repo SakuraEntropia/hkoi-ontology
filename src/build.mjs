@@ -6,6 +6,7 @@ const DATA = "data";
 const NODES_DIR = join(DATA, "nodes");
 const REL_DIR = join(DATA, "relations");
 const METRICS_DIR = join(DATA, "metrics");
+const TEMPORAL_DIR = join(DATA, "temporal");
 const OUT_DIR = "exports";
 
 const NODE_TYPES = new Set([
@@ -26,6 +27,9 @@ const RELATION_TYPES = new Set([
   "RELATED_TO","APPLICATION_OF","APPLIES_TO","METHOD_FOR","USED_BY","USES",
   "PRODUCES","CONSUMES","OVERLAPS_WITH","INTERSECTS_WITH",
   "HISTORICAL_PREDECESSOR","HISTORICAL_SUCCESSOR","PRECURSOR_OF","SUCCESSOR_OF",
+  "PRECEDED_BY","SUCCEEDED_BY","TRANSFORMED_INTO","REPLACED_BY_TECHNOLOGY","REPLACED_BY_INSTITUTION",
+  "MERGED_INTO","SPLIT_INTO","RENAMED_AS","PARTIALLY_AUTOMATED_BY","REVIVED_AS","SURVIVES_IN",
+  "HISTORICAL_PRECURSOR_OF","FUNCTIONALLY_SIMILAR_TO","PREDECESSOR_OF",
   "ROLE_IN","SECTOR_OF","TECHNOLOGY_OF","MARKET_OF","MATERIAL_OF",
 ]);
 
@@ -86,6 +90,14 @@ for (const f of walk(METRICS_DIR)) {
   }
 }
 
+// ---- load temporal ----
+const temporals = new Map();
+for (const f of walk(TEMPORAL_DIR)) {
+  const data = readJson(f);
+  if (Array.isArray(data)) { for (const t of data) if (t.id) temporals.set(t.id, t); }
+  else { for (const [id, t] of Object.entries(data)) temporals.set(id, t); }
+}
+
 // ---- load relations ----
 const explicitRelations = [];
 for (const f of walk(REL_DIR)) {
@@ -129,7 +141,7 @@ for (const [id, n] of nodes) {
     type: n.type, parent: n.parent ?? null, level: levelOf(id), universe: univ,
     description: n.description ?? null, aliases: n.aliases ?? [], examples: n.examples ?? [],
     historical: !!n.historical, global: n.global !== false,
-    metrics: m, participation_modes: n.participation_modes ?? [], source: n.source ?? null,
+    metrics: m, participation_modes: n.participation_modes ?? [], temporal: n.temporal ?? temporals.get(id) ?? null, source: n.source ?? null,
   });
 }
 for (const r of explicitRelations) {
@@ -176,13 +188,13 @@ const { DatabaseSync } = await import("node:sqlite");
 const db = new DatabaseSync(dbTmp);
 db.exec(schema);
 const insNode = db.prepare(`INSERT OR REPLACE INTO nodes
-  (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,participation_modes,source)
-  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+  (id,name,name_en,name_zh,type,parent,level,universe,description,aliases,examples,historical,global,metrics,participation_modes,temporal,source)
+  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
 const insRel = db.prepare(`INSERT INTO relations (source,relation,target,kind) VALUES (?,?,?,?)`);
 db.exec("BEGIN");
 for (const n of normalized) insNode.run(n.id, n.name, n.name_en, n.name_zh, n.type, n.parent, n.level, n.universe,
   n.description, JSON.stringify(n.aliases), JSON.stringify(n.examples), n.historical?1:0, n.global?1:0,
-  n.metrics ? JSON.stringify(n.metrics) : null, JSON.stringify(n.participation_modes ?? []), n.source);
+  n.metrics ? JSON.stringify(n.metrics) : null, JSON.stringify(n.participation_modes ?? []), n.temporal ? JSON.stringify(n.temporal) : null, n.source);
 for (const r of allRelations) insRel.run(r.source, r.relation, r.target, r.kind);
 db.exec("COMMIT");
 db.exec(`INSERT OR REPLACE INTO meta VALUES ('generated_at', '${new Date().toISOString()}')`);

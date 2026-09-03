@@ -104,6 +104,7 @@ function api(path, query) {
         examples: node.examples ? safeJson(node.examples) : [],
         historical: !!node.historical, global: !!node.global, metrics,
         participation_modes: node.participation_modes ? safeJson(node.participation_modes) : [],
+        temporal: node.temporal ? safeJson(node.temporal) : null,
       },
       children, ancestors,
       relationsOut: out, relationsIn: inc,
@@ -119,6 +120,61 @@ function api(path, query) {
     const occSpan = qAll("SELECT n.name, COUNT(*) d FROM relations r JOIN nodes n ON n.id=r.source WHERE n.type='OCCUPATION' AND r.target LIKE 'HK.%' GROUP BY n.id ORDER BY d DESC LIMIT 15");
     const mostLinked = qAll("SELECT n.name, COUNT(*) d FROM relations r JOIN nodes n ON n.id=r.source GROUP BY n.id ORDER BY d DESC LIMIT 20");
     return { mathCount: mathSub.length, semiCount: semi.length, semi: semi.slice(0,60), historicalCount: hist.length, historical: hist.slice(0,40).map(x=>x.name), gpu, occSpan, mostLinked };
+  }
+
+
+  // GET /api/graph?seed=ID | universe= | type= | historical=all|hist|cont
+  if (seg[1] === "graph") {
+    const seed = q.get("seed");
+    if (seed) {
+      const node = qOne("SELECT id,name,type,level,universe,historical,temporal FROM nodes WHERE id=?", seed);
+      if (!node) return { error: "not found", id: seed };
+      const neighbors = qAll("SELECT id,name,type,level,universe,historical FROM nodes WHERE id IN (SELECT source FROM relations WHERE target=? UNION SELECT target FROM relations WHERE source=?) LIMIT 120", seed, seed);
+      const idSet = new Set([seed, ...neighbors.map(n => n.id)]);
+      const raw = qAll("SELECT source,relation,target FROM relations WHERE source=? OR target=?", seed, seed);
+      const edges = raw.filter(e => idSet.has(e.source) && idSet.has(e.target));
+      return { nodes: [node, ...neighbors], edges };
+    }
+    const universe = q.get("universe") || "";
+    const type = q.get("type") || "";
+    const historical = q.get("historical") || "all";
+    let where = "level <= 1";
+    const args = [];
+    if (universe) { where += " AND universe=?"; args.push(universe); }
+    if (type) { where += " AND type=?"; args.push(type); }
+    if (historical === "hist") where += " AND historical=1";
+    else if (historical === "cont") where += " AND historical=0";
+    const nodes = qAll("SELECT id,name,type,level,universe,historical,temporal FROM nodes WHERE " + where + " LIMIT 400", ...args);
+    const idSet = new Set(nodes.map(n => n.id));
+    const allEdges = qAll("SELECT source,relation,target FROM relations");
+    const edges = allEdges.filter(e => idSet.has(e.source) && idSet.has(e.target)).slice(0, 3000);
+    return { nodes, edges };
+  }
+
+  // GET /api/timeline
+  if (seg[1] === "timeline") {
+    const rows = qAll("SELECT id,name,type,universe,historical,temporal FROM nodes WHERE historical=1 OR temporal IS NOT NULL ORDER BY id LIMIT 1000");
+    return rows.map(r => ({ ...r, temporal: r.temporal ? safeJson(r.temporal) : null }));
+  }
+
+  // GET /api/lineage/:id
+  if (seg[1] === "lineage" && seg[2]) {
+    const id = decodeURIComponent(seg[2]);
+    const LREL = "('SUCCEEDED_BY','TRANSFORMED_INTO','REPLACED_BY_TECHNOLOGY','REPLACED_BY_INSTITUTION','MERGED_INTO','RENAMED_AS','HISTORICAL_SUCCESSOR','PRECEDED_BY','HISTORICAL_PREDECESSOR','PRECURSOR_OF','SUCCESSOR_OF','REVIVED_AS','SURVIVES_IN','PARTIALLY_AUTOMATED_BY','FUNCTIONALLY_SIMILAR_TO')";
+    const nodes = new Map(); const edges = []; const seen = new Set([id]); const queue = [id];
+    let guard = 0;
+    while (queue.length && guard++ < 250) {
+      const cur = queue.shift();
+      const n = qOne("SELECT id,name,type,level,universe,historical,temporal FROM nodes WHERE id=?", cur);
+      if (n && !nodes.has(cur)) nodes.set(cur, n);
+      const rels = qAll("SELECT source,relation,target FROM relations WHERE (source=? OR target=?) AND relation IN " + LREL + " LIMIT 60", cur, cur);
+      for (const r of rels) {
+        edges.push(r);
+        const other = r.source === cur ? r.target : r.source;
+        if (!seen.has(other)) { seen.add(other); queue.push(other); }
+      }
+    }
+    return { nodes: [...nodes.values()], edges };
   }
 
   return { error: "unknown endpoint" };

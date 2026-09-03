@@ -1,11 +1,11 @@
 # HK-OI Ontology Report
 
-Generated: 2026-09-03T06:27:50.605Z
+Generated: 2026-09-03T07:11:03.262Z
 
 ## 1. Summary
 
-- **Nodes**: 12713  (with metrics: 10213)
-- **Relations**: 16429
+- **Nodes**: 12715  (with metrics: 10213)
+- **Relations**: 16458
 
 ### By universe
 
@@ -22,7 +22,7 @@ Generated: 2026-09-03T06:27:50.605Z
 | SOCIAL_ROLES | 398 |
 | ACTIVITIES | 379 |
 | ORGANIZATIONS_AND_INSTITUTIONS | 359 |
-| HISTORICAL_OCCUPATIONS | 297 |
+| HISTORICAL_OCCUPATIONS | 299 |
 | EMERGING_FIELDS | 27 |
 
 ### By level
@@ -31,7 +31,7 @@ Generated: 2026-09-03T06:27:50.605Z
 |---|---|
 | L0 | 13 |
 | L1 | 278 |
-| L2 | 2698 |
+| L2 | 2700 |
 | L3 | 6627 |
 | L4 | 2630 |
 | L5 | 427 |
@@ -42,7 +42,7 @@ Generated: 2026-09-03T06:27:50.605Z
 | type | nodes |
 |---|---|
 | KNOWLEDGE_FIELD | 5406 |
-| OCCUPATION | 1556 |
+| OCCUPATION | 1558 |
 | TECHNOLOGY | 715 |
 | ECONOMIC_ACTIVITY | 629 |
 | PRODUCT | 556 |
@@ -190,7 +190,7 @@ Generated: 2026-09-03T06:27:50.605Z
 | universe | nodes | status |
 |---|---|---|
 | EMERGING_FIELDS | 26 | ⚠ under-developed |
-| HISTORICAL_OCCUPATIONS | 296 | ok |
+| HISTORICAL_OCCUPATIONS | 298 | ok |
 | ORGANIZATIONS_AND_INSTITUTIONS | 358 | ok |
 | ACTIVITIES | 378 | ok |
 | SOCIAL_ROLES | 397 | ok |
@@ -227,7 +227,7 @@ Generated: 2026-09-03T06:27:50.605Z
 |---|---|
 | SUBFIELD_OF | 5519 |
 | OVERLAPS_WITH | 2030 |
-| SPECIALIZATION_OF | 1983 |
+| SPECIALIZATION_OF | 1985 |
 | SUBTYPE_OF | 1886 |
 | PART_OF | 783 |
 | SUBTECHNOLOGY_OF | 715 |
@@ -251,10 +251,16 @@ Generated: 2026-09-03T06:27:50.605Z
 | INTERSECTS_WITH | 19 |
 | HISTORICAL_PREDECESSOR | 15 |
 | MATERIAL_OF | 14 |
+| TRANSFORMED_INTO | 11 |
+| SUCCEEDED_BY | 6 |
 | METHOD_FOR | 6 |
+| REPLACED_BY_TECHNOLOGY | 5 |
 | SUCCESSOR_OF | 4 |
 | TECHNOLOGY_OF | 3 |
+| PARTIALLY_AUTOMATED_BY | 3 |
+| SURVIVES_IN | 1 |
 | SECTOR_OF | 1 |
+| FUNCTIONALLY_SIMILAR_TO | 1 |
 
 ### D. Duplication — identical names
 
@@ -294,7 +300,7 @@ Potential duplicate names: 30
 - region-specific (global=false): 932
 
 ### G. Historical — extinct categories
-- historical: 501
+- historical: 503
 
 ## 4. Analytics (sample questions)
 
@@ -305,7 +311,7 @@ Potential duplicate names: 30
 - count: 74
 
 ### Q. 有哪些已经消失的职业?
-- count: 296
+- count: 298
 - Administrative & Clerical Occupations
 - Agricultural & Pastoral Occupations
 - Alchemist
@@ -374,10 +380,12 @@ Potential duplicate names: 30
 | node | degree |
 |---|---|
 | Graphics Processing Unit | 10 |
+| Human Computer | 9 |
 | Life Sciences & Healthcare | 9 |
 | Manufacturing | 9 |
 | Semiconductor Industry | 9 |
 | Mathematician | 8 |
+| Scribe | 8 |
 | Information & Communications Technology | 8 |
 | Cognitive Science | 7 |
 | Agriculture & Agrifood | 7 |
@@ -388,11 +396,9 @@ Potential duplicate names: 30
 | Engineering and Technology | 6 |
 | Artificial Intelligence | 6 |
 | Computer Vision | 6 |
-| Energy & Power Generation | 6 |
-| Artificial Intelligence | 6 |
-| Medical Devices | 6 |
-| Landscape Architecture | 5 |
-| Interior Design | 5 |
+| Switchboard Operator | 6 |
+| Telegraph Operator | 6 |
+| Lamplighter | 6 |
 
 ## 5. Method note
 

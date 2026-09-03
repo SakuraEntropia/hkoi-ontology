@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS nodes (
   global      INTEGER NOT NULL DEFAULT 1,
   metrics     TEXT,          -- JSON object (civilization metrics)
   participation_modes TEXT,   -- JSON array (professional/amateur/recreational/spectator/community)
+  temporal     TEXT,          -- JSON object {valid_from,valid_until,peak_period,geographic_scope,historical_status}
   source      TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_nodes_parent   ON nodes(parent);

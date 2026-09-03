@@ -1,0 +1,137 @@
+[
+ {
+  "source": "hist.computing_media_occupations.human_computer",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.computing_media_occupations.mechanical_calculator_operator"
+ },
+ {
+  "source": "hist.computing_media_occupations.mechanical_calculator_operator",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.computing_media_occupations.computer_operator"
+ },
+ {
+  "source": "hist.computing_media_occupations.computer_operator",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.it_computing.software_development.software_engineer"
+ },
+ {
+  "source": "hist.computing_media_occupations.human_computer",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.it_computing.software_development.software_engineer"
+ },
+ {
+  "source": "hist.computing_media_occupations.human_computer",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "hist.computing_media_occupations.human_computer",
+  "relation": "PARTIALLY_AUTOMATED_BY",
+  "target": "TECH.artificial_intelligence"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.scribal_occupations.copyist"
+ },
+ {
+  "source": "hist.scribal_occupations.copyist",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.printing_occupations.typesetter"
+ },
+ {
+  "source": "hist.printing_occupations.typesetter",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.printing_occupations.printer"
+ },
+ {
+  "source": "hist.printing_occupations.printer",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.media.publishing"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.media.journalism.editor"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe",
+  "relation": "FUNCTIONALLY_SIMILAR_TO",
+  "target": "OCC.media.journalism.editor.copy_editor"
+ },
+ {
+  "source": "hist.printing_occupations.typesetter",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.information_technology"
+ },
+ {
+  "source": "hist.communication_occupations.switchboard_operator",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.telecommunications"
+ },
+ {
+  "source": "hist.communication_occupations.switchboard_operator",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.engineering.electrical_engineering.telecommunications_engineer"
+ },
+ {
+  "source": "hist.communication_occupations.switchboard_operator",
+  "relation": "SURVIVES_IN",
+  "target": "OCC.personal_services.customer_service.customer_service_representative"
+ },
+ {
+  "source": "hist.communication_occupations.telegraph_operator",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.telecommunications"
+ },
+ {
+  "source": "hist.communication_occupations.telegraph_operator",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.engineering.electrical_engineering.telecommunications_engineer"
+ },
+ {
+  "source": "hist.communication_occupations.telegraph_operator",
+  "relation": "SUCCEEDED_BY",
+  "target": "hist.communication_occupations.switchboard_operator"
+ },
+ {
+  "source": "hist.lighting_urban_occupations.lamplighter",
+  "relation": "REPLACED_BY_TECHNOLOGY",
+  "target": "TECH.energy_technology"
+ },
+ {
+  "source": "hist.lighting_urban_occupations.lamplighter",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.construction.construction_trades.electrician"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.blacksmith",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.trades.machining.blacksmith"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.blacksmith",
+  "relation": "PARTIALLY_AUTOMATED_BY",
+  "target": "TECH.manufacturing_technology"
+ },
+ {
+  "source": "hist.occult_occupations.alchemist",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.science.physical_sciences.chemist"
+ },
+ {
+  "source": "hist.health_occupations.apothecary",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.medicine.pharmacy.pharmacist"
+ },
+ {
+  "source": "hist.textile_occupations.weaver",
+  "relation": "PARTIALLY_AUTOMATED_BY",
+  "target": "TECH.textile_technology"
+ },
+ {
+  "source": "hist.textile_occupations.weaver",
+  "relation": "TRANSFORMED_INTO",
+  "target": "OCC.arts.visual_arts.textile_artist.weaver"
+ }
+]

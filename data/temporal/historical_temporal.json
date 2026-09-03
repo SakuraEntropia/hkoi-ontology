@@ -1,0 +1,342 @@
+{
+ "hist.scribal_occupations.scribe": {
+  "valid_from": "3000 BCE",
+  "valid_until": "1900 CE",
+  "peak_period": "antiquity–medieval",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.scribal_occupations.copyist": {
+  "valid_from": "500 CE",
+  "valid_until": "1450 CE",
+  "peak_period": "medieval",
+  "geographic_scope": [
+   "Europe",
+   "Middle East"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.printing_occupations.typesetter": {
+  "valid_from": "1450 CE",
+  "valid_until": "1980 CE",
+  "peak_period": "1850–1950",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.printing_occupations.printer": {
+  "valid_from": "1450 CE",
+  "valid_until": "1850 CE",
+  "peak_period": "1500–1800",
+  "geographic_scope": [
+   "Europe",
+   "East Asia"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.computing_media_occupations.human_computer": {
+  "valid_from": "1750 CE",
+  "valid_until": "1970 CE",
+  "peak_period": "1940–1960",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.computing_media_occupations.mechanical_calculator_operator": {
+  "valid_from": "1880 CE",
+  "valid_until": "1970 CE",
+  "peak_period": "1900–1950",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.computing_media_occupations.computer_operator": {
+  "valid_from": "1950 CE",
+  "valid_until": "1990 CE",
+  "peak_period": "1960–1980",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.communication_occupations.telegraph_operator": {
+  "valid_from": "1840 CE",
+  "valid_until": "1960 CE",
+  "peak_period": "1870–1920",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.communication_occupations.switchboard_operator": {
+  "valid_from": "1880 CE",
+  "valid_until": "1980 CE",
+  "peak_period": "1920–1960",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.lighting_urban_occupations.lamplighter": {
+  "valid_from": "1800 CE",
+  "valid_until": "1930 CE",
+  "peak_period": "1850–1900",
+  "geographic_scope": [
+   "Europe",
+   "North America"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.craft_occupations.metalworking.swordsmith": {
+  "valid_from": "3000 BCE",
+  "valid_until": "1800 CE",
+  "peak_period": "antiquity–medieval",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.craft_occupations.metalworking.blacksmith": {
+  "valid_from": "3000 BCE",
+  "valid_until": "1950 CE",
+  "peak_period": "antiquity–early modern",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.occult_occupations.alchemist": {
+  "valid_from": "500 BCE",
+  "valid_until": "1800 CE",
+  "peak_period": "medieval–Renaissance",
+  "geographic_scope": [
+   "Eurasia"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.health_occupations.apothecary": {
+  "valid_from": "1200 CE",
+  "valid_until": "1900 CE",
+  "peak_period": "1600–1800",
+  "geographic_scope": [
+   "Europe",
+   "Middle East"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.textile_occupations.weaver": {
+  "valid_from": "6000 BCE",
+  "valid_until": "1950 CE",
+  "peak_period": "antiquity–early modern",
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.communication_occupations.town_crier": {
+  "valid_from": "antiquity",
+  "valid_until": "1900 CE",
+  "peak_period": "medieval",
+  "geographic_scope": [
+   "Europe",
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.lighting_urban_occupations.knocker_up": {
+  "valid_from": "1800 CE",
+  "valid_until": "1950 CE",
+  "peak_period": "Industrial Revolution",
+  "geographic_scope": [
+   "Europe"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.scribal_occupations.illuminator": {
+  "valid_from": "500 CE",
+  "valid_until": "1500 CE",
+  "peak_period": "medieval",
+  "geographic_scope": [
+   "Europe",
+   "Middle East"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.communication_occupations": {
+  "valid_from": "2000 BCE",
+  "valid_until": "2000 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.scribal_occupations": {
+  "valid_from": "3000 BCE",
+  "valid_until": "1900 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.printing_occupations": {
+  "valid_from": "1450 CE",
+  "valid_until": "2000 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.craft_occupations": {
+  "valid_from": "4000 BCE",
+  "valid_until": "1950 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.textile_occupations": {
+  "valid_from": "6000 BCE",
+  "valid_until": "1950 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.domestic_service_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "1950 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.food_provisioning_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "present",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.transport_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "1950 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.maritime_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "1950 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.agricultural_occupations": {
+  "valid_from": "10000 BCE",
+  "valid_until": "present",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.health_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "1900 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.occult_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "1800 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "Eurasia"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.religious_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "present",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "different_institutional_form"
+ },
+ "hist.entertainment_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "1950 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.lighting_urban_occupations": {
+  "valid_from": "1700 CE",
+  "valid_until": "1930 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "Europe",
+   "North America"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.military_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "1800 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.administrative_occupations": {
+  "valid_from": "antiquity",
+  "valid_until": "1950 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ },
+ "hist.industrial_occupations": {
+  "valid_from": "1760 CE",
+  "valid_until": "2000 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "disappeared"
+ },
+ "hist.computing_media_occupations": {
+  "valid_from": "1800 CE",
+  "valid_until": "2000 CE",
+  "peak_period": null,
+  "geographic_scope": [
+   "global"
+  ],
+  "historical_status": "transformed"
+ }
+}
