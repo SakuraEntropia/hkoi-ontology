@@ -15,6 +15,7 @@ CREATE TABLE IF NOT EXISTS nodes (
   examples    TEXT,          -- JSON array
   historical  INTEGER NOT NULL DEFAULT 0,
   global      INTEGER NOT NULL DEFAULT 1,
+  metrics     TEXT,          -- JSON object (civilization metrics)
   source      TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_nodes_parent   ON nodes(parent);
@@ -27,7 +28,7 @@ CREATE TABLE IF NOT EXISTS relations (
   source   TEXT NOT NULL,
   relation TEXT NOT NULL,
   target   TEXT NOT NULL,
-  kind     TEXT NOT NULL DEFAULT 'explicit'   -- 'parent' (materialized tree edge) | 'explicit'
+  kind     TEXT NOT NULL DEFAULT 'explicit'
 );
 CREATE INDEX IF NOT EXISTS idx_rel_source ON relations(source);
 CREATE INDEX IF NOT EXISTS idx_rel_target ON relations(target);

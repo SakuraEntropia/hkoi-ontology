@@ -1,0 +1,671 @@
+[
+ {
+  "id": "PROD.pharmaceuticals.prescription_drugs",
+  "name": "Prescription Drugs",
+  "name_en": "Prescription Drugs",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals",
+  "description": "Medicines dispensed only with a prescriber authorization.",
+  "name_zh": "处方药"
+ },
+ {
+  "id": "PROD.pharmaceuticals.over_the_counter_drugs",
+  "name": "Over-the-Counter Drugs",
+  "name_en": "Over-the-Counter Drugs",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals",
+  "description": "Medicines sold directly to consumers without prescription.",
+  "name_zh": "非处方药"
+ },
+ {
+  "id": "PROD.pharmaceuticals.biologics",
+  "name": "Biologics",
+  "name_en": "Biologics",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals",
+  "description": "Drugs produced from living organisms or their products.",
+  "name_zh": "生物制剂"
+ },
+ {
+  "id": "PROD.pharmaceuticals.traditional_medicines",
+  "name": "Traditional Medicines",
+  "name_en": "Traditional Medicines",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals",
+  "description": "Remedies grounded in indigenous and traditional medical systems.",
+  "name_zh": "传统药物"
+ },
+ {
+  "id": "PROD.pharmaceuticals.veterinary_drugs",
+  "name": "Veterinary Drugs",
+  "name_en": "Veterinary Drugs",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals",
+  "description": "Medicines for the treatment of animals.",
+  "name_zh": "兽药"
+ },
+ {
+  "id": "PROD.pharmaceuticals.prescription_drugs.antibiotics",
+  "name": "Antibiotics",
+  "name_en": "Antibiotics",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.prescription_drugs",
+  "description": "Drugs that kill or inhibit bacteria.",
+  "name_zh": "抗生素",
+  "examples": [
+   "penicillin",
+   "amoxicillin"
+  ]
+ },
+ {
+  "id": "PROD.pharmaceuticals.prescription_drugs.antivirals",
+  "name": "Antivirals",
+  "name_en": "Antivirals",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.prescription_drugs",
+  "description": "Drugs that treat viral infections.",
+  "name_zh": "抗病毒药",
+  "examples": [
+   "oseltamivir"
+  ]
+ },
+ {
+  "id": "PROD.pharmaceuticals.prescription_drugs.analgesics",
+  "name": "Analgesics",
+  "name_en": "Analgesics",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.prescription_drugs",
+  "description": "Pain-relieving drugs.",
+  "name_zh": "镇痛药",
+  "examples": [
+   "opioids",
+   "morphine"
+  ]
+ },
+ {
+  "id": "PROD.pharmaceuticals.prescription_drugs.cardiovascular_drugs",
+  "name": "Cardiovascular Drugs",
+  "name_en": "Cardiovascular Drugs",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.prescription_drugs",
+  "description": "Drugs treating heart and blood-vessel conditions.",
+  "name_zh": "心血管药物",
+  "examples": [
+   "statins",
+   "beta-blockers"
+  ]
+ },
+ {
+  "id": "PROD.pharmaceuticals.prescription_drugs.oncology_drugs",
+  "name": "Oncology Drugs",
+  "name_en": "Oncology Drugs",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.prescription_drugs",
+  "description": "Drugs used to treat cancer.",
+  "name_zh": "抗肿瘤药物",
+  "examples": [
+   "chemotherapy agents"
+  ]
+ },
+ {
+  "id": "PROD.pharmaceuticals.prescription_drugs.psychiatric_drugs",
+  "name": "Psychiatric Drugs",
+  "name_en": "Psychiatric Drugs",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.prescription_drugs",
+  "description": "Drugs treating mental disorders.",
+  "name_zh": "精神科药物",
+  "examples": [
+   "antidepressants",
+   "antipsychotics"
+  ]
+ },
+ {
+  "id": "PROD.pharmaceuticals.prescription_drugs.diabetes_drugs",
+  "name": "Diabetes Drugs",
+  "name_en": "Diabetes Drugs",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.prescription_drugs",
+  "description": "Medications that manage blood glucose, including insulin.",
+  "name_zh": "糖尿病药物"
+ },
+ {
+  "id": "PROD.pharmaceuticals.over_the_counter_drugs.pain_relievers",
+  "name": "OTC Pain Relievers",
+  "name_en": "OTC Pain Relievers",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.over_the_counter_drugs",
+  "description": "Non-prescription analgesics and antipyretics.",
+  "name_zh": "解热镇痛药",
+  "examples": [
+   "acetaminophen",
+   "ibuprofen"
+  ]
+ },
+ {
+  "id": "PROD.pharmaceuticals.over_the_counter_drugs.cough_and_cold_remedies",
+  "name": "Cough & Cold Remedies",
+  "name_en": "Cough & Cold Remedies",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.over_the_counter_drugs",
+  "description": "Non-prescription treatments for cold symptoms.",
+  "name_zh": "感冒咳嗽药"
+ },
+ {
+  "id": "PROD.pharmaceuticals.over_the_counter_drugs.antacids",
+  "name": "Antacids",
+  "name_en": "Antacids",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.over_the_counter_drugs",
+  "description": "Drugs that neutralize stomach acid.",
+  "name_zh": "抗酸药"
+ },
+ {
+  "id": "PROD.pharmaceuticals.biologics.vaccines",
+  "name": "Vaccines",
+  "name_en": "Vaccines",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.biologics",
+  "description": "Preparations that confer immunity to disease.",
+  "name_zh": "疫苗"
+ },
+ {
+  "id": "PROD.pharmaceuticals.biologics.monoclonal_antibodies",
+  "name": "Monoclonal Antibodies",
+  "name_en": "Monoclonal Antibodies",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.biologics",
+  "description": "Lab-made antibodies targeting specific disease markers.",
+  "name_zh": "单克隆抗体"
+ },
+ {
+  "id": "PROD.pharmaceuticals.biologics.gene_therapies",
+  "name": "Gene Therapies",
+  "name_en": "Gene Therapies",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.biologics",
+  "description": "Treatments that modify genes to treat disease.",
+  "name_zh": "基因疗法"
+ },
+ {
+  "id": "PROD.pharmaceuticals.traditional_medicines.herbal_medicines",
+  "name": "Herbal Medicines",
+  "name_en": "Herbal Medicines",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.traditional_medicines",
+  "description": "Medicines derived from plant materials.",
+  "name_zh": "草药"
+ },
+ {
+  "id": "PROD.pharmaceuticals.traditional_medicines.traditional_chinese_medicine",
+  "name": "Traditional Chinese Medicine",
+  "name_en": "Traditional Chinese Medicine",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.traditional_medicines",
+  "description": "Preparations based on Chinese medical theory.",
+  "name_zh": "中药",
+  "examples": [
+   "herbal decoctions",
+   "patent medicines"
+  ],
+  "global": false
+ },
+ {
+  "id": "PROD.pharmaceuticals.traditional_medicines.ayurvedic_medicine",
+  "name": "Ayurvedic Medicine",
+  "name_en": "Ayurvedic Medicine",
+  "type": "PRODUCT",
+  "parent": "PROD.pharmaceuticals.traditional_medicines",
+  "description": "Preparations based on Indian Ayurvedic tradition.",
+  "name_zh": "阿育吠陀药物",
+  "global": false
+ },
+ {
+  "id": "PROD.medical_devices.diagnostic_devices",
+  "name": "Diagnostic Devices",
+  "name_en": "Diagnostic Devices",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices",
+  "description": "Devices used to detect and assess health conditions.",
+  "name_zh": "诊断设备"
+ },
+ {
+  "id": "PROD.medical_devices.therapeutic_devices",
+  "name": "Therapeutic Devices",
+  "name_en": "Therapeutic Devices",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices",
+  "description": "Devices used to treat or manage disease.",
+  "name_zh": "治疗设备"
+ },
+ {
+  "id": "PROD.medical_devices.assistive_devices",
+  "name": "Assistive Devices",
+  "name_en": "Assistive Devices",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices",
+  "description": "Devices that support impaired bodily functions.",
+  "name_zh": "辅助器具"
+ },
+ {
+  "id": "PROD.medical_devices.medical_consumables",
+  "name": "Medical Consumables",
+  "name_en": "Medical Consumables",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices",
+  "description": "Single-use supplies used in care delivery.",
+  "name_zh": "医疗耗材"
+ },
+ {
+  "id": "PROD.medical_devices.diagnostic_devices.imaging_equipment",
+  "name": "Medical Imaging Equipment",
+  "name_en": "Medical Imaging Equipment",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.diagnostic_devices",
+  "description": "Machines that visualize internal body structures.",
+  "name_zh": "医学影像设备"
+ },
+ {
+  "id": "PROD.medical_devices.diagnostic_devices.imaging_equipment.mri_scanners",
+  "name": "MRI Scanners",
+  "name_en": "MRI Scanners",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.diagnostic_devices.imaging_equipment",
+  "description": "Imagers using magnetic resonance to visualize soft tissue.",
+  "name_zh": "核磁共振成像仪"
+ },
+ {
+  "id": "PROD.medical_devices.diagnostic_devices.imaging_equipment.ct_scanners",
+  "name": "CT Scanners",
+  "name_en": "CT Scanners",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.diagnostic_devices.imaging_equipment",
+  "description": "X-ray machines producing cross-sectional images.",
+  "name_zh": "CT扫描仪"
+ },
+ {
+  "id": "PROD.medical_devices.diagnostic_devices.imaging_equipment.ultrasound_machines",
+  "name": "Ultrasound Machines",
+  "name_en": "Ultrasound Machines",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.diagnostic_devices.imaging_equipment",
+  "description": "Imagers using high-frequency sound waves.",
+  "name_zh": "超声诊断仪"
+ },
+ {
+  "id": "PROD.medical_devices.diagnostic_devices.in_vitro_diagnostics",
+  "name": "In Vitro Diagnostics",
+  "name_en": "In Vitro Diagnostics",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.diagnostic_devices",
+  "description": "Tests performed on samples outside the body.",
+  "name_zh": "体外诊断",
+  "examples": [
+   "blood tests",
+   "rapid tests"
+  ]
+ },
+ {
+  "id": "PROD.medical_devices.diagnostic_devices.patient_monitors",
+  "name": "Patient Monitors",
+  "name_en": "Patient Monitors",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.diagnostic_devices",
+  "description": "Devices tracking vital signs in real time.",
+  "name_zh": "病人监护仪",
+  "examples": [
+   "ECG monitors",
+   "pulse oximeters"
+  ]
+ },
+ {
+  "id": "PROD.medical_devices.therapeutic_devices.implantable_devices",
+  "name": "Implantable Devices",
+  "name_en": "Implantable Devices",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.therapeutic_devices",
+  "description": "Devices surgically placed inside the body.",
+  "name_zh": "植入式器械"
+ },
+ {
+  "id": "PROD.medical_devices.therapeutic_devices.implantable_devices.pacemakers",
+  "name": "Pacemakers",
+  "name_en": "Pacemakers",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.therapeutic_devices.implantable_devices",
+  "description": "Implants that regulate heart rhythm.",
+  "name_zh": "心脏起搏器"
+ },
+ {
+  "id": "PROD.medical_devices.therapeutic_devices.implantable_devices.stents",
+  "name": "Stents",
+  "name_en": "Stents",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.therapeutic_devices.implantable_devices",
+  "description": "Tubes that hold open narrowed vessels.",
+  "name_zh": "支架"
+ },
+ {
+  "id": "PROD.medical_devices.therapeutic_devices.surgical_instruments",
+  "name": "Surgical Instruments",
+  "name_en": "Surgical Instruments",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.therapeutic_devices",
+  "description": "Tools used in surgical procedures.",
+  "name_zh": "手术器械",
+  "examples": [
+   "scalpels",
+   "forceps",
+   "endoscopes"
+  ]
+ },
+ {
+  "id": "PROD.medical_devices.therapeutic_devices.drug_delivery_devices",
+  "name": "Drug Delivery Devices",
+  "name_en": "Drug Delivery Devices",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.therapeutic_devices",
+  "description": "Devices that administer medication.",
+  "name_zh": "给药装置",
+  "examples": [
+   "insulin pumps",
+   "inhalers"
+  ]
+ },
+ {
+  "id": "PROD.medical_devices.therapeutic_devices.dialysis_machines",
+  "name": "Dialysis Machines",
+  "name_en": "Dialysis Machines",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.therapeutic_devices",
+  "description": "Machines that filter blood for kidney patients.",
+  "name_zh": "透析机"
+ },
+ {
+  "id": "PROD.medical_devices.assistive_devices.mobility_aids",
+  "name": "Mobility Aids",
+  "name_en": "Mobility Aids",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.assistive_devices",
+  "description": "Devices that aid movement.",
+  "name_zh": "行动辅助器具",
+  "examples": [
+   "wheelchairs",
+   "crutches",
+   "prosthetics"
+  ]
+ },
+ {
+  "id": "PROD.medical_devices.assistive_devices.hearing_aids",
+  "name": "Hearing Aids",
+  "name_en": "Hearing Aids",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.assistive_devices",
+  "description": "Devices that amplify sound for the hard of hearing.",
+  "name_zh": "助听器"
+ },
+ {
+  "id": "PROD.medical_devices.assistive_devices.vision_aids",
+  "name": "Vision Aids",
+  "name_en": "Vision Aids",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.assistive_devices",
+  "description": "Corrective lenses and low-vision aids.",
+  "name_zh": "视力辅助器具",
+  "examples": [
+   "glasses",
+   "contact lenses"
+  ]
+ },
+ {
+  "id": "PROD.medical_devices.medical_consumables.syringes_and_needles",
+  "name": "Syringes & Needles",
+  "name_en": "Syringes & Needles",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.medical_consumables",
+  "description": "Single-use injection devices.",
+  "name_zh": "注射器与针头"
+ },
+ {
+  "id": "PROD.medical_devices.medical_consumables.wound_care_products",
+  "name": "Wound Care Products",
+  "name_en": "Wound Care Products",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.medical_consumables",
+  "description": "Dressings and bandages for wounds.",
+  "name_zh": "伤口护理用品"
+ },
+ {
+  "id": "PROD.medical_devices.medical_consumables.surgical_sutures",
+  "name": "Surgical Sutures",
+  "name_en": "Surgical Sutures",
+  "type": "PRODUCT",
+  "parent": "PROD.medical_devices.medical_consumables",
+  "description": "Threads used to close wounds.",
+  "name_zh": "缝合线"
+ },
+ {
+  "id": "PROD.digital_products.software",
+  "name": "Software",
+  "name_en": "Software",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products",
+  "description": "Installed computer programs that perform tasks.",
+  "name_zh": "软件"
+ },
+ {
+  "id": "PROD.digital_products.software_as_a_service",
+  "name": "Software as a Service",
+  "name_en": "Software as a Service",
+  "type": "SERVICE",
+  "parent": "PROD.digital_products",
+  "description": "Software delivered by subscription over the internet.",
+  "name_zh": "软件即服务"
+ },
+ {
+  "id": "PROD.digital_products.mobile_apps",
+  "name": "Mobile Apps",
+  "name_en": "Mobile Apps",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products",
+  "description": "Applications designed for smartphones and tablets.",
+  "name_zh": "移动应用"
+ },
+ {
+  "id": "PROD.digital_products.video_games",
+  "name": "Video Games",
+  "name_en": "Video Games",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products",
+  "description": "Interactive digital games played on electronic devices.",
+  "name_zh": "电子游戏"
+ },
+ {
+  "id": "PROD.digital_products.digital_media_products",
+  "name": "Digital Media Products",
+  "name_en": "Digital Media Products",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products",
+  "description": "Media content distributed in digital form.",
+  "name_zh": "数字媒体产品"
+ },
+ {
+  "id": "PROD.digital_products.virtual_goods",
+  "name": "Virtual Goods",
+  "name_en": "Virtual Goods",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products",
+  "description": "Non-physical items traded within digital platforms.",
+  "name_zh": "虚拟商品"
+ },
+ {
+  "id": "PROD.digital_products.software.operating_systems",
+  "name": "Operating Systems",
+  "name_en": "Operating Systems",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.software",
+  "description": "System software managing hardware and applications.",
+  "name_zh": "操作系统",
+  "examples": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ]
+ },
+ {
+  "id": "PROD.digital_products.software.productivity_software",
+  "name": "Productivity Software",
+  "name_en": "Productivity Software",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.software",
+  "description": "Applications for documents, spreadsheets and office work.",
+  "name_zh": "办公软件",
+  "examples": [
+   "word processors",
+   "spreadsheets"
+  ]
+ },
+ {
+  "id": "PROD.digital_products.software.creative_software",
+  "name": "Creative Software",
+  "name_en": "Creative Software",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.software",
+  "description": "Tools for design, editing and media production.",
+  "name_zh": "创意软件",
+  "examples": [
+   "image editors",
+   "video editors"
+  ]
+ },
+ {
+  "id": "PROD.digital_products.software.enterprise_software",
+  "name": "Enterprise Software",
+  "name_en": "Enterprise Software",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.software",
+  "description": "Applications managing business operations at scale.",
+  "name_zh": "企业软件"
+ },
+ {
+  "id": "PROD.digital_products.software.enterprise_software.erp_software",
+  "name": "ERP Software",
+  "name_en": "ERP Software",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.software.enterprise_software",
+  "description": "Integrated systems managing enterprise resources.",
+  "name_zh": "企业资源计划软件"
+ },
+ {
+  "id": "PROD.digital_products.software.enterprise_software.crm_software",
+  "name": "CRM Software",
+  "name_en": "CRM Software",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.software.enterprise_software",
+  "description": "Systems managing customer relationships.",
+  "name_zh": "客户关系管理软件"
+ },
+ {
+  "id": "PROD.digital_products.software_as_a_service.collaboration_saas",
+  "name": "Collaboration Software",
+  "name_en": "Collaboration Software",
+  "type": "SERVICE",
+  "parent": "PROD.digital_products.software_as_a_service",
+  "description": "Cloud tools for team communication and file sharing.",
+  "name_zh": "协作软件",
+  "examples": [
+   "document suites",
+   "video conferencing"
+  ]
+ },
+ {
+  "id": "PROD.digital_products.mobile_apps.social_media_apps",
+  "name": "Social Media Apps",
+  "name_en": "Social Media Apps",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.mobile_apps",
+  "description": "Apps for social networking and content sharing.",
+  "name_zh": "社交媒体应用"
+ },
+ {
+  "id": "PROD.digital_products.mobile_apps.messaging_apps",
+  "name": "Messaging Apps",
+  "name_en": "Messaging Apps",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.mobile_apps",
+  "description": "Apps for instant text and voice communication.",
+  "name_zh": "即时通讯应用"
+ },
+ {
+  "id": "PROD.digital_products.mobile_apps.gaming_apps",
+  "name": "Gaming Apps",
+  "name_en": "Gaming Apps",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.mobile_apps",
+  "description": "Games distributed as mobile applications.",
+  "name_zh": "手机游戏应用"
+ },
+ {
+  "id": "PROD.digital_products.video_games.pc_games",
+  "name": "PC Games",
+  "name_en": "PC Games",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.video_games",
+  "description": "Games played on personal computers.",
+  "name_zh": "电脑游戏"
+ },
+ {
+  "id": "PROD.digital_products.video_games.console_games",
+  "name": "Console Games",
+  "name_en": "Console Games",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.video_games",
+  "description": "Games played on dedicated game consoles.",
+  "name_zh": "主机游戏"
+ },
+ {
+  "id": "PROD.digital_products.video_games.mobile_games",
+  "name": "Mobile Games",
+  "name_en": "Mobile Games",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.video_games",
+  "description": "Games played on mobile devices.",
+  "name_zh": "手机游戏"
+ },
+ {
+  "id": "PROD.digital_products.digital_media_products.ebooks",
+  "name": "E-Books",
+  "name_en": "E-Books",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.digital_media_products",
+  "description": "Books published in digital format.",
+  "name_zh": "电子书"
+ },
+ {
+  "id": "PROD.digital_products.digital_media_products.digital_music",
+  "name": "Digital Music",
+  "name_en": "Digital Music",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.digital_media_products",
+  "description": "Music distributed as digital audio files.",
+  "name_zh": "数字音乐"
+ },
+ {
+  "id": "PROD.digital_products.digital_media_products.streaming_subscriptions",
+  "name": "Streaming Subscriptions",
+  "name_en": "Streaming Subscriptions",
+  "type": "SERVICE",
+  "parent": "PROD.digital_products.digital_media_products",
+  "description": "Subscription access to streamed video and audio.",
+  "name_zh": "流媒体订阅"
+ },
+ {
+  "id": "PROD.digital_products.virtual_goods.in_game_items",
+  "name": "In-Game Items",
+  "name_en": "In-Game Items",
+  "type": "PRODUCT",
+  "parent": "PROD.digital_products.virtual_goods",
+  "description": "Virtual items purchased within games.",
+  "name_zh": "游戏内道具"
+ }
+]

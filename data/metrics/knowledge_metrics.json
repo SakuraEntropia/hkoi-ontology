@@ -1,0 +1,3765 @@
+{
+ "HUMAN_KNOWLEDGE": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~200M+",
+   "note": "students, researchers, educators, knowledge workers worldwide"
+  },
+  "economy": {
+   "est": "~$2T+",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "education + R&D spending (very rough)"
+  },
+  "public_awareness": {
+   "score": 100,
+   "basis": "universal; education is a human universal"
+  },
+  "historical_significance": "foundational",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "OCCUPATIONS": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~3.5B",
+   "note": "global employed labor force"
+  },
+  "economy": {
+   "est": "~$100T",
+   "basis": "global GDP ≈ total labor output",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "SOCIAL_ROLES": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~8B",
+   "note": "every person holds multiple roles"
+  },
+  "economy": {
+   "est": "n/a",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "roles are not market-valued directly"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "low",
+  "cultural_weight": "very_high"
+ },
+ "ARTS_AND_CULTURE": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~30-50M",
+   "note": "professional artists + broader creative workforce"
+  },
+  "economy": {
+   "est": "~$2-3T",
+   "basis": "creative industries (UNESCO estimate)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "SPORTS_AND_GAMES": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~1B+",
+   "note": "participants; ~4B fans/spectators"
+  },
+  "economy": {
+   "est": "~$500B-1T",
+   "basis": "sports + gaming industries",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "INDUSTRIES": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~3.5B",
+   "note": "global workforce (same as occupations)"
+  },
+  "economy": {
+   "est": "~$100T",
+   "basis": "global GDP",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "PRODUCTS_AND_SERVICES": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "n/a",
+   "note": "products/services are not people"
+  },
+  "economy": {
+   "est": "~$100T",
+   "basis": "global goods+services output",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 95
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "ORGANIZATIONS_AND_INSTITUTIONS": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "n/a",
+   "note": "institutions, not people"
+  },
+  "economy": {
+   "est": "~$100T",
+   "basis": "organizations intermediate most economic output",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "TECHNOLOGIES": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~100M+",
+   "note": "engineers + technologists"
+  },
+  "economy": {
+   "est": "~$5-8T",
+   "basis": "technology sector revenues",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "very_high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global",
+   "concentrated in US/East Asia/Europe"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA_AND_CONTENT": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~20-40M",
+   "note": "journalists, creators, media workers"
+  },
+  "economy": {
+   "est": "~$2-3T",
+   "basis": "media + content industries",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "HISTORICAL_OCCUPATIONS": {
+  "method": "qualitative",
+  "confidence": 0.7,
+  "population": {
+   "est": "~0",
+   "note": "extinct/obsolete occupations"
+  },
+  "economy": {
+   "est": "~0",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "no longer economically active (except heritage/reenactment)"
+  },
+  "public_awareness": {
+   "score": 20,
+   "basis": "historical knowledge only"
+  },
+  "historical_significance": "moderate",
+  "growth": "rapidly_declining",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "minimal",
+  "cultural_visibility": "low",
+  "economic_weight": "negligible",
+  "cultural_weight": "moderate"
+ },
+ "EMERGING_FIELDS": {
+  "method": "expert_judgment",
+  "confidence": 0.4,
+  "population": {
+   "est": "~1-5M",
+   "note": "nascent; small but fast-growing practitioner base"
+  },
+  "economy": {
+   "est": "~$50-200B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "early-stage venture + research funding"
+  },
+  "public_awareness": {
+   "score": 40,
+   "basis": "specialist awareness"
+  },
+  "historical_significance": "unknown",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global",
+   "concentrated in tech hubs"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.mathematics": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~2-5M",
+   "note": "professional mathematicians, researchers, teachers, students"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "enabling; embedded in science/finance/tech"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "HK.logic": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "logicians + philosophers + CS formal-methods researchers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in CS/verification"
+  },
+  "public_awareness": {
+   "score": 30
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.computer_science": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~20-30M",
+   "note": "software developers + CS researchers + students"
+  },
+  "economy": {
+   "est": "~$1.5T+",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "software + IT services"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "very_high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global",
+   "US/Europe/India/East Asia"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "HK.statistics": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~1-2M",
+   "note": "statisticians, data analysts, biostatisticians"
+  },
+  "economy": {
+   "est": "~$100B+",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "statistics services + analytics"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "moderate"
+ },
+ "HK.information_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~500K-1M",
+   "note": "librarians, information scientists, archivists"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "libraries + information services"
+  },
+  "public_awareness": {
+   "score": 50
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.systems_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~100-200K",
+   "note": "systems engineers + researchers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in engineering/OR"
+  },
+  "public_awareness": {
+   "score": 25
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "moderate",
+  "cultural_weight": "low"
+ },
+ "HK.operations_research": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~200-500K",
+   "note": "OR analysts + supply-chain scientists"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "optimization services"
+  },
+  "public_awareness": {
+   "score": 25
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "HK.data_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~3-5M",
+   "note": "data scientists + ML engineers"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "analytics/AI services"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "HK.physics": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~1-2M",
+   "note": "physicists, researchers, teachers"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "enabling for tech/energy"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "HK.chemistry": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~2-3M",
+   "note": "chemists + chemical engineers + researchers"
+  },
+  "economy": {
+   "est": "~$5T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "chemical industry output"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "HK.biology": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~3-5M",
+   "note": "life-science researchers + biotech workforce"
+  },
+  "economy": {
+   "est": "~$1T+",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "biotech + life sciences"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "foundational",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "HK.earth_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~500K-1M",
+   "note": "geoscientists + environmental scientists"
+  },
+  "economy": {
+   "est": "~$100B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "mining/energy/environment services"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "moderate"
+ },
+ "HK.astronomy": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~50-100K",
+   "note": "astronomers + astrophysicists"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "research funding only"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "HK.atmospheric_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "meteorologists + climate scientists"
+  },
+  "economy": {
+   "est": "~$20B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "weather/climate services"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.oceanography": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~30-60K",
+   "note": "oceanographers + marine scientists"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "research + marine services"
+  },
+  "public_awareness": {
+   "score": 45
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "moderate"
+ },
+ "HK.materials_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~500K-1M",
+   "note": "materials scientists + engineers"
+  },
+  "economy": {
+   "est": "~$1T+",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "materials industry"
+  },
+  "public_awareness": {
+   "score": 40
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global",
+   "East Asia/Europe/US"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "very_high",
+  "cultural_weight": "low"
+ },
+ "HK.environmental_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~500K-1M",
+   "note": "environmental scientists + consultants"
+  },
+  "economy": {
+   "est": "~$100B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "environmental services"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.economics": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~500K-1M",
+   "note": "economists + policy analysts"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "economic research + policy"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "HK.psychology": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~2-3M",
+   "note": "psychologists, therapists, counselors"
+  },
+  "economy": {
+   "est": "~$200B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "mental-health + behavioral services"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "HK.sociology": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~100-200K",
+   "note": "sociologists + researchers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "HK.anthropology": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "anthropologists + ethnographers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "HK.political_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~100-200K",
+   "note": "political scientists + analysts"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic + policy"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.law": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~15-20M",
+   "note": "lawyers, judges, legal professionals"
+  },
+  "economy": {
+   "est": "~$1T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "legal services"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "HK.geography": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~200-300K",
+   "note": "geographers + GIS analysts"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "GIS + spatial services"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.linguistics": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~100-200K",
+   "note": "linguists + language technologists"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic + NLP industry"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.communication": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~1-2M",
+   "note": "communication scholars + PR/media professionals"
+  },
+  "economy": {
+   "est": "~$100B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "communications services"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.education": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~80-100M",
+   "note": "teachers + education workers worldwide"
+  },
+  "economy": {
+   "est": "~$6T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "global education expenditure"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "HK.criminology": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "criminologists + researchers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic + justice policy"
+  },
+  "public_awareness": {
+   "score": 50
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "moderate"
+ },
+ "HK.demography": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~10-30K",
+   "note": "demographers + population researchers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic + census"
+  },
+  "public_awareness": {
+   "score": 35
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "low",
+  "cultural_weight": "moderate"
+ },
+ "HK.social_work": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~5-8M",
+   "note": "social workers worldwide"
+  },
+  "economy": {
+   "est": "~$200B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "social services"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.philosophy": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~200-300K",
+   "note": "philosophers, teachers, researchers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 65
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "very_high"
+ },
+ "HK.history": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~1-2M",
+   "note": "historians, teachers, archivists"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "education + heritage"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "HK.literature": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~2-3M",
+   "note": "writers, critics, scholars, teachers"
+  },
+  "economy": {
+   "est": "~$150B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "publishing + education"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "HK.religious_studies": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "scholars + clergy-adjacent researchers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic + religious institutions"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "very_high"
+ },
+ "HK.art_history": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "art historians, curators"
+  },
+  "economy": {
+   "est": "~$30B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "museums + art market"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "HK.archaeology": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "archaeologists"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "research + heritage"
+  },
+  "public_awareness": {
+   "score": 65
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "HK.classics": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~20-40K",
+   "note": "classicists"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 30
+  },
+  "historical_significance": "high",
+  "growth": "declining",
+  "geography": [
+   "Europe",
+   "North America"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "negligible",
+  "cultural_weight": "moderate"
+ },
+ "HK.musicology": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~20-40K",
+   "note": "musicologists + ethnomusicologists"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 30
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "negligible",
+  "cultural_weight": "moderate"
+ },
+ "HK.film_studies": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~20-40K",
+   "note": "film scholars + critics"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic + criticism"
+  },
+  "public_awareness": {
+   "score": 45
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "moderate"
+ },
+ "HK.medicine": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~15-20M",
+   "note": "physicians worldwide"
+  },
+  "economy": {
+   "est": "~$10T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "global healthcare expenditure"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "foundational",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "HK.engineering": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~30-40M",
+   "note": "engineers worldwide"
+  },
+  "economy": {
+   "est": "~$15T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "engineering-intensive industry output"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "foundational",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "HK.agriculture": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~1B",
+   "note": "farmers + agricultural workers"
+  },
+  "economy": {
+   "est": "~$4T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "global agricultural production"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "HK.forestry": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~10-15M",
+   "note": "forestry workers"
+  },
+  "economy": {
+   "est": "~$500B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "forest products"
+  },
+  "public_awareness": {
+   "score": 45
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "HK.architecture": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~3-4M",
+   "note": "architects"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "architectural services"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "HK.urban_planning": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~500K-1M",
+   "note": "urban planners"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "planning services"
+  },
+  "public_awareness": {
+   "score": 45
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.business": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~50-80M",
+   "note": "managers + business professionals"
+  },
+  "economy": {
+   "est": "~$5T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "management + business services"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "HK.accounting": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~5-8M",
+   "note": "accountants + auditors"
+  },
+  "economy": {
+   "est": "~$700B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "accounting services"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "low"
+ },
+ "HK.finance": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~10-15M",
+   "note": "finance professionals"
+  },
+  "economy": {
+   "est": "~$3-5T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "financial services value-added"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global",
+   "New York/London/HK/Singapore/Tokyo"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "HK.public_health": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~5-8M",
+   "note": "public-health professionals"
+  },
+  "economy": {
+   "est": "~$500B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "public-health expenditure"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "HK.nursing": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~28-30M",
+   "note": "nurses + midwives worldwide"
+  },
+  "economy": {
+   "est": "~$1T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "nursing services"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "HK.dentistry": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~3-4M",
+   "note": "dentists"
+  },
+  "economy": {
+   "est": "~$400B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "dental services"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "HK.pharmacy": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~4-5M",
+   "note": "pharmacists"
+  },
+  "economy": {
+   "est": "~$1.5T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "pharmaceutical market"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "HK.veterinary_medicine": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~1-2M",
+   "note": "veterinarians"
+  },
+  "economy": {
+   "est": "~$150B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "veterinary services"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "low"
+ },
+ "HK.journalism": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~3-5M",
+   "note": "journalists + reporters"
+  },
+  "economy": {
+   "est": "~$200B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "news media"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "very_high",
+  "growth": "declining",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "HK.library_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~500K-1M",
+   "note": "librarians + information professionals"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "library services"
+  },
+  "public_awareness": {
+   "score": 50
+  },
+  "historical_significance": "high",
+  "growth": "declining",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "HK.public_administration": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~10-15M",
+   "note": "civil servants + public managers"
+  },
+  "economy": {
+   "est": "~$15T",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "government expenditure"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "HK.cognitive_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "cognitive scientists"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic + AI R&D"
+  },
+  "public_awareness": {
+   "score": 45
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.neuroscience": {
+  "method": "expert_judgment",
+  "confidence": 0.6,
+  "population": {
+   "est": "~100-200K",
+   "note": "neuroscientists"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "neuroscience R&D"
+  },
+  "public_awareness": {
+   "score": 65
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.complexity_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~20-50K",
+   "note": "complexity researchers"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 25
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "low",
+  "economic_weight": "low",
+  "cultural_weight": "low"
+ },
+ "HK.sustainability_science": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~100-200K",
+   "note": "sustainability researchers + practitioners"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic + policy"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "HK.gender_studies": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~20-40K",
+   "note": "gender-studies scholars"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "negligible",
+  "cultural_weight": "high"
+ },
+ "HK.area_studies": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50-100K",
+   "note": "area-studies scholars"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 40
+  },
+  "historical_significance": "moderate",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "negligible",
+  "cultural_weight": "high"
+ },
+ "HK.bioinformatics": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~100-200K",
+   "note": "bioinformaticians + computational biologists"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "bioinformatics tools + services"
+  },
+  "public_awareness": {
+   "score": 35
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "HK.digital_humanities": {
+  "method": "expert_judgment",
+  "confidence": 0.5,
+  "population": {
+   "est": "~10-30K",
+   "note": "digital-humanities scholars"
+  },
+  "economy": {
+   "est": "small",
+   "basis": "annual global (order-of-magnitude estimate)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "academic"
+  },
+  "public_awareness": {
+   "score": 25
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "low",
+  "economic_weight": "negligible",
+  "cultural_weight": "moderate"
+ },
+ "HK.mathematics.foundations": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.algebra": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.geometry": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.analysis": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.number_theory": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.combinatorics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.topology": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.probability": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.statistics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.optimization": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.numerical_mathematics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.mathematical_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.information_theory": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.game_theory": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.control_theory": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.dynamical_systems": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.mathematics.applied_mathematics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.classical_mechanics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.electromagnetism": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.thermodynamics_and_statistical_mechanics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.quantum_mechanics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.quantum_field_theory": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.quantum_gravity_and_unified_theories": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.relativity": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.particle_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.nuclear_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.atomic_molecular_optical": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.condensed_matter_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.plasma_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.astrophysics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.cosmology": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.biophysics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.geophysics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.fluid_dynamics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.optics_and_photonics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.acoustics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.computational_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.chemical_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.medical_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.physics.applied_physics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.theory_of_computation": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.algorithms_and_data_structures": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.programming_languages": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.compilers": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.operating_systems": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.computer_architecture": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.distributed_systems": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.databases": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.computer_networks": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.cryptography": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.cybersecurity": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.artificial_intelligence": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.machine_learning": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.deep_learning": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.computer_vision": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.natural_language_processing": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.speech_processing": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.robotics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.computer_graphics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.visualization": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.human_computer_interaction": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.information_retrieval": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.data_mining": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.software_engineering": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.formal_methods": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.computer_systems": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.quantum_computing": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.mobile_and_ubiquitous_computing": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.social_computing": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.computational_biology": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.computer_science.human_centered_computing": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.logic.philosophical_logic": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.logic.mathematical_logic": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.logic.non_classical_logic": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.statistics.inferential_statistics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.statistics.bayesian_statistics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.statistics.causal_inference": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.statistics.statistical_learning": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.operations_research.linear_programming": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.operations_research.queueing_theory": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.systems_science.cybernetics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.systems_science.complex_systems": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.information_science.information_retrieval": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.data_science.data_engineering": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.data_science.mlops": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.cognitive_science.cognitive_neuroscience": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.cognitive_science.computational_cognitive_science": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.neuroscience.computational_neuroscience": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.neuroscience.neuroimaging": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.complexity_science.complex_adaptive_systems": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.sustainability_science.circular_economy": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.sustainability_science.energy_systems": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.bioinformatics.genomics": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.bioinformatics.systems_biology": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ },
+ "HK.digital_humanities.text_mining": {
+  "method": "expert_judgment",
+  "confidence": 0.45,
+  "population": {
+   "est": "unknown",
+   "note": "practitioners counted within parent discipline"
+  },
+  "economy": {
+   "est": "not separately measured",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "embedded in parent discipline's economy"
+  },
+  "geography": [
+   "global"
+  ]
+ }
+}

@@ -1,0 +1,635 @@
+[
+ {
+  "id": "HK.astronomy.astrophysics",
+  "name": "Astrophysics",
+  "parent": "HK.astronomy",
+  "description": "The application of physics to understand celestial objects and phenomena.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "天体物理学"
+ },
+ {
+  "id": "HK.astronomy.cosmology",
+  "name": "Cosmology",
+  "parent": "HK.astronomy",
+  "description": "The study of the origin, evolution, and large-scale structure of the universe.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "宇宙学"
+ },
+ {
+  "id": "HK.astronomy.planetary_science",
+  "name": "Planetary Science",
+  "parent": "HK.astronomy",
+  "description": "The study of planets, moons, and planetary systems.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "行星科学"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy",
+  "name": "Stellar Astronomy",
+  "parent": "HK.astronomy",
+  "description": "The study of stars, their structure, evolution, and populations.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "恒星天文学"
+ },
+ {
+  "id": "HK.astronomy.galactic_astronomy",
+  "name": "Galactic Astronomy",
+  "parent": "HK.astronomy",
+  "description": "The study of galaxies and their structure, dynamics, and evolution.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "星系天文学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy",
+  "name": "Observational Astronomy",
+  "parent": "HK.astronomy",
+  "description": "The practice of observing and measuring celestial objects across the electromagnetic spectrum.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "观测天文学"
+ },
+ {
+  "id": "HK.astronomy.astrometry",
+  "name": "Astrometry",
+  "parent": "HK.astronomy",
+  "description": "The precise measurement of the positions and motions of celestial bodies.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "天体测量学"
+ },
+ {
+  "id": "HK.astronomy.solar_physics",
+  "name": "Solar Physics",
+  "parent": "HK.astronomy",
+  "description": "The study of the Sun, its structure, activity, and influence.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "太阳物理学"
+ },
+ {
+  "id": "HK.astronomy.astrobiology",
+  "name": "Astrobiology",
+  "parent": "HK.astronomy",
+  "description": "The study of the origin, evolution, and distribution of life in the universe.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "天体生物学"
+ },
+ {
+  "id": "HK.astronomy.astrochemistry",
+  "name": "Astrochemistry",
+  "parent": "HK.astronomy",
+  "description": "The study of chemical processes and molecules in space.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "天体化学"
+ },
+ {
+  "id": "HK.astronomy.astrology",
+  "name": "Astrology",
+  "parent": "HK.astronomy",
+  "description": "The historical and cultural system attributing earthly events to celestial positions, now regarded as a non-scientific practice.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "占星术",
+  "historical": true
+ },
+ {
+  "id": "HK.astronomy.astrophysics.stellar_astrophysics",
+  "name": "Stellar Astrophysics",
+  "parent": "HK.astronomy.astrophysics",
+  "description": "The physical study of stellar interiors, atmospheres, and evolution.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "恒星天体物理"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.plasma_astrophysics",
+  "name": "Plasma Astrophysics",
+  "parent": "HK.astronomy.astrophysics",
+  "description": "The study of astrophysical plasmas and their magnetic behavior.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "等离子体天体物理"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.high_energy_astrophysics",
+  "name": "High-Energy Astrophysics",
+  "parent": "HK.astronomy.astrophysics",
+  "description": "The study of the most energetic phenomena in the universe.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "高能天体物理"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.high_energy_astrophysics.x_ray_astronomy",
+  "name": "X-Ray Astronomy",
+  "parent": "HK.astronomy.astrophysics.high_energy_astrophysics",
+  "description": "Observation of celestial X-ray sources such as black holes and supernova remnants.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "X射线天文学"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.high_energy_astrophysics.gamma_ray_astronomy",
+  "name": "Gamma-Ray Astronomy",
+  "parent": "HK.astronomy.astrophysics.high_energy_astrophysics",
+  "description": "Observation of the highest-energy photons from cosmic sources.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "伽马射线天文学"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.relativistic_astrophysics",
+  "name": "Relativistic Astrophysics",
+  "parent": "HK.astronomy.astrophysics",
+  "description": "The study of phenomena governed by general relativity, such as black holes and gravitational waves.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "相对论天体物理"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.particle_astrophysics",
+  "name": "Particle Astrophysics",
+  "parent": "HK.astronomy.astrophysics",
+  "description": "The study of elementary particles of cosmic origin, including cosmic rays and neutrinos.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "粒子天体物理"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.computational_astrophysics",
+  "name": "Computational Astrophysics",
+  "parent": "HK.astronomy.astrophysics",
+  "description": "Numerical simulation and modeling of astrophysical systems.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "计算天体物理"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.nuclear_astrophysics",
+  "name": "Nuclear Astrophysics",
+  "parent": "HK.astronomy.astrophysics",
+  "description": "The study of nuclear reactions in stars and their role in element synthesis.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "核天体物理"
+ },
+ {
+  "id": "HK.astronomy.astrophysics.accretion_physics",
+  "name": "Accretion Physics",
+  "parent": "HK.astronomy.astrophysics",
+  "description": "The study of how matter falls onto compact objects, powering disks and jets.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "吸积物理"
+ },
+ {
+  "id": "HK.astronomy.cosmology.physical_cosmology",
+  "name": "Physical Cosmology",
+  "parent": "HK.astronomy.cosmology",
+  "description": "The physical theory of the universe's origin and evolution.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "物理宇宙学"
+ },
+ {
+  "id": "HK.astronomy.cosmology.physical_cosmology.big_bang_nucleosynthesis",
+  "name": "Big Bang Nucleosynthesis",
+  "parent": "HK.astronomy.cosmology.physical_cosmology",
+  "description": "The production of light elements in the first minutes after the Big Bang.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "大爆炸核合成"
+ },
+ {
+  "id": "HK.astronomy.cosmology.physical_cosmology.cosmic_microwave_background",
+  "name": "Cosmic Microwave Background",
+  "parent": "HK.astronomy.cosmology.physical_cosmology",
+  "description": "The relic radiation from the early universe used to constrain cosmological parameters.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "宇宙微波背景"
+ },
+ {
+  "id": "HK.astronomy.cosmology.physical_cosmology.structure_formation",
+  "name": "Structure Formation",
+  "parent": "HK.astronomy.cosmology.physical_cosmology",
+  "description": "The growth of galaxies and large-scale structure from primordial density fluctuations.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "宇宙结构形成"
+ },
+ {
+  "id": "HK.astronomy.cosmology.physical_cosmology.dark_matter",
+  "name": "Dark Matter",
+  "parent": "HK.astronomy.cosmology.physical_cosmology",
+  "description": "The study of the unseen mass whose gravity shapes galaxies and clusters.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "暗物质"
+ },
+ {
+  "id": "HK.astronomy.cosmology.physical_cosmology.dark_energy",
+  "name": "Dark Energy",
+  "parent": "HK.astronomy.cosmology.physical_cosmology",
+  "description": "The study of the unknown energy driving the accelerating expansion of the universe.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "暗能量"
+ },
+ {
+  "id": "HK.astronomy.cosmology.physical_cosmology.inflationary_cosmology",
+  "name": "Inflationary Cosmology",
+  "parent": "HK.astronomy.cosmology.physical_cosmology",
+  "description": "The theory of a rapid exponential expansion in the very early universe.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "暴胀宇宙学"
+ },
+ {
+  "id": "HK.astronomy.cosmology.observational_cosmology",
+  "name": "Observational Cosmology",
+  "parent": "HK.astronomy.cosmology",
+  "description": "The measurement of the universe's expansion, structure, and content through observation.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "观测宇宙学"
+ },
+ {
+  "id": "HK.astronomy.cosmology.theoretical_cosmology",
+  "name": "Theoretical Cosmology",
+  "parent": "HK.astronomy.cosmology",
+  "description": "The mathematical modeling of the universe's evolution and geometry.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "理论宇宙学"
+ },
+ {
+  "id": "HK.astronomy.cosmology.gravitational_lensing",
+  "name": "Gravitational Lensing",
+  "parent": "HK.astronomy.cosmology",
+  "description": "The bending of light by mass, used to map dark matter and study distant galaxies.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "引力透镜"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.planetology",
+  "name": "Planetology",
+  "parent": "HK.astronomy.planetary_science",
+  "description": "The comparative study of planets and their properties.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "行星学"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.exoplanet_science",
+  "name": "Exoplanet Science",
+  "parent": "HK.astronomy.planetary_science",
+  "description": "The detection and characterization of planets orbiting other stars.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "系外行星科学"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.lunar_science",
+  "name": "Lunar Science",
+  "parent": "HK.astronomy.planetary_science",
+  "description": "The study of the Moon, its origin, geology, and resources.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "月球科学"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.planetary_atmospheres",
+  "name": "Planetary Atmospheres",
+  "parent": "HK.astronomy.planetary_science",
+  "description": "The study of the atmospheres of planets and their evolution.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "行星大气"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.small_body_science",
+  "name": "Small Body Science",
+  "parent": "HK.astronomy.planetary_science",
+  "description": "The study of asteroids, comets, and meteoroids.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "小天体科学"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.small_body_science.asteroid_science",
+  "name": "Asteroid Science",
+  "parent": "HK.astronomy.planetary_science.small_body_science",
+  "description": "The study of asteroids, their composition, and dynamics.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "小行星科学"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.small_body_science.comet_science",
+  "name": "Comet Science",
+  "parent": "HK.astronomy.planetary_science.small_body_science",
+  "description": "The study of comets and their nuclei, comae, and tails.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "彗星科学"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.small_body_science.meteoritics",
+  "name": "Meteoritics",
+  "parent": "HK.astronomy.planetary_science.small_body_science",
+  "description": "The study of meteorites and their parent bodies.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "陨石学"
+ },
+ {
+  "id": "HK.astronomy.planetary_science.planetary_habitability",
+  "name": "Planetary Habitability",
+  "parent": "HK.astronomy.planetary_science",
+  "description": "The study of conditions under which planets can support life.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "行星宜居性"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.stellar_structure",
+  "name": "Stellar Structure",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The physical modeling of stellar interiors and energy transport.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "恒星结构"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.stellar_evolution",
+  "name": "Stellar Evolution",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The life cycles of stars from formation to death.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "恒星演化"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.stellar_nucleosynthesis",
+  "name": "Stellar Nucleosynthesis",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The synthesis of chemical elements inside stars.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "恒星核合成"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.variable_stars",
+  "name": "Variable Stars",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The study of stars whose brightness changes over time.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "变星"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.binary_stars",
+  "name": "Binary Stars",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The study of star systems with two gravitationally bound members.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "双星"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.star_formation",
+  "name": "Star Formation",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The processes by which stars form from collapsing molecular clouds.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "恒星形成"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.compact_objects",
+  "name": "Compact Objects",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The study of dense stellar remnants and black holes.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "致密天体"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.compact_objects.white_dwarfs",
+  "name": "White Dwarfs",
+  "parent": "HK.astronomy.stellar_astronomy.compact_objects",
+  "description": "The study of degenerate remnants of low-mass stars.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "白矮星"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.compact_objects.neutron_stars",
+  "name": "Neutron Stars",
+  "parent": "HK.astronomy.stellar_astronomy.compact_objects",
+  "description": "The study of ultra-dense neutron-rich stellar remnants, including pulsars.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "中子星"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.compact_objects.black_holes",
+  "name": "Black Holes",
+  "parent": "HK.astronomy.stellar_astronomy.compact_objects",
+  "description": "The study of regions of spacetime where gravity prevents all escape.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "黑洞"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.supernovae",
+  "name": "Supernovae",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The study of explosive stellar deaths and their remnants.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "超新星"
+ },
+ {
+  "id": "HK.astronomy.stellar_astronomy.brown_dwarfs",
+  "name": "Brown Dwarfs",
+  "parent": "HK.astronomy.stellar_astronomy",
+  "description": "The study of substellar objects too small to sustain hydrogen fusion.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "褐矮星"
+ },
+ {
+  "id": "HK.astronomy.galactic_astronomy.galactic_structure",
+  "name": "Galactic Structure",
+  "parent": "HK.astronomy.galactic_astronomy",
+  "description": "The study of the components and morphology of galaxies.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "星系结构"
+ },
+ {
+  "id": "HK.astronomy.galactic_astronomy.galactic_dynamics",
+  "name": "Galactic Dynamics",
+  "parent": "HK.astronomy.galactic_astronomy",
+  "description": "The study of the gravitational motion of stars and gas within galaxies.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "星系动力学"
+ },
+ {
+  "id": "HK.astronomy.galactic_astronomy.galaxy_formation_and_evolution",
+  "name": "Galaxy Formation and Evolution",
+  "parent": "HK.astronomy.galactic_astronomy",
+  "description": "The study of how galaxies form, grow, and change over cosmic time.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "星系形成与演化"
+ },
+ {
+  "id": "HK.astronomy.galactic_astronomy.active_galactic_nuclei",
+  "name": "Active Galactic Nuclei",
+  "parent": "HK.astronomy.galactic_astronomy",
+  "description": "The study of supermassive black holes powering luminous galactic cores and quasars.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "活动星系核"
+ },
+ {
+  "id": "HK.astronomy.galactic_astronomy.interstellar_medium",
+  "name": "Interstellar Medium",
+  "parent": "HK.astronomy.galactic_astronomy",
+  "description": "The study of gas and dust between stars and the birth of new stars within it.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "星际介质"
+ },
+ {
+  "id": "HK.astronomy.galactic_astronomy.star_clusters",
+  "name": "Star Clusters",
+  "parent": "HK.astronomy.galactic_astronomy",
+  "description": "The study of gravitationally bound groups of stars.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "星团"
+ },
+ {
+  "id": "HK.astronomy.galactic_astronomy.galactic_archaeology",
+  "name": "Galactic Archaeology",
+  "parent": "HK.astronomy.galactic_astronomy",
+  "description": "The reconstruction of galaxy formation history from stellar populations.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "星系考古学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy.optical_astronomy",
+  "name": "Optical Astronomy",
+  "parent": "HK.astronomy.observational_astronomy",
+  "description": "Observation of the universe in visible light.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "光学天文学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy.infrared_astronomy",
+  "name": "Infrared Astronomy",
+  "parent": "HK.astronomy.observational_astronomy",
+  "description": "Observation of cool objects and dust-enshrouded regions in infrared light.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "红外天文学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy.ultraviolet_astronomy",
+  "name": "Ultraviolet Astronomy",
+  "parent": "HK.astronomy.observational_astronomy",
+  "description": "Observation of hot stars and interstellar gas in ultraviolet light.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "紫外天文学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy.radio_astronomy",
+  "name": "Radio Astronomy",
+  "parent": "HK.astronomy.observational_astronomy",
+  "description": "Observation of the universe at radio wavelengths, including cold gas and pulsars.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "射电天文学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy.submillimeter_astronomy",
+  "name": "Submillimeter Astronomy",
+  "parent": "HK.astronomy.observational_astronomy",
+  "description": "Observation at submillimeter wavelengths to study star-forming regions and distant galaxies.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "亚毫米波天文学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy.gravitational_wave_astronomy",
+  "name": "Gravitational-Wave Astronomy",
+  "parent": "HK.astronomy.observational_astronomy",
+  "description": "The detection of ripples in spacetime from merging compact objects.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "引力波天文学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy.multi_messenger_astronomy",
+  "name": "Multi-Messenger Astronomy",
+  "parent": "HK.astronomy.observational_astronomy",
+  "description": "The coordinated study of cosmic events through photons, neutrinos, and gravitational waves.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "多信使天文学"
+ },
+ {
+  "id": "HK.astronomy.observational_astronomy.time_domain_astronomy",
+  "name": "Time-Domain Astronomy",
+  "parent": "HK.astronomy.observational_astronomy",
+  "description": "The study of objects whose brightness or position changes over time.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "时域天文学"
+ },
+ {
+  "id": "HK.astronomy.astrometry.positional_astronomy",
+  "name": "Positional Astronomy",
+  "parent": "HK.astronomy.astrometry",
+  "description": "The measurement of celestial coordinates and apparent motions.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "方位天文学"
+ },
+ {
+  "id": "HK.astronomy.astrometry.celestial_mechanics",
+  "name": "Celestial Mechanics",
+  "parent": "HK.astronomy.astrometry",
+  "description": "The gravitational theory of the motions of celestial bodies.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "天体力学"
+ },
+ {
+  "id": "HK.astronomy.astrometry.reference_systems",
+  "name": "Celestial Reference Systems",
+  "parent": "HK.astronomy.astrometry",
+  "description": "The definition of coordinate frames and standards for celestial positions.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "天体参考系"
+ },
+ {
+  "id": "HK.astronomy.solar_physics.helioseismology",
+  "name": "Helioseismology",
+  "parent": "HK.astronomy.solar_physics",
+  "description": "The study of solar internal structure through its oscillations.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "日震学"
+ },
+ {
+  "id": "HK.astronomy.solar_physics.solar_activity",
+  "name": "Solar Activity",
+  "parent": "HK.astronomy.solar_physics",
+  "description": "The study of sunspots, flares, and the solar cycle.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "太阳活动"
+ },
+ {
+  "id": "HK.astronomy.solar_physics.solar_wind",
+  "name": "Solar Wind",
+  "parent": "HK.astronomy.solar_physics",
+  "description": "The study of the stream of charged particles flowing from the Sun.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "太阳风"
+ },
+ {
+  "id": "HK.astronomy.solar_physics.solar_magnetohydrodynamics",
+  "name": "Solar Magnetohydrodynamics",
+  "parent": "HK.astronomy.solar_physics",
+  "description": "The study of the Sun's magnetized plasma dynamics.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "太阳磁流体力学"
+ },
+ {
+  "id": "HK.astronomy.astrobiology.exobiology",
+  "name": "Exobiology",
+  "parent": "HK.astronomy.astrobiology",
+  "description": "The study of the possibility and forms of life beyond Earth.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "地外生物学"
+ },
+ {
+  "id": "HK.astronomy.astrobiology.biosignatures",
+  "name": "Biosignatures",
+  "parent": "HK.astronomy.astrobiology",
+  "description": "The search for observable indicators of past or present life.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "生物标志物"
+ },
+ {
+  "id": "HK.astronomy.astrobiology.origin_of_life",
+  "name": "Origin of Life",
+  "parent": "HK.astronomy.astrobiology",
+  "description": "The study of how life arose from non-living matter.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "生命起源"
+ },
+ {
+  "id": "HK.astronomy.astrobiology.origin_of_life.prebiotic_chemistry",
+  "name": "Prebiotic Chemistry",
+  "parent": "HK.astronomy.astrobiology.origin_of_life",
+  "description": "The chemistry of the processes that may have led to the first biomolecules.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "前生命化学"
+ },
+ {
+  "id": "HK.astronomy.astrochemistry.interstellar_chemistry",
+  "name": "Interstellar Chemistry",
+  "parent": "HK.astronomy.astrochemistry",
+  "description": "The study of chemical reactions and molecules in interstellar space.",
+  "type": "KNOWLEDGE_FIELD",
+  "name_zh": "星际化学"
+ }
+]

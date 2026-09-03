@@ -1,0 +1,347 @@
+[
+ {
+  "source": "OCC.science.physical_sciences.physicist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "OCC.science.physical_sciences.chemist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "OCC.science.physical_sciences.astronomer",
+  "relation": "APPLICATION_OF",
+  "target": "HK.astronomy"
+ },
+ {
+  "source": "OCC.science.life_sciences.biologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "OCC.science.earth_sciences.geologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "OCC.science.earth_sciences.meteorologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.atmospheric_science"
+ },
+ {
+  "source": "OCC.science.earth_sciences.oceanographer",
+  "relation": "APPLICATION_OF",
+  "target": "HK.oceanography"
+ },
+ {
+  "source": "OCC.science.physical_sciences.materials_scientist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "OCC.science.earth_sciences.environmental_scientist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "OCC.science.social_sciences.economist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "OCC.science.social_sciences.sociologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "OCC.science.social_sciences.anthropologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "OCC.science.social_sciences.research_psychologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "OCC.science.social_sciences.political_scientist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.political_science"
+ },
+ {
+  "source": "OCC.science.social_sciences.geographer",
+  "relation": "APPLICATION_OF",
+  "target": "HK.geography"
+ },
+ {
+  "source": "OCC.science.social_sciences.linguist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.linguistics"
+ },
+ {
+  "source": "OCC.science.social_sciences.criminologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.criminology"
+ },
+ {
+  "source": "OCC.science.social_sciences.demographer",
+  "relation": "APPLICATION_OF",
+  "target": "HK.demography"
+ },
+ {
+  "source": "OCC.science.social_sciences.archaeologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.archaeology"
+ },
+ {
+  "source": "OCC.science.formal_sciences.mathematician",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "OCC.science.formal_sciences.statistician",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "OCC.science.formal_sciences.operations_research_analyst",
+  "relation": "APPLICATION_OF",
+  "target": "HK.operations_research"
+ },
+ {
+  "source": "OCC.it_computing.data_analytics.data_scientist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.data_science"
+ },
+ {
+  "source": "OCC.medicine.physicians.primary_care_physician",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "OCC.medicine.nursing.registered_nurse",
+  "relation": "APPLICATION_OF",
+  "target": "HK.nursing"
+ },
+ {
+  "source": "OCC.medicine.dentistry.general_dentist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.dentistry"
+ },
+ {
+  "source": "OCC.medicine.pharmacy.pharmacist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.pharmacy"
+ },
+ {
+  "source": "OCC.medicine.veterinary_medicine.veterinarian",
+  "relation": "APPLICATION_OF",
+  "target": "HK.veterinary_medicine"
+ },
+ {
+  "source": "OCC.science.life_sciences.epidemiologist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.public_health"
+ },
+ {
+  "source": "OCC.law.legal_practice.lawyer",
+  "relation": "APPLICATION_OF",
+  "target": "HK.law"
+ },
+ {
+  "source": "OCC.business.accounting.accountant",
+  "relation": "APPLICATION_OF",
+  "target": "HK.accounting"
+ },
+ {
+  "source": "OCC.business.finance.financial_analyst",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance"
+ },
+ {
+  "source": "OCC.it_computing.software_development.software_engineer",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "OCC.education.higher_education.professor",
+  "relation": "APPLICATION_OF",
+  "target": "HK.education"
+ },
+ {
+  "source": "OCC.government.public_administration.urban_planner",
+  "relation": "APPLICATION_OF",
+  "target": "HK.urban_planning"
+ },
+ {
+  "source": "OCC.personal_services.social_services.social_worker",
+  "relation": "APPLICATION_OF",
+  "target": "HK.social_work"
+ },
+ {
+  "source": "OCC.media.journalism.journalist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "OCC.education.student_support.librarian",
+  "relation": "APPLICATION_OF",
+  "target": "HK.library_science"
+ },
+ {
+  "source": "OCC.government.public_administration.civil_servant",
+  "relation": "APPLICATION_OF",
+  "target": "HK.public_administration"
+ },
+ {
+  "source": "OCC.science.life_sciences.neuroscientist",
+  "relation": "APPLICATION_OF",
+  "target": "HK.neuroscience"
+ },
+ {
+  "source": "OCC.science.life_sciences.bioinformatician",
+  "relation": "APPLICATION_OF",
+  "target": "HK.bioinformatics"
+ },
+ {
+  "source": "OCC.business.finance.actuary",
+  "relation": "USES",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "OCC.business.finance.quantitative_analyst",
+  "relation": "USES",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "OCC.it_computing.data_analytics.data_scientist",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.science.formal_sciences.statistician"
+ },
+ {
+  "source": "OCC.it_computing.data_analytics.data_scientist.machine_learning_engineer",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.it_computing.software_development.software_engineer"
+ },
+ {
+  "source": "OCC.science.formal_sciences.statistician.biostatistician",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.science.life_sciences.epidemiologist"
+ },
+ {
+  "source": "OCC.science.life_sciences.biologist.biochemist",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.science.life_sciences.biomedical_scientist"
+ },
+ {
+  "source": "OCC.medicine.mental_health.clinical_psychologist",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.medicine.physicians.psychiatrist"
+ },
+ {
+  "source": "OCC.medicine.nursing.nurse_practitioner",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.medicine.allied_health.physician_assistant"
+ },
+ {
+  "source": "OCC.medicine.allied_health.physical_therapist",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.medicine.allied_health.occupational_therapist"
+ },
+ {
+  "source": "OCC.it_computing.web_ui_ux.ux_designer",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.it_computing.web_ui_ux.ui_designer"
+ },
+ {
+  "source": "OCC.science.applied_science.forensic_scientist",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.government.public_safety.police_officer.crime_scene_investigator"
+ },
+ {
+  "source": "OCC.business.finance.actuary",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.business.finance.quantitative_analyst"
+ },
+ {
+  "source": "OCC.government.public_administration.urban_planner",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.arts.design.landscape_architect"
+ },
+ {
+  "source": "OCC.media.journalism.journalist",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.media.entertainment.content_creator"
+ },
+ {
+  "source": "OCC.construction.construction_trades.carpenter",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.trades.woodworking.cabinetmaker"
+ },
+ {
+  "source": "OCC.construction.construction_trades.electrician",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.engineering.engineering_technician.electronics_technician"
+ },
+ {
+  "source": "OCC.agriculture.crop_production.agricultural_scientist",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.science.applied_science.food_scientist"
+ },
+ {
+  "source": "OCC.personal_services.social_services.social_worker",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.medicine.mental_health.mental_health_counselor"
+ },
+ {
+  "source": "OCC.sports.fitness.personal_trainer",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.sports.coaching.strength_and_conditioning_coach"
+ },
+ {
+  "source": "OCC.personal_services.private_security.security_guard",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.government.public_safety.police_officer"
+ },
+ {
+  "source": "OCC.arts.design.industrial_designer",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.arts.design.graphic_designer"
+ },
+ {
+  "source": "OCC.media.film_tv.film_director",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.media.film_tv.film_producer"
+ },
+ {
+  "source": "OCC.personal_services.wellness.massage_therapist",
+  "relation": "OVERLAPS_WITH",
+  "target": "OCC.medicine.allied_health.physical_therapist"
+ },
+ {
+  "source": "OCC.personal_services.lamplighter",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.construction.construction_trades.electrician"
+ },
+ {
+  "source": "OCC.it_computing.switchboard_operator",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.personal_services.customer_service.customer_service_representative"
+ },
+ {
+  "source": "OCC.media.town_crier",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.media.journalism.news_anchor"
+ },
+ {
+  "source": "OCC.media.scribe",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.business.typist"
+ },
+ {
+  "source": "OCC.business.typist",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "OCC.business.administrative_assistant"
+ }
+]

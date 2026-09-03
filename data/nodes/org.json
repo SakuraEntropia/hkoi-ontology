@@ -1,0 +1,2984 @@
+[
+ {
+  "id": "ORG.business_enterprise",
+  "name": "Business Enterprise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "A for-profit organization established to produce, trade, or deliver goods and services.",
+  "name_zh": "企业"
+ },
+ {
+  "id": "ORG.business_enterprise.sole_proprietorship",
+  "name": "Sole Proprietorship",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A business owned and run by one individual with no separate legal identity from its owner.",
+  "name_zh": "独资经营",
+  "aliases": [
+   "sole trader"
+  ]
+ },
+ {
+  "id": "ORG.business_enterprise.partnership",
+  "name": "Partnership",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A business jointly owned by two or more partners who share profits and liabilities.",
+  "name_zh": "合伙企业"
+ },
+ {
+  "id": "ORG.business_enterprise.partnership.general_partnership",
+  "name": "General Partnership",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.partnership",
+  "description": "A partnership in which all partners share unlimited liability and day-to-day management.",
+  "name_zh": "普通合伙"
+ },
+ {
+  "id": "ORG.business_enterprise.partnership.limited_partnership",
+  "name": "Limited Partnership",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.partnership",
+  "description": "A partnership combining general partners with limited partners whose liability is capped at their investment.",
+  "name_zh": "有限合伙"
+ },
+ {
+  "id": "ORG.business_enterprise.partnership.limited_liability_partnership",
+  "name": "Limited Liability Partnership",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.partnership",
+  "description": "A partnership shielding each partner from liabilities arising from another partner's misconduct.",
+  "name_zh": "有限责任合伙",
+  "aliases": [
+   "LLP"
+  ]
+ },
+ {
+  "id": "ORG.business_enterprise.corporation",
+  "name": "Corporation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A legal entity separate from its owners, owned by shareholders who enjoy limited liability.",
+  "name_zh": "公司",
+  "aliases": [
+   "company"
+  ]
+ },
+ {
+  "id": "ORG.business_enterprise.corporation.public_company",
+  "name": "Public Company",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.corporation",
+  "description": "A corporation whose shares are listed and traded on a public stock exchange.",
+  "name_zh": "上市公司"
+ },
+ {
+  "id": "ORG.business_enterprise.corporation.private_company",
+  "name": "Private Company",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.corporation",
+  "description": "A corporation whose shares are closely held and not offered to the public.",
+  "name_zh": "非上市公司"
+ },
+ {
+  "id": "ORG.business_enterprise.corporation.s_corporation",
+  "name": "S Corporation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.corporation",
+  "description": "A US closely held corporation passing income directly to shareholders to avoid double taxation.",
+  "global": false
+ },
+ {
+  "id": "ORG.business_enterprise.corporation.benefit_corporation",
+  "name": "Benefit Corporation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.corporation",
+  "description": "A for-profit corporation legally bound to pursue a stated public benefit alongside profit.",
+  "name_zh": "公益公司",
+  "aliases": [
+   "B Corporation"
+  ]
+ },
+ {
+  "id": "ORG.business_enterprise.corporation.statutory_corporation",
+  "name": "Statutory Corporation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.corporation",
+  "description": "A corporation created by statute to carry out public or quasi-public functions.",
+  "name_zh": "法定公司"
+ },
+ {
+  "id": "ORG.business_enterprise.corporation.professional_corporation",
+  "name": "Professional Corporation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.corporation",
+  "description": "A corporation formed by licensed professionals to limit liability while practicing.",
+  "name_zh": "专业公司"
+ },
+ {
+  "id": "ORG.business_enterprise.corporation.public_limited_company",
+  "name": "Public Limited Company",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.corporation",
+  "description": "A UK/Ireland limited-liability company whose shares may be offered to the public.",
+  "name_zh": "公众有限公司",
+  "aliases": [
+   "plc"
+  ],
+  "global": false
+ },
+ {
+  "id": "ORG.business_enterprise.corporation.societe_anonyme",
+  "name": "Societe Anonyme",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.corporation",
+  "description": "A continental European public limited company form denoted SA.",
+  "name_zh": "股份有限公司",
+  "aliases": [
+   "SA"
+  ],
+  "global": false
+ },
+ {
+  "id": "ORG.business_enterprise.limited_liability_company",
+  "name": "Limited Liability Company",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A hybrid US entity combining corporate limited liability with partnership-style tax treatment.",
+  "name_zh": "有限责任公司",
+  "aliases": [
+   "LLC"
+  ]
+ },
+ {
+  "id": "ORG.business_enterprise.limited_liability_company.single_member_llc",
+  "name": "Single-Member LLC",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.limited_liability_company",
+  "description": "A limited liability company with a single owner.",
+  "name_zh": "一人有限责任公司"
+ },
+ {
+  "id": "ORG.business_enterprise.limited_liability_company.series_llc",
+  "name": "Series LLC",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.limited_liability_company",
+  "description": "A limited liability company whose segregated series hold distinct assets and liabilities."
+ },
+ {
+  "id": "ORG.business_enterprise.limited_liability_company.gmbh",
+  "name": "Gesellschaft mit beschrankter Haftung",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.limited_liability_company",
+  "description": "A German, Austrian, or Swiss private limited company form.",
+  "name_zh": "有限责任公司",
+  "aliases": [
+   "GmbH"
+  ],
+  "global": false
+ },
+ {
+  "id": "ORG.business_enterprise.limited_liability_company.kabushiki_gaisha",
+  "name": "Kabushiki Gaisha",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.limited_liability_company",
+  "description": "A Japanese joint-stock company form.",
+  "name_zh": "株式会社",
+  "aliases": [
+   "K.K."
+  ],
+  "global": false
+ },
+ {
+  "id": "ORG.business_enterprise.cooperative",
+  "name": "Cooperative",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A member-owned enterprise democratically controlled by those who use its services.",
+  "name_zh": "合作社",
+  "aliases": [
+   "co-op"
+  ]
+ },
+ {
+  "id": "ORG.business_enterprise.cooperative.worker_cooperative",
+  "name": "Worker Cooperative",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.cooperative",
+  "description": "A cooperative owned and self-managed by its employees.",
+  "name_zh": "工人合作社"
+ },
+ {
+  "id": "ORG.business_enterprise.cooperative.consumer_cooperative",
+  "name": "Consumer Cooperative",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.cooperative",
+  "description": "A cooperative owned by its customers.",
+  "name_zh": "消费合作社"
+ },
+ {
+  "id": "ORG.business_enterprise.cooperative.producer_cooperative",
+  "name": "Producer Cooperative",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.cooperative",
+  "description": "A cooperative owned by producers who jointly market output or buy inputs.",
+  "name_zh": "生产合作社"
+ },
+ {
+  "id": "ORG.business_enterprise.cooperative.agricultural_cooperative",
+  "name": "Agricultural Cooperative",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.cooperative",
+  "description": "A cooperative of farmers pooling production, processing, or marketing.",
+  "name_zh": "农业合作社"
+ },
+ {
+  "id": "ORG.business_enterprise.cooperative.housing_cooperative",
+  "name": "Housing Cooperative",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.cooperative",
+  "description": "A cooperative that owns residential property controlled by its resident-members.",
+  "name_zh": "住房合作社"
+ },
+ {
+  "id": "ORG.business_enterprise.cooperative.platform_cooperative",
+  "name": "Platform Cooperative",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.cooperative",
+  "description": "A cooperatively owned digital platform serving its members.",
+  "name_zh": "平台合作社"
+ },
+ {
+  "id": "ORG.business_enterprise.holding_company",
+  "name": "Holding Company",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A company whose purpose is to own controlling shares in other companies.",
+  "name_zh": "控股公司"
+ },
+ {
+  "id": "ORG.business_enterprise.conglomerate",
+  "name": "Conglomerate",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A large multi-industry corporation combining unrelated business lines under one group.",
+  "name_zh": "企业集团"
+ },
+ {
+  "id": "ORG.business_enterprise.business_group",
+  "name": "Business Group",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A set of legally independent firms linked by ownership, family ties, or cross-shareholding.",
+  "name_zh": "企业集团"
+ },
+ {
+  "id": "ORG.business_enterprise.business_group.chaebol",
+  "name": "Chaebol",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.business_group",
+  "description": "A large South Korean family-controlled conglomerate of interlinked firms.",
+  "name_zh": "财阀",
+  "global": false
+ },
+ {
+  "id": "ORG.business_enterprise.business_group.keiretsu",
+  "name": "Keiretsu",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.business_group",
+  "description": "A Japanese business group of interlinked companies around a core bank or trading house.",
+  "name_zh": "系列",
+  "global": false
+ },
+ {
+  "id": "ORG.business_enterprise.business_group.zaibatsu",
+  "name": "Zaibatsu",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.business_group",
+  "description": "A pre-1945 Japanese family-controlled industrial conglomerate dissolved after World War II.",
+  "name_zh": "财阀",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "ORG.business_enterprise.joint_venture",
+  "name": "Joint Venture",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A separate entity formed by two or more firms for a specific project or market.",
+  "name_zh": "合资企业"
+ },
+ {
+  "id": "ORG.business_enterprise.consortium",
+  "name": "Consortium",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A temporary association of organizations cooperating on a shared undertaking.",
+  "name_zh": "联合体"
+ },
+ {
+  "id": "ORG.business_enterprise.franchise",
+  "name": "Franchise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A licensing arrangement where a franchisee operates under a franchisor's brand and system.",
+  "name_zh": "特许经营"
+ },
+ {
+  "id": "ORG.business_enterprise.franchise.franchisor",
+  "name": "Franchisor",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.franchise",
+  "description": "A company that licenses its brand and operating system to independent operators.",
+  "name_zh": "特许人"
+ },
+ {
+  "id": "ORG.business_enterprise.franchise.franchisee",
+  "name": "Franchisee",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.franchise",
+  "description": "An independent operator licensed to run a business under a franchisor's brand.",
+  "name_zh": "被特许人"
+ },
+ {
+  "id": "ORG.business_enterprise.family_business",
+  "name": "Family Business",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A business owned and managed across successive generations of a family.",
+  "name_zh": "家族企业"
+ },
+ {
+  "id": "ORG.business_enterprise.state_owned_enterprise",
+  "name": "State-Owned Enterprise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A commercial enterprise owned wholly or partly by the state.",
+  "name_zh": "国有企业",
+  "aliases": [
+   "public corporation",
+   "government-owned corporation",
+   "SOE"
+  ]
+ },
+ {
+  "id": "ORG.business_enterprise.subsidiary",
+  "name": "Subsidiary",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A company controlled by a parent or holding company.",
+  "name_zh": "子公司"
+ },
+ {
+  "id": "ORG.business_enterprise.spin_off",
+  "name": "Spin-Off",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A newly independent company created from part of a parent organization.",
+  "name_zh": "分拆公司"
+ },
+ {
+  "id": "ORG.business_enterprise.startup",
+  "name": "Startup",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A young company designed for rapid growth around a scalable innovation.",
+  "name_zh": "初创企业"
+ },
+ {
+  "id": "ORG.business_enterprise.startup.seed_stage",
+  "name": "Seed-Stage Startup",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.startup",
+  "description": "A startup developing an idea before generating stable revenue.",
+  "name_zh": "种子期初创"
+ },
+ {
+  "id": "ORG.business_enterprise.startup.early_stage",
+  "name": "Early-Stage Startup",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.startup",
+  "description": "A startup with a product and initial traction seeking early funding.",
+  "name_zh": "早期初创"
+ },
+ {
+  "id": "ORG.business_enterprise.startup.growth_stage",
+  "name": "Growth-Stage Startup",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.startup",
+  "description": "A startup scaling a validated product into a larger market.",
+  "name_zh": "成长期初创"
+ },
+ {
+  "id": "ORG.business_enterprise.startup.unicorn",
+  "name": "Unicorn Startup",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.startup",
+  "description": "A privately held startup valued at over one billion dollars.",
+  "name_zh": "独角兽企业"
+ },
+ {
+  "id": "ORG.business_enterprise.startup.scale_up",
+  "name": "Scale-Up",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.startup",
+  "description": "A startup that has reached product-market fit and entered rapid expansion.",
+  "name_zh": "扩张期企业"
+ },
+ {
+  "id": "ORG.business_enterprise.small_and_medium_enterprise",
+  "name": "Small and Medium-Sized Enterprise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A business below defined thresholds of headcount and revenue.",
+  "name_zh": "中小企业",
+  "aliases": [
+   "SME"
+  ]
+ },
+ {
+  "id": "ORG.business_enterprise.small_and_medium_enterprise.micro_enterprise",
+  "name": "Micro-Enterprise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.small_and_medium_enterprise",
+  "description": "A very small business with a handful of employees and modest turnover.",
+  "name_zh": "微型企业"
+ },
+ {
+  "id": "ORG.business_enterprise.small_and_medium_enterprise.small_enterprise",
+  "name": "Small Enterprise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.small_and_medium_enterprise",
+  "description": "A small business above micro thresholds but below medium size.",
+  "name_zh": "小企业"
+ },
+ {
+  "id": "ORG.business_enterprise.small_and_medium_enterprise.medium_enterprise",
+  "name": "Medium Enterprise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise.small_and_medium_enterprise",
+  "description": "A mid-sized business between small and large enterprise thresholds.",
+  "name_zh": "中型企业"
+ },
+ {
+  "id": "ORG.business_enterprise.large_enterprise",
+  "name": "Large Enterprise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A business exceeding SME thresholds in employees and revenue.",
+  "name_zh": "大型企业"
+ },
+ {
+  "id": "ORG.business_enterprise.social_enterprise",
+  "name": "Social Enterprise",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "An enterprise trading for a social or environmental mission and reinvesting its surplus.",
+  "name_zh": "社会企业"
+ },
+ {
+  "id": "ORG.business_enterprise.shell_company",
+  "name": "Shell Company",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.business_enterprise",
+  "description": "A legal entity with no active business used to hold assets or obscure ownership.",
+  "name_zh": "空壳公司"
+ },
+ {
+  "id": "ORG.nonprofit_organization",
+  "name": "Nonprofit Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization that reinvests its surplus toward a mission rather than distributing profit.",
+  "name_zh": "非营利组织",
+  "aliases": [
+   "NPO",
+   "not-for-profit"
+  ]
+ },
+ {
+  "id": "ORG.nonprofit_organization.charity",
+  "name": "Charity",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A nonprofit organized to relieve hardship and advance the public good.",
+  "name_zh": "慈善机构"
+ },
+ {
+  "id": "ORG.nonprofit_organization.public_charity",
+  "name": "Public Charity",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A US tax-status charity that draws support from a broad public base.",
+  "global": false
+ },
+ {
+  "id": "ORG.nonprofit_organization.foundation",
+  "name": "Foundation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A nonprofit endowed to fund or operate charitable activities.",
+  "name_zh": "基金会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.foundation.private_foundation",
+  "name": "Private Foundation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.foundation",
+  "description": "A foundation funded from a single source such as a family or corporation.",
+  "name_zh": "私人基金会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.foundation.grantmaking_foundation",
+  "name": "Grantmaking Foundation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.foundation",
+  "description": "A foundation that funds other organizations rather than running programs itself.",
+  "name_zh": "资助型基金会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.foundation.operating_foundation",
+  "name": "Operating Foundation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.foundation",
+  "description": "A foundation that runs its own charitable programs directly.",
+  "name_zh": "运作型基金会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.foundation.community_foundation",
+  "name": "Community Foundation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.foundation",
+  "description": "A grantmaking foundation pooling local donations for a region.",
+  "name_zh": "社区基金会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.foundation.corporate_foundation",
+  "name": "Corporate Foundation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.foundation",
+  "description": "A foundation funded by a corporation to conduct its philanthropy.",
+  "name_zh": "企业基金会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.foundation.family_foundation",
+  "name": "Family Foundation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.foundation",
+  "description": "A private foundation controlled by members of a family.",
+  "name_zh": "家族基金会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.charitable_trust",
+  "name": "Charitable Trust",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A trust holding assets for charitable purposes.",
+  "name_zh": "慈善信托"
+ },
+ {
+  "id": "ORG.nonprofit_organization.nongovernmental_organization",
+  "name": "Non-Governmental Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A nonprofit independent of government, usually addressing social or development issues.",
+  "name_zh": "非政府组织",
+  "aliases": [
+   "NGO"
+  ]
+ },
+ {
+  "id": "ORG.nonprofit_organization.nongovernmental_organization.humanitarian_ngo",
+  "name": "Humanitarian NGO",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.nongovernmental_organization",
+  "description": "An NGO delivering emergency relief and aid in crises.",
+  "name_zh": "人道主义非政府组织"
+ },
+ {
+  "id": "ORG.nonprofit_organization.nongovernmental_organization.development_ngo",
+  "name": "Development NGO",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.nongovernmental_organization",
+  "description": "An NGO working on long-term development and poverty reduction.",
+  "name_zh": "发展类非政府组织"
+ },
+ {
+  "id": "ORG.nonprofit_organization.nongovernmental_organization.environmental_ngo",
+  "name": "Environmental NGO",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.nongovernmental_organization",
+  "description": "An NGO acting for environmental protection and conservation.",
+  "name_zh": "环保非政府组织"
+ },
+ {
+  "id": "ORG.nonprofit_organization.nongovernmental_organization.human_rights_ngo",
+  "name": "Human Rights NGO",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.nongovernmental_organization",
+  "description": "An NGO that monitors and defends human rights.",
+  "name_zh": "人权非政府组织"
+ },
+ {
+  "id": "ORG.nonprofit_organization.nongovernmental_organization.advocacy_ngo",
+  "name": "Advocacy NGO",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization.nongovernmental_organization",
+  "description": "An NGO campaigning to influence policy and public opinion.",
+  "name_zh": "倡导型非政府组织"
+ },
+ {
+  "id": "ORG.nonprofit_organization.voluntary_association",
+  "name": "Voluntary Association",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "An unincorporated group formed freely by members around shared aims.",
+  "name_zh": "志愿社团"
+ },
+ {
+  "id": "ORG.nonprofit_organization.mutual_aid_society",
+  "name": "Mutual Aid Society",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A member-run association pooling resources for members' welfare.",
+  "name_zh": "互助会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.friendly_society",
+  "name": "Friendly Society",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A mutual association providing insurance and welfare to its members.",
+  "name_zh": "共济会",
+  "global": false
+ },
+ {
+  "id": "ORG.nonprofit_organization.burial_society",
+  "name": "Burial Society",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A mutual society covering funeral and burial costs for members.",
+  "name_zh": "殡葬互助会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.fraternal_order",
+  "name": "Fraternal Order",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A membership society with rituals, fellowship, and mutual benefit.",
+  "name_zh": "兄弟会"
+ },
+ {
+  "id": "ORG.nonprofit_organization.service_club",
+  "name": "Service Club",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A membership club organized around community service and fellowship.",
+  "name_zh": "服务社"
+ },
+ {
+  "id": "ORG.nonprofit_organization.civil_society_organization",
+  "name": "Civil Society Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "An organization in the voluntary space between state, market, and family.",
+  "name_zh": "公民社会组织",
+  "aliases": [
+   "CSO"
+  ]
+ },
+ {
+  "id": "ORG.nonprofit_organization.umbrella_organization",
+  "name": "Umbrella Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A coordinating body that represents a group of member organizations.",
+  "name_zh": "伞式组织"
+ },
+ {
+  "id": "ORG.nonprofit_organization.philanthropic_institution",
+  "name": "Philanthropic Institution",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "An institution dedicated to giving money and resources for the public good.",
+  "name_zh": "慈善机构"
+ },
+ {
+  "id": "ORG.nonprofit_organization.faith_based_charity",
+  "name": "Faith-Based Charity",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.nonprofit_organization",
+  "description": "A charity rooted in and operating through a religious tradition.",
+  "name_zh": "宗教慈善机构"
+ },
+ {
+  "id": "ORG.government_institution",
+  "name": "Government Institution",
+  "type": "INSTITUTION",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "A body established within the state to exercise public authority and deliver services.",
+  "name_zh": "政府机构"
+ },
+ {
+  "id": "ORG.government_institution.government_agency",
+  "name": "Government Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "An administrative unit of government carrying out specific functions.",
+  "name_zh": "行政机关"
+ },
+ {
+  "id": "ORG.government_institution.government_department",
+  "name": "Government Department",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A major ministerial division of the executive branch.",
+  "name_zh": "政府部门"
+ },
+ {
+  "id": "ORG.government_institution.ministry",
+  "name": "Ministry",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A top-level executive department headed by a minister.",
+  "name_zh": "部"
+ },
+ {
+  "id": "ORG.government_institution.executive_agency",
+  "name": "Executive Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A semi-autonomous body delivering public services at arm's length from ministries.",
+  "name_zh": "执行机构"
+ },
+ {
+  "id": "ORG.government_institution.independent_agency",
+  "name": "Independent Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "An agency outside ministerial control with statutory independence.",
+  "name_zh": "独立机构"
+ },
+ {
+  "id": "ORG.government_institution.regulatory_agency",
+  "name": "Regulatory Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A public body that sets and enforces rules for a sector.",
+  "name_zh": "监管机构"
+ },
+ {
+  "id": "ORG.government_institution.statutory_body",
+  "name": "Statutory Body",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A body created by legislation with defined public powers.",
+  "name_zh": "法定机构"
+ },
+ {
+  "id": "ORG.government_institution.quango",
+  "name": "Quango",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A quasi-autonomous nongovernmental organization performing public functions.",
+  "name_zh": "半官方机构"
+ },
+ {
+  "id": "ORG.government_institution.central_government",
+  "name": "Central Government",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "The national government exercising sovereign authority over a state.",
+  "name_zh": "中央政府"
+ },
+ {
+  "id": "ORG.government_institution.local_government",
+  "name": "Local Government",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A subnational government administering a locality.",
+  "name_zh": "地方政府"
+ },
+ {
+  "id": "ORG.government_institution.local_government.municipality",
+  "name": "Municipality",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.local_government",
+  "description": "An urban local government unit governing a city or town.",
+  "name_zh": "市政府"
+ },
+ {
+  "id": "ORG.government_institution.local_government.county_government",
+  "name": "County Government",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.local_government",
+  "description": "A local government administering a county.",
+  "name_zh": "县政府"
+ },
+ {
+  "id": "ORG.government_institution.local_government.town_government",
+  "name": "Town Government",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.local_government",
+  "description": "A local government administering a town.",
+  "name_zh": "镇政府"
+ },
+ {
+  "id": "ORG.government_institution.local_government.prefecture",
+  "name": "Prefecture",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.local_government",
+  "description": "A subnational administrative division in Japan and France.",
+  "name_zh": "县(行政区)",
+  "global": false
+ },
+ {
+  "id": "ORG.government_institution.local_government.province",
+  "name": "Province",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.local_government",
+  "description": "A primary subnational administrative region of a state.",
+  "name_zh": "省"
+ },
+ {
+  "id": "ORG.government_institution.legislature",
+  "name": "Legislature",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A deliberative body that makes laws.",
+  "name_zh": "立法机关"
+ },
+ {
+  "id": "ORG.government_institution.legislature.parliament",
+  "name": "Parliament",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.legislature",
+  "description": "A national legislature, bicameral or unicameral.",
+  "name_zh": "议会"
+ },
+ {
+  "id": "ORG.government_institution.legislature.congress",
+  "name": "Congress",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.legislature",
+  "description": "The national legislature of the United States and certain other countries.",
+  "name_zh": "国会",
+  "global": false
+ },
+ {
+  "id": "ORG.government_institution.legislature.senate",
+  "name": "Senate",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.legislature",
+  "description": "An upper legislative chamber in a bicameral system.",
+  "name_zh": "参议院"
+ },
+ {
+  "id": "ORG.government_institution.legislature.chamber_of_deputies",
+  "name": "Chamber of Deputies",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.legislature",
+  "description": "A lower legislative chamber in several national legislatures.",
+  "name_zh": "众议院"
+ },
+ {
+  "id": "ORG.government_institution.legislature.house_of_representatives",
+  "name": "House of Representatives",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.legislature",
+  "description": "The lower house in several legislatures, notably the United States.",
+  "name_zh": "众议院"
+ },
+ {
+  "id": "ORG.government_institution.legislature.unicameral_legislature",
+  "name": "Unicameral Legislature",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.legislature",
+  "description": "A legislature composed of a single chamber.",
+  "name_zh": "一院制议会"
+ },
+ {
+  "id": "ORG.government_institution.judiciary",
+  "name": "Judiciary",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "The system of courts and judges that adjudicates disputes and interprets law.",
+  "name_zh": "司法机关"
+ },
+ {
+  "id": "ORG.government_institution.judiciary.court",
+  "name": "Court",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.judiciary",
+  "description": "A tribunal that adjudicates legal cases.",
+  "name_zh": "法院"
+ },
+ {
+  "id": "ORG.government_institution.judiciary.court.supreme_court",
+  "name": "Supreme Court",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.judiciary.court",
+  "description": "The highest appellate court of a jurisdiction.",
+  "name_zh": "最高法院"
+ },
+ {
+  "id": "ORG.government_institution.judiciary.court.appellate_court",
+  "name": "Appellate Court",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.judiciary.court",
+  "description": "A court that reviews decisions of lower courts.",
+  "name_zh": "上诉法院"
+ },
+ {
+  "id": "ORG.government_institution.judiciary.court.trial_court",
+  "name": "Trial Court",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.judiciary.court",
+  "description": "A court of first instance that hears evidence and renders judgments.",
+  "name_zh": "初审法院"
+ },
+ {
+  "id": "ORG.government_institution.judiciary.court.constitutional_court",
+  "name": "Constitutional Court",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.judiciary.court",
+  "description": "A court adjudicating the constitutionality of laws.",
+  "name_zh": "宪法法院"
+ },
+ {
+  "id": "ORG.government_institution.judiciary.tribunal",
+  "name": "Tribunal",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.judiciary",
+  "description": "A specialized adjudicative body outside the ordinary court system.",
+  "name_zh": "裁判庭"
+ },
+ {
+  "id": "ORG.government_institution.central_bank",
+  "name": "Central Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "The monetary authority that issues currency and sets monetary policy.",
+  "name_zh": "中央银行"
+ },
+ {
+  "id": "ORG.government_institution.military_organization",
+  "name": "Military Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A state's armed forces and defense establishment.",
+  "name_zh": "军事组织"
+ },
+ {
+  "id": "ORG.government_institution.military_organization.army",
+  "name": "Army",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.military_organization",
+  "description": "The land warfare branch of a state's armed forces.",
+  "name_zh": "陆军"
+ },
+ {
+  "id": "ORG.government_institution.military_organization.navy",
+  "name": "Navy",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.military_organization",
+  "description": "The sea warfare branch of a state's armed forces.",
+  "name_zh": "海军"
+ },
+ {
+  "id": "ORG.government_institution.military_organization.air_force",
+  "name": "Air Force",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.military_organization",
+  "description": "The aerial warfare branch of a state's armed forces.",
+  "name_zh": "空军"
+ },
+ {
+  "id": "ORG.government_institution.military_organization.marine_corps",
+  "name": "Marine Corps",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.military_organization",
+  "description": "An amphibious expeditionary force within a state's military.",
+  "name_zh": "海军陆战队"
+ },
+ {
+  "id": "ORG.government_institution.military_organization.coast_guard",
+  "name": "Coast Guard",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.military_organization",
+  "description": "A maritime security, safety, and rescue service.",
+  "name_zh": "海岸警卫队"
+ },
+ {
+  "id": "ORG.government_institution.military_organization.gendarmerie",
+  "name": "Gendarmerie",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.military_organization",
+  "description": "A military force with domestic law-enforcement duties.",
+  "name_zh": "宪兵队",
+  "global": false
+ },
+ {
+  "id": "ORG.government_institution.law_enforcement_agency",
+  "name": "Law Enforcement Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A body empowered to enforce laws and maintain public order.",
+  "name_zh": "执法机关"
+ },
+ {
+  "id": "ORG.government_institution.law_enforcement_agency.national_police",
+  "name": "National Police",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.law_enforcement_agency",
+  "description": "A police force operating at the national level.",
+  "name_zh": "国家警察"
+ },
+ {
+  "id": "ORG.government_institution.law_enforcement_agency.local_police",
+  "name": "Local Police",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution.law_enforcement_agency",
+  "description": "A police force operating at the municipal or regional level.",
+  "name_zh": "地方警察"
+ },
+ {
+  "id": "ORG.government_institution.fire_service",
+  "name": "Fire Service",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "An emergency service responsible for fire suppression and rescue.",
+  "name_zh": "消防队"
+ },
+ {
+  "id": "ORG.government_institution.emergency_medical_service",
+  "name": "Emergency Medical Service",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A service providing out-of-hospital emergency care and transport.",
+  "name_zh": "急救服务"
+ },
+ {
+  "id": "ORG.government_institution.public_utility",
+  "name": "Public Utility",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A body providing essential infrastructure services such as water, power, and transport.",
+  "name_zh": "公用事业"
+ },
+ {
+  "id": "ORG.government_institution.sovereign_wealth_fund",
+  "name": "Sovereign Wealth Fund",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A state-owned investment fund managing national reserves and surpluses.",
+  "name_zh": "主权财富基金"
+ },
+ {
+  "id": "ORG.government_institution.public_health_agency",
+  "name": "Public Health Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A government body protecting and improving population health.",
+  "name_zh": "公共卫生机构"
+ },
+ {
+  "id": "ORG.government_institution.correctional_institution",
+  "name": "Correctional Institution",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A state institution for imprisonment and rehabilitation.",
+  "name_zh": "惩教机构",
+  "aliases": [
+   "prison"
+  ]
+ },
+ {
+  "id": "ORG.government_institution.customs_agency",
+  "name": "Customs Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A body controlling the movement of goods across borders.",
+  "name_zh": "海关"
+ },
+ {
+  "id": "ORG.government_institution.tax_authority",
+  "name": "Tax Authority",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A body administering tax assessment and collection.",
+  "name_zh": "税务机关"
+ },
+ {
+  "id": "ORG.government_institution.space_agency",
+  "name": "Space Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A government body for space exploration and research.",
+  "name_zh": "航天局"
+ },
+ {
+  "id": "ORG.government_institution.intelligence_agency",
+  "name": "Intelligence Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.government_institution",
+  "description": "A state body gathering and analyzing intelligence.",
+  "name_zh": "情报机构"
+ },
+ {
+  "id": "ORG.educational_institution",
+  "name": "Educational Institution",
+  "type": "INSTITUTION",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization established for teaching and learning.",
+  "name_zh": "教育机构"
+ },
+ {
+  "id": "ORG.educational_institution.university",
+  "name": "University",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A degree-granting institution of higher education and research.",
+  "name_zh": "大学"
+ },
+ {
+  "id": "ORG.educational_institution.university.research_university",
+  "name": "Research University",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.university",
+  "description": "A university that prioritizes research alongside teaching.",
+  "name_zh": "研究型大学"
+ },
+ {
+  "id": "ORG.educational_institution.university.liberal_arts_college",
+  "name": "Liberal Arts College",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.university",
+  "description": "An undergraduate college emphasizing broad arts and sciences.",
+  "name_zh": "文理学院"
+ },
+ {
+  "id": "ORG.educational_institution.university.technical_university",
+  "name": "Technical University",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.university",
+  "description": "A university specializing in engineering and applied sciences.",
+  "name_zh": "理工大学"
+ },
+ {
+  "id": "ORG.educational_institution.university.polytechnic",
+  "name": "Polytechnic",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.university",
+  "description": "A higher-education institution focused on technical and vocational subjects.",
+  "name_zh": "理工学院"
+ },
+ {
+  "id": "ORG.educational_institution.university.open_university",
+  "name": "Open University",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.university",
+  "description": "A university with open admission and distance learning.",
+  "name_zh": "开放大学"
+ },
+ {
+  "id": "ORG.educational_institution.university.online_university",
+  "name": "Online University",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.university",
+  "description": "A university delivering instruction primarily online.",
+  "name_zh": "网络大学"
+ },
+ {
+  "id": "ORG.educational_institution.university.collegiate_university",
+  "name": "Collegiate University",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.university",
+  "description": "A university composed of semi-autonomous constituent colleges.",
+  "name_zh": "学院制大学"
+ },
+ {
+  "id": "ORG.educational_institution.college",
+  "name": "College",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "An institution of higher or further education, or a constituent part of a university.",
+  "name_zh": "学院"
+ },
+ {
+  "id": "ORG.educational_institution.community_college",
+  "name": "Community College",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A two-year college offering associate degrees and workforce training.",
+  "name_zh": "社区学院"
+ },
+ {
+  "id": "ORG.educational_institution.vocational_school",
+  "name": "Vocational School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A school teaching occupational and trade skills.",
+  "name_zh": "职业学校",
+  "aliases": [
+   "trade school",
+   "technical school"
+  ]
+ },
+ {
+  "id": "ORG.educational_institution.primary_school",
+  "name": "Primary School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A school for elementary education of young children.",
+  "name_zh": "小学"
+ },
+ {
+  "id": "ORG.educational_institution.secondary_school",
+  "name": "Secondary School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A school for adolescent education between primary and tertiary levels.",
+  "name_zh": "中学"
+ },
+ {
+  "id": "ORG.educational_institution.secondary_school.high_school",
+  "name": "High School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.secondary_school",
+  "description": "An upper secondary school.",
+  "name_zh": "高中"
+ },
+ {
+  "id": "ORG.educational_institution.secondary_school.middle_school",
+  "name": "Middle School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.secondary_school",
+  "description": "A lower secondary school.",
+  "name_zh": "初中"
+ },
+ {
+  "id": "ORG.educational_institution.secondary_school.grammar_school",
+  "name": "Grammar School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.secondary_school",
+  "description": "A selective UK secondary school.",
+  "name_zh": "文法学校",
+  "global": false
+ },
+ {
+  "id": "ORG.educational_institution.k_12_school",
+  "name": "K-12 School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A combined primary and secondary school.",
+  "name_zh": "中小学"
+ },
+ {
+  "id": "ORG.educational_institution.charter_school",
+  "name": "Charter School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A publicly funded, independently run US school.",
+  "name_zh": "特许学校",
+  "global": false
+ },
+ {
+  "id": "ORG.educational_institution.private_school",
+  "name": "Private School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "An independently funded school charging tuition.",
+  "name_zh": "私立学校",
+  "aliases": [
+   "independent school"
+  ]
+ },
+ {
+  "id": "ORG.educational_institution.boarding_school",
+  "name": "Boarding School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A school where students live on campus during the term.",
+  "name_zh": "寄宿学校"
+ },
+ {
+  "id": "ORG.educational_institution.international_school",
+  "name": "International School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A school offering an international curriculum to expatriate and local students.",
+  "name_zh": "国际学校"
+ },
+ {
+  "id": "ORG.educational_institution.madrasa",
+  "name": "Madrasa",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "An Islamic school teaching religious and sometimes secular subjects.",
+  "name_zh": "麦德莱赛",
+  "global": false
+ },
+ {
+  "id": "ORG.educational_institution.seminary",
+  "name": "Seminary",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A theological school training clergy and religious leaders.",
+  "name_zh": "神学院"
+ },
+ {
+  "id": "ORG.educational_institution.bible_college",
+  "name": "Bible College",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A Christian institution training ministers and missionaries.",
+  "name_zh": "圣经学院",
+  "global": false
+ },
+ {
+  "id": "ORG.educational_institution.military_academy",
+  "name": "Military Academy",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A school that trains commissioned military officers.",
+  "name_zh": "军校"
+ },
+ {
+  "id": "ORG.educational_institution.graduate_school",
+  "name": "Graduate School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A division of a university offering postgraduate degrees.",
+  "name_zh": "研究生院"
+ },
+ {
+  "id": "ORG.educational_institution.professional_school",
+  "name": "Professional School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A postgraduate school training students for a licensed profession.",
+  "name_zh": "专业学院"
+ },
+ {
+  "id": "ORG.educational_institution.professional_school.law_school",
+  "name": "Law School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.professional_school",
+  "description": "A school training students for legal practice.",
+  "name_zh": "法学院"
+ },
+ {
+  "id": "ORG.educational_institution.professional_school.medical_school",
+  "name": "Medical School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.professional_school",
+  "description": "A school training students for the practice of medicine.",
+  "name_zh": "医学院"
+ },
+ {
+  "id": "ORG.educational_institution.professional_school.business_school",
+  "name": "Business School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.professional_school",
+  "description": "A school teaching business and management.",
+  "name_zh": "商学院"
+ },
+ {
+  "id": "ORG.educational_institution.conservatory",
+  "name": "Conservatory",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "An institution training musicians and performers.",
+  "name_zh": "音乐学院"
+ },
+ {
+  "id": "ORG.educational_institution.art_school",
+  "name": "Art School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "An institution teaching visual and applied arts.",
+  "name_zh": "艺术学校"
+ },
+ {
+  "id": "ORG.educational_institution.adult_education_center",
+  "name": "Adult Education Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A center offering continuing education to adults.",
+  "name_zh": "成人教育中心"
+ },
+ {
+  "id": "ORG.educational_institution.early_childhood_center",
+  "name": "Early Childhood Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A center providing preschool education and care for young children.",
+  "name_zh": "早教中心"
+ },
+ {
+  "id": "ORG.educational_institution.early_childhood_center.kindergarten",
+  "name": "Kindergarten",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.early_childhood_center",
+  "description": "A preschool for young children before compulsory schooling.",
+  "name_zh": "幼儿园"
+ },
+ {
+  "id": "ORG.educational_institution.early_childhood_center.preschool",
+  "name": "Preschool",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution.early_childhood_center",
+  "description": "An early education setting preparing children for school.",
+  "name_zh": "学前班"
+ },
+ {
+  "id": "ORG.educational_institution.further_education_college",
+  "name": "Further Education College",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A UK institution for post-secondary vocational and academic education.",
+  "name_zh": "继续教育学院",
+  "global": false
+ },
+ {
+  "id": "ORG.educational_institution.special_education_school",
+  "name": "Special Education School",
+  "type": "INSTITUTION",
+  "parent": "ORG.educational_institution",
+  "description": "A school serving students with disabilities or special needs.",
+  "name_zh": "特殊教育学校"
+ },
+ {
+  "id": "ORG.research_institution",
+  "name": "Research Institution",
+  "type": "INSTITUTION",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization dedicated to producing knowledge through research.",
+  "name_zh": "研究机构"
+ },
+ {
+  "id": "ORG.research_institution.research_institute",
+  "name": "Research Institute",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "An institute conducting research in a defined field.",
+  "name_zh": "研究所"
+ },
+ {
+  "id": "ORG.research_institution.national_laboratory",
+  "name": "National Laboratory",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "A large state-funded laboratory for fundamental or applied research.",
+  "name_zh": "国家实验室"
+ },
+ {
+  "id": "ORG.research_institution.think_tank",
+  "name": "Think Tank",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "A research organization producing policy analysis and recommendations.",
+  "name_zh": "智库"
+ },
+ {
+  "id": "ORG.research_institution.think_tank.policy_institute",
+  "name": "Policy Institute",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution.think_tank",
+  "description": "A think tank focused on a specific policy domain.",
+  "name_zh": "政策研究所"
+ },
+ {
+  "id": "ORG.research_institution.think_tank.advocacy_think_tank",
+  "name": "Advocacy Think Tank",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution.think_tank",
+  "description": "A think tank promoting a particular ideological agenda.",
+  "name_zh": "倡导型智库"
+ },
+ {
+  "id": "ORG.research_institution.academy_of_sciences",
+  "name": "Academy of Sciences",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "A national learned body of eminent scientists.",
+  "name_zh": "科学院"
+ },
+ {
+  "id": "ORG.research_institution.observatory",
+  "name": "Observatory",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "A facility and organization for astronomical observation.",
+  "name_zh": "天文台"
+ },
+ {
+  "id": "ORG.research_institution.field_research_station",
+  "name": "Field Research Station",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "A remote station for on-site scientific study.",
+  "name_zh": "野外研究站"
+ },
+ {
+  "id": "ORG.research_institution.field_research_station.marine_research_station",
+  "name": "Marine Research Station",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution.field_research_station",
+  "description": "A coastal station for marine and oceanographic study.",
+  "name_zh": "海洋研究站"
+ },
+ {
+  "id": "ORG.research_institution.field_research_station.agricultural_research_station",
+  "name": "Agricultural Research Station",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution.field_research_station",
+  "description": "A station for experimental agricultural research.",
+  "name_zh": "农业试验站"
+ },
+ {
+  "id": "ORG.research_institution.field_research_station.ecological_field_station",
+  "name": "Ecological Field Station",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution.field_research_station",
+  "description": "A station for long-term ecological monitoring and study.",
+  "name_zh": "生态研究站"
+ },
+ {
+  "id": "ORG.research_institution.medical_research_institute",
+  "name": "Medical Research Institute",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "An institute for biomedical and clinical research.",
+  "name_zh": "医学研究所"
+ },
+ {
+  "id": "ORG.research_institution.corporate_research_lab",
+  "name": "Corporate Research Laboratory",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "An industrial R&D laboratory within a company.",
+  "name_zh": "企业研发实验室"
+ },
+ {
+  "id": "ORG.research_institution.academic_research_center",
+  "name": "Academic Research Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "A research center housed within a university.",
+  "name_zh": "学术研究中心"
+ },
+ {
+  "id": "ORG.research_institution.independent_research_organization",
+  "name": "Independent Research Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.research_institution",
+  "description": "A non-university, non-government body conducting research.",
+  "name_zh": "独立研究机构"
+ },
+ {
+  "id": "ORG.international_organization",
+  "name": "International Organization",
+  "type": "INSTITUTION",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization whose members or scope span multiple states.",
+  "name_zh": "国际组织"
+ },
+ {
+  "id": "ORG.international_organization.intergovernmental_organization",
+  "name": "Intergovernmental Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization",
+  "description": "An organization formed by treaty among sovereign states.",
+  "name_zh": "政府间国际组织",
+  "aliases": [
+   "IGO"
+  ]
+ },
+ {
+  "id": "ORG.international_organization.intergovernmental_organization.united_nations_agency",
+  "name": "United Nations Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization.intergovernmental_organization",
+  "description": "A specialized body within the United Nations system.",
+  "name_zh": "联合国机构"
+ },
+ {
+  "id": "ORG.international_organization.intergovernmental_organization.specialized_agency",
+  "name": "Specialized Agency",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization.intergovernmental_organization",
+  "description": "An autonomous UN-linked agency for a specific domain.",
+  "name_zh": "专门机构"
+ },
+ {
+  "id": "ORG.international_organization.intergovernmental_organization.treaty_organization",
+  "name": "Treaty Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization.intergovernmental_organization",
+  "description": "An intergovernmental organization created by a specific treaty.",
+  "name_zh": "条约组织"
+ },
+ {
+  "id": "ORG.international_organization.intergovernmental_organization.international_tribunal",
+  "name": "International Tribunal",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization.intergovernmental_organization",
+  "description": "A court adjudicating disputes between states or over international crimes.",
+  "name_zh": "国际法庭"
+ },
+ {
+  "id": "ORG.international_organization.supranational_union",
+  "name": "Supranational Union",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization",
+  "description": "A union of states that delegate sovereignty to common institutions.",
+  "name_zh": "超国家联盟"
+ },
+ {
+  "id": "ORG.international_organization.multilateral_development_bank",
+  "name": "Multilateral Development Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization",
+  "description": "An international financial institution funding development projects.",
+  "name_zh": "多边开发银行"
+ },
+ {
+  "id": "ORG.international_organization.international_nongovernmental_organization",
+  "name": "International Non-Governmental Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization",
+  "description": "An NGO operating across multiple countries.",
+  "name_zh": "国际非政府组织",
+  "aliases": [
+   "INGO"
+  ]
+ },
+ {
+  "id": "ORG.international_organization.treaty_secretariat",
+  "name": "Treaty Secretariat",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization",
+  "description": "The administrative body serving a treaty regime.",
+  "name_zh": "条约秘书处"
+ },
+ {
+  "id": "ORG.international_organization.regional_organization",
+  "name": "Regional Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.international_organization",
+  "description": "An intergovernmental body for a geographic region.",
+  "name_zh": "区域组织"
+ },
+ {
+  "id": "ORG.religious_institution",
+  "name": "Religious Institution",
+  "type": "INSTITUTION",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organized body for worship, religious community, and spiritual life.",
+  "name_zh": "宗教机构"
+ },
+ {
+  "id": "ORG.religious_institution.house_of_worship",
+  "name": "House of Worship",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A building and congregation dedicated to worship.",
+  "name_zh": "礼拜场所"
+ },
+ {
+  "id": "ORG.religious_institution.church",
+  "name": "Church",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A Christian congregation and its place of worship.",
+  "name_zh": "教堂"
+ },
+ {
+  "id": "ORG.religious_institution.cathedral",
+  "name": "Cathedral",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "The principal church of a diocese, housing a bishop's seat.",
+  "name_zh": "大教堂"
+ },
+ {
+  "id": "ORG.religious_institution.parish",
+  "name": "Parish",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A local church community and its territory.",
+  "name_zh": "堂区"
+ },
+ {
+  "id": "ORG.religious_institution.diocese",
+  "name": "Diocese",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "An ecclesiastical district under a bishop.",
+  "name_zh": "教区"
+ },
+ {
+  "id": "ORG.religious_institution.denomination",
+  "name": "Denomination",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "An organized branch of a religion with its own doctrine and polity.",
+  "name_zh": "教派"
+ },
+ {
+  "id": "ORG.religious_institution.mosque",
+  "name": "Mosque",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "An Islamic place of worship and community.",
+  "name_zh": "清真寺"
+ },
+ {
+  "id": "ORG.religious_institution.temple",
+  "name": "Temple",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A house of worship in Hindu, Buddhist, and other traditions.",
+  "name_zh": "寺庙"
+ },
+ {
+  "id": "ORG.religious_institution.temple.buddhist_temple",
+  "name": "Buddhist Temple",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution.temple",
+  "description": "A temple of the Buddhist tradition.",
+  "name_zh": "佛寺"
+ },
+ {
+  "id": "ORG.religious_institution.temple.hindu_temple",
+  "name": "Hindu Temple",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution.temple",
+  "description": "A temple of the Hindu tradition.",
+  "name_zh": "印度教寺庙"
+ },
+ {
+  "id": "ORG.religious_institution.synagogue",
+  "name": "Synagogue",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A Jewish house of worship and study.",
+  "name_zh": "犹太会堂"
+ },
+ {
+  "id": "ORG.religious_institution.gurdwara",
+  "name": "Gurdwara",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A Sikh place of worship.",
+  "name_zh": "谒师所",
+  "global": false
+ },
+ {
+  "id": "ORG.religious_institution.shrine",
+  "name": "Shrine",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A sacred site or structure for devotion to a deity or saint.",
+  "name_zh": "神社"
+ },
+ {
+  "id": "ORG.religious_institution.monastery",
+  "name": "Monastery",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A community of monks or nuns living under religious vows.",
+  "name_zh": "修道院"
+ },
+ {
+  "id": "ORG.religious_institution.convent",
+  "name": "Convent",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A community of nuns.",
+  "name_zh": "女修道院"
+ },
+ {
+  "id": "ORG.religious_institution.abbey",
+  "name": "Abbey",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A monastery headed by an abbot or abbess.",
+  "name_zh": "隐修院"
+ },
+ {
+  "id": "ORG.religious_institution.religious_order",
+  "name": "Religious Order",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A vowed community following a religious rule.",
+  "name_zh": "修会"
+ },
+ {
+  "id": "ORG.religious_institution.religious_order.mendicant_order",
+  "name": "Mendicant Order",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution.religious_order",
+  "description": "A religious order living by begging and itinerant preaching.",
+  "name_zh": "托钵修会"
+ },
+ {
+  "id": "ORG.religious_institution.religious_order.contemplative_order",
+  "name": "Contemplative Order",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution.religious_order",
+  "description": "An order devoted primarily to prayer and seclusion.",
+  "name_zh": "默观修会"
+ },
+ {
+  "id": "ORG.religious_institution.sect",
+  "name": "Sect",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A subgroup within a religion with distinctive beliefs.",
+  "name_zh": "宗派"
+ },
+ {
+  "id": "ORG.religious_institution.congregation",
+  "name": "Congregation",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A gathered local religious community.",
+  "name_zh": "会众"
+ },
+ {
+  "id": "ORG.religious_institution.mission",
+  "name": "Mission",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "An organization spreading a faith or serving a community in its name.",
+  "name_zh": "传教机构"
+ },
+ {
+  "id": "ORG.religious_institution.waqf",
+  "name": "Waqf",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "An Islamic charitable endowment for religious or public purposes.",
+  "name_zh": "瓦克夫",
+  "global": false
+ },
+ {
+  "id": "ORG.religious_institution.sangha",
+  "name": "Sangha",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "The Buddhist monastic community and its institutions.",
+  "name_zh": "僧伽",
+  "global": false
+ },
+ {
+  "id": "ORG.religious_institution.ashram",
+  "name": "Ashram",
+  "type": "INSTITUTION",
+  "parent": "ORG.religious_institution",
+  "description": "A Hindu spiritual community or retreat.",
+  "name_zh": "静修所",
+  "global": false
+ },
+ {
+  "id": "ORG.cultural_institution",
+  "name": "Cultural Institution",
+  "type": "INSTITUTION",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization preserving, presenting, or producing culture and heritage.",
+  "name_zh": "文化机构"
+ },
+ {
+  "id": "ORG.cultural_institution.museum",
+  "name": "Museum",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "An institution that collects, preserves, and exhibits objects.",
+  "name_zh": "博物馆"
+ },
+ {
+  "id": "ORG.cultural_institution.museum.art_museum",
+  "name": "Art Museum",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.museum",
+  "description": "A museum exhibiting visual art.",
+  "name_zh": "美术馆"
+ },
+ {
+  "id": "ORG.cultural_institution.museum.history_museum",
+  "name": "History Museum",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.museum",
+  "description": "A museum interpreting historical events and artifacts.",
+  "name_zh": "历史博物馆"
+ },
+ {
+  "id": "ORG.cultural_institution.museum.science_museum",
+  "name": "Science Museum",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.museum",
+  "description": "A museum presenting science and technology.",
+  "name_zh": "科学博物馆"
+ },
+ {
+  "id": "ORG.cultural_institution.museum.natural_history_museum",
+  "name": "Natural History Museum",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.museum",
+  "description": "A museum of the natural world and its specimens.",
+  "name_zh": "自然历史博物馆"
+ },
+ {
+  "id": "ORG.cultural_institution.museum.open_air_museum",
+  "name": "Open-Air Museum",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.museum",
+  "description": "A museum of recreated buildings in an outdoor setting.",
+  "name_zh": "露天博物馆",
+  "aliases": [
+   "living museum"
+  ]
+ },
+ {
+  "id": "ORG.cultural_institution.library",
+  "name": "Library",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "An institution providing access to books and information.",
+  "name_zh": "图书馆"
+ },
+ {
+  "id": "ORG.cultural_institution.library.public_library",
+  "name": "Public Library",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.library",
+  "description": "A library open to the general public.",
+  "name_zh": "公共图书馆"
+ },
+ {
+  "id": "ORG.cultural_institution.library.national_library",
+  "name": "National Library",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.library",
+  "description": "A library preserving a nation's published heritage.",
+  "name_zh": "国家图书馆"
+ },
+ {
+  "id": "ORG.cultural_institution.library.academic_library",
+  "name": "Academic Library",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.library",
+  "description": "A library serving a university or college.",
+  "name_zh": "高校图书馆"
+ },
+ {
+  "id": "ORG.cultural_institution.library.special_library",
+  "name": "Special Library",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.library",
+  "description": "A library serving a specialized institution or collection.",
+  "name_zh": "专业图书馆"
+ },
+ {
+  "id": "ORG.cultural_institution.archive",
+  "name": "Archive",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "An institution preserving records of enduring value.",
+  "name_zh": "档案馆"
+ },
+ {
+  "id": "ORG.cultural_institution.archive.national_archive",
+  "name": "National Archive",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.archive",
+  "description": "A state archive preserving a nation's official records.",
+  "name_zh": "国家档案馆"
+ },
+ {
+  "id": "ORG.cultural_institution.art_gallery",
+  "name": "Art Gallery",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "An institution exhibiting and sometimes selling visual art.",
+  "name_zh": "画廊"
+ },
+ {
+  "id": "ORG.cultural_institution.performing_arts_organization",
+  "name": "Performing Arts Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "An organization producing live performance.",
+  "name_zh": "表演艺术机构"
+ },
+ {
+  "id": "ORG.cultural_institution.performing_arts_organization.theatre_company",
+  "name": "Theatre Company",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.performing_arts_organization",
+  "description": "A company producing theatrical performances.",
+  "name_zh": "剧团"
+ },
+ {
+  "id": "ORG.cultural_institution.performing_arts_organization.orchestra",
+  "name": "Orchestra",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.performing_arts_organization",
+  "description": "An ensemble of musicians performing instrumental music.",
+  "name_zh": "管弦乐团"
+ },
+ {
+  "id": "ORG.cultural_institution.performing_arts_organization.opera_company",
+  "name": "Opera Company",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.performing_arts_organization",
+  "description": "A company producing operas.",
+  "name_zh": "歌剧团"
+ },
+ {
+  "id": "ORG.cultural_institution.performing_arts_organization.ballet_company",
+  "name": "Ballet Company",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.performing_arts_organization",
+  "description": "A company performing ballet.",
+  "name_zh": "芭蕾舞团"
+ },
+ {
+  "id": "ORG.cultural_institution.performing_arts_organization.dance_company",
+  "name": "Dance Company",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.performing_arts_organization",
+  "description": "A company performing dance.",
+  "name_zh": "舞蹈团"
+ },
+ {
+  "id": "ORG.cultural_institution.performing_arts_organization.choir",
+  "name": "Choir",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution.performing_arts_organization",
+  "description": "An ensemble of singers performing choral music.",
+  "name_zh": "合唱团"
+ },
+ {
+  "id": "ORG.cultural_institution.cultural_center",
+  "name": "Cultural Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "A venue and organization promoting arts and culture.",
+  "name_zh": "文化中心"
+ },
+ {
+  "id": "ORG.cultural_institution.heritage_organization",
+  "name": "Heritage Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "An organization preserving cultural and natural heritage.",
+  "name_zh": "遗产保护组织"
+ },
+ {
+  "id": "ORG.cultural_institution.zoological_garden",
+  "name": "Zoological Garden",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "A facility keeping live animals for conservation, research, and display.",
+  "name_zh": "动物园",
+  "aliases": [
+   "zoo"
+  ]
+ },
+ {
+  "id": "ORG.cultural_institution.botanical_garden",
+  "name": "Botanical Garden",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "A garden cultivating plants for science, conservation, and display.",
+  "name_zh": "植物园"
+ },
+ {
+  "id": "ORG.cultural_institution.aquarium",
+  "name": "Aquarium",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "A facility exhibiting aquatic life.",
+  "name_zh": "水族馆"
+ },
+ {
+  "id": "ORG.cultural_institution.festival_organization",
+  "name": "Festival Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "An organization producing recurring festivals.",
+  "name_zh": "节庆组织"
+ },
+ {
+  "id": "ORG.cultural_institution.film_society",
+  "name": "Film Society",
+  "type": "INSTITUTION",
+  "parent": "ORG.cultural_institution",
+  "description": "An organization screening and promoting film.",
+  "name_zh": "电影协会"
+ },
+ {
+  "id": "ORG.healthcare_organization",
+  "name": "Healthcare Organization",
+  "type": "INSTITUTION",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization delivering or administering health services.",
+  "name_zh": "医疗机构"
+ },
+ {
+  "id": "ORG.healthcare_organization.hospital",
+  "name": "Hospital",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "An institution providing inpatient medical and surgical care.",
+  "name_zh": "医院"
+ },
+ {
+  "id": "ORG.healthcare_organization.hospital.general_hospital",
+  "name": "General Hospital",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization.hospital",
+  "description": "A hospital providing a broad range of acute services.",
+  "name_zh": "综合医院"
+ },
+ {
+  "id": "ORG.healthcare_organization.hospital.teaching_hospital",
+  "name": "Teaching Hospital",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization.hospital",
+  "description": "A hospital affiliated with a medical school for clinical training.",
+  "name_zh": "教学医院"
+ },
+ {
+  "id": "ORG.healthcare_organization.hospital.specialty_hospital",
+  "name": "Specialty Hospital",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization.hospital",
+  "description": "A hospital focused on a specific condition or population.",
+  "name_zh": "专科医院"
+ },
+ {
+  "id": "ORG.healthcare_organization.hospital.childrens_hospital",
+  "name": "Children's Hospital",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization.hospital",
+  "description": "A hospital specializing in pediatric care.",
+  "name_zh": "儿童医院"
+ },
+ {
+  "id": "ORG.healthcare_organization.hospital.psychiatric_hospital",
+  "name": "Psychiatric Hospital",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization.hospital",
+  "description": "A hospital providing inpatient mental health care.",
+  "name_zh": "精神病院"
+ },
+ {
+  "id": "ORG.healthcare_organization.clinic",
+  "name": "Clinic",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "An outpatient facility providing medical care.",
+  "name_zh": "诊所"
+ },
+ {
+  "id": "ORG.healthcare_organization.primary_care_center",
+  "name": "Primary Care Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A facility providing first-contact, continuous care.",
+  "name_zh": "初级保健中心"
+ },
+ {
+  "id": "ORG.healthcare_organization.community_health_center",
+  "name": "Community Health Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A primary-care facility serving an underserved community.",
+  "name_zh": "社区卫生服务中心"
+ },
+ {
+  "id": "ORG.healthcare_organization.nursing_home",
+  "name": "Nursing Home",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A residential facility for long-term care of the elderly or disabled.",
+  "name_zh": "护理院"
+ },
+ {
+  "id": "ORG.healthcare_organization.hospice",
+  "name": "Hospice",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A facility providing end-of-life palliative care.",
+  "name_zh": "临终关怀机构"
+ },
+ {
+  "id": "ORG.healthcare_organization.rehabilitation_center",
+  "name": "Rehabilitation Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A facility for recovery from illness, injury, or addiction.",
+  "name_zh": "康复中心"
+ },
+ {
+  "id": "ORG.healthcare_organization.health_system",
+  "name": "Health System",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "An integrated network of hospitals and providers under common management.",
+  "name_zh": "医疗系统"
+ },
+ {
+  "id": "ORG.healthcare_organization.medical_group",
+  "name": "Medical Group",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A practice of physicians organized to provide care.",
+  "name_zh": "医疗集团",
+  "aliases": [
+   "medical practice"
+  ]
+ },
+ {
+  "id": "ORG.healthcare_organization.ambulatory_surgery_center",
+  "name": "Ambulatory Surgery Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A facility for same-day surgical procedures.",
+  "name_zh": "门诊手术中心"
+ },
+ {
+  "id": "ORG.healthcare_organization.blood_bank",
+  "name": "Blood Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "An organization collecting, testing, and distributing blood.",
+  "name_zh": "血库"
+ },
+ {
+  "id": "ORG.healthcare_organization.mental_health_clinic",
+  "name": "Mental Health Clinic",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "An outpatient clinic for mental health care.",
+  "name_zh": "心理健康诊所"
+ },
+ {
+  "id": "ORG.healthcare_organization.urgent_care_center",
+  "name": "Urgent Care Center",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A walk-in clinic for non-emergency acute care.",
+  "name_zh": "紧急护理中心"
+ },
+ {
+  "id": "ORG.healthcare_organization.health_maintenance_organization",
+  "name": "Health Maintenance Organization",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A managed-care organization combining insurance and provider functions.",
+  "name_zh": "健康维护组织"
+ },
+ {
+  "id": "ORG.healthcare_organization.integrated_delivery_network",
+  "name": "Integrated Delivery Network",
+  "type": "INSTITUTION",
+  "parent": "ORG.healthcare_organization",
+  "description": "A network of providers and payers under one coordinated system.",
+  "name_zh": "整合医疗网络"
+ },
+ {
+  "id": "ORG.financial_institution",
+  "name": "Financial Institution",
+  "type": "INSTITUTION",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization that channels funds, manages risk, and provides financial services.",
+  "name_zh": "金融机构"
+ },
+ {
+  "id": "ORG.financial_institution.bank",
+  "name": "Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A licensed institution that takes deposits and makes loans.",
+  "name_zh": "银行"
+ },
+ {
+  "id": "ORG.financial_institution.bank.commercial_bank",
+  "name": "Commercial Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.bank",
+  "description": "A bank providing deposit, lending, and payment services to business and retail customers.",
+  "name_zh": "商业银行"
+ },
+ {
+  "id": "ORG.financial_institution.bank.retail_bank",
+  "name": "Retail Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.bank",
+  "description": "A bank serving individual consumers.",
+  "name_zh": "零售银行"
+ },
+ {
+  "id": "ORG.financial_institution.bank.investment_bank",
+  "name": "Investment Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.bank",
+  "description": "A bank underwriting securities and advising on mergers and capital raising.",
+  "name_zh": "投资银行"
+ },
+ {
+  "id": "ORG.financial_institution.bank.private_bank",
+  "name": "Private Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.bank",
+  "description": "A bank serving high-net-worth individuals.",
+  "name_zh": "私人银行"
+ },
+ {
+  "id": "ORG.financial_institution.bank.universal_bank",
+  "name": "Universal Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.bank",
+  "description": "A bank combining commercial and investment banking.",
+  "name_zh": "全能银行"
+ },
+ {
+  "id": "ORG.financial_institution.bank.community_bank",
+  "name": "Community Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.bank",
+  "description": "A small, locally focused bank.",
+  "name_zh": "社区银行"
+ },
+ {
+  "id": "ORG.financial_institution.bank.merchant_bank",
+  "name": "Merchant Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.bank",
+  "description": "A bank specializing in trade finance and corporate advisory.",
+  "name_zh": "商人银行"
+ },
+ {
+  "id": "ORG.financial_institution.credit_union",
+  "name": "Credit Union",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A member-owned nonprofit financial cooperative.",
+  "name_zh": "信用合作社"
+ },
+ {
+  "id": "ORG.financial_institution.savings_and_loan_association",
+  "name": "Savings and Loan Association",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A thrift institution specializing in mortgage lending.",
+  "name_zh": "储贷协会",
+  "aliases": [
+   "thrift"
+  ]
+ },
+ {
+  "id": "ORG.financial_institution.building_society",
+  "name": "Building Society",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A UK mutual institution for savings and mortgage lending.",
+  "name_zh": "建房互助会",
+  "global": false
+ },
+ {
+  "id": "ORG.financial_institution.insurance_company",
+  "name": "Insurance Company",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A firm that underwrites risk in exchange for premiums.",
+  "name_zh": "保险公司"
+ },
+ {
+  "id": "ORG.financial_institution.insurance_company.life_insurance_company",
+  "name": "Life Insurance Company",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.insurance_company",
+  "description": "An insurer providing life, annuity, and related cover.",
+  "name_zh": "人寿保险公司"
+ },
+ {
+  "id": "ORG.financial_institution.insurance_company.property_and_casualty_insurer",
+  "name": "Property and Casualty Insurer",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.insurance_company",
+  "description": "An insurer covering property damage and liability.",
+  "name_zh": "财产保险公司"
+ },
+ {
+  "id": "ORG.financial_institution.insurance_company.reinsurer",
+  "name": "Reinsurer",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.insurance_company",
+  "description": "An insurer that insures other insurers.",
+  "name_zh": "再保险公司"
+ },
+ {
+  "id": "ORG.financial_institution.investment_fund",
+  "name": "Investment Fund",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A pooled vehicle investing capital on behalf of investors.",
+  "name_zh": "投资基金"
+ },
+ {
+  "id": "ORG.financial_institution.investment_fund.mutual_fund",
+  "name": "Mutual Fund",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.investment_fund",
+  "description": "An open-ended fund pooling money from many investors.",
+  "name_zh": "共同基金"
+ },
+ {
+  "id": "ORG.financial_institution.investment_fund.hedge_fund",
+  "name": "Hedge Fund",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.investment_fund",
+  "description": "A lightly regulated fund using varied and leveraged strategies.",
+  "name_zh": "对冲基金"
+ },
+ {
+  "id": "ORG.financial_institution.investment_fund.private_equity_fund",
+  "name": "Private Equity Fund",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.investment_fund",
+  "description": "A fund investing in private companies or buyouts.",
+  "name_zh": "私募股权基金"
+ },
+ {
+  "id": "ORG.financial_institution.investment_fund.venture_capital_fund",
+  "name": "Venture Capital Fund",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.investment_fund",
+  "description": "A fund investing in early-stage, high-growth startups.",
+  "name_zh": "风险投资基金"
+ },
+ {
+  "id": "ORG.financial_institution.investment_fund.pension_fund",
+  "name": "Pension Fund",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution.investment_fund",
+  "description": "A fund managing retirement savings for beneficiaries.",
+  "name_zh": "养老基金"
+ },
+ {
+  "id": "ORG.financial_institution.broker_dealer",
+  "name": "Broker-Dealer",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A firm buying and selling securities for clients or its own account.",
+  "name_zh": "券商"
+ },
+ {
+  "id": "ORG.financial_institution.stock_exchange",
+  "name": "Stock Exchange",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "An organized market for trading securities.",
+  "name_zh": "证券交易所"
+ },
+ {
+  "id": "ORG.financial_institution.clearing_house",
+  "name": "Clearing House",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "An intermediary that settles trades and manages counterparty risk.",
+  "name_zh": "清算所"
+ },
+ {
+  "id": "ORG.financial_institution.microfinance_institution",
+  "name": "Microfinance Institution",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A lender providing small loans to the unbanked poor.",
+  "name_zh": "小额信贷机构"
+ },
+ {
+  "id": "ORG.financial_institution.asset_management_firm",
+  "name": "Asset Management Firm",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A firm managing investment portfolios for clients.",
+  "name_zh": "资产管理公司"
+ },
+ {
+  "id": "ORG.financial_institution.custodian_bank",
+  "name": "Custodian Bank",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "A bank that safeguards clients' financial assets.",
+  "name_zh": "托管银行"
+ },
+ {
+  "id": "ORG.financial_institution.rotating_savings_and_credit_association",
+  "name": "Rotating Savings and Credit Association",
+  "type": "INSTITUTION",
+  "parent": "ORG.financial_institution",
+  "description": "An informal group pooling periodic contributions into rotating lump sums.",
+  "name_zh": "互助储金会",
+  "aliases": [
+   "ROSCA",
+   "chit fund",
+   "tanda",
+   "hui"
+  ],
+  "examples": [
+   "hui",
+   "tanda",
+   "chit fund"
+  ]
+ },
+ {
+  "id": "ORG.professional_association",
+  "name": "Professional Association",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "A body representing members of a profession and upholding its standards.",
+  "name_zh": "专业协会"
+ },
+ {
+  "id": "ORG.professional_association.learned_society",
+  "name": "Learned Society",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association",
+  "description": "An organization advancing a scholarly discipline.",
+  "name_zh": "学会"
+ },
+ {
+  "id": "ORG.professional_association.professional_body",
+  "name": "Professional Body",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association",
+  "description": "An organization regulating and representing a profession.",
+  "name_zh": "专业团体"
+ },
+ {
+  "id": "ORG.professional_association.professional_body.bar_association",
+  "name": "Bar Association",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association.professional_body",
+  "description": "A body of lawyers regulating the legal profession.",
+  "name_zh": "律师协会"
+ },
+ {
+  "id": "ORG.professional_association.professional_body.medical_association",
+  "name": "Medical Association",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association.professional_body",
+  "description": "A body representing physicians.",
+  "name_zh": "医学会"
+ },
+ {
+  "id": "ORG.professional_association.professional_body.engineering_society",
+  "name": "Engineering Society",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association.professional_body",
+  "description": "A professional body of engineers.",
+  "name_zh": "工程师协会"
+ },
+ {
+  "id": "ORG.professional_association.professional_body.accounting_body",
+  "name": "Accounting Body",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association.professional_body",
+  "description": "A body setting standards for accountants.",
+  "name_zh": "会计机构"
+ },
+ {
+  "id": "ORG.professional_association.licensing_board",
+  "name": "Licensing Board",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association",
+  "description": "A state board that licenses and disciplines a profession.",
+  "name_zh": "执照委员会"
+ },
+ {
+  "id": "ORG.professional_association.royal_college",
+  "name": "Royal College",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association",
+  "description": "A UK chartered professional body in medicine and other fields.",
+  "name_zh": "皇家学院",
+  "global": false
+ },
+ {
+  "id": "ORG.professional_association.guild",
+  "name": "Guild",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association",
+  "description": "A medieval association of craftsmen or merchants in a trade.",
+  "name_zh": "行会",
+  "historical": true
+ },
+ {
+  "id": "ORG.professional_association.guild.craft_guild",
+  "name": "Craft Guild",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association.guild",
+  "description": "A medieval association of artisans in a specific craft.",
+  "name_zh": "手工业行会",
+  "historical": true
+ },
+ {
+  "id": "ORG.professional_association.guild.merchant_guild",
+  "name": "Merchant Guild",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association.guild",
+  "description": "A medieval association of merchants in a town.",
+  "name_zh": "商人行会",
+  "historical": true
+ },
+ {
+  "id": "ORG.professional_association.honor_society",
+  "name": "Honor Society",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.professional_association",
+  "description": "An organization recognizing scholarly excellence.",
+  "name_zh": "荣誉学会"
+ },
+ {
+  "id": "ORG.industry_association",
+  "name": "Industry Association",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "A body representing the collective interests of firms in an industry.",
+  "name_zh": "行业协会"
+ },
+ {
+  "id": "ORG.industry_association.trade_association",
+  "name": "Trade Association",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.industry_association",
+  "description": "An association of businesses in a specific trade or industry.",
+  "name_zh": "同业公会"
+ },
+ {
+  "id": "ORG.industry_association.chamber_of_commerce",
+  "name": "Chamber of Commerce",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.industry_association",
+  "description": "A local association promoting business interests.",
+  "name_zh": "商会"
+ },
+ {
+  "id": "ORG.industry_association.employers_organization",
+  "name": "Employers' Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.industry_association",
+  "description": "An association representing employers in labor relations.",
+  "name_zh": "雇主组织"
+ },
+ {
+  "id": "ORG.industry_association.standards_organization",
+  "name": "Standards Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.industry_association",
+  "description": "A body developing and publishing technical standards.",
+  "name_zh": "标准化组织"
+ },
+ {
+  "id": "ORG.industry_association.certification_body",
+  "name": "Certification Body",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.industry_association",
+  "description": "An organization certifying products, systems, or professionals.",
+  "name_zh": "认证机构"
+ },
+ {
+  "id": "ORG.industry_association.business_council",
+  "name": "Business Council",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.industry_association",
+  "description": "A forum of business leaders for policy advocacy.",
+  "name_zh": "商业理事会"
+ },
+ {
+  "id": "ORG.industry_association.cartel",
+  "name": "Cartel",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.industry_association",
+  "description": "An association of producers coordinating prices or output.",
+  "name_zh": "卡特尔"
+ },
+ {
+  "id": "ORG.labor_union",
+  "name": "Labor Union",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization of workers bargaining collectively with employers.",
+  "name_zh": "工会",
+  "aliases": [
+   "trade union"
+  ]
+ },
+ {
+  "id": "ORG.labor_union.trade_union",
+  "name": "Trade Union",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.labor_union",
+  "description": "A union of workers in a trade or industry.",
+  "name_zh": "行业工会"
+ },
+ {
+  "id": "ORG.labor_union.industrial_union",
+  "name": "Industrial Union",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.labor_union",
+  "description": "A union organizing all workers in an industry regardless of skill.",
+  "name_zh": "产业工会"
+ },
+ {
+  "id": "ORG.labor_union.craft_union",
+  "name": "Craft Union",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.labor_union",
+  "description": "A union of skilled workers in a specific craft.",
+  "name_zh": "手工业工会"
+ },
+ {
+  "id": "ORG.labor_union.general_union",
+  "name": "General Union",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.labor_union",
+  "description": "A union open to workers across industries.",
+  "name_zh": "总工会"
+ },
+ {
+  "id": "ORG.labor_union.union_federation",
+  "name": "Union Federation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.labor_union",
+  "description": "A national body federating member unions.",
+  "name_zh": "工会联合会"
+ },
+ {
+  "id": "ORG.labor_union.works_council",
+  "name": "Works Council",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.labor_union",
+  "description": "An elected body representing employees at a workplace.",
+  "name_zh": "职工委员会"
+ },
+ {
+  "id": "ORG.labor_union.professional_union",
+  "name": "Professional Union",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.labor_union",
+  "description": "A union of salaried professionals.",
+  "name_zh": "专业工会"
+ },
+ {
+  "id": "ORG.political_organization",
+  "name": "Political Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "An organization engaged in politics and collective action.",
+  "name_zh": "政治组织"
+ },
+ {
+  "id": "ORG.political_organization.political_party",
+  "name": "Political Party",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.political_organization",
+  "description": "An organization contesting elections to gain political power.",
+  "name_zh": "政党"
+ },
+ {
+  "id": "ORG.political_organization.interest_group",
+  "name": "Interest Group",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.political_organization",
+  "description": "An organization seeking to influence policy for a shared interest.",
+  "name_zh": "利益集团"
+ },
+ {
+  "id": "ORG.political_organization.advocacy_group",
+  "name": "Advocacy Group",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.political_organization",
+  "description": "An organization campaigning for a cause or constituency.",
+  "name_zh": "倡导团体"
+ },
+ {
+  "id": "ORG.political_organization.lobby_group",
+  "name": "Lobby Group",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.political_organization",
+  "description": "An organization seeking to influence legislators and officials.",
+  "name_zh": "游说团体"
+ },
+ {
+  "id": "ORG.political_organization.social_movement_organization",
+  "name": "Social Movement Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.political_organization",
+  "description": "A formal organization within a broader social movement.",
+  "name_zh": "社会运动组织"
+ },
+ {
+  "id": "ORG.political_organization.revolutionary_organization",
+  "name": "Revolutionary Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.political_organization",
+  "description": "An organization seeking to overthrow the existing order.",
+  "name_zh": "革命组织"
+ },
+ {
+  "id": "ORG.political_organization.guerrilla_movement",
+  "name": "Guerrilla Movement",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.political_organization",
+  "description": "An armed non-state group waging irregular warfare for political ends.",
+  "name_zh": "游击队"
+ },
+ {
+  "id": "ORG.community_organization",
+  "name": "Community Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "description": "A voluntary organization rooted in a local community.",
+  "name_zh": "社区组织"
+ },
+ {
+  "id": "ORG.community_organization.social_club",
+  "name": "Social Club",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A membership club for socializing.",
+  "name_zh": "社交俱乐部"
+ },
+ {
+  "id": "ORG.community_organization.sports_club",
+  "name": "Sports Club",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "An amateur club organized around a sport.",
+  "name_zh": "体育俱乐部"
+ },
+ {
+  "id": "ORG.community_organization.country_club",
+  "name": "Country Club",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A private club offering recreation, especially golf.",
+  "name_zh": "乡村俱乐部"
+ },
+ {
+  "id": "ORG.community_organization.neighborhood_association",
+  "name": "Neighborhood Association",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A residents' group for a neighborhood.",
+  "name_zh": "邻里协会"
+ },
+ {
+  "id": "ORG.community_organization.residents_association",
+  "name": "Residents' Association",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "An association of residents of an area or building.",
+  "name_zh": "居民协会"
+ },
+ {
+  "id": "ORG.community_organization.youth_organization",
+  "name": "Youth Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "An organization serving or led by young people.",
+  "name_zh": "青年组织"
+ },
+ {
+  "id": "ORG.community_organization.scouting_organization",
+  "name": "Scouting Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A youth movement emphasizing outdoor skills and service.",
+  "name_zh": "童子军"
+ },
+ {
+  "id": "ORG.community_organization.self_help_group",
+  "name": "Self-Help Group",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A peer group supporting members around shared challenges.",
+  "name_zh": "互助小组"
+ },
+ {
+  "id": "ORG.community_organization.community_land_trust",
+  "name": "Community Land Trust",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A nonprofit holding land in trust for community benefit.",
+  "name_zh": "社区土地信托"
+ },
+ {
+  "id": "ORG.community_organization.veterans_organization",
+  "name": "Veterans' Organization",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "An association of military veterans.",
+  "name_zh": "退伍军人组织"
+ },
+ {
+  "id": "ORG.community_organization.hobby_club",
+  "name": "Hobby Club",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A club of enthusiasts of a particular hobby.",
+  "name_zh": "兴趣社团"
+ },
+ {
+  "id": "ORG.community_organization.community_development_corporation",
+  "name": "Community Development Corporation",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A nonprofit developing affordable housing and community assets.",
+  "name_zh": "社区发展公司"
+ },
+ {
+  "id": "ORG.community_organization.time_bank",
+  "name": "Time Bank",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "An organization where members exchange services via time credits.",
+  "name_zh": "时间银行"
+ },
+ {
+  "id": "ORG.community_organization.kibbutz",
+  "name": "Kibbutz",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "An Israeli collective community based on agriculture and shared ownership.",
+  "name_zh": "基布兹",
+  "global": false
+ },
+ {
+  "id": "ORG.community_organization.ejido",
+  "name": "Ejido",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A Mexican communally owned landholding and its community.",
+  "name_zh": "村社",
+  "global": false
+ },
+ {
+  "id": "ORG.community_organization.mahalla",
+  "name": "Mahalla",
+  "type": "ORGANIZATION_TYPE",
+  "parent": "ORG.community_organization",
+  "description": "A Central Asian neighborhood community institution.",
+  "name_zh": "马哈拉",
+  "global": false
+ }
+]

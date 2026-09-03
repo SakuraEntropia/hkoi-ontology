@@ -1,0 +1,507 @@
+[
+ {
+  "source": "ORG.professional_association.guild",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ORG.industry_association.trade_association"
+ },
+ {
+  "source": "ORG.professional_association.guild.craft_guild",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ORG.labor_union.craft_union"
+ },
+ {
+  "source": "ORG.professional_association.guild.merchant_guild",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ORG.industry_association.chamber_of_commerce"
+ },
+ {
+  "source": "ORG.business_enterprise.business_group.zaibatsu",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ORG.business_enterprise.business_group.keiretsu"
+ },
+ {
+  "source": "ORG.financial_institution.bank.merchant_bank",
+  "relation": "PRECURSOR_OF",
+  "target": "ORG.financial_institution.bank.investment_bank"
+ },
+ {
+  "source": "ORG.nonprofit_organization.friendly_society",
+  "relation": "PRECURSOR_OF",
+  "target": "ORG.financial_institution.building_society"
+ },
+ {
+  "source": "ORG.nonprofit_organization.friendly_society",
+  "relation": "PRECURSOR_OF",
+  "target": "ORG.financial_institution.insurance_company.life_insurance_company"
+ },
+ {
+  "source": "ORG.financial_institution.credit_union",
+  "relation": "SUBTYPE_OF",
+  "target": "ORG.business_enterprise.cooperative"
+ },
+ {
+  "source": "ORG.government_institution.sovereign_wealth_fund",
+  "relation": "SUBTYPE_OF",
+  "target": "ORG.financial_institution.investment_fund"
+ },
+ {
+  "source": "ORG.business_enterprise.state_owned_enterprise",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.government_institution"
+ },
+ {
+  "source": "ORG.government_institution.public_utility",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.business_enterprise.state_owned_enterprise"
+ },
+ {
+  "source": "ORG.business_enterprise.corporation.statutory_corporation",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.business_enterprise.state_owned_enterprise"
+ },
+ {
+  "source": "ORG.business_enterprise.cooperative",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.community_organization"
+ },
+ {
+  "source": "ORG.business_enterprise.cooperative.worker_cooperative",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.labor_union"
+ },
+ {
+  "source": "ORG.business_enterprise.cooperative.platform_cooperative",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.business_enterprise.startup"
+ },
+ {
+  "source": "ORG.business_enterprise.conglomerate",
+  "relation": "RELATED_TO",
+  "target": "ORG.business_enterprise.holding_company"
+ },
+ {
+  "source": "ORG.business_enterprise.business_group",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.business_enterprise.conglomerate"
+ },
+ {
+  "source": "ORG.business_enterprise.joint_venture",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.business_enterprise.consortium"
+ },
+ {
+  "source": "ORG.business_enterprise.social_enterprise",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization"
+ },
+ {
+  "source": "ORG.business_enterprise.corporation.benefit_corporation",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.business_enterprise.social_enterprise"
+ },
+ {
+  "source": "ORG.business_enterprise.franchise.franchisee",
+  "relation": "RELATED_TO",
+  "target": "ORG.business_enterprise.small_and_medium_enterprise"
+ },
+ {
+  "source": "ORG.business_enterprise.startup.unicorn",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.business_enterprise.large_enterprise"
+ },
+ {
+  "source": "ORG.business_enterprise.subsidiary",
+  "relation": "PART_OF",
+  "target": "ORG.business_enterprise.holding_company"
+ },
+ {
+  "source": "ORG.nonprofit_organization.nongovernmental_organization",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.international_organization.international_nongovernmental_organization"
+ },
+ {
+  "source": "ORG.nonprofit_organization.civil_society_organization",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization.nongovernmental_organization"
+ },
+ {
+  "source": "ORG.nonprofit_organization.foundation.community_foundation",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.community_organization"
+ },
+ {
+  "source": "ORG.nonprofit_organization.faith_based_charity",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.religious_institution"
+ },
+ {
+  "source": "ORG.religious_institution.waqf",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization.charitable_trust"
+ },
+ {
+  "source": "ORG.nonprofit_organization.mutual_aid_society",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.community_organization"
+ },
+ {
+  "source": "ORG.community_organization.self_help_group",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization.mutual_aid_society"
+ },
+ {
+  "source": "ORG.community_organization.time_bank",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization.mutual_aid_society"
+ },
+ {
+  "source": "ORG.community_organization.community_land_trust",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization"
+ },
+ {
+  "source": "ORG.community_organization.kibbutz",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.business_enterprise.cooperative"
+ },
+ {
+  "source": "ORG.community_organization.ejido",
+  "relation": "RELATED_TO",
+  "target": "ORG.community_organization.community_land_trust"
+ },
+ {
+  "source": "ORG.financial_institution.rotating_savings_and_credit_association",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization.mutual_aid_society"
+ },
+ {
+  "source": "ORG.financial_institution.rotating_savings_and_credit_association",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.community_organization"
+ },
+ {
+  "source": "ORG.financial_institution.microfinance_institution",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization"
+ },
+ {
+  "source": "ORG.government_institution.central_bank",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.financial_institution.bank"
+ },
+ {
+  "source": "ORG.government_institution.public_health_agency",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.healthcare_organization"
+ },
+ {
+  "source": "ORG.government_institution.military_organization.gendarmerie",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.government_institution.law_enforcement_agency"
+ },
+ {
+  "source": "ORG.government_institution.judiciary",
+  "relation": "RELATED_TO",
+  "target": "ORG.government_institution.legislature"
+ },
+ {
+  "source": "ORG.government_institution.statutory_body",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.government_institution.regulatory_agency"
+ },
+ {
+  "source": "ORG.educational_institution.university.research_university",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.research_institution"
+ },
+ {
+  "source": "ORG.research_institution.academic_research_center",
+  "relation": "PART_OF",
+  "target": "ORG.educational_institution.university"
+ },
+ {
+  "source": "ORG.cultural_institution.library.academic_library",
+  "relation": "PART_OF",
+  "target": "ORG.educational_institution.university"
+ },
+ {
+  "source": "ORG.educational_institution.seminary",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.religious_institution"
+ },
+ {
+  "source": "ORG.educational_institution.bible_college",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.religious_institution"
+ },
+ {
+  "source": "ORG.educational_institution.madrasa",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.religious_institution"
+ },
+ {
+  "source": "ORG.educational_institution.military_academy",
+  "relation": "PART_OF",
+  "target": "ORG.government_institution.military_organization"
+ },
+ {
+  "source": "ORG.educational_institution.professional_school.medical_school",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.healthcare_organization.hospital.teaching_hospital"
+ },
+ {
+  "source": "ORG.religious_institution.sangha",
+  "relation": "RELATED_TO",
+  "target": "ORG.religious_institution.monastery"
+ },
+ {
+  "source": "ORG.religious_institution.ashram",
+  "relation": "RELATED_TO",
+  "target": "ORG.religious_institution.monastery"
+ },
+ {
+  "source": "ORG.research_institution.national_laboratory",
+  "relation": "RELATED_TO",
+  "target": "ORG.government_institution"
+ },
+ {
+  "source": "ORG.research_institution.think_tank.advocacy_think_tank",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.political_organization.advocacy_group"
+ },
+ {
+  "source": "ORG.research_institution.academy_of_sciences",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.professional_association.learned_society"
+ },
+ {
+  "source": "ORG.research_institution.corporate_research_lab",
+  "relation": "PART_OF",
+  "target": "ORG.business_enterprise"
+ },
+ {
+  "source": "ORG.cultural_institution.performing_arts_organization",
+  "relation": "RELATED_TO",
+  "target": "ORG.educational_institution.conservatory"
+ },
+ {
+  "source": "ORG.cultural_institution.museum",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.educational_institution"
+ },
+ {
+  "source": "ORG.cultural_institution.heritage_organization",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization.nongovernmental_organization"
+ },
+ {
+  "source": "ORG.healthcare_organization.health_maintenance_organization",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.financial_institution.insurance_company"
+ },
+ {
+  "source": "ORG.healthcare_organization.hospital",
+  "relation": "PART_OF",
+  "target": "ORG.healthcare_organization.health_system"
+ },
+ {
+  "source": "ORG.healthcare_organization.integrated_delivery_network",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.healthcare_organization.health_system"
+ },
+ {
+  "source": "ORG.healthcare_organization.community_health_center",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization"
+ },
+ {
+  "source": "ORG.financial_institution.building_society",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.financial_institution.credit_union"
+ },
+ {
+  "source": "ORG.financial_institution.savings_and_loan_association",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.financial_institution.credit_union"
+ },
+ {
+  "source": "ORG.financial_institution.bank.merchant_bank",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.financial_institution.bank.investment_bank"
+ },
+ {
+  "source": "ORG.financial_institution.stock_exchange",
+  "relation": "RELATED_TO",
+  "target": "ORG.business_enterprise.corporation.public_company"
+ },
+ {
+  "source": "ORG.financial_institution.asset_management_firm",
+  "relation": "RELATED_TO",
+  "target": "ORG.financial_institution.investment_fund"
+ },
+ {
+  "source": "ORG.financial_institution.investment_fund.venture_capital_fund",
+  "relation": "RELATED_TO",
+  "target": "ORG.business_enterprise.startup"
+ },
+ {
+  "source": "ORG.financial_institution.investment_fund.pension_fund",
+  "relation": "RELATED_TO",
+  "target": "ORG.government_institution.sovereign_wealth_fund"
+ },
+ {
+  "source": "ORG.government_institution.sovereign_wealth_fund",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.financial_institution.investment_fund"
+ },
+ {
+  "source": "ORG.industry_association.chamber_of_commerce",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.industry_association.trade_association"
+ },
+ {
+  "source": "ORG.industry_association.employers_organization",
+  "relation": "RELATED_TO",
+  "target": "ORG.labor_union"
+ },
+ {
+  "source": "ORG.industry_association.standards_organization",
+  "relation": "RELATED_TO",
+  "target": "ORG.industry_association.certification_body"
+ },
+ {
+  "source": "ORG.industry_association.cartel",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.industry_association.trade_association"
+ },
+ {
+  "source": "ORG.professional_association.professional_body.bar_association",
+  "relation": "RELATED_TO",
+  "target": "ORG.professional_association.licensing_board"
+ },
+ {
+  "source": "ORG.professional_association.royal_college",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.professional_association.professional_body"
+ },
+ {
+  "source": "ORG.professional_association.licensing_board",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.government_institution.regulatory_agency"
+ },
+ {
+  "source": "ORG.political_organization.interest_group",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.political_organization.advocacy_group"
+ },
+ {
+  "source": "ORG.political_organization.lobby_group",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.political_organization.interest_group"
+ },
+ {
+  "source": "ORG.political_organization.social_movement_organization",
+  "relation": "RELATED_TO",
+  "target": "ORG.nonprofit_organization.nongovernmental_organization"
+ },
+ {
+  "source": "ORG.community_organization.neighborhood_association",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.community_organization.residents_association"
+ },
+ {
+  "source": "ORG.community_organization.youth_organization",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.community_organization.scouting_organization"
+ },
+ {
+  "source": "ORG.community_organization.veterans_organization",
+  "relation": "RELATED_TO",
+  "target": "ORG.government_institution.military_organization"
+ },
+ {
+  "source": "ORG.community_organization.community_development_corporation",
+  "relation": "OVERLAPS_WITH",
+  "target": "ORG.nonprofit_organization"
+ },
+ {
+  "source": "ORG.government_institution.central_bank",
+  "relation": "ROLE_IN",
+  "target": "HK.finance"
+ },
+ {
+  "source": "ORG.research_institution.think_tank",
+  "relation": "ROLE_IN",
+  "target": "HK.public_administration"
+ },
+ {
+  "source": "ORG.educational_institution.university",
+  "relation": "ROLE_IN",
+  "target": "HK.education"
+ },
+ {
+  "source": "ORG.healthcare_organization.hospital",
+  "relation": "ROLE_IN",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "ORG.financial_institution.bank",
+  "relation": "ROLE_IN",
+  "target": "HK.finance"
+ },
+ {
+  "source": "ORG.government_institution.judiciary",
+  "relation": "ROLE_IN",
+  "target": "HK.law"
+ },
+ {
+  "source": "ORG.government_institution.legislature",
+  "relation": "ROLE_IN",
+  "target": "HK.law"
+ },
+ {
+  "source": "ORG.research_institution.observatory",
+  "relation": "USES",
+  "target": "HK.astronomy"
+ },
+ {
+  "source": "ORG.research_institution.medical_research_institute",
+  "relation": "USES",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "ORG.research_institution.field_research_station.agricultural_research_station",
+  "relation": "USES",
+  "target": "HK.agriculture"
+ },
+ {
+  "source": "ORG.government_institution.central_bank",
+  "relation": "USES",
+  "target": "HK.economics"
+ },
+ {
+  "source": "ORG.educational_institution.professional_school.law_school",
+  "relation": "USES",
+  "target": "HK.law"
+ },
+ {
+  "source": "ORG.educational_institution.professional_school.medical_school",
+  "relation": "USES",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "ORG.educational_institution.professional_school.business_school",
+  "relation": "USES",
+  "target": "HK.business"
+ },
+ {
+  "source": "ORG.educational_institution.seminary",
+  "relation": "USES",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "ORG.research_institution.think_tank",
+  "relation": "USES",
+  "target": "HK.political_science"
+ }
+]

@@ -1,0 +1,742 @@
+[
+ {
+  "source": "HK.business.management_information_systems",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.business.business_analytics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.data_science"
+ },
+ {
+  "source": "HK.business.organizational_behavior",
+  "relation": "APPLICATION_OF",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.business.organizational_behavior",
+  "relation": "APPLICATION_OF",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "HK.business.strategy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.business.marketing.consumer_behavior",
+  "relation": "APPLICATION_OF",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.business.business_ethics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.philosophy"
+ },
+ {
+  "source": "HK.business.supply_chain_management",
+  "relation": "APPLICATION_OF",
+  "target": "HK.operations_research"
+ },
+ {
+  "source": "HK.business.operations_management",
+  "relation": "APPLICATION_OF",
+  "target": "HK.operations_research"
+ },
+ {
+  "source": "HK.business.management.knowledge_management",
+  "relation": "APPLICATION_OF",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "HK.business.marketing.marketing_research",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.business.management.leadership",
+  "relation": "APPLICATION_OF",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.finance.quantitative_finance",
+  "relation": "APPLICATION_OF",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "HK.finance.quantitative_finance",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.finance.financial_economics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.finance.behavioral_finance",
+  "relation": "APPLICATION_OF",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "HK.finance.public_finance",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.finance.quantitative_finance",
+  "relation": "APPLICATION_OF",
+  "target": "HK.operations_research"
+ },
+ {
+  "source": "HK.finance.insurance.actuarial_science",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.accounting.forensic_accounting",
+  "relation": "APPLICATION_OF",
+  "target": "HK.criminology"
+ },
+ {
+  "source": "HK.accounting.forensic_accounting",
+  "relation": "RELATED_TO",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.accounting.taxation",
+  "relation": "RELATED_TO",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.journalism",
+  "relation": "APPLICATION_OF",
+  "target": "HK.communication"
+ },
+ {
+  "source": "HK.journalism.media_law",
+  "relation": "APPLICATION_OF",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.journalism.data_journalism",
+  "relation": "APPLICATION_OF",
+  "target": "HK.data_science"
+ },
+ {
+  "source": "HK.library_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "HK.library_science.information_retrieval",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.library_science.bibliometrics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "HK.public_administration",
+  "relation": "APPLICATION_OF",
+  "target": "HK.political_science"
+ },
+ {
+  "source": "HK.public_administration.public_policy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.political_science"
+ },
+ {
+  "source": "HK.public_administration.public_policy_analysis",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.public_administration.administrative_law",
+  "relation": "APPLICATION_OF",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.business.management_information_systems.business_intelligence",
+  "relation": "APPLICATION_OF",
+  "target": "HK.data_science"
+ },
+ {
+  "source": "HK.finance.fintech",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "HK.library_science.information_architecture",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "HK.library_science.archival_science",
+  "relation": "APPLICATION_OF",
+  "target": "HK.history"
+ },
+ {
+  "source": "HK.library_science.information_literacy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.education"
+ },
+ {
+  "source": "HK.accounting.sustainability_accounting.carbon_accounting",
+  "relation": "APPLICATION_OF",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "HK.business.corporate_governance.corporate_compliance",
+  "relation": "APPLICATION_OF",
+  "target": "HK.law"
+ },
+ {
+  "source": "HK.business.marketing.public_relations",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.communication"
+ },
+ {
+  "source": "HK.journalism.digital_journalism",
+  "relation": "APPLICATION_OF",
+  "target": "HK.communication"
+ },
+ {
+  "source": "HK.public_administration.comparative_public_administration",
+  "relation": "APPLICATION_OF",
+  "target": "HK.political_science"
+ },
+ {
+  "source": "HK.public_administration.intergovernmental_relations",
+  "relation": "APPLICATION_OF",
+  "target": "HK.political_science"
+ },
+ {
+  "source": "HK.public_administration.development_administration",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "HK.business.management.leadership",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.organizational_behavior"
+ },
+ {
+  "source": "HK.business.management.quality_management",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.operations_management.lean_operations"
+ },
+ {
+  "source": "HK.business.management.quality_management.lean_management",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.operations_management.lean_operations"
+ },
+ {
+  "source": "HK.business.management.performance_management",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.human_resource_management.performance_appraisal"
+ },
+ {
+  "source": "HK.business.organizational_behavior.organizational_development",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.management.change_management"
+ },
+ {
+  "source": "HK.business.organizational_theory.organizational_learning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.management.knowledge_management"
+ },
+ {
+  "source": "HK.business.human_resource_management.strategic_hrm",
+  "relation": "RELATED_TO",
+  "target": "HK.business.strategy"
+ },
+ {
+  "source": "HK.business.human_resource_management.hr_analytics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.business_analytics"
+ },
+ {
+  "source": "HK.business.human_resource_management.international_hrm",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.international_business.cross_cultural_management"
+ },
+ {
+  "source": "HK.business.operations_management.forecasting",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.business_analytics.predictive_analytics"
+ },
+ {
+  "source": "HK.business.operations_management",
+  "relation": "USES",
+  "target": "HK.business.management.quality_management.six_sigma"
+ },
+ {
+  "source": "HK.business.supply_chain_management.logistics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.operations_management"
+ },
+ {
+  "source": "HK.business.marketing.relationship_marketing",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.management_information_systems.enterprise_systems.customer_relationship_management"
+ },
+ {
+  "source": "HK.business.marketing.marketing_analytics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.business_analytics"
+ },
+ {
+  "source": "HK.business.marketing.international_marketing",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.international_business"
+ },
+ {
+  "source": "HK.business.marketing.public_relations",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "HK.business.strategy.strategic_analysis.resource_based_view",
+  "relation": "RELATED_TO",
+  "target": "HK.business.organizational_theory.resource_dependence_theory"
+ },
+ {
+  "source": "HK.business.strategy.corporate_strategy.mergers_and_acquisitions",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.corporate_finance"
+ },
+ {
+  "source": "HK.business.strategy.platform_strategy",
+  "relation": "RELATED_TO",
+  "target": "HK.business.management_information_systems.e_commerce"
+ },
+ {
+  "source": "HK.business.entrepreneurship.startup_financing.venture_capital",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.investments.alternative_investments.venture_capital"
+ },
+ {
+  "source": "HK.business.entrepreneurship.corporate_entrepreneurship",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.innovation_management"
+ },
+ {
+  "source": "HK.business.entrepreneurship.lean_startup",
+  "relation": "RELATED_TO",
+  "target": "HK.business.management.quality_management.lean_management"
+ },
+ {
+  "source": "HK.business.entrepreneurship.social_entrepreneurship",
+  "relation": "RELATED_TO",
+  "target": "HK.business.business_ethics.corporate_social_responsibility"
+ },
+ {
+  "source": "HK.business.innovation_management.new_product_development",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.marketing.marketing_strategy.product_management"
+ },
+ {
+  "source": "HK.business.innovation_management.new_product_development",
+  "relation": "USES",
+  "target": "HK.business.innovation_management.design_thinking"
+ },
+ {
+  "source": "HK.business.corporate_governance.enterprise_risk_management",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.risk_management"
+ },
+ {
+  "source": "HK.business.corporate_governance.audit_committee",
+  "relation": "RELATED_TO",
+  "target": "HK.accounting.auditing"
+ },
+ {
+  "source": "HK.business.corporate_governance.agency_theory",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.financial_economics.agency_theory"
+ },
+ {
+  "source": "HK.business.business_analytics.predictive_analytics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.quantitative_finance.machine_learning_in_finance"
+ },
+ {
+  "source": "HK.business.project_management.project_risk_management",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.risk_management"
+ },
+ {
+  "source": "HK.business.project_management.agile_project_management",
+  "relation": "RELATED_TO",
+  "target": "HK.business.entrepreneurship.lean_startup"
+ },
+ {
+  "source": "HK.business.management.sustainability_management",
+  "relation": "RELATED_TO",
+  "target": "HK.accounting.sustainability_accounting"
+ },
+ {
+  "source": "HK.business.business_ethics.sustainability_reporting",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.accounting.sustainability_accounting"
+ },
+ {
+  "source": "HK.business.business_ethics.stakeholder_theory",
+  "relation": "RELATED_TO",
+  "target": "HK.business.corporate_governance"
+ },
+ {
+  "source": "HK.business.management.crisis_management",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_administration.emergency_management"
+ },
+ {
+  "source": "HK.business.management.nonprofit_management",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_administration.third_sector_management"
+ },
+ {
+  "source": "HK.business.management_information_systems",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.accounting.accounting_information_systems"
+ },
+ {
+  "source": "HK.business.management_information_systems.digital_transformation",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.fintech"
+ },
+ {
+  "source": "HK.finance.corporate_finance.valuation.discounted_cash_flow_valuation",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.investments.security_analysis.fundamental_analysis"
+ },
+ {
+  "source": "HK.finance.corporate_finance.working_capital_management",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.banking.commercial_banking"
+ },
+ {
+  "source": "HK.finance.investments.portfolio_management.passive_investing",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.capital_markets.market_efficiency"
+ },
+ {
+  "source": "HK.finance.investments.security_analysis.technical_analysis",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.behavioral_finance.market_anomalies"
+ },
+ {
+  "source": "HK.finance.investments.alternative_investments.hedge_funds",
+  "relation": "USES",
+  "target": "HK.finance.quantitative_finance.algorithmic_trading"
+ },
+ {
+  "source": "HK.finance.capital_markets",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.derivatives"
+ },
+ {
+  "source": "HK.finance.capital_markets.market_efficiency",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.financial_economics.asset_pricing"
+ },
+ {
+  "source": "HK.finance.derivatives.options",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.quantitative_finance.option_pricing_models"
+ },
+ {
+  "source": "HK.finance.risk_management.value_at_risk",
+  "relation": "METHOD_FOR",
+  "target": "HK.finance.risk_management.market_risk"
+ },
+ {
+  "source": "HK.finance.risk_management.value_at_risk",
+  "relation": "USES",
+  "target": "HK.finance.quantitative_finance.monte_carlo_simulation"
+ },
+ {
+  "source": "HK.finance.risk_management.credit_risk",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.banking"
+ },
+ {
+  "source": "HK.finance.risk_management.credit_scoring",
+  "relation": "APPLIES_TO",
+  "target": "HK.finance.risk_management.credit_risk"
+ },
+ {
+  "source": "HK.finance.quantitative_finance.option_pricing_models",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.derivatives"
+ },
+ {
+  "source": "HK.finance.quantitative_finance.risk_modeling",
+  "relation": "APPLIES_TO",
+  "target": "HK.finance.risk_management"
+ },
+ {
+  "source": "HK.finance.quantitative_finance.algorithmic_trading",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.capital_markets.market_microstructure"
+ },
+ {
+  "source": "HK.finance.behavioral_finance.market_anomalies",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.capital_markets.market_efficiency"
+ },
+ {
+  "source": "HK.finance.public_finance.taxation",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.accounting.taxation"
+ },
+ {
+  "source": "HK.finance.public_finance.government_budgeting",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.public_administration.public_budgeting"
+ },
+ {
+  "source": "HK.finance.banking.investment_banking",
+  "relation": "APPLIES_TO",
+  "target": "HK.finance.corporate_finance"
+ },
+ {
+  "source": "HK.finance.banking.central_banking",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.financial_regulation.bank_regulation"
+ },
+ {
+  "source": "HK.finance.banking.shadow_banking",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.financial_regulation.prudential_regulation"
+ },
+ {
+  "source": "HK.finance.insurance.actuarial_science",
+  "relation": "APPLIES_TO",
+  "target": "HK.finance.risk_management"
+ },
+ {
+  "source": "HK.finance.insurance.takaful",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.banking.islamic_banking"
+ },
+ {
+  "source": "HK.finance.international_finance.exchange_rates",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.capital_markets.foreign_exchange_markets"
+ },
+ {
+  "source": "HK.finance.international_finance.currency_risk_management",
+  "relation": "APPLIES_TO",
+  "target": "HK.finance.risk_management.market_risk"
+ },
+ {
+  "source": "HK.finance.international_finance.sovereign_debt",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.public_finance.public_debt_management"
+ },
+ {
+  "source": "HK.finance.personal_finance.tax_planning",
+  "relation": "APPLICATION_OF",
+  "target": "HK.accounting.taxation"
+ },
+ {
+  "source": "HK.finance.personal_finance.financial_planning",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.investments"
+ },
+ {
+  "source": "HK.finance.financial_regulation.securities_regulation",
+  "relation": "APPLIES_TO",
+  "target": "HK.finance.capital_markets"
+ },
+ {
+  "source": "HK.finance.financial_regulation.bank_regulation",
+  "relation": "APPLIES_TO",
+  "target": "HK.finance.banking"
+ },
+ {
+  "source": "HK.finance.financial_regulation.insurance_regulation",
+  "relation": "APPLIES_TO",
+  "target": "HK.finance.insurance"
+ },
+ {
+  "source": "HK.finance.financial_regulation.anti_money_laundering",
+  "relation": "RELATED_TO",
+  "target": "HK.accounting.forensic_accounting"
+ },
+ {
+  "source": "HK.finance.fintech.digital_payments",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.banking.retail_banking"
+ },
+ {
+  "source": "HK.finance.fintech.peer_to_peer_lending",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.banking"
+ },
+ {
+  "source": "HK.finance.fintech.robo_advising",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.investments.portfolio_management"
+ },
+ {
+  "source": "HK.finance.fintech.regtech",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.financial_regulation"
+ },
+ {
+  "source": "HK.finance.fintech.insurtech",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance.insurance"
+ },
+ {
+  "source": "HK.finance.fintech.cryptocurrency",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.capital_markets"
+ },
+ {
+  "source": "HK.finance.corporate_finance.capital_budgeting",
+  "relation": "USES",
+  "target": "HK.public_administration.public_policy_analysis.cost_benefit_analysis"
+ },
+ {
+  "source": "HK.accounting.auditing.external_audit",
+  "relation": "RELATED_TO",
+  "target": "HK.business.corporate_governance.audit_committee"
+ },
+ {
+  "source": "HK.accounting.auditing.internal_audit",
+  "relation": "RELATED_TO",
+  "target": "HK.business.corporate_governance"
+ },
+ {
+  "source": "HK.accounting.managerial_accounting.performance_measurement",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.management.performance_management"
+ },
+ {
+  "source": "HK.accounting.accounting_information_systems.internal_controls",
+  "relation": "RELATED_TO",
+  "target": "HK.accounting.auditing"
+ },
+ {
+  "source": "HK.accounting.forensic_accounting.bankruptcy_accounting",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.corporate_finance.corporate_restructuring"
+ },
+ {
+  "source": "HK.accounting.financial_accounting.financial_statement_analysis",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.finance.investments.security_analysis"
+ },
+ {
+  "source": "HK.accounting.auditing.continuous_auditing",
+  "relation": "USES",
+  "target": "HK.accounting.accounting_information_systems.data_analytics_in_accounting"
+ },
+ {
+  "source": "HK.accounting.financial_accounting.earnings_management",
+  "relation": "RELATED_TO",
+  "target": "HK.finance.corporate_finance"
+ },
+ {
+  "source": "HK.journalism.news_reporting.beat_reporting",
+  "relation": "RELATED_TO",
+  "target": "HK.journalism.journalism_by_beat"
+ },
+ {
+  "source": "HK.journalism.journalism_by_beat.business_journalism",
+  "relation": "RELATED_TO",
+  "target": "HK.finance"
+ },
+ {
+  "source": "HK.journalism.investigative_journalism",
+  "relation": "RELATED_TO",
+  "target": "HK.journalism.data_journalism"
+ },
+ {
+  "source": "HK.journalism.journalism_ethics",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.business_ethics"
+ },
+ {
+  "source": "HK.journalism.data_journalism.data_visualization_in_journalism",
+  "relation": "RELATED_TO",
+  "target": "HK.business.business_analytics"
+ },
+ {
+  "source": "HK.library_science.cataloging_and_classification",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.library_science.knowledge_organization"
+ },
+ {
+  "source": "HK.library_science.metadata.metadata_standards",
+  "relation": "RELATED_TO",
+  "target": "HK.library_science.cataloging_and_classification"
+ },
+ {
+  "source": "HK.library_science.digital_libraries",
+  "relation": "RELATED_TO",
+  "target": "HK.library_science.preservation_and_conservation.digital_preservation"
+ },
+ {
+  "source": "HK.library_science.archival_science",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.library_science.records_management"
+ },
+ {
+  "source": "HK.library_science.records_management",
+  "relation": "RELATED_TO",
+  "target": "HK.public_administration"
+ },
+ {
+  "source": "HK.library_science.knowledge_organization.taxonomies_and_ontologies",
+  "relation": "APPLICATION_OF",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "HK.public_administration.public_personnel",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.business.human_resource_management"
+ },
+ {
+  "source": "HK.public_administration.e_government",
+  "relation": "APPLICATION_OF",
+  "target": "HK.business.management_information_systems"
+ },
+ {
+  "source": "HK.public_administration.administrative_law.public_accountability",
+  "relation": "RELATED_TO",
+  "target": "HK.public_administration.public_sector_ethics"
+ },
+ {
+  "source": "HK.public_administration.public_service_delivery",
+  "relation": "RELATED_TO",
+  "target": "HK.public_administration.public_management"
+ },
+ {
+  "source": "HK.business.management.management_theory.scientific_management",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "HK.business.management.quality_management.lean_management"
+ },
+ {
+  "source": "HK.business.management.management_theory.human_relations",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.business.organizational_behavior"
+ },
+ {
+  "source": "HK.business.management.management_theory.systems_management",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.business.organizational_theory"
+ },
+ {
+  "source": "HK.business.project_management.critical_path_method",
+  "relation": "METHOD_FOR",
+  "target": "HK.business.project_management.project_scheduling"
+ }
+]

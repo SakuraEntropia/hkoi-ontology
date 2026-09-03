@@ -1,0 +1,4623 @@
+[
+ {
+  "id": "HK.business.management",
+  "name": "Management",
+  "name_en": "Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The practice and study of planning, organizing, leading, and controlling organizations and their resources.",
+  "name_zh": "管理学"
+ },
+ {
+  "id": "HK.business.organizational_behavior",
+  "name": "Organizational Behavior",
+  "name_en": "Organizational Behavior",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The study of how individuals and groups behave within organizations.",
+  "name_zh": "组织行为学"
+ },
+ {
+  "id": "HK.business.human_resource_management",
+  "name": "Human Resource Management",
+  "name_en": "Human Resource Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The management of people, employment relationships, and the workforce of an organization.",
+  "name_zh": "人力资源管理"
+ },
+ {
+  "id": "HK.business.operations_management",
+  "name": "Operations Management",
+  "name_en": "Operations Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The design and control of the processes that produce goods and deliver services.",
+  "name_zh": "运营管理"
+ },
+ {
+  "id": "HK.business.supply_chain_management",
+  "name": "Supply Chain Management",
+  "name_en": "Supply Chain Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The coordination of the flow of materials, information, and funds across organizations from suppliers to customers.",
+  "name_zh": "供应链管理"
+ },
+ {
+  "id": "HK.business.marketing",
+  "name": "Marketing",
+  "name_en": "Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The study of creating, communicating, and delivering value to customers and markets.",
+  "name_zh": "市场营销"
+ },
+ {
+  "id": "HK.business.strategy",
+  "name": "Strategic Management",
+  "name_en": "Strategic Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The formulation and execution of long-term goals and competitive positioning of organizations.",
+  "name_zh": "战略管理"
+ },
+ {
+  "id": "HK.business.entrepreneurship",
+  "name": "Entrepreneurship",
+  "name_en": "Entrepreneurship",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The study of identifying opportunities and creating, financing, and growing new ventures.",
+  "name_zh": "创业学"
+ },
+ {
+  "id": "HK.business.international_business",
+  "name": "International Business",
+  "name_en": "International Business",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The study of business activities that cross national borders and operate in multiple country contexts.",
+  "name_zh": "国际商务"
+ },
+ {
+  "id": "HK.business.management_information_systems",
+  "name": "Management Information Systems",
+  "name_en": "Management Information Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The study of how information technology supports, transforms, and enables organizations and their processes.",
+  "name_zh": "管理信息系统"
+ },
+ {
+  "id": "HK.business.business_ethics",
+  "name": "Business Ethics",
+  "name_en": "Business Ethics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The study of moral principles and standards as they apply to business conduct and decisions.",
+  "name_zh": "商业伦理"
+ },
+ {
+  "id": "HK.business.corporate_governance",
+  "name": "Corporate Governance",
+  "name_en": "Corporate Governance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The system of rules and practices by which companies are directed, controlled, and held accountable.",
+  "name_zh": "公司治理"
+ },
+ {
+  "id": "HK.business.business_analytics",
+  "name": "Business Analytics",
+  "name_en": "Business Analytics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The use of data, statistics, and modeling to support evidence-based business decisions.",
+  "name_zh": "商业分析"
+ },
+ {
+  "id": "HK.business.project_management",
+  "name": "Project Management",
+  "name_en": "Project Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The discipline of planning, executing, and closing temporary endeavors with defined scope, time, and cost.",
+  "name_zh": "项目管理"
+ },
+ {
+  "id": "HK.business.innovation_management",
+  "name": "Innovation Management",
+  "name_en": "Innovation Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The management of processes, structures, and culture that generate and commercialize novel ideas.",
+  "name_zh": "创新管理"
+ },
+ {
+  "id": "HK.business.organizational_theory",
+  "name": "Organization Theory",
+  "name_en": "Organization Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business",
+  "description": "The study of organizations as entities: their design, structure, environments, and change.",
+  "name_zh": "组织理论"
+ },
+ {
+  "id": "HK.business.management.management_theory",
+  "name": "Management Theory",
+  "name_en": "Management Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The historical and contemporary schools of thought about how management should be practiced.",
+  "name_zh": "管理理论"
+ },
+ {
+  "id": "HK.business.management.management_theory.scientific_management",
+  "name": "Scientific Management",
+  "name_en": "Scientific Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.management_theory",
+  "description": "The early twentieth-century school applying time-and-motion study to optimize worker efficiency.",
+  "name_zh": "科学管理",
+  "aliases": [
+   "Taylorism"
+  ],
+  "historical": true
+ },
+ {
+  "id": "HK.business.management.management_theory.administrative_management",
+  "name": "Administrative Management",
+  "name_en": "Administrative Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.management_theory",
+  "description": "Fayol's school defining the universal functions and principles of administration.",
+  "name_zh": "行政管理学派"
+ },
+ {
+  "id": "HK.business.management.management_theory.bureaucratic_management",
+  "name": "Bureaucratic Management",
+  "name_en": "Bureaucratic Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.management_theory",
+  "description": "Weber's model of rational-legal authority based on hierarchy, rules, and impersonal roles.",
+  "name_zh": "官僚制管理"
+ },
+ {
+  "id": "HK.business.management.management_theory.human_relations",
+  "name": "Human Relations School",
+  "name_en": "Human Relations School",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.management_theory",
+  "description": "The school emphasizing social needs and informal groups in worker productivity, rooted in the Hawthorne studies.",
+  "name_zh": "人际关系学派"
+ },
+ {
+  "id": "HK.business.management.management_theory.contingency_theory",
+  "name": "Contingency Theory",
+  "name_en": "Contingency Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.management_theory",
+  "description": "The view that there is no single best way to manage and that optimal structure depends on context.",
+  "name_zh": "权变理论"
+ },
+ {
+  "id": "HK.business.management.management_theory.systems_management",
+  "name": "Systems Approach to Management",
+  "name_en": "Systems Approach to Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.management_theory",
+  "description": "The school viewing organizations as open systems of interdependent parts interacting with their environment.",
+  "name_zh": "系统管理学派"
+ },
+ {
+  "id": "HK.business.management.planning",
+  "name": "Planning",
+  "name_en": "Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The managerial function of setting objectives and determining the means to achieve them.",
+  "name_zh": "计划职能"
+ },
+ {
+  "id": "HK.business.management.leadership",
+  "name": "Leadership",
+  "name_en": "Leadership",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The study of influencing and motivating people toward shared goals.",
+  "name_zh": "领导力"
+ },
+ {
+  "id": "HK.business.management.leadership.transformational_leadership",
+  "name": "Transformational Leadership",
+  "name_en": "Transformational Leadership",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.leadership",
+  "description": "Leadership that inspires followers through vision, idealized influence, and intellectual stimulation.",
+  "name_zh": "变革型领导"
+ },
+ {
+  "id": "HK.business.management.leadership.servant_leadership",
+  "name": "Servant Leadership",
+  "name_en": "Servant Leadership",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.leadership",
+  "description": "Leadership that prioritizes serving followers' needs and development ahead of the leader's own interests.",
+  "name_zh": "服务型领导"
+ },
+ {
+  "id": "HK.business.management.leadership.situational_leadership",
+  "name": "Situational Leadership",
+  "name_en": "Situational Leadership",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.leadership",
+  "description": "Leadership that adapts style to the readiness and competence of followers.",
+  "name_zh": "情境领导"
+ },
+ {
+  "id": "HK.business.management.decision_making",
+  "name": "Managerial Decision Making",
+  "name_en": "Managerial Decision Making",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The study of how managers identify problems, evaluate alternatives, and choose courses of action.",
+  "name_zh": "管理决策"
+ },
+ {
+  "id": "HK.business.management.change_management",
+  "name": "Change Management",
+  "name_en": "Change Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The structured approach to transitioning organizations, teams, and individuals through change.",
+  "name_zh": "变革管理"
+ },
+ {
+  "id": "HK.business.management.performance_management",
+  "name": "Performance Management",
+  "name_en": "Performance Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The continuous process of aligning, measuring, and improving individual and organizational performance.",
+  "name_zh": "绩效管理"
+ },
+ {
+  "id": "HK.business.management.knowledge_management",
+  "name": "Knowledge Management",
+  "name_en": "Knowledge Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The capture, organization, sharing, and use of organizational knowledge and expertise.",
+  "name_zh": "知识管理"
+ },
+ {
+  "id": "HK.business.management.quality_management",
+  "name": "Quality Management",
+  "name_en": "Quality Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The discipline of ensuring products and processes meet quality standards and continuously improve.",
+  "name_zh": "质量管理"
+ },
+ {
+  "id": "HK.business.management.quality_management.total_quality_management",
+  "name": "Total Quality Management",
+  "name_en": "Total Quality Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management.quality_management",
+  "description": "An organization-wide, customer-focused approach to continuous quality improvement.",
+  "name_zh": "全面质量管理"
+ },
+ {
+  "id": "HK.business.management.quality_management.six_sigma",
+  "name": "Six Sigma",
+  "name_en": "Six Sigma",
+  "type": "METHODOLOGY",
+  "parent": "HK.business.management.quality_management",
+  "description": "A data-driven methodology for reducing defects and process variation to near-perfect levels.",
+  "name_zh": "六西格玛"
+ },
+ {
+  "id": "HK.business.management.quality_management.lean_management",
+  "name": "Lean Management",
+  "name_en": "Lean Management",
+  "type": "METHODOLOGY",
+  "parent": "HK.business.management.quality_management",
+  "description": "A methodology for maximizing customer value while minimizing waste, rooted in the Toyota Production System.",
+  "name_zh": "精益管理"
+ },
+ {
+  "id": "HK.business.management.nonprofit_management",
+  "name": "Nonprofit Management",
+  "name_en": "Nonprofit Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The management of mission-driven organizations that reinvest surplus rather than distributing profit.",
+  "name_zh": "非营利组织管理"
+ },
+ {
+  "id": "HK.business.management.crisis_management",
+  "name": "Crisis Management",
+  "name_en": "Crisis Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The preparation for, response to, and recovery from events that threaten an organization's viability.",
+  "name_zh": "危机管理"
+ },
+ {
+  "id": "HK.business.management.sustainability_management",
+  "name": "Sustainability Management",
+  "name_en": "Sustainability Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management",
+  "description": "The integration of environmental and social performance into corporate strategy and operations.",
+  "name_zh": "可持续管理"
+ },
+ {
+  "id": "HK.business.organizational_behavior.motivation",
+  "name": "Motivation",
+  "name_en": "Motivation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of the psychological forces that energize, direct, and sustain work effort.",
+  "name_zh": "激励"
+ },
+ {
+  "id": "HK.business.organizational_behavior.personality_and_values",
+  "name": "Personality and Values",
+  "name_en": "Personality and Values",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of individual differences in personality traits and values and their effect on behavior at work.",
+  "name_zh": "人格与价值观"
+ },
+ {
+  "id": "HK.business.organizational_behavior.work_attitudes",
+  "name": "Work Attitudes",
+  "name_en": "Work Attitudes",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of job satisfaction, organizational commitment, and employee engagement.",
+  "name_zh": "工作态度"
+ },
+ {
+  "id": "HK.business.organizational_behavior.perception_and_attribution",
+  "name": "Perception and Attribution",
+  "name_en": "Perception and Attribution",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of how people perceive and interpret others' behavior and events in organizations.",
+  "name_zh": "知觉与归因"
+ },
+ {
+  "id": "HK.business.organizational_behavior.group_dynamics",
+  "name": "Group Dynamics",
+  "name_en": "Group Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of how groups form, function, and influence their members.",
+  "name_zh": "群体动力学"
+ },
+ {
+  "id": "HK.business.organizational_behavior.group_dynamics.teams",
+  "name": "Teams and Team Effectiveness",
+  "name_en": "Teams and Team Effectiveness",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior.group_dynamics",
+  "description": "The study of work teams, their composition, processes, and performance.",
+  "name_zh": "团队与团队效能"
+ },
+ {
+  "id": "HK.business.organizational_behavior.group_dynamics.group_decision_making",
+  "name": "Group Decision Making",
+  "name_en": "Group Decision Making",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior.group_dynamics",
+  "description": "The study of how decisions are made collectively, including groupthink and participation.",
+  "name_zh": "群体决策"
+ },
+ {
+  "id": "HK.business.organizational_behavior.organizational_communication",
+  "name": "Organizational Communication",
+  "name_en": "Organizational Communication",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of how information and meaning flow within and between organizations.",
+  "name_zh": "组织沟通"
+ },
+ {
+  "id": "HK.business.organizational_behavior.power_and_politics",
+  "name": "Power and Politics",
+  "name_en": "Power and Politics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of influence, authority, and political behavior in organizations.",
+  "name_zh": "权力与政治"
+ },
+ {
+  "id": "HK.business.organizational_behavior.negotiation",
+  "name": "Negotiation",
+  "name_en": "Negotiation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of bargaining and conflict resolution between parties with interdependent interests.",
+  "name_zh": "谈判"
+ },
+ {
+  "id": "HK.business.organizational_behavior.organizational_culture",
+  "name": "Organizational Culture",
+  "name_en": "Organizational Culture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of the shared values, beliefs, and norms that shape how organizational members act.",
+  "name_zh": "组织文化"
+ },
+ {
+  "id": "HK.business.organizational_behavior.organizational_climate",
+  "name": "Organizational Climate",
+  "name_en": "Organizational Climate",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of employees' shared perceptions of organizational policies, practices, and procedures.",
+  "name_zh": "组织氛围"
+ },
+ {
+  "id": "HK.business.organizational_behavior.organizational_development",
+  "name": "Organization Development",
+  "name_en": "Organization Development",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The planned, systematic use of behavioral science to improve organizational effectiveness and health.",
+  "name_zh": "组织发展"
+ },
+ {
+  "id": "HK.business.organizational_behavior.work_stress_and_wellbeing",
+  "name": "Work Stress and Well-being",
+  "name_en": "Work Stress and Well-being",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of occupational stress, burnout, and employee well-being.",
+  "name_zh": "工作压力与幸福感"
+ },
+ {
+  "id": "HK.business.organizational_behavior.diversity_and_inclusion",
+  "name": "Workplace Diversity and Inclusion",
+  "name_en": "Workplace Diversity and Inclusion",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of workforce diversity and practices that foster inclusion and equity.",
+  "name_zh": "职场多元与包容"
+ },
+ {
+  "id": "HK.business.organizational_behavior.organizational_justice",
+  "name": "Organizational Justice",
+  "name_en": "Organizational Justice",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_behavior",
+  "description": "The study of employees' perceptions of fairness in distributions, procedures, and treatment.",
+  "name_zh": "组织公正"
+ },
+ {
+  "id": "HK.business.human_resource_management.job_analysis_and_design",
+  "name": "Job Analysis and Design",
+  "name_en": "Job Analysis and Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "The systematic study and structuring of jobs, tasks, and responsibilities.",
+  "name_zh": "工作分析与设计"
+ },
+ {
+  "id": "HK.business.human_resource_management.workforce_planning",
+  "name": "Workforce Planning",
+  "name_en": "Workforce Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "Forecasting and planning the staffing needs of an organization over time.",
+  "name_zh": "人力规划"
+ },
+ {
+  "id": "HK.business.human_resource_management.recruitment_and_selection",
+  "name": "Recruitment and Selection",
+  "name_en": "Recruitment and Selection",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "Attracting, assessing, and hiring qualified candidates for open positions.",
+  "name_zh": "招聘与选拔"
+ },
+ {
+  "id": "HK.business.human_resource_management.training_and_development",
+  "name": "Training and Development",
+  "name_en": "Training and Development",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "Designing and delivering learning experiences that build employee skills and careers.",
+  "name_zh": "培训与开发"
+ },
+ {
+  "id": "HK.business.human_resource_management.performance_appraisal",
+  "name": "Performance Appraisal",
+  "name_en": "Performance Appraisal",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "The formal evaluation and feedback of employee performance against standards.",
+  "name_zh": "绩效考核"
+ },
+ {
+  "id": "HK.business.human_resource_management.compensation_and_benefits",
+  "name": "Compensation and Benefits",
+  "name_en": "Compensation and Benefits",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "The design of pay structures, incentives, and employee benefit programs.",
+  "name_zh": "薪酬与福利"
+ },
+ {
+  "id": "HK.business.human_resource_management.employee_relations",
+  "name": "Employee and Labor Relations",
+  "name_en": "Employee and Labor Relations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "Managing the relationship between employers, employees, and unions, including collective bargaining.",
+  "name_zh": "员工关系"
+ },
+ {
+  "id": "HK.business.human_resource_management.talent_management",
+  "name": "Talent Management",
+  "name_en": "Talent Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "The integrated attraction, development, retention, and succession of key talent.",
+  "name_zh": "人才管理"
+ },
+ {
+  "id": "HK.business.human_resource_management.strategic_hrm",
+  "name": "Strategic Human Resource Management",
+  "name_en": "Strategic Human Resource Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "Aligning HR systems and practices with organizational strategy and goals.",
+  "name_zh": "战略人力资源管理"
+ },
+ {
+  "id": "HK.business.human_resource_management.international_hrm",
+  "name": "International Human Resource Management",
+  "name_en": "International Human Resource Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "Managing people across borders, including expatriation and global staffing.",
+  "name_zh": "国际人力资源管理"
+ },
+ {
+  "id": "HK.business.human_resource_management.hr_analytics",
+  "name": "People Analytics",
+  "name_en": "People Analytics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "The use of data and statistics to inform workforce decisions.",
+  "name_zh": "人力资源分析",
+  "aliases": [
+   "HR Analytics"
+  ]
+ },
+ {
+  "id": "HK.business.human_resource_management.hr_information_systems",
+  "name": "HR Information Systems",
+  "name_en": "HR Information Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.human_resource_management",
+  "description": "Information systems for recording, managing, and analyzing employee data.",
+  "name_zh": "人力资源信息系统",
+  "aliases": [
+   "HRIS"
+  ]
+ },
+ {
+  "id": "HK.business.operations_management.process_analysis_and_design",
+  "name": "Process Analysis and Design",
+  "name_en": "Process Analysis and Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Mapping, measuring, and redesigning the activities that transform inputs into outputs.",
+  "name_zh": "流程分析与设计"
+ },
+ {
+  "id": "HK.business.operations_management.capacity_management",
+  "name": "Capacity Management",
+  "name_en": "Capacity Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Planning and controlling the maximum output an operation can produce.",
+  "name_zh": "产能管理"
+ },
+ {
+  "id": "HK.business.operations_management.inventory_management",
+  "name": "Inventory Management",
+  "name_en": "Inventory Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Controlling the quantity, location, and timing of stocked materials and finished goods.",
+  "name_zh": "库存管理"
+ },
+ {
+  "id": "HK.business.operations_management.scheduling",
+  "name": "Scheduling",
+  "name_en": "Scheduling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Assigning work, resources, and time slots to tasks and jobs.",
+  "name_zh": "排程"
+ },
+ {
+  "id": "HK.business.operations_management.forecasting",
+  "name": "Demand Forecasting",
+  "name_en": "Demand Forecasting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Predicting future customer demand to plan production and resources.",
+  "name_zh": "需求预测"
+ },
+ {
+  "id": "HK.business.operations_management.facility_location_and_layout",
+  "name": "Facility Location and Layout",
+  "name_en": "Facility Location and Layout",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Deciding where facilities should be located and how their physical space should be arranged.",
+  "name_zh": "设施选址与布局"
+ },
+ {
+  "id": "HK.business.operations_management.service_operations_management",
+  "name": "Service Operations Management",
+  "name_en": "Service Operations Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "The design and delivery of intangible services, including capacity and queue management.",
+  "name_zh": "服务运营管理"
+ },
+ {
+  "id": "HK.business.operations_management.lean_operations",
+  "name": "Lean Operations",
+  "name_en": "Lean Operations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Applying lean principles to eliminate waste and improve flow in operations.",
+  "name_zh": "精益运营"
+ },
+ {
+  "id": "HK.business.operations_management.theory_of_constraints",
+  "name": "Theory of Constraints",
+  "name_en": "Theory of Constraints",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "A management philosophy focusing on identifying and managing the bottleneck that limits throughput.",
+  "name_zh": "约束理论"
+ },
+ {
+  "id": "HK.business.operations_management.operations_strategy",
+  "name": "Operations Strategy",
+  "name_en": "Operations Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Aligning operational capabilities and decisions with competitive strategy.",
+  "name_zh": "运营战略"
+ },
+ {
+  "id": "HK.business.operations_management.maintenance_management",
+  "name": "Maintenance Management",
+  "name_en": "Maintenance Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.operations_management",
+  "description": "Planning and controlling the upkeep and reliability of equipment and facilities.",
+  "name_zh": "维护管理"
+ },
+ {
+  "id": "HK.business.supply_chain_management.procurement",
+  "name": "Procurement and Sourcing",
+  "name_en": "Procurement and Sourcing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management",
+  "description": "Acquiring goods and services, and selecting and managing suppliers.",
+  "name_zh": "采购"
+ },
+ {
+  "id": "HK.business.supply_chain_management.logistics",
+  "name": "Logistics",
+  "name_en": "Logistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management",
+  "description": "The management of the physical flow and storage of goods through the supply chain.",
+  "name_zh": "物流"
+ },
+ {
+  "id": "HK.business.supply_chain_management.logistics.transportation_management",
+  "name": "Transportation Management",
+  "name_en": "Transportation Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management.logistics",
+  "description": "Planning and optimizing the movement of goods by road, rail, sea, and air.",
+  "name_zh": "运输管理"
+ },
+ {
+  "id": "HK.business.supply_chain_management.logistics.warehousing",
+  "name": "Warehousing",
+  "name_en": "Warehousing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management.logistics",
+  "description": "The design and operation of facilities that store goods between supply chain stages.",
+  "name_zh": "仓储"
+ },
+ {
+  "id": "HK.business.supply_chain_management.logistics.distribution_management",
+  "name": "Distribution Management",
+  "name_en": "Distribution Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management.logistics",
+  "description": "Managing the channels and networks that deliver products to customers.",
+  "name_zh": "分销管理"
+ },
+ {
+  "id": "HK.business.supply_chain_management.logistics.reverse_logistics",
+  "name": "Reverse Logistics",
+  "name_en": "Reverse Logistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management.logistics",
+  "description": "Managing the return, reuse, recycling, and disposal of products.",
+  "name_zh": "逆向物流"
+ },
+ {
+  "id": "HK.business.supply_chain_management.demand_planning",
+  "name": "Demand Planning",
+  "name_en": "Demand Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management",
+  "description": "Forecasting and shaping customer demand to align supply with market needs.",
+  "name_zh": "需求计划"
+ },
+ {
+  "id": "HK.business.supply_chain_management.sales_and_operations_planning",
+  "name": "Sales and Operations Planning",
+  "name_en": "Sales and Operations Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management",
+  "description": "The integrated cross-functional process balancing demand, supply, and financial plans.",
+  "name_zh": "销售与运营计划",
+  "aliases": [
+   "S&OP"
+  ]
+ },
+ {
+  "id": "HK.business.supply_chain_management.supplier_relationship_management",
+  "name": "Supplier Relationship Management",
+  "name_en": "Supplier Relationship Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management",
+  "description": "Systematically managing interactions and collaboration with suppliers.",
+  "name_zh": "供应商关系管理"
+ },
+ {
+  "id": "HK.business.supply_chain_management.supply_chain_risk_management",
+  "name": "Supply Chain Risk Management",
+  "name_en": "Supply Chain Risk Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management",
+  "description": "Identifying and mitigating disruptions and vulnerabilities in supply networks.",
+  "name_zh": "供应链风险管理"
+ },
+ {
+  "id": "HK.business.supply_chain_management.sustainable_supply_chain",
+  "name": "Sustainable Supply Chain Management",
+  "name_en": "Sustainable Supply Chain Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management",
+  "description": "Managing supply chains to reduce environmental and social impacts.",
+  "name_zh": "可持续供应链",
+  "aliases": [
+   "Green Supply Chain"
+  ]
+ },
+ {
+  "id": "HK.business.supply_chain_management.global_sourcing",
+  "name": "Global Sourcing",
+  "name_en": "Global Sourcing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.supply_chain_management",
+  "description": "Procuring goods and services from international suppliers across borders.",
+  "name_zh": "全球采购"
+ },
+ {
+  "id": "HK.business.marketing.consumer_behavior",
+  "name": "Consumer Behavior",
+  "name_en": "Consumer Behavior",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "The study of how individuals and groups select, buy, use, and dispose of goods and services.",
+  "name_zh": "消费者行为"
+ },
+ {
+  "id": "HK.business.marketing.marketing_research",
+  "name": "Marketing Research",
+  "name_en": "Marketing Research",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "The systematic collection and analysis of data about markets and customers.",
+  "name_zh": "市场调研"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy",
+  "name": "Marketing Strategy",
+  "name_en": "Marketing Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Choosing target markets and designing the value proposition and mix to serve them.",
+  "name_zh": "营销战略"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.market_segmentation",
+  "name": "Market Segmentation",
+  "name_en": "Market Segmentation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy",
+  "description": "Dividing a market into distinct groups of buyers with similar needs or behaviors.",
+  "name_zh": "市场细分"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.targeting_and_positioning",
+  "name": "Targeting and Positioning",
+  "name_en": "Targeting and Positioning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy",
+  "description": "Selecting segments to serve and crafting a distinct place in buyers' minds.",
+  "name_zh": "目标市场与定位"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.branding",
+  "name": "Brand Management",
+  "name_en": "Brand Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy",
+  "description": "Building and managing a brand's identity, meaning, and equity over time.",
+  "name_zh": "品牌管理"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.branding.brand_equity",
+  "name": "Brand Equity",
+  "name_en": "Brand Equity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy.branding",
+  "description": "The value a brand adds to a product through awareness, associations, and loyalty.",
+  "name_zh": "品牌资产"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.pricing_strategy",
+  "name": "Pricing Strategy",
+  "name_en": "Pricing Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy",
+  "description": "Setting prices to capture value, considering cost, competition, and demand.",
+  "name_zh": "定价策略"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.product_management",
+  "name": "Product Management",
+  "name_en": "Product Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy",
+  "description": "Managing a product's lifecycle, features, and positioning in the market.",
+  "name_zh": "产品管理"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.channel_management",
+  "name": "Channel Management",
+  "name_en": "Channel Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy",
+  "description": "Designing and managing the distribution channels through which products reach buyers.",
+  "name_zh": "渠道管理"
+ },
+ {
+  "id": "HK.business.marketing.marketing_strategy.marketing_mix",
+  "name": "Marketing Mix",
+  "name_en": "Marketing Mix",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.marketing_strategy",
+  "description": "The combination of product, price, place, and promotion used to satisfy a target market.",
+  "name_zh": "营销组合"
+ },
+ {
+  "id": "HK.business.marketing.advertising",
+  "name": "Advertising",
+  "name_en": "Advertising",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Paid, mediated communication intended to inform or persuade an audience about offerings.",
+  "name_zh": "广告"
+ },
+ {
+  "id": "HK.business.marketing.sales_promotion",
+  "name": "Sales Promotion",
+  "name_en": "Sales Promotion",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Short-term incentives designed to stimulate immediate purchase.",
+  "name_zh": "促销"
+ },
+ {
+  "id": "HK.business.marketing.public_relations",
+  "name": "Public Relations",
+  "name_en": "Public Relations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Managing communication and relationships between an organization and its publics.",
+  "name_zh": "公共关系"
+ },
+ {
+  "id": "HK.business.marketing.digital_marketing",
+  "name": "Digital Marketing",
+  "name_en": "Digital Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Marketing through digital channels and technologies, including the internet and mobile devices.",
+  "name_zh": "数字营销"
+ },
+ {
+  "id": "HK.business.marketing.digital_marketing.search_engine_marketing",
+  "name": "Search Engine Marketing",
+  "name_en": "Search Engine Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.digital_marketing",
+  "description": "Using paid and organic search visibility to drive traffic and conversions.",
+  "name_zh": "搜索引擎营销",
+  "aliases": [
+   "SEO/SEM"
+  ]
+ },
+ {
+  "id": "HK.business.marketing.digital_marketing.social_media_marketing",
+  "name": "Social Media Marketing",
+  "name_en": "Social Media Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.digital_marketing",
+  "description": "Using social platforms to build audiences, engage customers, and promote offerings.",
+  "name_zh": "社交媒体营销"
+ },
+ {
+  "id": "HK.business.marketing.digital_marketing.content_marketing",
+  "name": "Content Marketing",
+  "name_en": "Content Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.digital_marketing",
+  "description": "Creating and distributing valuable content to attract and retain a defined audience.",
+  "name_zh": "内容营销"
+ },
+ {
+  "id": "HK.business.marketing.digital_marketing.influencer_marketing",
+  "name": "Influencer Marketing",
+  "name_en": "Influencer Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing.digital_marketing",
+  "description": "Partnering with influential individuals to promote products to their audiences.",
+  "name_zh": "网红营销"
+ },
+ {
+  "id": "HK.business.marketing.integrated_marketing_communications",
+  "name": "Integrated Marketing Communications",
+  "name_en": "Integrated Marketing Communications",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Coordinating all promotional tools and messages into a unified, consistent whole.",
+  "name_zh": "整合营销传播",
+  "aliases": [
+   "IMC"
+  ]
+ },
+ {
+  "id": "HK.business.marketing.services_marketing",
+  "name": "Services Marketing",
+  "name_en": "Services Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Marketing intangible offerings, emphasizing quality, relationships, and customer experience.",
+  "name_zh": "服务营销"
+ },
+ {
+  "id": "HK.business.marketing.b2b_marketing",
+  "name": "Business-to-Business Marketing",
+  "name_en": "Business-to-Business Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Marketing goods and services to organizational rather than individual buyers.",
+  "name_zh": "B2B营销"
+ },
+ {
+  "id": "HK.business.marketing.international_marketing",
+  "name": "International Marketing",
+  "name_en": "International Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Adapting and coordinating marketing strategy across multiple countries and cultures.",
+  "name_zh": "国际营销"
+ },
+ {
+  "id": "HK.business.marketing.relationship_marketing",
+  "name": "Relationship Marketing",
+  "name_en": "Relationship Marketing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Building long-term, mutually beneficial relationships with customers rather than one-off transactions.",
+  "name_zh": "关系营销"
+ },
+ {
+  "id": "HK.business.marketing.retail_management",
+  "name": "Retail Management",
+  "name_en": "Retail Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Managing the merchandising, operations, and experience of retail businesses.",
+  "name_zh": "零售管理"
+ },
+ {
+  "id": "HK.business.marketing.marketing_analytics",
+  "name": "Marketing Analytics",
+  "name_en": "Marketing Analytics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.marketing",
+  "description": "Measuring, modeling, and optimizing marketing performance with data.",
+  "name_zh": "营销分析"
+ },
+ {
+  "id": "HK.business.strategy.strategic_analysis",
+  "name": "Strategic Analysis",
+  "name_en": "Strategic Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "Diagnosing the external and internal environment to inform strategic choices.",
+  "name_zh": "战略分析"
+ },
+ {
+  "id": "HK.business.strategy.strategic_analysis.industry_analysis",
+  "name": "Industry Analysis",
+  "name_en": "Industry Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy.strategic_analysis",
+  "description": "Assessing the structure and attractiveness of an industry, as in Porter's Five Forces.",
+  "name_zh": "行业分析"
+ },
+ {
+  "id": "HK.business.strategy.strategic_analysis.competitive_analysis",
+  "name": "Competitive Analysis",
+  "name_en": "Competitive Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy.strategic_analysis",
+  "description": "Evaluating rivals' strategies, resources, and likely moves.",
+  "name_zh": "竞争分析"
+ },
+ {
+  "id": "HK.business.strategy.strategic_analysis.resource_based_view",
+  "name": "Resource-Based View",
+  "name_en": "Resource-Based View",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy.strategic_analysis",
+  "description": "The theory that sustained advantage arises from valuable, rare, inimitable resources and capabilities.",
+  "name_zh": "资源基础观"
+ },
+ {
+  "id": "HK.business.strategy.business_strategy",
+  "name": "Business-Level Strategy",
+  "name_en": "Business-Level Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "How a firm competes within a particular market through cost leadership, differentiation, or focus.",
+  "name_zh": "业务层战略"
+ },
+ {
+  "id": "HK.business.strategy.corporate_strategy",
+  "name": "Corporate-Level Strategy",
+  "name_en": "Corporate-Level Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "Decisions about what businesses a corporation should be in and how to manage them.",
+  "name_zh": "公司层战略"
+ },
+ {
+  "id": "HK.business.strategy.corporate_strategy.diversification",
+  "name": "Diversification",
+  "name_en": "Diversification",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy.corporate_strategy",
+  "description": "Entering new products or markets, related or unrelated to the current business.",
+  "name_zh": "多元化"
+ },
+ {
+  "id": "HK.business.strategy.corporate_strategy.mergers_and_acquisitions",
+  "name": "Mergers and Acquisitions",
+  "name_en": "Mergers and Acquisitions",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy.corporate_strategy",
+  "description": "Combining or acquiring firms to achieve strategic and financial objectives.",
+  "name_zh": "并购"
+ },
+ {
+  "id": "HK.business.strategy.corporate_strategy.vertical_integration",
+  "name": "Vertical Integration",
+  "name_en": "Vertical Integration",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy.corporate_strategy",
+  "description": "Expanding into upstream suppliers or downstream distribution stages of the value chain.",
+  "name_zh": "纵向一体化"
+ },
+ {
+  "id": "HK.business.strategy.global_strategy",
+  "name": "Global Strategy",
+  "name_en": "Global Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "How firms coordinate strategy across international markets and location choices.",
+  "name_zh": "全球战略"
+ },
+ {
+  "id": "HK.business.strategy.growth_strategy",
+  "name": "Growth Strategy",
+  "name_en": "Growth Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "The set of choices for expanding sales, scope, or scale, organically or inorganically.",
+  "name_zh": "成长战略"
+ },
+ {
+  "id": "HK.business.strategy.business_model",
+  "name": "Business Model",
+  "name_en": "Business Model",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "The logic by which an organization creates, delivers, and captures value.",
+  "name_zh": "商业模式"
+ },
+ {
+  "id": "HK.business.strategy.strategy_implementation",
+  "name": "Strategy Implementation",
+  "name_en": "Strategy Implementation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "Translating strategy into action through structure, systems, and culture.",
+  "name_zh": "战略实施"
+ },
+ {
+  "id": "HK.business.strategy.scenario_planning",
+  "name": "Scenario Planning",
+  "name_en": "Scenario Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "Developing and reasoning about multiple plausible futures to guide strategy under uncertainty.",
+  "name_zh": "情景规划"
+ },
+ {
+  "id": "HK.business.strategy.platform_strategy",
+  "name": "Platform Strategy",
+  "name_en": "Platform Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.strategy",
+  "description": "Strategy for multi-sided platforms that create value by facilitating interactions between groups.",
+  "name_zh": "平台战略"
+ },
+ {
+  "id": "HK.business.entrepreneurship.opportunity_recognition",
+  "name": "Opportunity Recognition",
+  "name_en": "Opportunity Recognition",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "Identifying and evaluating unmet needs and possibilities for new value creation.",
+  "name_zh": "机会识别"
+ },
+ {
+  "id": "HK.business.entrepreneurship.business_planning",
+  "name": "Business Planning",
+  "name_en": "Business Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "Developing the plan that describes a venture's model, market, and financial projections.",
+  "name_zh": "商业计划"
+ },
+ {
+  "id": "HK.business.entrepreneurship.lean_startup",
+  "name": "Lean Startup",
+  "name_en": "Lean Startup",
+  "type": "METHODOLOGY",
+  "parent": "HK.business.entrepreneurship",
+  "description": "A methodology of iterative experimentation, minimum viable products, and validated learning.",
+  "name_zh": "精益创业"
+ },
+ {
+  "id": "HK.business.entrepreneurship.startup_financing",
+  "name": "Startup Financing",
+  "name_en": "Startup Financing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "The sources and structures of funding for new and growing ventures.",
+  "name_zh": "创业融资"
+ },
+ {
+  "id": "HK.business.entrepreneurship.startup_financing.venture_capital",
+  "name": "Venture Capital",
+  "name_en": "Venture Capital",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship.startup_financing",
+  "description": "Equity financing from funds that invest in high-growth, high-risk startups.",
+  "name_zh": "风险投资"
+ },
+ {
+  "id": "HK.business.entrepreneurship.startup_financing.angel_investing",
+  "name": "Angel Investing",
+  "name_en": "Angel Investing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship.startup_financing",
+  "description": "Early-stage equity funding from affluent individuals, often before institutional capital.",
+  "name_zh": "天使投资"
+ },
+ {
+  "id": "HK.business.entrepreneurship.startup_financing.crowdfunding",
+  "name": "Crowdfunding",
+  "name_en": "Crowdfunding",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship.startup_financing",
+  "description": "Raising small amounts of capital from a large number of people, usually online.",
+  "name_zh": "众筹"
+ },
+ {
+  "id": "HK.business.entrepreneurship.startup_financing.bootstrapping",
+  "name": "Bootstrapping",
+  "name_en": "Bootstrapping",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship.startup_financing",
+  "description": "Building a venture using internal cash flow and personal resources rather than outside funding.",
+  "name_zh": "自筹资金"
+ },
+ {
+  "id": "HK.business.entrepreneurship.social_entrepreneurship",
+  "name": "Social Entrepreneurship",
+  "name_en": "Social Entrepreneurship",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "Creating ventures that pursue social or environmental impact through market-based means.",
+  "name_zh": "社会创业"
+ },
+ {
+  "id": "HK.business.entrepreneurship.corporate_entrepreneurship",
+  "name": "Corporate Entrepreneurship",
+  "name_en": "Corporate Entrepreneurship",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "Entrepreneurial activity within established firms.",
+  "name_zh": "公司创业",
+  "aliases": [
+   "Intrapreneurship"
+  ]
+ },
+ {
+  "id": "HK.business.entrepreneurship.small_business_management",
+  "name": "Small Business Management",
+  "name_en": "Small Business Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "The management of independently owned small firms and their distinctive challenges.",
+  "name_zh": "小企业管理"
+ },
+ {
+  "id": "HK.business.entrepreneurship.family_business",
+  "name": "Family Business",
+  "name_en": "Family Business",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "The study of businesses owned and managed across family generations, including succession.",
+  "name_zh": "家族企业"
+ },
+ {
+  "id": "HK.business.entrepreneurship.technology_entrepreneurship",
+  "name": "Technology Entrepreneurship",
+  "name_en": "Technology Entrepreneurship",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "Creating ventures that commercialize technological innovation.",
+  "name_zh": "技术创业"
+ },
+ {
+  "id": "HK.business.entrepreneurship.innovation_ecosystem",
+  "name": "Innovation Ecosystem",
+  "name_en": "Innovation Ecosystem",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.entrepreneurship",
+  "description": "The network of firms, investors, universities, and institutions that support entrepreneurship.",
+  "name_zh": "创新生态系统"
+ },
+ {
+  "id": "HK.business.international_business.foreign_market_entry",
+  "name": "Foreign Market Entry",
+  "name_en": "Foreign Market Entry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.international_business",
+  "description": "The modes and strategies for entering foreign markets, from exporting to wholly owned subsidiaries.",
+  "name_zh": "进入外国市场"
+ },
+ {
+  "id": "HK.business.international_business.multinational_enterprise",
+  "name": "Multinational Enterprise Management",
+  "name_en": "Multinational Enterprise Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.international_business",
+  "description": "Managing firms that operate production and sales across multiple countries.",
+  "name_zh": "跨国企业管理"
+ },
+ {
+  "id": "HK.business.international_business.cross_cultural_management",
+  "name": "Cross-Cultural Management",
+  "name_en": "Cross-Cultural Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.international_business",
+  "description": "Managing and working across national cultures, as in Hofstede's dimensions.",
+  "name_zh": "跨文化管理"
+ },
+ {
+  "id": "HK.business.international_business.export_import_management",
+  "name": "Export and Import Management",
+  "name_en": "Export and Import Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.international_business",
+  "description": "Managing cross-border trade transactions, documentation, and compliance.",
+  "name_zh": "进出口管理"
+ },
+ {
+  "id": "HK.business.international_business.emerging_markets",
+  "name": "Emerging Markets",
+  "name_en": "Emerging Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.international_business",
+  "description": "The study of business opportunities and institutions in developing and transitional economies.",
+  "name_zh": "新兴市场"
+ },
+ {
+  "id": "HK.business.international_business.offshoring_and_outsourcing",
+  "name": "Offshoring and Outsourcing",
+  "name_en": "Offshoring and Outsourcing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.international_business",
+  "description": "Relocating business activities abroad or contracting them to external providers.",
+  "name_zh": "离岸与外包"
+ },
+ {
+  "id": "HK.business.management_information_systems.it_governance",
+  "name": "IT Governance",
+  "name_en": "IT Governance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "The framework for aligning IT with business goals and ensuring accountability for IT decisions.",
+  "name_zh": "IT治理"
+ },
+ {
+  "id": "HK.business.management_information_systems.enterprise_systems",
+  "name": "Enterprise Systems",
+  "name_en": "Enterprise Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "Integrated, organization-wide information systems supporting core business processes.",
+  "name_zh": "企业系统"
+ },
+ {
+  "id": "HK.business.management_information_systems.enterprise_systems.enterprise_resource_planning",
+  "name": "Enterprise Resource Planning",
+  "name_en": "Enterprise Resource Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems.enterprise_systems",
+  "description": "Integrated software systems unifying finance, HR, operations, and supply chain data.",
+  "name_zh": "企业资源计划",
+  "aliases": [
+   "ERP"
+  ]
+ },
+ {
+  "id": "HK.business.management_information_systems.enterprise_systems.customer_relationship_management",
+  "name": "Customer Relationship Management",
+  "name_en": "Customer Relationship Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems.enterprise_systems",
+  "description": "Systems and strategies for managing interactions with current and prospective customers.",
+  "name_zh": "客户关系管理",
+  "aliases": [
+   "CRM"
+  ]
+ },
+ {
+  "id": "HK.business.management_information_systems.business_intelligence",
+  "name": "Business Intelligence",
+  "name_en": "Business Intelligence",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "Technologies and practices for collecting and analyzing business data to support decisions.",
+  "name_zh": "商业智能",
+  "aliases": [
+   "BI"
+  ]
+ },
+ {
+  "id": "HK.business.management_information_systems.business_intelligence.data_warehousing",
+  "name": "Data Warehousing",
+  "name_en": "Data Warehousing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems.business_intelligence",
+  "description": "The design of centralized repositories that integrate data for analysis and reporting.",
+  "name_zh": "数据仓库"
+ },
+ {
+  "id": "HK.business.management_information_systems.decision_support_systems",
+  "name": "Decision Support Systems",
+  "name_en": "Decision Support Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "Computer systems that aid managerial decision making through models and data.",
+  "name_zh": "决策支持系统"
+ },
+ {
+  "id": "HK.business.management_information_systems.e_commerce",
+  "name": "Electronic Commerce",
+  "name_en": "Electronic Commerce",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "The conduct of buying, selling, and transacting over electronic networks.",
+  "name_zh": "电子商务"
+ },
+ {
+  "id": "HK.business.management_information_systems.information_systems_strategy",
+  "name": "Information Systems Strategy",
+  "name_en": "Information Systems Strategy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "The strategic use of information technology to create advantage and enable business strategy.",
+  "name_zh": "信息系统战略"
+ },
+ {
+  "id": "HK.business.management_information_systems.systems_analysis_and_design",
+  "name": "Systems Analysis and Design",
+  "name_en": "Systems Analysis and Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "The structured process of specifying and designing information systems.",
+  "name_zh": "系统分析与设计"
+ },
+ {
+  "id": "HK.business.management_information_systems.business_process_management",
+  "name": "Business Process Management",
+  "name_en": "Business Process Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "The systematic analysis, improvement, and automation of business processes.",
+  "name_zh": "业务流程管理"
+ },
+ {
+  "id": "HK.business.management_information_systems.digital_transformation",
+  "name": "Digital Transformation",
+  "name_en": "Digital Transformation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.management_information_systems",
+  "description": "The organizational reinvention driven by pervasive digital technologies.",
+  "name_zh": "数字化转型"
+ },
+ {
+  "id": "HK.business.business_ethics.corporate_social_responsibility",
+  "name": "Corporate Social Responsibility",
+  "name_en": "Corporate Social Responsibility",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_ethics",
+  "description": "Corporate self-regulation integrating social and environmental concerns into business.",
+  "name_zh": "企业社会责任",
+  "aliases": [
+   "CSR"
+  ]
+ },
+ {
+  "id": "HK.business.business_ethics.stakeholder_theory",
+  "name": "Stakeholder Theory",
+  "name_en": "Stakeholder Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_ethics",
+  "description": "The view that firms should create value for all stakeholders, not only shareholders.",
+  "name_zh": "利益相关者理论"
+ },
+ {
+  "id": "HK.business.business_ethics.sustainability_reporting",
+  "name": "Sustainability Reporting",
+  "name_en": "Sustainability Reporting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_ethics",
+  "description": "The disclosure of environmental, social, and governance performance.",
+  "name_zh": "可持续报告",
+  "aliases": [
+   "ESG Reporting"
+  ]
+ },
+ {
+  "id": "HK.business.business_ethics.business_and_human_rights",
+  "name": "Business and Human Rights",
+  "name_en": "Business and Human Rights",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_ethics",
+  "description": "The responsibilities of business to respect and remedy human rights impacts.",
+  "name_zh": "商业与人权"
+ },
+ {
+  "id": "HK.business.business_ethics.ethical_decision_making",
+  "name": "Ethical Decision Making",
+  "name_en": "Ethical Decision Making",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_ethics",
+  "description": "Frameworks and processes for resolving moral dilemmas in business.",
+  "name_zh": "伦理决策"
+ },
+ {
+  "id": "HK.business.corporate_governance.board_of_directors",
+  "name": "Board of Directors",
+  "name_en": "Board of Directors",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.corporate_governance",
+  "description": "The governing body elected by shareholders to oversee management and strategy.",
+  "name_zh": "董事会"
+ },
+ {
+  "id": "HK.business.corporate_governance.executive_compensation",
+  "name": "Executive Compensation",
+  "name_en": "Executive Compensation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.corporate_governance",
+  "description": "The design and governance of pay and incentives for senior executives.",
+  "name_zh": "高管薪酬"
+ },
+ {
+  "id": "HK.business.corporate_governance.shareholder_activism",
+  "name": "Shareholder Activism",
+  "name_en": "Shareholder Activism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.corporate_governance",
+  "description": "Efforts by shareholders to influence corporate policy, governance, or strategy.",
+  "name_zh": "股东积极主义"
+ },
+ {
+  "id": "HK.business.corporate_governance.audit_committee",
+  "name": "Audit Committee",
+  "name_en": "Audit Committee",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.corporate_governance",
+  "description": "The board committee overseeing financial reporting, internal controls, and external audit.",
+  "name_zh": "审计委员会"
+ },
+ {
+  "id": "HK.business.corporate_governance.agency_theory",
+  "name": "Agency Theory",
+  "name_en": "Agency Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.corporate_governance",
+  "description": "The analysis of conflicts of interest between principals and their agents, especially owners and managers.",
+  "name_zh": "代理理论"
+ },
+ {
+  "id": "HK.business.corporate_governance.enterprise_risk_management",
+  "name": "Enterprise Risk Management",
+  "name_en": "Enterprise Risk Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.corporate_governance",
+  "description": "The holistic, organization-wide approach to identifying and managing risk.",
+  "name_zh": "企业风险管理",
+  "aliases": [
+   "ERM"
+  ]
+ },
+ {
+  "id": "HK.business.corporate_governance.corporate_compliance",
+  "name": "Corporate Compliance",
+  "name_en": "Corporate Compliance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.corporate_governance",
+  "description": "Programs ensuring the firm and its employees follow laws, regulations, and policies.",
+  "name_zh": "企业合规"
+ },
+ {
+  "id": "HK.business.business_analytics.descriptive_analytics",
+  "name": "Descriptive Analytics",
+  "name_en": "Descriptive Analytics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_analytics",
+  "description": "Summarizing historical data to understand what has happened.",
+  "name_zh": "描述性分析"
+ },
+ {
+  "id": "HK.business.business_analytics.predictive_analytics",
+  "name": "Predictive Analytics",
+  "name_en": "Predictive Analytics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_analytics",
+  "description": "Using statistical models to forecast future outcomes and behavior.",
+  "name_zh": "预测性分析"
+ },
+ {
+  "id": "HK.business.business_analytics.prescriptive_analytics",
+  "name": "Prescriptive Analytics",
+  "name_en": "Prescriptive Analytics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_analytics",
+  "description": "Recommending actions and optimizing decisions using models and simulation.",
+  "name_zh": "规范性分析"
+ },
+ {
+  "id": "HK.business.business_analytics.data_visualization",
+  "name": "Data Visualization",
+  "name_en": "Data Visualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_analytics",
+  "description": "Representing data graphically to communicate insights and support decisions.",
+  "name_zh": "数据可视化"
+ },
+ {
+  "id": "HK.business.business_analytics.big_data_analytics",
+  "name": "Big Data Analytics",
+  "name_en": "Big Data Analytics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.business_analytics",
+  "description": "Analyzing very large, fast, and varied datasets that exceed traditional tools.",
+  "name_zh": "大数据分析"
+ },
+ {
+  "id": "HK.business.project_management.project_planning",
+  "name": "Project Planning",
+  "name_en": "Project Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Defining scope, objectives, deliverables, and approach for a project.",
+  "name_zh": "项目计划"
+ },
+ {
+  "id": "HK.business.project_management.project_scheduling",
+  "name": "Project Scheduling",
+  "name_en": "Project Scheduling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Sequencing tasks and allocating time and resources to complete a project on schedule.",
+  "name_zh": "项目进度管理"
+ },
+ {
+  "id": "HK.business.project_management.critical_path_method",
+  "name": "Critical Path Method",
+  "name_en": "Critical Path Method",
+  "type": "METHODOLOGY",
+  "parent": "HK.business.project_management",
+  "description": "A scheduling technique identifying the longest chain of dependent tasks that determines project duration.",
+  "name_zh": "关键路径法",
+  "aliases": [
+   "CPM"
+  ]
+ },
+ {
+  "id": "HK.business.project_management.project_cost_management",
+  "name": "Project Cost Management",
+  "name_en": "Project Cost Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Estimating, budgeting, and controlling project costs.",
+  "name_zh": "项目成本管理"
+ },
+ {
+  "id": "HK.business.project_management.project_risk_management",
+  "name": "Project Risk Management",
+  "name_en": "Project Risk Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Identifying, analyzing, and responding to uncertainties in a project.",
+  "name_zh": "项目风险管理"
+ },
+ {
+  "id": "HK.business.project_management.project_quality_management",
+  "name": "Project Quality Management",
+  "name_en": "Project Quality Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Ensuring a project satisfies the requirements and standards it was undertaken to meet.",
+  "name_zh": "项目质量管理"
+ },
+ {
+  "id": "HK.business.project_management.agile_project_management",
+  "name": "Agile Project Management",
+  "name_en": "Agile Project Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Iterative, adaptive project delivery emphasizing collaboration and responding to change.",
+  "name_zh": "敏捷项目管理"
+ },
+ {
+  "id": "HK.business.project_management.program_management",
+  "name": "Program Management",
+  "name_en": "Program Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Coordinating a group of related projects to achieve shared benefits.",
+  "name_zh": "项目集管理"
+ },
+ {
+  "id": "HK.business.project_management.portfolio_management",
+  "name": "Portfolio Management",
+  "name_en": "Portfolio Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Selecting and prioritizing the set of projects and programs aligned with strategy.",
+  "name_zh": "项目组合管理"
+ },
+ {
+  "id": "HK.business.project_management.project_stakeholder_management",
+  "name": "Project Stakeholder Management",
+  "name_en": "Project Stakeholder Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.project_management",
+  "description": "Identifying and engaging the people and groups who affect or are affected by a project.",
+  "name_zh": "项目干系人管理"
+ },
+ {
+  "id": "HK.business.innovation_management.open_innovation",
+  "name": "Open Innovation",
+  "name_en": "Open Innovation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.innovation_management",
+  "description": "Innovating by using external ideas and paths to market alongside internal ones.",
+  "name_zh": "开放式创新"
+ },
+ {
+  "id": "HK.business.innovation_management.disruptive_innovation",
+  "name": "Disruptive Innovation",
+  "name_en": "Disruptive Innovation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.innovation_management",
+  "description": "Innovation that displaces incumbents by serving overlooked segments with simpler, cheaper offerings.",
+  "name_zh": "颠覆性创新"
+ },
+ {
+  "id": "HK.business.innovation_management.design_thinking",
+  "name": "Design Thinking",
+  "name_en": "Design Thinking",
+  "type": "METHODOLOGY",
+  "parent": "HK.business.innovation_management",
+  "description": "A human-centered methodology for problem solving that emphasizes empathy, ideation, and prototyping.",
+  "name_zh": "设计思维"
+ },
+ {
+  "id": "HK.business.innovation_management.technology_management",
+  "name": "Technology Management",
+  "name_en": "Technology Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.innovation_management",
+  "description": "Managing the development, acquisition, and exploitation of technological capabilities.",
+  "name_zh": "技术管理"
+ },
+ {
+  "id": "HK.business.innovation_management.r_and_d_management",
+  "name": "Research and Development Management",
+  "name_en": "Research and Development Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.innovation_management",
+  "description": "Managing the research and development function that generates new knowledge and products.",
+  "name_zh": "研发管理"
+ },
+ {
+  "id": "HK.business.innovation_management.intellectual_property_management",
+  "name": "Intellectual Property Management",
+  "name_en": "Intellectual Property Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.innovation_management",
+  "description": "Strategically managing patents, trademarks, copyrights, and trade secrets.",
+  "name_zh": "知识产权管理"
+ },
+ {
+  "id": "HK.business.innovation_management.innovation_diffusion",
+  "name": "Diffusion of Innovations",
+  "name_en": "Diffusion of Innovations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.innovation_management",
+  "description": "The study of how, why, and at what rate innovations spread through populations.",
+  "name_zh": "创新扩散"
+ },
+ {
+  "id": "HK.business.innovation_management.new_product_development",
+  "name": "New Product Development",
+  "name_en": "New Product Development",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.innovation_management",
+  "description": "The end-to-end process of bringing a new product from idea to market.",
+  "name_zh": "新产品开发"
+ },
+ {
+  "id": "HK.business.organizational_theory.organizational_design",
+  "name": "Organizational Design",
+  "name_en": "Organizational Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_theory",
+  "description": "The arrangement of structure, roles, and coordination mechanisms in an organization.",
+  "name_zh": "组织设计"
+ },
+ {
+  "id": "HK.business.organizational_theory.organizational_ecology",
+  "name": "Organizational Ecology",
+  "name_en": "Organizational Ecology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_theory",
+  "description": "The study of how populations of organizations emerge, compete, and die.",
+  "name_zh": "组织生态学"
+ },
+ {
+  "id": "HK.business.organizational_theory.institutional_theory",
+  "name": "Institutional Theory",
+  "name_en": "Institutional Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_theory",
+  "description": "The study of how institutions and legitimacy pressures shape organizational structure and behavior.",
+  "name_zh": "制度理论"
+ },
+ {
+  "id": "HK.business.organizational_theory.resource_dependence_theory",
+  "name": "Resource Dependence Theory",
+  "name_en": "Resource Dependence Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_theory",
+  "description": "The theory that organizations act to secure critical resources and reduce dependence on others.",
+  "name_zh": "资源依赖理论"
+ },
+ {
+  "id": "HK.business.organizational_theory.interorganizational_relations",
+  "name": "Interorganizational Relations",
+  "name_en": "Interorganizational Relations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_theory",
+  "description": "The study of alliances, networks, and exchanges among organizations.",
+  "name_zh": "组织间关系"
+ },
+ {
+  "id": "HK.business.organizational_theory.organizational_learning",
+  "name": "Organizational Learning",
+  "name_en": "Organizational Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.business.organizational_theory",
+  "description": "The processes by which organizations create, retain, and transfer knowledge and adapt.",
+  "name_zh": "组织学习"
+ },
+ {
+  "id": "HK.finance.corporate_finance",
+  "name": "Corporate Finance",
+  "name_en": "Corporate Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The financing and investment decisions of corporations to maximize shareholder value.",
+  "name_zh": "公司金融"
+ },
+ {
+  "id": "HK.finance.investments",
+  "name": "Investments",
+  "name_en": "Investments",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The theory and practice of allocating capital to securities and assets to earn returns.",
+  "name_zh": "投资学"
+ },
+ {
+  "id": "HK.finance.capital_markets",
+  "name": "Capital Markets",
+  "name_en": "Capital Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The markets and institutions through which long-term capital is raised and traded.",
+  "name_zh": "资本市场"
+ },
+ {
+  "id": "HK.finance.derivatives",
+  "name": "Derivatives",
+  "name_en": "Derivatives",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "Financial instruments whose value derives from an underlying asset, rate, or index.",
+  "name_zh": "金融衍生品"
+ },
+ {
+  "id": "HK.finance.risk_management",
+  "name": "Risk Management",
+  "name_en": "Risk Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The identification, measurement, and mitigation of financial risks.",
+  "name_zh": "风险管理"
+ },
+ {
+  "id": "HK.finance.quantitative_finance",
+  "name": "Quantitative Finance",
+  "name_en": "Quantitative Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The application of mathematics, statistics, and computing to model and price financial instruments.",
+  "name_zh": "量化金融"
+ },
+ {
+  "id": "HK.finance.behavioral_finance",
+  "name": "Behavioral Finance",
+  "name_en": "Behavioral Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The study of how psychological influences affect financial markets and decisions.",
+  "name_zh": "行为金融学"
+ },
+ {
+  "id": "HK.finance.public_finance",
+  "name": "Public Finance",
+  "name_en": "Public Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The study of government revenue, expenditure, and debt.",
+  "name_zh": "公共财政"
+ },
+ {
+  "id": "HK.finance.banking",
+  "name": "Banking",
+  "name_en": "Banking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The study of financial intermediation and the institutions that take deposits and make loans.",
+  "name_zh": "银行学"
+ },
+ {
+  "id": "HK.finance.insurance",
+  "name": "Insurance",
+  "name_en": "Insurance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The study of risk transfer through pooled premiums and the institutions that provide it.",
+  "name_zh": "保险学"
+ },
+ {
+  "id": "HK.finance.international_finance",
+  "name": "International Finance",
+  "name_en": "International Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The study of financial flows, exchange rates, and markets across national borders.",
+  "name_zh": "国际金融"
+ },
+ {
+  "id": "HK.finance.personal_finance",
+  "name": "Personal Finance",
+  "name_en": "Personal Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The financial planning and management of household income, assets, and liabilities.",
+  "name_zh": "个人理财"
+ },
+ {
+  "id": "HK.finance.financial_regulation",
+  "name": "Financial Regulation",
+  "name_en": "Financial Regulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The rules, agencies, and supervision that govern financial markets and institutions.",
+  "name_zh": "金融监管"
+ },
+ {
+  "id": "HK.finance.financial_economics",
+  "name": "Financial Economics",
+  "name_en": "Financial Economics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The branch of economics studying the allocation of resources under risk and over time.",
+  "name_zh": "金融经济学"
+ },
+ {
+  "id": "HK.finance.fintech",
+  "name": "Financial Technology",
+  "name_en": "Financial Technology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance",
+  "description": "The use of technology to innovate, automate, and transform financial services.",
+  "name_zh": "金融科技",
+  "aliases": [
+   "Fintech"
+  ]
+ },
+ {
+  "id": "HK.finance.corporate_finance.capital_budgeting",
+  "name": "Capital Budgeting",
+  "name_en": "Capital Budgeting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance",
+  "description": "Evaluating and selecting long-term investment projects using techniques like NPV and IRR.",
+  "name_zh": "资本预算"
+ },
+ {
+  "id": "HK.finance.corporate_finance.cost_of_capital",
+  "name": "Cost of Capital",
+  "name_en": "Cost of Capital",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance",
+  "description": "The required return on a firm's capital, estimated via models such as CAPM and WACC.",
+  "name_zh": "资本成本"
+ },
+ {
+  "id": "HK.finance.corporate_finance.capital_structure",
+  "name": "Capital Structure",
+  "name_en": "Capital Structure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance",
+  "description": "The mix of debt and equity a firm uses to finance its operations.",
+  "name_zh": "资本结构"
+ },
+ {
+  "id": "HK.finance.corporate_finance.dividend_policy",
+  "name": "Dividend Policy",
+  "name_en": "Dividend Policy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance",
+  "description": "Decisions about whether and how much of earnings to distribute to shareholders.",
+  "name_zh": "股利政策"
+ },
+ {
+  "id": "HK.finance.corporate_finance.working_capital_management",
+  "name": "Working Capital Management",
+  "name_en": "Working Capital Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance",
+  "description": "Managing short-term assets and liabilities, including cash, receivables, and inventory.",
+  "name_zh": "营运资金管理"
+ },
+ {
+  "id": "HK.finance.corporate_finance.valuation",
+  "name": "Valuation",
+  "name_en": "Valuation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance",
+  "description": "Estimating the economic worth of companies, securities, and projects.",
+  "name_zh": "估值"
+ },
+ {
+  "id": "HK.finance.corporate_finance.valuation.discounted_cash_flow_valuation",
+  "name": "Discounted Cash Flow Valuation",
+  "name_en": "Discounted Cash Flow Valuation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance.valuation",
+  "description": "Valuing assets by discounting expected future cash flows to present value.",
+  "name_zh": "现金流折现估值",
+  "aliases": [
+   "DCF"
+  ]
+ },
+ {
+  "id": "HK.finance.corporate_finance.valuation.relative_valuation",
+  "name": "Relative Valuation",
+  "name_en": "Relative Valuation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance.valuation",
+  "description": "Valuing assets by comparing them to similar assets using multiples like P/E and EV/EBITDA.",
+  "name_zh": "相对估值"
+ },
+ {
+  "id": "HK.finance.corporate_finance.valuation.real_options_valuation",
+  "name": "Real Options Valuation",
+  "name_en": "Real Options Valuation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance.valuation",
+  "description": "Valuing managerial flexibility in investments using option-pricing methods.",
+  "name_zh": "实物期权估值"
+ },
+ {
+  "id": "HK.finance.corporate_finance.financial_planning_and_analysis",
+  "name": "Financial Planning and Analysis",
+  "name_en": "Financial Planning and Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance",
+  "description": "The budgeting, forecasting, and analysis that support corporate financial decisions.",
+  "name_zh": "财务规划与分析",
+  "aliases": [
+   "FP&A"
+  ]
+ },
+ {
+  "id": "HK.finance.corporate_finance.corporate_restructuring",
+  "name": "Corporate Restructuring",
+  "name_en": "Corporate Restructuring",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.corporate_finance",
+  "description": "Reorganizing a firm's capital, assets, or ownership, including mergers, divestitures, and bankruptcy.",
+  "name_zh": "企业重组"
+ },
+ {
+  "id": "HK.finance.investments.portfolio_theory",
+  "name": "Portfolio Theory",
+  "name_en": "Portfolio Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments",
+  "description": "The framework for combining assets to optimize risk and return, founded on Markowitz diversification.",
+  "name_zh": "投资组合理论"
+ },
+ {
+  "id": "HK.finance.investments.asset_allocation",
+  "name": "Asset Allocation",
+  "name_en": "Asset Allocation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments",
+  "description": "Distributing a portfolio across asset classes to balance risk and return.",
+  "name_zh": "资产配置"
+ },
+ {
+  "id": "HK.finance.investments.equity_investing",
+  "name": "Equity Investing",
+  "name_en": "Equity Investing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments",
+  "description": "Investing in common and preferred stocks and analyzing their value.",
+  "name_zh": "股票投资"
+ },
+ {
+  "id": "HK.finance.investments.fixed_income_investing",
+  "name": "Fixed Income Investing",
+  "name_en": "Fixed Income Investing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments",
+  "description": "Investing in bonds and other debt instruments and analyzing their yields and risks.",
+  "name_zh": "固定收益投资"
+ },
+ {
+  "id": "HK.finance.investments.security_analysis",
+  "name": "Security Analysis",
+  "name_en": "Security Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments",
+  "description": "Evaluating individual securities to estimate their intrinsic value.",
+  "name_zh": "证券分析"
+ },
+ {
+  "id": "HK.finance.investments.security_analysis.fundamental_analysis",
+  "name": "Fundamental Analysis",
+  "name_en": "Fundamental Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.security_analysis",
+  "description": "Valuing securities by analyzing financial statements, economics, and competitive position.",
+  "name_zh": "基本面分析"
+ },
+ {
+  "id": "HK.finance.investments.security_analysis.technical_analysis",
+  "name": "Technical Analysis",
+  "name_en": "Technical Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.security_analysis",
+  "description": "Forecasting price movements by studying market statistics, charts, and patterns.",
+  "name_zh": "技术分析"
+ },
+ {
+  "id": "HK.finance.investments.portfolio_management",
+  "name": "Portfolio Management",
+  "name_en": "Portfolio Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments",
+  "description": "Constructing and overseeing investment portfolios to meet objectives.",
+  "name_zh": "投资组合管理"
+ },
+ {
+  "id": "HK.finance.investments.portfolio_management.active_management",
+  "name": "Active Management",
+  "name_en": "Active Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.portfolio_management",
+  "description": "Portfolio management that seeks to outperform benchmarks through security selection and timing.",
+  "name_zh": "主动管理"
+ },
+ {
+  "id": "HK.finance.investments.portfolio_management.passive_investing",
+  "name": "Passive Investing",
+  "name_en": "Passive Investing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.portfolio_management",
+  "description": "Tracking a market index with minimal turnover and low cost.",
+  "name_zh": "被动投资",
+  "aliases": [
+   "Indexing"
+  ]
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments",
+  "name": "Alternative Investments",
+  "name_en": "Alternative Investments",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments",
+  "description": "Investments outside traditional stocks and bonds, including private and illiquid assets.",
+  "name_zh": "另类投资"
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments.private_equity",
+  "name": "Private Equity",
+  "name_en": "Private Equity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.alternative_investments",
+  "description": "Equity investment in unlisted companies through buyouts and growth capital.",
+  "name_zh": "私募股权"
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments.venture_capital",
+  "name": "Venture Capital",
+  "name_en": "Venture Capital",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.alternative_investments",
+  "description": "Equity investment in early-stage, high-growth companies.",
+  "name_zh": "风险投资"
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments.hedge_funds",
+  "name": "Hedge Funds",
+  "name_en": "Hedge Funds",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.alternative_investments",
+  "description": "Lightly regulated pooled funds using diverse and leveraged strategies across markets.",
+  "name_zh": "对冲基金"
+ },
+ {
+  "id": "HK.finance.investments.alternative_investments.real_estate_investment",
+  "name": "Real Estate Investment",
+  "name_en": "Real Estate Investment",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments.alternative_investments",
+  "description": "Investing in property directly or through vehicles such as REITs.",
+  "name_zh": "房地产投资"
+ },
+ {
+  "id": "HK.finance.investments.sustainable_investing",
+  "name": "Sustainable Investing",
+  "name_en": "Sustainable Investing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.investments",
+  "description": "Incorporating environmental, social, and governance criteria into investment decisions.",
+  "name_zh": "可持续投资",
+  "aliases": [
+   "ESG Investing"
+  ]
+ },
+ {
+  "id": "HK.finance.capital_markets.equity_markets",
+  "name": "Equity Markets",
+  "name_en": "Equity Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "Markets for issuing and trading ownership claims in companies.",
+  "name_zh": "股票市场",
+  "aliases": [
+   "Stock Markets"
+  ]
+ },
+ {
+  "id": "HK.finance.capital_markets.bond_markets",
+  "name": "Bond Markets",
+  "name_en": "Bond Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "Markets for issuing and trading debt securities of governments and corporations.",
+  "name_zh": "债券市场"
+ },
+ {
+  "id": "HK.finance.capital_markets.money_markets",
+  "name": "Money Markets",
+  "name_en": "Money Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "Markets for short-term, highly liquid debt instruments under one year.",
+  "name_zh": "货币市场"
+ },
+ {
+  "id": "HK.finance.capital_markets.foreign_exchange_markets",
+  "name": "Foreign Exchange Markets",
+  "name_en": "Foreign Exchange Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "The decentralized global market for trading currencies.",
+  "name_zh": "外汇市场",
+  "aliases": [
+   "Forex"
+  ]
+ },
+ {
+  "id": "HK.finance.capital_markets.commodity_markets",
+  "name": "Commodity Markets",
+  "name_en": "Commodity Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "Markets for trading raw materials, energy, metals, and agricultural products.",
+  "name_zh": "商品市场"
+ },
+ {
+  "id": "HK.finance.capital_markets.market_microstructure",
+  "name": "Market Microstructure",
+  "name_en": "Market Microstructure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "The study of how trading mechanisms, order flow, and liquidity affect price formation.",
+  "name_zh": "市场微观结构"
+ },
+ {
+  "id": "HK.finance.capital_markets.primary_markets",
+  "name": "Primary Markets",
+  "name_en": "Primary Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "The market for newly issued securities, including IPOs and underwriting.",
+  "name_zh": "一级市场"
+ },
+ {
+  "id": "HK.finance.capital_markets.secondary_markets",
+  "name": "Secondary Markets",
+  "name_en": "Secondary Markets",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "The market for trading existing securities among investors.",
+  "name_zh": "二级市场"
+ },
+ {
+  "id": "HK.finance.capital_markets.market_efficiency",
+  "name": "Market Efficiency",
+  "name_en": "Market Efficiency",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.capital_markets",
+  "description": "The degree to which prices reflect all available information, as in the efficient market hypothesis.",
+  "name_zh": "市场有效性",
+  "aliases": [
+   "EMH"
+  ]
+ },
+ {
+  "id": "HK.finance.derivatives.options",
+  "name": "Options",
+  "name_en": "Options",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.derivatives",
+  "description": "Contracts giving the right, but not the obligation, to buy or sell an asset at a set price.",
+  "name_zh": "期权"
+ },
+ {
+  "id": "HK.finance.derivatives.futures",
+  "name": "Futures",
+  "name_en": "Futures",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.derivatives",
+  "description": "Standardized contracts obligating the exchange of an asset at a future date and price.",
+  "name_zh": "期货"
+ },
+ {
+  "id": "HK.finance.derivatives.swaps",
+  "name": "Swaps",
+  "name_en": "Swaps",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.derivatives",
+  "description": "Contracts to exchange cash flows, such as interest or currency payments, over time.",
+  "name_zh": "掉期"
+ },
+ {
+  "id": "HK.finance.derivatives.forwards",
+  "name": "Forwards",
+  "name_en": "Forwards",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.derivatives",
+  "description": "Customized contracts to buy or sell an asset at a future date and agreed price.",
+  "name_zh": "远期"
+ },
+ {
+  "id": "HK.finance.derivatives.credit_derivatives",
+  "name": "Credit Derivatives",
+  "name_en": "Credit Derivatives",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.derivatives",
+  "description": "Instruments that transfer credit risk, such as credit default swaps.",
+  "name_zh": "信用衍生品"
+ },
+ {
+  "id": "HK.finance.derivatives.exotic_derivatives",
+  "name": "Exotic Derivatives",
+  "name_en": "Exotic Derivatives",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.derivatives",
+  "description": "Complex, non-standard derivatives with path-dependent or bespoke payoffs.",
+  "name_zh": "奇异衍生品"
+ },
+ {
+  "id": "HK.finance.risk_management.market_risk",
+  "name": "Market Risk",
+  "name_en": "Market Risk",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.risk_management",
+  "description": "The risk of losses from movements in market prices, rates, and volatilities.",
+  "name_zh": "市场风险"
+ },
+ {
+  "id": "HK.finance.risk_management.credit_risk",
+  "name": "Credit Risk",
+  "name_en": "Credit Risk",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.risk_management",
+  "description": "The risk of loss from a counterparty's failure to meet obligations.",
+  "name_zh": "信用风险"
+ },
+ {
+  "id": "HK.finance.risk_management.operational_risk",
+  "name": "Operational Risk",
+  "name_en": "Operational Risk",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.risk_management",
+  "description": "The risk of loss from failed internal processes, people, systems, or external events.",
+  "name_zh": "操作风险"
+ },
+ {
+  "id": "HK.finance.risk_management.liquidity_risk",
+  "name": "Liquidity Risk",
+  "name_en": "Liquidity Risk",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.risk_management",
+  "description": "The risk that an asset cannot be traded or obligations met without significant loss.",
+  "name_zh": "流动性风险"
+ },
+ {
+  "id": "HK.finance.risk_management.model_risk",
+  "name": "Model Risk",
+  "name_en": "Model Risk",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.risk_management",
+  "description": "The risk of loss from errors or misuse of financial models.",
+  "name_zh": "模型风险"
+ },
+ {
+  "id": "HK.finance.risk_management.value_at_risk",
+  "name": "Value at Risk",
+  "name_en": "Value at Risk",
+  "type": "METHODOLOGY",
+  "parent": "HK.finance.risk_management",
+  "description": "A statistical measure of the maximum expected loss over a horizon at a confidence level.",
+  "name_zh": "风险价值",
+  "aliases": [
+   "VaR"
+  ]
+ },
+ {
+  "id": "HK.finance.risk_management.stress_testing",
+  "name": "Stress Testing",
+  "name_en": "Stress Testing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.risk_management",
+  "description": "Assessing how portfolios and institutions perform under severe but plausible scenarios.",
+  "name_zh": "压力测试"
+ },
+ {
+  "id": "HK.finance.risk_management.credit_scoring",
+  "name": "Credit Scoring",
+  "name_en": "Credit Scoring",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.risk_management",
+  "description": "Quantifying borrower creditworthiness using statistical models.",
+  "name_zh": "信用评分"
+ },
+ {
+  "id": "HK.finance.quantitative_finance.financial_mathematics",
+  "name": "Financial Mathematics",
+  "name_en": "Financial Mathematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.quantitative_finance",
+  "description": "The mathematical modeling of financial markets and instruments.",
+  "name_zh": "金融数学",
+  "aliases": [
+   "Mathematical Finance"
+  ]
+ },
+ {
+  "id": "HK.finance.quantitative_finance.option_pricing_models",
+  "name": "Option Pricing Models",
+  "name_en": "Option Pricing Models",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.quantitative_finance",
+  "description": "Mathematical models for pricing derivatives, including Black-Scholes and binomial trees.",
+  "name_zh": "期权定价模型"
+ },
+ {
+  "id": "HK.finance.quantitative_finance.stochastic_processes_in_finance",
+  "name": "Stochastic Processes in Finance",
+  "name_en": "Stochastic Processes in Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.quantitative_finance",
+  "description": "The use of random processes such as Brownian motion to model asset prices.",
+  "name_zh": "金融随机过程"
+ },
+ {
+  "id": "HK.finance.quantitative_finance.monte_carlo_simulation",
+  "name": "Monte Carlo Simulation",
+  "name_en": "Monte Carlo Simulation",
+  "type": "METHODOLOGY",
+  "parent": "HK.finance.quantitative_finance",
+  "description": "A numerical method using random sampling to price derivatives and estimate risk.",
+  "name_zh": "蒙特卡洛模拟"
+ },
+ {
+  "id": "HK.finance.quantitative_finance.algorithmic_trading",
+  "name": "Algorithmic Trading",
+  "name_en": "Algorithmic Trading",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.quantitative_finance",
+  "description": "Executing orders using computer algorithms based on rules and signals.",
+  "name_zh": "算法交易"
+ },
+ {
+  "id": "HK.finance.quantitative_finance.high_frequency_trading",
+  "name": "High-Frequency Trading",
+  "name_en": "High-Frequency Trading",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.quantitative_finance",
+  "description": "Algorithmic trading at very high speed and volume over extremely short horizons.",
+  "name_zh": "高频交易",
+  "aliases": [
+   "HFT"
+  ]
+ },
+ {
+  "id": "HK.finance.quantitative_finance.machine_learning_in_finance",
+  "name": "Machine Learning in Finance",
+  "name_en": "Machine Learning in Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.quantitative_finance",
+  "description": "Applying machine learning to prediction, pricing, and trading in finance.",
+  "name_zh": "金融机器学习"
+ },
+ {
+  "id": "HK.finance.quantitative_finance.risk_modeling",
+  "name": "Risk Modeling",
+  "name_en": "Risk Modeling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.quantitative_finance",
+  "description": "Building quantitative models to measure and manage financial risk.",
+  "name_zh": "风险建模"
+ },
+ {
+  "id": "HK.finance.behavioral_finance.cognitive_biases",
+  "name": "Cognitive Biases",
+  "name_en": "Cognitive Biases",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.behavioral_finance",
+  "description": "Systematic mental shortcuts and errors that distort financial judgment.",
+  "name_zh": "认知偏差",
+  "examples": [
+   "overconfidence",
+   "anchoring"
+  ]
+ },
+ {
+  "id": "HK.finance.behavioral_finance.prospect_theory",
+  "name": "Prospect Theory",
+  "name_en": "Prospect Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.behavioral_finance",
+  "description": "The theory that people value gains and losses relative to a reference point and are loss-averse.",
+  "name_zh": "前景理论"
+ },
+ {
+  "id": "HK.finance.behavioral_finance.market_anomalies",
+  "name": "Market Anomalies",
+  "name_en": "Market Anomalies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.behavioral_finance",
+  "description": "Empirical price patterns inconsistent with market efficiency, such as momentum and calendar effects.",
+  "name_zh": "市场异象"
+ },
+ {
+  "id": "HK.finance.behavioral_finance.behavioral_portfolio_theory",
+  "name": "Behavioral Portfolio Theory",
+  "name_en": "Behavioral Portfolio Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.behavioral_finance",
+  "description": "Portfolio theory incorporating layered goals and mental accounts rather than a single risk-return tradeoff.",
+  "name_zh": "行为投资组合理论"
+ },
+ {
+  "id": "HK.finance.behavioral_finance.herding_and_bubbles",
+  "name": "Herding and Bubbles",
+  "name_en": "Herding and Bubbles",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.behavioral_finance",
+  "description": "The study of collective imitation and asset price bubbles driven by social influence.",
+  "name_zh": "羊群行为与泡沫"
+ },
+ {
+  "id": "HK.finance.behavioral_finance.behavioral_corporate_finance",
+  "name": "Behavioral Corporate Finance",
+  "name_en": "Behavioral Corporate Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.behavioral_finance",
+  "description": "How manager and investor biases affect corporate financing and investment decisions.",
+  "name_zh": "行为公司金融"
+ },
+ {
+  "id": "HK.finance.public_finance.taxation",
+  "name": "Taxation",
+  "name_en": "Taxation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.public_finance",
+  "description": "The study of taxes, their incidence, and their economic effects.",
+  "name_zh": "税收"
+ },
+ {
+  "id": "HK.finance.public_finance.government_budgeting",
+  "name": "Government Budgeting",
+  "name_en": "Government Budgeting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.public_finance",
+  "description": "The process of planning, enacting, and executing government revenues and expenditures.",
+  "name_zh": "政府预算"
+ },
+ {
+  "id": "HK.finance.public_finance.public_debt_management",
+  "name": "Public Debt Management",
+  "name_en": "Public Debt Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.public_finance",
+  "description": "Managing government borrowing and debt obligations sustainably.",
+  "name_zh": "公共债务管理"
+ },
+ {
+  "id": "HK.finance.public_finance.fiscal_policy",
+  "name": "Fiscal Policy",
+  "name_en": "Fiscal Policy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.public_finance",
+  "description": "The use of government spending and taxation to influence the economy.",
+  "name_zh": "财政政策"
+ },
+ {
+  "id": "HK.finance.public_finance.public_expenditure",
+  "name": "Public Expenditure",
+  "name_en": "Public Expenditure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.public_finance",
+  "description": "The study of government spending, its composition, and its efficiency.",
+  "name_zh": "公共支出"
+ },
+ {
+  "id": "HK.finance.public_finance.municipal_finance",
+  "name": "Municipal Finance",
+  "name_en": "Municipal Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.public_finance",
+  "description": "The financing of local government services and infrastructure.",
+  "name_zh": "市政金融"
+ },
+ {
+  "id": "HK.finance.public_finance.fiscal_federalism",
+  "name": "Fiscal Federalism",
+  "name_en": "Fiscal Federalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.public_finance",
+  "description": "The division of taxing and spending responsibilities across levels of government.",
+  "name_zh": "财政联邦制"
+ },
+ {
+  "id": "HK.finance.banking.commercial_banking",
+  "name": "Commercial Banking",
+  "name_en": "Commercial Banking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.banking",
+  "description": "The deposit-taking and lending business serving businesses and individuals.",
+  "name_zh": "商业银行业务"
+ },
+ {
+  "id": "HK.finance.banking.investment_banking",
+  "name": "Investment Banking",
+  "name_en": "Investment Banking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.banking",
+  "description": "Advisory and underwriting services for securities issuance, mergers, and capital raising.",
+  "name_zh": "投资银行业务"
+ },
+ {
+  "id": "HK.finance.banking.retail_banking",
+  "name": "Retail Banking",
+  "name_en": "Retail Banking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.banking",
+  "description": "Banking services offered directly to individual consumers.",
+  "name_zh": "零售银行业务"
+ },
+ {
+  "id": "HK.finance.banking.central_banking",
+  "name": "Central Banking",
+  "name_en": "Central Banking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.banking",
+  "description": "The study of monetary authority, money supply, and lender-of-last-resort functions.",
+  "name_zh": "中央银行"
+ },
+ {
+  "id": "HK.finance.banking.islamic_banking",
+  "name": "Islamic Banking",
+  "name_en": "Islamic Banking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.banking",
+  "description": "Banking conducted in accordance with Sharia, avoiding interest and sharing risk.",
+  "name_zh": "伊斯兰银行",
+  "global": false
+ },
+ {
+  "id": "HK.finance.banking.shadow_banking",
+  "name": "Shadow Banking",
+  "name_en": "Shadow Banking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.banking",
+  "description": "Credit intermediation outside the regulated banking system, such as money market funds.",
+  "name_zh": "影子银行"
+ },
+ {
+  "id": "HK.finance.insurance.life_insurance",
+  "name": "Life Insurance",
+  "name_en": "Life Insurance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.insurance",
+  "description": "Insurance providing benefits upon death or survival, including annuities.",
+  "name_zh": "人寿保险"
+ },
+ {
+  "id": "HK.finance.insurance.property_casualty_insurance",
+  "name": "Property and Casualty Insurance",
+  "name_en": "Property and Casualty Insurance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.insurance",
+  "description": "Insurance covering damage to property and liability for injuries or losses.",
+  "name_zh": "财产与意外保险"
+ },
+ {
+  "id": "HK.finance.insurance.reinsurance",
+  "name": "Reinsurance",
+  "name_en": "Reinsurance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.insurance",
+  "description": "Insurance purchased by insurers to transfer portions of their risk portfolios.",
+  "name_zh": "再保险"
+ },
+ {
+  "id": "HK.finance.insurance.actuarial_science",
+  "name": "Actuarial Science",
+  "name_en": "Actuarial Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.insurance",
+  "description": "The application of mathematics and statistics to assess risk in insurance and pensions.",
+  "name_zh": "精算学"
+ },
+ {
+  "id": "HK.finance.insurance.takaful",
+  "name": "Takaful",
+  "name_en": "Takaful",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.insurance",
+  "description": "Sharia-compliant cooperative insurance based on mutual contribution.",
+  "name_zh": "伊斯兰保险",
+  "global": false
+ },
+ {
+  "id": "HK.finance.international_finance.exchange_rates",
+  "name": "Exchange Rates",
+  "name_en": "Exchange Rates",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.international_finance",
+  "description": "The determination and behavior of currency prices and exchange rate regimes.",
+  "name_zh": "汇率"
+ },
+ {
+  "id": "HK.finance.international_finance.international_capital_flows",
+  "name": "International Capital Flows",
+  "name_en": "International Capital Flows",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.international_finance",
+  "description": "The movement of capital across borders through investment and lending.",
+  "name_zh": "国际资本流动"
+ },
+ {
+  "id": "HK.finance.international_finance.currency_risk_management",
+  "name": "Currency Risk Management",
+  "name_en": "Currency Risk Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.international_finance",
+  "description": "Hedging and managing exposure to exchange rate movements.",
+  "name_zh": "汇率风险管理"
+ },
+ {
+  "id": "HK.finance.international_finance.sovereign_debt",
+  "name": "Sovereign Debt",
+  "name_en": "Sovereign Debt",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.international_finance",
+  "description": "Borrowing by national governments and the risk of default.",
+  "name_zh": "主权债务"
+ },
+ {
+  "id": "HK.finance.international_finance.international_monetary_system",
+  "name": "International Monetary System",
+  "name_en": "International Monetary System",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.international_finance",
+  "description": "The institutions and arrangements governing exchange rates and international payments.",
+  "name_zh": "国际货币体系"
+ },
+ {
+  "id": "HK.finance.personal_finance.financial_planning",
+  "name": "Financial Planning",
+  "name_en": "Financial Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.personal_finance",
+  "description": "The comprehensive process of setting and achieving personal financial goals.",
+  "name_zh": "财务规划"
+ },
+ {
+  "id": "HK.finance.personal_finance.retirement_planning",
+  "name": "Retirement Planning",
+  "name_en": "Retirement Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.personal_finance",
+  "description": "Saving and investing to provide income after leaving the workforce.",
+  "name_zh": "退休规划"
+ },
+ {
+  "id": "HK.finance.personal_finance.estate_planning",
+  "name": "Estate Planning",
+  "name_en": "Estate Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.personal_finance",
+  "description": "Arranging the transfer of wealth at death and managing associated taxes and documents.",
+  "name_zh": "遗产规划"
+ },
+ {
+  "id": "HK.finance.personal_finance.tax_planning",
+  "name": "Tax Planning",
+  "name_en": "Tax Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.personal_finance",
+  "description": "Arranging finances to legally minimize tax liabilities.",
+  "name_zh": "税务筹划"
+ },
+ {
+  "id": "HK.finance.personal_finance.consumer_credit",
+  "name": "Consumer Credit",
+  "name_en": "Consumer Credit",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.personal_finance",
+  "description": "Household borrowing through credit cards, mortgages, and installment loans.",
+  "name_zh": "消费信贷"
+ },
+ {
+  "id": "HK.finance.financial_regulation.bank_regulation",
+  "name": "Bank Regulation",
+  "name_en": "Bank Regulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_regulation",
+  "description": "The supervision of banks' safety, soundness, and conduct.",
+  "name_zh": "银行监管"
+ },
+ {
+  "id": "HK.finance.financial_regulation.securities_regulation",
+  "name": "Securities Regulation",
+  "name_en": "Securities Regulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_regulation",
+  "description": "Rules governing securities issuance, trading, disclosure, and market integrity.",
+  "name_zh": "证券监管"
+ },
+ {
+  "id": "HK.finance.financial_regulation.insurance_regulation",
+  "name": "Insurance Regulation",
+  "name_en": "Insurance Regulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_regulation",
+  "description": "The oversight of insurers' solvency and consumer protection.",
+  "name_zh": "保险监管"
+ },
+ {
+  "id": "HK.finance.financial_regulation.prudential_regulation",
+  "name": "Prudential Regulation",
+  "name_en": "Prudential Regulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_regulation",
+  "description": "Capital, liquidity, and risk standards such as the Basel accords.",
+  "name_zh": "审慎监管"
+ },
+ {
+  "id": "HK.finance.financial_regulation.anti_money_laundering",
+  "name": "Anti-Money Laundering",
+  "name_en": "Anti-Money Laundering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_regulation",
+  "description": "Laws and controls to detect and prevent the laundering of illicit funds.",
+  "name_zh": "反洗钱",
+  "aliases": [
+   "AML"
+  ]
+ },
+ {
+  "id": "HK.finance.financial_economics.asset_pricing",
+  "name": "Asset Pricing",
+  "name_en": "Asset Pricing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_economics",
+  "description": "The economic theory of how assets are priced, including factor and equilibrium models.",
+  "name_zh": "资产定价"
+ },
+ {
+  "id": "HK.finance.financial_economics.information_asymmetry",
+  "name": "Information Asymmetry",
+  "name_en": "Information Asymmetry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_economics",
+  "description": "The study of markets where parties have unequal information, leading to adverse selection and moral hazard.",
+  "name_zh": "信息不对称"
+ },
+ {
+  "id": "HK.finance.financial_economics.contract_theory",
+  "name": "Contract Theory",
+  "name_en": "Contract Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_economics",
+  "description": "The design of contracts and incentives under asymmetric information.",
+  "name_zh": "契约理论"
+ },
+ {
+  "id": "HK.finance.financial_economics.agency_theory",
+  "name": "Agency Theory",
+  "name_en": "Agency Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.financial_economics",
+  "description": "The analysis of conflicts of interest between principals and agents.",
+  "name_zh": "代理理论"
+ },
+ {
+  "id": "HK.finance.fintech.digital_payments",
+  "name": "Digital Payments",
+  "name_en": "Digital Payments",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.fintech",
+  "description": "Electronic systems for transferring money, including mobile and real-time payments.",
+  "name_zh": "数字支付"
+ },
+ {
+  "id": "HK.finance.fintech.peer_to_peer_lending",
+  "name": "Peer-to-Peer Lending",
+  "name_en": "Peer-to-Peer Lending",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.fintech",
+  "description": "Direct lending between individuals through online platforms without traditional banks.",
+  "name_zh": "P2P借贷",
+  "aliases": [
+   "P2P Lending"
+  ]
+ },
+ {
+  "id": "HK.finance.fintech.robo_advising",
+  "name": "Robo-Advising",
+  "name_en": "Robo-Advising",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.fintech",
+  "description": "Automated, algorithm-driven portfolio management and financial advice.",
+  "name_zh": "智能投顾"
+ },
+ {
+  "id": "HK.finance.fintech.cryptocurrency",
+  "name": "Cryptocurrency",
+  "name_en": "Cryptocurrency",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.fintech",
+  "description": "Digital assets using cryptography and distributed ledgers as mediums of exchange and value.",
+  "name_zh": "加密货币"
+ },
+ {
+  "id": "HK.finance.fintech.regtech",
+  "name": "Regulatory Technology",
+  "name_en": "Regulatory Technology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.fintech",
+  "description": "Technology that automates and improves regulatory compliance.",
+  "name_zh": "监管科技",
+  "aliases": [
+   "RegTech"
+  ]
+ },
+ {
+  "id": "HK.finance.fintech.insurtech",
+  "name": "Insurance Technology",
+  "name_en": "Insurance Technology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.finance.fintech",
+  "description": "Technology-driven innovation in insurance distribution, underwriting, and claims.",
+  "name_zh": "保险科技",
+  "aliases": [
+   "InsurTech"
+  ]
+ },
+ {
+  "id": "HK.accounting.financial_accounting",
+  "name": "Financial Accounting",
+  "name_en": "Financial Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "Recording and reporting a firm's financial transactions for external users.",
+  "name_zh": "财务会计"
+ },
+ {
+  "id": "HK.accounting.financial_accounting.financial_reporting",
+  "name": "Financial Reporting",
+  "name_en": "Financial Reporting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.financial_accounting",
+  "description": "Preparing financial statements in accordance with accounting standards.",
+  "name_zh": "财务报告"
+ },
+ {
+  "id": "HK.accounting.financial_accounting.revenue_recognition",
+  "name": "Revenue Recognition",
+  "name_en": "Revenue Recognition",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.financial_accounting",
+  "description": "Determining when and how much revenue should be recognized in the accounts.",
+  "name_zh": "收入确认"
+ },
+ {
+  "id": "HK.accounting.financial_accounting.asset_accounting",
+  "name": "Asset Accounting",
+  "name_en": "Asset Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.financial_accounting",
+  "description": "Measuring and reporting tangible and intangible assets, including depreciation and impairment.",
+  "name_zh": "资产会计"
+ },
+ {
+  "id": "HK.accounting.financial_accounting.liability_and_equity_accounting",
+  "name": "Liability and Equity Accounting",
+  "name_en": "Liability and Equity Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.financial_accounting",
+  "description": "Accounting for debt, leases, and shareholders' equity.",
+  "name_zh": "负债与权益会计"
+ },
+ {
+  "id": "HK.accounting.financial_accounting.consolidated_financial_statements",
+  "name": "Consolidated Financial Statements",
+  "name_en": "Consolidated Financial Statements",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.financial_accounting",
+  "description": "Combining the financial statements of a parent and its subsidiaries.",
+  "name_zh": "合并财务报表"
+ },
+ {
+  "id": "HK.accounting.financial_accounting.financial_statement_analysis",
+  "name": "Financial Statement Analysis",
+  "name_en": "Financial Statement Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.financial_accounting",
+  "description": "Evaluating a company's performance and position using ratios and other analytical tools.",
+  "name_zh": "财务报表分析"
+ },
+ {
+  "id": "HK.accounting.financial_accounting.earnings_management",
+  "name": "Earnings Management",
+  "name_en": "Earnings Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.financial_accounting",
+  "description": "The use of accounting choices and judgment to influence reported earnings.",
+  "name_zh": "盈余管理"
+ },
+ {
+  "id": "HK.accounting.financial_accounting.international_financial_reporting_standards",
+  "name": "International Financial Reporting Standards",
+  "name_en": "International Financial Reporting Standards",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.financial_accounting",
+  "description": "The global accounting standards issued by the IASB.",
+  "name_zh": "国际财务报告准则",
+  "aliases": [
+   "IFRS"
+  ]
+ },
+ {
+  "id": "HK.accounting.managerial_accounting",
+  "name": "Managerial Accounting",
+  "name_en": "Managerial Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "Accounting information for internal planning, control, and decision making.",
+  "name_zh": "管理会计"
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.cost_accounting",
+  "name": "Cost Accounting",
+  "name_en": "Cost Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting",
+  "description": "Measuring and analyzing the costs of products, services, and activities.",
+  "name_zh": "成本会计"
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.cost_accounting.job_costing",
+  "name": "Job Costing",
+  "name_en": "Job Costing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting.cost_accounting",
+  "description": "Assigning costs to distinct, customized jobs or batches.",
+  "name_zh": "分批成本法"
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.cost_accounting.process_costing",
+  "name": "Process Costing",
+  "name_en": "Process Costing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting.cost_accounting",
+  "description": "Assigning costs to continuous, homogeneous production processes.",
+  "name_zh": "分步成本法"
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.cost_accounting.activity_based_costing",
+  "name": "Activity-Based Costing",
+  "name_en": "Activity-Based Costing",
+  "type": "METHODOLOGY",
+  "parent": "HK.accounting.managerial_accounting.cost_accounting",
+  "description": "Assigning overhead to products based on the activities that drive costs.",
+  "name_zh": "作业成本法",
+  "aliases": [
+   "ABC"
+  ]
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.cost_accounting.standard_costing",
+  "name": "Standard Costing",
+  "name_en": "Standard Costing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting.cost_accounting",
+  "description": "Using predetermined costs as benchmarks for planning and control.",
+  "name_zh": "标准成本法"
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.cost_volume_profit_analysis",
+  "name": "Cost-Volume-Profit Analysis",
+  "name_en": "Cost-Volume-Profit Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting",
+  "description": "Analyzing how costs, volume, and prices affect profit.",
+  "name_zh": "本量利分析",
+  "aliases": [
+   "CVP Analysis"
+  ]
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.budgeting",
+  "name": "Budgeting",
+  "name_en": "Budgeting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting",
+  "description": "Preparing financial plans that allocate resources and set performance targets.",
+  "name_zh": "预算"
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.variance_analysis",
+  "name": "Variance Analysis",
+  "name_en": "Variance Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting",
+  "description": "Comparing actual results to budgets or standards and explaining differences.",
+  "name_zh": "差异分析"
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.performance_measurement",
+  "name": "Performance Measurement",
+  "name_en": "Performance Measurement",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting",
+  "description": "Evaluating unit and manager performance using financial and non-financial metrics.",
+  "name_zh": "业绩评价",
+  "examples": [
+   "Balanced Scorecard"
+  ]
+ },
+ {
+  "id": "HK.accounting.managerial_accounting.strategic_management_accounting",
+  "name": "Strategic Management Accounting",
+  "name_en": "Strategic Management Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.managerial_accounting",
+  "description": "Accounting information oriented to competitive strategy and customer value.",
+  "name_zh": "战略管理会计"
+ },
+ {
+  "id": "HK.accounting.auditing",
+  "name": "Auditing",
+  "name_en": "Auditing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "The independent examination of financial information to express an opinion on its fairness.",
+  "name_zh": "审计学"
+ },
+ {
+  "id": "HK.accounting.auditing.external_audit",
+  "name": "External Audit",
+  "name_en": "External Audit",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.auditing",
+  "description": "The independent audit of financial statements for shareholders and the public.",
+  "name_zh": "外部审计"
+ },
+ {
+  "id": "HK.accounting.auditing.internal_audit",
+  "name": "Internal Audit",
+  "name_en": "Internal Audit",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.auditing",
+  "description": "In-house assurance over risk management, controls, and governance.",
+  "name_zh": "内部审计"
+ },
+ {
+  "id": "HK.accounting.auditing.operational_audit",
+  "name": "Operational Audit",
+  "name_en": "Operational Audit",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.auditing",
+  "description": "Reviewing the efficiency and effectiveness of operations.",
+  "name_zh": "运营审计"
+ },
+ {
+  "id": "HK.accounting.auditing.compliance_audit",
+  "name": "Compliance Audit",
+  "name_en": "Compliance Audit",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.auditing",
+  "description": "Verifying adherence to laws, regulations, and contractual requirements.",
+  "name_zh": "合规审计"
+ },
+ {
+  "id": "HK.accounting.auditing.information_technology_audit",
+  "name": "Information Technology Audit",
+  "name_en": "Information Technology Audit",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.auditing",
+  "description": "Assessing controls and risks in information systems.",
+  "name_zh": "IT审计",
+  "aliases": [
+   "IT Audit"
+  ]
+ },
+ {
+  "id": "HK.accounting.auditing.continuous_auditing",
+  "name": "Continuous Auditing",
+  "name_en": "Continuous Auditing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.auditing",
+  "description": "Automated, near-real-time assurance using embedded analytics.",
+  "name_zh": "持续审计"
+ },
+ {
+  "id": "HK.accounting.taxation",
+  "name": "Taxation",
+  "name_en": "Taxation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "The accounting for and planning of taxes owed to government authorities.",
+  "name_zh": "税务会计"
+ },
+ {
+  "id": "HK.accounting.taxation.corporate_taxation",
+  "name": "Corporate Taxation",
+  "name_en": "Corporate Taxation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.taxation",
+  "description": "Taxation of business profits and the related compliance and planning.",
+  "name_zh": "企业所得税"
+ },
+ {
+  "id": "HK.accounting.taxation.individual_taxation",
+  "name": "Individual Taxation",
+  "name_en": "Individual Taxation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.taxation",
+  "description": "Taxation of personal income, deductions, and credits.",
+  "name_zh": "个人所得税"
+ },
+ {
+  "id": "HK.accounting.taxation.indirect_taxation",
+  "name": "Indirect Taxation",
+  "name_en": "Indirect Taxation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.taxation",
+  "description": "Taxation of transactions through VAT, GST, and sales taxes.",
+  "name_zh": "间接税"
+ },
+ {
+  "id": "HK.accounting.taxation.international_taxation",
+  "name": "International Taxation",
+  "name_en": "International Taxation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.taxation",
+  "description": "Tax rules for cross-border income and double taxation treaties.",
+  "name_zh": "国际税收"
+ },
+ {
+  "id": "HK.accounting.taxation.transfer_pricing",
+  "name": "Transfer Pricing",
+  "name_en": "Transfer Pricing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.taxation",
+  "description": "Pricing transactions between related entities across tax jurisdictions.",
+  "name_zh": "转让定价"
+ },
+ {
+  "id": "HK.accounting.taxation.tax_compliance",
+  "name": "Tax Compliance",
+  "name_en": "Tax Compliance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.taxation",
+  "description": "Meeting tax filing, payment, and reporting obligations accurately and on time.",
+  "name_zh": "税务合规"
+ },
+ {
+  "id": "HK.accounting.forensic_accounting",
+  "name": "Forensic Accounting",
+  "name_en": "Forensic Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "Applying accounting and investigative skills to disputes, fraud, and litigation.",
+  "name_zh": "法务会计"
+ },
+ {
+  "id": "HK.accounting.forensic_accounting.fraud_examination",
+  "name": "Fraud Examination",
+  "name_en": "Fraud Examination",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.forensic_accounting",
+  "description": "Detecting and investigating fraud, embezzlement, and financial misstatement.",
+  "name_zh": "舞弊审查"
+ },
+ {
+  "id": "HK.accounting.forensic_accounting.litigation_support",
+  "name": "Litigation Support",
+  "name_en": "Litigation Support",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.forensic_accounting",
+  "description": "Providing accounting expertise and damages calculations in legal proceedings.",
+  "name_zh": "诉讼支持"
+ },
+ {
+  "id": "HK.accounting.forensic_accounting.asset_tracing",
+  "name": "Asset Tracing",
+  "name_en": "Asset Tracing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.forensic_accounting",
+  "description": "Locating and following the movement of assets, including hidden or diverted funds.",
+  "name_zh": "资产追踪"
+ },
+ {
+  "id": "HK.accounting.forensic_accounting.bankruptcy_accounting",
+  "name": "Bankruptcy Accounting",
+  "name_en": "Bankruptcy Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.forensic_accounting",
+  "description": "Accounting for insolvent entities and the recovery of assets for creditors.",
+  "name_zh": "破产会计"
+ },
+ {
+  "id": "HK.accounting.accounting_information_systems",
+  "name": "Accounting Information Systems",
+  "name_en": "Accounting Information Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "Systems and controls for capturing, processing, and reporting accounting data.",
+  "name_zh": "会计信息系统",
+  "aliases": [
+   "AIS"
+  ]
+ },
+ {
+  "id": "HK.accounting.accounting_information_systems.internal_controls",
+  "name": "Internal Controls",
+  "name_en": "Internal Controls",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.accounting_information_systems",
+  "description": "Policies and procedures safeguarding assets and ensuring reliable reporting.",
+  "name_zh": "内部控制"
+ },
+ {
+  "id": "HK.accounting.accounting_information_systems.xbrl_reporting",
+  "name": "XBRL Reporting",
+  "name_en": "XBRL Reporting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.accounting_information_systems",
+  "description": "Tagging financial data in a machine-readable reporting language.",
+  "name_zh": "XBRL报告"
+ },
+ {
+  "id": "HK.accounting.accounting_information_systems.data_analytics_in_accounting",
+  "name": "Data Analytics in Accounting",
+  "name_en": "Data Analytics in Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.accounting_information_systems",
+  "description": "Using analytics and automation to improve audit, reporting, and decision making.",
+  "name_zh": "会计数据分析"
+ },
+ {
+  "id": "HK.accounting.public_sector_accounting",
+  "name": "Public Sector Accounting",
+  "name_en": "Public Sector Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "Accounting for government and public-sector entities using fund and budgetary concepts.",
+  "name_zh": "政府会计"
+ },
+ {
+  "id": "HK.accounting.public_sector_accounting.fund_accounting",
+  "name": "Fund Accounting",
+  "name_en": "Fund Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.public_sector_accounting",
+  "description": "Accounting that tracks resources segregated by purpose into separate funds.",
+  "name_zh": "基金会计"
+ },
+ {
+  "id": "HK.accounting.public_sector_accounting.budgetary_accounting",
+  "name": "Budgetary Accounting",
+  "name_en": "Budgetary Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.public_sector_accounting",
+  "description": "Accounting that integrates and reports against approved budgets.",
+  "name_zh": "预算会计"
+ },
+ {
+  "id": "HK.accounting.public_sector_accounting.nonprofit_accounting",
+  "name": "Nonprofit Accounting",
+  "name_en": "Nonprofit Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.public_sector_accounting",
+  "description": "Accounting for not-for-profit organizations and their restricted resources.",
+  "name_zh": "非营利会计"
+ },
+ {
+  "id": "HK.accounting.sustainability_accounting",
+  "name": "Sustainability Accounting",
+  "name_en": "Sustainability Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "Measuring and reporting environmental and social performance alongside financial results.",
+  "name_zh": "可持续会计"
+ },
+ {
+  "id": "HK.accounting.sustainability_accounting.environmental_accounting",
+  "name": "Environmental Accounting",
+  "name_en": "Environmental Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.sustainability_accounting",
+  "description": "Accounting for environmental costs, liabilities, and resource use.",
+  "name_zh": "环境会计"
+ },
+ {
+  "id": "HK.accounting.sustainability_accounting.carbon_accounting",
+  "name": "Carbon Accounting",
+  "name_en": "Carbon Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.sustainability_accounting",
+  "description": "Measuring, reporting, and managing greenhouse gas emissions.",
+  "name_zh": "碳会计"
+ },
+ {
+  "id": "HK.accounting.sustainability_accounting.integrated_reporting",
+  "name": "Integrated Reporting",
+  "name_en": "Integrated Reporting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.sustainability_accounting",
+  "description": "Reporting financial and non-financial performance as a connected whole.",
+  "name_zh": "整合报告"
+ },
+ {
+  "id": "HK.accounting.accounting_theory",
+  "name": "Accounting Theory",
+  "name_en": "Accounting Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "The conceptual foundations and principles underlying accounting practice.",
+  "name_zh": "会计理论"
+ },
+ {
+  "id": "HK.accounting.accounting_theory.normative_accounting_theory",
+  "name": "Normative Accounting Theory",
+  "name_en": "Normative Accounting Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.accounting_theory",
+  "description": "Theories prescribing what accounting should measure and report.",
+  "name_zh": "规范会计理论"
+ },
+ {
+  "id": "HK.accounting.accounting_theory.positive_accounting_theory",
+  "name": "Positive Accounting Theory",
+  "name_en": "Positive Accounting Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting.accounting_theory",
+  "description": "Theories explaining and predicting actual accounting choices and behavior.",
+  "name_zh": "实证会计理论"
+ },
+ {
+  "id": "HK.accounting.accounting_history",
+  "name": "Accounting History",
+  "name_en": "Accounting History",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.accounting",
+  "description": "The study of the historical development of accounting thought and practice.",
+  "name_zh": "会计史"
+ },
+ {
+  "id": "HK.journalism.news_reporting",
+  "name": "News Reporting",
+  "name_en": "News Reporting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "Gathering, verifying, and writing news for publication.",
+  "name_zh": "新闻报道"
+ },
+ {
+  "id": "HK.journalism.news_reporting.news_writing",
+  "name": "News Writing",
+  "name_en": "News Writing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.news_reporting",
+  "description": "Crafting accurate, concise, and structured news stories.",
+  "name_zh": "新闻写作"
+ },
+ {
+  "id": "HK.journalism.news_reporting.feature_writing",
+  "name": "Feature Writing",
+  "name_en": "Feature Writing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.news_reporting",
+  "description": "Writing longer narrative and human-interest stories beyond hard news.",
+  "name_zh": "特稿写作"
+ },
+ {
+  "id": "HK.journalism.news_reporting.interviewing",
+  "name": "Interviewing",
+  "name_en": "Interviewing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.news_reporting",
+  "description": "The techniques of eliciting information and quotations from sources.",
+  "name_zh": "采访"
+ },
+ {
+  "id": "HK.journalism.news_reporting.beat_reporting",
+  "name": "Beat Reporting",
+  "name_en": "Beat Reporting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.news_reporting",
+  "description": "Reporting on an assigned topic or institution over time to build expertise.",
+  "name_zh": "条线报道"
+ },
+ {
+  "id": "HK.journalism.news_editing",
+  "name": "News Editing",
+  "name_en": "News Editing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "Reviewing, revising, and preparing stories for publication.",
+  "name_zh": "新闻编辑"
+ },
+ {
+  "id": "HK.journalism.news_editing.copy_editing",
+  "name": "Copy Editing",
+  "name_en": "Copy Editing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.news_editing",
+  "description": "Correcting and polishing copy for grammar, style, accuracy, and clarity.",
+  "name_zh": "文字编辑"
+ },
+ {
+  "id": "HK.journalism.news_editing.headline_writing",
+  "name": "Headline Writing",
+  "name_en": "Headline Writing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.news_editing",
+  "description": "Writing accurate, compelling headlines that summarize stories.",
+  "name_zh": "标题写作"
+ },
+ {
+  "id": "HK.journalism.news_editing.newsroom_management",
+  "name": "Newsroom Management",
+  "name_en": "Newsroom Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.news_editing",
+  "description": "Leading and organizing the editorial operations of a news organization.",
+  "name_zh": "编辑部管理"
+ },
+ {
+  "id": "HK.journalism.investigative_journalism",
+  "name": "Investigative Journalism",
+  "name_en": "Investigative Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "In-depth reporting that uncovers wrongdoing, often through documents and analysis.",
+  "name_zh": "调查报道"
+ },
+ {
+  "id": "HK.journalism.data_journalism",
+  "name": "Data Journalism",
+  "name_en": "Data Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "Journalism that finds and tells stories through the analysis of data.",
+  "name_zh": "数据新闻"
+ },
+ {
+  "id": "HK.journalism.data_journalism.computer_assisted_reporting",
+  "name": "Computer-Assisted Reporting",
+  "name_en": "Computer-Assisted Reporting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.data_journalism",
+  "description": "Using computing and databases to support reporting.",
+  "name_zh": "计算机辅助报道",
+  "aliases": [
+   "CAR"
+  ]
+ },
+ {
+  "id": "HK.journalism.data_journalism.data_visualization_in_journalism",
+  "name": "News Data Visualization",
+  "name_en": "News Data Visualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.data_journalism",
+  "description": "Presenting data graphically to reveal patterns and support stories.",
+  "name_zh": "新闻数据可视化"
+ },
+ {
+  "id": "HK.journalism.broadcast_journalism",
+  "name": "Broadcast Journalism",
+  "name_en": "Broadcast Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "Journalism delivered through television and radio.",
+  "name_zh": "广播电视新闻"
+ },
+ {
+  "id": "HK.journalism.broadcast_journalism.television_journalism",
+  "name": "Television Journalism",
+  "name_en": "Television Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.broadcast_journalism",
+  "description": "News reporting and production for television.",
+  "name_zh": "电视新闻"
+ },
+ {
+  "id": "HK.journalism.broadcast_journalism.radio_journalism",
+  "name": "Radio Journalism",
+  "name_en": "Radio Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.broadcast_journalism",
+  "description": "News reporting and production for radio.",
+  "name_zh": "广播新闻"
+ },
+ {
+  "id": "HK.journalism.digital_journalism",
+  "name": "Digital Journalism",
+  "name_en": "Digital Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "Journalism produced for and distributed through digital platforms.",
+  "name_zh": "数字新闻"
+ },
+ {
+  "id": "HK.journalism.digital_journalism.online_journalism",
+  "name": "Online Journalism",
+  "name_en": "Online Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.digital_journalism",
+  "description": "Journalism native to the web, including hypertext and interactivity.",
+  "name_zh": "网络新闻"
+ },
+ {
+  "id": "HK.journalism.digital_journalism.mobile_journalism",
+  "name": "Mobile Journalism",
+  "name_en": "Mobile Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.digital_journalism",
+  "description": "Reporting, filming, and publishing using mobile devices.",
+  "name_zh": "移动新闻",
+  "aliases": [
+   "MoJo"
+  ]
+ },
+ {
+  "id": "HK.journalism.digital_journalism.social_media_journalism",
+  "name": "Social Media Journalism",
+  "name_en": "Social Media Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.digital_journalism",
+  "description": "Gathering and distributing news through social platforms.",
+  "name_zh": "社交媒体新闻"
+ },
+ {
+  "id": "HK.journalism.digital_journalism.multimedia_journalism",
+  "name": "Multimedia Journalism",
+  "name_en": "Multimedia Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.digital_journalism",
+  "description": "Storytelling that combines text, audio, video, and graphics.",
+  "name_zh": "多媒体新闻"
+ },
+ {
+  "id": "HK.journalism.photojournalism",
+  "name": "Photojournalism",
+  "name_en": "Photojournalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "Telling news stories through still photography.",
+  "name_zh": "新闻摄影"
+ },
+ {
+  "id": "HK.journalism.journalism_ethics",
+  "name": "Journalism Ethics",
+  "name_en": "Journalism Ethics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "The principles of accuracy, fairness, independence, and accountability in journalism.",
+  "name_zh": "新闻伦理"
+ },
+ {
+  "id": "HK.journalism.journalism_ethics.accuracy_and_verification",
+  "name": "Accuracy and Verification",
+  "name_en": "Accuracy and Verification",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_ethics",
+  "description": "The obligation to verify facts and correct errors.",
+  "name_zh": "准确性与核实"
+ },
+ {
+  "id": "HK.journalism.journalism_ethics.source_protection",
+  "name": "Source Protection",
+  "name_en": "Source Protection",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_ethics",
+  "description": "Protecting the confidentiality of sources and handling anonymity.",
+  "name_zh": "消息来源保护"
+ },
+ {
+  "id": "HK.journalism.journalism_ethics.conflict_of_interest",
+  "name": "Conflict of Interest",
+  "name_en": "Conflict of Interest",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_ethics",
+  "description": "Avoiding relationships and interests that compromise journalistic independence.",
+  "name_zh": "利益冲突"
+ },
+ {
+  "id": "HK.journalism.journalism_ethics.fact_checking",
+  "name": "Fact-Checking",
+  "name_en": "Fact-Checking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_ethics",
+  "description": "Systematically verifying the truth of claims, especially in public discourse.",
+  "name_zh": "事实核查"
+ },
+ {
+  "id": "HK.journalism.media_law",
+  "name": "Media Law",
+  "name_en": "Media Law",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "The legal rules governing publication, speech, and journalism.",
+  "name_zh": "媒体法"
+ },
+ {
+  "id": "HK.journalism.media_law.defamation_law",
+  "name": "Defamation Law",
+  "name_en": "Defamation Law",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.media_law",
+  "description": "The law of libel and slander protecting reputation against false statements.",
+  "name_zh": "诽谤法"
+ },
+ {
+  "id": "HK.journalism.media_law.freedom_of_the_press",
+  "name": "Freedom of the Press",
+  "name_en": "Freedom of the Press",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.media_law",
+  "description": "The legal and constitutional protections for independent journalism.",
+  "name_zh": "新闻自由"
+ },
+ {
+  "id": "HK.journalism.media_law.privacy_and_journalism",
+  "name": "Privacy and Journalism",
+  "name_en": "Privacy and Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.media_law",
+  "description": "The balance between the public interest and individuals' privacy rights.",
+  "name_zh": "隐私与新闻"
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat",
+  "name": "Journalism by Beat",
+  "name_en": "Journalism by Beat",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "Journalistic specializations defined by the subject matter they cover.",
+  "name_zh": "新闻领域"
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.political_journalism",
+  "name": "Political Journalism",
+  "name_en": "Political Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting on government, elections, and political affairs.",
+  "name_zh": "政治新闻"
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.business_journalism",
+  "name": "Business Journalism",
+  "name_en": "Business Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting on companies, markets, and the economy.",
+  "name_zh": "财经新闻",
+  "aliases": [
+   "Financial Journalism"
+  ]
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.sports_journalism",
+  "name": "Sports Journalism",
+  "name_en": "Sports Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting on sports, athletes, and competitions.",
+  "name_zh": "体育新闻"
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.science_journalism",
+  "name": "Science Journalism",
+  "name_en": "Science Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting on scientific research and discovery for general audiences.",
+  "name_zh": "科学新闻"
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.health_journalism",
+  "name": "Health Journalism",
+  "name_en": "Health Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting on medicine, health policy, and public health.",
+  "name_zh": "健康新闻"
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.environmental_journalism",
+  "name": "Environmental Journalism",
+  "name_en": "Environmental Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting on the environment, climate, and conservation.",
+  "name_zh": "环境新闻"
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.community_journalism",
+  "name": "Community Journalism",
+  "name_en": "Community Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting focused on a specific local community.",
+  "name_zh": "社区新闻",
+  "aliases": [
+   "Local Journalism"
+  ]
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.international_journalism",
+  "name": "International Journalism",
+  "name_en": "International Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting on foreign affairs and global events.",
+  "name_zh": "国际新闻",
+  "aliases": [
+   "Foreign Correspondence"
+  ]
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.conflict_journalism",
+  "name": "Conflict Journalism",
+  "name_en": "Conflict Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting from war zones and conflicts.",
+  "name_zh": "冲突新闻",
+  "aliases": [
+   "War Reporting"
+  ]
+ },
+ {
+  "id": "HK.journalism.journalism_by_beat.development_journalism",
+  "name": "Development Journalism",
+  "name_en": "Development Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.journalism_by_beat",
+  "description": "Reporting oriented to development goals and social change, rooted in the Global South.",
+  "name_zh": "发展新闻",
+  "global": false
+ },
+ {
+  "id": "HK.journalism.opinion_journalism",
+  "name": "Opinion Journalism",
+  "name_en": "Opinion Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism",
+  "description": "Journalism expressing viewpoints, analysis, and argument distinct from news reporting.",
+  "name_zh": "观点新闻"
+ },
+ {
+  "id": "HK.journalism.opinion_journalism.editorial_writing",
+  "name": "Editorial Writing",
+  "name_en": "Editorial Writing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.opinion_journalism",
+  "description": "Writing the institutional opinion of a publication.",
+  "name_zh": "社论写作"
+ },
+ {
+  "id": "HK.journalism.opinion_journalism.column_writing",
+  "name": "Column Writing",
+  "name_en": "Column Writing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.opinion_journalism",
+  "description": "Writing recurring opinion pieces from a personal perspective.",
+  "name_zh": "专栏写作"
+ },
+ {
+  "id": "HK.journalism.opinion_journalism.criticism",
+  "name": "Criticism",
+  "name_en": "Criticism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.journalism.opinion_journalism",
+  "description": "Reviewing and critiquing the arts, culture, and media.",
+  "name_zh": "评论",
+  "aliases": [
+   "Arts Criticism"
+  ]
+ },
+ {
+  "id": "HK.library_science.cataloging_and_classification",
+  "name": "Cataloging and Classification",
+  "name_en": "Cataloging and Classification",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "Describing and organizing resources so they can be found and grouped.",
+  "name_zh": "编目与分类"
+ },
+ {
+  "id": "HK.library_science.cataloging_and_classification.descriptive_cataloging",
+  "name": "Descriptive Cataloging",
+  "name_en": "Descriptive Cataloging",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.cataloging_and_classification",
+  "description": "Recording the identifying attributes of a resource, such as title, creator, and format.",
+  "name_zh": "描述编目"
+ },
+ {
+  "id": "HK.library_science.cataloging_and_classification.subject_cataloging",
+  "name": "Subject Cataloging",
+  "name_en": "Subject Cataloging",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.cataloging_and_classification",
+  "description": "Assigning subject headings to describe what a resource is about.",
+  "name_zh": "主题编目"
+ },
+ {
+  "id": "HK.library_science.cataloging_and_classification.classification_systems",
+  "name": "Classification Systems",
+  "name_en": "Classification Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.cataloging_and_classification",
+  "description": "Schemes that arrange knowledge by subject, such as Dewey, LCC, and the Chinese Library Classification.",
+  "name_zh": "分类法",
+  "examples": [
+   "Dewey Decimal Classification",
+   "Chinese Library Classification"
+  ]
+ },
+ {
+  "id": "HK.library_science.cataloging_and_classification.authority_control",
+  "name": "Authority Control",
+  "name_en": "Authority Control",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.cataloging_and_classification",
+  "description": "Maintaining consistent forms of names and subjects across a catalog.",
+  "name_zh": "规范控制"
+ },
+ {
+  "id": "HK.library_science.metadata",
+  "name": "Metadata",
+  "name_en": "Metadata",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "Structured information that describes, explains, and locates resources.",
+  "name_zh": "元数据"
+ },
+ {
+  "id": "HK.library_science.metadata.metadata_standards",
+  "name": "Metadata Standards",
+  "name_en": "Metadata Standards",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.metadata",
+  "description": "Shared schemas for describing resources, such as Dublin Core and MARC.",
+  "name_zh": "元数据标准"
+ },
+ {
+  "id": "HK.library_science.information_retrieval",
+  "name": "Information Retrieval",
+  "name_en": "Information Retrieval",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "The techniques and systems for finding information within large collections.",
+  "name_zh": "信息检索"
+ },
+ {
+  "id": "HK.library_science.knowledge_organization",
+  "name": "Knowledge Organization",
+  "name_en": "Knowledge Organization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "Structuring and representing knowledge to support discovery and use.",
+  "name_zh": "知识组织"
+ },
+ {
+  "id": "HK.library_science.knowledge_organization.taxonomies_and_ontologies",
+  "name": "Taxonomies and Ontologies",
+  "name_en": "Taxonomies and Ontologies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.knowledge_organization",
+  "description": "Formal structures of concepts and their relationships for organizing domains.",
+  "name_zh": "分类法与本体"
+ },
+ {
+  "id": "HK.library_science.collection_development",
+  "name": "Collection Development",
+  "name_en": "Collection Development",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "Planning and building a library's collection to meet user needs.",
+  "name_zh": "馆藏发展"
+ },
+ {
+  "id": "HK.library_science.collection_development.acquisitions",
+  "name": "Acquisitions",
+  "name_en": "Acquisitions",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.collection_development",
+  "description": "Selecting, ordering, and receiving materials for the collection.",
+  "name_zh": "采购"
+ },
+ {
+  "id": "HK.library_science.collection_development.collection_management",
+  "name": "Collection Management",
+  "name_en": "Collection Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.collection_development",
+  "description": "Evaluating, preserving, and deselecting materials to maintain collection quality.",
+  "name_zh": "馆藏管理"
+ },
+ {
+  "id": "HK.library_science.reference_services",
+  "name": "Reference Services",
+  "name_en": "Reference Services",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "Assisting users in finding and using information.",
+  "name_zh": "参考咨询"
+ },
+ {
+  "id": "HK.library_science.reference_services.information_literacy_instruction",
+  "name": "Information Literacy Instruction",
+  "name_en": "Information Literacy Instruction",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.reference_services",
+  "description": "Teaching users to locate, evaluate, and use information effectively.",
+  "name_zh": "信息素养教育"
+ },
+ {
+  "id": "HK.library_science.information_literacy",
+  "name": "Information Literacy",
+  "name_en": "Information Literacy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "The ability to find, evaluate, and use information ethically and effectively.",
+  "name_zh": "信息素养"
+ },
+ {
+  "id": "HK.library_science.digital_libraries",
+  "name": "Digital Libraries",
+  "name_en": "Digital Libraries",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "Libraries and collections delivered and managed in digital form.",
+  "name_zh": "数字图书馆"
+ },
+ {
+  "id": "HK.library_science.digital_libraries.digitization",
+  "name": "Digitization",
+  "name_en": "Digitization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.digital_libraries",
+  "description": "Converting physical materials into digital formats for access and preservation.",
+  "name_zh": "数字化"
+ },
+ {
+  "id": "HK.library_science.digital_libraries.institutional_repositories",
+  "name": "Institutional Repositories",
+  "name_en": "Institutional Repositories",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.digital_libraries",
+  "description": "Digital collections of an institution's scholarly and creative output.",
+  "name_zh": "机构知识库"
+ },
+ {
+  "id": "HK.library_science.archival_science",
+  "name": "Archival Science",
+  "name_en": "Archival Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "The theory and practice of appraising, arranging, and preserving records of enduring value.",
+  "name_zh": "档案学"
+ },
+ {
+  "id": "HK.library_science.archival_science.archival_appraisal",
+  "name": "Archival Appraisal",
+  "name_en": "Archival Appraisal",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.archival_science",
+  "description": "Determining which records have enduring value and should be preserved.",
+  "name_zh": "档案鉴定"
+ },
+ {
+  "id": "HK.library_science.archival_science.archival_description",
+  "name": "Archival Description",
+  "name_en": "Archival Description",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.archival_science",
+  "description": "Describing records and their context so they can be discovered and understood.",
+  "name_zh": "档案著录"
+ },
+ {
+  "id": "HK.library_science.archival_science.digital_archives",
+  "name": "Digital Archives",
+  "name_en": "Digital Archives",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.archival_science",
+  "description": "Archives of born-digital and digitized records and their preservation.",
+  "name_zh": "数字档案"
+ },
+ {
+  "id": "HK.library_science.records_management",
+  "name": "Records Management",
+  "name_en": "Records Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "Controlling the creation, use, and disposition of organizational records.",
+  "name_zh": "文件管理"
+ },
+ {
+  "id": "HK.library_science.records_management.electronic_records_management",
+  "name": "Electronic Records Management",
+  "name_en": "Electronic Records Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.records_management",
+  "description": "Managing digital records across their lifecycle, including authenticity and access.",
+  "name_zh": "电子文件管理"
+ },
+ {
+  "id": "HK.library_science.records_management.retention_scheduling",
+  "name": "Retention Scheduling",
+  "name_en": "Retention Scheduling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.records_management",
+  "description": "Determining how long records must be kept before disposal or transfer.",
+  "name_zh": "保管期限"
+ },
+ {
+  "id": "HK.library_science.preservation_and_conservation",
+  "name": "Preservation and Conservation",
+  "name_en": "Preservation and Conservation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "Protecting materials from deterioration and ensuring long-term access.",
+  "name_zh": "文献保护"
+ },
+ {
+  "id": "HK.library_science.preservation_and_conservation.conservation",
+  "name": "Conservation",
+  "name_en": "Conservation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.preservation_and_conservation",
+  "description": "Physical treatment and repair of damaged or fragile materials.",
+  "name_zh": "文献修复"
+ },
+ {
+  "id": "HK.library_science.preservation_and_conservation.digital_preservation",
+  "name": "Digital Preservation",
+  "name_en": "Digital Preservation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.preservation_and_conservation",
+  "description": "Ensuring digital materials remain accessible over time despite technological change.",
+  "name_zh": "数字保存"
+ },
+ {
+  "id": "HK.library_science.bibliometrics",
+  "name": "Bibliometrics and Scientometrics",
+  "name_en": "Bibliometrics and Scientometrics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "The quantitative study of publications, citations, and scholarly impact.",
+  "name_zh": "文献计量学"
+ },
+ {
+  "id": "HK.library_science.bibliometrics.citation_analysis",
+  "name": "Citation Analysis",
+  "name_en": "Citation Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.bibliometrics",
+  "description": "Analyzing citation patterns to map influence and research fronts.",
+  "name_zh": "引文分析"
+ },
+ {
+  "id": "HK.library_science.library_management",
+  "name": "Library Management",
+  "name_en": "Library Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "The administration of libraries, their services, and their staff.",
+  "name_zh": "图书馆管理"
+ },
+ {
+  "id": "HK.library_science.library_management.academic_librarianship",
+  "name": "Academic Librarianship",
+  "name_en": "Academic Librarianship",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.library_management",
+  "description": "Library services supporting teaching and research in higher education.",
+  "name_zh": "高校图书馆"
+ },
+ {
+  "id": "HK.library_science.library_management.public_librarianship",
+  "name": "Public Librarianship",
+  "name_en": "Public Librarianship",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.library_management",
+  "description": "Libraries serving the general public and community needs.",
+  "name_zh": "公共图书馆"
+ },
+ {
+  "id": "HK.library_science.library_management.school_librarianship",
+  "name": "School Librarianship",
+  "name_en": "School Librarianship",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.library_management",
+  "description": "Library services supporting K-12 students and curricula.",
+  "name_zh": "学校图书馆"
+ },
+ {
+  "id": "HK.library_science.library_management.special_librarianship",
+  "name": "Special Librarianship",
+  "name_en": "Special Librarianship",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science.library_management",
+  "description": "Libraries serving specialized organizations such as law firms, hospitals, and corporations.",
+  "name_zh": "专业图书馆"
+ },
+ {
+  "id": "HK.library_science.information_architecture",
+  "name": "Information Architecture",
+  "name_en": "Information Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.library_science",
+  "description": "The structuring and labeling of information environments for findability and usability.",
+  "name_zh": "信息架构"
+ },
+ {
+  "id": "HK.public_administration.public_management",
+  "name": "Public Management",
+  "name_en": "Public Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The management of public organizations and the delivery of public services.",
+  "name_zh": "公共管理"
+ },
+ {
+  "id": "HK.public_administration.public_management.new_public_management",
+  "name": "New Public Management",
+  "name_en": "New Public Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_management",
+  "description": "The reform movement applying market and performance principles to government.",
+  "name_zh": "新公共管理",
+  "aliases": [
+   "NPM"
+  ]
+ },
+ {
+  "id": "HK.public_administration.public_management.public_governance",
+  "name": "Public Governance",
+  "name_en": "Public Governance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_management",
+  "description": "The processes and networks through which public decisions are made and implemented.",
+  "name_zh": "公共治理"
+ },
+ {
+  "id": "HK.public_administration.public_management.public_value_management",
+  "name": "Public Value Management",
+  "name_en": "Public Value Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_management",
+  "description": "Managing government to create value for the public, beyond efficiency and markets.",
+  "name_zh": "公共价值管理"
+ },
+ {
+  "id": "HK.public_administration.public_policy",
+  "name": "Public Policy",
+  "name_en": "Public Policy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The study of what governments do, why, and with what effects.",
+  "name_zh": "公共政策"
+ },
+ {
+  "id": "HK.public_administration.public_policy.policy_formulation",
+  "name": "Policy Formulation",
+  "name_en": "Policy Formulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_policy",
+  "description": "Developing options and decisions to address public problems.",
+  "name_zh": "政策制定"
+ },
+ {
+  "id": "HK.public_administration.public_policy.policy_implementation",
+  "name": "Policy Implementation",
+  "name_en": "Policy Implementation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_policy",
+  "description": "Putting policy decisions into practice through programs and agencies.",
+  "name_zh": "政策执行"
+ },
+ {
+  "id": "HK.public_administration.public_policy.policy_evaluation",
+  "name": "Policy Evaluation",
+  "name_en": "Policy Evaluation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_policy",
+  "description": "Assessing whether policies achieve their goals and at what cost.",
+  "name_zh": "政策评估"
+ },
+ {
+  "id": "HK.public_administration.public_policy_analysis",
+  "name": "Public Policy Analysis",
+  "name_en": "Public Policy Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The systematic analysis of policy problems, alternatives, and outcomes.",
+  "name_zh": "公共政策分析"
+ },
+ {
+  "id": "HK.public_administration.public_policy_analysis.cost_benefit_analysis",
+  "name": "Cost-Benefit Analysis",
+  "name_en": "Cost-Benefit Analysis",
+  "type": "METHODOLOGY",
+  "parent": "HK.public_administration.public_policy_analysis",
+  "description": "Comparing the total costs and benefits of a policy to judge its worth.",
+  "name_zh": "成本效益分析"
+ },
+ {
+  "id": "HK.public_administration.public_policy_analysis.program_evaluation",
+  "name": "Program Evaluation",
+  "name_en": "Program Evaluation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_policy_analysis",
+  "description": "Systematically assessing the design, implementation, and results of public programs.",
+  "name_zh": "项目评估"
+ },
+ {
+  "id": "HK.public_administration.public_budgeting",
+  "name": "Public Budgeting",
+  "name_en": "Public Budgeting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The process of allocating public resources through government budgets.",
+  "name_zh": "公共预算"
+ },
+ {
+  "id": "HK.public_administration.public_budgeting.performance_budgeting",
+  "name": "Performance Budgeting",
+  "name_en": "Performance Budgeting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_budgeting",
+  "description": "Linking budget allocations to results and performance targets.",
+  "name_zh": "绩效预算"
+ },
+ {
+  "id": "HK.public_administration.public_budgeting.public_financial_management",
+  "name": "Public Financial Management",
+  "name_en": "Public Financial Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_budgeting",
+  "description": "Managing public revenue, expenditure, accounting, and audit systems.",
+  "name_zh": "公共财政管理"
+ },
+ {
+  "id": "HK.public_administration.public_personnel",
+  "name": "Public Personnel Administration",
+  "name_en": "Public Personnel Administration",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "Managing the recruitment, development, and conduct of public employees.",
+  "name_zh": "公共人事管理"
+ },
+ {
+  "id": "HK.public_administration.public_personnel.civil_service",
+  "name": "Civil Service",
+  "name_en": "Civil Service",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_personnel",
+  "description": "The permanent, merit-based bureaucracy that serves government.",
+  "name_zh": "公务员制度"
+ },
+ {
+  "id": "HK.public_administration.administrative_law",
+  "name": "Administrative Law",
+  "name_en": "Administrative Law",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The law governing administrative agencies, rulemaking, and judicial review.",
+  "name_zh": "行政法"
+ },
+ {
+  "id": "HK.public_administration.administrative_law.administrative_procedure",
+  "name": "Administrative Procedure",
+  "name_en": "Administrative Procedure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.administrative_law",
+  "description": "The processes agencies must follow in rulemaking and adjudication.",
+  "name_zh": "行政程序"
+ },
+ {
+  "id": "HK.public_administration.administrative_law.public_accountability",
+  "name": "Public Accountability",
+  "name_en": "Public Accountability",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.administrative_law",
+  "description": "Holding public officials and agencies answerable for their actions and results.",
+  "name_zh": "公共问责"
+ },
+ {
+  "id": "HK.public_administration.intergovernmental_relations",
+  "name": "Intergovernmental Relations",
+  "name_en": "Intergovernmental Relations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The fiscal, administrative, and political relationships among levels of government.",
+  "name_zh": "府际关系"
+ },
+ {
+  "id": "HK.public_administration.intergovernmental_relations.local_government",
+  "name": "Local Government",
+  "name_en": "Local Government",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.intergovernmental_relations",
+  "description": "The administration and politics of subnational and municipal governments.",
+  "name_zh": "地方政府"
+ },
+ {
+  "id": "HK.public_administration.comparative_public_administration",
+  "name": "Comparative Public Administration",
+  "name_en": "Comparative Public Administration",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "Comparing administrative systems, cultures, and practices across countries.",
+  "name_zh": "比较公共行政"
+ },
+ {
+  "id": "HK.public_administration.public_sector_ethics",
+  "name": "Public Sector Ethics",
+  "name_en": "Public Sector Ethics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The moral standards and integrity expected of public officials.",
+  "name_zh": "公共部门伦理"
+ },
+ {
+  "id": "HK.public_administration.public_sector_ethics.public_integrity",
+  "name": "Public Integrity",
+  "name_en": "Public Integrity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_sector_ethics",
+  "description": "Maintaining honesty, impartiality, and public trust in office.",
+  "name_zh": "公共诚信"
+ },
+ {
+  "id": "HK.public_administration.public_sector_ethics.anticorruption",
+  "name": "Anti-Corruption",
+  "name_en": "Anti-Corruption",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.public_sector_ethics",
+  "description": "Preventing, detecting, and punishing the abuse of public office for private gain.",
+  "name_zh": "反腐败"
+ },
+ {
+  "id": "HK.public_administration.e_government",
+  "name": "E-Government",
+  "name_en": "E-Government",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The use of digital technology to deliver government services and engage citizens.",
+  "name_zh": "电子政务",
+  "aliases": [
+   "Digital Government"
+  ]
+ },
+ {
+  "id": "HK.public_administration.e_government.open_government_data",
+  "name": "Open Government Data",
+  "name_en": "Open Government Data",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.e_government",
+  "description": "Publishing government data openly for transparency, innovation, and reuse.",
+  "name_zh": "开放政府数据"
+ },
+ {
+  "id": "HK.public_administration.e_government.digital_public_services",
+  "name": "Digital Public Services",
+  "name_en": "Digital Public Services",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.e_government",
+  "description": "Delivering government services through digital channels.",
+  "name_zh": "数字公共服务"
+ },
+ {
+  "id": "HK.public_administration.emergency_management",
+  "name": "Emergency Management",
+  "name_en": "Emergency Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "Preparing for, responding to, and recovering from disasters and emergencies.",
+  "name_zh": "应急管理"
+ },
+ {
+  "id": "HK.public_administration.emergency_management.disaster_management",
+  "name": "Disaster Management",
+  "name_en": "Disaster Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration.emergency_management",
+  "description": "Coordinating prevention, response, and recovery for natural and human-made disasters.",
+  "name_zh": "灾害管理"
+ },
+ {
+  "id": "HK.public_administration.development_administration",
+  "name": "Development Administration",
+  "name_en": "Development Administration",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "Public administration oriented to economic and social development, rooted in postcolonial states.",
+  "name_zh": "发展行政",
+  "global": false
+ },
+ {
+  "id": "HK.public_administration.third_sector_management",
+  "name": "Third Sector Management",
+  "name_en": "Third Sector Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "Managing nonprofit, voluntary, and civil-society organizations.",
+  "name_zh": "第三部门管理"
+ },
+ {
+  "id": "HK.public_administration.public_service_delivery",
+  "name": "Public Service Delivery",
+  "name_en": "Public Service Delivery",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.public_administration",
+  "description": "The study of how public services are produced, delivered, and experienced by citizens.",
+  "name_zh": "公共服务供给"
+ }
+]

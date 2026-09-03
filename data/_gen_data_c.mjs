@@ -365,7 +365,7 @@ const trades = o('Manufacturing and Trades', { s: 'trades', z: '制造与技工'
     o('Printing Press Operator', { d: 'Operates printing presses.' }),
     o('Prepress Technician', { d: 'Prepares digital files for printing.' }),
     o('Bookbinder', { d: 'Binds printed pages into books.' }),
-    o('Screen Printer', { d: 'Prints designs using screen printing.' })
+    o('Screen Printing Operator', { d: 'Prints designs using screen printing.' })
   ),
   o('Textile and Apparel Production', { s: 'textile_apparel', d: 'Occupations making clothing and textiles.' },
     o('Tailor', { z: '裁缝', d: 'Makes and alters garments to fit.' },
@@ -424,7 +424,7 @@ const construction = o('Construction', { s: 'construction', z: '建筑与施工'
     o('Roofer', { d: 'Installs and repairs roofs.' }),
     o('Glazier', { d: 'Installs glass in windows and structures.' }),
     o('Drywall Installer', { d: 'Installs drywall panels and finishes joints.' }),
-    o('Painter', { z: '油漆工', d: 'Applies paint to interior and exterior surfaces.' }),
+    o('House Painter', { z: '油漆工', d: 'Applies paint to interior and exterior surfaces.' }),
     o('Insulation Installer', { d: 'Installs insulation in buildings.' }),
     o('Flooring Installer', { d: 'Installs flooring materials.' },
       o('Tile Setter', { d: 'Installs ceramic and stone tile.' })

@@ -1,0 +1,412 @@
+[
+ {
+  "source": "hist.occult_occupations.alchemist",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "hist.occult_occupations.astrologer",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.astronomy"
+ },
+ {
+  "source": "hist.health_occupations.apothecary",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.pharmacy"
+ },
+ {
+  "source": "hist.health_occupations.barber_surgeon",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "hist.computing_media_occupations.human_computer",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "hist.computing_media_occupations.human_computer",
+  "relation": "RELATED_TO",
+  "target": "HK.mathematics"
+ },
+ {
+  "source": "hist.computing_media_occupations.keypunch_operator",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "hist.computing_media_occupations.tabulating_machine_operator",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "hist.computing_media_occupations.comptometer_operator",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.accounting"
+ },
+ {
+  "source": "hist.occult_occupations.phrenologist",
+  "relation": "RELATED_TO",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe",
+  "relation": "RELATED_TO",
+  "target": "HK.literature"
+ },
+ {
+  "source": "hist.scribal_occupations.illuminator",
+  "relation": "RELATED_TO",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "hist.communication_occupations.telegraph_operator",
+  "relation": "PRECURSOR_OF",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "hist.occult_occupations.haruspex",
+  "relation": "RELATED_TO",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "hist.communication_occupations.semaphore_operator",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "hist.communication_occupations.telegraph_operator"
+ },
+ {
+  "source": "hist.communication_occupations.herald",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "hist.communication_occupations.town_crier"
+ },
+ {
+  "source": "hist.computing_media_occupations.magic_lanternist",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "hist.computing_media_occupations.film_projectionist"
+ },
+ {
+  "source": "hist.computing_media_occupations.human_computer",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "hist.computing_media_occupations.keypunch_operator"
+ },
+ {
+  "source": "hist.communication_occupations.telegraph_operator",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "hist.communication_occupations.wireless_operator"
+ },
+ {
+  "source": "hist.communication_occupations.town_crier",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.communication_occupations.herald"
+ },
+ {
+  "source": "hist.communication_occupations.news_crier",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.communication_occupations.town_crier"
+ },
+ {
+  "source": "hist.communication_occupations.courier",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.communication_occupations.post_rider"
+ },
+ {
+  "source": "hist.communication_occupations.flag_signalman",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.communication_occupations.semaphore_operator"
+ },
+ {
+  "source": "hist.communication_occupations.heliograph_operator",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.communication_occupations.semaphore_operator"
+ },
+ {
+  "source": "hist.scribal_occupations.scrivener",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.scribal_occupations.copyist"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.scribal_occupations.copyist"
+ },
+ {
+  "source": "hist.administrative_occupations.copying_clerk",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.scribal_occupations.copyist"
+ },
+ {
+  "source": "hist.craft_occupations.woodworking.wainwright",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.craft_occupations.woodworking.wheelwright"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.tinker",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.craft_occupations.metalworking.tinsmith"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.whitesmith",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.craft_occupations.metalworking.tinsmith"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.nailer",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.craft_occupations.metalworking.blacksmith"
+ },
+ {
+  "source": "hist.craft_occupations.leatherworking.cordwainer",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.craft_occupations.leatherworking.cobbler"
+ },
+ {
+  "source": "hist.textile_occupations.hatter",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.textile_occupations.milliner"
+ },
+ {
+  "source": "hist.textile_occupations.seamstress",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.textile_occupations.dressmaker"
+ },
+ {
+  "source": "hist.textile_occupations.tailor",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.textile_occupations.dressmaker"
+ },
+ {
+  "source": "hist.textile_occupations.fuller",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.textile_occupations.dyer"
+ },
+ {
+  "source": "hist.transport_occupations.carter",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.transport_occupations.wagoner"
+ },
+ {
+  "source": "hist.transport_occupations.drayman",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.transport_occupations.carter"
+ },
+ {
+  "source": "hist.transport_occupations.muleteer",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.transport_occupations.packhorse_driver"
+ },
+ {
+  "source": "hist.transport_occupations.sedan_bearer",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.transport_occupations.palanquin_bearer"
+ },
+ {
+  "source": "hist.transport_occupations.rickshaw_puller",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.transport_occupations.sedan_bearer"
+ },
+ {
+  "source": "hist.maritime_occupations.bargeman",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.maritime_occupations.lighterman"
+ },
+ {
+  "source": "hist.maritime_occupations.canal_boatman",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.maritime_occupations.bargeman"
+ },
+ {
+  "source": "hist.agricultural_occupations.reaper",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.agricultural_occupations.scythesman"
+ },
+ {
+  "source": "hist.agricultural_occupations.shepherd",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.agricultural_occupations.goatherd"
+ },
+ {
+  "source": "hist.agricultural_occupations.cowherd",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.agricultural_occupations.oxherd"
+ },
+ {
+  "source": "hist.agricultural_occupations.turf_cutter",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.agricultural_occupations.charcoal_burner"
+ },
+ {
+  "source": "hist.health_occupations.leech",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.health_occupations.barber_surgeon"
+ },
+ {
+  "source": "hist.occult_occupations.augur",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.occult_occupations.haruspex"
+ },
+ {
+  "source": "hist.occult_occupations.diviner",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.occult_occupations.oracle"
+ },
+ {
+  "source": "hist.occult_occupations.almanac_maker",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.occult_occupations.astrologer"
+ },
+ {
+  "source": "hist.entertainment_occupations.minstrel",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.entertainment_occupations.jongleur"
+ },
+ {
+  "source": "hist.entertainment_occupations.bard",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.entertainment_occupations.minstrel"
+ },
+ {
+  "source": "hist.entertainment_occupations.troubadour",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.entertainment_occupations.minstrel"
+ },
+ {
+  "source": "hist.lighting_urban_occupations.lamplighter",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.lighting_urban_occupations.link_boy"
+ },
+ {
+  "source": "hist.lighting_urban_occupations.gong_farmer",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.lighting_urban_occupations.night_soil_collector"
+ },
+ {
+  "source": "hist.military_occupations.musketeer",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.military_occupations.arquebusier"
+ },
+ {
+  "source": "hist.military_occupations.knight",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.military_occupations.man_at_arms"
+ },
+ {
+  "source": "hist.administrative_occupations.exciseman",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.administrative_occupations.tax_farmer"
+ },
+ {
+  "source": "hist.industrial_occupations.piecer",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.industrial_occupations.doffer"
+ },
+ {
+  "source": "hist.industrial_occupations.hurrier",
+  "relation": "OVERLAPS_WITH",
+  "target": "hist.industrial_occupations.mine_trapper"
+ },
+ {
+  "source": "hist.communication_occupations.wireless_operator",
+  "relation": "RELATED_TO",
+  "target": "hist.communication_occupations.telegraph_operator"
+ },
+ {
+  "source": "hist.communication_occupations.telegraph_operator.morse_operator",
+  "relation": "RELATED_TO",
+  "target": "hist.communication_occupations.telegraph_operator.cable_operator"
+ },
+ {
+  "source": "hist.scribal_occupations.scribe.manuscript_scribe",
+  "relation": "RELATED_TO",
+  "target": "hist.scribal_occupations.illuminator"
+ },
+ {
+  "source": "hist.printing_occupations.typesetter",
+  "relation": "RELATED_TO",
+  "target": "hist.scribal_occupations.copyist"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.swordsmith",
+  "relation": "RELATED_TO",
+  "target": "hist.craft_occupations.metalworking.armourer"
+ },
+ {
+  "source": "hist.craft_occupations.metalworking.clockmaker",
+  "relation": "RELATED_TO",
+  "target": "hist.craft_occupations.metalworking.watchmaker"
+ },
+ {
+  "source": "hist.craft_occupations.woodworking.bowyer",
+  "relation": "RELATED_TO",
+  "target": "hist.craft_occupations.woodworking.fletcher"
+ },
+ {
+  "source": "hist.maritime_occupations.ship_cooper",
+  "relation": "RELATED_TO",
+  "target": "hist.craft_occupations.woodworking.cooper"
+ },
+ {
+  "source": "hist.maritime_occupations.sailmaker",
+  "relation": "RELATED_TO",
+  "target": "hist.textile_occupations.weaver"
+ },
+ {
+  "source": "hist.food_provisioning_occupations.ice_cutter",
+  "relation": "RELATED_TO",
+  "target": "hist.food_provisioning_occupations.iceman"
+ },
+ {
+  "source": "hist.food_provisioning_occupations.milkmaid",
+  "relation": "RELATED_TO",
+  "target": "hist.food_provisioning_occupations.dairymaid"
+ },
+ {
+  "source": "hist.entertainment_occupations.court_musician",
+  "relation": "RELATED_TO",
+  "target": "hist.entertainment_occupations.minstrel"
+ },
+ {
+  "source": "hist.entertainment_occupations.gladiator",
+  "relation": "RELATED_TO",
+  "target": "hist.entertainment_occupations.charioteer"
+ },
+ {
+  "source": "hist.lighting_urban_occupations.night_watchman",
+  "relation": "RELATED_TO",
+  "target": "hist.lighting_urban_occupations.lamplighter"
+ },
+ {
+  "source": "hist.lighting_urban_occupations.chimney_sweep",
+  "relation": "RELATED_TO",
+  "target": "hist.lighting_urban_occupations.rat_catcher"
+ },
+ {
+  "source": "hist.military_occupations.cannon_founder",
+  "relation": "RELATED_TO",
+  "target": "hist.craft_occupations.metalworking.bell_founder"
+ },
+ {
+  "source": "hist.military_occupations.cuirassier",
+  "relation": "RELATED_TO",
+  "target": "hist.military_occupations.cataphract"
+ },
+ {
+  "source": "hist.computing_media_occupations.darkroom_technician",
+  "relation": "RELATED_TO",
+  "target": "hist.computing_media_occupations.film_projectionist"
+ },
+ {
+  "source": "hist.computing_media_occupations.tabulating_machine_operator",
+  "relation": "RELATED_TO",
+  "target": "hist.computing_media_occupations.keypunch_operator"
+ },
+ {
+  "source": "hist.industrial_occupations.mule_spinner",
+  "relation": "RELATED_TO",
+  "target": "hist.textile_occupations.spinner"
+ },
+ {
+  "source": "hist.industrial_occupations.power_loom_weaver",
+  "relation": "RELATED_TO",
+  "target": "hist.textile_occupations.weaver"
+ }
+]

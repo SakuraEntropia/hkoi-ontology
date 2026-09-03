@@ -1,0 +1,2931 @@
+[
+ {
+  "id": "hist.communication_occupations",
+  "name": "Communication & Information Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations centred on transmitting, announcing and delivering information before electronic media.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.telegraph_operator",
+  "name": "Telegraph Operator",
+  "name_zh": "电报员",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Operated an electrical telegraph, sending and receiving Morse-coded messages over land lines.",
+  "aliases": [
+   "telegraphist",
+   "Morse operator"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.telegraph_operator.morse_operator",
+  "name": "Morse Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations.telegraph_operator",
+  "description": "Specialized in sending and receiving International Morse code at commercial speed.",
+  "aliases": [
+   "Morse telegraphist"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.telegraph_operator.cable_operator",
+  "name": "Submarine Cable Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations.telegraph_operator",
+  "description": "Worked the sensitive galvanometer instruments of an overseas telegraph cable station.",
+  "aliases": [
+   "cable telegraphist"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.switchboard_operator",
+  "name": "Switchboard Operator",
+  "name_zh": "接线员",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Manually connected telephone calls by plugging cords into a switchboard jack field.",
+  "aliases": [
+   "telephone operator",
+   "PBX operator"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.town_crier",
+  "name": "Town Crier",
+  "name_zh": "街头公告人",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.communication_occupations",
+  "description": "Publicly announced proclamations, news and court orders by ringing a bell and crying in the street.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.herald",
+  "name": "Herald",
+  "name_zh": "传令官",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.communication_occupations",
+  "description": "Delivered royal and noble proclamations and oversaw ceremonial and armorial affairs.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.courier",
+  "name": "Courier",
+  "name_zh": "信使",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Carried dispatches and letters over long distances on foot or horseback before regular postal service.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.post_rider",
+  "name": "Post Rider",
+  "name_zh": "驿骑",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Rode a fixed relay route carrying official mail, changing horses at posting stations.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.semaphore_operator",
+  "name": "Semaphore Operator",
+  "name_zh": "信号塔操作员",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Transmitted messages by positioning the arms of a semaphore tower or flag.",
+  "aliases": [
+   "telegraph semaphorist"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.heliograph_operator",
+  "name": "Heliograph Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Signalled with flashes of reflected sunlight using a heliograph mirror.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.flag_signalman",
+  "name": "Flag Signalman",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Conveyed tactical and railway messages using hand-held signal flags.",
+  "aliases": [
+   "wigwag signaller"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.news_crier",
+  "name": "News Crier",
+  "name_zh": "叫卖报人",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Shouted headlines and hawked newspapers or broadsides in the street.",
+  "aliases": [
+   "newspaper crier",
+   "newsboy crier"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.carrier_pigeon_keeper",
+  "name": "Carrier Pigeon Keeper",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Bred, trained and dispatched homing pigeons for message delivery.",
+  "aliases": [
+   "pigeon post keeper"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.telegram_messenger",
+  "name": "Telegram Messenger",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Delivered telegrams on foot or bicycle from the telegraph office to recipients.",
+  "aliases": [
+   "telegraph delivery boy"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.wireless_operator",
+  "name": "Wireless Operator",
+  "name_zh": "无线电操作员",
+  "type": "OCCUPATION",
+  "parent": "hist.communication_occupations",
+  "description": "Operated early spark-gap radio equipment to send and receive Morse by electromagnetic waves.",
+  "aliases": [
+   "radio telegraphist",
+   "spark operator"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.communication_occupations.lector",
+  "name": "Lector",
+  "name_zh": "朗读者",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.communication_occupations",
+  "description": "Read aloud newspapers, literature and political texts to workers while they laboured, notably in cigar factories.",
+  "aliases": [
+   "factory reader"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations",
+  "name": "Scribal & Documentary Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of writing, copying and decorating documents by hand.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.scribe",
+  "name": "Scribe",
+  "name_zh": "书吏",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations",
+  "description": "Wrote and copied documents by hand as a professional penman.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.scribe.manuscript_scribe",
+  "name": "Manuscript Scribe",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations.scribe",
+  "description": "Copied literary and religious manuscripts by hand in a scriptorium.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.scribe.legal_scribe",
+  "name": "Legal Scribe",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations.scribe",
+  "description": "Drafted deeds, contracts and legal instruments by hand.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.scribe.temple_scribe",
+  "name": "Temple Scribe",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations.scribe",
+  "description": "Kept temple records and sacred texts in ancient Egypt and Mesopotamia.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.scribe.court_scribe",
+  "name": "Court Scribe",
+  "name_zh": "书办",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations.scribe",
+  "description": "Recorded decrees and archives for an imperial or royal court.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.illuminator",
+  "name": "Illuminator",
+  "name_zh": "彩饰画师",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations",
+  "description": "Decorated manuscripts with gold leaf, pigments and painted initials.",
+  "aliases": [
+   "manuscript illuminator"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.illuminator.miniaturist",
+  "name": "Miniaturist",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations.illuminator",
+  "description": "Painted small detailed illustrations and portraits within manuscripts.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.illuminator.rubricator",
+  "name": "Rubricator",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations.illuminator",
+  "description": "Drew red initials, headings and rubrics to structure a manuscript page.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.copyist",
+  "name": "Copyist",
+  "name_zh": "抄写员",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations",
+  "description": "Reproduced texts and music by hand for distribution.",
+  "aliases": [
+   "amanuensis"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.scrivener",
+  "name": "Scrivener",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations",
+  "description": "A professional copyist of legal and business documents.",
+  "aliases": [
+   "scriptor"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.calligrapher",
+  "name": "Court Calligrapher",
+  "name_zh": "宫廷书家",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations",
+  "description": "Produced official and artistic brush or pen writing for court documents.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.shorthand_writer",
+  "name": "Shorthand Writer",
+  "name_zh": "速记员",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations",
+  "description": "Recorded speech in abbreviated script for courts and parliaments.",
+  "aliases": [
+   "stenographer",
+   "tachygraph"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.scribal_occupations.public_letter_writer",
+  "name": "Public Letter Writer",
+  "name_zh": "代书人",
+  "type": "OCCUPATION",
+  "parent": "hist.scribal_occupations",
+  "description": "Composed and wrote letters for illiterate customers at a street stall.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.printing_occupations",
+  "name": "Printing & Typesetting Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of composing, printing and binding text and images by hand.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.typesetter",
+  "name": "Typesetter",
+  "name_zh": "排字工",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations",
+  "description": "Composed movable type by hand for letterpress printing.",
+  "aliases": [
+   "compositor"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.typesetter.hand_compositor",
+  "name": "Hand Compositor",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations.typesetter",
+  "description": "Set individual type characters by hand into a composing stick.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.typesetter.linotype_operator",
+  "name": "Linotype Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations.typesetter",
+  "description": "Cast whole lines of type on a hot-metal Linotype machine.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.typesetter.monotype_operator",
+  "name": "Monotype Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations.typesetter",
+  "description": "Cast individual characters on a keyboard-driven Monotype caster.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.printer",
+  "name": "Hand Press Printer",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations",
+  "description": "Inked type and pulled impressions on a hand-operated printing press.",
+  "aliases": [
+   "letterpress printer",
+   "pressman"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.woodcut_carver",
+  "name": "Woodcut Carver",
+  "name_zh": "木刻工",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations",
+  "description": "Cut relief images into wood blocks for printing illustrations.",
+  "aliases": [
+   "block cutter",
+   "xylographer"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.copperplate_engraver",
+  "name": "Copperplate Engraver",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations",
+  "description": "Incised images into copper plates for intaglio printing.",
+  "aliases": [
+   "intaglio engraver"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.lithographer",
+  "name": "Lithographer",
+  "name_zh": "石版印刷工",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations",
+  "description": "Drew and printed images from prepared limestone using lithography.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.electrotyper",
+  "name": "Electrotyper",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations",
+  "description": "Deposited copper onto wax moulds by electrolysis to make durable plates.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.printing_occupations.hand_bookbinder",
+  "name": "Hand Bookbinder",
+  "name_zh": "装订工",
+  "type": "OCCUPATION",
+  "parent": "hist.printing_occupations",
+  "description": "Sewed, glued and bound printed sheets into books by hand.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations",
+  "name": "Craft & Manufacture Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Pre-industrial handicraft occupations grouped by material and trade.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking",
+  "name": "Woodworking Occupations",
+  "type": "INDUSTRY",
+  "parent": "hist.craft_occupations",
+  "description": "Handicrafts of shaping, joining and turning wood.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.cooper",
+  "name": "Cooper",
+  "name_zh": "箍桶匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking",
+  "description": "Made and repaired wooden barrels, casks and buckets.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.cooper.tight_cooper",
+  "name": "Tight Cooper",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking.cooper",
+  "description": "Made liquid-tight barrels for wine, beer and other wet goods.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.cooper.dry_cooper",
+  "name": "Dry Cooper",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking.cooper",
+  "description": "Made barrels for dry goods such as flour and tobacco.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.cooper.white_cooper",
+  "name": "White Cooper",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking.cooper",
+  "description": "Made straight-sided household vessels such as pails and churns.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.wheelwright",
+  "name": "Wheelwright",
+  "name_zh": "车轮匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking",
+  "description": "Built and repaired wooden spoked wheels for carts and wagons.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.wainwright",
+  "name": "Wainwright",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking",
+  "description": "Constructed horse-drawn wagons and carts.",
+  "aliases": [
+   "cartwright"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.sawyer",
+  "name": "Pit Sawyer",
+  "name_zh": "锯木工",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking",
+  "description": "Cut logs into boards by hand using a two-man pit saw.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.clog_maker",
+  "name": "Clog Maker",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking",
+  "description": "Carved wooden-soled footwear.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.broom_squire",
+  "name": "Broom Squire",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking",
+  "description": "Made brooms and besoms from birch twigs and heather.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.fletcher",
+  "name": "Fletcher",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking",
+  "description": "Made and fletched arrows with feathers.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.woodworking.bowyer",
+  "name": "Bowyer",
+  "name_zh": "弓匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.woodworking",
+  "description": "Crafted longbows and other wooden bows.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking",
+  "name": "Metalworking Occupations",
+  "type": "INDUSTRY",
+  "parent": "hist.craft_occupations",
+  "description": "Handicrafts of forging, casting and finishing metal.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.blacksmith",
+  "name": "Blacksmith",
+  "name_zh": "铁匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Forged and shaped iron and steel by heating and hammering.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.farrier",
+  "name": "Farrier",
+  "name_zh": "钉蹄匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Shod horses and treated their hooves.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.whitesmith",
+  "name": "Whitesmith",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Finished and polished tin and light metalwork, often tinning surfaces.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.tinsmith",
+  "name": "Tinsmith",
+  "name_zh": "白铁匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Fabricated household wares from tinplate.",
+  "aliases": [
+   "tinner"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.tinker",
+  "name": "Tinker",
+  "name_zh": "补锅匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "An itinerant mender of metal pots and pans.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.coppersmith",
+  "name": "Coppersmith",
+  "name_zh": "铜匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Raised and soldered copper vessels and pipes.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.pewterer",
+  "name": "Pewterer",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Cast and finished pewter tableware.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.bell_founder",
+  "name": "Bell Founder",
+  "name_zh": "铸钟匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Cast church and town bells in bronze.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.nailer",
+  "name": "Nailer",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Forged nails by hand at a hearth, often as domestic outwork.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.swordsmith",
+  "name": "Swordsmith",
+  "name_zh": "刀剑匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Forged, tempered and polished swords.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.swordsmith.katana_smith",
+  "name": "Katana Smith",
+  "name_zh": "刀匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking.swordsmith",
+  "description": "Forged and folded Japanese katana blades.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.armourer",
+  "name": "Armourer",
+  "name_zh": "铠甲匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Forged and fitted plate and mail armour.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.gunsmith",
+  "name": "Gunsmith",
+  "name_zh": "枪匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Bored, rifled and stocked early firearms.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.clockmaker",
+  "name": "Clockmaker",
+  "name_zh": "钟表匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Hand-made and repaired mechanical clocks.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.metalworking.watchmaker",
+  "name": "Watchmaker",
+  "name_zh": "制表匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.metalworking",
+  "description": "Assembled and regulated pocket watches by hand.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.leatherworking",
+  "name": "Leatherworking Occupations",
+  "type": "INDUSTRY",
+  "parent": "hist.craft_occupations",
+  "description": "Handicrafts of tanning, dressing and sewing leather.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.leatherworking.tanner",
+  "name": "Tanner",
+  "name_zh": "鞣皮匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.leatherworking",
+  "description": "Converted raw hides into leather using tannins.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.leatherworking.currier",
+  "name": "Currier",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.leatherworking",
+  "description": "Dressed, softened and finished tanned leather.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.leatherworking.cordwainer",
+  "name": "Cordwainer",
+  "name_zh": "皮鞋匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.leatherworking",
+  "description": "Made fine leather shoes from new leather.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.leatherworking.cobbler",
+  "name": "Cobbler",
+  "name_zh": "补鞋匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.leatherworking",
+  "description": "Repaired worn shoes.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.leatherworking.saddler",
+  "name": "Saddler",
+  "name_zh": "鞍具匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.leatherworking",
+  "description": "Made and repaired saddles and horse harness.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.leatherworking.furrier",
+  "name": "Furrier",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.leatherworking",
+  "description": "Dressed and sewed furs into garments.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.leatherworking.parchmenter",
+  "name": "Parchmenter",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.leatherworking",
+  "description": "Prepared animal skins into writing parchment and vellum.",
+  "aliases": [
+   "parchment maker"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.stone_glass_clay",
+  "name": "Stone, Glass & Ceramic Occupations",
+  "type": "INDUSTRY",
+  "parent": "hist.craft_occupations",
+  "description": "Handicrafts of working stone, glass and fired clay.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.stone_glass_clay.stone_mason",
+  "name": "Stone Mason",
+  "name_zh": "石匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.stone_glass_clay",
+  "description": "Cut, dressed and set stone for buildings.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.stone_glass_clay.stone_carver",
+  "name": "Stone Carver",
+  "name_zh": "石刻匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.stone_glass_clay",
+  "description": "Carved decorative and monumental stonework.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.stone_glass_clay.glassblower",
+  "name": "Glassblower",
+  "name_zh": "吹玻璃匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.stone_glass_clay",
+  "description": "Blew and shaped molten glass into vessels.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.stone_glass_clay.potter",
+  "name": "Potter",
+  "name_zh": "陶匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.stone_glass_clay",
+  "description": "Threw and fired clay vessels on a wheel.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.stone_glass_clay.brickmaker",
+  "name": "Brickmaker",
+  "name_zh": "砖瓦匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.stone_glass_clay",
+  "description": "Moulded and fired clay bricks.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.stone_glass_clay.lime_burner",
+  "name": "Lime Burner",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.stone_glass_clay",
+  "description": "Calcined limestone in kilns to produce quicklime.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.stone_glass_clay.flintknapper",
+  "name": "Flint Knapper",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.stone_glass_clay",
+  "description": "Struck flint to make gun flints and cutting tools.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.fiber_paper",
+  "name": "Fiber, Paper & Basketry Occupations",
+  "type": "INDUSTRY",
+  "parent": "hist.craft_occupations",
+  "description": "Handicrafts of weaving fiber, forming paper and making small wares.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.fiber_paper.hand_papermaker",
+  "name": "Hand Papermaker",
+  "name_zh": "抄纸匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.fiber_paper",
+  "description": "Formed sheets of paper from rag pulp on a mould and deckle.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.fiber_paper.basket_maker",
+  "name": "Basket Maker",
+  "name_zh": "编篮匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.fiber_paper",
+  "description": "Wove willow, rush or cane into baskets.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.fiber_paper.rope_maker",
+  "name": "Ropemaker",
+  "name_zh": "制绳匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.fiber_paper",
+  "description": "Laid and twisted hemp into rope on a ropewalk.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.fiber_paper.thatcher",
+  "name": "Thatcher",
+  "name_zh": "茅草匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.fiber_paper",
+  "description": "Thatched roofs with straw, reed or rushes.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.chandlery",
+  "name": "Chandlery & Soap Occupations",
+  "type": "INDUSTRY",
+  "parent": "hist.craft_occupations",
+  "description": "Handicrafts of making candles, soap and lighting fats.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.chandlery.candle_maker",
+  "name": "Candle Maker",
+  "name_zh": "制烛匠",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.chandlery",
+  "description": "Dipped and moulded candles for lighting.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.chandlery.candle_maker.tallow_chandler",
+  "name": "Tallow Chandler",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.chandlery.candle_maker",
+  "description": "Rendered animal fat into tallow candles and soap.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.chandlery.candle_maker.wax_chandler",
+  "name": "Wax Chandler",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.chandlery.candle_maker",
+  "description": "Made beeswax and spermaceti candles.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.chandlery.candle_maker.rushlight_maker",
+  "name": "Rushlight Maker",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.chandlery.candle_maker",
+  "description": "Dipped peeled rushes in fat to make cheap rushlights.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.craft_occupations.chandlery.soap_boiler",
+  "name": "Soap Boiler",
+  "type": "OCCUPATION",
+  "parent": "hist.craft_occupations.chandlery",
+  "description": "Boiled fats and lye to make soap.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations",
+  "name": "Textile & Garment Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of spinning, weaving, dyeing and sewing cloth and clothing.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.spinner",
+  "name": "Hand Spinner",
+  "name_zh": "纺纱工",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Twisted fibres into yarn on a spindle or spinning wheel.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.weaver",
+  "name": "Handloom Weaver",
+  "name_zh": "织布工",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Wove cloth on a hand or foot-treadle loom.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.fuller",
+  "name": "Fuller",
+  "name_zh": "漂洗工",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Cleaned and thickened woollen cloth by treading or pounding in water.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.dyer",
+  "name": "Dyer",
+  "name_zh": "染匠",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Coloured cloth and yarn with natural dyes.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.lace_maker",
+  "name": "Lace Maker",
+  "name_zh": "蕾丝匠",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Worked bobbins or needles to make lace.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.embroiderer",
+  "name": "Embroiderer",
+  "name_zh": "绣工",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Decorated fabric with needle and thread.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.tapestry_weaver",
+  "name": "Tapestry Weaver",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Wove pictorial hangings on a high-warp loom.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.hatter",
+  "name": "Hatter",
+  "name_zh": "制帽匠",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Blocked and finished felt hats.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.milliner",
+  "name": "Milliner",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Trimmed and sold women's hats and headwear.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.seamstress",
+  "name": "Seamstress",
+  "name_zh": "缝纫女工",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Sewed garments by hand or on early machines.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.tailor",
+  "name": "Tailor",
+  "name_zh": "裁缝",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Cut and fitted bespoke garments by hand.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.textile_occupations.dressmaker",
+  "name": "Dressmaker",
+  "type": "OCCUPATION",
+  "parent": "hist.textile_occupations",
+  "description": "Made women's gowns to measure.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations",
+  "name": "Domestic & Personal Service Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of service within households and to individuals.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.footman",
+  "name": "Footman",
+  "name_zh": "男仆",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Attended a carriage, waited at table and ran errands in livery.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.footman.running_footman",
+  "name": "Running Footman",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations.footman",
+  "description": "Ran ahead of a carriage to announce its arrival and clear the way.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.valet",
+  "name": "Valet",
+  "name_zh": "贴身男仆",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "A gentleman's personal attendant, caring for clothes and grooming.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.ladys_maid",
+  "name": "Lady's Maid",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "A lady's personal servant, dressing hair and wardrobe.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.scullery_maid",
+  "name": "Scullery Maid",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Washed dishes and scrubbed the kitchen as the lowest-ranked maid.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.kitchen_maid",
+  "name": "Kitchen Maid",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Prepared ingredients and assisted the cook.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.chambermaid",
+  "name": "Chambermaid",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Cleaned and maintained bedrooms in a great house or hotel.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.butler",
+  "name": "Butler",
+  "name_zh": "管家",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Managed the wine cellar and male household staff.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.groom",
+  "name": "Groom",
+  "name_zh": "马夫",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Cared for horses and drove carriages as required.",
+  "aliases": [
+   "stable boy"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.nursemaid",
+  "name": "Nursemaid",
+  "name_zh": "保姆",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Cared for the children of the household.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.wet_nurse",
+  "name": "Wet Nurse",
+  "name_zh": "乳母",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Breastfed another woman's infant for pay.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.governess",
+  "name": "Governess",
+  "name_zh": "家庭女教师",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Educated the children of a wealthy household.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.laundress",
+  "name": "Laundress",
+  "name_zh": "洗衣妇",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Washed and ironed household linen and clothes.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.domestic_service_occupations.punkah_wallah",
+  "name": "Punkah-Wallah",
+  "name_zh": "拉扇人",
+  "type": "OCCUPATION",
+  "parent": "hist.domestic_service_occupations",
+  "description": "Pulled a ceiling fan (punkah) by rope to cool a room.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.food_provisioning_occupations",
+  "name": "Food & Provisioning Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of producing and vending food, drink and household provisions.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.ice_cutter",
+  "name": "Ice Cutter",
+  "name_zh": "采冰人",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Sawed and harvested blocks of natural ice from frozen lakes.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.iceman",
+  "name": "Iceman",
+  "name_zh": "送冰人",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Delivered blocks of ice to homes and iceboxes.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.water_carrier",
+  "name": "Water Carrier",
+  "name_zh": "送水人",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Carried and sold fresh water from wells or springs.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.milkmaid",
+  "name": "Milkmaid",
+  "name_zh": "挤奶女工",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Milked cows by hand and churned butter.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.dairymaid",
+  "name": "Dairymaid",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Managed the dairy, making butter and cheese.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.milkman",
+  "name": "Milkman",
+  "name_zh": "送奶工",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Delivered fresh milk door to door by horse-drawn cart.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.baker",
+  "name": "Baker",
+  "name_zh": "面包师",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Kneaded and baked bread in a wood-fired oven.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.brewer",
+  "name": "Brewer",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Brewed ale and beer by hand in small breweries.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.miller",
+  "name": "Miller",
+  "name_zh": "磨坊主",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Ground grain into flour at a water or wind mill.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.costermonger",
+  "name": "Costermonger",
+  "name_zh": "小贩",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Sold fruit and vegetables from a street barrow.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.food_provisioning_occupations.peddler",
+  "name": "Peddler",
+  "name_zh": "货郎",
+  "type": "OCCUPATION",
+  "parent": "hist.food_provisioning_occupations",
+  "description": "Travelled selling small goods door to door.",
+  "aliases": [
+   "hawker"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations",
+  "name": "Transport & Porterage Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of carrying people and goods by human or animal power.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.sedan_bearer",
+  "name": "Sedan Bearer",
+  "name_zh": "轿夫",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Carried passengers in an enclosed sedan chair.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.palanquin_bearer",
+  "name": "Palanquin Bearer",
+  "name_zh": "抬轿夫",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Bore a covered palanquin for wealthy or noble passengers.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.rickshaw_puller",
+  "name": "Rickshaw Puller",
+  "name_zh": "人力车夫",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Hauled a two-wheeled passenger cart on foot.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.transport_occupations.litter_bearer",
+  "name": "Litter Bearer",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Carried the sick or wounded on a stretcher-like litter.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.stagecoach_driver",
+  "name": "Stagecoach Driver",
+  "name_zh": "驿站车夫",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Drove a scheduled passenger coach over fixed routes.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.coachman",
+  "name": "Coachman",
+  "name_zh": "车夫",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Drove a private horse-drawn carriage.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.postilion",
+  "name": "Postilion",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Rode the near horse of a carriage team to guide it.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.wagoner",
+  "name": "Wagoner",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Drove heavy freight wagons overland.",
+  "aliases": [
+   "carter"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.carter",
+  "name": "Carter",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Hauled goods by horse and cart for hire.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.drayman",
+  "name": "Drayman",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Delivered beer and heavy barrels by dray.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.teamster",
+  "name": "Teamster",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Drove a team of oxen or mules hauling freight.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.muleteer",
+  "name": "Muleteer",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Led pack mules over mountain trails.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.camel_driver",
+  "name": "Camel Driver",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Led camel caravans across desert routes.",
+  "aliases": [
+   "cameleer"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.packhorse_driver",
+  "name": "Packhorse Driver",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Guided trains of loaded packhorses.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.transport_occupations.ferryman",
+  "name": "Ferryman",
+  "type": "OCCUPATION",
+  "parent": "hist.transport_occupations",
+  "description": "Poled or rowed passengers across rivers.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations",
+  "name": "Maritime & Waterway Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of working ships, coasts and inland waterways under sail and oar.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.whaler",
+  "name": "Whaler",
+  "name_zh": "捕鲸人",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Hunted whales from open boats for oil and baleen.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.whaler.harpooner",
+  "name": "Harpooner",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations.whaler",
+  "description": "Cast the harpoon to fasten a whale.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.ship_cooper",
+  "name": "Ship's Cooper",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Made and repaired the barrels stowing a ship's provisions.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.ship_chandler",
+  "name": "Ship Chandler",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Supplied ships with provisions and nautical stores.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.sailmaker",
+  "name": "Sailmaker",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Cut and sewed sails for square-rigged ships.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.caulker",
+  "name": "Ship Caulker",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Drove oakum into plank seams and sealed them with pitch.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.oarsman",
+  "name": "Oarsman",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Rowed a galley or boat for propulsion.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.galley_slave",
+  "name": "Galley Slave",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.maritime_occupations",
+  "description": "A convict or captive forced to row a war galley.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.powder_monkey",
+  "name": "Powder Monkey",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "A boy who ferried gunpowder to a warship's guns.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.lamp_trimmer",
+  "name": "Lamp Trimmer",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Tended and refilled a ship's oil lamps and compass.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.lighthouse_keeper",
+  "name": "Lighthouse Keeper",
+  "name_zh": "灯塔看守",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Maintained the light and lived at an isolated lighthouse.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.lighterman",
+  "name": "Lighterman",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Transferred cargo between ship and shore in a lighter barge.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.maritime_occupations.bargeman",
+  "name": "Bargeman",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Worked a canal or river cargo barge.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.maritime_occupations.canal_boatman",
+  "name": "Canal Boatman",
+  "type": "OCCUPATION",
+  "parent": "hist.maritime_occupations",
+  "description": "Steered horse-drawn narrowboats on canals.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations",
+  "name": "Agricultural & Pastoral Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of pre-mechanized farming, herding and rural extraction.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.reaper",
+  "name": "Reaper",
+  "name_zh": "收割者",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Cut grain by hand with a sickle or scythe.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.scythesman",
+  "name": "Scythesman",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Mowed hay and grain with a long scythe.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.binder",
+  "name": "Sheaf Binder",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Gathered and bound cut grain into sheaves.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.thresher",
+  "name": "Thresher",
+  "name_zh": "打谷者",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Separated grain from stalks by flailing or treading.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.winnower",
+  "name": "Winnower",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Tossed threshed grain to separate chaff in the wind.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.gleaner",
+  "name": "Gleaner",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Gathered leftover grain from harvested fields.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.ploughman",
+  "name": "Ploughman",
+  "name_zh": "耕夫",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Guided a horse- or ox-drawn plough.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.haymaker",
+  "name": "Haymaker",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Cut, turned and stacked hay for winter fodder.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.shepherd",
+  "name": "Shepherd",
+  "name_zh": "牧羊人",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Tended grazing sheep and led them between pastures.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.swineherd",
+  "name": "Swineherd",
+  "name_zh": "猪倌",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Herded pigs to woodland mast for foraging.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.cowherd",
+  "name": "Cowherd",
+  "name_zh": "牧牛人",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Tended and drove cattle.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.goatherd",
+  "name": "Goatherd",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Tended grazing goats.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.oxherd",
+  "name": "Oxherd",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Drove and yoked oxen for ploughing.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.turf_cutter",
+  "name": "Turf Cutter",
+  "name_zh": "泥炭工",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Cut peat or turf for fuel.",
+  "aliases": [
+   "peat cutter"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.charcoal_burner",
+  "name": "Charcoal Burner",
+  "name_zh": "烧炭人",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Slow-burned wood in a kiln to make charcoal.",
+  "aliases": [
+   "collier"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.agricultural_occupations.fur_trapper",
+  "name": "Fur Trapper",
+  "name_zh": "捕兽者",
+  "type": "OCCUPATION",
+  "parent": "hist.agricultural_occupations",
+  "description": "Trapped wild animals for the fur trade.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations",
+  "name": "Historical Healing & Body Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of folk medicine, surgery and bodily care.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.barber_surgeon",
+  "name": "Barber-Surgeon",
+  "name_zh": "理发师兼外科医生",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Cut hair, pulled teeth and performed surgery before the professions separated.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.apothecary",
+  "name": "Apothecary",
+  "name_zh": "药剂师",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Compounded and sold medicines and simples.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.leech",
+  "name": "Leech",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "A folk healer who practised bloodletting, named for the leech.",
+  "aliases": [
+   "bloodletter"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.leech_collector",
+  "name": "Leech Collector",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Gathered medicinal leeches from ponds for sale to physicians.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.bonesetter",
+  "name": "Bonesetter",
+  "name_zh": "正骨师",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Set fractures and dislocations by manipulation.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.tooth_drawer",
+  "name": "Tooth Drawer",
+  "name_zh": "拔牙匠",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Extracted aching teeth at fairs and markets.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.plague_doctor",
+  "name": "Plague Doctor",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Treated plague victims wearing a beaked, herb-filled mask.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.midwife",
+  "name": "Midwife",
+  "name_zh": "接生婆",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Attended childbirth.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.herbalist",
+  "name": "Herbalist",
+  "name_zh": "草药师",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Gathered and dispensed medicinal herbs.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.health_occupations.bath_attendant",
+  "name": "Bath Attendant",
+  "name_zh": "澡堂侍者",
+  "type": "OCCUPATION",
+  "parent": "hist.health_occupations",
+  "description": "Served bathers at public bathhouses or hammams.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations",
+  "name": "Proto-Scientific & Occult Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of speculative natural philosophy, divination and pseudoscience.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations.alchemist",
+  "name": "Alchemist",
+  "name_zh": "炼金术士",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations",
+  "description": "Sought transmutation and the philosopher's stone through proto-chemical practice.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations.astrologer",
+  "name": "Astrologer",
+  "name_zh": "占星师",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations",
+  "description": "Cast horoscopes and predicted events from the stars.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations.augur",
+  "name": "Augur",
+  "name_zh": "占卜官",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations",
+  "description": "Interpreted the will of the gods from the flight of birds.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.occult_occupations.haruspex",
+  "name": "Haruspex",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations",
+  "description": "Read entrails of sacrificed animals to foretell outcomes.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.occult_occupations.oracle",
+  "name": "Oracle",
+  "name_zh": "神谕者",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.occult_occupations",
+  "description": "Delivered divine prophecies at a sacred shrine.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations.diviner",
+  "name": "Diviner",
+  "name_zh": "占卜者",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations",
+  "description": "Found water, minerals or answers by ritual means.",
+  "aliases": [
+   "soothsayer"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations.diviner.dowser",
+  "name": "Dowser",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations.diviner",
+  "description": "Located underground water with a divining rod.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations.necromancer",
+  "name": "Necromancer",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations",
+  "description": "Purported to summon and question the dead.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations.phrenologist",
+  "name": "Phrenologist",
+  "name_zh": "颅相师",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations",
+  "description": "Read character from the shape and bumps of the skull.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.occult_occupations.almanac_maker",
+  "name": "Almanac Maker",
+  "type": "OCCUPATION",
+  "parent": "hist.occult_occupations",
+  "description": "Compiled calendars, weather and astrological predictions.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.religious_occupations",
+  "name": "Religious & Ritual Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of priesthood, ritual and sacred service.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.religious_occupations.vestal_virgin",
+  "name": "Vestal Virgin",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.religious_occupations",
+  "description": "A priestess of Vesta who tended Rome's sacred hearth fire.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.religious_occupations.temple_priest",
+  "name": "Temple Priest",
+  "type": "OCCUPATION",
+  "parent": "hist.religious_occupations",
+  "description": "Performed sacrifices and rites at an ancient temple.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.religious_occupations.hierophant",
+  "name": "Hierophant",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.religious_occupations",
+  "description": "Revealed sacred mysteries at Eleusis.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.religious_occupations.druid",
+  "name": "Druid",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.religious_occupations",
+  "description": "A Celtic priest, judge and keeper of lore.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.religious_occupations.anchorite",
+  "name": "Anchorite",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.religious_occupations",
+  "description": "A recluse enclosed in a cell attached to a church for a life of prayer.",
+  "aliases": [
+   "anchoress"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.religious_occupations.sin_eater",
+  "name": "Sin Eater",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.religious_occupations",
+  "description": "Ritually consumed food over a corpse to absorb its sins.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.religious_occupations.pardoner",
+  "name": "Pardoner",
+  "type": "OCCUPATION",
+  "parent": "hist.religious_occupations",
+  "description": "Sold indulgences and relics in the medieval church.",
+  "aliases": [
+   "indulgence seller"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.religious_occupations.exorcist",
+  "name": "Exorcist",
+  "name_zh": "驱魔师",
+  "type": "OCCUPATION",
+  "parent": "hist.religious_occupations",
+  "description": "Performed rituals to cast out spirits.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations",
+  "name": "Entertainment & Performance Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of court, street and arena entertainment.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.court_jester",
+  "name": "Court Jester",
+  "name_zh": "弄臣",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.entertainment_occupations",
+  "description": "Amused the court with wit, mockery and foolery.",
+  "aliases": [
+   "fool"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.minstrel",
+  "name": "Minstrel",
+  "name_zh": "吟游诗人",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "A travelling medieval entertainer and musician.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.troubadour",
+  "name": "Troubadour",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "A poet-composer of courtly love songs in Occitania.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.entertainment_occupations.jongleur",
+  "name": "Jongleur",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "A wandering entertainer combining music, juggling and recitation.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.entertainment_occupations.bard",
+  "name": "Bard",
+  "name_zh": "吟游诗人",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "A Celtic poet-singer who preserved genealogies and history.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.entertainment_occupations.gleeman",
+  "name": "Gleeman",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "An Anglo-Saxon itinerant entertainer and reciter.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.entertainment_occupations.court_musician",
+  "name": "Court Musician",
+  "name_zh": "宫廷乐师",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "Performed and composed music for a royal court.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.town_wait",
+  "name": "Town Wait",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "A civic musician who played for the town and night watch.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.entertainment_occupations.mummer",
+  "name": "Mummer",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "Performed masked folk plays at festivals.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.organ_grinder",
+  "name": "Organ Grinder",
+  "name_zh": "手摇风琴手",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "Played a barrel organ in the street for coins.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.dancing_bear_handler",
+  "name": "Dancing Bear Handler",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "Trained and exhibited dancing bears.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.gladiator",
+  "name": "Gladiator",
+  "name_zh": "角斗士",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.entertainment_occupations",
+  "description": "Fought armed combat in Roman arenas for public spectacle.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.charioteer",
+  "name": "Charioteer",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "Raced horse-drawn chariots in ancient circuses.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.entertainment_occupations.bull_leaper",
+  "name": "Bull Leaper",
+  "type": "OCCUPATION",
+  "parent": "hist.entertainment_occupations",
+  "description": "Vaulted over charging bulls in Minoan ritual sport.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.lighting_urban_occupations",
+  "name": "Lighting & Urban Services Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of lighting, waking, cleaning and scavenging the pre-modern city.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.lighting_urban_occupations.lamplighter",
+  "name": "Lamplighter",
+  "name_zh": "点灯人",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Lit and extinguished street gas lamps at dusk and dawn.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.lighting_urban_occupations.link_boy",
+  "name": "Link Boy",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Carried a flaming torch to light pedestrians through dark streets.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.lighting_urban_occupations.knocker_up",
+  "name": "Knocker-Up",
+  "name_zh": "敲窗叫醒人",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Woke workers by tapping on windows with a long pole.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.lighting_urban_occupations.night_watchman",
+  "name": "Night Watchman",
+  "name_zh": "更夫",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Patrolled and guarded a town or premises by night.",
+  "aliases": [
+   "watchman",
+   "bellman"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.lighting_urban_occupations.gong_farmer",
+  "name": "Gong Farmer",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Cleaned out privies and cesspits by night.",
+  "aliases": [
+   "nightman"
+  ],
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.lighting_urban_occupations.night_soil_collector",
+  "name": "Night Soil Collector",
+  "name_zh": "掏粪工",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Collected human waste for use as fertiliser.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.lighting_urban_occupations.rat_catcher",
+  "name": "Rat Catcher",
+  "name_zh": "捕鼠人",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Caught and killed rats, often with terriers and ferrets.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.lighting_urban_occupations.chimney_sweep",
+  "name": "Chimney Sweep",
+  "name_zh": "扫烟囱工",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Climbed and swept soot from chimneys.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.lighting_urban_occupations.crossing_sweeper",
+  "name": "Crossing Sweeper",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Swept a path across muddy streets for pedestrians for tips.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.lighting_urban_occupations.shoe_black",
+  "name": "Shoeblack",
+  "name_zh": "擦鞋童",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Polished boots and shoes on the street.",
+  "aliases": [
+   "bootblack"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.lighting_urban_occupations.mudlark",
+  "name": "Mudlark",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Scavenged the Thames foreshore for salvage.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.lighting_urban_occupations.tosher",
+  "name": "Tosher",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Searched Victorian sewers for coins and valuables.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.lighting_urban_occupations.dustman",
+  "name": "Dustman",
+  "name_zh": "收灰人",
+  "type": "OCCUPATION",
+  "parent": "hist.lighting_urban_occupations",
+  "description": "Collected household ash and refuse by cart.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations",
+  "name": "Pre-Modern Military Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete military roles of the age of bow, pike and edged weapons.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.archer",
+  "name": "Archer",
+  "name_zh": "弓箭手",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "A soldier who fought with bow and arrows.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.archer.longbowman",
+  "name": "Longbowman",
+  "name_zh": "长弓手",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations.archer",
+  "description": "A soldier armed with the English longbow.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.archer.crossbowman",
+  "name": "Crossbowman",
+  "name_zh": "弩手",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations.archer",
+  "description": "A soldier armed with the crossbow.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.pikeman",
+  "name": "Pikeman",
+  "name_zh": "长矛兵",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "A foot soldier armed with a long pike.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.musketeer",
+  "name": "Musketeer",
+  "name_zh": "火枪手",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "A soldier armed with a matchlock musket.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.arquebusier",
+  "name": "Arquebusier",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "A soldier armed with the early arquebus.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.cuirassier",
+  "name": "Cuirassier",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "A heavy cavalryman in breastplate armour.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.cataphract",
+  "name": "Cataphract",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "A heavily armoured cavalryman of antiquity.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.military_occupations.knight",
+  "name": "Knight",
+  "name_zh": "骑士",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.military_occupations",
+  "description": "A mounted armoured warrior of the feudal nobility.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.samurai",
+  "name": "Samurai",
+  "name_zh": "武士",
+  "type": "SOCIAL_ROLE",
+  "parent": "hist.military_occupations",
+  "description": "A member of the Japanese warrior class.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.military_occupations.man_at_arms",
+  "name": "Man-at-Arms",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "A heavily armed professional medieval soldier.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.cannon_founder",
+  "name": "Cannon Founder",
+  "name_zh": "铸炮匠",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "Cast bronze and iron cannon.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.military_occupations.standard_bearer",
+  "name": "Standard Bearer",
+  "name_zh": "旗手",
+  "type": "OCCUPATION",
+  "parent": "hist.military_occupations",
+  "description": "Carried the unit's banner into battle.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations",
+  "name": "Administrative & Clerical Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of record-keeping, revenue and civic administration.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.tally_clerk",
+  "name": "Tally Clerk",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Kept accounts on notched wooden tally sticks.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.copying_clerk",
+  "name": "Copying Clerk",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Hand-copied letters and ledgers in offices.",
+  "aliases": [
+   "quill driver"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.court_clerk",
+  "name": "Court Clerk",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Recorded proceedings and drafted orders for a court.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.lictor",
+  "name": "Lictor",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "An attendant who escorted Roman magistrates carrying fasces.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.administrative_occupations.beadle",
+  "name": "Beadle",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "A parish or university officer who kept order and made proclamations.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.tax_farmer",
+  "name": "Tax Farmer",
+  "name_zh": "包税人",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Bought the right to collect taxes and profited from the yield.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.exciseman",
+  "name": "Exciseman",
+  "name_zh": "税吏",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Collected excise duties on goods and inspected for smuggling.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.gatekeeper",
+  "name": "Gatekeeper",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Controlled entry at a castle or city gate.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.summoner",
+  "name": "Summoner",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Served summonses to appear before an ecclesiastical court.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.administrative_occupations.quipu_keeper",
+  "name": "Quipu Keeper",
+  "name_zh": "结绳记事员",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Recorded Inca accounts on knotted cords (quipu).",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.administrative_occupations.imperial_examiner",
+  "name": "Imperial Examiner",
+  "name_zh": "考官",
+  "type": "OCCUPATION",
+  "parent": "hist.administrative_occupations",
+  "description": "Graded candidates in the imperial civil-service examinations.",
+  "historical": true,
+  "global": false
+ },
+ {
+  "id": "hist.industrial_occupations",
+  "name": "Industrial Era Obsolete Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of the early industrial mills, mines and manual machinery.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.mule_spinner",
+  "name": "Mule Spinner",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "Operated the spinning mule in cotton mills.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.power_loom_weaver",
+  "name": "Power Loom Weaver",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "Tended power looms in textile mills.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.carder",
+  "name": "Carder",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "Prepared fibres by carding before spinning.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.piecer",
+  "name": "Piecer",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "A child who joined broken threads in spinning mills.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.doffer",
+  "name": "Doffer",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "Removed full bobbins from spinning frames, often a child.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.mill_scavenger",
+  "name": "Mill Scavenger",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "A child who crawled under machines to clear waste.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.breaker_boy",
+  "name": "Breaker Boy",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "A boy who sorted impurities from coal at the breaker.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.hurrier",
+  "name": "Hurrier",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "A child who hauled coal tubs through mine tunnels.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.mine_trapper",
+  "name": "Mine Trapper",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "A child who opened and closed mine ventilation doors.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.navvy",
+  "name": "Navvy",
+  "name_zh": "苦力",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "A labourer who built canals, railways and roads.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.stoker",
+  "name": "Stoker",
+  "name_zh": "司炉",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "Fed coal into steam-engine and ship boilers.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.match_girl",
+  "name": "Match Girl",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "Dipped matches, often suffering phosphorus poisoning.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.pin_boy",
+  "name": "Pin Boy",
+  "name_zh": "保龄球童",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "Reset bowling pins by hand between frames.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.industrial_occupations.elevator_operator",
+  "name": "Elevator Operator",
+  "name_zh": "电梯操作员",
+  "type": "OCCUPATION",
+  "parent": "hist.industrial_occupations",
+  "description": "Drove a manual lever elevator and announced floors.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations",
+  "name": "Computing, Film & Reproduction Occupations",
+  "type": "SECTOR",
+  "parent": "HISTORICAL_OCCUPATIONS",
+  "description": "Obsolete occupations of manual computation, data entry and photographic reproduction.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations.human_computer",
+  "name": "Human Computer",
+  "name_zh": "人肉计算机",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Performed mathematical calculations by hand or with tables.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations.human_computer.astronomical_computer",
+  "name": "Astronomical Computer",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations.human_computer",
+  "description": "Computed star tables and orbital data by hand.",
+  "aliases": [
+   "computer, astronomy"
+  ],
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations.keypunch_operator",
+  "name": "Keypunch Operator",
+  "name_zh": "打孔员",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Punched data into cards on a keypunch machine.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations.tabulating_machine_operator",
+  "name": "Tabulating Machine Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Ran punched-card tabulators for censuses and accounts.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations.comptometer_operator",
+  "name": "Comptometer Operator",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Entered figures on a key-driven mechanical adding machine.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations.film_projectionist",
+  "name": "Film Projectionist",
+  "name_zh": "放映员",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Threaded and ran motion-picture projectors in cinemas.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations.darkroom_technician",
+  "name": "Darkroom Technician",
+  "name_zh": "暗房技师",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Developed and printed photographs in a darkroom.",
+  "historical": true,
+  "global": true
+ },
+ {
+  "id": "hist.computing_media_occupations.magic_lanternist",
+  "name": "Magic Lanternist",
+  "type": "OCCUPATION",
+  "parent": "hist.computing_media_occupations",
+  "description": "Projected painted glass slides with a magic lantern.",
+  "historical": true,
+  "global": true
+ }
+]

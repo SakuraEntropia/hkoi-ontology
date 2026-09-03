@@ -1,0 +1,3643 @@
+[
+ {
+  "id": "ROLE.family_kinship",
+  "name": "Family & Kinship Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles defined by marriage, descent, adoption, and other family relationships.",
+  "global": true,
+  "name_zh": "家庭与亲属角色"
+ },
+ {
+  "id": "ROLE.family_kinship.spouse",
+  "name": "Spouse",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "A married person considered in relation to their marital partner.",
+  "global": true,
+  "name_zh": "配偶"
+ },
+ {
+  "id": "ROLE.family_kinship.spouse.husband",
+  "name": "Husband",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.spouse",
+  "description": "A man in a marital relationship.",
+  "global": true,
+  "name_zh": "丈夫"
+ },
+ {
+  "id": "ROLE.family_kinship.spouse.wife",
+  "name": "Wife",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.spouse",
+  "description": "A woman in a marital relationship.",
+  "global": true,
+  "name_zh": "妻子"
+ },
+ {
+  "id": "ROLE.family_kinship.spouse.widow",
+  "name": "Widow",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.spouse",
+  "description": "A woman whose spouse has died and who has not remarried.",
+  "global": true,
+  "name_zh": "寡妇"
+ },
+ {
+  "id": "ROLE.family_kinship.spouse.widower",
+  "name": "Widower",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.spouse",
+  "description": "A man whose spouse has died and who has not remarried.",
+  "global": true,
+  "name_zh": "鳏夫"
+ },
+ {
+  "id": "ROLE.family_kinship.spouse.uxorilocal_husband",
+  "name": "Uxorilocal Husband",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.spouse",
+  "description": "A husband who resides with and joins his wife's family line, as in Chinese ruzhui marriage.",
+  "global": false,
+  "name_zh": "上门女婿",
+  "aliases": [
+   "matrilocal husband"
+  ]
+ },
+ {
+  "id": "ROLE.family_kinship.parent",
+  "name": "Parent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "A person who raises or begets a child and bears parental responsibility.",
+  "global": true,
+  "name_zh": "父母"
+ },
+ {
+  "id": "ROLE.family_kinship.parent.father",
+  "name": "Father",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.parent",
+  "description": "A male parent.",
+  "global": true,
+  "name_zh": "父亲"
+ },
+ {
+  "id": "ROLE.family_kinship.parent.mother",
+  "name": "Mother",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.parent",
+  "description": "A female parent.",
+  "global": true,
+  "name_zh": "母亲"
+ },
+ {
+  "id": "ROLE.family_kinship.parent.stepfather",
+  "name": "Stepfather",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.parent",
+  "description": "The husband of one's parent who is not one's biological or adoptive father.",
+  "global": true,
+  "name_zh": "继父"
+ },
+ {
+  "id": "ROLE.family_kinship.parent.stepmother",
+  "name": "Stepmother",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.parent",
+  "description": "The wife of one's parent who is not one's biological or adoptive mother.",
+  "global": true,
+  "name_zh": "继母"
+ },
+ {
+  "id": "ROLE.family_kinship.parent.adoptive_parent",
+  "name": "Adoptive Parent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.parent",
+  "description": "A parent who legally adopts a child not biologically their own.",
+  "global": true,
+  "name_zh": "养父母"
+ },
+ {
+  "id": "ROLE.family_kinship.parent.foster_parent",
+  "name": "Foster Parent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.parent",
+  "description": "An adult who temporarily cares for a child placed by an agency or kin network.",
+  "global": true,
+  "name_zh": "寄养父母"
+ },
+ {
+  "id": "ROLE.family_kinship.parent.guardian",
+  "name": "Guardian",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.parent",
+  "description": "A person with legal authority and duty to care for a minor or dependent.",
+  "global": true,
+  "name_zh": "监护人"
+ },
+ {
+  "id": "ROLE.family_kinship.grandparent",
+  "name": "Grandparent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "A parent of one's parent.",
+  "global": true,
+  "name_zh": "祖父母/外祖父母"
+ },
+ {
+  "id": "ROLE.family_kinship.grandparent.grandfather",
+  "name": "Grandfather",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.grandparent",
+  "description": "The father of one's parent.",
+  "global": true,
+  "name_zh": "祖父/外祖父"
+ },
+ {
+  "id": "ROLE.family_kinship.grandparent.grandmother",
+  "name": "Grandmother",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.grandparent",
+  "description": "The mother of one's parent.",
+  "global": true,
+  "name_zh": "祖母/外祖母"
+ },
+ {
+  "id": "ROLE.family_kinship.child",
+  "name": "Child (Kinship)",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "A son or daughter considered in relation to their parents.",
+  "global": true,
+  "name_zh": "子女"
+ },
+ {
+  "id": "ROLE.family_kinship.child.son",
+  "name": "Son",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.child",
+  "description": "A male child in relation to his parents.",
+  "global": true,
+  "name_zh": "儿子"
+ },
+ {
+  "id": "ROLE.family_kinship.child.daughter",
+  "name": "Daughter",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.child",
+  "description": "A female child in relation to her parents.",
+  "global": true,
+  "name_zh": "女儿"
+ },
+ {
+  "id": "ROLE.family_kinship.child.adopted_child",
+  "name": "Adopted Child",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.child",
+  "description": "A child legally raised by parents who are not their biological parents.",
+  "global": true,
+  "name_zh": "养子女"
+ },
+ {
+  "id": "ROLE.family_kinship.child.child_bride",
+  "name": "Child Bride",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.child",
+  "description": "A girl married before adulthood, historically practiced in many societies.",
+  "global": false,
+  "name_zh": "童养媳",
+  "historical": true
+ },
+ {
+  "id": "ROLE.family_kinship.sibling",
+  "name": "Sibling",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "A brother or sister sharing one or both parents.",
+  "global": true,
+  "name_zh": "兄弟姐妹"
+ },
+ {
+  "id": "ROLE.family_kinship.sibling.brother",
+  "name": "Brother",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.sibling",
+  "description": "A male sibling.",
+  "global": true,
+  "name_zh": "兄弟"
+ },
+ {
+  "id": "ROLE.family_kinship.sibling.sister",
+  "name": "Sister",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.sibling",
+  "description": "A female sibling.",
+  "global": true,
+  "name_zh": "姐妹"
+ },
+ {
+  "id": "ROLE.family_kinship.extended",
+  "name": "Extended Kin",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "Relatives beyond the nuclear family, linked by blood or marriage.",
+  "global": true,
+  "name_zh": "亲属"
+ },
+ {
+  "id": "ROLE.family_kinship.extended.aunt",
+  "name": "Aunt",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.extended",
+  "description": "The sister of one's parent or the wife of one's uncle.",
+  "global": true,
+  "name_zh": "姑/姨/婶/舅母"
+ },
+ {
+  "id": "ROLE.family_kinship.extended.uncle",
+  "name": "Uncle",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.extended",
+  "description": "The brother of one's parent or the husband of one's aunt.",
+  "global": true,
+  "name_zh": "叔伯/舅/姑父/姨父"
+ },
+ {
+  "id": "ROLE.family_kinship.extended.cousin",
+  "name": "Cousin",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.extended",
+  "description": "The child of one's aunt or uncle.",
+  "global": true,
+  "name_zh": "堂/表兄弟姐妹"
+ },
+ {
+  "id": "ROLE.family_kinship.extended.nephew",
+  "name": "Nephew",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.extended",
+  "description": "The son of one's sibling.",
+  "global": true,
+  "name_zh": "侄子/外甥"
+ },
+ {
+  "id": "ROLE.family_kinship.extended.niece",
+  "name": "Niece",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.extended",
+  "description": "The daughter of one's sibling.",
+  "global": true,
+  "name_zh": "侄女/外甥女"
+ },
+ {
+  "id": "ROLE.family_kinship.in_law",
+  "name": "In-Law",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "A relative acquired through marriage rather than blood.",
+  "global": true,
+  "name_zh": "姻亲"
+ },
+ {
+  "id": "ROLE.family_kinship.in_law.mother_in_law",
+  "name": "Mother-in-Law",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.in_law",
+  "description": "The mother of one's spouse.",
+  "global": true,
+  "name_zh": "婆婆/岳母"
+ },
+ {
+  "id": "ROLE.family_kinship.in_law.father_in_law",
+  "name": "Father-in-Law",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.in_law",
+  "description": "The father of one's spouse.",
+  "global": true,
+  "name_zh": "公公/岳父"
+ },
+ {
+  "id": "ROLE.family_kinship.in_law.son_in_law",
+  "name": "Son-in-Law",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.in_law",
+  "description": "The husband of one's daughter.",
+  "global": true,
+  "name_zh": "女婿"
+ },
+ {
+  "id": "ROLE.family_kinship.in_law.daughter_in_law",
+  "name": "Daughter-in-Law",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.in_law",
+  "description": "The wife of one's son.",
+  "global": true,
+  "name_zh": "儿媳"
+ },
+ {
+  "id": "ROLE.family_kinship.in_law.co_sibling_in_law",
+  "name": "Co-Sibling-in-Law",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.in_law",
+  "description": "The spouse of one's spouse's sibling, as in Chinese zhouli or lianjin.",
+  "global": false,
+  "name_zh": "妯娌/连襟"
+ },
+ {
+  "id": "ROLE.family_kinship.lineage",
+  "name": "Lineage & Ancestry Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "Roles defined by descent, ancestry, and inheritance within a family line.",
+  "global": true,
+  "name_zh": "世系与祖先角色"
+ },
+ {
+  "id": "ROLE.family_kinship.lineage.matriarch",
+  "name": "Matriarch",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.lineage",
+  "description": "A woman who heads and holds authority over a family or lineage.",
+  "global": true,
+  "name_zh": "女家长"
+ },
+ {
+  "id": "ROLE.family_kinship.lineage.patriarch",
+  "name": "Patriarch",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.lineage",
+  "description": "A man who heads and holds authority over a family or lineage.",
+  "global": true,
+  "name_zh": "家长"
+ },
+ {
+  "id": "ROLE.family_kinship.lineage.ancestor",
+  "name": "Ancestor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.lineage",
+  "description": "A forebear from whom a family line descends, often venerated.",
+  "global": true,
+  "name_zh": "祖先"
+ },
+ {
+  "id": "ROLE.family_kinship.lineage.descendant",
+  "name": "Descendant",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.lineage",
+  "description": "A person who descends from a particular ancestor.",
+  "global": true,
+  "name_zh": "后代"
+ },
+ {
+  "id": "ROLE.family_kinship.lineage.heir",
+  "name": "Heir",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.lineage",
+  "description": "A person entitled to inherit a family's property, title, or position.",
+  "global": true,
+  "name_zh": "继承人"
+ },
+ {
+  "id": "ROLE.family_kinship.lineage.family_elder",
+  "name": "Family Elder",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.lineage",
+  "description": "A senior family member whose age confers respect and advisory authority.",
+  "global": true,
+  "name_zh": "家族长辈"
+ },
+ {
+  "id": "ROLE.family_kinship.fictive",
+  "name": "Fictive Kinship Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship",
+  "description": "Chosen kin relations modeled on family bonds without blood or marriage ties.",
+  "global": true,
+  "name_zh": "拟亲属角色"
+ },
+ {
+  "id": "ROLE.family_kinship.fictive.godparent",
+  "name": "Godparent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.fictive",
+  "description": "A sponsor of a child's religious initiation who assumes a mentoring kinship role.",
+  "global": true,
+  "name_zh": "教父/教母"
+ },
+ {
+  "id": "ROLE.family_kinship.fictive.compadre",
+  "name": "Compadre",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.fictive",
+  "description": "A co-parent bound by godparenthood, a central kinship bond in Latin America.",
+  "global": false,
+  "name_zh": "教父(西语系)"
+ },
+ {
+  "id": "ROLE.family_kinship.fictive.blood_brother",
+  "name": "Blood Brother",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.fictive",
+  "description": "A non-kin male bound by a sworn oath or blood ritual of brotherhood.",
+  "global": false,
+  "name_zh": "结拜兄弟",
+  "aliases": [
+   "sworn brother"
+  ]
+ },
+ {
+  "id": "ROLE.family_kinship.fictive.wet_nurse",
+  "name": "Wet Nurse",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.fictive",
+  "description": "A woman who breastfeeds and nurtures another woman's child, often as a long-term bond.",
+  "global": false,
+  "name_zh": "乳母/奶妈",
+  "historical": true
+ },
+ {
+  "id": "ROLE.family_kinship.fictive.milk_sibling",
+  "name": "Milk Sibling",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.family_kinship.fictive",
+  "description": "An unrelated person who shared the same wet nurse, creating a recognized kin-like bond.",
+  "global": false,
+  "name_zh": "乳兄弟姐妹",
+  "historical": true
+ },
+ {
+  "id": "ROLE.community_civil",
+  "name": "Community & Civil Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles people occupy in neighborhoods, voluntary associations, and civil society.",
+  "global": true,
+  "name_zh": "社区与公民角色"
+ },
+ {
+  "id": "ROLE.community_civil.membership",
+  "name": "Community Membership Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil",
+  "description": "Roles defined by a person's standing or belonging within a locality.",
+  "global": true,
+  "name_zh": "社区成员角色"
+ },
+ {
+  "id": "ROLE.community_civil.membership.resident",
+  "name": "Resident",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A person who lives in a particular place.",
+  "global": true,
+  "name_zh": "居民"
+ },
+ {
+  "id": "ROLE.community_civil.membership.newcomer",
+  "name": "Newcomer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A person newly arrived in a community.",
+  "global": true,
+  "name_zh": "新来者"
+ },
+ {
+  "id": "ROLE.community_civil.membership.local",
+  "name": "Local",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A long-established member of a place, contrasted with outsiders.",
+  "global": true,
+  "name_zh": "本地人"
+ },
+ {
+  "id": "ROLE.community_civil.membership.migrant",
+  "name": "Migrant",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A person who moves within or across regions to live and work.",
+  "global": true,
+  "name_zh": "移民/流动人口"
+ },
+ {
+  "id": "ROLE.community_civil.membership.refugee",
+  "name": "Refugee",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A person forced to flee their country by war, persecution, or disaster.",
+  "global": true,
+  "name_zh": "难民"
+ },
+ {
+  "id": "ROLE.community_civil.membership.exile",
+  "name": "Exile",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A person barred from their homeland, usually for political reasons.",
+  "global": true,
+  "name_zh": "流亡者"
+ },
+ {
+  "id": "ROLE.community_civil.membership.neighbor",
+  "name": "Neighbor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A person living near another, with mutual local obligations.",
+  "global": true,
+  "name_zh": "邻居"
+ },
+ {
+  "id": "ROLE.community_civil.membership.host",
+  "name": "Host",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A person who receives and provides for guests.",
+  "global": true,
+  "name_zh": "主人/东道主"
+ },
+ {
+  "id": "ROLE.community_civil.membership.guest",
+  "name": "Guest",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.membership",
+  "description": "A person received and entertained in another's home or community.",
+  "global": true,
+  "name_zh": "客人"
+ },
+ {
+  "id": "ROLE.community_civil.leadership",
+  "name": "Community Leadership Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil",
+  "description": "Roles involving guiding, representing, or organizing a local community.",
+  "global": true,
+  "name_zh": "社区领导角色"
+ },
+ {
+  "id": "ROLE.community_civil.leadership.community_leader",
+  "name": "Community Leader",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.leadership",
+  "description": "A person recognized as a guide and representative of a community.",
+  "global": true,
+  "name_zh": "社区领袖"
+ },
+ {
+  "id": "ROLE.community_civil.leadership.community_elder",
+  "name": "Community Elder",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.leadership",
+  "description": "A senior member whose experience gives them advisory standing.",
+  "global": true,
+  "name_zh": "社区长者"
+ },
+ {
+  "id": "ROLE.community_civil.leadership.community_organizer",
+  "name": "Community Organizer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.leadership",
+  "description": "A person who mobilizes residents around shared goals and collective action.",
+  "global": true,
+  "name_zh": "社区组织者"
+ },
+ {
+  "id": "ROLE.community_civil.leadership.block_captain",
+  "name": "Block Captain",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.leadership",
+  "description": "A volunteer who represents and coordinates a city block or building.",
+  "global": true,
+  "name_zh": "楼长/街区长"
+ },
+ {
+  "id": "ROLE.community_civil.leadership.neighborhood_committee_member",
+  "name": "Neighborhood Committee Member",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.leadership",
+  "description": "An elected or appointed member of a residents' committee governing a district.",
+  "global": false,
+  "name_zh": "居委会成员"
+ },
+ {
+  "id": "ROLE.community_civil.volunteerism",
+  "name": "Volunteer & Advocacy Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil",
+  "description": "Roles involving unpaid service, giving, and public advocacy.",
+  "global": true,
+  "name_zh": "志愿与倡导角色"
+ },
+ {
+  "id": "ROLE.community_civil.volunteerism.volunteer",
+  "name": "Volunteer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.volunteerism",
+  "description": "A person who gives time and labor to a cause without pay.",
+  "global": true,
+  "name_zh": "志愿者"
+ },
+ {
+  "id": "ROLE.community_civil.volunteerism.philanthropist",
+  "name": "Philanthropist",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.volunteerism",
+  "description": "A person who donates wealth and resources to promote human welfare.",
+  "global": true,
+  "name_zh": "慈善家"
+ },
+ {
+  "id": "ROLE.community_civil.volunteerism.patron",
+  "name": "Patron",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.volunteerism",
+  "description": "A supporter who funds and champions a person, cause, or institution.",
+  "global": true,
+  "name_zh": "赞助人/恩主"
+ },
+ {
+  "id": "ROLE.community_civil.volunteerism.activist",
+  "name": "Activist",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.volunteerism",
+  "description": "A person who campaigns to bring about social or political change.",
+  "global": true,
+  "name_zh": "活动家"
+ },
+ {
+  "id": "ROLE.community_civil.volunteerism.advocate",
+  "name": "Advocate",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.volunteerism",
+  "description": "A person who publicly supports and argues for a cause or group.",
+  "global": true,
+  "name_zh": "倡导者"
+ },
+ {
+  "id": "ROLE.community_civil.volunteerism.whistleblower",
+  "name": "Whistleblower",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.volunteerism",
+  "description": "A person who exposes wrongdoing within an organization to the public.",
+  "global": true,
+  "name_zh": "举报人"
+ },
+ {
+  "id": "ROLE.community_civil.volunteerism.donor",
+  "name": "Donor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.volunteerism",
+  "description": "A person who gives money, blood, organs, or goods to help others.",
+  "global": true,
+  "name_zh": "捐赠者"
+ },
+ {
+  "id": "ROLE.community_civil.dispute",
+  "name": "Dispute Resolution Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil",
+  "description": "Roles involving settling conflicts and restoring harmony within a community.",
+  "global": true,
+  "name_zh": "纠纷调解角色"
+ },
+ {
+  "id": "ROLE.community_civil.dispute.mediator",
+  "name": "Mediator",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.dispute",
+  "description": "A neutral person who helps disputing parties reach an agreement.",
+  "global": true,
+  "name_zh": "调解人"
+ },
+ {
+  "id": "ROLE.community_civil.dispute.peacemaker",
+  "name": "Peacemaker",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.community_civil.dispute",
+  "description": "A person who works to end conflict and reconcile opposing parties.",
+  "global": true,
+  "name_zh": "和事佬/调停人"
+ },
+ {
+  "id": "ROLE.political_civic",
+  "name": "Political & Civic Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles in governance, rule, representation, and the political life of a state.",
+  "global": true,
+  "name_zh": "政治与公民角色"
+ },
+ {
+  "id": "ROLE.political_civic.citizenship",
+  "name": "Citizen & Elector Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic",
+  "description": "Roles tied to membership and participation in a political community.",
+  "global": true,
+  "name_zh": "公民与选举人角色"
+ },
+ {
+  "id": "ROLE.political_civic.citizenship.citizen",
+  "name": "Citizen",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.citizenship",
+  "description": "A legally recognized member of a state with rights and duties.",
+  "global": true,
+  "name_zh": "公民"
+ },
+ {
+  "id": "ROLE.political_civic.citizenship.voter",
+  "name": "Voter",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.citizenship",
+  "description": "A person who casts a ballot in an election or referendum.",
+  "global": true,
+  "name_zh": "选民"
+ },
+ {
+  "id": "ROLE.political_civic.citizenship.constituent",
+  "name": "Constituent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.citizenship",
+  "description": "A citizen represented by an elected official.",
+  "global": true,
+  "name_zh": "选民/选区成员"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy",
+  "name": "Monarch & Dynastic Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic",
+  "description": "Hereditary ruling roles of kings, queens, and imperial dynasties.",
+  "global": true,
+  "name_zh": "君主与王朝角色"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.monarch",
+  "name": "Monarch",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "A hereditary sovereign ruler such as a king or queen.",
+  "global": true,
+  "name_zh": "君主"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.emperor",
+  "name": "Emperor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "The sovereign of an empire, ranking above a king.",
+  "global": true,
+  "name_zh": "皇帝"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.empress",
+  "name": "Empress",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "A female sovereign of an empire or the wife of an emperor.",
+  "global": true,
+  "name_zh": "女皇/皇后"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.king",
+  "name": "King",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "A male monarch ruling a kingdom.",
+  "global": true,
+  "name_zh": "国王"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.queen",
+  "name": "Queen",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "A female monarch or the wife of a king.",
+  "global": true,
+  "name_zh": "女王/王后"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.prince",
+  "name": "Prince",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "A male member of a royal family or ruler of a principality.",
+  "global": true,
+  "name_zh": "王子"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.princess",
+  "name": "Princess",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "A female member of a royal family.",
+  "global": true,
+  "name_zh": "公主"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.regent",
+  "name": "Regent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "A person who governs during a monarch's minority or incapacity.",
+  "global": true,
+  "name_zh": "摄政王"
+ },
+ {
+  "id": "ROLE.political_civic.monarchy.heir_apparent",
+  "name": "Heir Apparent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.monarchy",
+  "description": "The person first in line to inherit a throne.",
+  "global": true,
+  "name_zh": "王储/皇太子"
+ },
+ {
+  "id": "ROLE.political_civic.nobility",
+  "name": "Nobility & Aristocracy",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic",
+  "description": "Hereditary or titled ranks of a privileged ruling class.",
+  "global": true,
+  "name_zh": "贵族与贵族阶层"
+ },
+ {
+  "id": "ROLE.political_civic.nobility.noble",
+  "name": "Noble",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.nobility",
+  "description": "A member of a hereditary privileged social class.",
+  "global": true,
+  "name_zh": "贵族"
+ },
+ {
+  "id": "ROLE.political_civic.nobility.duke",
+  "name": "Duke",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.nobility",
+  "description": "A nobleman of the highest rank below the monarch.",
+  "global": true,
+  "name_zh": "公爵"
+ },
+ {
+  "id": "ROLE.political_civic.nobility.count",
+  "name": "Count",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.nobility",
+  "description": "A European nobleman ranking below a duke.",
+  "global": true,
+  "name_zh": "伯爵",
+  "aliases": [
+   "earl"
+  ]
+ },
+ {
+  "id": "ROLE.political_civic.nobility.baron",
+  "name": "Baron",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.nobility",
+  "description": "A nobleman of the lowest hereditary rank.",
+  "global": true,
+  "name_zh": "男爵"
+ },
+ {
+  "id": "ROLE.political_civic.nobility.knight",
+  "name": "Knight",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.nobility",
+  "description": "A person granted a non-hereditary title for service, historically a mounted warrior.",
+  "global": true,
+  "name_zh": "骑士"
+ },
+ {
+  "id": "ROLE.political_civic.nobility.peer",
+  "name": "Peer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.nobility",
+  "description": "A holder of a title conferring membership in a hereditary or appointed upper house.",
+  "global": true,
+  "name_zh": "贵族(上议院)"
+ },
+ {
+  "id": "ROLE.political_civic.executive",
+  "name": "Executive & Administrative Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic",
+  "description": "Roles that head or administer the government of a state.",
+  "global": true,
+  "name_zh": "行政与治理角色"
+ },
+ {
+  "id": "ROLE.political_civic.executive.head_of_state",
+  "name": "Head of State",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.executive",
+  "description": "The chief public representative of a state, ceremonial or executive.",
+  "global": true,
+  "name_zh": "国家元首"
+ },
+ {
+  "id": "ROLE.political_civic.executive.head_of_government",
+  "name": "Head of Government",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.executive",
+  "description": "The chief executive officer who leads a government's administration.",
+  "global": true,
+  "name_zh": "政府首脑"
+ },
+ {
+  "id": "ROLE.political_civic.executive.president",
+  "name": "President",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.executive",
+  "description": "An elected or appointed head of state or republic.",
+  "global": true,
+  "name_zh": "总统"
+ },
+ {
+  "id": "ROLE.political_civic.executive.prime_minister",
+  "name": "Prime Minister",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.executive",
+  "description": "The head of government in a parliamentary system.",
+  "global": true,
+  "name_zh": "总理/首相"
+ },
+ {
+  "id": "ROLE.political_civic.executive.governor",
+  "name": "Governor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.executive",
+  "description": "The elected or appointed head of a province, state, or territory.",
+  "global": true,
+  "name_zh": "州长/省长"
+ },
+ {
+  "id": "ROLE.political_civic.executive.mayor",
+  "name": "Mayor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.executive",
+  "description": "The elected head of a city or municipal government.",
+  "global": true,
+  "name_zh": "市长"
+ },
+ {
+  "id": "ROLE.political_civic.executive.minister",
+  "name": "Minister",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.executive",
+  "description": "A senior government member heading a ministry or department.",
+  "global": true,
+  "name_zh": "部长"
+ },
+ {
+  "id": "ROLE.political_civic.executive.civil_servant",
+  "name": "Civil Servant",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.executive",
+  "description": "A career employee of the state's administrative bureaucracy.",
+  "global": true,
+  "name_zh": "公务员"
+ },
+ {
+  "id": "ROLE.political_civic.legislative",
+  "name": "Legislative Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic",
+  "description": "Roles involving lawmaking and representation in an assembly.",
+  "global": true,
+  "name_zh": "立法角色"
+ },
+ {
+  "id": "ROLE.political_civic.legislative.legislator",
+  "name": "Legislator",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.legislative",
+  "description": "A member of a body that makes laws.",
+  "global": true,
+  "name_zh": "立法者"
+ },
+ {
+  "id": "ROLE.political_civic.legislative.senator",
+  "name": "Senator",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.legislative",
+  "description": "A member of a senate or upper legislative chamber.",
+  "global": true,
+  "name_zh": "参议员"
+ },
+ {
+  "id": "ROLE.political_civic.legislative.member_of_parliament",
+  "name": "Member of Parliament",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.legislative",
+  "description": "An elected representative in a parliamentary legislature.",
+  "global": true,
+  "name_zh": "国会议员"
+ },
+ {
+  "id": "ROLE.political_civic.legislative.councilor",
+  "name": "Councilor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.legislative",
+  "description": "An elected member of a local or municipal council.",
+  "global": true,
+  "name_zh": "议员/市议员"
+ },
+ {
+  "id": "ROLE.political_civic.legislative.speaker",
+  "name": "Speaker",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.legislative",
+  "description": "The presiding officer of a legislative assembly.",
+  "global": true,
+  "name_zh": "议长"
+ },
+ {
+  "id": "ROLE.political_civic.legislative.whip",
+  "name": "Party Whip",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.legislative",
+  "description": "A legislator who enforces party discipline and manages voting.",
+  "global": true,
+  "name_zh": "党鞭"
+ },
+ {
+  "id": "ROLE.political_civic.legislative.tribune",
+  "name": "Tribune",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.legislative",
+  "description": "An elected plebeian magistrate in ancient Rome empowered to protect citizens.",
+  "global": true,
+  "name_zh": "保民官",
+  "historical": true
+ },
+ {
+  "id": "ROLE.political_civic.diplomatic",
+  "name": "Diplomatic Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic",
+  "description": "Roles representing a state in relations with other states.",
+  "global": true,
+  "name_zh": "外交角色"
+ },
+ {
+  "id": "ROLE.political_civic.diplomatic.diplomat",
+  "name": "Diplomat",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.diplomatic",
+  "description": "An official who conducts a state's foreign relations.",
+  "global": true,
+  "name_zh": "外交官"
+ },
+ {
+  "id": "ROLE.political_civic.diplomatic.ambassador",
+  "name": "Ambassador",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.diplomatic",
+  "description": "The highest-ranking envoy representing a state in another country.",
+  "global": true,
+  "name_zh": "大使"
+ },
+ {
+  "id": "ROLE.political_civic.diplomatic.envoy",
+  "name": "Envoy",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.diplomatic",
+  "description": "A diplomatic representative sent on a specific mission.",
+  "global": true,
+  "name_zh": "特使"
+ },
+ {
+  "id": "ROLE.political_civic.diplomatic.consul",
+  "name": "Consul",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.diplomatic",
+  "description": "An official protecting a state's citizens and commercial interests abroad.",
+  "global": true,
+  "name_zh": "领事"
+ },
+ {
+  "id": "ROLE.political_civic.party",
+  "name": "Party & Movement Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic",
+  "description": "Roles within political parties and social movements.",
+  "global": true,
+  "name_zh": "政党与运动角色"
+ },
+ {
+  "id": "ROLE.political_civic.party.party_leader",
+  "name": "Party Leader",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.party",
+  "description": "The head of a political party.",
+  "global": true,
+  "name_zh": "政党领袖"
+ },
+ {
+  "id": "ROLE.political_civic.party.opposition_leader",
+  "name": "Opposition Leader",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.party",
+  "description": "The leader of the largest party not in government.",
+  "global": true,
+  "name_zh": "反对党领袖"
+ },
+ {
+  "id": "ROLE.political_civic.party.party_member",
+  "name": "Party Member",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.party",
+  "description": "A dues-paying member of a political party.",
+  "global": true,
+  "name_zh": "党员"
+ },
+ {
+  "id": "ROLE.political_civic.party.candidate",
+  "name": "Candidate",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.party",
+  "description": "A person standing for election to public office.",
+  "global": true,
+  "name_zh": "候选人"
+ },
+ {
+  "id": "ROLE.political_civic.non_western",
+  "name": "Non-Western & Historical Rulership",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic",
+  "description": "Sovereign and high-official roles of non-Western and past polities.",
+  "global": true,
+  "name_zh": "非西方与历史统治角色"
+ },
+ {
+  "id": "ROLE.political_civic.non_western.sultan",
+  "name": "Sultan",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "A Muslim sovereign ruler, especially of an Ottoman or Malay state.",
+  "global": false,
+  "name_zh": "苏丹"
+ },
+ {
+  "id": "ROLE.political_civic.non_western.caliph",
+  "name": "Caliph",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "The successor ruler of the early Muslim community and a politico-religious sovereign.",
+  "global": false,
+  "name_zh": "哈里发"
+ },
+ {
+  "id": "ROLE.political_civic.non_western.emir",
+  "name": "Emir",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "A Muslim prince, commander, or ruler of an emirate.",
+  "global": false,
+  "name_zh": "埃米尔"
+ },
+ {
+  "id": "ROLE.political_civic.non_western.khan",
+  "name": "Khan",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "A Mongol or Turkic sovereign or chief.",
+  "global": false,
+  "name_zh": "可汗"
+ },
+ {
+  "id": "ROLE.political_civic.non_western.pharaoh",
+  "name": "Pharaoh",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "The divine king of ancient Egypt.",
+  "global": false,
+  "name_zh": "法老",
+  "historical": true
+ },
+ {
+  "id": "ROLE.political_civic.non_western.maharaja",
+  "name": "Maharaja",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "A great king or high-ranking Hindu or Sikh prince in South Asia.",
+  "global": false,
+  "name_zh": "大君"
+ },
+ {
+  "id": "ROLE.political_civic.non_western.shogun",
+  "name": "Shogun",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "The hereditary military dictator who ruled Japan on the emperor's behalf.",
+  "global": false,
+  "name_zh": "将军/幕府将军",
+  "historical": true
+ },
+ {
+  "id": "ROLE.political_civic.non_western.daimyo",
+  "name": "Daimyo",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "A feudal territorial lord in pre-modern Japan.",
+  "global": false,
+  "name_zh": "大名",
+  "historical": true
+ },
+ {
+  "id": "ROLE.political_civic.non_western.vizier",
+  "name": "Vizier",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "A high-ranking minister or chief advisor in Muslim and Ottoman courts.",
+  "global": false,
+  "name_zh": "维齐尔/宰相",
+  "historical": true
+ },
+ {
+  "id": "ROLE.political_civic.non_western.mandarin",
+  "name": "Mandarin",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "A scholar-official of imperial China appointed through the examination system.",
+  "global": false,
+  "name_zh": "官员(科举)",
+  "historical": true
+ },
+ {
+  "id": "ROLE.political_civic.non_western.tsar",
+  "name": "Tsar",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.political_civic.non_western",
+  "description": "The emperor of Russia or a Slavic imperial sovereign.",
+  "global": false,
+  "name_zh": "沙皇",
+  "aliases": [
+   "czar"
+  ],
+  "historical": true
+ },
+ {
+  "id": "ROLE.legal_judicial",
+  "name": "Legal & Judicial Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles in courts, legal advocacy, adjudication, and the justice system.",
+  "global": true,
+  "name_zh": "法律与司法角色"
+ },
+ {
+  "id": "ROLE.legal_judicial.judiciary",
+  "name": "Judicial Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial",
+  "description": "Roles that adjudicate disputes and interpret law.",
+  "global": true,
+  "name_zh": "司法角色"
+ },
+ {
+  "id": "ROLE.legal_judicial.judiciary.judge",
+  "name": "Judge",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.judiciary",
+  "description": "An official who presides over a court and decides cases.",
+  "global": true,
+  "name_zh": "法官"
+ },
+ {
+  "id": "ROLE.legal_judicial.judiciary.justice",
+  "name": "Justice",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.judiciary",
+  "description": "A judge of a supreme or high court.",
+  "global": true,
+  "name_zh": "大法官"
+ },
+ {
+  "id": "ROLE.legal_judicial.judiciary.chief_justice",
+  "name": "Chief Justice",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.judiciary",
+  "description": "The presiding judge of a supreme court.",
+  "global": true,
+  "name_zh": "首席大法官"
+ },
+ {
+  "id": "ROLE.legal_judicial.judiciary.magistrate",
+  "name": "Judicial Magistrate",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.judiciary",
+  "description": "A lower-court judge handling minor criminal and civil matters.",
+  "global": true,
+  "name_zh": "治安法官"
+ },
+ {
+  "id": "ROLE.legal_judicial.judiciary.lay_judge",
+  "name": "Lay Judge",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.judiciary",
+  "description": "A citizen who sits alongside professional judges to decide cases.",
+  "global": true,
+  "name_zh": "参审员"
+ },
+ {
+  "id": "ROLE.legal_judicial.judiciary.qadi",
+  "name": "Qadi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.judiciary",
+  "description": "A judge who applies Islamic law in a sharia court.",
+  "global": false,
+  "name_zh": "卡迪(伊斯兰法官)"
+ },
+ {
+  "id": "ROLE.legal_judicial.advocacy",
+  "name": "Legal Advocacy Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial",
+  "description": "Roles representing parties' interests in legal proceedings.",
+  "global": true,
+  "name_zh": "法律代理角色"
+ },
+ {
+  "id": "ROLE.legal_judicial.advocacy.lawyer",
+  "name": "Lawyer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.advocacy",
+  "description": "A person licensed to advise on and represent clients in legal matters.",
+  "global": true,
+  "name_zh": "律师"
+ },
+ {
+  "id": "ROLE.legal_judicial.advocacy.barrister",
+  "name": "Barrister",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.advocacy",
+  "description": "A lawyer who pleads cases in higher courts, especially in common-law systems.",
+  "global": true,
+  "name_zh": "出庭律师"
+ },
+ {
+  "id": "ROLE.legal_judicial.advocacy.solicitor",
+  "name": "Solicitor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.advocacy",
+  "description": "A lawyer who advises clients and prepares cases, traditionally without higher-court advocacy.",
+  "global": true,
+  "name_zh": "事务律师"
+ },
+ {
+  "id": "ROLE.legal_judicial.advocacy.prosecutor",
+  "name": "Prosecutor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.advocacy",
+  "description": "A lawyer who brings criminal charges on behalf of the state.",
+  "global": true,
+  "name_zh": "检察官"
+ },
+ {
+  "id": "ROLE.legal_judicial.advocacy.public_defender",
+  "name": "Public Defender",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.advocacy",
+  "description": "A state-appointed lawyer representing defendants who cannot afford counsel.",
+  "global": true,
+  "name_zh": "公设辩护人"
+ },
+ {
+  "id": "ROLE.legal_judicial.jury",
+  "name": "Jury Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial",
+  "description": "Roles of lay citizens who decide facts in a trial.",
+  "global": true,
+  "name_zh": "陪审团角色"
+ },
+ {
+  "id": "ROLE.legal_judicial.jury.juror",
+  "name": "Juror",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.jury",
+  "description": "A citizen sworn to render a verdict in a trial.",
+  "global": true,
+  "name_zh": "陪审员"
+ },
+ {
+  "id": "ROLE.legal_judicial.jury.jury_foreperson",
+  "name": "Jury Foreperson",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.jury",
+  "description": "The juror who presides over deliberations and announces the verdict.",
+  "global": true,
+  "name_zh": "陪审团团长"
+ },
+ {
+  "id": "ROLE.legal_judicial.jury.grand_juror",
+  "name": "Grand Juror",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.jury",
+  "description": "A juror on a panel that decides whether to issue indictments.",
+  "global": true,
+  "name_zh": "大陪审团成员"
+ },
+ {
+  "id": "ROLE.legal_judicial.court_officials",
+  "name": "Court & Registry Officials",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial",
+  "description": "Roles that administer courts and authenticate legal documents.",
+  "global": true,
+  "name_zh": "法院与登记官员"
+ },
+ {
+  "id": "ROLE.legal_judicial.court_officials.bailiff",
+  "name": "Bailiff",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.court_officials",
+  "description": "A court officer who keeps order and carries out the court's commands.",
+  "global": true,
+  "name_zh": "法警"
+ },
+ {
+  "id": "ROLE.legal_judicial.court_officials.court_clerk",
+  "name": "Court Clerk",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.court_officials",
+  "description": "An official who keeps court records and administers proceedings.",
+  "global": true,
+  "name_zh": "法院书记员"
+ },
+ {
+  "id": "ROLE.legal_judicial.court_officials.notary",
+  "name": "Notary",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.court_officials",
+  "description": "An official who witnesses and authenticates legal documents and signatures.",
+  "global": true,
+  "name_zh": "公证人"
+ },
+ {
+  "id": "ROLE.legal_judicial.court_officials.registrar",
+  "name": "Registrar",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.court_officials",
+  "description": "An official who maintains civil records of births, marriages, and deaths.",
+  "global": true,
+  "name_zh": "登记官"
+ },
+ {
+  "id": "ROLE.legal_judicial.court_officials.coroner",
+  "name": "Coroner",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.court_officials",
+  "description": "An official who investigates deaths and determines their cause.",
+  "global": true,
+  "name_zh": "验尸官"
+ },
+ {
+  "id": "ROLE.legal_judicial.parties",
+  "name": "Litigant & Witness Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial",
+  "description": "Roles of parties and evidence-givers in legal proceedings.",
+  "global": true,
+  "name_zh": "诉讼当事人与证人角色"
+ },
+ {
+  "id": "ROLE.legal_judicial.parties.plaintiff",
+  "name": "Plaintiff",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.parties",
+  "description": "The party who brings a civil lawsuit.",
+  "global": true,
+  "name_zh": "原告"
+ },
+ {
+  "id": "ROLE.legal_judicial.parties.defendant",
+  "name": "Defendant",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.parties",
+  "description": "The party accused or sued in a legal proceeding.",
+  "global": true,
+  "name_zh": "被告"
+ },
+ {
+  "id": "ROLE.legal_judicial.parties.witness",
+  "name": "Witness",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.parties",
+  "description": "A person who gives evidence about facts in a case.",
+  "global": true,
+  "name_zh": "证人"
+ },
+ {
+  "id": "ROLE.legal_judicial.parties.expert_witness",
+  "name": "Expert Witness",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.parties",
+  "description": "A specialist who provides technical or scientific testimony.",
+  "global": true,
+  "name_zh": "专家证人"
+ },
+ {
+  "id": "ROLE.legal_judicial.adr",
+  "name": "Alternative Dispute Resolution Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial",
+  "description": "Roles that resolve disputes outside formal court litigation.",
+  "global": true,
+  "name_zh": "替代性争端解决角色"
+ },
+ {
+  "id": "ROLE.legal_judicial.adr.arbitrator",
+  "name": "Arbitrator (Legal)",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.adr",
+  "description": "A neutral person empowered to resolve a dispute by binding decision.",
+  "global": true,
+  "name_zh": "仲裁员"
+ },
+ {
+  "id": "ROLE.legal_judicial.adr.mediator",
+  "name": "Mediator (Legal)",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.legal_judicial.adr",
+  "description": "A neutral facilitator who helps parties negotiate a voluntary settlement.",
+  "global": true,
+  "name_zh": "调解员"
+ },
+ {
+  "id": "ROLE.religious_spiritual",
+  "name": "Religious & Spiritual Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles in organized religion, monastic life, and indigenous spiritual practice.",
+  "global": true,
+  "name_zh": "宗教与灵性角色"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy",
+  "name": "Clergy",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual",
+  "description": "Ordained officials who lead worship and administer sacraments.",
+  "global": true,
+  "name_zh": "神职人员"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.priest",
+  "name": "Priest",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "An ordained minister authorized to perform sacred rites.",
+  "global": true,
+  "name_zh": "神父/祭司"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.pastor",
+  "name": "Pastor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "A clergyperson who shepherds and preaches to a congregation.",
+  "global": true,
+  "name_zh": "牧师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.chaplain",
+  "name": "Chaplain",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "A clergyperson serving a secular institution such as a hospital, prison, or army.",
+  "global": true,
+  "name_zh": "随军/医院牧师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.bishop",
+  "name": "Bishop",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "A senior clergyperson who oversees a diocese.",
+  "global": true,
+  "name_zh": "主教"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.archbishop",
+  "name": "Archbishop",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "A bishop of the highest rank who leads an ecclesiastical province.",
+  "global": true,
+  "name_zh": "大主教"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.cardinal",
+  "name": "Cardinal",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "A high Catholic prelate who elects the pope.",
+  "global": true,
+  "name_zh": "枢机主教"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.pope",
+  "name": "Pope",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "The bishop of Rome and supreme head of the Roman Catholic Church.",
+  "global": true,
+  "name_zh": "教皇"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.deacon",
+  "name": "Deacon",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "An ordained minister ranking below a priest.",
+  "global": true,
+  "name_zh": "执事"
+ },
+ {
+  "id": "ROLE.religious_spiritual.clergy.church_patriarch",
+  "name": "Church Patriarch",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.clergy",
+  "description": "A leading bishop in Eastern Orthodox and Oriental churches.",
+  "global": true,
+  "name_zh": "宗主教"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic",
+  "name": "Monastic & Ascetic Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual",
+  "description": "Roles of those who withdraw from secular life for spiritual discipline.",
+  "global": true,
+  "name_zh": "僧侣与苦修角色"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.monk",
+  "name": "Monk",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A man who lives under religious vows in a monastery.",
+  "global": true,
+  "name_zh": "僧侣/和尚"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.nun",
+  "name": "Nun",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A woman who lives under religious vows in a convent.",
+  "global": true,
+  "name_zh": "修女/尼姑"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.friar",
+  "name": "Friar",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A mendicant monk of an order that serves the wider community.",
+  "global": true,
+  "name_zh": "托钵修士"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.abbot",
+  "name": "Abbot",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "The head of a monastery.",
+  "global": true,
+  "name_zh": "住持/修道院长"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.novice",
+  "name": "Novice",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A person in a probationary period before taking religious vows.",
+  "global": true,
+  "name_zh": "见习修士/沙弥"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.hermit",
+  "name": "Hermit",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A person who lives in solitude for religious devotion.",
+  "global": true,
+  "name_zh": "隐修士"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.bhikkhu",
+  "name": "Bhikkhu",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A fully ordained Buddhist monk in the Theravada tradition.",
+  "global": false,
+  "name_zh": "比丘"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.bhikkhuni",
+  "name": "Bhikkhuni",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A fully ordained Buddhist nun in the Theravada tradition.",
+  "global": false,
+  "name_zh": "比丘尼"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.lama",
+  "name": "Lama",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A Tibetan Buddhist teacher or senior monk.",
+  "global": false,
+  "name_zh": "喇嘛"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.swami",
+  "name": "Swami",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A Hindu ascetic or religious teacher who has renounced worldly life.",
+  "global": false,
+  "name_zh": "斯瓦米/上师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.sadhu",
+  "name": "Sadhu",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A wandering Hindu holy person devoted to spiritual practice.",
+  "global": false,
+  "name_zh": "苦行僧"
+ },
+ {
+  "id": "ROLE.religious_spiritual.monastic.fakir",
+  "name": "Fakir",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.monastic",
+  "description": "A Muslim or Hindu ascetic who lives on alms, often a wandering mystic.",
+  "global": false,
+  "name_zh": "法基尔"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic",
+  "name": "Islamic Religious Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual",
+  "description": "Religious offices and leadership roles within Islam.",
+  "global": true,
+  "name_zh": "伊斯兰宗教角色"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic.imam",
+  "name": "Imam",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.islamic",
+  "description": "A Muslim who leads congregational prayer and often guides a community.",
+  "global": true,
+  "name_zh": "伊玛目"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic.mufti",
+  "name": "Mufti",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.islamic",
+  "description": "A Muslim jurist qualified to issue legal opinions (fatwas).",
+  "global": true,
+  "name_zh": "穆夫提"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic.ayatollah",
+  "name": "Ayatollah",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.islamic",
+  "description": "A high-ranking Shi'a religious authority and jurist.",
+  "global": false,
+  "name_zh": "阿亚图拉"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic.sheikh",
+  "name": "Sheikh",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.islamic",
+  "description": "A respected Muslim elder, scholar, or spiritual leader.",
+  "global": true,
+  "name_zh": "谢赫"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic.muezzin",
+  "name": "Muezzin",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.islamic",
+  "description": "The person who calls Muslims to prayer from a mosque.",
+  "global": true,
+  "name_zh": "宣礼员"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic.hafiz",
+  "name": "Hafiz",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.islamic",
+  "description": "A Muslim who has memorized the entire Quran.",
+  "global": true,
+  "name_zh": "哈菲兹/诵经家"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic.dervish",
+  "name": "Dervish",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.islamic",
+  "description": "A member of a Sufi order practicing poverty and mystical devotion.",
+  "global": false,
+  "name_zh": "德尔维希/苦行僧"
+ },
+ {
+  "id": "ROLE.religious_spiritual.islamic.pir",
+  "name": "Pir",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.islamic",
+  "description": "A Sufi spiritual master and guide.",
+  "global": false,
+  "name_zh": "皮尔/苏非导师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.jewish",
+  "name": "Jewish Religious Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual",
+  "description": "Religious offices and ritual roles within Judaism.",
+  "global": true,
+  "name_zh": "犹太宗教角色"
+ },
+ {
+  "id": "ROLE.religious_spiritual.jewish.rabbi",
+  "name": "Rabbi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.jewish",
+  "description": "A Jewish scholar and teacher qualified to decide religious law.",
+  "global": true,
+  "name_zh": "拉比"
+ },
+ {
+  "id": "ROLE.religious_spiritual.jewish.hazzan",
+  "name": "Hazzan",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.jewish",
+  "description": "A synagogue cantor who leads liturgical chanting.",
+  "global": true,
+  "name_zh": "领唱者",
+  "aliases": [
+   "cantor"
+  ]
+ },
+ {
+  "id": "ROLE.religious_spiritual.jewish.mohel",
+  "name": "Mohel",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.jewish",
+  "description": "A person trained to perform the Jewish ritual of circumcision.",
+  "global": true,
+  "name_zh": "割礼师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.jewish.kohen",
+  "name": "Kohen",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.jewish",
+  "description": "A Jew of priestly descent who performs certain synagogue blessings.",
+  "global": true,
+  "name_zh": "科恩/祭司后裔"
+ },
+ {
+  "id": "ROLE.religious_spiritual.jewish.rebbe",
+  "name": "Rebbe",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.jewish",
+  "description": "The spiritual leader of a Hasidic dynasty.",
+  "global": true,
+  "name_zh": "拉比(哈西德)"
+ },
+ {
+  "id": "ROLE.religious_spiritual.jewish.sofer",
+  "name": "Sofer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.jewish",
+  "description": "A scribe who writes Torah scrolls and sacred texts.",
+  "global": true,
+  "name_zh": "经文抄写员"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern",
+  "name": "East & South Asian Religious Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual",
+  "description": "Spiritual teachers and ritual specialists of Hindu, Buddhist, and Taoist traditions.",
+  "global": true,
+  "name_zh": "东亚与南亚宗教角色"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern.guru",
+  "name": "Guru",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.eastern",
+  "description": "A Hindu, Sikh, or spiritual teacher who transmits knowledge to disciples.",
+  "global": false,
+  "name_zh": "古鲁/上师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern.yogi",
+  "name": "Yogi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.eastern",
+  "description": "A practitioner of yoga who has attained spiritual mastery.",
+  "global": false,
+  "name_zh": "瑜伽士"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern.sannyasi",
+  "name": "Sannyasi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.eastern",
+  "description": "A Hindu who has renounced worldly life in the final stage of life.",
+  "global": false,
+  "name_zh": "遁世者"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern.roshi",
+  "name": "Rōshi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.eastern",
+  "description": "A venerated Zen Buddhist master and teacher.",
+  "global": false,
+  "name_zh": "禅师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern.daoshi",
+  "name": "Daoshi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.eastern",
+  "description": "An ordained Taoist priest who performs rituals and liturgy.",
+  "global": false,
+  "name_zh": "道士"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern.fangshi",
+  "name": "Fangshi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.eastern",
+  "description": "A ritual master and diviner in Chinese folk and Taoist practice.",
+  "global": false,
+  "name_zh": "方士"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern.rinpoche",
+  "name": "Rinpoche",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.eastern",
+  "description": "An honored reincarnate lama in Tibetan Buddhism.",
+  "global": false,
+  "name_zh": "仁波切"
+ },
+ {
+  "id": "ROLE.religious_spiritual.eastern.tulku",
+  "name": "Tulku",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.eastern",
+  "description": "A recognized reincarnation of a previous Buddhist master.",
+  "global": false,
+  "name_zh": "祖古/转世喇嘛"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous",
+  "name": "Indigenous & Folk Religious Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual",
+  "description": "Spiritual specialists of indigenous, folk, and animist traditions.",
+  "global": true,
+  "name_zh": "原住民与民间宗教角色"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.shaman",
+  "name": "Shaman",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A practitioner who enters altered states to mediate with the spirit world.",
+  "global": true,
+  "name_zh": "萨满"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.medicine_person",
+  "name": "Medicine Person",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "An indigenous healer who uses ritual, plants, and spiritual knowledge.",
+  "global": true,
+  "name_zh": "巫医",
+  "aliases": [
+   "medicine man",
+   "medicine woman"
+  ]
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.curandero",
+  "name": "Curandero",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A Latin American folk healer combining Catholic and indigenous practice.",
+  "global": false,
+  "name_zh": "民间治疗师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.babalawo",
+  "name": "Babalawo",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A Yoruba Ifá divination priest.",
+  "global": false,
+  "name_zh": "巴巴拉沃"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.sangoma",
+  "name": "Sangoma",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A southern African diviner and healer who communicates with ancestors.",
+  "global": false,
+  "name_zh": "桑戈马"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.diviner",
+  "name": "Diviner",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A specialist who foretells events and reads omens through ritual methods.",
+  "global": true,
+  "name_zh": "占卜师"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.spirit_medium",
+  "name": "Spirit Medium",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A person who is possessed by spirits to convey messages to the living.",
+  "global": true,
+  "name_zh": "灵媒"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.druid",
+  "name": "Druid",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A priest and learned class of the ancient Celtic peoples.",
+  "global": true,
+  "name_zh": "德鲁伊",
+  "historical": true
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.houngan",
+  "name": "Houngan",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A male Vodou priest in Haiti.",
+  "global": false,
+  "name_zh": "伏都男祭司"
+ },
+ {
+  "id": "ROLE.religious_spiritual.indigenous.mambo",
+  "name": "Mambo",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.indigenous",
+  "description": "A female Vodou priestess in Haiti.",
+  "global": false,
+  "name_zh": "伏都女祭司"
+ },
+ {
+  "id": "ROLE.religious_spiritual.lay",
+  "name": "Lay Religious Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual",
+  "description": "Non-ordained roles of service and leadership within religious communities.",
+  "global": true,
+  "name_zh": "平信徒角色"
+ },
+ {
+  "id": "ROLE.religious_spiritual.lay.layperson",
+  "name": "Layperson",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.lay",
+  "description": "A non-ordained member of a religious community.",
+  "global": true,
+  "name_zh": "平信徒",
+  "aliases": [
+   "laity"
+  ]
+ },
+ {
+  "id": "ROLE.religious_spiritual.lay.altar_server",
+  "name": "Altar Server",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.lay",
+  "description": "A lay person, often a youth, who assists the clergy during services.",
+  "global": true,
+  "name_zh": "祭台辅佐"
+ },
+ {
+  "id": "ROLE.religious_spiritual.lay.lector",
+  "name": "Lector",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.lay",
+  "description": "A lay person who reads scripture aloud during worship.",
+  "global": true,
+  "name_zh": "读经员",
+  "aliases": [
+   "reader"
+  ]
+ },
+ {
+  "id": "ROLE.religious_spiritual.lay.catechist",
+  "name": "Catechist",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.lay",
+  "description": "A lay teacher of religious doctrine to converts and children.",
+  "global": true,
+  "name_zh": "传道员"
+ },
+ {
+  "id": "ROLE.religious_spiritual.lay.missionary",
+  "name": "Missionary",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.lay",
+  "description": "A person sent to spread a religion and serve in another community.",
+  "global": true,
+  "name_zh": "传教士"
+ },
+ {
+  "id": "ROLE.religious_spiritual.lay.evangelist",
+  "name": "Evangelist",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.lay",
+  "description": "A person who preaches the gospel to convert others.",
+  "global": true,
+  "name_zh": "布道家"
+ },
+ {
+  "id": "ROLE.religious_spiritual.lay.preacher",
+  "name": "Preacher",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.religious_spiritual.lay",
+  "description": "A person who delivers sermons, often without formal ordination.",
+  "global": true,
+  "name_zh": "讲道者"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual",
+  "name": "Ceremonial & Ritual Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles in weddings, funerals, festivals, and other rites of passage.",
+  "global": true,
+  "name_zh": "礼仪与仪式角色"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.officiant",
+  "name": "Officiant Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual",
+  "description": "Roles that lead or preside over ceremonies.",
+  "global": true,
+  "name_zh": "司仪角色"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.officiant.celebrant",
+  "name": "Celebrant",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.officiant",
+  "description": "A person who performs a rite, especially a marriage or memorial.",
+  "global": true,
+  "name_zh": "司仪/证婚人"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.officiant.master_of_ceremonies",
+  "name": "Master of Ceremonies",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.officiant",
+  "description": "A host who introduces and guides the events of a ceremony or banquet.",
+  "global": true,
+  "name_zh": "司仪"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.wedding",
+  "name": "Wedding Party Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual",
+  "description": "Supporting roles in a wedding ceremony and celebration.",
+  "global": true,
+  "name_zh": "婚礼角色"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.wedding.best_man",
+  "name": "Best Man",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.wedding",
+  "description": "The groom's principal male attendant and witness.",
+  "global": true,
+  "name_zh": "伴郎"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.wedding.maid_of_honor",
+  "name": "Maid of Honor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.wedding",
+  "description": "The bride's principal female attendant.",
+  "global": true,
+  "name_zh": "伴娘(主)"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.wedding.bridesmaid",
+  "name": "Bridesmaid",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.wedding",
+  "description": "A female attendant who supports the bride.",
+  "global": true,
+  "name_zh": "伴娘"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.wedding.groomsman",
+  "name": "Groomsman",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.wedding",
+  "description": "A male attendant who supports the groom.",
+  "global": true,
+  "name_zh": "伴郎(陪)"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.wedding.flower_girl",
+  "name": "Flower Girl",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.wedding",
+  "description": "A young girl who scatters petals before the bride.",
+  "global": true,
+  "name_zh": "花童(女)"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.wedding.matchmaker",
+  "name": "Matchmaker",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.wedding",
+  "description": "A person who arranges introductions and marriages between families.",
+  "global": true,
+  "name_zh": "媒人"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.wedding.nakodo",
+  "name": "Nakodo",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.wedding",
+  "description": "A Japanese go-between who arranges marriages and mediates between families.",
+  "global": false,
+  "name_zh": "仲人"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.funeral",
+  "name": "Funeral & Mourning Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual",
+  "description": "Roles in death rites and the expression of mourning.",
+  "global": true,
+  "name_zh": "葬礼与哀悼角色"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.funeral.pallbearer",
+  "name": "Pallbearer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.funeral",
+  "description": "A person who carries or escorts a coffin at a funeral.",
+  "global": true,
+  "name_zh": "抬棺人"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.funeral.eulogist",
+  "name": "Eulogist",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.funeral",
+  "description": "A person who delivers a speech praising the deceased.",
+  "global": true,
+  "name_zh": "致悼词者"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.funeral.mourner",
+  "name": "Mourner",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.funeral",
+  "description": "A person who grieves and participates in funeral rites.",
+  "global": true,
+  "name_zh": "哀悼者"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.funeral.chief_mourner",
+  "name": "Chief Mourner",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.funeral",
+  "description": "The principal relative who leads mourning and funeral duties.",
+  "global": true,
+  "name_zh": "主祭人"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.festival",
+  "name": "Festival & Pageant Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual",
+  "description": "Roles in seasonal festivals, carnivals, and public pageants.",
+  "global": true,
+  "name_zh": "节庆与巡游角色"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.festival.carnival_king",
+  "name": "Carnival King",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.festival",
+  "description": "A figurehead who presides over a carnival celebration.",
+  "global": true,
+  "name_zh": "狂欢节之王"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.festival.festival_queen",
+  "name": "Festival Queen",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.festival",
+  "description": "A young woman crowned to preside over a local festival.",
+  "global": true,
+  "name_zh": "节庆女王"
+ },
+ {
+  "id": "ROLE.ceremonial_ritual.festival.masquerader",
+  "name": "Masquerader",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.ceremonial_ritual.festival",
+  "description": "A performer who wears a mask and costume in carnival or masquerade.",
+  "global": false,
+  "name_zh": "面具舞者"
+ },
+ {
+  "id": "ROLE.gender",
+  "name": "Gender Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Social roles assigned to or associated with gender identities.",
+  "global": true,
+  "name_zh": "性别角色"
+ },
+ {
+  "id": "ROLE.gender.cis_binary",
+  "name": "Binary Gender Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender",
+  "description": "Roles tied to the traditional male/female gender binary.",
+  "global": true,
+  "name_zh": "二元性别角色"
+ },
+ {
+  "id": "ROLE.gender.cis_binary.man",
+  "name": "Man",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.cis_binary",
+  "description": "The adult male gender role in a society.",
+  "global": true,
+  "name_zh": "男人"
+ },
+ {
+  "id": "ROLE.gender.cis_binary.woman",
+  "name": "Woman",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.cis_binary",
+  "description": "The adult female gender role in a society.",
+  "global": true,
+  "name_zh": "女人"
+ },
+ {
+  "id": "ROLE.gender.cis_binary.bachelor",
+  "name": "Bachelor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.cis_binary",
+  "description": "An unmarried man, especially one past the usual marrying age.",
+  "global": true,
+  "name_zh": "单身汉"
+ },
+ {
+  "id": "ROLE.gender.cis_binary.spinster",
+  "name": "Spinster",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.cis_binary",
+  "description": "An unmarried woman past the usual marrying age, historically stigmatized.",
+  "global": true,
+  "name_zh": "老姑娘",
+  "historical": true
+ },
+ {
+  "id": "ROLE.gender.cis_binary.housewife",
+  "name": "Housewife",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.cis_binary",
+  "description": "A woman whose primary role is managing a household and family.",
+  "global": true,
+  "name_zh": "家庭主妇",
+  "aliases": [
+   "homemaker"
+  ]
+ },
+ {
+  "id": "ROLE.gender.cis_binary.househusband",
+  "name": "Househusband",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.cis_binary",
+  "description": "A man whose primary role is managing a household and family.",
+  "global": true,
+  "name_zh": "家庭主夫"
+ },
+ {
+  "id": "ROLE.gender.third_gender",
+  "name": "Third-Gender & Gender-Variant Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender",
+  "description": "Culturally recognized roles beyond the male/female binary.",
+  "global": true,
+  "name_zh": "第三性与性别多元角色"
+ },
+ {
+  "id": "ROLE.gender.third_gender.hijra",
+  "name": "Hijra",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.third_gender",
+  "description": "A South Asian third-gender community with its own social and ritual roles.",
+  "global": false,
+  "name_zh": "海吉拉"
+ },
+ {
+  "id": "ROLE.gender.third_gender.two_spirit",
+  "name": "Two-Spirit",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.third_gender",
+  "description": "An Indigenous North American person embodying both masculine and feminine roles.",
+  "global": false,
+  "name_zh": "双灵"
+ },
+ {
+  "id": "ROLE.gender.third_gender.faafafine",
+  "name": "Fa'afafine",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.third_gender",
+  "description": "A Samoan person assigned male at birth who lives a feminine social role.",
+  "global": false,
+  "name_zh": "法法菲内"
+ },
+ {
+  "id": "ROLE.gender.third_gender.kathoey",
+  "name": "Kathoey",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.third_gender",
+  "description": "A Thai transgender or third-gender woman.",
+  "global": false,
+  "name_zh": "人妖/第三性"
+ },
+ {
+  "id": "ROLE.gender.third_gender.muxe",
+  "name": "Muxe",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.third_gender",
+  "description": "A Zapotec person assigned male at birth who occupies a distinct third-gender role.",
+  "global": false,
+  "name_zh": "穆赫"
+ },
+ {
+  "id": "ROLE.gender.third_gender.sworn_virgin",
+  "name": "Sworn Virgin",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.third_gender",
+  "description": "An Albanian woman who takes a vow of chastity and lives as a man.",
+  "global": false,
+  "name_zh": "守贞女/巴尔干",
+  "aliases": [
+   "burrnesha"
+  ]
+ },
+ {
+  "id": "ROLE.gender.third_gender.wakashu",
+  "name": "Wakashu",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.gender.third_gender",
+  "description": "A pre-adult male in Edo-period Japan occupying a distinct aesthetic-gender role.",
+  "global": false,
+  "name_zh": "若众",
+  "historical": true
+ },
+ {
+  "id": "ROLE.age_life_stage",
+  "name": "Age-Graded & Life-Stage Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles defined by a person's age or stage in the life course.",
+  "global": true,
+  "name_zh": "年龄与人生阶段角色"
+ },
+ {
+  "id": "ROLE.age_life_stage.childhood",
+  "name": "Childhood & Youth Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage",
+  "description": "Age roles of infancy through youth.",
+  "global": true,
+  "name_zh": "儿童与青年角色"
+ },
+ {
+  "id": "ROLE.age_life_stage.childhood.infant",
+  "name": "Infant",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.childhood",
+  "description": "A child in the first year of life.",
+  "global": true,
+  "name_zh": "婴儿"
+ },
+ {
+  "id": "ROLE.age_life_stage.childhood.toddler",
+  "name": "Toddler",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.childhood",
+  "description": "A young child learning to walk, roughly one to three years old.",
+  "global": true,
+  "name_zh": "幼儿"
+ },
+ {
+  "id": "ROLE.age_life_stage.childhood.child",
+  "name": "Child (Age)",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.childhood",
+  "description": "A person between infancy and adolescence.",
+  "global": true,
+  "name_zh": "儿童"
+ },
+ {
+  "id": "ROLE.age_life_stage.childhood.adolescent",
+  "name": "Adolescent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.childhood",
+  "description": "A person in the transitional stage between childhood and adulthood.",
+  "global": true,
+  "name_zh": "青少年"
+ },
+ {
+  "id": "ROLE.age_life_stage.childhood.youth",
+  "name": "Youth",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.childhood",
+  "description": "A young person, especially one in the transition to adult roles.",
+  "global": true,
+  "name_zh": "青年"
+ },
+ {
+  "id": "ROLE.age_life_stage.adulthood",
+  "name": "Adult & Senior Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage",
+  "description": "Age roles from adulthood through old age.",
+  "global": true,
+  "name_zh": "成年与老年角色"
+ },
+ {
+  "id": "ROLE.age_life_stage.adulthood.young_adult",
+  "name": "Young Adult",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.adulthood",
+  "description": "A person in early adulthood, roughly twenties to thirties.",
+  "global": true,
+  "name_zh": "青年成人"
+ },
+ {
+  "id": "ROLE.age_life_stage.adulthood.adult",
+  "name": "Adult",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.adulthood",
+  "description": "A person who has reached the age of majority.",
+  "global": true,
+  "name_zh": "成年人"
+ },
+ {
+  "id": "ROLE.age_life_stage.adulthood.senior_citizen",
+  "name": "Senior Citizen",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.adulthood",
+  "description": "An older person, typically past retirement age.",
+  "global": true,
+  "name_zh": "老年人"
+ },
+ {
+  "id": "ROLE.age_life_stage.adulthood.elder",
+  "name": "Elder",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.adulthood",
+  "description": "An older person whose age confers respect and advisory status.",
+  "global": true,
+  "name_zh": "长者/耆老"
+ },
+ {
+  "id": "ROLE.age_life_stage.adulthood.retiree",
+  "name": "Retiree",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.adulthood",
+  "description": "A person who has withdrawn from paid work.",
+  "global": true,
+  "name_zh": "退休人员"
+ },
+ {
+  "id": "ROLE.age_life_stage.rites_of_passage",
+  "name": "Coming-of-Age Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage",
+  "description": "Roles marking the transition to adult status through ritual.",
+  "global": true,
+  "name_zh": "成年礼角色"
+ },
+ {
+  "id": "ROLE.age_life_stage.rites_of_passage.initiate",
+  "name": "Initiate",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.rites_of_passage",
+  "description": "A person undergoing a rite of passage into a new status.",
+  "global": true,
+  "name_zh": "受礼者"
+ },
+ {
+  "id": "ROLE.age_life_stage.rites_of_passage.debutante",
+  "name": "Debutante",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.rites_of_passage",
+  "description": "A young woman formally introduced to adult society.",
+  "global": true,
+  "name_zh": "初入社交界少女"
+ },
+ {
+  "id": "ROLE.age_life_stage.rites_of_passage.quinceanera",
+  "name": "Quinceañera",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.rites_of_passage",
+  "description": "A Latin American girl celebrating her fifteenth-birthday coming of age.",
+  "global": false,
+  "name_zh": "成人礼(拉美)"
+ },
+ {
+  "id": "ROLE.age_life_stage.rites_of_passage.seijin_shiki",
+  "name": "Seijin-shiki Adult",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.rites_of_passage",
+  "description": "A Japanese young person recognized as an adult at the coming-of-age ceremony.",
+  "global": false,
+  "name_zh": "成人式新成人"
+ },
+ {
+  "id": "ROLE.age_life_stage.life_transition",
+  "name": "Life-Transition Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage",
+  "description": "Roles defined by major transitions in the life course.",
+  "global": true,
+  "name_zh": "人生转折角色"
+ },
+ {
+  "id": "ROLE.age_life_stage.life_transition.newlywed",
+  "name": "Newlywed",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.life_transition",
+  "description": "A person recently married.",
+  "global": true,
+  "name_zh": "新婚者"
+ },
+ {
+  "id": "ROLE.age_life_stage.life_transition.expectant_parent",
+  "name": "Expectant Parent",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.life_transition",
+  "description": "A person expecting the birth of a child.",
+  "global": true,
+  "name_zh": "准父母"
+ },
+ {
+  "id": "ROLE.age_life_stage.life_transition.empty_nester",
+  "name": "Empty Nester",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.age_life_stage.life_transition",
+  "description": "A parent whose children have grown and left home.",
+  "global": true,
+  "name_zh": "空巢父母"
+ },
+ {
+  "id": "ROLE.clan_village",
+  "name": "Clan & Village Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles of leadership and specialists within clans, villages, and tribes.",
+  "global": true,
+  "name_zh": "宗族与村落角色"
+ },
+ {
+  "id": "ROLE.clan_village.clan",
+  "name": "Clan Leadership Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village",
+  "description": "Roles governing descent groups and clans.",
+  "global": true,
+  "name_zh": "宗族领导角色"
+ },
+ {
+  "id": "ROLE.clan_village.clan.clan_chief",
+  "name": "Clan Chief",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.clan",
+  "description": "The hereditary or elected head of a clan.",
+  "global": true,
+  "name_zh": "族长"
+ },
+ {
+  "id": "ROLE.clan_village.clan.lineage_head",
+  "name": "Lineage Head",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.clan",
+  "description": "The head of a lineage segment, often keeper of ancestral rites.",
+  "global": true,
+  "name_zh": "房长/宗支长"
+ },
+ {
+  "id": "ROLE.clan_village.clan.clan_mother",
+  "name": "Clan Mother",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.clan",
+  "description": "A Haudenosaunee woman who selects chiefs and holds clan authority.",
+  "global": false,
+  "name_zh": "氏族母亲"
+ },
+ {
+  "id": "ROLE.clan_village.clan.ancestral_shrine_keeper",
+  "name": "Ancestral Shrine Keeper",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.clan",
+  "description": "A person who maintains an ancestral shrine and performs rites.",
+  "global": true,
+  "name_zh": "祠堂守祠人"
+ },
+ {
+  "id": "ROLE.clan_village.village",
+  "name": "Village Leadership Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village",
+  "description": "Roles governing and representing a village community.",
+  "global": true,
+  "name_zh": "村落领导角色"
+ },
+ {
+  "id": "ROLE.clan_village.village.village_head",
+  "name": "Village Head",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.village",
+  "description": "The chief or headman of a village.",
+  "global": true,
+  "name_zh": "村长",
+  "aliases": [
+   "headman"
+  ]
+ },
+ {
+  "id": "ROLE.clan_village.village.village_headwoman",
+  "name": "Village Headwoman",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.village",
+  "description": "A female head of a village.",
+  "global": true,
+  "name_zh": "女村长"
+ },
+ {
+  "id": "ROLE.clan_village.village.council_of_elders_member",
+  "name": "Council of Elders Member",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.village",
+  "description": "A member of a body of elders who govern a community.",
+  "global": true,
+  "name_zh": "长老会成员"
+ },
+ {
+  "id": "ROLE.clan_village.village.bao_head",
+  "name": "Bao Head",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.village",
+  "description": "The head of a bao, a grassroots mutual-responsibility unit in imperial China.",
+  "global": false,
+  "name_zh": "保长",
+  "historical": true
+ },
+ {
+  "id": "ROLE.clan_village.village.lizheng",
+  "name": "Lizheng",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.village",
+  "description": "A village head in the traditional Chinese administrative system.",
+  "global": false,
+  "name_zh": "里正",
+  "historical": true
+ },
+ {
+  "id": "ROLE.clan_village.village.market_head",
+  "name": "Market Head",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.village",
+  "description": "A woman who heads a market and its traders, as the Yoruba iyaloja.",
+  "global": false,
+  "name_zh": "集市首领",
+  "aliases": [
+   "iyaloja"
+  ]
+ },
+ {
+  "id": "ROLE.clan_village.tribal",
+  "name": "Tribal Chieftaincy Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village",
+  "description": "Sovereign and chiefly roles of tribal societies worldwide.",
+  "global": true,
+  "name_zh": "部落酋长角色"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.tribal_chief",
+  "name": "Tribal Chief",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "The leader of a tribe or band.",
+  "global": true,
+  "name_zh": "部落酋长"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.paramount_chief",
+  "name": "Paramount Chief",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A chief who ranks above other chiefs, ruling a larger polity.",
+  "global": true,
+  "name_zh": "大酋长"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.big_man",
+  "name": "Big Man",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A Melanesian leader who builds influence through gift-giving and reciprocity.",
+  "global": false,
+  "name_zh": "大人(美拉尼西亚)"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.sachem",
+  "name": "Sachem",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A chief or leader among Algonquian and Iroquoian peoples.",
+  "global": false,
+  "name_zh": "萨钦"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.ariki",
+  "name": "Ariki",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A hereditary Polynesian chief of high rank.",
+  "global": false,
+  "name_zh": "阿里基"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.rangatira",
+  "name": "Rangatira",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A Māori hereditary chief and leader of a hapū or iwi.",
+  "global": false,
+  "name_zh": "朗加蒂拉"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.matai",
+  "name": "Matai",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A Samoan family chief who holds a title and governs family land.",
+  "global": false,
+  "name_zh": "马泰"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.oba",
+  "name": "Oba",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A Yoruba king who rules a town or kingdom.",
+  "global": false,
+  "name_zh": "奥巴"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.kgosi",
+  "name": "Kgosi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A Tswana hereditary chief.",
+  "global": false,
+  "name_zh": "科西"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.asantehene",
+  "name": "Asantehene",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "The paramount king of the Asante people of Ghana.",
+  "global": false,
+  "name_zh": "阿散蒂王"
+ },
+ {
+  "id": "ROLE.clan_village.tribal.queen_mother",
+  "name": "Queen Mother (Akan)",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.tribal",
+  "description": "A senior Akan royal woman who counsels the chief and nominates successors.",
+  "global": false,
+  "name_zh": "王太后(阿肯)",
+  "aliases": [
+   "omaa"
+  ]
+ },
+ {
+  "id": "ROLE.clan_village.specialist",
+  "name": "Clan & Village Specialist Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village",
+  "description": "Specialist roles serving clan and village governance and memory.",
+  "global": true,
+  "name_zh": "宗族与村落专职角色"
+ },
+ {
+  "id": "ROLE.clan_village.specialist.griot",
+  "name": "Griot",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.specialist",
+  "description": "A West African hereditary oral historian, praise-singer, and advisor.",
+  "global": false,
+  "name_zh": "格里奥",
+  "aliases": [
+   "jeli"
+  ]
+ },
+ {
+  "id": "ROLE.clan_village.specialist.okyeame",
+  "name": "Okyeame",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.specialist",
+  "description": "An Akan royal spokesperson and linguist who relays the chief's words.",
+  "global": false,
+  "name_zh": "奥基亚梅"
+ },
+ {
+  "id": "ROLE.clan_village.specialist.town_crier",
+  "name": "Town Crier",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.specialist",
+  "description": "A person who makes public proclamations in a town or village.",
+  "global": true,
+  "name_zh": "鸣锣告示者",
+  "historical": true
+ },
+ {
+  "id": "ROLE.clan_village.specialist.village_mediator",
+  "name": "Village Mediator",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.clan_village.specialist",
+  "description": "A respected villager who settles disputes by customary means.",
+  "global": true,
+  "name_zh": "村里调解人"
+ },
+ {
+  "id": "ROLE.informal_honorific",
+  "name": "Informal & Honorific Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Non-institutional roles of mentorship, status, and respectful address.",
+  "global": true,
+  "name_zh": "非正式与尊称角色"
+ },
+ {
+  "id": "ROLE.informal_honorific.mentorship",
+  "name": "Mentorship Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific",
+  "description": "Roles of guidance, teaching, and sponsorship between individuals.",
+  "global": true,
+  "name_zh": "师徒指导角色"
+ },
+ {
+  "id": "ROLE.informal_honorific.mentorship.mentor",
+  "name": "Mentor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.mentorship",
+  "description": "An experienced person who guides a less experienced one.",
+  "global": true,
+  "name_zh": "导师"
+ },
+ {
+  "id": "ROLE.informal_honorific.mentorship.mentee",
+  "name": "Mentee",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.mentorship",
+  "description": "A person guided and supported by a mentor.",
+  "global": true,
+  "name_zh": "受导者"
+ },
+ {
+  "id": "ROLE.informal_honorific.mentorship.role_model",
+  "name": "Role Model",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.mentorship",
+  "description": "A person whose behavior others admire and imitate.",
+  "global": true,
+  "name_zh": "榜样"
+ },
+ {
+  "id": "ROLE.informal_honorific.mentorship.senpai",
+  "name": "Senpai",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.mentorship",
+  "description": "A senior peer who mentors juniors in Japanese organizations.",
+  "global": false,
+  "name_zh": "前辈"
+ },
+ {
+  "id": "ROLE.informal_honorific.mentorship.kohai",
+  "name": "Kōhai",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.mentorship",
+  "description": "A junior peer who defers to a senpai in Japanese organizations.",
+  "global": false,
+  "name_zh": "后辈"
+ },
+ {
+  "id": "ROLE.informal_honorific.mentorship.ustad",
+  "name": "Ustad",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.mentorship",
+  "description": "A master teacher of music or craft in South Asian tradition.",
+  "global": false,
+  "name_zh": "乌斯塔德"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position",
+  "name": "Informal Social Position Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific",
+  "description": "Roles describing a person's informal standing within a group.",
+  "global": true,
+  "name_zh": "非正式社会位置角色"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position.leader",
+  "name": "Leader",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.social_position",
+  "description": "A person who guides and influences a group by choice or recognition.",
+  "global": true,
+  "name_zh": "领导者"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position.follower",
+  "name": "Follower",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.social_position",
+  "description": "A person who supports and defers to a leader.",
+  "global": true,
+  "name_zh": "追随者"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position.insider",
+  "name": "Insider",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.social_position",
+  "description": "A member who belongs to and is accepted by a group.",
+  "global": true,
+  "name_zh": "圈内人"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position.outsider",
+  "name": "Outsider",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.social_position",
+  "description": "A person who is not part of or accepted by a group.",
+  "global": true,
+  "name_zh": "外人"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position.intermediary",
+  "name": "Intermediary",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.social_position",
+  "description": "A person who acts between two parties to facilitate an exchange.",
+  "global": true,
+  "name_zh": "中间人"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position.broker",
+  "name": "Social Broker",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.social_position",
+  "description": "A person who uses connections to link people and resources for benefit.",
+  "global": true,
+  "name_zh": "掮客/关系中间人"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position.opinion_leader",
+  "name": "Opinion Leader",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.social_position",
+  "description": "A person whose views shape the attitudes of others.",
+  "global": true,
+  "name_zh": "意见领袖"
+ },
+ {
+  "id": "ROLE.informal_honorific.social_position.influencer",
+  "name": "Influencer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.social_position",
+  "description": "A person who shapes audience behavior, especially through social media.",
+  "global": true,
+  "name_zh": "网红/影响者"
+ },
+ {
+  "id": "ROLE.informal_honorific.status",
+  "name": "Status & Renown Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific",
+  "description": "Roles of recognized distinction, fame, or eminence.",
+  "global": true,
+  "name_zh": "地位与声望角色"
+ },
+ {
+  "id": "ROLE.informal_honorific.status.socialite",
+  "name": "Socialite",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.status",
+  "description": "A person prominent in fashionable high society.",
+  "global": true,
+  "name_zh": "社交名流"
+ },
+ {
+  "id": "ROLE.informal_honorific.status.celebrity",
+  "name": "Celebrity",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.status",
+  "description": "A widely known and publicized person.",
+  "global": true,
+  "name_zh": "名人"
+ },
+ {
+  "id": "ROLE.informal_honorific.status.icon",
+  "name": "Icon",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.status",
+  "description": "A person regarded as a symbolic representative of a culture or cause.",
+  "global": true,
+  "name_zh": "偶像/象征人物"
+ },
+ {
+  "id": "ROLE.informal_honorific.status.folk_hero",
+  "name": "Folk Hero",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.status",
+  "description": "A person celebrated in popular tradition for embodying communal values.",
+  "global": true,
+  "name_zh": "民间英雄"
+ },
+ {
+  "id": "ROLE.informal_honorific.status.elder_statesman",
+  "name": "Elder Statesman",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.status",
+  "description": "A retired senior leader whose counsel is respected.",
+  "global": true,
+  "name_zh": "元老"
+ },
+ {
+  "id": "ROLE.informal_honorific.status.emeritus",
+  "name": "Emeritus",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.status",
+  "description": "A retired holder of a title or office who retains an honorary status.",
+  "global": true,
+  "name_zh": "荣休者"
+ },
+ {
+  "id": "ROLE.informal_honorific.status.local_notable",
+  "name": "Local Notable",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.status",
+  "description": "A locally prominent and respected person of influence.",
+  "global": true,
+  "name_zh": "乡贤/地方名流"
+ },
+ {
+  "id": "ROLE.informal_honorific.honorific",
+  "name": "Honorific & Titular Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific",
+  "description": "Titles and forms of respectful address marking social distinction.",
+  "global": true,
+  "name_zh": "尊称与头衔角色"
+ },
+ {
+  "id": "ROLE.informal_honorific.honorific.sir",
+  "name": "Sir",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.honorific",
+  "description": "A man holding a knighthood or baronetcy title of address.",
+  "global": true,
+  "name_zh": "爵士"
+ },
+ {
+  "id": "ROLE.informal_honorific.honorific.dame",
+  "name": "Dame",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.honorific",
+  "description": "A woman holding the female equivalent of a knighthood.",
+  "global": true,
+  "name_zh": "女爵士"
+ },
+ {
+  "id": "ROLE.informal_honorific.honorific.lord",
+  "name": "Lord",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.honorific",
+  "description": "A courtesy title of address for a peer or nobleman.",
+  "global": true,
+  "name_zh": "勋爵/大人"
+ },
+ {
+  "id": "ROLE.informal_honorific.honorific.lady",
+  "name": "Lady",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.honorific",
+  "description": "A courtesy title of address for a peeress or noblewoman.",
+  "global": true,
+  "name_zh": "夫人/女勋爵"
+ },
+ {
+  "id": "ROLE.informal_honorific.honorific.don",
+  "name": "Don",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.honorific",
+  "description": "A Spanish and Italian honorific prefix for a respected man or woman.",
+  "global": false,
+  "name_zh": "堂/先生(西语)",
+  "aliases": [
+   "doña"
+  ]
+ },
+ {
+  "id": "ROLE.informal_honorific.honorific.comrade",
+  "name": "Comrade",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.informal_honorific.honorific",
+  "description": "A form of address among fellow members of a party or movement.",
+  "global": true,
+  "name_zh": "同志"
+ },
+ {
+  "id": "ROLE.educational",
+  "name": "Educational & Apprentice Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles of learning, teaching, and apprenticeship.",
+  "global": true,
+  "name_zh": "教育与学徒角色"
+ },
+ {
+  "id": "ROLE.educational.learner",
+  "name": "Learner Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational",
+  "description": "Roles of those acquiring knowledge, skill, or training.",
+  "global": true,
+  "name_zh": "学习者角色"
+ },
+ {
+  "id": "ROLE.educational.learner.student",
+  "name": "Student",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.learner",
+  "description": "A person enrolled in formal education.",
+  "global": true,
+  "name_zh": "学生"
+ },
+ {
+  "id": "ROLE.educational.learner.scholar",
+  "name": "Scholar",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.learner",
+  "description": "A person devoted to advanced study and research.",
+  "global": true,
+  "name_zh": "学者"
+ },
+ {
+  "id": "ROLE.educational.learner.apprentice",
+  "name": "Apprentice",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.learner",
+  "description": "A person learning a trade under a master.",
+  "global": true,
+  "name_zh": "学徒"
+ },
+ {
+  "id": "ROLE.educational.learner.intern",
+  "name": "Intern",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.learner",
+  "description": "A student or recent graduate gaining supervised work experience.",
+  "global": true,
+  "name_zh": "实习生"
+ },
+ {
+  "id": "ROLE.educational.learner.alumnus",
+  "name": "Alumnus",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.learner",
+  "description": "A former student of a school or university.",
+  "global": true,
+  "name_zh": "校友",
+  "aliases": [
+   "alumna"
+  ]
+ },
+ {
+  "id": "ROLE.educational.learner.autodidact",
+  "name": "Autodidact",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.learner",
+  "description": "A self-taught person who learns without formal instruction.",
+  "global": true,
+  "name_zh": "自学者"
+ },
+ {
+  "id": "ROLE.educational.instructor",
+  "name": "Instructor & Peer Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational",
+  "description": "Roles of teaching and peer leadership in learning settings.",
+  "global": true,
+  "name_zh": "教学与同伴角色"
+ },
+ {
+  "id": "ROLE.educational.instructor.teacher",
+  "name": "Teacher",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.instructor",
+  "description": "A person who instructs students in a school or classroom.",
+  "global": true,
+  "name_zh": "教师"
+ },
+ {
+  "id": "ROLE.educational.instructor.tutor",
+  "name": "Tutor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.instructor",
+  "description": "A person who gives individual or small-group instruction.",
+  "global": true,
+  "name_zh": "家教/辅导教师"
+ },
+ {
+  "id": "ROLE.educational.instructor.class_monitor",
+  "name": "Class Monitor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.instructor",
+  "description": "A student who assists the teacher and leads classmates.",
+  "global": true,
+  "name_zh": "班长"
+ },
+ {
+  "id": "ROLE.educational.instructor.prefect",
+  "name": "Prefect",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.instructor",
+  "description": "A senior student with authority over younger students.",
+  "global": true,
+  "name_zh": "级长/学生干部"
+ },
+ {
+  "id": "ROLE.educational.instructor.classmate",
+  "name": "Classmate",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.educational.instructor",
+  "description": "A fellow member of the same class or cohort.",
+  "global": true,
+  "name_zh": "同学"
+ },
+ {
+  "id": "ROLE.economic_social",
+  "name": "Economic & Exchange Social Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Roles defined by property, credit, and exchange relations.",
+  "global": true,
+  "name_zh": "经济与交换社会角色"
+ },
+ {
+  "id": "ROLE.economic_social.property",
+  "name": "Property & Tenure Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social",
+  "description": "Roles defined by ownership and occupancy of property.",
+  "global": true,
+  "name_zh": "财产与租住角色"
+ },
+ {
+  "id": "ROLE.economic_social.property.landlord",
+  "name": "Landlord",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.property",
+  "description": "A person who owns and rents out property.",
+  "global": true,
+  "name_zh": "房东"
+ },
+ {
+  "id": "ROLE.economic_social.property.tenant",
+  "name": "Tenant",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.property",
+  "description": "A person who occupies property under a lease.",
+  "global": true,
+  "name_zh": "租户"
+ },
+ {
+  "id": "ROLE.economic_social.property.homeowner",
+  "name": "Homeowner",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.property",
+  "description": "A person who owns the home they live in.",
+  "global": true,
+  "name_zh": "房主"
+ },
+ {
+  "id": "ROLE.economic_social.property.squatter",
+  "name": "Squatter",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.property",
+  "description": "A person who occupies unowned or abandoned property without title.",
+  "global": true,
+  "name_zh": "擅自占住者"
+ },
+ {
+  "id": "ROLE.economic_social.credit",
+  "name": "Credit & Obligation Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social",
+  "description": "Roles defined by lending, borrowing, and guaranteeing debts.",
+  "global": true,
+  "name_zh": "借贷与债务角色"
+ },
+ {
+  "id": "ROLE.economic_social.credit.creditor",
+  "name": "Creditor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.credit",
+  "description": "A person to whom money is owed.",
+  "global": true,
+  "name_zh": "债权人"
+ },
+ {
+  "id": "ROLE.economic_social.credit.debtor",
+  "name": "Debtor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.credit",
+  "description": "A person who owes money.",
+  "global": true,
+  "name_zh": "债务人"
+ },
+ {
+  "id": "ROLE.economic_social.credit.guarantor",
+  "name": "Guarantor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.credit",
+  "description": "A person who pledges to repay another's debt if they default.",
+  "global": true,
+  "name_zh": "担保人"
+ },
+ {
+  "id": "ROLE.economic_social.exchange",
+  "name": "Exchange & Client Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social",
+  "description": "Roles in buying, selling, and client relationships.",
+  "global": true,
+  "name_zh": "交换与客户角色"
+ },
+ {
+  "id": "ROLE.economic_social.exchange.customer",
+  "name": "Customer",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.exchange",
+  "description": "A person who buys goods or services.",
+  "global": true,
+  "name_zh": "顾客"
+ },
+ {
+  "id": "ROLE.economic_social.exchange.client",
+  "name": "Client",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.exchange",
+  "description": "A person who receives professional services.",
+  "global": true,
+  "name_zh": "客户"
+ },
+ {
+  "id": "ROLE.economic_social.exchange.vendor",
+  "name": "Vendor",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.economic_social.exchange",
+  "description": "A person who sells goods or services.",
+  "global": true,
+  "name_zh": "摊贩/卖方"
+ },
+ {
+  "id": "ROLE.martial_defense",
+  "name": "Martial & Defense Social Roles",
+  "type": "SOCIAL_ROLE",
+  "parent": "SOCIAL_ROLES",
+  "description": "Civic and status roles tied to armed service and martial standing.",
+  "global": true,
+  "name_zh": "军事与防卫社会角色"
+ },
+ {
+  "id": "ROLE.martial_defense.veteran",
+  "name": "Veteran",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.martial_defense",
+  "description": "A person who has served in the armed forces.",
+  "global": true,
+  "name_zh": "退伍军人"
+ },
+ {
+  "id": "ROLE.martial_defense.reservist",
+  "name": "Reservist",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.martial_defense",
+  "description": "A civilian who trains part-time as a military reserve member.",
+  "global": true,
+  "name_zh": "预备役军人"
+ },
+ {
+  "id": "ROLE.martial_defense.conscript",
+  "name": "Conscript",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.martial_defense",
+  "description": "A person drafted into compulsory military service.",
+  "global": true,
+  "name_zh": "应征士兵"
+ },
+ {
+  "id": "ROLE.martial_defense.warrior",
+  "name": "Warrior",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.martial_defense",
+  "description": "A person whose social role is fighting, often with a code of honor.",
+  "global": true,
+  "name_zh": "战士"
+ },
+ {
+  "id": "ROLE.martial_defense.samurai",
+  "name": "Samurai",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.martial_defense",
+  "description": "A hereditary warrior-aristocrat of feudal Japan.",
+  "global": false,
+  "name_zh": "武士",
+  "historical": true
+ },
+ {
+  "id": "ROLE.martial_defense.ronin",
+  "name": "Rōnin",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.martial_defense",
+  "description": "A masterless samurai in feudal Japan.",
+  "global": false,
+  "name_zh": "浪人",
+  "historical": true
+ },
+ {
+  "id": "ROLE.martial_defense.ghazi",
+  "name": "Ghazi",
+  "type": "SOCIAL_ROLE",
+  "parent": "ROLE.martial_defense",
+  "description": "A Muslim warrior who fought in frontier campaigns, a revered status in some traditions.",
+  "global": false,
+  "name_zh": "加齐",
+  "historical": true
+ }
+]

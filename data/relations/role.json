@@ -1,0 +1,382 @@
+[
+ {
+  "source": "ROLE.family_kinship",
+  "relation": "RELATED_TO",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "ROLE.community_civil",
+  "relation": "RELATED_TO",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "ROLE.political_civic",
+  "relation": "RELATED_TO",
+  "target": "HK.political_science"
+ },
+ {
+  "source": "ROLE.legal_judicial",
+  "relation": "RELATED_TO",
+  "target": "HK.law"
+ },
+ {
+  "source": "ROLE.religious_spiritual",
+  "relation": "RELATED_TO",
+  "target": "HK.religious_studies"
+ },
+ {
+  "source": "ROLE.ceremonial_ritual",
+  "relation": "RELATED_TO",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "ROLE.gender",
+  "relation": "RELATED_TO",
+  "target": "HK.gender_studies"
+ },
+ {
+  "source": "ROLE.age_life_stage",
+  "relation": "RELATED_TO",
+  "target": "HK.demography"
+ },
+ {
+  "source": "ROLE.clan_village",
+  "relation": "RELATED_TO",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "ROLE.informal_honorific",
+  "relation": "RELATED_TO",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "ROLE.educational",
+  "relation": "RELATED_TO",
+  "target": "HK.education"
+ },
+ {
+  "source": "ROLE.economic_social",
+  "relation": "RELATED_TO",
+  "target": "HK.economics"
+ },
+ {
+  "source": "ROLE.martial_defense",
+  "relation": "RELATED_TO",
+  "target": "HK.history"
+ },
+ {
+  "source": "ROLE.political_civic.non_western",
+  "relation": "RELATED_TO",
+  "target": "HK.history"
+ },
+ {
+  "source": "ROLE.family_kinship.lineage",
+  "relation": "RELATED_TO",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "ROLE.age_life_stage",
+  "relation": "RELATED_TO",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "ROLE.legal_judicial.judiciary.qadi",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.legal_judicial.judiciary.judge"
+ },
+ {
+  "source": "ROLE.legal_judicial.judiciary.chief_justice",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.legal_judicial.judiciary.judge"
+ },
+ {
+  "source": "ROLE.legal_judicial.judiciary.lay_judge",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.legal_judicial.judiciary.judge"
+ },
+ {
+  "source": "ROLE.legal_judicial.advocacy.barrister",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.legal_judicial.advocacy.lawyer"
+ },
+ {
+  "source": "ROLE.legal_judicial.advocacy.solicitor",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.legal_judicial.advocacy.lawyer"
+ },
+ {
+  "source": "ROLE.legal_judicial.jury.grand_juror",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.legal_judicial.jury.juror"
+ },
+ {
+  "source": "ROLE.legal_judicial.jury.jury_foreperson",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.legal_judicial.jury.juror"
+ },
+ {
+  "source": "ROLE.political_civic.non_western.mandarin",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.political_civic.executive.civil_servant"
+ },
+ {
+  "source": "ROLE.religious_spiritual.monastic.bhikkhu",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.religious_spiritual.monastic.monk"
+ },
+ {
+  "source": "ROLE.religious_spiritual.monastic.bhikkhuni",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.religious_spiritual.monastic.nun"
+ },
+ {
+  "source": "ROLE.religious_spiritual.monastic.lama",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.religious_spiritual.monastic.monk"
+ },
+ {
+  "source": "ROLE.religious_spiritual.eastern.daoshi",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.religious_spiritual.clergy.priest"
+ },
+ {
+  "source": "ROLE.religious_spiritual.indigenous.curandero",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.religious_spiritual.indigenous.medicine_person"
+ },
+ {
+  "source": "ROLE.religious_spiritual.indigenous.sangoma",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.religious_spiritual.indigenous.diviner"
+ },
+ {
+  "source": "ROLE.religious_spiritual.indigenous.babalawo",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.religious_spiritual.indigenous.diviner"
+ },
+ {
+  "source": "ROLE.community_civil.dispute.mediator",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.legal_judicial.adr.mediator"
+ },
+ {
+  "source": "ROLE.clan_village.specialist.village_mediator",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.community_civil.dispute.mediator"
+ },
+ {
+  "source": "ROLE.family_kinship.lineage.patriarch",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.clan_village.clan.clan_chief"
+ },
+ {
+  "source": "ROLE.religious_spiritual.indigenous.shaman",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.religious_spiritual.indigenous.spirit_medium"
+ },
+ {
+  "source": "ROLE.religious_spiritual.indigenous.shaman",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.religious_spiritual.indigenous.medicine_person"
+ },
+ {
+  "source": "ROLE.martial_defense.samurai",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.political_civic.nobility.knight"
+ },
+ {
+  "source": "ROLE.martial_defense.warrior",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.martial_defense.samurai"
+ },
+ {
+  "source": "ROLE.political_civic.nobility.knight",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.martial_defense.warrior"
+ },
+ {
+  "source": "ROLE.political_civic.non_western.vizier",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.political_civic.executive.prime_minister"
+ },
+ {
+  "source": "ROLE.educational.instructor.teacher",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.informal_honorific.mentorship.mentor"
+ },
+ {
+  "source": "ROLE.family_kinship.parent.guardian",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.family_kinship.parent.foster_parent"
+ },
+ {
+  "source": "ROLE.family_kinship.fictive.godparent",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.family_kinship.parent"
+ },
+ {
+  "source": "ROLE.community_civil.leadership.community_elder",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.age_life_stage.adulthood.elder"
+ },
+ {
+  "source": "ROLE.age_life_stage.childhood.child",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.family_kinship.child"
+ },
+ {
+  "source": "ROLE.religious_spiritual.eastern.rinpoche",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.religious_spiritual.eastern.tulku"
+ },
+ {
+  "source": "ROLE.ceremonial_ritual.wedding.nakodo",
+  "relation": "OVERLAPS_WITH",
+  "target": "ROLE.ceremonial_ritual.wedding.matchmaker"
+ },
+ {
+  "source": "ROLE.political_civic.non_western.vizier",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ROLE.political_civic.executive.prime_minister"
+ },
+ {
+  "source": "ROLE.political_civic.non_western.mandarin",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ROLE.political_civic.executive.civil_servant"
+ },
+ {
+  "source": "ROLE.political_civic.non_western.pharaoh",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ROLE.political_civic.executive.head_of_state"
+ },
+ {
+  "source": "ROLE.political_civic.non_western.shogun",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ROLE.political_civic.executive.head_of_government"
+ },
+ {
+  "source": "ROLE.political_civic.non_western.daimyo",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ROLE.political_civic.executive.governor"
+ },
+ {
+  "source": "ROLE.clan_village.village.bao_head",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ROLE.clan_village.village.village_head"
+ },
+ {
+  "source": "ROLE.clan_village.village.lizheng",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ROLE.clan_village.village.village_head"
+ },
+ {
+  "source": "ROLE.clan_village.specialist.town_crier",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ROLE.informal_honorific.social_position.opinion_leader"
+ },
+ {
+  "source": "ROLE.family_kinship.fictive.godparent",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.lay.layperson"
+ },
+ {
+  "source": "ROLE.religious_spiritual.jewish.mohel",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.jewish.rabbi"
+ },
+ {
+  "source": "ROLE.religious_spiritual.jewish.kohen",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.jewish.rabbi"
+ },
+ {
+  "source": "ROLE.religious_spiritual.jewish.hazzan",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.jewish.rabbi"
+ },
+ {
+  "source": "ROLE.religious_spiritual.jewish.sofer",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.jewish.rabbi"
+ },
+ {
+  "source": "ROLE.religious_spiritual.islamic.muezzin",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.islamic.imam"
+ },
+ {
+  "source": "ROLE.religious_spiritual.islamic.pir",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.islamic.dervish"
+ },
+ {
+  "source": "ROLE.religious_spiritual.eastern.daoshi",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.eastern.fangshi"
+ },
+ {
+  "source": "ROLE.religious_spiritual.indigenous.houngan",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.indigenous.mambo"
+ },
+ {
+  "source": "ROLE.clan_village.tribal.queen_mother",
+  "relation": "RELATED_TO",
+  "target": "ROLE.clan_village.tribal.oba"
+ },
+ {
+  "source": "ROLE.clan_village.specialist.okyeame",
+  "relation": "RELATED_TO",
+  "target": "ROLE.clan_village.tribal.asantehene"
+ },
+ {
+  "source": "ROLE.clan_village.specialist.griot",
+  "relation": "RELATED_TO",
+  "target": "ROLE.clan_village.clan.clan_chief"
+ },
+ {
+  "source": "ROLE.legal_judicial.judiciary.qadi",
+  "relation": "RELATED_TO",
+  "target": "ROLE.religious_spiritual.islamic.mufti"
+ },
+ {
+  "source": "ROLE.family_kinship.spouse.uxorilocal_husband",
+  "relation": "RELATED_TO",
+  "target": "ROLE.family_kinship.lineage"
+ },
+ {
+  "source": "ROLE.family_kinship.fictive.compadre",
+  "relation": "RELATED_TO",
+  "target": "ROLE.family_kinship.fictive.godparent"
+ },
+ {
+  "source": "ROLE.ceremonial_ritual.officiant.master_of_ceremonies",
+  "relation": "RELATED_TO",
+  "target": "ROLE.ceremonial_ritual.officiant.celebrant"
+ },
+ {
+  "source": "ROLE.educational.learner.apprentice",
+  "relation": "RELATED_TO",
+  "target": "ROLE.informal_honorific.mentorship.mentor"
+ },
+ {
+  "source": "ROLE.educational.instructor.class_monitor",
+  "relation": "RELATED_TO",
+  "target": "ROLE.educational.instructor.teacher"
+ },
+ {
+  "source": "ROLE.martial_defense.samurai",
+  "relation": "RELATED_TO",
+  "target": "ROLE.political_civic.non_western.daimyo"
+ },
+ {
+  "source": "ROLE.martial_defense.ronin",
+  "relation": "RELATED_TO",
+  "target": "ROLE.martial_defense.samurai"
+ },
+ {
+  "source": "ROLE.legal_judicial.advocacy.public_defender",
+  "relation": "SPECIALIZATION_OF",
+  "target": "ROLE.legal_judicial.advocacy.lawyer"
+ }
+]
