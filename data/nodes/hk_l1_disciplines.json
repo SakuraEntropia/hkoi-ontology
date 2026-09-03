@@ -1,0 +1,578 @@
+[
+ {
+  "id": "HK.mathematics",
+  "name": "Mathematics",
+  "name_en": "Mathematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "数学",
+  "description": "The formal science of structure, quantity, space, and change."
+ },
+ {
+  "id": "HK.logic",
+  "name": "Logic",
+  "name_en": "Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "逻辑学",
+  "description": "The study of valid reasoning, inference, and formal systems."
+ },
+ {
+  "id": "HK.computer_science",
+  "name": "Computer Science",
+  "name_en": "Computer Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "计算机科学",
+  "description": "The study of computation, algorithms, information, and computing systems."
+ },
+ {
+  "id": "HK.statistics",
+  "name": "Statistics",
+  "name_en": "Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "统计学",
+  "description": "The science of collecting, analyzing, and inferring from data."
+ },
+ {
+  "id": "HK.information_science",
+  "name": "Information Science",
+  "name_en": "Information Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "信息科学",
+  "description": "The study of information, its representation, storage, and retrieval."
+ },
+ {
+  "id": "HK.systems_science",
+  "name": "Systems Science",
+  "name_en": "Systems Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "系统科学",
+  "description": "The study of systems, their structure, behavior, and complexity."
+ },
+ {
+  "id": "HK.operations_research",
+  "name": "Operations Research",
+  "name_en": "Operations Research",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "运筹学",
+  "description": "Applied mathematics for optimal decision-making and resource allocation."
+ },
+ {
+  "id": "HK.data_science",
+  "name": "Data Science",
+  "name_en": "Data Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "数据科学",
+  "description": "The extraction of knowledge and insight from data across disciplines."
+ },
+ {
+  "id": "HK.physics",
+  "name": "Physics",
+  "name_en": "Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "物理学",
+  "description": "The science of matter, energy, space, time, and fundamental forces."
+ },
+ {
+  "id": "HK.chemistry",
+  "name": "Chemistry",
+  "name_en": "Chemistry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "化学",
+  "description": "The science of substances, their composition, structure, and reactions."
+ },
+ {
+  "id": "HK.biology",
+  "name": "Biology",
+  "name_en": "Biology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "生物学",
+  "description": "The science of life and living organisms."
+ },
+ {
+  "id": "HK.earth_science",
+  "name": "Earth Science",
+  "name_en": "Earth Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "地球科学",
+  "description": "The study of the Earth, its systems, materials, and processes."
+ },
+ {
+  "id": "HK.astronomy",
+  "name": "Astronomy",
+  "name_en": "Astronomy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "天文学",
+  "description": "The study of celestial objects, the universe, and its origin."
+ },
+ {
+  "id": "HK.atmospheric_science",
+  "name": "Atmospheric Science",
+  "name_en": "Atmospheric Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "大气科学",
+  "description": "The study of the atmosphere, weather, and climate."
+ },
+ {
+  "id": "HK.oceanography",
+  "name": "Oceanography",
+  "name_en": "Oceanography",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "海洋学",
+  "description": "The study of the oceans, their physics, chemistry, biology, and geology."
+ },
+ {
+  "id": "HK.materials_science",
+  "name": "Materials Science",
+  "name_en": "Materials Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "材料科学",
+  "description": "The study of materials and their properties, processing, and applications."
+ },
+ {
+  "id": "HK.environmental_science",
+  "name": "Environmental Science",
+  "name_en": "Environmental Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "环境科学",
+  "description": "The interdisciplinary study of the environment and human-environment interactions."
+ },
+ {
+  "id": "HK.economics",
+  "name": "Economics",
+  "name_en": "Economics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "经济学",
+  "description": "The study of production, distribution, and consumption of goods and services."
+ },
+ {
+  "id": "HK.psychology",
+  "name": "Psychology",
+  "name_en": "Psychology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "心理学",
+  "description": "The scientific study of mind, behavior, and mental processes."
+ },
+ {
+  "id": "HK.sociology",
+  "name": "Sociology",
+  "name_en": "Sociology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "社会学",
+  "description": "The study of society, social institutions, and social relationships."
+ },
+ {
+  "id": "HK.anthropology",
+  "name": "Anthropology",
+  "name_en": "Anthropology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "人类学",
+  "description": "The study of humans, cultures, societies, and their evolution."
+ },
+ {
+  "id": "HK.political_science",
+  "name": "Political Science",
+  "name_en": "Political Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "政治学",
+  "description": "The study of politics, governance, power, and political systems."
+ },
+ {
+  "id": "HK.law",
+  "name": "Law",
+  "name_en": "Law",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "法学",
+  "description": "The study of legal systems, rules, and justice."
+ },
+ {
+  "id": "HK.geography",
+  "name": "Geography",
+  "name_en": "Geography",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "地理学",
+  "description": "The study of places, spaces, and human-environment relationships."
+ },
+ {
+  "id": "HK.linguistics",
+  "name": "Linguistics",
+  "name_en": "Linguistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "语言学",
+  "description": "The scientific study of language and its structure."
+ },
+ {
+  "id": "HK.communication",
+  "name": "Communication",
+  "name_en": "Communication",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "传播学",
+  "description": "The study of human communication processes and media."
+ },
+ {
+  "id": "HK.education",
+  "name": "Education",
+  "name_en": "Education",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "教育学",
+  "description": "The study and practice of teaching, learning, and pedagogy."
+ },
+ {
+  "id": "HK.criminology",
+  "name": "Criminology",
+  "name_en": "Criminology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "犯罪学",
+  "description": "The study of crime, criminal behavior, and justice systems."
+ },
+ {
+  "id": "HK.demography",
+  "name": "Demography",
+  "name_en": "Demography",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "人口学",
+  "description": "The statistical study of populations and their dynamics."
+ },
+ {
+  "id": "HK.social_work",
+  "name": "Social Work",
+  "name_en": "Social Work",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "社会工作",
+  "description": "The profession and discipline of promoting social welfare and well-being."
+ },
+ {
+  "id": "HK.philosophy",
+  "name": "Philosophy",
+  "name_en": "Philosophy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "哲学",
+  "description": "The study of fundamental questions about existence, knowledge, and value."
+ },
+ {
+  "id": "HK.history",
+  "name": "History",
+  "name_en": "History",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "历史学",
+  "description": "The study and interpretation of the human past."
+ },
+ {
+  "id": "HK.literature",
+  "name": "Literature",
+  "name_en": "Literature",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "文学",
+  "description": "The art and study of written works and literary expression."
+ },
+ {
+  "id": "HK.religious_studies",
+  "name": "Religious Studies",
+  "name_en": "Religious Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "宗教学",
+  "description": "The academic study of religion, belief, and sacred traditions."
+ },
+ {
+  "id": "HK.art_history",
+  "name": "Art History",
+  "name_en": "Art History",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "艺术史",
+  "description": "The study of visual arts in historical and cultural context."
+ },
+ {
+  "id": "HK.archaeology",
+  "name": "Archaeology",
+  "name_en": "Archaeology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "考古学",
+  "description": "The study of past human activity through material remains."
+ },
+ {
+  "id": "HK.classics",
+  "name": "Classics",
+  "name_en": "Classics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "古典学",
+  "description": "The study of Greco-Roman antiquity and other classical civilizations."
+ },
+ {
+  "id": "HK.musicology",
+  "name": "Musicology",
+  "name_en": "Musicology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "音乐学",
+  "description": "The scholarly study of music, its history, theory, and culture."
+ },
+ {
+  "id": "HK.film_studies",
+  "name": "Film Studies",
+  "name_en": "Film Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "电影学",
+  "description": "The academic study of cinema, its history, theory, and aesthetics."
+ },
+ {
+  "id": "HK.medicine",
+  "name": "Medicine",
+  "name_en": "Medicine",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "医学",
+  "description": "The science and practice of diagnosing, treating, and preventing disease."
+ },
+ {
+  "id": "HK.engineering",
+  "name": "Engineering",
+  "name_en": "Engineering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "工程学",
+  "description": "The application of science and mathematics to design and build."
+ },
+ {
+  "id": "HK.agriculture",
+  "name": "Agriculture",
+  "name_en": "Agriculture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "农学",
+  "description": "The science and practice of cultivating plants and animals."
+ },
+ {
+  "id": "HK.forestry",
+  "name": "Forestry",
+  "name_en": "Forestry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "林学",
+  "description": "The science and practice of managing forests and woodlands."
+ },
+ {
+  "id": "HK.architecture",
+  "name": "Architecture",
+  "name_en": "Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "建筑学",
+  "description": "The art and science of designing buildings and structures."
+ },
+ {
+  "id": "HK.urban_planning",
+  "name": "Urban Planning",
+  "name_en": "Urban Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "城市规划",
+  "description": "The design and regulation of urban and regional development."
+ },
+ {
+  "id": "HK.business",
+  "name": "Business & Management",
+  "name_en": "Business & Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "工商管理",
+  "description": "The study of organizations, management, and enterprise."
+ },
+ {
+  "id": "HK.accounting",
+  "name": "Accounting",
+  "name_en": "Accounting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "会计学",
+  "description": "The measurement, processing, and communication of financial information."
+ },
+ {
+  "id": "HK.finance",
+  "name": "Finance",
+  "name_en": "Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "金融学",
+  "description": "The study of money, capital markets, investment, and risk."
+ },
+ {
+  "id": "HK.public_health",
+  "name": "Public Health",
+  "name_en": "Public Health",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "公共卫生",
+  "description": "The science of protecting and improving population health."
+ },
+ {
+  "id": "HK.nursing",
+  "name": "Nursing",
+  "name_en": "Nursing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "护理学",
+  "description": "The profession and science of patient care and health promotion."
+ },
+ {
+  "id": "HK.dentistry",
+  "name": "Dentistry",
+  "name_en": "Dentistry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "牙科学",
+  "description": "The study and treatment of oral and dental health."
+ },
+ {
+  "id": "HK.pharmacy",
+  "name": "Pharmacy",
+  "name_en": "Pharmacy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "药学",
+  "description": "The science of drugs, their preparation, and their therapeutic use."
+ },
+ {
+  "id": "HK.veterinary_medicine",
+  "name": "Veterinary Medicine",
+  "name_en": "Veterinary Medicine",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "兽医学",
+  "description": "The science and practice of animal health and disease."
+ },
+ {
+  "id": "HK.journalism",
+  "name": "Journalism",
+  "name_en": "Journalism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "新闻学",
+  "description": "The gathering, verification, and reporting of news."
+ },
+ {
+  "id": "HK.library_science",
+  "name": "Library & Information Science",
+  "name_en": "Library & Information Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "图书情报学",
+  "description": "The organization, management, and access of recorded information."
+ },
+ {
+  "id": "HK.public_administration",
+  "name": "Public Administration",
+  "name_en": "Public Administration",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "公共行政学",
+  "description": "The study of government policy implementation and public management."
+ },
+ {
+  "id": "HK.cognitive_science",
+  "name": "Cognitive Science",
+  "name_en": "Cognitive Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "认知科学",
+  "description": "The interdisciplinary study of mind, cognition, and intelligence."
+ },
+ {
+  "id": "HK.neuroscience",
+  "name": "Neuroscience",
+  "name_en": "Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "神经科学",
+  "description": "The scientific study of the nervous system and brain."
+ },
+ {
+  "id": "HK.complexity_science",
+  "name": "Complexity Science",
+  "name_en": "Complexity Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "复杂性科学",
+  "description": "The study of complex systems and emergent behavior."
+ },
+ {
+  "id": "HK.sustainability_science",
+  "name": "Sustainability Science",
+  "name_en": "Sustainability Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "可持续性科学",
+  "description": "The study of sustainable human-environment systems."
+ },
+ {
+  "id": "HK.gender_studies",
+  "name": "Gender Studies",
+  "name_en": "Gender Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "性别研究",
+  "description": "The interdisciplinary study of gender and sexuality."
+ },
+ {
+  "id": "HK.area_studies",
+  "name": "Area Studies",
+  "name_en": "Area Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "区域研究",
+  "description": "The interdisciplinary study of specific world regions and cultures."
+ },
+ {
+  "id": "HK.bioinformatics",
+  "name": "Bioinformatics",
+  "name_en": "Bioinformatics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "生物信息学",
+  "description": "The computational analysis of biological data."
+ },
+ {
+  "id": "HK.digital_humanities",
+  "name": "Digital Humanities",
+  "name_en": "Digital Humanities",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "数字人文",
+  "description": "The application of computational methods to humanities research."
+ }
+]

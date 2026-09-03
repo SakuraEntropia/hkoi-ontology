@@ -1,0 +1,310 @@
+{
+ "universes": {
+  "HUMAN_KNOWLEDGE": {
+   "name": "Human Knowledge",
+   "prefix": "HK"
+  },
+  "OCCUPATIONS": {
+   "name": "Occupations",
+   "prefix": "OCC"
+  },
+  "SOCIAL_ROLES": {
+   "name": "Social Roles",
+   "prefix": "ROLE"
+  },
+  "ARTS_AND_CULTURE": {
+   "name": "Arts & Culture",
+   "prefix": "ART"
+  },
+  "SPORTS_AND_GAMES": {
+   "name": "Sports & Games",
+   "prefix": "SPORT"
+  },
+  "INDUSTRIES": {
+   "name": "Industries",
+   "prefix": "IND"
+  },
+  "PRODUCTS_AND_SERVICES": {
+   "name": "Products & Services",
+   "prefix": "PROD"
+  },
+  "ORGANIZATIONS_AND_INSTITUTIONS": {
+   "name": "Organizations & Institutions",
+   "prefix": "ORG"
+  },
+  "TECHNOLOGIES": {
+   "name": "Technologies",
+   "prefix": "TECH"
+  },
+  "MEDIA_AND_CONTENT": {
+   "name": "Media & Content",
+   "prefix": "MEDIA"
+  },
+  "HISTORICAL_OCCUPATIONS": {
+   "name": "Historical Occupations",
+   "prefix": "HIST"
+  },
+  "EMERGING_FIELDS": {
+   "name": "Emerging Fields",
+   "prefix": "EMERG"
+  }
+ },
+ "human_knowledge_l1": [
+  {
+   "id": "HK.mathematics",
+   "name": "Mathematics"
+  },
+  {
+   "id": "HK.logic",
+   "name": "Logic"
+  },
+  {
+   "id": "HK.computer_science",
+   "name": "Computer Science"
+  },
+  {
+   "id": "HK.statistics",
+   "name": "Statistics"
+  },
+  {
+   "id": "HK.information_science",
+   "name": "Information Science"
+  },
+  {
+   "id": "HK.systems_science",
+   "name": "Systems Science"
+  },
+  {
+   "id": "HK.operations_research",
+   "name": "Operations Research"
+  },
+  {
+   "id": "HK.data_science",
+   "name": "Data Science"
+  },
+  {
+   "id": "HK.physics",
+   "name": "Physics"
+  },
+  {
+   "id": "HK.chemistry",
+   "name": "Chemistry"
+  },
+  {
+   "id": "HK.biology",
+   "name": "Biology"
+  },
+  {
+   "id": "HK.earth_science",
+   "name": "Earth Science"
+  },
+  {
+   "id": "HK.astronomy",
+   "name": "Astronomy"
+  },
+  {
+   "id": "HK.atmospheric_science",
+   "name": "Atmospheric Science"
+  },
+  {
+   "id": "HK.oceanography",
+   "name": "Oceanography"
+  },
+  {
+   "id": "HK.materials_science",
+   "name": "Materials Science"
+  },
+  {
+   "id": "HK.environmental_science",
+   "name": "Environmental Science"
+  },
+  {
+   "id": "HK.economics",
+   "name": "Economics"
+  },
+  {
+   "id": "HK.psychology",
+   "name": "Psychology"
+  },
+  {
+   "id": "HK.sociology",
+   "name": "Sociology"
+  },
+  {
+   "id": "HK.anthropology",
+   "name": "Anthropology"
+  },
+  {
+   "id": "HK.political_science",
+   "name": "Political Science"
+  },
+  {
+   "id": "HK.law",
+   "name": "Law"
+  },
+  {
+   "id": "HK.geography",
+   "name": "Geography"
+  },
+  {
+   "id": "HK.linguistics",
+   "name": "Linguistics"
+  },
+  {
+   "id": "HK.communication",
+   "name": "Communication"
+  },
+  {
+   "id": "HK.education",
+   "name": "Education"
+  },
+  {
+   "id": "HK.criminology",
+   "name": "Criminology"
+  },
+  {
+   "id": "HK.demography",
+   "name": "Demography"
+  },
+  {
+   "id": "HK.social_work",
+   "name": "Social Work"
+  },
+  {
+   "id": "HK.philosophy",
+   "name": "Philosophy"
+  },
+  {
+   "id": "HK.history",
+   "name": "History"
+  },
+  {
+   "id": "HK.literature",
+   "name": "Literature"
+  },
+  {
+   "id": "HK.religious_studies",
+   "name": "Religious Studies"
+  },
+  {
+   "id": "HK.art_history",
+   "name": "Art History"
+  },
+  {
+   "id": "HK.archaeology",
+   "name": "Archaeology"
+  },
+  {
+   "id": "HK.classics",
+   "name": "Classics"
+  },
+  {
+   "id": "HK.musicology",
+   "name": "Musicology"
+  },
+  {
+   "id": "HK.film_studies",
+   "name": "Film Studies"
+  },
+  {
+   "id": "HK.medicine",
+   "name": "Medicine"
+  },
+  {
+   "id": "HK.engineering",
+   "name": "Engineering"
+  },
+  {
+   "id": "HK.agriculture",
+   "name": "Agriculture"
+  },
+  {
+   "id": "HK.forestry",
+   "name": "Forestry"
+  },
+  {
+   "id": "HK.architecture",
+   "name": "Architecture"
+  },
+  {
+   "id": "HK.urban_planning",
+   "name": "Urban Planning"
+  },
+  {
+   "id": "HK.business",
+   "name": "Business & Management"
+  },
+  {
+   "id": "HK.accounting",
+   "name": "Accounting"
+  },
+  {
+   "id": "HK.finance",
+   "name": "Finance"
+  },
+  {
+   "id": "HK.public_health",
+   "name": "Public Health"
+  },
+  {
+   "id": "HK.nursing",
+   "name": "Nursing"
+  },
+  {
+   "id": "HK.dentistry",
+   "name": "Dentistry"
+  },
+  {
+   "id": "HK.pharmacy",
+   "name": "Pharmacy"
+  },
+  {
+   "id": "HK.veterinary_medicine",
+   "name": "Veterinary Medicine"
+  },
+  {
+   "id": "HK.journalism",
+   "name": "Journalism"
+  },
+  {
+   "id": "HK.library_science",
+   "name": "Library & Information Science"
+  },
+  {
+   "id": "HK.public_administration",
+   "name": "Public Administration"
+  },
+  {
+   "id": "HK.cognitive_science",
+   "name": "Cognitive Science"
+  },
+  {
+   "id": "HK.neuroscience",
+   "name": "Neuroscience"
+  },
+  {
+   "id": "HK.complexity_science",
+   "name": "Complexity Science"
+  },
+  {
+   "id": "HK.sustainability_science",
+   "name": "Sustainability Science"
+  },
+  {
+   "id": "HK.gender_studies",
+   "name": "Gender Studies"
+  },
+  {
+   "id": "HK.area_studies",
+   "name": "Area Studies"
+  },
+  {
+   "id": "HK.bioinformatics",
+   "name": "Bioinformatics"
+  },
+  {
+   "id": "HK.digital_humanities",
+   "name": "Digital Humanities"
+  }
+ ]
+}

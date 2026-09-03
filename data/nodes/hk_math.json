@@ -1,0 +1,1432 @@
+[
+ {
+  "id": "HK.mathematics.foundations",
+  "name": "Foundations",
+  "name_en": "Foundations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "数学基础",
+  "description": "Logical and structural foundations of mathematics."
+ },
+ {
+  "id": "HK.mathematics.foundations.mathematical_logic",
+  "name": "Mathematical Logic",
+  "name_en": "Mathematical Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.foundations",
+  "name_zh": "数理逻辑",
+  "description": "Formal logic applied to mathematics."
+ },
+ {
+  "id": "HK.mathematics.foundations.set_theory",
+  "name": "Set Theory",
+  "name_en": "Set Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.foundations",
+  "name_zh": "集合论",
+  "description": "The study of sets and the foundations of mathematics."
+ },
+ {
+  "id": "HK.mathematics.foundations.category_theory",
+  "name": "Category Theory",
+  "name_en": "Category Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.foundations",
+  "name_zh": "范畴论",
+  "description": "The abstract study of mathematical structures and their relations."
+ },
+ {
+  "id": "HK.mathematics.foundations.type_theory",
+  "name": "Type Theory",
+  "name_en": "Type Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.foundations",
+  "name_zh": "类型论",
+  "description": "Formal systems based on typed terms, foundational to proof assistants."
+ },
+ {
+  "id": "HK.mathematics.foundations.reverse_mathematics",
+  "name": "Reverse Mathematics",
+  "name_en": "Reverse Mathematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.foundations",
+  "name_zh": "逆数学",
+  "description": "Determining which axioms are needed to prove theorems."
+ },
+ {
+  "id": "HK.mathematics.algebra",
+  "name": "Algebra",
+  "name_en": "Algebra",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "代数学",
+  "description": "The study of algebraic structures and operations."
+ },
+ {
+  "id": "HK.mathematics.algebra.group_theory",
+  "name": "Group Theory",
+  "name_en": "Group Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "群论"
+ },
+ {
+  "id": "HK.mathematics.algebra.ring_theory",
+  "name": "Ring Theory",
+  "name_en": "Ring Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "环论"
+ },
+ {
+  "id": "HK.mathematics.algebra.field_theory",
+  "name": "Field Theory",
+  "name_en": "Field Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "域论"
+ },
+ {
+  "id": "HK.mathematics.algebra.module_theory",
+  "name": "Module Theory",
+  "name_en": "Module Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "模论"
+ },
+ {
+  "id": "HK.mathematics.algebra.representation_theory",
+  "name": "Representation Theory",
+  "name_en": "Representation Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "表示论"
+ },
+ {
+  "id": "HK.mathematics.algebra.homological_algebra",
+  "name": "Homological Algebra",
+  "name_en": "Homological Algebra",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "同调代数"
+ },
+ {
+  "id": "HK.mathematics.algebra.commutative_algebra",
+  "name": "Commutative Algebra",
+  "name_en": "Commutative Algebra",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "交换代数"
+ },
+ {
+  "id": "HK.mathematics.algebra.noncommutative_algebra",
+  "name": "Noncommutative Algebra",
+  "name_en": "Noncommutative Algebra",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "非交换代数"
+ },
+ {
+  "id": "HK.mathematics.algebra.lie_theory",
+  "name": "Lie Theory",
+  "name_en": "Lie Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "李理论"
+ },
+ {
+  "id": "HK.mathematics.algebra.universal_algebra",
+  "name": "Universal Algebra",
+  "name_en": "Universal Algebra",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "泛代数"
+ },
+ {
+  "id": "HK.mathematics.algebra.algebraic_k_theory",
+  "name": "Algebraic K-Theory",
+  "name_en": "Algebraic K-Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "代数K理论"
+ },
+ {
+  "id": "HK.mathematics.algebra.linear_algebra",
+  "name": "Linear Algebra",
+  "name_en": "Linear Algebra",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "线性代数"
+ },
+ {
+  "id": "HK.mathematics.algebra.multilinear_algebra",
+  "name": "Multilinear Algebra",
+  "name_en": "Multilinear Algebra",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.algebra",
+  "name_zh": "多重线性代数"
+ },
+ {
+  "id": "HK.mathematics.geometry",
+  "name": "Geometry",
+  "name_en": "Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "几何学",
+  "description": "The study of shape, space, and spatial relationships."
+ },
+ {
+  "id": "HK.mathematics.geometry.euclidean_geometry",
+  "name": "Euclidean Geometry",
+  "name_en": "Euclidean Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "欧氏几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.affine_geometry",
+  "name": "Affine Geometry",
+  "name_en": "Affine Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "仿射几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.projective_geometry",
+  "name": "Projective Geometry",
+  "name_en": "Projective Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "射影几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.differential_geometry",
+  "name": "Differential Geometry",
+  "name_en": "Differential Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "微分几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.algebraic_geometry",
+  "name": "Algebraic Geometry",
+  "name_en": "Algebraic Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "代数几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.arithmetic_geometry",
+  "name": "Arithmetic Geometry",
+  "name_en": "Arithmetic Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "算术几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.discrete_geometry",
+  "name": "Discrete Geometry",
+  "name_en": "Discrete Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "离散几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.convex_geometry",
+  "name": "Convex Geometry",
+  "name_en": "Convex Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "凸几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.integral_geometry",
+  "name": "Integral Geometry",
+  "name_en": "Integral Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "积分几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.tropical_geometry",
+  "name": "Tropical Geometry",
+  "name_en": "Tropical Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "热带几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.noncommutative_geometry",
+  "name": "Noncommutative Geometry",
+  "name_en": "Noncommutative Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "非交换几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.incidence_geometry",
+  "name": "Incidence Geometry",
+  "name_en": "Incidence Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "关联几何"
+ },
+ {
+  "id": "HK.mathematics.geometry.computational_geometry",
+  "name": "Computational Geometry",
+  "name_en": "Computational Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.geometry",
+  "name_zh": "计算几何"
+ },
+ {
+  "id": "HK.mathematics.analysis",
+  "name": "Analysis",
+  "name_en": "Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "分析学",
+  "description": "The rigorous study of limits, continuity, and change."
+ },
+ {
+  "id": "HK.mathematics.analysis.real_analysis",
+  "name": "Real Analysis",
+  "name_en": "Real Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "实分析"
+ },
+ {
+  "id": "HK.mathematics.analysis.complex_analysis",
+  "name": "Complex Analysis",
+  "name_en": "Complex Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "复分析"
+ },
+ {
+  "id": "HK.mathematics.analysis.functional_analysis",
+  "name": "Functional Analysis",
+  "name_en": "Functional Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "泛函分析"
+ },
+ {
+  "id": "HK.mathematics.analysis.harmonic_analysis",
+  "name": "Harmonic Analysis",
+  "name_en": "Harmonic Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "调和分析"
+ },
+ {
+  "id": "HK.mathematics.analysis.fourier_analysis",
+  "name": "Fourier Analysis",
+  "name_en": "Fourier Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "傅里叶分析"
+ },
+ {
+  "id": "HK.mathematics.analysis.measure_theory",
+  "name": "Measure Theory",
+  "name_en": "Measure Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "测度论"
+ },
+ {
+  "id": "HK.mathematics.analysis.operator_theory",
+  "name": "Operator Theory",
+  "name_en": "Operator Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "算子理论"
+ },
+ {
+  "id": "HK.mathematics.analysis.calculus_of_variations",
+  "name": "Calculus of Variations",
+  "name_en": "Calculus of Variations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "变分法"
+ },
+ {
+  "id": "HK.mathematics.analysis.asymptotic_analysis",
+  "name": "Asymptotic Analysis",
+  "name_en": "Asymptotic Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "渐近分析"
+ },
+ {
+  "id": "HK.mathematics.analysis.partial_differential_equations",
+  "name": "Partial Differential Equations",
+  "name_en": "Partial Differential Equations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "偏微分方程"
+ },
+ {
+  "id": "HK.mathematics.analysis.ordinary_differential_equations",
+  "name": "Ordinary Differential Equations",
+  "name_en": "Ordinary Differential Equations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "常微分方程"
+ },
+ {
+  "id": "HK.mathematics.analysis.nonlinear_analysis",
+  "name": "Nonlinear Analysis",
+  "name_en": "Nonlinear Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "非线性分析"
+ },
+ {
+  "id": "HK.mathematics.analysis.geometric_analysis",
+  "name": "Geometric Analysis",
+  "name_en": "Geometric Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.analysis",
+  "name_zh": "几何分析"
+ },
+ {
+  "id": "HK.mathematics.number_theory",
+  "name": "Number Theory",
+  "name_en": "Number Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "数论",
+  "description": "The study of integers and their properties."
+ },
+ {
+  "id": "HK.mathematics.number_theory.elementary_number_theory",
+  "name": "Elementary Number Theory",
+  "name_en": "Elementary Number Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "初等数论"
+ },
+ {
+  "id": "HK.mathematics.number_theory.analytic_number_theory",
+  "name": "Analytic Number Theory",
+  "name_en": "Analytic Number Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "解析数论"
+ },
+ {
+  "id": "HK.mathematics.number_theory.algebraic_number_theory",
+  "name": "Algebraic Number Theory",
+  "name_en": "Algebraic Number Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "代数数论"
+ },
+ {
+  "id": "HK.mathematics.number_theory.arithmetic_geometry",
+  "name": "Arithmetic Geometry",
+  "name_en": "Arithmetic Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "算术几何"
+ },
+ {
+  "id": "HK.mathematics.number_theory.diophantine_geometry",
+  "name": "Diophantine Geometry",
+  "name_en": "Diophantine Geometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "丢番图几何"
+ },
+ {
+  "id": "HK.mathematics.number_theory.additive_number_theory",
+  "name": "Additive Number Theory",
+  "name_en": "Additive Number Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "加性数论"
+ },
+ {
+  "id": "HK.mathematics.number_theory.multiplicative_number_theory",
+  "name": "Multiplicative Number Theory",
+  "name_en": "Multiplicative Number Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "乘性数论"
+ },
+ {
+  "id": "HK.mathematics.number_theory.transcendence_theory",
+  "name": "Transcendence Theory",
+  "name_en": "Transcendence Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "超越数论"
+ },
+ {
+  "id": "HK.mathematics.number_theory.computational_number_theory",
+  "name": "Computational Number Theory",
+  "name_en": "Computational Number Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "计算数论"
+ },
+ {
+  "id": "HK.mathematics.number_theory.probabilistic_number_theory",
+  "name": "Probabilistic Number Theory",
+  "name_en": "Probabilistic Number Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "概率数论"
+ },
+ {
+  "id": "HK.mathematics.number_theory.modular_forms",
+  "name": "Modular Forms",
+  "name_en": "Modular Forms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "模形式"
+ },
+ {
+  "id": "HK.mathematics.number_theory.diophantine_approximation",
+  "name": "Diophantine Approximation",
+  "name_en": "Diophantine Approximation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.number_theory",
+  "name_zh": "丢番图逼近"
+ },
+ {
+  "id": "HK.mathematics.combinatorics",
+  "name": "Combinatorics",
+  "name_en": "Combinatorics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "组合数学",
+  "description": "The study of finite and discrete structures and counting."
+ },
+ {
+  "id": "HK.mathematics.combinatorics.enumerative_combinatorics",
+  "name": "Enumerative Combinatorics",
+  "name_en": "Enumerative Combinatorics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "枚举组合"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.extremal_combinatorics",
+  "name": "Extremal Combinatorics",
+  "name_en": "Extremal Combinatorics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "极值组合"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.algebraic_combinatorics",
+  "name": "Algebraic Combinatorics",
+  "name_en": "Algebraic Combinatorics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "代数组合"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.probabilistic_combinatorics",
+  "name": "Probabilistic Combinatorics",
+  "name_en": "Probabilistic Combinatorics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "概率组合"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.graph_theory",
+  "name": "Graph Theory",
+  "name_en": "Graph Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "图论"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.design_theory",
+  "name": "Design Theory",
+  "name_en": "Design Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "设计理论"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.matroid_theory",
+  "name": "Matroid Theory",
+  "name_en": "Matroid Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "拟阵论"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.additive_combinatorics",
+  "name": "Additive Combinatorics",
+  "name_en": "Additive Combinatorics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "加性组合"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.analytic_combinatorics",
+  "name": "Analytic Combinatorics",
+  "name_en": "Analytic Combinatorics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "解析组合"
+ },
+ {
+  "id": "HK.mathematics.combinatorics.topological_combinatorics",
+  "name": "Topological Combinatorics",
+  "name_en": "Topological Combinatorics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.combinatorics",
+  "name_zh": "拓扑组合"
+ },
+ {
+  "id": "HK.mathematics.topology",
+  "name": "Topology",
+  "name_en": "Topology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "拓扑学",
+  "description": "The study of properties preserved under continuous deformation."
+ },
+ {
+  "id": "HK.mathematics.topology.general_topology",
+  "name": "General Topology",
+  "name_en": "General Topology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.topology",
+  "name_zh": "点集拓扑"
+ },
+ {
+  "id": "HK.mathematics.topology.algebraic_topology",
+  "name": "Algebraic Topology",
+  "name_en": "Algebraic Topology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.topology",
+  "name_zh": "代数拓扑"
+ },
+ {
+  "id": "HK.mathematics.topology.differential_topology",
+  "name": "Differential Topology",
+  "name_en": "Differential Topology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.topology",
+  "name_zh": "微分拓扑"
+ },
+ {
+  "id": "HK.mathematics.topology.geometric_topology",
+  "name": "Geometric Topology",
+  "name_en": "Geometric Topology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.topology",
+  "name_zh": "几何拓扑"
+ },
+ {
+  "id": "HK.mathematics.topology.low_dimensional_topology",
+  "name": "Low-Dimensional Topology",
+  "name_en": "Low-Dimensional Topology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.topology",
+  "name_zh": "低维拓扑"
+ },
+ {
+  "id": "HK.mathematics.topology.knot_theory",
+  "name": "Knot Theory",
+  "name_en": "Knot Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.topology",
+  "name_zh": "纽结理论"
+ },
+ {
+  "id": "HK.mathematics.topology.sheaf_theory",
+  "name": "Sheaf Theory",
+  "name_en": "Sheaf Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.topology",
+  "name_zh": "层论"
+ },
+ {
+  "id": "HK.mathematics.topology.homotopy_theory",
+  "name": "Homotopy Theory",
+  "name_en": "Homotopy Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.topology",
+  "name_zh": "同伦论"
+ },
+ {
+  "id": "HK.mathematics.probability",
+  "name": "Probability",
+  "name_en": "Probability",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "概率论",
+  "description": "The mathematics of randomness and uncertainty."
+ },
+ {
+  "id": "HK.mathematics.probability.probability_theory",
+  "name": "Probability Theory",
+  "name_en": "Probability Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.probability",
+  "name_zh": "概率论"
+ },
+ {
+  "id": "HK.mathematics.probability.stochastic_processes",
+  "name": "Stochastic Processes",
+  "name_en": "Stochastic Processes",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.probability",
+  "name_zh": "随机过程"
+ },
+ {
+  "id": "HK.mathematics.probability.random_matrices",
+  "name": "Random Matrices",
+  "name_en": "Random Matrices",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.probability",
+  "name_zh": "随机矩阵"
+ },
+ {
+  "id": "HK.mathematics.probability.extreme_value_theory",
+  "name": "Extreme Value Theory",
+  "name_en": "Extreme Value Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.probability",
+  "name_zh": "极值理论"
+ },
+ {
+  "id": "HK.mathematics.probability.stochastic_calculus",
+  "name": "Stochastic Calculus",
+  "name_en": "Stochastic Calculus",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.probability",
+  "name_zh": "随机分析"
+ },
+ {
+  "id": "HK.mathematics.probability.percolation_theory",
+  "name": "Percolation Theory",
+  "name_en": "Percolation Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.probability",
+  "name_zh": "渗流理论"
+ },
+ {
+  "id": "HK.mathematics.probability.random_graphs",
+  "name": "Random Graphs",
+  "name_en": "Random Graphs",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.probability",
+  "name_zh": "随机图"
+ },
+ {
+  "id": "HK.mathematics.probability.large_deviations",
+  "name": "Large Deviations",
+  "name_en": "Large Deviations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.probability",
+  "name_zh": "大偏差理论"
+ },
+ {
+  "id": "HK.mathematics.statistics",
+  "name": "Statistics",
+  "name_en": "Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "统计学",
+  "description": "The mathematical theory of data and inference."
+ },
+ {
+  "id": "HK.mathematics.statistics.statistical_theory",
+  "name": "Statistical Theory",
+  "name_en": "Statistical Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "统计理论"
+ },
+ {
+  "id": "HK.mathematics.statistics.bayesian_statistics",
+  "name": "Bayesian Statistics",
+  "name_en": "Bayesian Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "贝叶斯统计"
+ },
+ {
+  "id": "HK.mathematics.statistics.frequentist_inference",
+  "name": "Frequentist Inference",
+  "name_en": "Frequentist Inference",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "频率学派推断"
+ },
+ {
+  "id": "HK.mathematics.statistics.regression_analysis",
+  "name": "Regression Analysis",
+  "name_en": "Regression Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "回归分析"
+ },
+ {
+  "id": "HK.mathematics.statistics.multivariate_analysis",
+  "name": "Multivariate Analysis",
+  "name_en": "Multivariate Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "多元分析"
+ },
+ {
+  "id": "HK.mathematics.statistics.time_series_analysis",
+  "name": "Time Series Analysis",
+  "name_en": "Time Series Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "时间序列分析"
+ },
+ {
+  "id": "HK.mathematics.statistics.survival_analysis",
+  "name": "Survival Analysis",
+  "name_en": "Survival Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "生存分析"
+ },
+ {
+  "id": "HK.mathematics.statistics.nonparametric_statistics",
+  "name": "Nonparametric Statistics",
+  "name_en": "Nonparametric Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "非参数统计"
+ },
+ {
+  "id": "HK.mathematics.statistics.causal_inference",
+  "name": "Causal Inference",
+  "name_en": "Causal Inference",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "因果推断"
+ },
+ {
+  "id": "HK.mathematics.statistics.experimental_design",
+  "name": "Experimental Design",
+  "name_en": "Experimental Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "实验设计"
+ },
+ {
+  "id": "HK.mathematics.statistics.sampling_theory",
+  "name": "Sampling Theory",
+  "name_en": "Sampling Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "抽样理论"
+ },
+ {
+  "id": "HK.mathematics.statistics.spatial_statistics",
+  "name": "Spatial Statistics",
+  "name_en": "Spatial Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.statistics",
+  "name_zh": "空间统计"
+ },
+ {
+  "id": "HK.mathematics.optimization",
+  "name": "Optimization",
+  "name_en": "Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "最优化",
+  "description": "The mathematics of finding the best among feasible alternatives."
+ },
+ {
+  "id": "HK.mathematics.optimization.linear_programming",
+  "name": "Linear Programming",
+  "name_en": "Linear Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "线性规划"
+ },
+ {
+  "id": "HK.mathematics.optimization.nonlinear_programming",
+  "name": "Nonlinear Programming",
+  "name_en": "Nonlinear Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "非线性规划"
+ },
+ {
+  "id": "HK.mathematics.optimization.convex_optimization",
+  "name": "Convex Optimization",
+  "name_en": "Convex Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "凸优化"
+ },
+ {
+  "id": "HK.mathematics.optimization.integer_programming",
+  "name": "Integer Programming",
+  "name_en": "Integer Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "整数规划"
+ },
+ {
+  "id": "HK.mathematics.optimization.combinatorial_optimization",
+  "name": "Combinatorial Optimization",
+  "name_en": "Combinatorial Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "组合优化"
+ },
+ {
+  "id": "HK.mathematics.optimization.stochastic_optimization",
+  "name": "Stochastic Optimization",
+  "name_en": "Stochastic Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "随机优化"
+ },
+ {
+  "id": "HK.mathematics.optimization.global_optimization",
+  "name": "Global Optimization",
+  "name_en": "Global Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "全局优化"
+ },
+ {
+  "id": "HK.mathematics.optimization.multiobjective_optimization",
+  "name": "Multiobjective Optimization",
+  "name_en": "Multiobjective Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "多目标优化"
+ },
+ {
+  "id": "HK.mathematics.optimization.semidefinite_programming",
+  "name": "Semidefinite Programming",
+  "name_en": "Semidefinite Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "半定规划"
+ },
+ {
+  "id": "HK.mathematics.optimization.dynamic_programming",
+  "name": "Dynamic Programming",
+  "name_en": "Dynamic Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "动态规划"
+ },
+ {
+  "id": "HK.mathematics.optimization.continuous_optimization",
+  "name": "Continuous Optimization",
+  "name_en": "Continuous Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.optimization",
+  "name_zh": "连续优化"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics",
+  "name": "Numerical Mathematics",
+  "name_en": "Numerical Mathematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "数值数学",
+  "description": "Algorithms and analysis for approximate numerical computation."
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.numerical_linear_algebra",
+  "name": "Numerical Linear Algebra",
+  "name_en": "Numerical Linear Algebra",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "数值线性代数"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.numerical_analysis",
+  "name": "Numerical Analysis",
+  "name_en": "Numerical Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "数值分析"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.finite_element_method",
+  "name": "Finite Element Method",
+  "name_en": "Finite Element Method",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "有限元法"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.finite_difference_method",
+  "name": "Finite Difference Method",
+  "name_en": "Finite Difference Method",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "有限差分法"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.finite_volume_method",
+  "name": "Finite Volume Method",
+  "name_en": "Finite Volume Method",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "有限体积法"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.spectral_methods",
+  "name": "Spectral Methods",
+  "name_en": "Spectral Methods",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "谱方法"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.interval_arithmetic",
+  "name": "Interval Arithmetic",
+  "name_en": "Interval Arithmetic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "区间算术"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.numerical_odes",
+  "name": "Numerical ODEs",
+  "name_en": "Numerical ODEs",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "常微分方程数值解"
+ },
+ {
+  "id": "HK.mathematics.numerical_mathematics.numerical_pdes",
+  "name": "Numerical PDEs",
+  "name_en": "Numerical PDEs",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.numerical_mathematics",
+  "name_zh": "偏微分方程数值解"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics",
+  "name": "Mathematical Physics",
+  "name_en": "Mathematical Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "数学物理",
+  "description": "The mathematics of physical theories and structures."
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.classical_mechanics",
+  "name": "Classical Mechanics",
+  "name_en": "Classical Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "经典力学"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.quantum_mechanics",
+  "name": "Quantum Mechanics",
+  "name_en": "Quantum Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "量子力学"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.quantum_field_theory",
+  "name": "Quantum Field Theory",
+  "name_en": "Quantum Field Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "量子场论"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.statistical_mechanics",
+  "name": "Statistical Mechanics",
+  "name_en": "Statistical Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "统计力学"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.general_relativity",
+  "name": "General Relativity",
+  "name_en": "General Relativity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "广义相对论"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.string_theory",
+  "name": "String Theory",
+  "name_en": "String Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "弦理论"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.integrable_systems",
+  "name": "Integrable Systems",
+  "name_en": "Integrable Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "可积系统"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.mathematical_fluid_dynamics",
+  "name": "Mathematical Fluid Dynamics",
+  "name_en": "Mathematical Fluid Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "数学流体力学"
+ },
+ {
+  "id": "HK.mathematics.mathematical_physics.spectral_theory",
+  "name": "Spectral Theory",
+  "name_en": "Spectral Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.mathematical_physics",
+  "name_zh": "谱理论"
+ },
+ {
+  "id": "HK.mathematics.information_theory",
+  "name": "Information Theory",
+  "name_en": "Information Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "信息论",
+  "description": "The mathematics of information, entropy, and communication."
+ },
+ {
+  "id": "HK.mathematics.information_theory.shannon_information_theory",
+  "name": "Shannon Information Theory",
+  "name_en": "Shannon Information Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.information_theory",
+  "name_zh": "香农信息论"
+ },
+ {
+  "id": "HK.mathematics.information_theory.algorithmic_information_theory",
+  "name": "Algorithmic Information Theory",
+  "name_en": "Algorithmic Information Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.information_theory",
+  "name_zh": "算法信息论"
+ },
+ {
+  "id": "HK.mathematics.information_theory.coding_theory",
+  "name": "Coding Theory",
+  "name_en": "Coding Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.information_theory",
+  "name_zh": "编码理论"
+ },
+ {
+  "id": "HK.mathematics.information_theory.network_information_theory",
+  "name": "Network Information Theory",
+  "name_en": "Network Information Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.information_theory",
+  "name_zh": "网络信息论"
+ },
+ {
+  "id": "HK.mathematics.information_theory.quantum_information_theory",
+  "name": "Quantum Information Theory",
+  "name_en": "Quantum Information Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.information_theory",
+  "name_zh": "量子信息论"
+ },
+ {
+  "id": "HK.mathematics.game_theory",
+  "name": "Game Theory",
+  "name_en": "Game Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "博弈论",
+  "description": "The mathematics of strategic interaction among agents."
+ },
+ {
+  "id": "HK.mathematics.game_theory.cooperative_game_theory",
+  "name": "Cooperative Game Theory",
+  "name_en": "Cooperative Game Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.game_theory",
+  "name_zh": "合作博弈"
+ },
+ {
+  "id": "HK.mathematics.game_theory.noncooperative_game_theory",
+  "name": "Noncooperative Game Theory",
+  "name_en": "Noncooperative Game Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.game_theory",
+  "name_zh": "非合作博弈"
+ },
+ {
+  "id": "HK.mathematics.game_theory.evolutionary_game_theory",
+  "name": "Evolutionary Game Theory",
+  "name_en": "Evolutionary Game Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.game_theory",
+  "name_zh": "演化博弈"
+ },
+ {
+  "id": "HK.mathematics.game_theory.combinatorial_game_theory",
+  "name": "Combinatorial Game Theory",
+  "name_en": "Combinatorial Game Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.game_theory",
+  "name_zh": "组合博弈"
+ },
+ {
+  "id": "HK.mathematics.game_theory.mechanism_design",
+  "name": "Mechanism Design",
+  "name_en": "Mechanism Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.game_theory",
+  "name_zh": "机制设计"
+ },
+ {
+  "id": "HK.mathematics.game_theory.algorithmic_game_theory",
+  "name": "Algorithmic Game Theory",
+  "name_en": "Algorithmic Game Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.game_theory",
+  "name_zh": "算法博弈论"
+ },
+ {
+  "id": "HK.mathematics.control_theory",
+  "name": "Control Theory",
+  "name_en": "Control Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "控制论",
+  "description": "The mathematics of controlling dynamical systems."
+ },
+ {
+  "id": "HK.mathematics.control_theory.classical_control_theory",
+  "name": "Classical Control Theory",
+  "name_en": "Classical Control Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.control_theory",
+  "name_zh": "经典控制理论"
+ },
+ {
+  "id": "HK.mathematics.control_theory.modern_control_theory",
+  "name": "Modern Control Theory",
+  "name_en": "Modern Control Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.control_theory",
+  "name_zh": "现代控制理论"
+ },
+ {
+  "id": "HK.mathematics.control_theory.optimal_control",
+  "name": "Optimal Control",
+  "name_en": "Optimal Control",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.control_theory",
+  "name_zh": "最优控制"
+ },
+ {
+  "id": "HK.mathematics.control_theory.robust_control",
+  "name": "Robust Control",
+  "name_en": "Robust Control",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.control_theory",
+  "name_zh": "鲁棒控制"
+ },
+ {
+  "id": "HK.mathematics.control_theory.adaptive_control",
+  "name": "Adaptive Control",
+  "name_en": "Adaptive Control",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.control_theory",
+  "name_zh": "自适应控制"
+ },
+ {
+  "id": "HK.mathematics.control_theory.nonlinear_control",
+  "name": "Nonlinear Control",
+  "name_en": "Nonlinear Control",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.control_theory",
+  "name_zh": "非线性控制"
+ },
+ {
+  "id": "HK.mathematics.control_theory.stochastic_control",
+  "name": "Stochastic Control",
+  "name_en": "Stochastic Control",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.control_theory",
+  "name_zh": "随机控制"
+ },
+ {
+  "id": "HK.mathematics.control_theory.networked_control_systems",
+  "name": "Networked Control Systems",
+  "name_en": "Networked Control Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.control_theory",
+  "name_zh": "网络化控制系统"
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems",
+  "name": "Dynamical Systems",
+  "name_en": "Dynamical Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "动力系统",
+  "description": "The study of systems evolving over time."
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems.continuous_dynamical_systems",
+  "name": "Continuous Dynamical Systems",
+  "name_en": "Continuous Dynamical Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.dynamical_systems",
+  "name_zh": "连续动力系统"
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems.discrete_dynamical_systems",
+  "name": "Discrete Dynamical Systems",
+  "name_en": "Discrete Dynamical Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.dynamical_systems",
+  "name_zh": "离散动力系统"
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems.ergodic_theory",
+  "name": "Ergodic Theory",
+  "name_en": "Ergodic Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.dynamical_systems",
+  "name_zh": "遍历理论"
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems.symbolic_dynamics",
+  "name": "Symbolic Dynamics",
+  "name_en": "Symbolic Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.dynamical_systems",
+  "name_zh": "符号动力学"
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems.bifurcation_theory",
+  "name": "Bifurcation Theory",
+  "name_en": "Bifurcation Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.dynamical_systems",
+  "name_zh": "分岔理论"
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems.chaos_theory",
+  "name": "Chaos Theory",
+  "name_en": "Chaos Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.dynamical_systems",
+  "name_zh": "混沌理论"
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems.complex_dynamics",
+  "name": "Complex Dynamics",
+  "name_en": "Complex Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.dynamical_systems",
+  "name_zh": "复动力系统"
+ },
+ {
+  "id": "HK.mathematics.dynamical_systems.hamiltonian_dynamics",
+  "name": "Hamiltonian Dynamics",
+  "name_en": "Hamiltonian Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.dynamical_systems",
+  "name_zh": "哈密顿动力学"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics",
+  "name": "Applied Mathematics",
+  "name_en": "Applied Mathematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics",
+  "name_zh": "应用数学",
+  "description": "Mathematics applied to problems in other domains."
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.mathematical_biology",
+  "name": "Mathematical Biology",
+  "name_en": "Mathematical Biology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "数学生物学"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.mathematical_finance",
+  "name": "Mathematical Finance",
+  "name_en": "Mathematical Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "数学金融"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.mathematical_economics",
+  "name": "Mathematical Economics",
+  "name_en": "Mathematical Economics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "数理经济学"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.industrial_mathematics",
+  "name": "Industrial Mathematics",
+  "name_en": "Industrial Mathematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "工业数学"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.actuarial_mathematics",
+  "name": "Actuarial Mathematics",
+  "name_en": "Actuarial Mathematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "精算数学"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.mathematical_psychology",
+  "name": "Mathematical Psychology",
+  "name_en": "Mathematical Psychology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "数学心理学"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.biomathematics",
+  "name": "Biomathematics",
+  "name_en": "Biomathematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "生物数学"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.quantitative_finance",
+  "name": "Quantitative Finance",
+  "name_en": "Quantitative Finance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "量化金融"
+ },
+ {
+  "id": "HK.mathematics.applied_mathematics.mathematical_modeling",
+  "name": "Mathematical Modeling",
+  "name_en": "Mathematical Modeling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.mathematics.applied_mathematics",
+  "name_zh": "数学建模"
+ }
+]

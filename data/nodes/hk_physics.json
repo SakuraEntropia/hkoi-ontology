@@ -1,0 +1,1311 @@
+[
+ {
+  "id": "HK.physics",
+  "name": "Physics",
+  "name_en": "Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "物理学",
+  "description": "The science of matter, energy, space, time, and fundamental forces."
+ },
+ {
+  "id": "HK.physics.classical_mechanics",
+  "name": "Classical Mechanics",
+  "name_en": "Classical Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "经典力学",
+  "description": "The mechanics of macroscopic bodies under forces and motion."
+ },
+ {
+  "id": "HK.physics.classical_mechanics.newtonian_mechanics",
+  "name": "Newtonian Mechanics",
+  "name_en": "Newtonian Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics",
+  "name_zh": "牛顿力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.analytical_mechanics",
+  "name": "Analytical Mechanics",
+  "name_en": "Analytical Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics",
+  "name_zh": "分析力学",
+  "description": "Formulations of mechanics using generalized coordinates and variational principles."
+ },
+ {
+  "id": "HK.physics.classical_mechanics.analytical_mechanics.lagrangian_mechanics",
+  "name": "Lagrangian Mechanics",
+  "name_en": "Lagrangian Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.analytical_mechanics",
+  "name_zh": "拉格朗日力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.analytical_mechanics.hamiltonian_mechanics",
+  "name": "Hamiltonian Mechanics",
+  "name_en": "Hamiltonian Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.analytical_mechanics",
+  "name_zh": "哈密顿力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.analytical_mechanics.geometric_mechanics",
+  "name": "Geometric Mechanics",
+  "name_en": "Geometric Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.analytical_mechanics",
+  "name_zh": "几何力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.analytical_mechanics.symplectic_mechanics",
+  "name": "Symplectic Mechanics",
+  "name_en": "Symplectic Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.analytical_mechanics",
+  "name_zh": "辛力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.analytical_mechanics.hamilton_jacobi_theory",
+  "name": "Hamilton-Jacobi Theory",
+  "name_en": "Hamilton-Jacobi Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.analytical_mechanics",
+  "name_zh": "哈密顿-雅可比理论"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.analytical_mechanics.perturbation_theory",
+  "name": "Perturbation Theory",
+  "name_en": "Perturbation Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.analytical_mechanics",
+  "name_zh": "摄动理论"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.rigid_body_dynamics",
+  "name": "Rigid Body Dynamics",
+  "name_en": "Rigid Body Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics",
+  "name_zh": "刚体动力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.celestial_mechanics",
+  "name": "Celestial Mechanics",
+  "name_en": "Celestial Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics",
+  "name_zh": "天体力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.continuum_mechanics",
+  "name": "Continuum Mechanics",
+  "name_en": "Continuum Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics",
+  "name_zh": "连续介质力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.continuum_mechanics.elasticity_theory",
+  "name": "Elasticity Theory",
+  "name_en": "Elasticity Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.continuum_mechanics",
+  "name_zh": "弹性理论"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.continuum_mechanics.plasticity_theory",
+  "name": "Plasticity Theory",
+  "name_en": "Plasticity Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.continuum_mechanics",
+  "name_zh": "塑性理论"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.continuum_mechanics.fracture_mechanics",
+  "name": "Fracture Mechanics",
+  "name_en": "Fracture Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.continuum_mechanics",
+  "name_zh": "断裂力学"
+ },
+ {
+  "id": "HK.physics.classical_mechanics.continuum_mechanics.rheology",
+  "name": "Rheology",
+  "name_en": "Rheology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.classical_mechanics.continuum_mechanics",
+  "name_zh": "流变学"
+ },
+ {
+  "id": "HK.physics.electromagnetism",
+  "name": "Electromagnetism",
+  "name_en": "Electromagnetism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "电磁学",
+  "description": "The study of electric and magnetic fields and their interactions."
+ },
+ {
+  "id": "HK.physics.electromagnetism.electrostatics",
+  "name": "Electrostatics",
+  "name_en": "Electrostatics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.electromagnetism",
+  "name_zh": "静电学"
+ },
+ {
+  "id": "HK.physics.electromagnetism.magnetostatics",
+  "name": "Magnetostatics",
+  "name_en": "Magnetostatics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.electromagnetism",
+  "name_zh": "静磁学"
+ },
+ {
+  "id": "HK.physics.electromagnetism.electrodynamics",
+  "name": "Electrodynamics",
+  "name_en": "Electrodynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.electromagnetism",
+  "name_zh": "电动力学"
+ },
+ {
+  "id": "HK.physics.electromagnetism.classical_electrodynamics",
+  "name": "Classical Electrodynamics",
+  "name_en": "Classical Electrodynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.electromagnetism",
+  "name_zh": "经典电动力学"
+ },
+ {
+  "id": "HK.physics.electromagnetism.electromagnetic_waves",
+  "name": "Electromagnetic Waves",
+  "name_en": "Electromagnetic Waves",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.electromagnetism",
+  "name_zh": "电磁波"
+ },
+ {
+  "id": "HK.physics.electromagnetism.magnetohydrodynamics",
+  "name": "Magnetohydrodynamics",
+  "name_en": "Magnetohydrodynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.electromagnetism",
+  "name_zh": "磁流体动力学"
+ },
+ {
+  "id": "HK.physics.thermodynamics_and_statistical_mechanics",
+  "name": "Thermodynamics & Statistical Mechanics",
+  "name_en": "Thermodynamics & Statistical Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "热力学与统计力学",
+  "description": "The physics of heat, temperature, entropy, and ensembles."
+ },
+ {
+  "id": "HK.physics.thermodynamics_and_statistical_mechanics.classical_thermodynamics",
+  "name": "Classical Thermodynamics",
+  "name_en": "Classical Thermodynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.thermodynamics_and_statistical_mechanics",
+  "name_zh": "经典热力学"
+ },
+ {
+  "id": "HK.physics.thermodynamics_and_statistical_mechanics.equilibrium_statistical_mechanics",
+  "name": "Equilibrium Statistical Mechanics",
+  "name_en": "Equilibrium Statistical Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.thermodynamics_and_statistical_mechanics",
+  "name_zh": "平衡统计力学"
+ },
+ {
+  "id": "HK.physics.thermodynamics_and_statistical_mechanics.nonequilibrium_statistical_mechanics",
+  "name": "Nonequilibrium Statistical Mechanics",
+  "name_en": "Nonequilibrium Statistical Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.thermodynamics_and_statistical_mechanics",
+  "name_zh": "非平衡统计力学"
+ },
+ {
+  "id": "HK.physics.thermodynamics_and_statistical_mechanics.kinetic_theory",
+  "name": "Kinetic Theory",
+  "name_en": "Kinetic Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.thermodynamics_and_statistical_mechanics",
+  "name_zh": "分子动理论"
+ },
+ {
+  "id": "HK.physics.thermodynamics_and_statistical_mechanics.phase_transitions",
+  "name": "Phase Transitions",
+  "name_en": "Phase Transitions",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.thermodynamics_and_statistical_mechanics",
+  "name_zh": "相变"
+ },
+ {
+  "id": "HK.physics.thermodynamics_and_statistical_mechanics.critical_phenomena",
+  "name": "Critical Phenomena",
+  "name_en": "Critical Phenomena",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.thermodynamics_and_statistical_mechanics",
+  "name_zh": "临界现象"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics",
+  "name": "Quantum Mechanics",
+  "name_en": "Quantum Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "量子力学",
+  "description": "The physics of matter and energy at atomic and subatomic scales."
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_foundations",
+  "name": "Quantum Foundations",
+  "name_en": "Quantum Foundations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics",
+  "name_zh": "量子基础"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_foundations.measurement_theory",
+  "name": "Quantum Measurement Theory",
+  "name_en": "Quantum Measurement Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics.quantum_foundations",
+  "name_zh": "量子测量理论"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_foundations.quantum_decoherence",
+  "name": "Quantum Decoherence",
+  "name_en": "Quantum Decoherence",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics.quantum_foundations",
+  "name_zh": "量子退相干"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_foundations.interpretations_of_quantum_mechanics",
+  "name": "Interpretations of Quantum Mechanics",
+  "name_en": "Interpretations of Quantum Mechanics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics.quantum_foundations",
+  "name_zh": "量子力学诠释"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_information",
+  "name": "Quantum Information",
+  "name_en": "Quantum Information",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics",
+  "name_zh": "量子信息"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_information.quantum_computation",
+  "name": "Quantum Computation",
+  "name_en": "Quantum Computation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics.quantum_information",
+  "name_zh": "量子计算"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_information.quantum_cryptography",
+  "name": "Quantum Cryptography",
+  "name_en": "Quantum Cryptography",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics.quantum_information",
+  "name_zh": "量子密码"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_information.quantum_entanglement",
+  "name": "Quantum Entanglement",
+  "name_en": "Quantum Entanglement",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics.quantum_information",
+  "name_zh": "量子纠缠"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.quantum_information.quantum_error_correction",
+  "name": "Quantum Error Correction",
+  "name_en": "Quantum Error Correction",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics.quantum_information",
+  "name_zh": "量子纠错"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.scattering_theory",
+  "name": "Scattering Theory",
+  "name_en": "Scattering Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics",
+  "name_zh": "散射理论"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.path_integral_formulation",
+  "name": "Path Integral Formulation",
+  "name_en": "Path Integral Formulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics",
+  "name_zh": "路径积分表述"
+ },
+ {
+  "id": "HK.physics.quantum_mechanics.many_body_quantum_theory",
+  "name": "Many-Body Quantum Theory",
+  "name_en": "Many-Body Quantum Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_mechanics",
+  "name_zh": "多体量子理论"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory",
+  "name": "Quantum Field Theory",
+  "name_en": "Quantum Field Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "量子场论",
+  "description": "The relativistic quantum theory of fields and particles."
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.gauge_theory",
+  "name": "Gauge Theory",
+  "name_en": "Gauge Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "规范场论"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.quantum_electrodynamics",
+  "name": "Quantum Electrodynamics",
+  "name_en": "Quantum Electrodynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "量子电动力学"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.quantum_chromodynamics",
+  "name": "Quantum Chromodynamics",
+  "name_en": "Quantum Chromodynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "量子色动力学"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.electroweak_theory",
+  "name": "Electroweak Theory",
+  "name_en": "Electroweak Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "电弱理论"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.standard_model",
+  "name": "Standard Model",
+  "name_en": "Standard Model",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "标准模型"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.lattice_field_theory",
+  "name": "Lattice Field Theory",
+  "name_en": "Lattice Field Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "格点场论"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.effective_field_theory",
+  "name": "Effective Field Theory",
+  "name_en": "Effective Field Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "有效场论"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.conformal_field_theory",
+  "name": "Conformal Field Theory",
+  "name_en": "Conformal Field Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "共形场论"
+ },
+ {
+  "id": "HK.physics.quantum_field_theory.axiomatic_quantum_field_theory",
+  "name": "Axiomatic Quantum Field Theory",
+  "name_en": "Axiomatic Quantum Field Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_field_theory",
+  "name_zh": "公理化量子场论"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories",
+  "name": "Quantum Gravity & Unified Theories",
+  "name_en": "Quantum Gravity & Unified Theories",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "量子引力与统一理论",
+  "description": "Theories unifying quantum mechanics with gravity."
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.quantum_gravity",
+  "name": "Quantum Gravity",
+  "name_en": "Quantum Gravity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories",
+  "name_zh": "量子引力"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "name": "String Theory",
+  "name_en": "String Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories",
+  "name_zh": "弦理论"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.string_theory.superstring_theory",
+  "name": "Superstring Theory",
+  "name_en": "Superstring Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "name_zh": "超弦理论"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.string_theory.m_theory",
+  "name": "M-Theory",
+  "name_en": "M-Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "name_zh": "M理论"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.string_theory.braneworld_cosmology",
+  "name": "Braneworld Cosmology",
+  "name_en": "Braneworld Cosmology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories.string_theory",
+  "name_zh": "膜宇宙学"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.loop_quantum_gravity",
+  "name": "Loop Quantum Gravity",
+  "name_en": "Loop Quantum Gravity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories",
+  "name_zh": "圈量子引力"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.causal_dynamical_triangulations",
+  "name": "Causal Dynamical Triangulations",
+  "name_en": "Causal Dynamical Triangulations",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories",
+  "name_zh": "因果动力学三角剖分"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.holographic_principle",
+  "name": "Holographic Principle",
+  "name_en": "Holographic Principle",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories",
+  "name_zh": "全息原理"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.quantum_cosmology",
+  "name": "Quantum Cosmology",
+  "name_en": "Quantum Cosmology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories",
+  "name_zh": "量子宇宙学"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.supersymmetry",
+  "name": "Supersymmetry",
+  "name_en": "Supersymmetry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories",
+  "name_zh": "超对称"
+ },
+ {
+  "id": "HK.physics.quantum_gravity_and_unified_theories.grand_unified_theory",
+  "name": "Grand Unified Theory",
+  "name_en": "Grand Unified Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.quantum_gravity_and_unified_theories",
+  "name_zh": "大统一理论"
+ },
+ {
+  "id": "HK.physics.relativity",
+  "name": "Relativity",
+  "name_en": "Relativity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "相对论",
+  "description": "The physics of space, time, and gravitation."
+ },
+ {
+  "id": "HK.physics.relativity.special_relativity",
+  "name": "Special Relativity",
+  "name_en": "Special Relativity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.relativity",
+  "name_zh": "狭义相对论"
+ },
+ {
+  "id": "HK.physics.relativity.general_relativity",
+  "name": "General Relativity",
+  "name_en": "General Relativity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.relativity",
+  "name_zh": "广义相对论"
+ },
+ {
+  "id": "HK.physics.relativity.general_relativity.gravitational_waves",
+  "name": "Gravitational Waves",
+  "name_en": "Gravitational Waves",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.relativity.general_relativity",
+  "name_zh": "引力波"
+ },
+ {
+  "id": "HK.physics.relativity.general_relativity.black_hole_physics",
+  "name": "Black Hole Physics",
+  "name_en": "Black Hole Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.relativity.general_relativity",
+  "name_zh": "黑洞物理"
+ },
+ {
+  "id": "HK.physics.relativity.general_relativity.numerical_relativity",
+  "name": "Numerical Relativity",
+  "name_en": "Numerical Relativity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.relativity.general_relativity",
+  "name_zh": "数值相对论"
+ },
+ {
+  "id": "HK.physics.particle_physics",
+  "name": "Particle Physics",
+  "name_en": "Particle Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "粒子物理学",
+  "description": "The physics of fundamental particles and their interactions."
+ },
+ {
+  "id": "HK.physics.particle_physics.high_energy_physics",
+  "name": "High Energy Physics",
+  "name_en": "High Energy Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.particle_physics",
+  "name_zh": "高能物理"
+ },
+ {
+  "id": "HK.physics.particle_physics.accelerator_physics",
+  "name": "Accelerator Physics",
+  "name_en": "Accelerator Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.particle_physics",
+  "name_zh": "加速器物理"
+ },
+ {
+  "id": "HK.physics.particle_physics.neutrino_physics",
+  "name": "Neutrino Physics",
+  "name_en": "Neutrino Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.particle_physics",
+  "name_zh": "中微子物理"
+ },
+ {
+  "id": "HK.physics.particle_physics.beyond_the_standard_model",
+  "name": "Beyond the Standard Model",
+  "name_en": "Beyond the Standard Model",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.particle_physics",
+  "name_zh": "超出标准模型"
+ },
+ {
+  "id": "HK.physics.particle_physics.dark_matter_physics",
+  "name": "Dark Matter Physics",
+  "name_en": "Dark Matter Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.particle_physics",
+  "name_zh": "暗物质物理"
+ },
+ {
+  "id": "HK.physics.nuclear_physics",
+  "name": "Nuclear Physics",
+  "name_en": "Nuclear Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "原子核物理学"
+ },
+ {
+  "id": "HK.physics.nuclear_physics.nuclear_structure",
+  "name": "Nuclear Structure",
+  "name_en": "Nuclear Structure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.nuclear_physics",
+  "name_zh": "核结构"
+ },
+ {
+  "id": "HK.physics.nuclear_physics.nuclear_reactions",
+  "name": "Nuclear Reactions",
+  "name_en": "Nuclear Reactions",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.nuclear_physics",
+  "name_zh": "核反应"
+ },
+ {
+  "id": "HK.physics.nuclear_physics.hadron_physics",
+  "name": "Hadron Physics",
+  "name_en": "Hadron Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.nuclear_physics",
+  "name_zh": "强子物理"
+ },
+ {
+  "id": "HK.physics.nuclear_physics.nuclear_astrophysics",
+  "name": "Nuclear Astrophysics",
+  "name_en": "Nuclear Astrophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.nuclear_physics",
+  "name_zh": "核天体物理"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical",
+  "name": "Atomic, Molecular & Optical Physics",
+  "name_en": "Atomic, Molecular & Optical Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "原子分子光物理"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.atomic_physics",
+  "name": "Atomic Physics",
+  "name_en": "Atomic Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical",
+  "name_zh": "原子物理学"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.molecular_physics",
+  "name": "Molecular Physics",
+  "name_en": "Molecular Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical",
+  "name_zh": "分子物理学"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.optical_physics",
+  "name": "Optical Physics",
+  "name_en": "Optical Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical",
+  "name_zh": "光学物理"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.laser_physics",
+  "name": "Laser Physics",
+  "name_en": "Laser Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical",
+  "name_zh": "激光物理"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.quantum_optics",
+  "name": "Quantum Optics",
+  "name_en": "Quantum Optics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical",
+  "name_zh": "量子光学"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.ultracold_atoms",
+  "name": "Ultracold Atoms",
+  "name_en": "Ultracold Atoms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical",
+  "name_zh": "超冷原子"
+ },
+ {
+  "id": "HK.physics.atomic_molecular_optical.quantum_simulation",
+  "name": "Quantum Simulation",
+  "name_en": "Quantum Simulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.atomic_molecular_optical",
+  "name_zh": "量子模拟"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics",
+  "name": "Condensed Matter Physics",
+  "name_en": "Condensed Matter Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "凝聚态物理",
+  "description": "The physics of solids and liquids."
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.solid_state_physics",
+  "name": "Solid State Physics",
+  "name_en": "Solid State Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "固体物理"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.soft_matter",
+  "name": "Soft Matter",
+  "name_en": "Soft Matter",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "软物质"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.superconductivity",
+  "name": "Superconductivity",
+  "name_en": "Superconductivity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "超导"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.magnetism",
+  "name": "Magnetism",
+  "name_en": "Magnetism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "磁性"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.semiconductor_physics",
+  "name": "Semiconductor Physics",
+  "name_en": "Semiconductor Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "半导体物理"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.topological_matter",
+  "name": "Topological Matter",
+  "name_en": "Topological Matter",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "拓扑物态"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.quantum_materials",
+  "name": "Quantum Materials",
+  "name_en": "Quantum Materials",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "量子材料"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.mesoscopic_physics",
+  "name": "Mesoscopic Physics",
+  "name_en": "Mesoscopic Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "介观物理"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.spintronics",
+  "name": "Spintronics",
+  "name_en": "Spintronics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "自旋电子学"
+ },
+ {
+  "id": "HK.physics.condensed_matter_physics.nanophysics",
+  "name": "Nanophysics",
+  "name_en": "Nanophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.condensed_matter_physics",
+  "name_zh": "纳米物理"
+ },
+ {
+  "id": "HK.physics.plasma_physics",
+  "name": "Plasma Physics",
+  "name_en": "Plasma Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "等离子体物理"
+ },
+ {
+  "id": "HK.physics.plasma_physics.magnetic_confinement_fusion",
+  "name": "Magnetic Confinement Fusion",
+  "name_en": "Magnetic Confinement Fusion",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.plasma_physics",
+  "name_zh": "磁约束聚变"
+ },
+ {
+  "id": "HK.physics.plasma_physics.inertial_confinement_fusion",
+  "name": "Inertial Confinement Fusion",
+  "name_en": "Inertial Confinement Fusion",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.plasma_physics",
+  "name_zh": "惯性约束聚变"
+ },
+ {
+  "id": "HK.physics.plasma_physics.space_plasma_physics",
+  "name": "Space Plasma Physics",
+  "name_en": "Space Plasma Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.plasma_physics",
+  "name_zh": "空间等离子体物理"
+ },
+ {
+  "id": "HK.physics.plasma_physics.astrophysical_plasma",
+  "name": "Astrophysical Plasma",
+  "name_en": "Astrophysical Plasma",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.plasma_physics",
+  "name_zh": "天体等离子体"
+ },
+ {
+  "id": "HK.physics.astrophysics",
+  "name": "Astrophysics",
+  "name_en": "Astrophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "天体物理学",
+  "description": "The physics of celestial objects and phenomena."
+ },
+ {
+  "id": "HK.physics.astrophysics.stellar_astrophysics",
+  "name": "Stellar Astrophysics",
+  "name_en": "Stellar Astrophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics",
+  "name_zh": "恒星天体物理"
+ },
+ {
+  "id": "HK.physics.astrophysics.galactic_astrophysics",
+  "name": "Galactic Astrophysics",
+  "name_en": "Galactic Astrophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics",
+  "name_zh": "星系天体物理"
+ },
+ {
+  "id": "HK.physics.astrophysics.extragalactic_astrophysics",
+  "name": "Extragalactic Astrophysics",
+  "name_en": "Extragalactic Astrophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics",
+  "name_zh": "河外天体物理"
+ },
+ {
+  "id": "HK.physics.astrophysics.high_energy_astrophysics",
+  "name": "High-Energy Astrophysics",
+  "name_en": "High-Energy Astrophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics",
+  "name_zh": "高能天体物理"
+ },
+ {
+  "id": "HK.physics.astrophysics.astroparticle_physics",
+  "name": "Astroparticle Physics",
+  "name_en": "Astroparticle Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics",
+  "name_zh": "天体粒子物理"
+ },
+ {
+  "id": "HK.physics.astrophysics.compact_objects",
+  "name": "Compact Objects",
+  "name_en": "Compact Objects",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics",
+  "name_zh": "致密天体"
+ },
+ {
+  "id": "HK.physics.astrophysics.exoplanet_science",
+  "name": "Exoplanet Science",
+  "name_en": "Exoplanet Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.astrophysics",
+  "name_zh": "系外行星科学"
+ },
+ {
+  "id": "HK.physics.cosmology",
+  "name": "Cosmology",
+  "name_en": "Cosmology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "宇宙学",
+  "description": "The study of the origin, evolution, and structure of the universe."
+ },
+ {
+  "id": "HK.physics.cosmology.physical_cosmology",
+  "name": "Physical Cosmology",
+  "name_en": "Physical Cosmology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology",
+  "name_zh": "物理宇宙学"
+ },
+ {
+  "id": "HK.physics.cosmology.observational_cosmology",
+  "name": "Observational Cosmology",
+  "name_en": "Observational Cosmology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology",
+  "name_zh": "观测宇宙学"
+ },
+ {
+  "id": "HK.physics.cosmology.early_universe",
+  "name": "Early Universe",
+  "name_en": "Early Universe",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology",
+  "name_zh": "早期宇宙"
+ },
+ {
+  "id": "HK.physics.cosmology.dark_energy",
+  "name": "Dark Energy",
+  "name_en": "Dark Energy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology",
+  "name_zh": "暗能量"
+ },
+ {
+  "id": "HK.physics.cosmology.cosmic_microwave_background",
+  "name": "Cosmic Microwave Background",
+  "name_en": "Cosmic Microwave Background",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology",
+  "name_zh": "宇宙微波背景"
+ },
+ {
+  "id": "HK.physics.cosmology.large_scale_structure",
+  "name": "Large-Scale Structure",
+  "name_en": "Large-Scale Structure",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.cosmology",
+  "name_zh": "大尺度结构"
+ },
+ {
+  "id": "HK.physics.biophysics",
+  "name": "Biophysics",
+  "name_en": "Biophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "生物物理学"
+ },
+ {
+  "id": "HK.physics.biophysics.molecular_biophysics",
+  "name": "Molecular Biophysics",
+  "name_en": "Molecular Biophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.biophysics",
+  "name_zh": "分子生物物理"
+ },
+ {
+  "id": "HK.physics.biophysics.cellular_biophysics",
+  "name": "Cellular Biophysics",
+  "name_en": "Cellular Biophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.biophysics",
+  "name_zh": "细胞生物物理"
+ },
+ {
+  "id": "HK.physics.biophysics.membrane_biophysics",
+  "name": "Membrane Biophysics",
+  "name_en": "Membrane Biophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.biophysics",
+  "name_zh": "膜生物物理"
+ },
+ {
+  "id": "HK.physics.biophysics.neurobiophysics",
+  "name": "Neurobiophysics",
+  "name_en": "Neurobiophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.biophysics",
+  "name_zh": "神经生物物理"
+ },
+ {
+  "id": "HK.physics.geophysics",
+  "name": "Geophysics",
+  "name_en": "Geophysics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "地球物理学"
+ },
+ {
+  "id": "HK.physics.geophysics.seismology",
+  "name": "Seismology",
+  "name_en": "Seismology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.geophysics",
+  "name_zh": "地震学"
+ },
+ {
+  "id": "HK.physics.geophysics.geomagnetism",
+  "name": "Geomagnetism",
+  "name_en": "Geomagnetism",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.geophysics",
+  "name_zh": "地磁学"
+ },
+ {
+  "id": "HK.physics.geophysics.geodesy",
+  "name": "Geodesy",
+  "name_en": "Geodesy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.geophysics",
+  "name_zh": "大地测量学"
+ },
+ {
+  "id": "HK.physics.geophysics.geothermics",
+  "name": "Geothermics",
+  "name_en": "Geothermics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.geophysics",
+  "name_zh": "地热学"
+ },
+ {
+  "id": "HK.physics.geophysics.mineral_physics",
+  "name": "Mineral Physics",
+  "name_en": "Mineral Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.geophysics",
+  "name_zh": "矿物物理"
+ },
+ {
+  "id": "HK.physics.fluid_dynamics",
+  "name": "Fluid Dynamics",
+  "name_en": "Fluid Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "流体动力学"
+ },
+ {
+  "id": "HK.physics.fluid_dynamics.hydrodynamics",
+  "name": "Hydrodynamics",
+  "name_en": "Hydrodynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.fluid_dynamics",
+  "name_zh": "流体力学"
+ },
+ {
+  "id": "HK.physics.fluid_dynamics.aerodynamics",
+  "name": "Aerodynamics",
+  "name_en": "Aerodynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.fluid_dynamics",
+  "name_zh": "空气动力学"
+ },
+ {
+  "id": "HK.physics.fluid_dynamics.turbulence",
+  "name": "Turbulence",
+  "name_en": "Turbulence",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.fluid_dynamics",
+  "name_zh": "湍流"
+ },
+ {
+  "id": "HK.physics.fluid_dynamics.computational_fluid_dynamics",
+  "name": "Computational Fluid Dynamics",
+  "name_en": "Computational Fluid Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.fluid_dynamics",
+  "name_zh": "计算流体力学"
+ },
+ {
+  "id": "HK.physics.fluid_dynamics.non_newtonian_fluid_dynamics",
+  "name": "Non-Newtonian Fluid Dynamics",
+  "name_en": "Non-Newtonian Fluid Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.fluid_dynamics",
+  "name_zh": "非牛顿流体力学"
+ },
+ {
+  "id": "HK.physics.optics_and_photonics",
+  "name": "Optics & Photonics",
+  "name_en": "Optics & Photonics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "光学与光子学"
+ },
+ {
+  "id": "HK.physics.optics_and_photonics.geometrical_optics",
+  "name": "Geometrical Optics",
+  "name_en": "Geometrical Optics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.optics_and_photonics",
+  "name_zh": "几何光学"
+ },
+ {
+  "id": "HK.physics.optics_and_photonics.wave_optics",
+  "name": "Wave Optics",
+  "name_en": "Wave Optics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.optics_and_photonics",
+  "name_zh": "波动光学"
+ },
+ {
+  "id": "HK.physics.optics_and_photonics.nonlinear_optics",
+  "name": "Nonlinear Optics",
+  "name_en": "Nonlinear Optics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.optics_and_photonics",
+  "name_zh": "非线性光学"
+ },
+ {
+  "id": "HK.physics.optics_and_photonics.photonics",
+  "name": "Photonics",
+  "name_en": "Photonics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.optics_and_photonics",
+  "name_zh": "光子学"
+ },
+ {
+  "id": "HK.physics.optics_and_photonics.fiber_optics",
+  "name": "Fiber Optics",
+  "name_en": "Fiber Optics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.optics_and_photonics",
+  "name_zh": "光纤"
+ },
+ {
+  "id": "HK.physics.acoustics",
+  "name": "Acoustics",
+  "name_en": "Acoustics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "声学"
+ },
+ {
+  "id": "HK.physics.acoustics.physical_acoustics",
+  "name": "Physical Acoustics",
+  "name_en": "Physical Acoustics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.acoustics",
+  "name_zh": "物理声学"
+ },
+ {
+  "id": "HK.physics.acoustics.ultrasonics",
+  "name": "Ultrasonics",
+  "name_en": "Ultrasonics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.acoustics",
+  "name_zh": "超声学"
+ },
+ {
+  "id": "HK.physics.acoustics.architectural_acoustics",
+  "name": "Architectural Acoustics",
+  "name_en": "Architectural Acoustics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.acoustics",
+  "name_zh": "建筑声学"
+ },
+ {
+  "id": "HK.physics.acoustics.underwater_acoustics",
+  "name": "Underwater Acoustics",
+  "name_en": "Underwater Acoustics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.acoustics",
+  "name_zh": "水声学"
+ },
+ {
+  "id": "HK.physics.acoustics.psychoacoustics",
+  "name": "Psychoacoustics",
+  "name_en": "Psychoacoustics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.acoustics",
+  "name_zh": "心理声学"
+ },
+ {
+  "id": "HK.physics.computational_physics",
+  "name": "Computational Physics",
+  "name_en": "Computational Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "计算物理"
+ },
+ {
+  "id": "HK.physics.computational_physics.molecular_dynamics",
+  "name": "Molecular Dynamics",
+  "name_en": "Molecular Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.computational_physics",
+  "name_zh": "分子动力学"
+ },
+ {
+  "id": "HK.physics.computational_physics.monte_carlo_methods",
+  "name": "Monte Carlo Methods",
+  "name_en": "Monte Carlo Methods",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.computational_physics",
+  "name_zh": "蒙特卡洛方法"
+ },
+ {
+  "id": "HK.physics.computational_physics.density_functional_theory",
+  "name": "Density Functional Theory",
+  "name_en": "Density Functional Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.computational_physics",
+  "name_zh": "密度泛函理论"
+ },
+ {
+  "id": "HK.physics.computational_physics.lattice_methods",
+  "name": "Lattice Methods",
+  "name_en": "Lattice Methods",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.computational_physics",
+  "name_zh": "格点方法"
+ },
+ {
+  "id": "HK.physics.chemical_physics",
+  "name": "Chemical Physics",
+  "name_en": "Chemical Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "化学物理"
+ },
+ {
+  "id": "HK.physics.medical_physics",
+  "name": "Medical Physics",
+  "name_en": "Medical Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "医学物理"
+ },
+ {
+  "id": "HK.physics.medical_physics.radiation_therapy_physics",
+  "name": "Radiation Therapy Physics",
+  "name_en": "Radiation Therapy Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.medical_physics",
+  "name_zh": "放射治疗物理"
+ },
+ {
+  "id": "HK.physics.medical_physics.medical_imaging_physics",
+  "name": "Medical Imaging Physics",
+  "name_en": "Medical Imaging Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.medical_physics",
+  "name_zh": "医学影像物理"
+ },
+ {
+  "id": "HK.physics.medical_physics.nuclear_medicine_physics",
+  "name": "Nuclear Medicine Physics",
+  "name_en": "Nuclear Medicine Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics.medical_physics",
+  "name_zh": "核医学物理"
+ },
+ {
+  "id": "HK.physics.applied_physics",
+  "name": "Applied Physics",
+  "name_en": "Applied Physics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.physics",
+  "name_zh": "应用物理"
+ }
+]

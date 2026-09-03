@@ -1,0 +1,648 @@
+[
+ {
+  "id": "HK.logic",
+  "name": "Logic",
+  "name_en": "Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "逻辑学",
+  "description": "The study of valid reasoning and inference."
+ },
+ {
+  "id": "HK.logic.philosophical_logic",
+  "name": "Philosophical Logic",
+  "name_en": "Philosophical Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic",
+  "name_zh": "哲学逻辑"
+ },
+ {
+  "id": "HK.logic.philosophical_logic.modal_logic",
+  "name": "Modal Logic",
+  "name_en": "Modal Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.philosophical_logic",
+  "name_zh": "模态逻辑"
+ },
+ {
+  "id": "HK.logic.philosophical_logic.deontic_logic",
+  "name": "Deontic Logic",
+  "name_en": "Deontic Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.philosophical_logic",
+  "name_zh": "道义逻辑"
+ },
+ {
+  "id": "HK.logic.philosophical_logic.epistemic_logic",
+  "name": "Epistemic Logic",
+  "name_en": "Epistemic Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.philosophical_logic",
+  "name_zh": "认知逻辑"
+ },
+ {
+  "id": "HK.logic.philosophical_logic.temporal_logic",
+  "name": "Temporal Logic",
+  "name_en": "Temporal Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.philosophical_logic",
+  "name_zh": "时序逻辑"
+ },
+ {
+  "id": "HK.logic.mathematical_logic",
+  "name": "Mathematical Logic",
+  "name_en": "Mathematical Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic",
+  "name_zh": "数理逻辑"
+ },
+ {
+  "id": "HK.logic.non_classical_logic",
+  "name": "Non-Classical Logic",
+  "name_en": "Non-Classical Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic",
+  "name_zh": "非经典逻辑"
+ },
+ {
+  "id": "HK.logic.non_classical_logic.intuitionistic_logic",
+  "name": "Intuitionistic Logic",
+  "name_en": "Intuitionistic Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.non_classical_logic",
+  "name_zh": "直觉主义逻辑"
+ },
+ {
+  "id": "HK.logic.non_classical_logic.paraconsistent_logic",
+  "name": "Paraconsistent Logic",
+  "name_en": "Paraconsistent Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.non_classical_logic",
+  "name_zh": "次协调逻辑"
+ },
+ {
+  "id": "HK.logic.non_classical_logic.many_valued_logic",
+  "name": "Many-Valued Logic",
+  "name_en": "Many-Valued Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.non_classical_logic",
+  "name_zh": "多值逻辑"
+ },
+ {
+  "id": "HK.logic.non_classical_logic.fuzzy_logic",
+  "name": "Fuzzy Logic",
+  "name_en": "Fuzzy Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.non_classical_logic",
+  "name_zh": "模糊逻辑"
+ },
+ {
+  "id": "HK.logic.non_classical_logic.relevance_logic",
+  "name": "Relevance Logic",
+  "name_en": "Relevance Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.non_classical_logic",
+  "name_zh": "相关逻辑"
+ },
+ {
+  "id": "HK.logic.non_classical_logic.substructural_logic",
+  "name": "Substructural Logic",
+  "name_en": "Substructural Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic.non_classical_logic",
+  "name_zh": "子结构逻辑"
+ },
+ {
+  "id": "HK.logic.informal_logic",
+  "name": "Informal Logic",
+  "name_en": "Informal Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic",
+  "name_zh": "非形式逻辑"
+ },
+ {
+  "id": "HK.logic.argumentation_theory",
+  "name": "Argumentation Theory",
+  "name_en": "Argumentation Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic",
+  "name_zh": "论辩理论"
+ },
+ {
+  "id": "HK.logic.metalogic",
+  "name": "Metalogic",
+  "name_en": "Metalogic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic",
+  "name_zh": "元逻辑"
+ },
+ {
+  "id": "HK.logic.logic_in_computer_science",
+  "name": "Logic in Computer Science",
+  "name_en": "Logic in Computer Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.logic",
+  "name_zh": "计算机逻辑"
+ },
+ {
+  "id": "HK.statistics",
+  "name": "Statistics",
+  "name_en": "Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "统计学",
+  "description": "The science of data and inference."
+ },
+ {
+  "id": "HK.statistics.descriptive_statistics",
+  "name": "Descriptive Statistics",
+  "name_en": "Descriptive Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "描述统计"
+ },
+ {
+  "id": "HK.statistics.inferential_statistics",
+  "name": "Inferential Statistics",
+  "name_en": "Inferential Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "推断统计"
+ },
+ {
+  "id": "HK.statistics.regression_analysis",
+  "name": "Regression Analysis",
+  "name_en": "Regression Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "回归分析"
+ },
+ {
+  "id": "HK.statistics.multivariate_statistics",
+  "name": "Multivariate Statistics",
+  "name_en": "Multivariate Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "多元统计"
+ },
+ {
+  "id": "HK.statistics.bayesian_statistics",
+  "name": "Bayesian Statistics",
+  "name_en": "Bayesian Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "贝叶斯统计"
+ },
+ {
+  "id": "HK.statistics.frequentist_statistics",
+  "name": "Frequentist Statistics",
+  "name_en": "Frequentist Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "频率统计"
+ },
+ {
+  "id": "HK.statistics.time_series_analysis",
+  "name": "Time Series Analysis",
+  "name_en": "Time Series Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "时间序列分析"
+ },
+ {
+  "id": "HK.statistics.survival_analysis",
+  "name": "Survival Analysis",
+  "name_en": "Survival Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "生存分析"
+ },
+ {
+  "id": "HK.statistics.nonparametric_statistics",
+  "name": "Nonparametric Statistics",
+  "name_en": "Nonparametric Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "非参数统计"
+ },
+ {
+  "id": "HK.statistics.causal_inference",
+  "name": "Causal Inference",
+  "name_en": "Causal Inference",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "因果推断"
+ },
+ {
+  "id": "HK.statistics.experimental_design",
+  "name": "Experimental Design",
+  "name_en": "Experimental Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "实验设计"
+ },
+ {
+  "id": "HK.statistics.sampling_theory",
+  "name": "Sampling Theory",
+  "name_en": "Sampling Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "抽样理论"
+ },
+ {
+  "id": "HK.statistics.spatial_statistics",
+  "name": "Spatial Statistics",
+  "name_en": "Spatial Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "空间统计"
+ },
+ {
+  "id": "HK.statistics.computational_statistics",
+  "name": "Computational Statistics",
+  "name_en": "Computational Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "计算统计"
+ },
+ {
+  "id": "HK.statistics.statistical_learning",
+  "name": "Statistical Learning",
+  "name_en": "Statistical Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "统计学习"
+ },
+ {
+  "id": "HK.statistics.biostatistics",
+  "name": "Biostatistics",
+  "name_en": "Biostatistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "生物统计"
+ },
+ {
+  "id": "HK.statistics.psychometrics",
+  "name": "Psychometrics",
+  "name_en": "Psychometrics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "心理测量学"
+ },
+ {
+  "id": "HK.statistics.econometrics",
+  "name": "Econometrics",
+  "name_en": "Econometrics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "计量经济学"
+ },
+ {
+  "id": "HK.statistics.official_statistics",
+  "name": "Official Statistics",
+  "name_en": "Official Statistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.statistics",
+  "name_zh": "官方统计"
+ },
+ {
+  "id": "HK.information_science",
+  "name": "Information Science",
+  "name_en": "Information Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "信息科学",
+  "description": "The study of information and its representation, storage, and retrieval."
+ },
+ {
+  "id": "HK.information_science.information_theory",
+  "name": "Information Theory",
+  "name_en": "Information Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "信息论"
+ },
+ {
+  "id": "HK.information_science.information_retrieval",
+  "name": "Information Retrieval",
+  "name_en": "Information Retrieval",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "信息检索"
+ },
+ {
+  "id": "HK.information_science.knowledge_management",
+  "name": "Knowledge Management",
+  "name_en": "Knowledge Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "知识管理"
+ },
+ {
+  "id": "HK.information_science.information_architecture",
+  "name": "Information Architecture",
+  "name_en": "Information Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "信息架构"
+ },
+ {
+  "id": "HK.information_science.bibliometrics",
+  "name": "Bibliometrics",
+  "name_en": "Bibliometrics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "文献计量学"
+ },
+ {
+  "id": "HK.information_science.scientometrics",
+  "name": "Scientometrics",
+  "name_en": "Scientometrics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "科学计量学"
+ },
+ {
+  "id": "HK.information_science.information_behavior",
+  "name": "Information Behavior",
+  "name_en": "Information Behavior",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "信息行为"
+ },
+ {
+  "id": "HK.information_science.digital_libraries",
+  "name": "Digital Libraries",
+  "name_en": "Digital Libraries",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "数字图书馆"
+ },
+ {
+  "id": "HK.information_science.data_management",
+  "name": "Data Management",
+  "name_en": "Data Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "数据管理"
+ },
+ {
+  "id": "HK.information_science.information_visualization",
+  "name": "Information Visualization",
+  "name_en": "Information Visualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.information_science",
+  "name_zh": "信息可视化"
+ },
+ {
+  "id": "HK.systems_science",
+  "name": "Systems Science",
+  "name_en": "Systems Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "系统科学",
+  "description": "The study of systems and their behavior."
+ },
+ {
+  "id": "HK.systems_science.general_systems_theory",
+  "name": "General Systems Theory",
+  "name_en": "General Systems Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.systems_science",
+  "name_zh": "一般系统论"
+ },
+ {
+  "id": "HK.systems_science.cybernetics",
+  "name": "Cybernetics",
+  "name_en": "Cybernetics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.systems_science",
+  "name_zh": "控制论"
+ },
+ {
+  "id": "HK.systems_science.complex_systems",
+  "name": "Complex Systems",
+  "name_en": "Complex Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.systems_science",
+  "name_zh": "复杂系统"
+ },
+ {
+  "id": "HK.systems_science.system_dynamics",
+  "name": "System Dynamics",
+  "name_en": "System Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.systems_science",
+  "name_zh": "系统动力学"
+ },
+ {
+  "id": "HK.systems_science.systems_engineering",
+  "name": "Systems Engineering",
+  "name_en": "Systems Engineering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.systems_science",
+  "name_zh": "系统工程"
+ },
+ {
+  "id": "HK.systems_science.systems_analysis",
+  "name": "Systems Analysis",
+  "name_en": "Systems Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.systems_science",
+  "name_zh": "系统分析"
+ },
+ {
+  "id": "HK.systems_science.network_science",
+  "name": "Network Science",
+  "name_en": "Network Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.systems_science",
+  "name_zh": "网络科学"
+ },
+ {
+  "id": "HK.operations_research",
+  "name": "Operations Research",
+  "name_en": "Operations Research",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "运筹学",
+  "description": "Applied mathematics for optimal decision-making."
+ },
+ {
+  "id": "HK.operations_research.linear_programming",
+  "name": "Linear Programming",
+  "name_en": "Linear Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "线性规划"
+ },
+ {
+  "id": "HK.operations_research.integer_programming",
+  "name": "Integer Programming",
+  "name_en": "Integer Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "整数规划"
+ },
+ {
+  "id": "HK.operations_research.nonlinear_programming",
+  "name": "Nonlinear Programming",
+  "name_en": "Nonlinear Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "非线性规划"
+ },
+ {
+  "id": "HK.operations_research.network_optimization",
+  "name": "Network Optimization",
+  "name_en": "Network Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "网络优化"
+ },
+ {
+  "id": "HK.operations_research.queueing_theory",
+  "name": "Queueing Theory",
+  "name_en": "Queueing Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "排队论"
+ },
+ {
+  "id": "HK.operations_research.inventory_theory",
+  "name": "Inventory Theory",
+  "name_en": "Inventory Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "库存理论"
+ },
+ {
+  "id": "HK.operations_research.simulation",
+  "name": "Simulation",
+  "name_en": "Simulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "仿真"
+ },
+ {
+  "id": "HK.operations_research.decision_analysis",
+  "name": "Decision Analysis",
+  "name_en": "Decision Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "决策分析"
+ },
+ {
+  "id": "HK.operations_research.scheduling",
+  "name": "Scheduling",
+  "name_en": "Scheduling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "调度"
+ },
+ {
+  "id": "HK.operations_research.transportation_problem",
+  "name": "Transportation Problem",
+  "name_en": "Transportation Problem",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "运输问题"
+ },
+ {
+  "id": "HK.operations_research.stochastic_programming",
+  "name": "Stochastic Programming",
+  "name_en": "Stochastic Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "随机规划"
+ },
+ {
+  "id": "HK.operations_research.supply_chain_optimization",
+  "name": "Supply Chain Optimization",
+  "name_en": "Supply Chain Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.operations_research",
+  "name_zh": "供应链优化"
+ },
+ {
+  "id": "HK.data_science",
+  "name": "Data Science",
+  "name_en": "Data Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "数据科学",
+  "description": "The extraction of insight from data."
+ },
+ {
+  "id": "HK.data_science.data_engineering",
+  "name": "Data Engineering",
+  "name_en": "Data Engineering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "数据工程"
+ },
+ {
+  "id": "HK.data_science.data_wrangling",
+  "name": "Data Wrangling",
+  "name_en": "Data Wrangling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "数据整理"
+ },
+ {
+  "id": "HK.data_science.exploratory_data_analysis",
+  "name": "Exploratory Data Analysis",
+  "name_en": "Exploratory Data Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "探索性数据分析"
+ },
+ {
+  "id": "HK.data_science.statistical_modeling",
+  "name": "Statistical Modeling",
+  "name_en": "Statistical Modeling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "统计建模"
+ },
+ {
+  "id": "HK.data_science.data_visualization",
+  "name": "Data Visualization",
+  "name_en": "Data Visualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "数据可视化"
+ },
+ {
+  "id": "HK.data_science.big_data",
+  "name": "Big Data",
+  "name_en": "Big Data",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "大数据"
+ },
+ {
+  "id": "HK.data_science.mlops",
+  "name": "MLOps",
+  "name_en": "MLOps",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "MLOps"
+ },
+ {
+  "id": "HK.data_science.data_ethics",
+  "name": "Data Ethics",
+  "name_en": "Data Ethics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "数据伦理"
+ },
+ {
+  "id": "HK.data_science.data_governance",
+  "name": "Data Governance",
+  "name_en": "Data Governance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.data_science",
+  "name_zh": "数据治理"
+ }
+]

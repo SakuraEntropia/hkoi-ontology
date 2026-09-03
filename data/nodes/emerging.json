@@ -1,0 +1,219 @@
+[
+ {
+  "id": "EMERGING_FIELDS",
+  "name": "Emerging Fields",
+  "name_en": "Emerging Fields",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "新兴领域",
+  "description": "Nascent cross-disciplinary fields."
+ },
+ {
+  "id": "EMERGING_FIELDS.artificial_general_intelligence",
+  "name": "Artificial General Intelligence",
+  "name_en": "Artificial General Intelligence",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "通用人工智能"
+ },
+ {
+  "id": "EMERGING_FIELDS.ai_alignment",
+  "name": "AI Alignment",
+  "name_en": "AI Alignment",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "AI对齐"
+ },
+ {
+  "id": "EMERGING_FIELDS.ai_safety",
+  "name": "AI Safety",
+  "name_en": "AI Safety",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "AI安全"
+ },
+ {
+  "id": "EMERGING_FIELDS.agentic_ai",
+  "name": "Agentic AI",
+  "name_en": "Agentic AI",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "智能体AI"
+ },
+ {
+  "id": "EMERGING_FIELDS.generative_ai",
+  "name": "Generative AI",
+  "name_en": "Generative AI",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "生成式AI"
+ },
+ {
+  "id": "EMERGING_FIELDS.quantum_machine_learning",
+  "name": "Quantum Machine Learning",
+  "name_en": "Quantum Machine Learning",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "量子机器学习"
+ },
+ {
+  "id": "EMERGING_FIELDS.neuromorphic_computing",
+  "name": "Neuromorphic Computing",
+  "name_en": "Neuromorphic Computing",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "神经形态计算"
+ },
+ {
+  "id": "EMERGING_FIELDS.spatial_computing",
+  "name": "Spatial Computing",
+  "name_en": "Spatial Computing",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "空间计算"
+ },
+ {
+  "id": "EMERGING_FIELDS.extended_reality",
+  "name": "Extended Reality",
+  "name_en": "Extended Reality",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "扩展现实"
+ },
+ {
+  "id": "EMERGING_FIELDS.brain_computer_interfaces",
+  "name": "Brain-Computer Interfaces",
+  "name_en": "Brain-Computer Interfaces",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "脑机接口"
+ },
+ {
+  "id": "EMERGING_FIELDS.digital_twins",
+  "name": "Digital Twins",
+  "name_en": "Digital Twins",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "数字孪生"
+ },
+ {
+  "id": "EMERGING_FIELDS.metaverse",
+  "name": "Metaverse",
+  "name_en": "Metaverse",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "元宇宙"
+ },
+ {
+  "id": "EMERGING_FIELDS.web3",
+  "name": "Web3",
+  "name_en": "Web3",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "Web3"
+ },
+ {
+  "id": "EMERGING_FIELDS.decentralized_science",
+  "name": "Decentralized Science",
+  "name_en": "Decentralized Science",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "去中心化科学"
+ },
+ {
+  "id": "EMERGING_FIELDS.longevity_science",
+  "name": "Longevity Science",
+  "name_en": "Longevity Science",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "长寿科学"
+ },
+ {
+  "id": "EMERGING_FIELDS.synthetic_biology",
+  "name": "Synthetic Biology",
+  "name_en": "Synthetic Biology",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "合成生物学"
+ },
+ {
+  "id": "EMERGING_FIELDS.organoid_intelligence",
+  "name": "Organoid Intelligence",
+  "name_en": "Organoid Intelligence",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "类器官智能"
+ },
+ {
+  "id": "EMERGING_FIELDS.bioprinting",
+  "name": "Bioprinting",
+  "name_en": "Bioprinting",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "生物打印"
+ },
+ {
+  "id": "EMERGING_FIELDS.personalized_medicine",
+  "name": "Personalized Medicine",
+  "name_en": "Personalized Medicine",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "个性化医疗"
+ },
+ {
+  "id": "EMERGING_FIELDS.precision_agriculture",
+  "name": "Precision Agriculture",
+  "name_en": "Precision Agriculture",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "精准农业"
+ },
+ {
+  "id": "EMERGING_FIELDS.climate_technology",
+  "name": "Climate Technology",
+  "name_en": "Climate Technology",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "气候技术"
+ },
+ {
+  "id": "EMERGING_FIELDS.carbon_capture",
+  "name": "Carbon Capture",
+  "name_en": "Carbon Capture",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "碳捕集"
+ },
+ {
+  "id": "EMERGING_FIELDS.fusion_energy",
+  "name": "Fusion Energy",
+  "name_en": "Fusion Energy",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "聚变能源"
+ },
+ {
+  "id": "EMERGING_FIELDS.green_chemistry",
+  "name": "Green Chemistry",
+  "name_en": "Green Chemistry",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "绿色化学"
+ },
+ {
+  "id": "EMERGING_FIELDS.autonomous_agents",
+  "name": "Autonomous Agents",
+  "name_en": "Autonomous Agents",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "自主智能体"
+ },
+ {
+  "id": "EMERGING_FIELDS.human_enhancement",
+  "name": "Human Enhancement",
+  "name_en": "Human Enhancement",
+  "type": "EMERGING_FIELD",
+  "parent": "EMERGING_FIELDS",
+  "name_zh": "人类增强"
+ }
+]

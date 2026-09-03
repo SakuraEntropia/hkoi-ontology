@@ -1,0 +1,15 @@
+{
+  "name": "hkoi-ontology",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Human Knowledge, Occupation & Industry Ontology (HK-OI) — a tree+graph multi-level taxonomy of the human classification space.",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "report": "node src/report.mjs",
+    "query": "node src/query.mjs"
+  }
+}

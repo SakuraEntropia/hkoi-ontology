@@ -1,0 +1,110 @@
+[
+ {
+  "id": "HUMAN_KNOWLEDGE",
+  "name": "Human Knowledge",
+  "name_en": "Human Knowledge",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "人类知识",
+  "description": "All academic disciplines, scientific fields, and organized bodies of knowledge."
+ },
+ {
+  "id": "OCCUPATIONS",
+  "name": "Occupations",
+  "name_en": "Occupations",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "职业",
+  "description": "Jobs, professions, trades, and paid work specializations."
+ },
+ {
+  "id": "SOCIAL_ROLES",
+  "name": "Social Roles",
+  "name_en": "Social Roles",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "社会角色",
+  "description": "Roles people occupy in society, not necessarily remunerated."
+ },
+ {
+  "id": "ARTS_AND_CULTURE",
+  "name": "Arts & Culture",
+  "name_en": "Arts & Culture",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "艺术与文化",
+  "description": "Art forms, movements, genres, and creative techniques."
+ },
+ {
+  "id": "SPORTS_AND_GAMES",
+  "name": "Sports & Games",
+  "name_en": "Sports & Games",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "体育与游戏",
+  "description": "Sports, games, mind sports, traditional and indigenous games."
+ },
+ {
+  "id": "INDUSTRIES",
+  "name": "Industries",
+  "name_en": "Industries",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "产业",
+  "description": "Economic sectors, industries, and economic activities."
+ },
+ {
+  "id": "PRODUCTS_AND_SERVICES",
+  "name": "Products & Services",
+  "name_en": "Products & Services",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "产品与服务",
+  "description": "Goods and services produced and consumed in the economy."
+ },
+ {
+  "id": "ORGANIZATIONS_AND_INSTITUTIONS",
+  "name": "Organizations & Institutions",
+  "name_en": "Organizations & Institutions",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "组织与机构",
+  "description": "Types of companies, institutions, and collective bodies."
+ },
+ {
+  "id": "TECHNOLOGIES",
+  "name": "Technologies",
+  "name_en": "Technologies",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "技术",
+  "description": "Technologies, engineering methods, and material systems as artifacts."
+ },
+ {
+  "id": "MEDIA_AND_CONTENT",
+  "name": "Media & Content",
+  "name_en": "Media & Content",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "媒体与内容",
+  "description": "Media forms, channels, and content types."
+ },
+ {
+  "id": "HISTORICAL_OCCUPATIONS",
+  "name": "Historical Occupations",
+  "name_en": "Historical Occupations",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "历史职业",
+  "description": "Extinct or obsolete occupations, linked to modern successors."
+ },
+ {
+  "id": "EMERGING_FIELDS",
+  "name": "Emerging Fields",
+  "name_en": "Emerging Fields",
+  "type": "UNIVERSE",
+  "parent": null,
+  "name_zh": "新兴领域",
+  "description": "Nascent cross-disciplinary fields not yet fully institutionalized."
+ }
+]

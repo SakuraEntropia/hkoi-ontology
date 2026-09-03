@@ -1,0 +1,2115 @@
+[
+ {
+  "id": "HK.computer_science",
+  "name": "Computer Science",
+  "name_en": "Computer Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "计算机科学",
+  "description": "The study of computation, algorithms, information, and computing systems."
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation",
+  "name": "Theory of Computation",
+  "name_en": "Theory of Computation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "计算理论"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.automata_theory",
+  "name": "Automata Theory",
+  "name_en": "Automata Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation",
+  "name_zh": "自动机理论"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.computability_theory",
+  "name": "Computability Theory",
+  "name_en": "Computability Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation",
+  "name_zh": "可计算性理论"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.complexity_theory",
+  "name": "Computational Complexity Theory",
+  "name_en": "Computational Complexity Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation",
+  "name_zh": "计算复杂性理论"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.complexity_theory.computational_complexity_classes",
+  "name": "Complexity Classes",
+  "name_en": "Complexity Classes",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation.complexity_theory",
+  "name_zh": "复杂度类"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.complexity_theory.circuit_complexity",
+  "name": "Circuit Complexity",
+  "name_en": "Circuit Complexity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation.complexity_theory",
+  "name_zh": "电路复杂度"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.complexity_theory.parameterized_complexity",
+  "name": "Parameterized Complexity",
+  "name_en": "Parameterized Complexity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation.complexity_theory",
+  "name_zh": "参数化复杂度"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.complexity_theory.communication_complexity",
+  "name": "Communication Complexity",
+  "name_en": "Communication Complexity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation.complexity_theory",
+  "name_zh": "通信复杂度"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.complexity_theory.average_case_complexity",
+  "name": "Average-Case Complexity",
+  "name_en": "Average-Case Complexity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation.complexity_theory",
+  "name_zh": "平均情况复杂度"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.formal_languages",
+  "name": "Formal Languages",
+  "name_en": "Formal Languages",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation",
+  "name_zh": "形式语言"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.descriptive_complexity",
+  "name": "Descriptive Complexity",
+  "name_en": "Descriptive Complexity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation",
+  "name_zh": "描述复杂性"
+ },
+ {
+  "id": "HK.computer_science.theory_of_computation.quantum_computation_theory",
+  "name": "Quantum Computation Theory",
+  "name_en": "Quantum Computation Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.theory_of_computation",
+  "name_zh": "量子计算理论"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures",
+  "name": "Algorithms & Data Structures",
+  "name_en": "Algorithms & Data Structures",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "算法与数据结构"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.algorithm_design",
+  "name": "Algorithm Design",
+  "name_en": "Algorithm Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "算法设计"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.data_structures",
+  "name": "Data Structures",
+  "name_en": "Data Structures",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "数据结构"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.graph_algorithms",
+  "name": "Graph Algorithms",
+  "name_en": "Graph Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "图算法"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.string_algorithms",
+  "name": "String Algorithms",
+  "name_en": "String Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "字符串算法"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.approximation_algorithms",
+  "name": "Approximation Algorithms",
+  "name_en": "Approximation Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "近似算法"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.randomized_algorithms",
+  "name": "Randomized Algorithms",
+  "name_en": "Randomized Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "随机算法"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.online_algorithms",
+  "name": "Online Algorithms",
+  "name_en": "Online Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "在线算法"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.parallel_algorithms",
+  "name": "Parallel Algorithms",
+  "name_en": "Parallel Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "并行算法"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.geometric_algorithms",
+  "name": "Geometric Algorithms",
+  "name_en": "Geometric Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "几何算法"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.streaming_algorithms",
+  "name": "Streaming Algorithms",
+  "name_en": "Streaming Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "流算法"
+ },
+ {
+  "id": "HK.computer_science.algorithms_and_data_structures.parameterized_algorithms",
+  "name": "Parameterized Algorithms",
+  "name_en": "Parameterized Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.algorithms_and_data_structures",
+  "name_zh": "参数化算法"
+ },
+ {
+  "id": "HK.computer_science.programming_languages",
+  "name": "Programming Languages",
+  "name_en": "Programming Languages",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "编程语言"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.programming_paradigms",
+  "name": "Programming Paradigms",
+  "name_en": "Programming Paradigms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages",
+  "name_zh": "编程范式"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.programming_paradigms.imperative_programming",
+  "name": "Imperative Programming",
+  "name_en": "Imperative Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages.programming_paradigms",
+  "name_zh": "命令式编程"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.programming_paradigms.functional_programming",
+  "name": "Functional Programming",
+  "name_en": "Functional Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages.programming_paradigms",
+  "name_zh": "函数式编程"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.programming_paradigms.object_oriented_programming",
+  "name": "Object-Oriented Programming",
+  "name_en": "Object-Oriented Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages.programming_paradigms",
+  "name_zh": "面向对象编程"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.programming_paradigms.logic_programming",
+  "name": "Logic Programming",
+  "name_en": "Logic Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages.programming_paradigms",
+  "name_zh": "逻辑编程"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.programming_paradigms.declarative_programming",
+  "name": "Declarative Programming",
+  "name_en": "Declarative Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages.programming_paradigms",
+  "name_zh": "声明式编程"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.programming_paradigms.concurrent_programming",
+  "name": "Concurrent Programming",
+  "name_en": "Concurrent Programming",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages.programming_paradigms",
+  "name_zh": "并发编程"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.type_systems",
+  "name": "Type Systems",
+  "name_en": "Type Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages",
+  "name_zh": "类型系统"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.programming_language_semantics",
+  "name": "Programming Language Semantics",
+  "name_en": "Programming Language Semantics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages",
+  "name_zh": "程序语言语义"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.program_analysis",
+  "name": "Program Analysis",
+  "name_en": "Program Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages",
+  "name_zh": "程序分析"
+ },
+ {
+  "id": "HK.computer_science.programming_languages.domain_specific_languages",
+  "name": "Domain-Specific Languages",
+  "name_en": "Domain-Specific Languages",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.programming_languages",
+  "name_zh": "领域特定语言"
+ },
+ {
+  "id": "HK.computer_science.compilers",
+  "name": "Compilers",
+  "name_en": "Compilers",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "编译器"
+ },
+ {
+  "id": "HK.computer_science.compilers.lexical_analysis",
+  "name": "Lexical Analysis",
+  "name_en": "Lexical Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.compilers",
+  "name_zh": "词法分析"
+ },
+ {
+  "id": "HK.computer_science.compilers.parsing",
+  "name": "Parsing",
+  "name_en": "Parsing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.compilers",
+  "name_zh": "语法分析"
+ },
+ {
+  "id": "HK.computer_science.compilers.semantic_analysis",
+  "name": "Semantic Analysis",
+  "name_en": "Semantic Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.compilers",
+  "name_zh": "语义分析"
+ },
+ {
+  "id": "HK.computer_science.compilers.intermediate_representation",
+  "name": "Intermediate Representation",
+  "name_en": "Intermediate Representation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.compilers",
+  "name_zh": "中间表示"
+ },
+ {
+  "id": "HK.computer_science.compilers.compiler_optimization",
+  "name": "Compiler Optimization",
+  "name_en": "Compiler Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.compilers",
+  "name_zh": "编译优化"
+ },
+ {
+  "id": "HK.computer_science.compilers.code_generation",
+  "name": "Code Generation",
+  "name_en": "Code Generation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.compilers",
+  "name_zh": "代码生成"
+ },
+ {
+  "id": "HK.computer_science.compilers.runtime_systems",
+  "name": "Runtime Systems",
+  "name_en": "Runtime Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.compilers",
+  "name_zh": "运行时系统"
+ },
+ {
+  "id": "HK.computer_science.compilers.just_in_time_compilation",
+  "name": "Just-in-Time Compilation",
+  "name_en": "Just-in-Time Compilation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.compilers",
+  "name_zh": "即时编译"
+ },
+ {
+  "id": "HK.computer_science.operating_systems",
+  "name": "Operating Systems",
+  "name_en": "Operating Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "操作系统"
+ },
+ {
+  "id": "HK.computer_science.operating_systems.kernel_design",
+  "name": "Kernel Design",
+  "name_en": "Kernel Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.operating_systems",
+  "name_zh": "内核设计"
+ },
+ {
+  "id": "HK.computer_science.operating_systems.process_scheduling",
+  "name": "Process Scheduling",
+  "name_en": "Process Scheduling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.operating_systems",
+  "name_zh": "进程调度"
+ },
+ {
+  "id": "HK.computer_science.operating_systems.memory_management",
+  "name": "Memory Management",
+  "name_en": "Memory Management",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.operating_systems",
+  "name_zh": "内存管理"
+ },
+ {
+  "id": "HK.computer_science.operating_systems.file_systems",
+  "name": "File Systems",
+  "name_en": "File Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.operating_systems",
+  "name_zh": "文件系统"
+ },
+ {
+  "id": "HK.computer_science.operating_systems.device_drivers",
+  "name": "Device Drivers",
+  "name_en": "Device Drivers",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.operating_systems",
+  "name_zh": "设备驱动"
+ },
+ {
+  "id": "HK.computer_science.operating_systems.virtualization",
+  "name": "Virtualization",
+  "name_en": "Virtualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.operating_systems",
+  "name_zh": "虚拟化"
+ },
+ {
+  "id": "HK.computer_science.operating_systems.real_time_operating_systems",
+  "name": "Real-Time Operating Systems",
+  "name_en": "Real-Time Operating Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.operating_systems",
+  "name_zh": "实时操作系统"
+ },
+ {
+  "id": "HK.computer_science.operating_systems.distributed_operating_systems",
+  "name": "Distributed Operating Systems",
+  "name_en": "Distributed Operating Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.operating_systems",
+  "name_zh": "分布式操作系统"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture",
+  "name": "Computer Architecture",
+  "name_en": "Computer Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "计算机体系结构"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture.instruction_set_architecture",
+  "name": "Instruction Set Architecture",
+  "name_en": "Instruction Set Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_architecture",
+  "name_zh": "指令集架构"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture.microarchitecture",
+  "name": "Microarchitecture",
+  "name_en": "Microarchitecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_architecture",
+  "name_zh": "微架构"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture.memory_hierarchy",
+  "name": "Memory Hierarchy",
+  "name_en": "Memory Hierarchy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_architecture",
+  "name_zh": "存储层次"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture.parallel_computer_architecture",
+  "name": "Parallel Computer Architecture",
+  "name_en": "Parallel Computer Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_architecture",
+  "name_zh": "并行体系结构"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture.gpu_architecture",
+  "name": "GPU Architecture",
+  "name_en": "GPU Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_architecture",
+  "name_zh": "GPU架构"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture.domain_specific_accelerators",
+  "name": "Domain-Specific Accelerators",
+  "name_en": "Domain-Specific Accelerators",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_architecture",
+  "name_zh": "领域专用加速器"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture.quantum_computer_architecture",
+  "name": "Quantum Computer Architecture",
+  "name_en": "Quantum Computer Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_architecture",
+  "name_zh": "量子计算机体系结构"
+ },
+ {
+  "id": "HK.computer_science.computer_architecture.interconnection_networks",
+  "name": "Interconnection Networks",
+  "name_en": "Interconnection Networks",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_architecture",
+  "name_zh": "互连网络"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems",
+  "name": "Distributed Systems",
+  "name_en": "Distributed Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "分布式系统"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.consensus_algorithms",
+  "name": "Consensus Algorithms",
+  "name_en": "Consensus Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "共识算法"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.replication",
+  "name": "Replication",
+  "name_en": "Replication",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "复制"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.fault_tolerance",
+  "name": "Fault Tolerance",
+  "name_en": "Fault Tolerance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "容错"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.distributed_transactions",
+  "name": "Distributed Transactions",
+  "name_en": "Distributed Transactions",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "分布式事务"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.cloud_computing",
+  "name": "Cloud Computing",
+  "name_en": "Cloud Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "云计算"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.edge_computing",
+  "name": "Edge Computing",
+  "name_en": "Edge Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "边缘计算"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.serverless_computing",
+  "name": "Serverless Computing",
+  "name_en": "Serverless Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "无服务器计算"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.peer_to_peer_systems",
+  "name": "Peer-to-Peer Systems",
+  "name_en": "Peer-to-Peer Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "点对点系统"
+ },
+ {
+  "id": "HK.computer_science.distributed_systems.microservices",
+  "name": "Microservices",
+  "name_en": "Microservices",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.distributed_systems",
+  "name_zh": "微服务"
+ },
+ {
+  "id": "HK.computer_science.databases",
+  "name": "Databases",
+  "name_en": "Databases",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "数据库"
+ },
+ {
+  "id": "HK.computer_science.databases.relational_databases",
+  "name": "Relational Databases",
+  "name_en": "Relational Databases",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "关系数据库"
+ },
+ {
+  "id": "HK.computer_science.databases.nosql_databases",
+  "name": "NoSQL Databases",
+  "name_en": "NoSQL Databases",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "NoSQL数据库"
+ },
+ {
+  "id": "HK.computer_science.databases.distributed_databases",
+  "name": "Distributed Databases",
+  "name_en": "Distributed Databases",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "分布式数据库"
+ },
+ {
+  "id": "HK.computer_science.databases.data_warehousing",
+  "name": "Data Warehousing",
+  "name_en": "Data Warehousing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "数据仓库"
+ },
+ {
+  "id": "HK.computer_science.databases.graph_databases",
+  "name": "Graph Databases",
+  "name_en": "Graph Databases",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "图数据库"
+ },
+ {
+  "id": "HK.computer_science.databases.time_series_databases",
+  "name": "Time Series Databases",
+  "name_en": "Time Series Databases",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "时序数据库"
+ },
+ {
+  "id": "HK.computer_science.databases.stream_processing",
+  "name": "Stream Processing",
+  "name_en": "Stream Processing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "流处理"
+ },
+ {
+  "id": "HK.computer_science.databases.query_optimization",
+  "name": "Query Optimization",
+  "name_en": "Query Optimization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "查询优化"
+ },
+ {
+  "id": "HK.computer_science.databases.transaction_processing",
+  "name": "Transaction Processing",
+  "name_en": "Transaction Processing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "事务处理"
+ },
+ {
+  "id": "HK.computer_science.databases.database_theory",
+  "name": "Database Theory",
+  "name_en": "Database Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.databases",
+  "name_zh": "数据库理论"
+ },
+ {
+  "id": "HK.computer_science.computer_networks",
+  "name": "Computer Networks",
+  "name_en": "Computer Networks",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "计算机网络"
+ },
+ {
+  "id": "HK.computer_science.computer_networks.network_protocols",
+  "name": "Network Protocols",
+  "name_en": "Network Protocols",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_networks",
+  "name_zh": "网络协议"
+ },
+ {
+  "id": "HK.computer_science.computer_networks.routing",
+  "name": "Routing",
+  "name_en": "Routing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_networks",
+  "name_zh": "路由"
+ },
+ {
+  "id": "HK.computer_science.computer_networks.transport_layer",
+  "name": "Transport Layer",
+  "name_en": "Transport Layer",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_networks",
+  "name_zh": "传输层"
+ },
+ {
+  "id": "HK.computer_science.computer_networks.wireless_networks",
+  "name": "Wireless Networks",
+  "name_en": "Wireless Networks",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_networks",
+  "name_zh": "无线网络"
+ },
+ {
+  "id": "HK.computer_science.computer_networks.software_defined_networking",
+  "name": "Software-Defined Networking",
+  "name_en": "Software-Defined Networking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_networks",
+  "name_zh": "软件定义网络"
+ },
+ {
+  "id": "HK.computer_science.computer_networks.mobile_networks",
+  "name": "Mobile Networks",
+  "name_en": "Mobile Networks",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_networks",
+  "name_zh": "移动网络"
+ },
+ {
+  "id": "HK.computer_science.computer_networks.network_virtualization",
+  "name": "Network Virtualization",
+  "name_en": "Network Virtualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_networks",
+  "name_zh": "网络虚拟化"
+ },
+ {
+  "id": "HK.computer_science.computer_networks.network_architecture",
+  "name": "Network Architecture",
+  "name_en": "Network Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_networks",
+  "name_zh": "网络架构"
+ },
+ {
+  "id": "HK.computer_science.cryptography",
+  "name": "Cryptography",
+  "name_en": "Cryptography",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "密码学"
+ },
+ {
+  "id": "HK.computer_science.cryptography.symmetric_key_cryptography",
+  "name": "Symmetric-Key Cryptography",
+  "name_en": "Symmetric-Key Cryptography",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cryptography",
+  "name_zh": "对称密钥密码"
+ },
+ {
+  "id": "HK.computer_science.cryptography.public_key_cryptography",
+  "name": "Public-Key Cryptography",
+  "name_en": "Public-Key Cryptography",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cryptography",
+  "name_zh": "公钥密码"
+ },
+ {
+  "id": "HK.computer_science.cryptography.cryptographic_hash_functions",
+  "name": "Cryptographic Hash Functions",
+  "name_en": "Cryptographic Hash Functions",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cryptography",
+  "name_zh": "密码哈希函数"
+ },
+ {
+  "id": "HK.computer_science.cryptography.cryptographic_protocols",
+  "name": "Cryptographic Protocols",
+  "name_en": "Cryptographic Protocols",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cryptography",
+  "name_zh": "密码协议"
+ },
+ {
+  "id": "HK.computer_science.cryptography.post_quantum_cryptography",
+  "name": "Post-Quantum Cryptography",
+  "name_en": "Post-Quantum Cryptography",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cryptography",
+  "name_zh": "后量子密码"
+ },
+ {
+  "id": "HK.computer_science.cryptography.zero_knowledge_proofs",
+  "name": "Zero-Knowledge Proofs",
+  "name_en": "Zero-Knowledge Proofs",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cryptography",
+  "name_zh": "零知识证明"
+ },
+ {
+  "id": "HK.computer_science.cryptography.homomorphic_encryption",
+  "name": "Homomorphic Encryption",
+  "name_en": "Homomorphic Encryption",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cryptography",
+  "name_zh": "同态加密"
+ },
+ {
+  "id": "HK.computer_science.cryptography.secure_multiparty_computation",
+  "name": "Secure Multiparty Computation",
+  "name_en": "Secure Multiparty Computation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cryptography",
+  "name_zh": "安全多方计算"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity",
+  "name": "Cybersecurity",
+  "name_en": "Cybersecurity",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "网络安全"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.network_security",
+  "name": "Network Security",
+  "name_en": "Network Security",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "网络与通信安全"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.application_security",
+  "name": "Application Security",
+  "name_en": "Application Security",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "应用安全"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.malware_analysis",
+  "name": "Malware Analysis",
+  "name_en": "Malware Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "恶意软件分析"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.digital_forensics",
+  "name": "Digital Forensics",
+  "name_en": "Digital Forensics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "数字取证"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.penetration_testing",
+  "name": "Penetration Testing",
+  "name_en": "Penetration Testing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "渗透测试"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.threat_intelligence",
+  "name": "Threat Intelligence",
+  "name_en": "Threat Intelligence",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "威胁情报"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.cloud_security",
+  "name": "Cloud Security",
+  "name_en": "Cloud Security",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "云安全"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.hardware_security",
+  "name": "Hardware Security",
+  "name_en": "Hardware Security",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "硬件安全"
+ },
+ {
+  "id": "HK.computer_science.cybersecurity.privacy_technologies",
+  "name": "Privacy Technologies",
+  "name_en": "Privacy Technologies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.cybersecurity",
+  "name_zh": "隐私技术"
+ },
+ {
+  "id": "HK.computer_science.artificial_intelligence",
+  "name": "Artificial Intelligence",
+  "name_en": "Artificial Intelligence",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "人工智能"
+ },
+ {
+  "id": "HK.computer_science.artificial_intelligence.knowledge_representation",
+  "name": "Knowledge Representation",
+  "name_en": "Knowledge Representation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.artificial_intelligence",
+  "name_zh": "知识表示"
+ },
+ {
+  "id": "HK.computer_science.artificial_intelligence.automated_reasoning",
+  "name": "Automated Reasoning",
+  "name_en": "Automated Reasoning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.artificial_intelligence",
+  "name_zh": "自动推理"
+ },
+ {
+  "id": "HK.computer_science.artificial_intelligence.planning_and_scheduling",
+  "name": "Planning & Scheduling",
+  "name_en": "Planning & Scheduling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.artificial_intelligence",
+  "name_zh": "规划与调度"
+ },
+ {
+  "id": "HK.computer_science.artificial_intelligence.search_algorithms",
+  "name": "Search Algorithms",
+  "name_en": "Search Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.artificial_intelligence",
+  "name_zh": "搜索算法"
+ },
+ {
+  "id": "HK.computer_science.artificial_intelligence.intelligent_agents",
+  "name": "Intelligent Agents",
+  "name_en": "Intelligent Agents",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.artificial_intelligence",
+  "name_zh": "智能体"
+ },
+ {
+  "id": "HK.computer_science.artificial_intelligence.multi_agent_systems",
+  "name": "Multi-Agent Systems",
+  "name_en": "Multi-Agent Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.artificial_intelligence",
+  "name_zh": "多智能体系统"
+ },
+ {
+  "id": "HK.computer_science.artificial_intelligence.symbolic_ai",
+  "name": "Symbolic AI",
+  "name_en": "Symbolic AI",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.artificial_intelligence",
+  "name_zh": "符号人工智能"
+ },
+ {
+  "id": "HK.computer_science.machine_learning",
+  "name": "Machine Learning",
+  "name_en": "Machine Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "机器学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.supervised_learning",
+  "name": "Supervised Learning",
+  "name_en": "Supervised Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "监督学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.unsupervised_learning",
+  "name": "Unsupervised Learning",
+  "name_en": "Unsupervised Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "无监督学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.reinforcement_learning",
+  "name": "Reinforcement Learning",
+  "name_en": "Reinforcement Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "强化学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.semi_supervised_learning",
+  "name": "Semi-Supervised Learning",
+  "name_en": "Semi-Supervised Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "半监督学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.transfer_learning",
+  "name": "Transfer Learning",
+  "name_en": "Transfer Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "迁移学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.probabilistic_ml",
+  "name": "Probabilistic Machine Learning",
+  "name_en": "Probabilistic Machine Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "概率机器学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.ensemble_methods",
+  "name": "Ensemble Methods",
+  "name_en": "Ensemble Methods",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "集成方法"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.federated_learning",
+  "name": "Federated Learning",
+  "name_en": "Federated Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "联邦学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.online_learning",
+  "name": "Online Learning",
+  "name_en": "Online Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "在线学习"
+ },
+ {
+  "id": "HK.computer_science.machine_learning.metric_learning",
+  "name": "Metric Learning",
+  "name_en": "Metric Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.machine_learning",
+  "name_zh": "度量学习"
+ },
+ {
+  "id": "HK.computer_science.deep_learning",
+  "name": "Deep Learning",
+  "name_en": "Deep Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "深度学习"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.convolutional_neural_networks",
+  "name": "Convolutional Neural Networks",
+  "name_en": "Convolutional Neural Networks",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "卷积神经网络"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.recurrent_neural_networks",
+  "name": "Recurrent Neural Networks",
+  "name_en": "Recurrent Neural Networks",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "循环神经网络"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.transformers",
+  "name": "Transformers",
+  "name_en": "Transformers",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "Transformer模型"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.generative_models",
+  "name": "Generative Models",
+  "name_en": "Generative Models",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "生成模型"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.generative_models.generative_adversarial_networks",
+  "name": "Generative Adversarial Networks",
+  "name_en": "Generative Adversarial Networks",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning.generative_models",
+  "name_zh": "生成对抗网络"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.generative_models.variational_autoencoders",
+  "name": "Variational Autoencoders",
+  "name_en": "Variational Autoencoders",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning.generative_models",
+  "name_zh": "变分自编码器"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.generative_models.diffusion_models",
+  "name": "Diffusion Models",
+  "name_en": "Diffusion Models",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning.generative_models",
+  "name_zh": "扩散模型"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.generative_models.autoregressive_models",
+  "name": "Autoregressive Models",
+  "name_en": "Autoregressive Models",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning.generative_models",
+  "name_zh": "自回归模型"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.generative_models.normalizing_flows",
+  "name": "Normalizing Flows",
+  "name_en": "Normalizing Flows",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning.generative_models",
+  "name_zh": "归一化流"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.self_supervised_learning",
+  "name": "Self-Supervised Learning",
+  "name_en": "Self-Supervised Learning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "自监督学习"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.graph_neural_networks",
+  "name": "Graph Neural Networks",
+  "name_en": "Graph Neural Networks",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "图神经网络"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.neural_architecture_search",
+  "name": "Neural Architecture Search",
+  "name_en": "Neural Architecture Search",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "神经架构搜索"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.large_language_models",
+  "name": "Large Language Models",
+  "name_en": "Large Language Models",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "大语言模型"
+ },
+ {
+  "id": "HK.computer_science.deep_learning.foundation_models",
+  "name": "Foundation Models",
+  "name_en": "Foundation Models",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.deep_learning",
+  "name_zh": "基础模型"
+ },
+ {
+  "id": "HK.computer_science.computer_vision",
+  "name": "Computer Vision",
+  "name_en": "Computer Vision",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "计算机视觉"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.image_processing",
+  "name": "Image Processing",
+  "name_en": "Image Processing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "图像处理"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.object_detection",
+  "name": "Object Detection",
+  "name_en": "Object Detection",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "目标检测"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.image_segmentation",
+  "name": "Image Segmentation",
+  "name_en": "Image Segmentation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "图像分割"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.image_classification",
+  "name": "Image Classification",
+  "name_en": "Image Classification",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "图像分类"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.three_dimensional_vision",
+  "name": "3D Vision",
+  "name_en": "3D Vision",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "三维视觉"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.motion_analysis",
+  "name": "Motion Analysis",
+  "name_en": "Motion Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "运动分析"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.scene_understanding",
+  "name": "Scene Understanding",
+  "name_en": "Scene Understanding",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "场景理解"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.visual_odometry",
+  "name": "Visual Odometry",
+  "name_en": "Visual Odometry",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "视觉里程计"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.facial_recognition",
+  "name": "Facial Recognition",
+  "name_en": "Facial Recognition",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "人脸识别"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.image_generation",
+  "name": "Image Generation",
+  "name_en": "Image Generation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "图像生成"
+ },
+ {
+  "id": "HK.computer_science.computer_vision.medical_image_analysis",
+  "name": "Medical Image Analysis",
+  "name_en": "Medical Image Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_vision",
+  "name_zh": "医学图像分析"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing",
+  "name": "Natural Language Processing",
+  "name_en": "Natural Language Processing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "自然语言处理"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.syntactic_parsing",
+  "name": "Syntactic Parsing",
+  "name_en": "Syntactic Parsing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "句法分析"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.semantic_analysis",
+  "name": "Semantic Analysis",
+  "name_en": "Semantic Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "语义分析"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.machine_translation",
+  "name": "Machine Translation",
+  "name_en": "Machine Translation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "机器翻译"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.question_answering",
+  "name": "Question Answering",
+  "name_en": "Question Answering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "问答系统"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.text_summarization",
+  "name": "Text Summarization",
+  "name_en": "Text Summarization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "文本摘要"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.named_entity_recognition",
+  "name": "Named Entity Recognition",
+  "name_en": "Named Entity Recognition",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "命名实体识别"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.sentiment_analysis",
+  "name": "Sentiment Analysis",
+  "name_en": "Sentiment Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "情感分析"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.dialogue_systems",
+  "name": "Dialogue Systems",
+  "name_en": "Dialogue Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "对话系统"
+ },
+ {
+  "id": "HK.computer_science.natural_language_processing.information_extraction",
+  "name": "Information Extraction",
+  "name_en": "Information Extraction",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.natural_language_processing",
+  "name_zh": "信息抽取"
+ },
+ {
+  "id": "HK.computer_science.speech_processing",
+  "name": "Speech Processing",
+  "name_en": "Speech Processing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "语音处理"
+ },
+ {
+  "id": "HK.computer_science.speech_processing.automatic_speech_recognition",
+  "name": "Automatic Speech Recognition",
+  "name_en": "Automatic Speech Recognition",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.speech_processing",
+  "name_zh": "自动语音识别"
+ },
+ {
+  "id": "HK.computer_science.speech_processing.text_to_speech",
+  "name": "Text-to-Speech",
+  "name_en": "Text-to-Speech",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.speech_processing",
+  "name_zh": "语音合成"
+ },
+ {
+  "id": "HK.computer_science.speech_processing.speaker_recognition",
+  "name": "Speaker Recognition",
+  "name_en": "Speaker Recognition",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.speech_processing",
+  "name_zh": "说话人识别"
+ },
+ {
+  "id": "HK.computer_science.speech_processing.speech_enhancement",
+  "name": "Speech Enhancement",
+  "name_en": "Speech Enhancement",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.speech_processing",
+  "name_zh": "语音增强"
+ },
+ {
+  "id": "HK.computer_science.robotics",
+  "name": "Robotics",
+  "name_en": "Robotics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "机器人学"
+ },
+ {
+  "id": "HK.computer_science.robotics.robot_kinematics",
+  "name": "Robot Kinematics",
+  "name_en": "Robot Kinematics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "机器人运动学"
+ },
+ {
+  "id": "HK.computer_science.robotics.robot_perception",
+  "name": "Robot Perception",
+  "name_en": "Robot Perception",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "机器人感知"
+ },
+ {
+  "id": "HK.computer_science.robotics.robot_control",
+  "name": "Robot Control",
+  "name_en": "Robot Control",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "机器人控制"
+ },
+ {
+  "id": "HK.computer_science.robotics.motion_planning",
+  "name": "Motion Planning",
+  "name_en": "Motion Planning",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "运动规划"
+ },
+ {
+  "id": "HK.computer_science.robotics.simultaneous_localization_and_mapping",
+  "name": "Simultaneous Localization & Mapping",
+  "name_en": "Simultaneous Localization & Mapping",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "同步定位与建图"
+ },
+ {
+  "id": "HK.computer_science.robotics.human_robot_interaction",
+  "name": "Human-Robot Interaction",
+  "name_en": "Human-Robot Interaction",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "人机交互"
+ },
+ {
+  "id": "HK.computer_science.robotics.autonomous_vehicles",
+  "name": "Autonomous Vehicles",
+  "name_en": "Autonomous Vehicles",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "自动驾驶"
+ },
+ {
+  "id": "HK.computer_science.robotics.soft_robotics",
+  "name": "Soft Robotics",
+  "name_en": "Soft Robotics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "软体机器人"
+ },
+ {
+  "id": "HK.computer_science.robotics.swarm_robotics",
+  "name": "Swarm Robotics",
+  "name_en": "Swarm Robotics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "群体机器人"
+ },
+ {
+  "id": "HK.computer_science.robotics.robot_manipulation",
+  "name": "Robot Manipulation",
+  "name_en": "Robot Manipulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.robotics",
+  "name_zh": "机器人操作"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics",
+  "name": "Computer Graphics",
+  "name_en": "Computer Graphics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "计算机图形学"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering",
+  "name": "Rendering",
+  "name_en": "Rendering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics",
+  "name_zh": "渲染"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.rasterization",
+  "name": "Rasterization",
+  "name_en": "Rasterization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "光栅化"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.ray_tracing",
+  "name": "Ray Tracing",
+  "name_en": "Ray Tracing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "光线追踪"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.path_tracing",
+  "name": "Path Tracing",
+  "name_en": "Path Tracing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "路径追踪"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.global_illumination",
+  "name": "Global Illumination",
+  "name_en": "Global Illumination",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "全局光照"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.physically_based_rendering",
+  "name": "Physically Based Rendering",
+  "name_en": "Physically Based Rendering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "基于物理的渲染"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.differentiable_rendering",
+  "name": "Differentiable Rendering",
+  "name_en": "Differentiable Rendering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "可微渲染"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.neural_rendering",
+  "name": "Neural Rendering",
+  "name_en": "Neural Rendering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "神经渲染"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.gaussian_splatting",
+  "name": "Gaussian Splatting",
+  "name_en": "Gaussian Splatting",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "高斯溅射"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.neural_radiance_fields",
+  "name": "Neural Radiance Fields",
+  "name_en": "Neural Radiance Fields",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "神经辐射场"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.rendering.real_time_rendering",
+  "name": "Real-Time Rendering",
+  "name_en": "Real-Time Rendering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics.rendering",
+  "name_zh": "实时渲染"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.geometric_modeling",
+  "name": "Geometric Modeling",
+  "name_en": "Geometric Modeling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics",
+  "name_zh": "几何建模"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.computer_animation",
+  "name": "Computer Animation",
+  "name_en": "Computer Animation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics",
+  "name_zh": "计算机动画"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.physics_based_simulation",
+  "name": "Physics-Based Simulation",
+  "name_en": "Physics-Based Simulation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics",
+  "name_zh": "基于物理的模拟"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.geometry_processing",
+  "name": "Geometry Processing",
+  "name_en": "Geometry Processing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics",
+  "name_zh": "几何处理"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.procedural_generation",
+  "name": "Procedural Generation",
+  "name_en": "Procedural Generation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics",
+  "name_zh": "程序化生成"
+ },
+ {
+  "id": "HK.computer_science.computer_graphics.visual_effects",
+  "name": "Visual Effects",
+  "name_en": "Visual Effects",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_graphics",
+  "name_zh": "视觉特效"
+ },
+ {
+  "id": "HK.computer_science.visualization",
+  "name": "Visualization",
+  "name_en": "Visualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "可视化"
+ },
+ {
+  "id": "HK.computer_science.visualization.scientific_visualization",
+  "name": "Scientific Visualization",
+  "name_en": "Scientific Visualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.visualization",
+  "name_zh": "科学可视化"
+ },
+ {
+  "id": "HK.computer_science.visualization.information_visualization",
+  "name": "Information Visualization",
+  "name_en": "Information Visualization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.visualization",
+  "name_zh": "信息可视化"
+ },
+ {
+  "id": "HK.computer_science.visualization.visual_analytics",
+  "name": "Visual Analytics",
+  "name_en": "Visual Analytics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.visualization",
+  "name_zh": "可视分析"
+ },
+ {
+  "id": "HK.computer_science.visualization.volume_rendering",
+  "name": "Volume Rendering",
+  "name_en": "Volume Rendering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.visualization",
+  "name_zh": "体绘制"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction",
+  "name": "Human-Computer Interaction",
+  "name_en": "Human-Computer Interaction",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "人机交互"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction.interaction_design",
+  "name": "Interaction Design",
+  "name_en": "Interaction Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.human_computer_interaction",
+  "name_zh": "交互设计"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction.usability_engineering",
+  "name": "Usability Engineering",
+  "name_en": "Usability Engineering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.human_computer_interaction",
+  "name_zh": "可用性工程"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction.user_experience_design",
+  "name": "User Experience Design",
+  "name_en": "User Experience Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.human_computer_interaction",
+  "name_zh": "用户体验设计"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction.virtual_reality",
+  "name": "Virtual Reality",
+  "name_en": "Virtual Reality",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.human_computer_interaction",
+  "name_zh": "虚拟现实"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction.augmented_reality",
+  "name": "Augmented Reality",
+  "name_en": "Augmented Reality",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.human_computer_interaction",
+  "name_zh": "增强现实"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction.accessibility",
+  "name": "Accessibility",
+  "name_en": "Accessibility",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.human_computer_interaction",
+  "name_zh": "无障碍设计"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction.computer_supported_cooperative_work",
+  "name": "Computer-Supported Cooperative Work",
+  "name_en": "Computer-Supported Cooperative Work",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.human_computer_interaction",
+  "name_zh": "计算机支持的协同工作"
+ },
+ {
+  "id": "HK.computer_science.human_computer_interaction.multimodal_interaction",
+  "name": "Multimodal Interaction",
+  "name_en": "Multimodal Interaction",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.human_computer_interaction",
+  "name_zh": "多模态交互"
+ },
+ {
+  "id": "HK.computer_science.information_retrieval",
+  "name": "Information Retrieval",
+  "name_en": "Information Retrieval",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "信息检索"
+ },
+ {
+  "id": "HK.computer_science.information_retrieval.search_engines",
+  "name": "Search Engines",
+  "name_en": "Search Engines",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.information_retrieval",
+  "name_zh": "搜索引擎"
+ },
+ {
+  "id": "HK.computer_science.information_retrieval.ranking_algorithms",
+  "name": "Ranking Algorithms",
+  "name_en": "Ranking Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.information_retrieval",
+  "name_zh": "排序算法"
+ },
+ {
+  "id": "HK.computer_science.information_retrieval.recommendation_systems",
+  "name": "Recommendation Systems",
+  "name_en": "Recommendation Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.information_retrieval",
+  "name_zh": "推荐系统"
+ },
+ {
+  "id": "HK.computer_science.information_retrieval.web_search",
+  "name": "Web Search",
+  "name_en": "Web Search",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.information_retrieval",
+  "name_zh": "网络搜索"
+ },
+ {
+  "id": "HK.computer_science.information_retrieval.semantic_search",
+  "name": "Semantic Search",
+  "name_en": "Semantic Search",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.information_retrieval",
+  "name_zh": "语义搜索"
+ },
+ {
+  "id": "HK.computer_science.data_mining",
+  "name": "Data Mining",
+  "name_en": "Data Mining",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "数据挖掘"
+ },
+ {
+  "id": "HK.computer_science.data_mining.clustering",
+  "name": "Clustering",
+  "name_en": "Clustering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.data_mining",
+  "name_zh": "聚类"
+ },
+ {
+  "id": "HK.computer_science.data_mining.association_rule_mining",
+  "name": "Association Rule Mining",
+  "name_en": "Association Rule Mining",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.data_mining",
+  "name_zh": "关联规则挖掘"
+ },
+ {
+  "id": "HK.computer_science.data_mining.anomaly_detection",
+  "name": "Anomaly Detection",
+  "name_en": "Anomaly Detection",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.data_mining",
+  "name_zh": "异常检测"
+ },
+ {
+  "id": "HK.computer_science.data_mining.graph_mining",
+  "name": "Graph Mining",
+  "name_en": "Graph Mining",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.data_mining",
+  "name_zh": "图挖掘"
+ },
+ {
+  "id": "HK.computer_science.software_engineering",
+  "name": "Software Engineering",
+  "name_en": "Software Engineering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "软件工程"
+ },
+ {
+  "id": "HK.computer_science.software_engineering.requirements_engineering",
+  "name": "Requirements Engineering",
+  "name_en": "Requirements Engineering",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.software_engineering",
+  "name_zh": "需求工程"
+ },
+ {
+  "id": "HK.computer_science.software_engineering.software_design",
+  "name": "Software Design",
+  "name_en": "Software Design",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.software_engineering",
+  "name_zh": "软件设计"
+ },
+ {
+  "id": "HK.computer_science.software_engineering.software_testing",
+  "name": "Software Testing",
+  "name_en": "Software Testing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.software_engineering",
+  "name_zh": "软件测试"
+ },
+ {
+  "id": "HK.computer_science.software_engineering.software_maintenance",
+  "name": "Software Maintenance",
+  "name_en": "Software Maintenance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.software_engineering",
+  "name_zh": "软件维护"
+ },
+ {
+  "id": "HK.computer_science.software_engineering.devops",
+  "name": "DevOps",
+  "name_en": "DevOps",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.software_engineering",
+  "name_zh": "DevOps"
+ },
+ {
+  "id": "HK.computer_science.software_engineering.agile_methods",
+  "name": "Agile Methods",
+  "name_en": "Agile Methods",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.software_engineering",
+  "name_zh": "敏捷方法"
+ },
+ {
+  "id": "HK.computer_science.software_engineering.software_architecture",
+  "name": "Software Architecture",
+  "name_en": "Software Architecture",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.software_engineering",
+  "name_zh": "软件架构"
+ },
+ {
+  "id": "HK.computer_science.software_engineering.software_metrics",
+  "name": "Software Metrics",
+  "name_en": "Software Metrics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.software_engineering",
+  "name_zh": "软件度量"
+ },
+ {
+  "id": "HK.computer_science.formal_methods",
+  "name": "Formal Methods",
+  "name_en": "Formal Methods",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "形式化方法"
+ },
+ {
+  "id": "HK.computer_science.formal_methods.model_checking",
+  "name": "Model Checking",
+  "name_en": "Model Checking",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.formal_methods",
+  "name_zh": "模型检验"
+ },
+ {
+  "id": "HK.computer_science.formal_methods.theorem_proving",
+  "name": "Theorem Proving",
+  "name_en": "Theorem Proving",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.formal_methods",
+  "name_zh": "定理证明"
+ },
+ {
+  "id": "HK.computer_science.formal_methods.program_verification",
+  "name": "Program Verification",
+  "name_en": "Program Verification",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.formal_methods",
+  "name_zh": "程序验证"
+ },
+ {
+  "id": "HK.computer_science.formal_methods.temporal_logic",
+  "name": "Temporal Logic",
+  "name_en": "Temporal Logic",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.formal_methods",
+  "name_zh": "时序逻辑"
+ },
+ {
+  "id": "HK.computer_science.formal_methods.abstract_interpretation",
+  "name": "Abstract Interpretation",
+  "name_en": "Abstract Interpretation",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.formal_methods",
+  "name_zh": "抽象解释"
+ },
+ {
+  "id": "HK.computer_science.formal_methods.static_analysis",
+  "name": "Static Analysis",
+  "name_en": "Static Analysis",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.formal_methods",
+  "name_zh": "静态分析"
+ },
+ {
+  "id": "HK.computer_science.computer_systems",
+  "name": "Computer Systems",
+  "name_en": "Computer Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "计算机系统"
+ },
+ {
+  "id": "HK.computer_science.computer_systems.parallel_computing",
+  "name": "Parallel Computing",
+  "name_en": "Parallel Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_systems",
+  "name_zh": "并行计算"
+ },
+ {
+  "id": "HK.computer_science.computer_systems.high_performance_computing",
+  "name": "High-Performance Computing",
+  "name_en": "High-Performance Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_systems",
+  "name_zh": "高性能计算"
+ },
+ {
+  "id": "HK.computer_science.computer_systems.embedded_systems",
+  "name": "Embedded Systems",
+  "name_en": "Embedded Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_systems",
+  "name_zh": "嵌入式系统"
+ },
+ {
+  "id": "HK.computer_science.computer_systems.real_time_systems",
+  "name": "Real-Time Systems",
+  "name_en": "Real-Time Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_systems",
+  "name_zh": "实时系统"
+ },
+ {
+  "id": "HK.computer_science.computer_systems.cyber_physical_systems",
+  "name": "Cyber-Physical Systems",
+  "name_en": "Cyber-Physical Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_systems",
+  "name_zh": "信息物理系统"
+ },
+ {
+  "id": "HK.computer_science.computer_systems.storage_systems",
+  "name": "Storage Systems",
+  "name_en": "Storage Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.computer_systems",
+  "name_zh": "存储系统"
+ },
+ {
+  "id": "HK.computer_science.quantum_computing",
+  "name": "Quantum Computing",
+  "name_en": "Quantum Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "量子计算"
+ },
+ {
+  "id": "HK.computer_science.quantum_computing.quantum_algorithms",
+  "name": "Quantum Algorithms",
+  "name_en": "Quantum Algorithms",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.quantum_computing",
+  "name_zh": "量子算法"
+ },
+ {
+  "id": "HK.computer_science.quantum_computing.quantum_error_correction",
+  "name": "Quantum Error Correction",
+  "name_en": "Quantum Error Correction",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.quantum_computing",
+  "name_zh": "量子纠错"
+ },
+ {
+  "id": "HK.computer_science.quantum_computing.quantum_programming_languages",
+  "name": "Quantum Programming Languages",
+  "name_en": "Quantum Programming Languages",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.quantum_computing",
+  "name_zh": "量子编程语言"
+ },
+ {
+  "id": "HK.computer_science.quantum_computing.quantum_annealing",
+  "name": "Quantum Annealing",
+  "name_en": "Quantum Annealing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.quantum_computing",
+  "name_zh": "量子退火"
+ },
+ {
+  "id": "HK.computer_science.mobile_and_ubiquitous_computing",
+  "name": "Mobile & Ubiquitous Computing",
+  "name_en": "Mobile & Ubiquitous Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "移动与普适计算"
+ },
+ {
+  "id": "HK.computer_science.mobile_and_ubiquitous_computing.mobile_computing",
+  "name": "Mobile Computing",
+  "name_en": "Mobile Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.mobile_and_ubiquitous_computing",
+  "name_zh": "移动计算"
+ },
+ {
+  "id": "HK.computer_science.mobile_and_ubiquitous_computing.ubiquitous_computing",
+  "name": "Ubiquitous Computing",
+  "name_en": "Ubiquitous Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.mobile_and_ubiquitous_computing",
+  "name_zh": "普适计算"
+ },
+ {
+  "id": "HK.computer_science.mobile_and_ubiquitous_computing.internet_of_things",
+  "name": "Internet of Things",
+  "name_en": "Internet of Things",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.mobile_and_ubiquitous_computing",
+  "name_zh": "物联网"
+ },
+ {
+  "id": "HK.computer_science.mobile_and_ubiquitous_computing.wearable_computing",
+  "name": "Wearable Computing",
+  "name_en": "Wearable Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science.mobile_and_ubiquitous_computing",
+  "name_zh": "可穿戴计算"
+ },
+ {
+  "id": "HK.computer_science.social_computing",
+  "name": "Social Computing",
+  "name_en": "Social Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "社会计算"
+ },
+ {
+  "id": "HK.computer_science.computational_biology",
+  "name": "Computational Biology",
+  "name_en": "Computational Biology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "计算生物学"
+ },
+ {
+  "id": "HK.computer_science.human_centered_computing",
+  "name": "Human-Centered Computing",
+  "name_en": "Human-Centered Computing",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.computer_science",
+  "name_zh": "人本计算"
+ }
+]

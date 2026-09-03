@@ -1,0 +1,530 @@
+[
+ {
+  "id": "HK.cognitive_science",
+  "name": "Cognitive Science",
+  "name_en": "Cognitive Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "认知科学",
+  "description": "The interdisciplinary study of mind and cognition."
+ },
+ {
+  "id": "HK.cognitive_science.cognitive_psychology",
+  "name": "Cognitive Psychology",
+  "name_en": "Cognitive Psychology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.cognitive_science",
+  "name_zh": "认知心理学"
+ },
+ {
+  "id": "HK.cognitive_science.cognitive_neuroscience",
+  "name": "Cognitive Neuroscience",
+  "name_en": "Cognitive Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.cognitive_science",
+  "name_zh": "认知神经科学"
+ },
+ {
+  "id": "HK.cognitive_science.computational_cognitive_science",
+  "name": "Computational Cognitive Science",
+  "name_en": "Computational Cognitive Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.cognitive_science",
+  "name_zh": "计算认知科学"
+ },
+ {
+  "id": "HK.cognitive_science.philosophy_of_mind",
+  "name": "Philosophy of Mind",
+  "name_en": "Philosophy of Mind",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.cognitive_science",
+  "name_zh": "心灵哲学"
+ },
+ {
+  "id": "HK.cognitive_science.cognitive_linguistics",
+  "name": "Cognitive Linguistics",
+  "name_en": "Cognitive Linguistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.cognitive_science",
+  "name_zh": "认知语言学"
+ },
+ {
+  "id": "HK.neuroscience",
+  "name": "Neuroscience",
+  "name_en": "Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "神经科学",
+  "description": "The scientific study of the nervous system."
+ },
+ {
+  "id": "HK.neuroscience.neuroanatomy",
+  "name": "Neuroanatomy",
+  "name_en": "Neuroanatomy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "神经解剖学"
+ },
+ {
+  "id": "HK.neuroscience.neurophysiology",
+  "name": "Neurophysiology",
+  "name_en": "Neurophysiology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "神经生理学"
+ },
+ {
+  "id": "HK.neuroscience.cognitive_neuroscience",
+  "name": "Cognitive Neuroscience",
+  "name_en": "Cognitive Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "认知神经科学"
+ },
+ {
+  "id": "HK.neuroscience.systems_neuroscience",
+  "name": "Systems Neuroscience",
+  "name_en": "Systems Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "系统神经科学"
+ },
+ {
+  "id": "HK.neuroscience.cellular_neuroscience",
+  "name": "Cellular Neuroscience",
+  "name_en": "Cellular Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "细胞神经科学"
+ },
+ {
+  "id": "HK.neuroscience.molecular_neuroscience",
+  "name": "Molecular Neuroscience",
+  "name_en": "Molecular Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "分子神经科学"
+ },
+ {
+  "id": "HK.neuroscience.computational_neuroscience",
+  "name": "Computational Neuroscience",
+  "name_en": "Computational Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "计算神经科学"
+ },
+ {
+  "id": "HK.neuroscience.behavioral_neuroscience",
+  "name": "Behavioral Neuroscience",
+  "name_en": "Behavioral Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "行为神经科学"
+ },
+ {
+  "id": "HK.neuroscience.neuroimaging",
+  "name": "Neuroimaging",
+  "name_en": "Neuroimaging",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "神经影像学"
+ },
+ {
+  "id": "HK.neuroscience.neuropharmacology",
+  "name": "Neuropharmacology",
+  "name_en": "Neuropharmacology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "神经药理学"
+ },
+ {
+  "id": "HK.neuroscience.developmental_neuroscience",
+  "name": "Developmental Neuroscience",
+  "name_en": "Developmental Neuroscience",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.neuroscience",
+  "name_zh": "发育神经科学"
+ },
+ {
+  "id": "HK.complexity_science",
+  "name": "Complexity Science",
+  "name_en": "Complexity Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "复杂性科学",
+  "description": "The study of complex systems and emergence."
+ },
+ {
+  "id": "HK.complexity_science.complex_adaptive_systems",
+  "name": "Complex Adaptive Systems",
+  "name_en": "Complex Adaptive Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.complexity_science",
+  "name_zh": "复杂适应系统"
+ },
+ {
+  "id": "HK.complexity_science.emergence",
+  "name": "Emergence",
+  "name_en": "Emergence",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.complexity_science",
+  "name_zh": "涌现"
+ },
+ {
+  "id": "HK.complexity_science.self_organization",
+  "name": "Self-Organization",
+  "name_en": "Self-Organization",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.complexity_science",
+  "name_zh": "自组织"
+ },
+ {
+  "id": "HK.complexity_science.nonlinear_dynamics",
+  "name": "Nonlinear Dynamics",
+  "name_en": "Nonlinear Dynamics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.complexity_science",
+  "name_zh": "非线性动力学"
+ },
+ {
+  "id": "HK.complexity_science.agent_based_modeling",
+  "name": "Agent-Based Modeling",
+  "name_en": "Agent-Based Modeling",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.complexity_science",
+  "name_zh": "基于主体的建模"
+ },
+ {
+  "id": "HK.complexity_science.complexity_economics",
+  "name": "Complexity Economics",
+  "name_en": "Complexity Economics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.complexity_science",
+  "name_zh": "复杂性经济学"
+ },
+ {
+  "id": "HK.sustainability_science",
+  "name": "Sustainability Science",
+  "name_en": "Sustainability Science",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "可持续性科学",
+  "description": "The study of sustainable human-environment systems."
+ },
+ {
+  "id": "HK.sustainability_science.sustainable_development",
+  "name": "Sustainable Development",
+  "name_en": "Sustainable Development",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.sustainability_science",
+  "name_zh": "可持续发展"
+ },
+ {
+  "id": "HK.sustainability_science.energy_systems",
+  "name": "Energy Systems",
+  "name_en": "Energy Systems",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.sustainability_science",
+  "name_zh": "能源系统"
+ },
+ {
+  "id": "HK.sustainability_science.industrial_ecology",
+  "name": "Industrial Ecology",
+  "name_en": "Industrial Ecology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.sustainability_science",
+  "name_zh": "产业生态学"
+ },
+ {
+  "id": "HK.sustainability_science.circular_economy",
+  "name": "Circular Economy",
+  "name_en": "Circular Economy",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.sustainability_science",
+  "name_zh": "循环经济"
+ },
+ {
+  "id": "HK.sustainability_science.environmental_governance",
+  "name": "Environmental Governance",
+  "name_en": "Environmental Governance",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.sustainability_science",
+  "name_zh": "环境治理"
+ },
+ {
+  "id": "HK.gender_studies",
+  "name": "Gender Studies",
+  "name_en": "Gender Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "性别研究",
+  "description": "The interdisciplinary study of gender and sexuality."
+ },
+ {
+  "id": "HK.gender_studies.feminist_theory",
+  "name": "Feminist Theory",
+  "name_en": "Feminist Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.gender_studies",
+  "name_zh": "女性主义理论"
+ },
+ {
+  "id": "HK.gender_studies.queer_theory",
+  "name": "Queer Theory",
+  "name_en": "Queer Theory",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.gender_studies",
+  "name_zh": "酷儿理论"
+ },
+ {
+  "id": "HK.gender_studies.masculinity_studies",
+  "name": "Masculinity Studies",
+  "name_en": "Masculinity Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.gender_studies",
+  "name_zh": "男性研究"
+ },
+ {
+  "id": "HK.gender_studies.transgender_studies",
+  "name": "Transgender Studies",
+  "name_en": "Transgender Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.gender_studies",
+  "name_zh": "跨性别研究"
+ },
+ {
+  "id": "HK.gender_studies.intersectionality",
+  "name": "Intersectionality",
+  "name_en": "Intersectionality",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.gender_studies",
+  "name_zh": "交叉性"
+ },
+ {
+  "id": "HK.area_studies",
+  "name": "Area Studies",
+  "name_en": "Area Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "区域研究",
+  "description": "The interdisciplinary study of world regions."
+ },
+ {
+  "id": "HK.area_studies.sinology",
+  "name": "Sinology",
+  "name_en": "Sinology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "汉学"
+ },
+ {
+  "id": "HK.area_studies.japanology",
+  "name": "Japanology",
+  "name_en": "Japanology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "日本学"
+ },
+ {
+  "id": "HK.area_studies.korean_studies",
+  "name": "Korean Studies",
+  "name_en": "Korean Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "韩国学"
+ },
+ {
+  "id": "HK.area_studies.south_asian_studies",
+  "name": "South Asian Studies",
+  "name_en": "South Asian Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "南亚研究"
+ },
+ {
+  "id": "HK.area_studies.southeast_asian_studies",
+  "name": "Southeast Asian Studies",
+  "name_en": "Southeast Asian Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "东南亚研究"
+ },
+ {
+  "id": "HK.area_studies.middle_eastern_studies",
+  "name": "Middle Eastern Studies",
+  "name_en": "Middle Eastern Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "中东研究"
+ },
+ {
+  "id": "HK.area_studies.african_studies",
+  "name": "African Studies",
+  "name_en": "African Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "非洲研究"
+ },
+ {
+  "id": "HK.area_studies.latin_american_studies",
+  "name": "Latin American Studies",
+  "name_en": "Latin American Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "拉丁美洲研究"
+ },
+ {
+  "id": "HK.area_studies.european_studies",
+  "name": "European Studies",
+  "name_en": "European Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "欧洲研究"
+ },
+ {
+  "id": "HK.area_studies.slavic_studies",
+  "name": "Slavic Studies",
+  "name_en": "Slavic Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "斯拉夫研究"
+ },
+ {
+  "id": "HK.area_studies.american_studies",
+  "name": "American Studies",
+  "name_en": "American Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "美国研究"
+ },
+ {
+  "id": "HK.area_studies.central_asian_studies",
+  "name": "Central Asian Studies",
+  "name_en": "Central Asian Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "中亚研究"
+ },
+ {
+  "id": "HK.area_studies.oceania_studies",
+  "name": "Oceania Studies",
+  "name_en": "Oceania Studies",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.area_studies",
+  "name_zh": "大洋洲研究"
+ },
+ {
+  "id": "HK.bioinformatics",
+  "name": "Bioinformatics",
+  "name_en": "Bioinformatics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "生物信息学",
+  "description": "The computational analysis of biological data."
+ },
+ {
+  "id": "HK.bioinformatics.genomics",
+  "name": "Genomics",
+  "name_en": "Genomics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.bioinformatics",
+  "name_zh": "基因组学"
+ },
+ {
+  "id": "HK.bioinformatics.proteomics",
+  "name": "Proteomics",
+  "name_en": "Proteomics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.bioinformatics",
+  "name_zh": "蛋白质组学"
+ },
+ {
+  "id": "HK.bioinformatics.transcriptomics",
+  "name": "Transcriptomics",
+  "name_en": "Transcriptomics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.bioinformatics",
+  "name_zh": "转录组学"
+ },
+ {
+  "id": "HK.bioinformatics.structural_bioinformatics",
+  "name": "Structural Bioinformatics",
+  "name_en": "Structural Bioinformatics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.bioinformatics",
+  "name_zh": "结构生物信息学"
+ },
+ {
+  "id": "HK.bioinformatics.systems_biology",
+  "name": "Systems Biology",
+  "name_en": "Systems Biology",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.bioinformatics",
+  "name_zh": "系统生物学"
+ },
+ {
+  "id": "HK.bioinformatics.phylogenetics",
+  "name": "Phylogenetics",
+  "name_en": "Phylogenetics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.bioinformatics",
+  "name_zh": "系统发育学"
+ },
+ {
+  "id": "HK.bioinformatics.metagenomics",
+  "name": "Metagenomics",
+  "name_en": "Metagenomics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.bioinformatics",
+  "name_zh": "宏基因组学"
+ },
+ {
+  "id": "HK.digital_humanities",
+  "name": "Digital Humanities",
+  "name_en": "Digital Humanities",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HUMAN_KNOWLEDGE",
+  "name_zh": "数字人文",
+  "description": "Computational methods applied to humanities."
+ },
+ {
+  "id": "HK.digital_humanities.text_mining",
+  "name": "Text Mining",
+  "name_en": "Text Mining",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.digital_humanities",
+  "name_zh": "文本挖掘"
+ },
+ {
+  "id": "HK.digital_humanities.digital_archives",
+  "name": "Digital Archives",
+  "name_en": "Digital Archives",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.digital_humanities",
+  "name_zh": "数字档案"
+ },
+ {
+  "id": "HK.digital_humanities.computational_linguistics",
+  "name": "Computational Linguistics",
+  "name_en": "Computational Linguistics",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.digital_humanities",
+  "name_zh": "计算语言学"
+ },
+ {
+  "id": "HK.digital_humanities.digital_art_history",
+  "name": "Digital Art History",
+  "name_en": "Digital Art History",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.digital_humanities",
+  "name_zh": "数字艺术史"
+ },
+ {
+  "id": "HK.digital_humanities.gis_humanities",
+  "name": "GIS Humanities",
+  "name_en": "GIS Humanities",
+  "type": "KNOWLEDGE_FIELD",
+  "parent": "HK.digital_humanities",
+  "name_zh": "地理信息人文"
+ }
+]
