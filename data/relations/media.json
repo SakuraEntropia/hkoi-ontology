@@ -1,0 +1,442 @@
+[
+ {
+  "source": "MEDIA.publishing",
+  "relation": "RELATED_TO",
+  "target": "HK.literature"
+ },
+ {
+  "source": "MEDIA.publishing",
+  "relation": "RELATED_TO",
+  "target": "HK.library_science"
+ },
+ {
+  "source": "MEDIA.content_types.news",
+  "relation": "RELATED_TO",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "MEDIA.cinema",
+  "relation": "RELATED_TO",
+  "target": "HK.film_studies"
+ },
+ {
+  "source": "MEDIA.content_types.documentary",
+  "relation": "RELATED_TO",
+  "target": "HK.film_studies"
+ },
+ {
+  "source": "MEDIA.content_types.educational",
+  "relation": "RELATED_TO",
+  "target": "HK.education"
+ },
+ {
+  "source": "MEDIA.content_types.advertising",
+  "relation": "RELATED_TO",
+  "target": "HK.communication"
+ },
+ {
+  "source": "MEDIA.content_types.advertising",
+  "relation": "RELATED_TO",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "MEDIA.social_media",
+  "relation": "RELATED_TO",
+  "target": "HK.sociology"
+ },
+ {
+  "source": "MEDIA.social_media",
+  "relation": "RELATED_TO",
+  "target": "HK.communication"
+ },
+ {
+  "source": "MEDIA.digital_media",
+  "relation": "RELATED_TO",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "MEDIA.digital_media",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "MEDIA.content_types.fiction",
+  "relation": "RELATED_TO",
+  "target": "HK.literature"
+ },
+ {
+  "source": "MEDIA.content_types.news.data_journalism",
+  "relation": "RELATED_TO",
+  "target": "HK.data_science"
+ },
+ {
+  "source": "MEDIA.content_types.news.data_journalism",
+  "relation": "RELATED_TO",
+  "target": "HK.statistics"
+ },
+ {
+  "source": "MEDIA.oral_tradition",
+  "relation": "RELATED_TO",
+  "target": "HK.anthropology"
+ },
+ {
+  "source": "MEDIA.content_types.propaganda",
+  "relation": "RELATED_TO",
+  "target": "HK.political_science"
+ },
+ {
+  "source": "MEDIA.broadcasting",
+  "relation": "RELATED_TO",
+  "target": "HK.communication"
+ },
+ {
+  "source": "MEDIA.emerging_media.automated_journalism",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "MEDIA.social_media",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "MEDIA.streaming_media",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "MEDIA.podcasting",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "MEDIA.publishing.books.ebook",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "MEDIA.publishing.comics.webcomic",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "MEDIA.publishing.newspapers.online_newspaper",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "MEDIA.publishing.magazines.online_magazine",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "MEDIA.animation.anime",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.publishing.comics.manga"
+ },
+ {
+  "source": "MEDIA.animation.donghua",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.animation.anime"
+ },
+ {
+  "source": "MEDIA.publishing.comics.comic_strip",
+  "relation": "PRECURSOR_OF",
+  "target": "MEDIA.publishing.comics.comic_book"
+ },
+ {
+  "source": "MEDIA.cinema.newsreel",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.broadcasting.television_programming.television_news"
+ },
+ {
+  "source": "MEDIA.cinema.serial_film",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.broadcasting.television_programming.television_serial"
+ },
+ {
+  "source": "MEDIA.recorded_music.wax_cylinder",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.recorded_music.shellac_record"
+ },
+ {
+  "source": "MEDIA.recorded_music.shellac_record",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.recorded_music.vinyl_record"
+ },
+ {
+  "source": "MEDIA.recorded_music.vinyl_record",
+  "relation": "PRECURSOR_OF",
+  "target": "MEDIA.recorded_music.audio_cassette"
+ },
+ {
+  "source": "MEDIA.recorded_music.audio_cassette",
+  "relation": "PRECURSOR_OF",
+  "target": "MEDIA.recorded_music.compact_disc"
+ },
+ {
+  "source": "MEDIA.recorded_music.compact_disc",
+  "relation": "PRECURSOR_OF",
+  "target": "MEDIA.recorded_music.digital_audio_download"
+ },
+ {
+  "source": "MEDIA.recorded_music.digital_audio_download",
+  "relation": "PRECURSOR_OF",
+  "target": "MEDIA.streaming_media.music_streaming"
+ },
+ {
+  "source": "MEDIA.publishing.manuscript_media.scroll",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.publishing.manuscript_media.codex"
+ },
+ {
+  "source": "MEDIA.publishing.manuscript_media.illuminated_manuscript",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.publishing.books"
+ },
+ {
+  "source": "MEDIA.publishing.manuscript_media.woodblock_print",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.publishing.books"
+ },
+ {
+  "source": "MEDIA.publishing.manuscript_media.cuneiform_tablet",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.publishing.manuscript_media.codex"
+ },
+ {
+  "source": "MEDIA.cinema.film_movements.german_expressionism",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "MEDIA.cinema.film_genres.crime_film.film_noir"
+ },
+ {
+  "source": "MEDIA.cinema.film_movements.italian_neorealism",
+  "relation": "PRECURSOR_OF",
+  "target": "MEDIA.cinema.film_movements.french_new_wave"
+ },
+ {
+  "source": "MEDIA.cinema.documentary_film",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.content_types.documentary"
+ },
+ {
+  "source": "MEDIA.broadcasting.television_programming.television_documentary",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.content_types.documentary"
+ },
+ {
+  "source": "MEDIA.content_types.news.photojournalism",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.photography"
+ },
+ {
+  "source": "MEDIA.photography.war_photography",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.news.war_correspondence"
+ },
+ {
+  "source": "MEDIA.content_types.sports_media",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.broadcasting.television_programming.sports_broadcast"
+ },
+ {
+  "source": "MEDIA.content_types.sports_media",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.news.sports_journalism"
+ },
+ {
+  "source": "MEDIA.content_types.sports_media",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.photography.sports_photography"
+ },
+ {
+  "source": "MEDIA.podcasting.true_crime_podcast",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.content_types.nonfiction.true_crime"
+ },
+ {
+  "source": "MEDIA.podcasting.fiction_podcast",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.content_types.fiction"
+ },
+ {
+  "source": "MEDIA.podcasting.news_podcast",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.content_types.news"
+ },
+ {
+  "source": "MEDIA.podcasting.documentary_podcast",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.content_types.documentary"
+ },
+ {
+  "source": "MEDIA.podcasting.educational_podcast",
+  "relation": "SUBFORM_OF",
+  "target": "MEDIA.content_types.educational"
+ },
+ {
+  "source": "MEDIA.content_types.documentary.mockumentary",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.documentary"
+ },
+ {
+  "source": "MEDIA.content_types.advertising.infomercial",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "source": "MEDIA.broadcasting.television_programming.telenovela",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.broadcasting.television_programming.soap_opera"
+ },
+ {
+  "source": "MEDIA.broadcasting.television_programming.reality_television",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.content_types.entertainment"
+ },
+ {
+  "source": "MEDIA.cinema.film_genres.samurai_film",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.cinema.film_genres.martial_arts_film.wuxia_film"
+ },
+ {
+  "source": "MEDIA.cinema.film_genres.spaghetti_western",
+  "relation": "SUBGENRE_OF",
+  "target": "MEDIA.cinema.film_genres.western"
+ },
+ {
+  "source": "MEDIA.cinema.film_genres.superhero_film",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.cinema.film_genres.science_fiction_film"
+ },
+ {
+  "source": "MEDIA.cinema.film_genres.fantasy_film",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.fiction.fiction_genres.fantasy"
+ },
+ {
+  "source": "MEDIA.cinema.film_genres.science_fiction_film",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.fiction.fiction_genres.science_fiction"
+ },
+ {
+  "source": "MEDIA.cinema.film_genres.horror_film",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.fiction.fiction_genres.horror_fiction"
+ },
+ {
+  "source": "MEDIA.cinema.film_genres.comedy_film.romantic_comedy",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.fiction.fiction_genres.romance"
+ },
+ {
+  "source": "MEDIA.publishing.comics.graphic_novel",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.publishing.books"
+ },
+ {
+  "source": "MEDIA.publishing.comics.webtoon",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.publishing.comics.webcomic"
+ },
+ {
+  "source": "MEDIA.podcasting",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.broadcasting.radio"
+ },
+ {
+  "source": "MEDIA.streaming_media",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.broadcasting.television"
+ },
+ {
+  "source": "MEDIA.digital_media.short_form_video",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.social_media"
+ },
+ {
+  "source": "MEDIA.content_types.news.citizen_journalism",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.user_generated_content"
+ },
+ {
+  "source": "MEDIA.content_types.advertising.native_advertising",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.content_types.advertising.sponsored_content"
+ },
+ {
+  "source": "MEDIA.emerging_media.deepfake_media",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.propaganda.disinformation"
+ },
+ {
+  "source": "MEDIA.emerging_media.automated_journalism",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.news.data_journalism"
+ },
+ {
+  "source": "MEDIA.emerging_media.ai_generated_content",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "MEDIA.emerging_media.algorithmic_curation",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.social_media"
+ },
+ {
+  "source": "MEDIA.publishing.comics.manga",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.publishing.comics.manhwa"
+ },
+ {
+  "source": "MEDIA.publishing.comics.bande_dessinee",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.publishing.comics.graphic_novel"
+ },
+ {
+  "source": "MEDIA.cinema.national_cinemas.bollywood",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.cinema.film_genres.masala_film"
+ },
+ {
+  "source": "MEDIA.cinema.national_cinemas.hong_kong_cinema",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.cinema.film_genres.martial_arts_film.wuxia_film"
+ },
+ {
+  "source": "MEDIA.cinema.national_cinemas.japanese_cinema",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.cinema.film_genres.samurai_film"
+ },
+ {
+  "source": "MEDIA.animation",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.cinema"
+ },
+ {
+  "source": "MEDIA.content_types.documentary.cinema_verite",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.content_types.documentary.observational_documentary"
+ },
+ {
+  "source": "MEDIA.photography.documentary_photography",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.documentary.social_documentary"
+ },
+ {
+  "source": "MEDIA.content_types.user_generated_content.fan_fiction",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.fiction"
+ },
+ {
+  "source": "MEDIA.content_types.user_generated_content.meme",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.content_types.user_generated_content.remix_culture"
+ },
+ {
+  "source": "MEDIA.emerging_media.synthetic_media",
+  "relation": "RELATED_TO",
+  "target": "MEDIA.emerging_media.ai_generated_content"
+ }
+]

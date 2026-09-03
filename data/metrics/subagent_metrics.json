@@ -2594,5 +2594,1666 @@
   "cultural_visibility": "low",
   "economic_weight": "negligible",
   "cultural_weight": "low"
+ },
+ "ind.agriculture": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~900M",
+   "note": "~27% of global workforce"
+  },
+  "economy": {
+   "est": "~$4T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "agricultural production"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "ind.forestry": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~13M"
+  },
+  "economy": {
+   "est": "~$500B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 45
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "low",
+  "economic_weight": "moderate",
+  "cultural_weight": "moderate"
+ },
+ "ind.fishing": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~40M",
+   "note": "fishing + aquaculture"
+  },
+  "economy": {
+   "est": "~$400B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global",
+   "Asia"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "ind.mining": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~7M",
+   "note": "mining workers"
+  },
+  "economy": {
+   "est": "~$2T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "mining output"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.oil_gas": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~6M"
+  },
+  "economy": {
+   "est": "~$3T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "oil & gas revenues"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "very_high",
+  "growth": "declining",
+  "geography": [
+   "global",
+   "Middle East/Russia/US"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.energy": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~15M"
+  },
+  "economy": {
+   "est": "~$2T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "power generation"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.utilities": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~15M"
+  },
+  "economy": {
+   "est": "~$2T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "utilities + waste"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "low",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.construction": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~200M"
+  },
+  "economy": {
+   "est": "~$13T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "construction output"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "foundational",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.real_estate": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~50M"
+  },
+  "economy": {
+   "est": "~$5T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "real estate services"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.manufacturing": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~400M"
+  },
+  "economy": {
+   "est": "~$16T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "global manufacturing value-added"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global",
+   "China/East Asia/Europe/US"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.transport_logistics": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~60M"
+  },
+  "economy": {
+   "est": "~$3T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.information_technology": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~50M"
+  },
+  "economy": {
+   "est": "~$5T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "IT + software + telecom"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "very_high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global",
+   "US/India/East Asia"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "ind.life_sciences_healthcare": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~100M"
+  },
+  "economy": {
+   "est": "~$10T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "healthcare + pharma + biotech"
+  },
+  "public_awareness": {
+   "score": 95
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "ind.financial_services": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~30M"
+  },
+  "economy": {
+   "est": "~$5T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "financial services value-added"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global",
+   "NY/London/HK/Singapore/Tokyo"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.professional_services": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~30M"
+  },
+  "economy": {
+   "est": "~$2T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "consulting/legal/accounting"
+  },
+  "public_awareness": {
+   "score": 65
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "low"
+ },
+ "ind.education": {
+  "method": "model_estimate",
+  "confidence": 0.6,
+  "population": {
+   "est": "~90M"
+  },
+  "economy": {
+   "est": "~$6T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "education expenditure"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "ind.media_entertainment": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~20M"
+  },
+  "economy": {
+   "est": "~$2T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "media + entertainment"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "ind.retail_trade": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~200M"
+  },
+  "economy": {
+   "est": "~$25T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "retail + wholesale sales"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "ind.hospitality_tourism": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~150M"
+  },
+  "economy": {
+   "est": "~$4T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "hospitality + tourism"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "ind.defense_space": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~10M"
+  },
+  "economy": {
+   "est": "~$2.5T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "defense + space expenditure"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global",
+   "US/China/Russia/EU"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "ART.music": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~20-30M",
+   "note": "professional musicians + industry"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "recorded + live music"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "ART.film": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~5-10M"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "film production + exhibition"
+  },
+  "public_awareness": {
+   "score": 95
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global",
+   "Hollywood/Bollywood/Nollywood"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "ART.television": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~10M"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 95
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "ART.animation": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~1-2M",
+   "note": "animators + production"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "animation industry (incl. anime)"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global",
+   "Japan/US/China"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "ART.comics": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~500K"
+  },
+  "economy": {
+   "est": "~$20B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global",
+   "Japan/US/Europe"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "high"
+ },
+ "ART.craft": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~10M"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "very_high",
+  "growth": "declining",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "ART.design": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~10M",
+   "note": "designers"
+  },
+  "economy": {
+   "est": "~$500B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "ART.digital_art": {
+  "method": "model_estimate",
+  "confidence": 0.45,
+  "population": {
+   "est": "~2M"
+  },
+  "economy": {
+   "est": "~$10B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 60
+  },
+  "historical_significance": "moderate",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "high",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "ART.fashion": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~10M"
+  },
+  "economy": {
+   "est": "~$1.5T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "fashion industry"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global",
+   "Europe/US/East Asia"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "ART.games": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~3B",
+   "note": "players; ~500K developers"
+  },
+  "economy": {
+   "est": "~$200B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "video games"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "ART.literary_arts": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~3M",
+   "note": "writers + poets"
+  },
+  "economy": {
+   "est": "~$150B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "publishing"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "ART.performing_arts": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~5M"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "live performance"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "low",
+  "cultural_weight": "very_high"
+ },
+ "ART.visual_arts": {
+  "method": "model_estimate",
+  "confidence": 0.5,
+  "population": {
+   "est": "~5M"
+  },
+  "economy": {
+   "est": "~$70B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "art market + galleries"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "ART.architecture": {
+  "method": "model_estimate",
+  "confidence": 0.55,
+  "population": {
+   "est": "~3-4M"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "PROD.consumer_goods": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$30T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "consumer goods market"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "PROD.industrial_goods": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$10T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 40
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "very_high",
+  "cultural_weight": "low"
+ },
+ "PROD.capital_goods": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$8T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 35
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "very_high",
+  "cultural_weight": "low"
+ },
+ "PROD.vehicles": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$3T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "automotive industry"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "PROD.energy_products": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$6T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "energy commodities"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "PROD.agricultural_products": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$4T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "PROD.pharmaceuticals": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$1.5T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "pharma market"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "PROD.medical_devices": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$500B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 45
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "low",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "PROD.digital_products": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$2T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "software/SaaS/apps"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "very_high",
+  "cultural_weight": "high"
+ },
+ "PROD.financial_services": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$5T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "PROD.professional_services": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$2T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 55
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "low"
+ },
+ "PROD.personal_services": {
+  "method": "qualitative",
+  "confidence": 0.45,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$3T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 65
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "moderate",
+  "economic_weight": "high",
+  "cultural_weight": "moderate"
+ },
+ "PROD.hospitality_services": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$4T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 80
+  },
+  "historical_significance": "moderate",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "high"
+ },
+ "PROD.transport_services": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$3T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "moderate",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "PROD.education_services": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$6T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 95
+  },
+  "historical_significance": "foundational",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "PROD.healthcare_services": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$10T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 95
+  },
+  "historical_significance": "very_high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "very_high"
+ },
+ "PROD.information_technology_services": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "~$1.5T",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 70
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "very_high",
+  "cultural_weight": "moderate"
+ },
+ "MEDIA.publishing": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "~5M"
+  },
+  "economy": {
+   "est": "~$200B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "publishing industry"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "very_high",
+  "growth": "declining",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.oral_tradition": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "~1B",
+   "note": "in oral-culture communities"
+  },
+  "economy": {
+   "est": "n/a",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 40
+  },
+  "historical_significance": "foundational",
+  "growth": "declining",
+  "geography": [
+   "Africa",
+   "Indigenous Americas",
+   "Oceania",
+   "Asia"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "moderate",
+  "economic_weight": "negligible",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.broadcasting": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "~5M"
+  },
+  "economy": {
+   "est": "~$400B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "broadcast TV/radio"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "very_high",
+  "growth": "declining",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.cinema": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "~2M"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "very_high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "very_high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.animation": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "~1M"
+  },
+  "economy": {
+   "est": "~$300B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global",
+   "Japan/US/China"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.photography": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "~10M",
+   "note": "professional + serious amateurs"
+  },
+  "economy": {
+   "est": "~$50B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "very_high",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "MEDIA.recorded_music": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "~2M"
+  },
+  "economy": {
+   "est": "~$60B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "recorded music"
+  },
+  "public_awareness": {
+   "score": 95
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "moderate",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.digital_media": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "~10M"
+  },
+  "economy": {
+   "est": "~$500B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "moderate",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.social_media": {
+  "method": "qualitative",
+  "confidence": 0.55,
+  "population": {
+   "est": "~5B",
+   "note": "users"
+  },
+  "economy": {
+   "est": "~$200B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD",
+   "note": "advertising"
+  },
+  "public_awareness": {
+   "score": 100
+  },
+  "historical_significance": "high",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.streaming_media": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "~2B",
+   "note": "subscribers"
+  },
+  "economy": {
+   "est": "~$100B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 85
+  },
+  "historical_significance": "high",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.podcasting": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "~500M",
+   "note": "listeners; ~3M shows"
+  },
+  "economy": {
+   "est": "~$5B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 75
+  },
+  "historical_significance": "low",
+  "growth": "growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "high",
+  "economic_weight": "low",
+  "cultural_weight": "high"
+ },
+ "MEDIA.content_types": {
+  "method": "qualitative",
+  "confidence": 0.5,
+  "population": {
+   "est": "n/a"
+  },
+  "economy": {
+   "est": "n/a",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 90
+  },
+  "historical_significance": "high",
+  "growth": "stable",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "high",
+  "cultural_visibility": "very_high",
+  "economic_weight": "high",
+  "cultural_weight": "very_high"
+ },
+ "MEDIA.emerging_media": {
+  "method": "qualitative",
+  "confidence": 0.4,
+  "population": {
+   "est": "~1M"
+  },
+  "economy": {
+   "est": "~$20B",
+   "basis": "annual global (order-of-magnitude)",
+   "year": 2025,
+   "currency": "USD"
+  },
+  "public_awareness": {
+   "score": 40
+  },
+  "historical_significance": "unknown",
+  "growth": "rapidly_growing",
+  "geography": [
+   "global"
+  ],
+  "institutionalization": "low",
+  "cultural_visibility": "moderate",
+  "economic_weight": "low",
+  "cultural_weight": "moderate"
  }
 }

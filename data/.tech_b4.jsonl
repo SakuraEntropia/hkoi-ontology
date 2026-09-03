@@ -1,0 +1,13 @@
+{"id":"TECH.photonics","name":"Photonics","type":"TECHNOLOGY","parent":"TECHNOLOGIES","name_zh":"光子学技术","description":"Technology generating, manipulating, and detecting light."}
+{"id":"TECH.photonics.laser","name":"Laser","type":"TECHNOLOGY","parent":"TECH.photonics","name_zh":"激光","description":"Coherent light amplification by stimulated emission."}
+{"id":"TECH.photonics.laser.solid_state_laser","name":"Solid-State Laser","type":"TECHNOLOGY","parent":"TECH.photonics.laser","name_zh":"固体激光器","description":"A laser using a solid gain medium."}
+{"id":"TECH.photonics.laser.fiber_laser","name":"Fiber Laser","type":"TECHNOLOGY","parent":"TECH.photonics.laser","name_zh":"光纤激光器","description":"A laser with an optical-fiber gain medium."}
+{"id":"TECH.photonics.laser.semiconductor_laser","name":"Semiconductor Laser","type":"TECHNOLOGY","parent":"TECH.photonics.laser","name_zh":"半导体激光器","description":"A compact laser based on a semiconductor diode junction.","aliases":["laser diode"]}
+{"id":"TECH.photonics.light_emitting_diode","name":"Light-Emitting Diode","type":"TECHNOLOGY","parent":"TECH.photonics","name_zh":"发光二极管","description":"A semiconductor diode emitting light when powered.","aliases":["LED"]}
+{"id":"TECH.photonics.organic_light_emitting_diode","name":"Organic Light-Emitting Diode","type":"TECHNOLOGY","parent":"TECH.photonics","name_zh":"有机发光二极管","description":"A display technology using organic emissive materials.","aliases":["OLED"]}
+{"id":"TECH.photonics.liquid_crystal_display","name":"Liquid Crystal Display","type":"TECHNOLOGY","parent":"TECH.photonics","name_zh":"液晶显示器","description":"A flat-panel display using liquid crystals and backlight.","aliases":["LCD"]}
+{"id":"TECH.photonics.photodetector","name":"Photodetector","type":"TECHNOLOGY","parent":"TECH.photonics","name_zh":"光电探测器","description":"A device converting light into electrical signals."}
+{"id":"TECH.photonics.photonic_integrated_circuit","name":"Photonic Integrated Circuit","type":"TECHNOLOGY","parent":"TECH.photonics","name_zh":"光子集成电路","description":"Light-based circuits on a chip.","aliases":["PIC"]}
+{"id":"TECH.photonics.holography","name":"Holography","type":"TECHNOLOGY","parent":"TECH.photonics","name_zh":"全息术","description":"Recording and reconstructing three-dimensional light fields."}
+{"id":"TECH.photonics.nonlinear_optics","name":"Nonlinear Optics","type":"TECHNOLOGY","parent":"TECH.photonics","name_zh":"非线性光学","description":"Optics in materials whose response depends on light intensity."}
+{"id":"TECH.photonics.optical_computing","name":"Optical Computing","type":"EMERGING_FIELD","parent":"TECH.photonics","name_zh":"光计算","description":"Computing using photons instead of electrons."}

@@ -1,0 +1,592 @@
+[
+ {
+  "source": "OCC.science",
+  "relation": "ROLE_IN",
+  "target": "ind.professional_services"
+ },
+ {
+  "source": "OCC.science",
+  "relation": "ROLE_IN",
+  "target": "ind.life_sciences_healthcare"
+ },
+ {
+  "source": "OCC.engineering",
+  "relation": "ROLE_IN",
+  "target": "ind.manufacturing"
+ },
+ {
+  "source": "OCC.engineering",
+  "relation": "ROLE_IN",
+  "target": "ind.construction"
+ },
+ {
+  "source": "OCC.engineering",
+  "relation": "ROLE_IN",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "OCC.engineering",
+  "relation": "ROLE_IN",
+  "target": "ind.defense_space"
+ },
+ {
+  "source": "OCC.engineering",
+  "relation": "ROLE_IN",
+  "target": "ind.energy"
+ },
+ {
+  "source": "OCC.it_computing",
+  "relation": "ROLE_IN",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "OCC.medicine",
+  "relation": "ROLE_IN",
+  "target": "ind.life_sciences_healthcare"
+ },
+ {
+  "source": "OCC.law",
+  "relation": "ROLE_IN",
+  "target": "ind.professional_services"
+ },
+ {
+  "source": "OCC.business",
+  "relation": "ROLE_IN",
+  "target": "ind.financial_services"
+ },
+ {
+  "source": "OCC.business",
+  "relation": "ROLE_IN",
+  "target": "ind.professional_services"
+ },
+ {
+  "source": "OCC.military",
+  "relation": "ROLE_IN",
+  "target": "ind.defense_space"
+ },
+ {
+  "source": "OCC.education",
+  "relation": "ROLE_IN",
+  "target": "ind.education"
+ },
+ {
+  "source": "OCC.arts",
+  "relation": "ROLE_IN",
+  "target": "ind.media_entertainment"
+ },
+ {
+  "source": "OCC.media",
+  "relation": "ROLE_IN",
+  "target": "ind.media_entertainment"
+ },
+ {
+  "source": "OCC.sports",
+  "relation": "ROLE_IN",
+  "target": "ind.media_entertainment"
+ },
+ {
+  "source": "OCC.sports",
+  "relation": "ROLE_IN",
+  "target": "ind.hospitality_tourism"
+ },
+ {
+  "source": "OCC.trades",
+  "relation": "ROLE_IN",
+  "target": "ind.manufacturing"
+ },
+ {
+  "source": "OCC.construction",
+  "relation": "ROLE_IN",
+  "target": "ind.construction"
+ },
+ {
+  "source": "OCC.transport",
+  "relation": "ROLE_IN",
+  "target": "ind.transport_logistics"
+ },
+ {
+  "source": "OCC.agriculture",
+  "relation": "ROLE_IN",
+  "target": "ind.agriculture"
+ },
+ {
+  "source": "OCC.mining_energy",
+  "relation": "ROLE_IN",
+  "target": "ind.mining"
+ },
+ {
+  "source": "OCC.mining_energy",
+  "relation": "ROLE_IN",
+  "target": "ind.energy"
+ },
+ {
+  "source": "OCC.mining_energy",
+  "relation": "ROLE_IN",
+  "target": "ind.oil_gas"
+ },
+ {
+  "source": "OCC.retail",
+  "relation": "ROLE_IN",
+  "target": "ind.retail_trade"
+ },
+ {
+  "source": "OCC.hospitality",
+  "relation": "ROLE_IN",
+  "target": "ind.hospitality_tourism"
+ },
+ {
+  "source": "OCC.personal_services",
+  "relation": "ROLE_IN",
+  "target": "ind.hospitality_tourism"
+ },
+ {
+  "source": "OCC.personal_services",
+  "relation": "ROLE_IN",
+  "target": "ind.retail_trade"
+ },
+ {
+  "source": "ind.agriculture",
+  "relation": "APPLICATION_OF",
+  "target": "HK.agriculture"
+ },
+ {
+  "source": "ind.agriculture",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "ind.agriculture",
+  "relation": "APPLICATION_OF",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "ind.forestry",
+  "relation": "APPLICATION_OF",
+  "target": "HK.forestry"
+ },
+ {
+  "source": "ind.forestry",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "ind.fishing",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "ind.fishing",
+  "relation": "APPLICATION_OF",
+  "target": "HK.oceanography"
+ },
+ {
+  "source": "ind.mining",
+  "relation": "APPLICATION_OF",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "ind.mining",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.oil_gas",
+  "relation": "APPLICATION_OF",
+  "target": "HK.earth_science"
+ },
+ {
+  "source": "ind.oil_gas",
+  "relation": "APPLICATION_OF",
+  "target": "HK.chemistry"
+ },
+ {
+  "source": "ind.oil_gas",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.energy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "ind.energy",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.utilities",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.construction",
+  "relation": "APPLICATION_OF",
+  "target": "HK.architecture"
+ },
+ {
+  "source": "ind.construction",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.real_estate",
+  "relation": "APPLICATION_OF",
+  "target": "HK.business"
+ },
+ {
+  "source": "ind.real_estate",
+  "relation": "APPLICATION_OF",
+  "target": "HK.urban_planning"
+ },
+ {
+  "source": "ind.manufacturing",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.manufacturing",
+  "relation": "APPLICATION_OF",
+  "target": "HK.materials_science"
+ },
+ {
+  "source": "ind.transport_logistics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.operations_research"
+ },
+ {
+  "source": "ind.transport_logistics",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.information_technology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ind.information_technology",
+  "relation": "APPLICATION_OF",
+  "target": "HK.information_science"
+ },
+ {
+  "source": "ind.life_sciences_healthcare",
+  "relation": "APPLICATION_OF",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "ind.life_sciences_healthcare",
+  "relation": "APPLICATION_OF",
+  "target": "HK.biology"
+ },
+ {
+  "source": "ind.life_sciences_healthcare",
+  "relation": "APPLICATION_OF",
+  "target": "HK.pharmacy"
+ },
+ {
+  "source": "ind.financial_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.finance"
+ },
+ {
+  "source": "ind.financial_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.economics"
+ },
+ {
+  "source": "ind.professional_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.business"
+ },
+ {
+  "source": "ind.professional_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.law"
+ },
+ {
+  "source": "ind.professional_services",
+  "relation": "APPLICATION_OF",
+  "target": "HK.accounting"
+ },
+ {
+  "source": "ind.education",
+  "relation": "APPLICATION_OF",
+  "target": "HK.education"
+ },
+ {
+  "source": "ind.media_entertainment",
+  "relation": "APPLICATION_OF",
+  "target": "HK.communication"
+ },
+ {
+  "source": "ind.media_entertainment",
+  "relation": "APPLICATION_OF",
+  "target": "HK.film_studies"
+ },
+ {
+  "source": "ind.retail_trade",
+  "relation": "APPLICATION_OF",
+  "target": "HK.business"
+ },
+ {
+  "source": "ind.hospitality_tourism",
+  "relation": "APPLICATION_OF",
+  "target": "HK.business"
+ },
+ {
+  "source": "ind.defense_space",
+  "relation": "APPLICATION_OF",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ind.defense_space",
+  "relation": "APPLICATION_OF",
+  "target": "HK.physics"
+ },
+ {
+  "source": "ind.agriculture",
+  "relation": "PRODUCES",
+  "target": "PROD.agricultural_products"
+ },
+ {
+  "source": "ind.energy",
+  "relation": "PRODUCES",
+  "target": "PROD.energy_products"
+ },
+ {
+  "source": "ind.manufacturing",
+  "relation": "PRODUCES",
+  "target": "PROD.industrial_goods"
+ },
+ {
+  "source": "ind.manufacturing",
+  "relation": "PRODUCES",
+  "target": "PROD.consumer_goods"
+ },
+ {
+  "source": "ind.manufacturing",
+  "relation": "PRODUCES",
+  "target": "PROD.capital_goods"
+ },
+ {
+  "source": "ind.manufacturing",
+  "relation": "PRODUCES",
+  "target": "PROD.vehicles"
+ },
+ {
+  "source": "ind.information_technology",
+  "relation": "PRODUCES",
+  "target": "PROD.digital_products"
+ },
+ {
+  "source": "ind.information_technology",
+  "relation": "PRODUCES",
+  "target": "PROD.information_technology_services"
+ },
+ {
+  "source": "ind.life_sciences_healthcare",
+  "relation": "PRODUCES",
+  "target": "PROD.pharmaceuticals"
+ },
+ {
+  "source": "ind.life_sciences_healthcare",
+  "relation": "PRODUCES",
+  "target": "PROD.medical_devices"
+ },
+ {
+  "source": "ind.life_sciences_healthcare",
+  "relation": "PRODUCES",
+  "target": "PROD.healthcare_services"
+ },
+ {
+  "source": "ind.financial_services",
+  "relation": "PRODUCES",
+  "target": "PROD.financial_services"
+ },
+ {
+  "source": "ind.professional_services",
+  "relation": "PRODUCES",
+  "target": "PROD.professional_services"
+ },
+ {
+  "source": "ind.hospitality_tourism",
+  "relation": "PRODUCES",
+  "target": "PROD.hospitality_services"
+ },
+ {
+  "source": "ind.transport_logistics",
+  "relation": "PRODUCES",
+  "target": "PROD.transport_services"
+ },
+ {
+  "source": "ind.education",
+  "relation": "PRODUCES",
+  "target": "PROD.education_services"
+ },
+ {
+  "source": "ART.film",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.cinema"
+ },
+ {
+  "source": "ART.television",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.broadcasting"
+ },
+ {
+  "source": "ART.animation",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.animation"
+ },
+ {
+  "source": "ART.music",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.recorded_music"
+ },
+ {
+  "source": "ART.literary_arts",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.publishing"
+ },
+ {
+  "source": "ART.visual_arts",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.photography"
+ },
+ {
+  "source": "ART.games",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "ART.digital_art",
+  "relation": "OVERLAPS_WITH",
+  "target": "MEDIA.digital_media"
+ },
+ {
+  "source": "ART.music",
+  "relation": "RELATED_TO",
+  "target": "OCC.arts"
+ },
+ {
+  "source": "ART.film",
+  "relation": "RELATED_TO",
+  "target": "OCC.media"
+ },
+ {
+  "source": "ART.visual_arts",
+  "relation": "RELATED_TO",
+  "target": "OCC.arts"
+ },
+ {
+  "source": "ART.games",
+  "relation": "RELATED_TO",
+  "target": "OCC.it_computing"
+ },
+ {
+  "source": "SPORT.ball_sports",
+  "relation": "RELATED_TO",
+  "target": "OCC.sports"
+ },
+ {
+  "source": "SPORT.esports",
+  "relation": "RELATED_TO",
+  "target": "OCC.it_computing"
+ },
+ {
+  "source": "SPORT.mind_sports",
+  "relation": "RELATED_TO",
+  "target": "OCC.science"
+ },
+ {
+  "source": "EMERGING_FIELDS.quantum_machine_learning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.quantum_computing"
+ },
+ {
+  "source": "EMERGING_FIELDS.quantum_machine_learning",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.machine_learning"
+ },
+ {
+  "source": "EMERGING_FIELDS.ai_alignment",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.artificial_intelligence"
+ },
+ {
+  "source": "EMERGING_FIELDS.agentic_ai",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.artificial_intelligence"
+ },
+ {
+  "source": "EMERGING_FIELDS.generative_ai",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science.deep_learning"
+ },
+ {
+  "source": "EMERGING_FIELDS.synthetic_biology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.biology"
+ },
+ {
+  "source": "EMERGING_FIELDS.personalized_medicine",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.medicine"
+ },
+ {
+  "source": "EMERGING_FIELDS.brain_computer_interfaces",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.neuroscience"
+ },
+ {
+  "source": "EMERGING_FIELDS.brain_computer_interfaces",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "EMERGING_FIELDS.fusion_energy",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.physics"
+ },
+ {
+  "source": "EMERGING_FIELDS.climate_technology",
+  "relation": "OVERLAPS_WITH",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "EMERGING_FIELDS.synthetic_biology",
+  "relation": "RELATED_TO",
+  "target": "ind.life_sciences_healthcare"
+ },
+ {
+  "source": "EMERGING_FIELDS.generative_ai",
+  "relation": "RELATED_TO",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "EMERGING_FIELDS.quantum_machine_learning",
+  "relation": "RELATED_TO",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "HK.computer_science",
+  "relation": "USED_BY",
+  "target": "ind.information_technology"
+ },
+ {
+  "source": "HK.medicine",
+  "relation": "USED_BY",
+  "target": "ind.life_sciences_healthcare"
+ },
+ {
+  "source": "HK.engineering",
+  "relation": "USED_BY",
+  "target": "ind.manufacturing"
+ },
+ {
+  "source": "HK.finance",
+  "relation": "USED_BY",
+  "target": "ind.financial_services"
+ }
+]

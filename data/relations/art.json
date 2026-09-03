@@ -1,0 +1,727 @@
+[
+ {
+  "source": "ART.animation.2d_animation.rotoscoping",
+  "relation": "USES",
+  "target": "ART.film"
+ },
+ {
+  "source": "ART.animation.2d_animation.traditional_animation",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.animation.3d_animation.computer_animation"
+ },
+ {
+  "source": "ART.animation.3d_animation",
+  "relation": "USES",
+  "target": "ART.animation.3d_animation.cgi"
+ },
+ {
+  "source": "ART.animation.animation_film",
+  "relation": "RELATED_TO",
+  "target": "ART.film.film_forms.feature_film"
+ },
+ {
+  "source": "ART.animation.anime",
+  "relation": "RELATED_TO",
+  "target": "ART.comics.manga"
+ },
+ {
+  "source": "ART.animation.motion_graphics",
+  "relation": "RELATED_TO",
+  "target": "ART.design.graphic_design"
+ },
+ {
+  "source": "ART.animation.stop_motion",
+  "relation": "RELATED_TO",
+  "target": "ART.performing_arts.puppetry"
+ },
+ {
+  "source": "ART.animation.virtual_production",
+  "relation": "USES",
+  "target": "ART.animation.virtual_production.real_time_rendering"
+ },
+ {
+  "source": "ART.animation.visual_effects",
+  "relation": "USES",
+  "target": "ART.animation.3d_animation.cgi"
+ },
+ {
+  "source": "ART.animation",
+  "relation": "RELATED_TO",
+  "target": "ART.film"
+ },
+ {
+  "source": "ART.architecture.architectural_styles.art_deco_architecture",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.architecture.architectural_styles.art_nouveau_architecture"
+ },
+ {
+  "source": "ART.architecture.architectural_styles.gothic",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.architecture.architectural_styles.romanesque"
+ },
+ {
+  "source": "ART.architecture.architectural_styles.modernist_architecture",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.architecture.architectural_styles.neoclassical_architecture"
+ },
+ {
+  "source": "ART.architecture.architectural_styles.postmodern_architecture",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.architecture.architectural_styles.modernist_architecture"
+ },
+ {
+  "source": "ART.architecture.landscape_architecture",
+  "relation": "RELATED_TO",
+  "target": "HK.environmental_science"
+ },
+ {
+  "source": "ART.architecture.urban_design",
+  "relation": "RELATED_TO",
+  "target": "HK.urban_planning"
+ },
+ {
+  "source": "ART.architecture",
+  "relation": "RELATED_TO",
+  "target": "ART.design.interior_design"
+ },
+ {
+  "source": "ART.architecture",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.bauhaus"
+ },
+ {
+  "source": "ART.architecture",
+  "relation": "RELATED_TO",
+  "target": "HK.architecture"
+ },
+ {
+  "source": "ART.comics.comic_book.superhero_comics",
+  "relation": "RELATED_TO",
+  "target": "ART.film.film_genres.action_film"
+ },
+ {
+  "source": "ART.comics.editorial_cartoon",
+  "relation": "RELATED_TO",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "ART.comics.graphic_novel",
+  "relation": "RELATED_TO",
+  "target": "ART.literary_arts.prose_fiction"
+ },
+ {
+  "source": "ART.comics.manga",
+  "relation": "RELATED_TO",
+  "target": "ART.animation.anime"
+ },
+ {
+  "source": "ART.comics.webtoon",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.comics.manhwa"
+ },
+ {
+  "source": "ART.comics",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.illustration"
+ },
+ {
+  "source": "ART.craft.ceramics.pottery.porcelain",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.painting"
+ },
+ {
+  "source": "ART.craft.ceramics",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.sculpture"
+ },
+ {
+  "source": "ART.craft.glass_art",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.stained_glass"
+ },
+ {
+  "source": "ART.craft.jewelry",
+  "relation": "RELATED_TO",
+  "target": "ART.fashion.fashion_accessories"
+ },
+ {
+  "source": "ART.craft.lacquerware",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts"
+ },
+ {
+  "source": "ART.craft.metalwork.bronze_casting",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.sculpture.bronze_sculpture"
+ },
+ {
+  "source": "ART.craft.origami",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.sculpture"
+ },
+ {
+  "source": "ART.craft.textile_arts",
+  "relation": "RELATED_TO",
+  "target": "ART.fashion.fashion_design"
+ },
+ {
+  "source": "ART.craft.woodworking.wood_carving",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.sculpture.wood_sculpture"
+ },
+ {
+  "source": "ART.design.communication_design",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.design.graphic_design"
+ },
+ {
+  "source": "ART.design.graphic_design",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts"
+ },
+ {
+  "source": "ART.design.industrial_design",
+  "relation": "RELATED_TO",
+  "target": "HK.engineering"
+ },
+ {
+  "source": "ART.design.interior_design",
+  "relation": "RELATED_TO",
+  "target": "ART.architecture"
+ },
+ {
+  "source": "ART.design.type_design",
+  "relation": "RELATED_TO",
+  "target": "ART.design.graphic_design.typography"
+ },
+ {
+  "source": "ART.design.ux_design.interaction_design",
+  "relation": "RELATED_TO",
+  "target": "HK.cognitive_science"
+ },
+ {
+  "source": "ART.design.ux_design",
+  "relation": "RELATED_TO",
+  "target": "HK.psychology"
+ },
+ {
+  "source": "ART.design.web_design",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ART.digital_art.3d_modeling",
+  "relation": "APPLIES_TO",
+  "target": "ART.animation.3d_animation"
+ },
+ {
+  "source": "ART.digital_art.generative_art.ai_generated_art",
+  "relation": "APPLIES_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ART.digital_art.generative_art",
+  "relation": "APPLIES_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ART.digital_art.glitch_art",
+  "relation": "RELATED_TO",
+  "target": "ART.music.electronic_music.glitch"
+ },
+ {
+  "source": "ART.digital_art.new_media_art.bio_art",
+  "relation": "APPLIES_TO",
+  "target": "HK.biology"
+ },
+ {
+  "source": "ART.digital_art.new_media_art.interactive_art",
+  "relation": "RELATED_TO",
+  "target": "ART.design.ux_design"
+ },
+ {
+  "source": "ART.digital_art.new_media_art.sound_art",
+  "relation": "RELATED_TO",
+  "target": "ART.music.electronic_music.ambient"
+ },
+ {
+  "source": "ART.digital_art.video_art",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.film.film_forms.experimental_film"
+ },
+ {
+  "source": "ART.fashion.costume_design",
+  "relation": "TECHNIQUE_OF",
+  "target": "ART.film"
+ },
+ {
+  "source": "ART.fashion.costume_design",
+  "relation": "TECHNIQUE_OF",
+  "target": "ART.performing_arts.theater"
+ },
+ {
+  "source": "ART.fashion.fashion_accessories",
+  "relation": "RELATED_TO",
+  "target": "ART.craft.jewelry"
+ },
+ {
+  "source": "ART.fashion.fashion_design",
+  "relation": "RELATED_TO",
+  "target": "ART.craft.textile_arts"
+ },
+ {
+  "source": "ART.fashion.fashion_history",
+  "relation": "SUBFIELD_OF",
+  "target": "HK.history"
+ },
+ {
+  "source": "ART.fashion.fashion_styles.grunge_fashion",
+  "relation": "RELATED_TO",
+  "target": "ART.music.popular_music.rock_music.grunge"
+ },
+ {
+  "source": "ART.fashion.fashion_styles.punk_fashion",
+  "relation": "RELATED_TO",
+  "target": "ART.music.popular_music.rock_music.punk_rock"
+ },
+ {
+  "source": "ART.film.film_forms.silent_film",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.film.film_forms.feature_film"
+ },
+ {
+  "source": "ART.film.film_genres.documentary_film",
+  "relation": "RELATED_TO",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "ART.film.film_genres.film_noir",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.film.film_movements.german_expressionism"
+ },
+ {
+  "source": "ART.film.film_genres.musical_film",
+  "relation": "RELATED_TO",
+  "target": "ART.performing_arts.musical_theatre"
+ },
+ {
+  "source": "ART.film.film_genres.wuxia_film",
+  "relation": "RELATED_TO",
+  "target": "ART.performing_arts.theater.chinese_opera.peking_opera"
+ },
+ {
+  "source": "ART.film.film_movements.french_new_wave",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.film.film_movements.italian_neorealism"
+ },
+ {
+  "source": "ART.film.film_scoring",
+  "relation": "RELATED_TO",
+  "target": "ART.music.classical_music"
+ },
+ {
+  "source": "ART.film.screenwriting",
+  "relation": "RELATED_TO",
+  "target": "ART.literary_arts.drama_literature"
+ },
+ {
+  "source": "ART.film",
+  "relation": "RELATED_TO",
+  "target": "HK.film_studies"
+ },
+ {
+  "source": "ART.games.game_art.concept_art",
+  "relation": "TECHNIQUE_OF",
+  "target": "ART.animation"
+ },
+ {
+  "source": "ART.games.game_art",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.illustration"
+ },
+ {
+  "source": "ART.games.game_design",
+  "relation": "RELATED_TO",
+  "target": "HK.systems_science"
+ },
+ {
+  "source": "ART.games.game_music",
+  "relation": "RELATED_TO",
+  "target": "ART.music.electronic_music"
+ },
+ {
+  "source": "ART.games.tabletop_role_playing",
+  "relation": "RELATED_TO",
+  "target": "ART.literary_arts.prose_fiction.novel.fantasy"
+ },
+ {
+  "source": "ART.games.video_games.visual_novel",
+  "relation": "RELATED_TO",
+  "target": "ART.comics.manga"
+ },
+ {
+  "source": "ART.games.video_games",
+  "relation": "RELATED_TO",
+  "target": "HK.computer_science"
+ },
+ {
+  "source": "ART.literary_arts.chinese_classical_literature.vernacular_fiction",
+  "relation": "RELATED_TO",
+  "target": "ART.literary_arts.prose_fiction.novel"
+ },
+ {
+  "source": "ART.literary_arts.drama_literature",
+  "relation": "RELATED_TO",
+  "target": "ART.performing_arts.theater"
+ },
+ {
+  "source": "ART.literary_arts.poetry.concrete_poetry",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.visual_arts"
+ },
+ {
+  "source": "ART.literary_arts.poetry.ghazal",
+  "relation": "RELATED_TO",
+  "target": "ART.literary_arts.persian_literature"
+ },
+ {
+  "source": "ART.literary_arts.poetry.haiku",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.literary_arts.japanese_classical_literature.haikai"
+ },
+ {
+  "source": "ART.literary_arts.poetry",
+  "relation": "SUBFIELD_OF",
+  "target": "HK.literature"
+ },
+ {
+  "source": "ART.literary_arts",
+  "relation": "RELATED_TO",
+  "target": "HK.literature"
+ },
+ {
+  "source": "ART.music.blues",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.music.jazz"
+ },
+ {
+  "source": "ART.music.classical_music",
+  "relation": "RELATED_TO",
+  "target": "HK.musicology"
+ },
+ {
+  "source": "ART.music.electronic_music.house_music.acid_house",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.music.electronic_music.techno"
+ },
+ {
+  "source": "ART.music.electronic_music.house_music.acid_house",
+  "relation": "USES",
+  "target": "ART.music.musical_instruments.electronic_instruments.synthesizer"
+ },
+ {
+  "source": "ART.music.electronic_music.techno.minimal_techno",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.music.electronic_music.techno"
+ },
+ {
+  "source": "ART.music.electronic_music",
+  "relation": "USES",
+  "target": "ART.music.musical_instruments.electronic_instruments.synthesizer"
+ },
+ {
+  "source": "ART.music.ethnomusicology",
+  "relation": "SUBFIELD_OF",
+  "target": "HK.musicology"
+ },
+ {
+  "source": "ART.music.jazz.bebop",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.music.jazz.swing"
+ },
+ {
+  "source": "ART.music.jazz.ragtime",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.music.jazz"
+ },
+ {
+  "source": "ART.music.jazz.swing",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.music.jazz.dixieland"
+ },
+ {
+  "source": "ART.music.music_history",
+  "relation": "SUBFIELD_OF",
+  "target": "HK.musicology"
+ },
+ {
+  "source": "ART.music.music_technology.sound_synthesis",
+  "relation": "APPLIES_TO",
+  "target": "ART.music.electronic_music"
+ },
+ {
+  "source": "ART.music.music_theory",
+  "relation": "RELATED_TO",
+  "target": "HK.musicology"
+ },
+ {
+  "source": "ART.music.musical_instruments.percussion_instruments.mridangam",
+  "relation": "USED_BY",
+  "target": "ART.music.traditional_music.indian_classical_music.carnatic_music"
+ },
+ {
+  "source": "ART.music.musical_instruments.percussion_instruments.tabla",
+  "relation": "USED_BY",
+  "target": "ART.music.traditional_music.indian_classical_music.hindustani_music"
+ },
+ {
+  "source": "ART.music.musical_instruments.percussion_instruments.taiko",
+  "relation": "USED_BY",
+  "target": "ART.music.traditional_music.japanese_traditional_music"
+ },
+ {
+  "source": "ART.music.musical_instruments.string_instruments.guqin",
+  "relation": "USED_BY",
+  "target": "ART.music.traditional_music.chinese_classical_music.guqin_music"
+ },
+ {
+  "source": "ART.music.musical_instruments.string_instruments.guzheng",
+  "relation": "USED_BY",
+  "target": "ART.music.traditional_music.chinese_classical_music.guzheng_music"
+ },
+ {
+  "source": "ART.music.musical_instruments.woodwind_instruments.shakuhachi",
+  "relation": "USED_BY",
+  "target": "ART.music.traditional_music.japanese_traditional_music.honkyoku"
+ },
+ {
+  "source": "ART.music.popular_music.hip_hop",
+  "relation": "USES",
+  "target": "ART.music.music_technology.sampling"
+ },
+ {
+  "source": "ART.music.popular_music.hip_hop",
+  "relation": "USES",
+  "target": "ART.music.musical_instruments.electronic_instruments.sampler"
+ },
+ {
+  "source": "ART.music.popular_music.hip_hop",
+  "relation": "USES",
+  "target": "ART.music.musical_instruments.electronic_instruments.turntable"
+ },
+ {
+  "source": "ART.music.popular_music.rhythm_and_blues",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.music.popular_music.rock_music.rock_and_roll"
+ },
+ {
+  "source": "ART.music.popular_music.rock_music.heavy_metal.death_metal.melodic_death_metal",
+  "relation": "RELATED_TO",
+  "target": "ART.music.popular_music.rock_music.heavy_metal.power_metal"
+ },
+ {
+  "source": "ART.music.popular_music.rock_music.rock_and_roll",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.music.blues"
+ },
+ {
+  "source": "ART.music.traditional_music.indian_classical_music",
+  "relation": "RELATED_TO",
+  "target": "ART.music.ethnomusicology"
+ },
+ {
+  "source": "ART.music.vocal_music.bel_canto",
+  "relation": "TECHNIQUE_OF",
+  "target": "ART.music.classical_music"
+ },
+ {
+  "source": "ART.performing_arts.dance.ballroom_dance.tango_dance",
+  "relation": "RELATED_TO",
+  "target": "ART.music.popular_music.latin_music.tango"
+ },
+ {
+  "source": "ART.performing_arts.dance.folk_dance.flamenco_dance",
+  "relation": "RELATED_TO",
+  "target": "ART.music.traditional_music.folk_music.flamenco"
+ },
+ {
+  "source": "ART.performing_arts.dance.folk_dance.kathak",
+  "relation": "RELATED_TO",
+  "target": "ART.music.traditional_music.indian_classical_music.hindustani_music"
+ },
+ {
+  "source": "ART.performing_arts.dance.hip_hop_dance",
+  "relation": "RELATED_TO",
+  "target": "ART.music.popular_music.hip_hop"
+ },
+ {
+  "source": "ART.performing_arts.dance.indian_classical_dance.bharatanatyam",
+  "relation": "RELATED_TO",
+  "target": "ART.music.traditional_music.indian_classical_music.carnatic_music"
+ },
+ {
+  "source": "ART.performing_arts.dance.indian_classical_dance.kathakali",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.performing_arts.theater"
+ },
+ {
+  "source": "ART.performing_arts.musical_theatre",
+  "relation": "RELATED_TO",
+  "target": "ART.music.popular_music"
+ },
+ {
+  "source": "ART.performing_arts.opera",
+  "relation": "RELATED_TO",
+  "target": "ART.music.classical_music"
+ },
+ {
+  "source": "ART.performing_arts.opera",
+  "relation": "SUBFORM_OF",
+  "target": "ART.performing_arts.theater"
+ },
+ {
+  "source": "ART.performing_arts.performance_art",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.visual_arts.fluxus"
+ },
+ {
+  "source": "ART.performing_arts.puppetry.bunraku",
+  "relation": "USES",
+  "target": "ART.music.musical_instruments.string_instruments.shamisen"
+ },
+ {
+  "source": "ART.performing_arts.puppetry.shadow_puppetry.wayang_kulit",
+  "relation": "USES",
+  "target": "ART.music.traditional_music.gamelan"
+ },
+ {
+  "source": "ART.performing_arts.theater.chinese_opera.peking_opera",
+  "relation": "RELATED_TO",
+  "target": "ART.music.traditional_music.chinese_classical_music"
+ },
+ {
+  "source": "ART.performing_arts.theater.japanese_theatre.kabuki",
+  "relation": "USES",
+  "target": "ART.music.musical_instruments.string_instruments.shamisen"
+ },
+ {
+  "source": "ART.performing_arts.theater.japanese_theatre.noh",
+  "relation": "USES",
+  "target": "ART.music.traditional_music.japanese_traditional_music.gagaku"
+ },
+ {
+  "source": "ART.performing_arts.theater.theatre_of_the_absurd",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.visual_arts.dada"
+ },
+ {
+  "source": "ART.performing_arts.theater",
+  "relation": "RELATED_TO",
+  "target": "HK.literature"
+ },
+ {
+  "source": "ART.television.streaming_television",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.television.broadcast_television"
+ },
+ {
+  "source": "ART.television.television_formats.serialized_series",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.television.television_formats.episodic_series"
+ },
+ {
+  "source": "ART.television.television_genres.animated_series",
+  "relation": "SUBFORM_OF",
+  "target": "ART.animation"
+ },
+ {
+  "source": "ART.television.television_genres.news_broadcast",
+  "relation": "RELATED_TO",
+  "target": "HK.journalism"
+ },
+ {
+  "source": "ART.television.television_genres.tv_drama",
+  "relation": "RELATED_TO",
+  "target": "ART.film.film_genres.drama_film"
+ },
+ {
+  "source": "ART.visual_arts.baroque_art",
+  "relation": "HISTORICAL_SUCCESSOR",
+  "target": "ART.visual_arts.renaissance_art"
+ },
+ {
+  "source": "ART.visual_arts.bauhaus",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.constructivism"
+ },
+ {
+  "source": "ART.visual_arts.calligraphy",
+  "relation": "RELATED_TO",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "ART.visual_arts.dada",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.visual_arts.surrealism"
+ },
+ {
+  "source": "ART.visual_arts.illustration",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.drawing"
+ },
+ {
+  "source": "ART.visual_arts.impressionism",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.visual_arts.post_impressionism"
+ },
+ {
+  "source": "ART.visual_arts.painting.ink_wash_painting.chinese_ink_painting",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.calligraphy.chinese_calligraphy"
+ },
+ {
+  "source": "ART.visual_arts.painting",
+  "relation": "RELATED_TO",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "ART.visual_arts.photography",
+  "relation": "RELATED_TO",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "ART.visual_arts.post_impressionism",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.visual_arts.expressionism"
+ },
+ {
+  "source": "ART.visual_arts.printmaking.intaglio.etching",
+  "relation": "RELATED_TO",
+  "target": "ART.visual_arts.printmaking.intaglio.engraving"
+ },
+ {
+  "source": "ART.visual_arts.renaissance_art",
+  "relation": "HISTORICAL_PREDECESSOR",
+  "target": "ART.visual_arts.baroque_art"
+ },
+ {
+  "source": "ART.visual_arts.sculpture.installation_art",
+  "relation": "OVERLAPS_WITH",
+  "target": "ART.visual_arts.mixed_media"
+ },
+ {
+  "source": "ART.visual_arts.sculpture",
+  "relation": "RELATED_TO",
+  "target": "HK.art_history"
+ },
+ {
+  "source": "ART.visual_arts.street_art.graffiti",
+  "relation": "USES",
+  "target": "ART.visual_arts.painting.spray_painting"
+ },
+ {
+  "source": "ART.visual_arts.ukiyo_e",
+  "relation": "SUBFORM_OF",
+  "target": "ART.visual_arts.printmaking.relief_printing.woodcut"
+ }
+]

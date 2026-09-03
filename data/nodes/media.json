@@ -1,0 +1,3991 @@
+[
+ {
+  "id": "MEDIA.publishing",
+  "name": "Publishing",
+  "type": "MEDIA_FORM",
+  "description": "Print and text-based media produced, reproduced, and distributed for reading.",
+  "name_zh": "出版",
+  "name_en": "Publishing",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.publishing.books",
+  "name": "Books",
+  "type": "MEDIA_FORM",
+  "description": "Bound volumes of text and images issued for reading, in print or digital form.",
+  "name_zh": "书籍",
+  "name_en": "Books",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.books.hardcover_book",
+  "name": "Hardcover Book",
+  "type": "MEDIA_FORM",
+  "description": "Book bound in rigid protective covers for durability.",
+  "name_zh": "精装书",
+  "name_en": "Hardcover Book",
+  "parent": "MEDIA.publishing.books"
+ },
+ {
+  "id": "MEDIA.publishing.books.paperback_book",
+  "name": "Paperback Book",
+  "type": "MEDIA_FORM",
+  "description": "Book bound in flexible paper covers, cheaper and lighter than hardcover.",
+  "name_zh": "平装书",
+  "name_en": "Paperback Book",
+  "parent": "MEDIA.publishing.books"
+ },
+ {
+  "id": "MEDIA.publishing.books.ebook",
+  "name": "E-book",
+  "type": "MEDIA_FORM",
+  "description": "Book published as a digital file readable on electronic devices.",
+  "name_zh": "电子书",
+  "name_en": "E-book",
+  "parent": "MEDIA.publishing.books"
+ },
+ {
+  "id": "MEDIA.publishing.books.audiobook",
+  "name": "Audiobook",
+  "type": "MEDIA_FORM",
+  "description": "Recording of a book read aloud for listening.",
+  "name_zh": "有声书",
+  "name_en": "Audiobook",
+  "parent": "MEDIA.publishing.books"
+ },
+ {
+  "id": "MEDIA.publishing.books.illustrated_book",
+  "name": "Illustrated Book",
+  "type": "MEDIA_FORM",
+  "description": "Book in which images carry substantial content, such as a coffee-table book.",
+  "name_zh": "图册/画册",
+  "name_en": "Illustrated Book",
+  "parent": "MEDIA.publishing.books"
+ },
+ {
+  "id": "MEDIA.publishing.books.chapbook",
+  "name": "Chapbook",
+  "type": "MEDIA_FORM",
+  "description": "Small stapled booklet of poetry or short prose, historically sold by peddlers.",
+  "name_zh": "袖珍诗集/小册子",
+  "name_en": "Chapbook",
+  "parent": "MEDIA.publishing.books"
+ },
+ {
+  "id": "MEDIA.publishing.books.braille_book",
+  "name": "Braille Book",
+  "type": "MEDIA_FORM",
+  "description": "Book printed in raised Braille for visually impaired readers.",
+  "name_zh": "盲文书",
+  "name_en": "Braille Book",
+  "parent": "MEDIA.publishing.books"
+ },
+ {
+  "id": "MEDIA.publishing.books.pop_up_book",
+  "name": "Pop-up Book",
+  "type": "MEDIA_FORM",
+  "description": "Children's book with movable three-dimensional paper constructions.",
+  "name_zh": "立体书",
+  "name_en": "Pop-up Book",
+  "parent": "MEDIA.publishing.books"
+ },
+ {
+  "id": "MEDIA.publishing.newspapers",
+  "name": "Newspapers",
+  "type": "MEDIA_FORM",
+  "description": "Serial print publications reporting current events, usually issued daily or weekly.",
+  "name_zh": "报纸",
+  "name_en": "Newspapers",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.newspapers.broadsheet_newspaper",
+  "name": "Broadsheet Newspaper",
+  "type": "MEDIA_FORM",
+  "description": "Large-format quality newspaper associated with serious journalism.",
+  "name_zh": "大报",
+  "name_en": "Broadsheet Newspaper",
+  "parent": "MEDIA.publishing.newspapers"
+ },
+ {
+  "id": "MEDIA.publishing.newspapers.tabloid_newspaper",
+  "name": "Tabloid Newspaper",
+  "type": "MEDIA_FORM",
+  "description": "Compact-format newspaper emphasizing sensational or popular content.",
+  "name_zh": "小报",
+  "name_en": "Tabloid Newspaper",
+  "parent": "MEDIA.publishing.newspapers"
+ },
+ {
+  "id": "MEDIA.publishing.newspapers.online_newspaper",
+  "name": "Online Newspaper",
+  "type": "MEDIA_FORM",
+  "description": "Digital edition of a newspaper delivered over the internet.",
+  "name_zh": "网络报纸",
+  "name_en": "Online Newspaper",
+  "parent": "MEDIA.publishing.newspapers"
+ },
+ {
+  "id": "MEDIA.publishing.newspapers.community_newspaper",
+  "name": "Community Newspaper",
+  "type": "MEDIA_FORM",
+  "description": "Local paper serving a town, neighborhood, or community.",
+  "name_zh": "社区报纸",
+  "name_en": "Community Newspaper",
+  "parent": "MEDIA.publishing.newspapers"
+ },
+ {
+  "id": "MEDIA.publishing.newspapers.free_newspaper",
+  "name": "Free Newspaper",
+  "type": "MEDIA_FORM",
+  "description": "Advertiser-supported paper distributed at no cost, often in transit.",
+  "name_zh": "免费报纸",
+  "name_en": "Free Newspaper",
+  "parent": "MEDIA.publishing.newspapers"
+ },
+ {
+  "id": "MEDIA.publishing.newspapers.campus_newspaper",
+  "name": "Campus Newspaper",
+  "type": "MEDIA_FORM",
+  "description": "Student-run newspaper published at a college or university.",
+  "name_zh": "校报",
+  "name_en": "Campus Newspaper",
+  "parent": "MEDIA.publishing.newspapers"
+ },
+ {
+  "id": "MEDIA.publishing.newspapers.ethnic_press",
+  "name": "Ethnic Press",
+  "type": "MEDIA_FORM",
+  "description": "Newspapers serving a specific ethnic, immigrant, or language community.",
+  "name_zh": "族裔报刊",
+  "name_en": "Ethnic Press",
+  "parent": "MEDIA.publishing.newspapers"
+ },
+ {
+  "id": "MEDIA.publishing.magazines",
+  "name": "Magazines",
+  "type": "MEDIA_FORM",
+  "description": "Periodical publications of articles, illustration, and advertising, usually weekly or monthly.",
+  "name_zh": "杂志",
+  "name_en": "Magazines",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.magazines.consumer_magazine",
+  "name": "Consumer Magazine",
+  "type": "MEDIA_FORM",
+  "description": "General-interest magazine sold to the public.",
+  "name_zh": "大众消费杂志",
+  "name_en": "Consumer Magazine",
+  "parent": "MEDIA.publishing.magazines"
+ },
+ {
+  "id": "MEDIA.publishing.magazines.trade_magazine",
+  "name": "Trade Magazine",
+  "type": "MEDIA_FORM",
+  "description": "Business-to-business periodical serving a specific industry or profession.",
+  "name_zh": "行业杂志",
+  "name_en": "Trade Magazine",
+  "parent": "MEDIA.publishing.magazines"
+ },
+ {
+  "id": "MEDIA.publishing.magazines.literary_magazine",
+  "name": "Literary Magazine",
+  "type": "MEDIA_FORM",
+  "description": "Periodical publishing fiction, poetry, and essays.",
+  "name_zh": "文学杂志",
+  "name_en": "Literary Magazine",
+  "parent": "MEDIA.publishing.magazines"
+ },
+ {
+  "id": "MEDIA.publishing.magazines.news_magazine",
+  "name": "News Magazine",
+  "type": "MEDIA_FORM",
+  "description": "Weekly or monthly magazine reporting and analyzing current events.",
+  "name_zh": "新闻杂志",
+  "name_en": "News Magazine",
+  "parent": "MEDIA.publishing.magazines"
+ },
+ {
+  "id": "MEDIA.publishing.magazines.science_magazine",
+  "name": "Science Magazine",
+  "type": "MEDIA_FORM",
+  "description": "Magazine popularizing scientific research for general readers.",
+  "name_zh": "科普杂志",
+  "name_en": "Science Magazine",
+  "parent": "MEDIA.publishing.magazines"
+ },
+ {
+  "id": "MEDIA.publishing.magazines.online_magazine",
+  "name": "Online Magazine",
+  "type": "MEDIA_FORM",
+  "description": "Magazine published primarily or exclusively on the web.",
+  "name_zh": "网络杂志",
+  "name_en": "Online Magazine",
+  "parent": "MEDIA.publishing.magazines"
+ },
+ {
+  "id": "MEDIA.publishing.journals",
+  "name": "Academic Journals",
+  "type": "MEDIA_FORM",
+  "description": "Peer-reviewed periodicals publishing original scholarly research.",
+  "name_zh": "学术期刊",
+  "name_en": "Academic Journals",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.journals.peer_reviewed_journal",
+  "name": "Peer-Reviewed Journal",
+  "type": "MEDIA_FORM",
+  "description": "Scholarly journal whose articles pass anonymous expert review.",
+  "name_zh": "同行评审期刊",
+  "name_en": "Peer-Reviewed Journal",
+  "parent": "MEDIA.publishing.journals"
+ },
+ {
+  "id": "MEDIA.publishing.journals.open_access_journal",
+  "name": "Open-Access Journal",
+  "type": "MEDIA_FORM",
+  "description": "Journal whose content is free to read without subscription barriers.",
+  "name_zh": "开放获取期刊",
+  "name_en": "Open-Access Journal",
+  "parent": "MEDIA.publishing.journals"
+ },
+ {
+  "id": "MEDIA.publishing.journals.mega_journal",
+  "name": "Mega-Journal",
+  "type": "MEDIA_FORM",
+  "description": "Large open-access journal judging only technical soundness, not significance.",
+  "name_zh": "巨型期刊",
+  "name_en": "Mega-Journal",
+  "parent": "MEDIA.publishing.journals"
+ },
+ {
+  "id": "MEDIA.publishing.journals.scientific_journal",
+  "name": "Scientific Journal",
+  "type": "MEDIA_FORM",
+  "description": "Journal publishing research in the natural and formal sciences.",
+  "name_zh": "科学期刊",
+  "name_en": "Scientific Journal",
+  "parent": "MEDIA.publishing.journals"
+ },
+ {
+  "id": "MEDIA.publishing.journals.humanities_journal",
+  "name": "Humanities Journal",
+  "type": "MEDIA_FORM",
+  "description": "Journal publishing scholarship in the humanities.",
+  "name_zh": "人文学术期刊",
+  "name_en": "Humanities Journal",
+  "parent": "MEDIA.publishing.journals"
+ },
+ {
+  "id": "MEDIA.publishing.journals.medical_journal",
+  "name": "Medical Journal",
+  "type": "MEDIA_FORM",
+  "description": "Journal publishing clinical and biomedical research.",
+  "name_zh": "医学期刊",
+  "name_en": "Medical Journal",
+  "parent": "MEDIA.publishing.journals"
+ },
+ {
+  "id": "MEDIA.publishing.journals.law_review",
+  "name": "Law Review",
+  "type": "MEDIA_FORM",
+  "description": "Student-edited journal publishing legal scholarship.",
+  "name_zh": "法律评论",
+  "name_en": "Law Review",
+  "parent": "MEDIA.publishing.journals"
+ },
+ {
+  "id": "MEDIA.publishing.journals.preprint",
+  "name": "Preprint",
+  "type": "MEDIA_FORM",
+  "description": "Author manuscript shared publicly before formal peer review.",
+  "name_zh": "预印本",
+  "name_en": "Preprint",
+  "parent": "MEDIA.publishing.journals"
+ },
+ {
+  "id": "MEDIA.publishing.comics",
+  "name": "Comics & Graphic Narrative",
+  "type": "MEDIA_FORM",
+  "description": "Sequential-art media combining image and text to tell stories.",
+  "name_zh": "漫画/图像叙事",
+  "name_en": "Comics & Graphic Narrative",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.comics.comic_strip",
+  "name": "Comic Strip",
+  "type": "MEDIA_FORM",
+  "description": "Short sequential-art installment, typically syndicated in newspapers.",
+  "name_zh": "连环漫画",
+  "name_en": "Comic Strip",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.comics.comic_book",
+  "name": "Comic Book",
+  "type": "MEDIA_FORM",
+  "description": "Stapled or bound periodical of sequential art, often serialized.",
+  "name_zh": "漫画书",
+  "name_en": "Comic Book",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.comics.graphic_novel",
+  "name": "Graphic Novel",
+  "type": "MEDIA_FORM",
+  "description": "Long-form comic in book format with a self-contained narrative.",
+  "name_zh": "图像小说",
+  "name_en": "Graphic Novel",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.comics.manga",
+  "name": "Manga",
+  "type": "MEDIA_FORM",
+  "description": "Japanese comics, usually serialized and read right-to-left.",
+  "name_zh": "日本漫画",
+  "global": false,
+  "name_en": "Manga",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.comics.manhwa",
+  "name": "Manhwa",
+  "type": "MEDIA_FORM",
+  "description": "Korean comics, historically read left-to-right.",
+  "name_zh": "韩国漫画",
+  "global": false,
+  "name_en": "Manhwa",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.comics.webtoon",
+  "name": "Webtoon",
+  "type": "MEDIA_FORM",
+  "description": "Vertical-scroll digital comic optimized for smartphones, originating in Korea.",
+  "name_zh": "网络条漫",
+  "global": false,
+  "name_en": "Webtoon",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.comics.bande_dessinee",
+  "name": "Bande Dessinee",
+  "type": "MEDIA_FORM",
+  "description": "Franco-Belgian comic tradition of hardcover albums.",
+  "name_zh": "法比漫画",
+  "global": false,
+  "name_en": "Bande Dessinee",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.comics.political_cartoon",
+  "name": "Political Cartoon",
+  "type": "MEDIA_FORM",
+  "description": "Single-panel satirical drawing commenting on politics.",
+  "name_zh": "政治漫画/讽刺漫画",
+  "name_en": "Political Cartoon",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.comics.webcomic",
+  "name": "Webcomic",
+  "type": "MEDIA_FORM",
+  "description": "Comic published natively on the web.",
+  "name_zh": "网络漫画",
+  "name_en": "Webcomic",
+  "parent": "MEDIA.publishing.comics"
+ },
+ {
+  "id": "MEDIA.publishing.zines",
+  "name": "Zines",
+  "type": "MEDIA_FORM",
+  "description": "Small-circulation self-published magazines, often countercultural or personal.",
+  "name_zh": "独立杂志",
+  "name_en": "Zines",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.zines.fanzine",
+  "name": "Fanzine",
+  "type": "MEDIA_FORM",
+  "description": "Amateur magazine by and for fans of a subculture or genre.",
+  "name_zh": "同人志/粉丝杂志",
+  "name_en": "Fanzine",
+  "parent": "MEDIA.publishing.zines"
+ },
+ {
+  "id": "MEDIA.publishing.zines.perzine",
+  "name": "Perzine",
+  "type": "MEDIA_FORM",
+  "description": "Personal zine documenting the author's own life and views.",
+  "name_zh": "个人志",
+  "name_en": "Perzine",
+  "parent": "MEDIA.publishing.zines"
+ },
+ {
+  "id": "MEDIA.publishing.zines.art_zine",
+  "name": "Art Zine",
+  "type": "MEDIA_FORM",
+  "description": "Zine made as a visual-art object.",
+  "name_zh": "艺术志",
+  "name_en": "Art Zine",
+  "parent": "MEDIA.publishing.zines"
+ },
+ {
+  "id": "MEDIA.publishing.zines.music_zine",
+  "name": "Music Zine",
+  "type": "MEDIA_FORM",
+  "description": "DIY zine covering an underground music scene.",
+  "name_zh": "音乐志",
+  "name_en": "Music Zine",
+  "parent": "MEDIA.publishing.zines"
+ },
+ {
+  "id": "MEDIA.publishing.newsletters",
+  "name": "Newsletters",
+  "type": "MEDIA_FORM",
+  "description": "Regularly distributed bulletins for a subscribing audience.",
+  "name_zh": "通讯/简报",
+  "name_en": "Newsletters",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.newsletters.email_newsletter",
+  "name": "Email Newsletter",
+  "type": "MEDIA_FORM",
+  "description": "Newsletter distributed by email to subscribers.",
+  "name_zh": "电子邮件通讯",
+  "name_en": "Email Newsletter",
+  "parent": "MEDIA.publishing.newsletters"
+ },
+ {
+  "id": "MEDIA.publishing.newsletters.community_newsletter",
+  "name": "Community Newsletter",
+  "type": "MEDIA_FORM",
+  "description": "Newsletter serving an organization, church, or local group.",
+  "name_zh": "社区通讯",
+  "name_en": "Community Newsletter",
+  "parent": "MEDIA.publishing.newsletters"
+ },
+ {
+  "id": "MEDIA.publishing.reference_works",
+  "name": "Reference Works",
+  "type": "MEDIA_FORM",
+  "description": "Compiled works designed for consultation rather than continuous reading.",
+  "name_zh": "工具书",
+  "name_en": "Reference Works",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.reference_works.encyclopedia",
+  "name": "Encyclopedia",
+  "type": "MEDIA_FORM",
+  "description": "Comprehensive reference work summarizing knowledge across or within fields.",
+  "name_zh": "百科全书",
+  "name_en": "Encyclopedia",
+  "parent": "MEDIA.publishing.reference_works"
+ },
+ {
+  "id": "MEDIA.publishing.reference_works.dictionary",
+  "name": "Dictionary",
+  "type": "MEDIA_FORM",
+  "description": "Reference work listing words and their meanings.",
+  "name_zh": "词典",
+  "name_en": "Dictionary",
+  "parent": "MEDIA.publishing.reference_works"
+ },
+ {
+  "id": "MEDIA.publishing.reference_works.almanac",
+  "name": "Almanac",
+  "type": "MEDIA_FORM",
+  "description": "Annual compendium of statistics, calendars, and facts.",
+  "name_zh": "年鉴",
+  "name_en": "Almanac",
+  "parent": "MEDIA.publishing.reference_works"
+ },
+ {
+  "id": "MEDIA.publishing.reference_works.atlas",
+  "name": "Atlas",
+  "type": "MEDIA_FORM",
+  "description": "Systematic collection of maps, often with geographic data.",
+  "name_zh": "地图集",
+  "name_en": "Atlas",
+  "parent": "MEDIA.publishing.reference_works"
+ },
+ {
+  "id": "MEDIA.publishing.ephemera",
+  "name": "Ephemera",
+  "type": "MEDIA_FORM",
+  "description": "Short-lived printed materials produced for a specific, time-bound purpose.",
+  "name_zh": "短期印刷品",
+  "name_en": "Ephemera",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.ephemera.pamphlet",
+  "name": "Pamphlet",
+  "type": "MEDIA_FORM",
+  "description": "Unbound booklet, often persuasive or instructional.",
+  "name_zh": "小册子",
+  "name_en": "Pamphlet",
+  "parent": "MEDIA.publishing.ephemera"
+ },
+ {
+  "id": "MEDIA.publishing.ephemera.brochure",
+  "name": "Brochure",
+  "type": "MEDIA_FORM",
+  "description": "Folded promotional or informational leaflet.",
+  "name_zh": "宣传册",
+  "name_en": "Brochure",
+  "parent": "MEDIA.publishing.ephemera"
+ },
+ {
+  "id": "MEDIA.publishing.ephemera.poster",
+  "name": "Poster",
+  "type": "MEDIA_FORM",
+  "description": "Large printed sheet for public display.",
+  "name_zh": "海报",
+  "name_en": "Poster",
+  "parent": "MEDIA.publishing.ephemera"
+ },
+ {
+  "id": "MEDIA.publishing.ephemera.flyer",
+  "name": "Flyer",
+  "type": "MEDIA_FORM",
+  "description": "Single-sheet handbill for quick distribution.",
+  "name_zh": "传单",
+  "name_en": "Flyer",
+  "parent": "MEDIA.publishing.ephemera"
+ },
+ {
+  "id": "MEDIA.publishing.ephemera.broadside",
+  "name": "Broadside",
+  "type": "MEDIA_FORM",
+  "description": "Single-sheet print, historically used for news and ballads.",
+  "name_zh": "大幅单面印刷品",
+  "historical": true,
+  "name_en": "Broadside",
+  "parent": "MEDIA.publishing.ephemera"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media",
+  "name": "Manuscript & Inscription Media",
+  "type": "MEDIA_FORM",
+  "description": "Handwritten and inscribed text media predating mass print.",
+  "name_zh": "手稿与铭文媒介",
+  "historical": true,
+  "name_en": "Manuscript & Inscription Media",
+  "parent": "MEDIA.publishing"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.codex",
+  "name": "Codex",
+  "type": "MEDIA_FORM",
+  "description": "Handwritten book of bound leaves, predecessor of the printed book.",
+  "name_zh": "手抄本",
+  "historical": true,
+  "name_en": "Codex",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.illuminated_manuscript",
+  "name": "Illuminated Manuscript",
+  "type": "MEDIA_FORM",
+  "description": "Manuscript decorated with gold, silver, and miniature painting.",
+  "name_zh": "泥金装饰手抄本",
+  "historical": true,
+  "name_en": "Illuminated Manuscript",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.scroll",
+  "name": "Scroll",
+  "type": "MEDIA_FORM",
+  "description": "Rolled continuous text, the dominant book form before the codex.",
+  "name_zh": "卷轴",
+  "historical": true,
+  "name_en": "Scroll",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.papyrus_scroll",
+  "name": "Papyrus Scroll",
+  "type": "MEDIA_FORM",
+  "description": "Scroll written on papyrus, characteristic of ancient Egypt and the Mediterranean.",
+  "name_zh": "莎草纸卷",
+  "historical": true,
+  "name_en": "Papyrus Scroll",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.cuneiform_tablet",
+  "name": "Cuneiform Tablet",
+  "type": "MEDIA_FORM",
+  "description": "Clay tablet inscribed with cuneiform script in ancient Mesopotamia.",
+  "name_zh": "楔形文字泥板",
+  "historical": true,
+  "name_en": "Cuneiform Tablet",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.wax_tablet",
+  "name": "Wax Tablet",
+  "type": "MEDIA_FORM",
+  "description": "Reusable writing tablet of wax-covered wood used in antiquity.",
+  "name_zh": "蜡板",
+  "historical": true,
+  "name_en": "Wax Tablet",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.palm_leaf_manuscript",
+  "name": "Palm-Leaf Manuscript",
+  "type": "MEDIA_FORM",
+  "description": "Manuscript written on dried palm leaves in South and Southeast Asia.",
+  "name_zh": "贝叶经/棕榈叶手稿",
+  "historical": true,
+  "global": false,
+  "name_en": "Palm-Leaf Manuscript",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.bamboo_and_wooden_slips",
+  "name": "Bamboo and Wooden Slips",
+  "type": "MEDIA_FORM",
+  "description": "Chinese writing medium of bound bamboo or wood strips before paper.",
+  "name_zh": "简牍",
+  "historical": true,
+  "global": false,
+  "name_en": "Bamboo and Wooden Slips",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.publishing.manuscript_media.woodblock_print",
+  "name": "Woodblock Print",
+  "type": "MEDIA_FORM",
+  "description": "East Asian printing from carved wooden blocks, ancestor of movable type.",
+  "name_zh": "雕版印刷",
+  "historical": true,
+  "name_en": "Woodblock Print",
+  "parent": "MEDIA.publishing.manuscript_media"
+ },
+ {
+  "id": "MEDIA.oral_tradition",
+  "name": "Oral Tradition",
+  "type": "MEDIA_FORM",
+  "description": "Media transmitted through speech, memory, and performance rather than writing.",
+  "name_zh": "口头传统",
+  "name_en": "Oral Tradition",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.oral_tradition.oral_storytelling",
+  "name": "Oral Storytelling",
+  "type": "MEDIA_FORM",
+  "description": "Narrative transmitted by spoken word across generations.",
+  "name_zh": "口述故事",
+  "name_en": "Oral Storytelling",
+  "parent": "MEDIA.oral_tradition"
+ },
+ {
+  "id": "MEDIA.oral_tradition.oral_epic",
+  "name": "Oral Epic",
+  "type": "MEDIA_FORM",
+  "description": "Long heroic narrative poem performed orally, such as Homeric or Manas epics.",
+  "name_zh": "口传史诗",
+  "name_en": "Oral Epic",
+  "parent": "MEDIA.oral_tradition"
+ },
+ {
+  "id": "MEDIA.oral_tradition.griot_tradition",
+  "name": "Griot Tradition",
+  "type": "MEDIA_FORM",
+  "description": "West African hereditary tradition of praise-singing, history, and genealogy.",
+  "name_zh": "格里奥传统",
+  "global": false,
+  "name_en": "Griot Tradition",
+  "parent": "MEDIA.oral_tradition"
+ },
+ {
+  "id": "MEDIA.oral_tradition.songline",
+  "name": "Songline",
+  "type": "MEDIA_FORM",
+  "description": "Australian Aboriginal oral maps of landscape encoded in song.",
+  "name_zh": "歌之径",
+  "global": false,
+  "name_en": "Songline",
+  "parent": "MEDIA.oral_tradition"
+ },
+ {
+  "id": "MEDIA.oral_tradition.ballad",
+  "name": "Ballad",
+  "type": "MEDIA_FORM",
+  "description": "Traditional narrative song form, often passed down orally.",
+  "name_zh": "民谣/叙事歌",
+  "name_en": "Ballad",
+  "parent": "MEDIA.oral_tradition"
+ },
+ {
+  "id": "MEDIA.oral_tradition.ritual_chant",
+  "name": "Ritual Chant",
+  "type": "MEDIA_FORM",
+  "description": "Formulaic chanting used in religious and ceremonial contexts.",
+  "name_zh": "仪式诵唱",
+  "name_en": "Ritual Chant",
+  "parent": "MEDIA.oral_tradition"
+ },
+ {
+  "id": "MEDIA.oral_tradition.oral_history",
+  "name": "Oral History",
+  "type": "MEDIA_FORM",
+  "description": "Recorded recollections of people about past events.",
+  "name_zh": "口述史",
+  "name_en": "Oral History",
+  "parent": "MEDIA.oral_tradition"
+ },
+ {
+  "id": "MEDIA.broadcasting",
+  "name": "Broadcasting",
+  "type": "MEDIA_FORM",
+  "description": "One-to-many transmission of audio and video to a dispersed audience.",
+  "name_zh": "广播/电视",
+  "name_en": "Broadcasting",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio",
+  "name": "Radio Broadcasting",
+  "type": "MEDIA_FORM",
+  "description": "Broadcast of audio content by radio waves or stream.",
+  "name_zh": "无线电广播",
+  "name_en": "Radio Broadcasting",
+  "parent": "MEDIA.broadcasting"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.terrestrial_radio",
+  "name": "Terrestrial Radio",
+  "type": "MEDIA_FORM",
+  "description": "Radio transmitted by ground-based AM/FM stations.",
+  "name_zh": "地面广播电台",
+  "name_en": "Terrestrial Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.satellite_radio",
+  "name": "Satellite Radio",
+  "type": "MEDIA_FORM",
+  "description": "Subscription radio delivered via communications satellite.",
+  "name_zh": "卫星广播",
+  "name_en": "Satellite Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.internet_radio",
+  "name": "Internet Radio",
+  "type": "MEDIA_FORM",
+  "description": "Radio streamed over the internet rather than broadcast towers.",
+  "name_zh": "网络电台",
+  "name_en": "Internet Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.community_radio",
+  "name": "Community Radio",
+  "type": "MEDIA_FORM",
+  "description": "Nonprofit local radio serving a specific community.",
+  "name_zh": "社区广播",
+  "name_en": "Community Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.public_radio",
+  "name": "Public Radio",
+  "type": "MEDIA_FORM",
+  "description": "Non-commercial radio funded by listeners, donors, or the state.",
+  "name_zh": "公共广播",
+  "name_en": "Public Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.commercial_radio",
+  "name": "Commercial Radio",
+  "type": "MEDIA_FORM",
+  "description": "Advertising-supported radio operated for profit.",
+  "name_zh": "商业广播",
+  "name_en": "Commercial Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.shortwave_radio",
+  "name": "Shortwave Radio",
+  "type": "MEDIA_FORM",
+  "description": "Long-distance radio using high-frequency bands for international reach.",
+  "name_zh": "短波广播",
+  "name_en": "Shortwave Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.pirate_radio",
+  "name": "Pirate Radio",
+  "type": "MEDIA_FORM",
+  "description": "Unlicensed radio broadcasting, often offshore or clandestine.",
+  "name_zh": "海盗电台",
+  "name_en": "Pirate Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio.campus_radio",
+  "name": "Campus Radio",
+  "type": "MEDIA_FORM",
+  "description": "Student-operated radio station at a college or university.",
+  "name_zh": "校园电台",
+  "name_en": "Campus Radio",
+  "parent": "MEDIA.broadcasting.radio"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats",
+  "name": "Radio Formats",
+  "type": "CONTENT_TYPE",
+  "description": "Standardized programming formats by which radio stations target audiences.",
+  "name_zh": "电台节目形态",
+  "name_en": "Radio Formats",
+  "parent": "MEDIA.broadcasting"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats.contemporary_hit_radio",
+  "name": "Contemporary Hit Radio",
+  "type": "CONTENT_TYPE",
+  "description": "Top-40 radio format playing current popular hits.",
+  "name_zh": "当代流行电台",
+  "name_en": "Contemporary Hit Radio",
+  "parent": "MEDIA.broadcasting.radio_formats"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats.talk_radio",
+  "name": "Talk Radio",
+  "type": "CONTENT_TYPE",
+  "description": "Radio format built around host commentary and call-ins.",
+  "name_zh": "谈话电台",
+  "name_en": "Talk Radio",
+  "parent": "MEDIA.broadcasting.radio_formats"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats.all_news_radio",
+  "name": "All-News Radio",
+  "type": "CONTENT_TYPE",
+  "description": "Radio format devoted to continuous news coverage.",
+  "name_zh": "全新闻电台",
+  "name_en": "All-News Radio",
+  "parent": "MEDIA.broadcasting.radio_formats"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats.sports_radio",
+  "name": "Sports Radio",
+  "type": "CONTENT_TYPE",
+  "description": "Radio format covering live sports and sports talk.",
+  "name_zh": "体育电台",
+  "name_en": "Sports Radio",
+  "parent": "MEDIA.broadcasting.radio_formats"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats.album_oriented_rock",
+  "name": "Album-Oriented Rock",
+  "type": "CONTENT_TYPE",
+  "description": "Radio format playing deeper album tracks of rock music.",
+  "name_zh": "专辑摇滚电台",
+  "name_en": "Album-Oriented Rock",
+  "parent": "MEDIA.broadcasting.radio_formats"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats.adult_contemporary",
+  "name": "Adult Contemporary",
+  "type": "CONTENT_TYPE",
+  "description": "Radio format of mellow mainstream pop for adult listeners.",
+  "name_zh": "成人当代音乐电台",
+  "name_en": "Adult Contemporary",
+  "parent": "MEDIA.broadcasting.radio_formats"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats.classical_music_radio",
+  "name": "Classical Music Radio",
+  "type": "CONTENT_TYPE",
+  "description": "Radio format devoted to classical repertoire.",
+  "name_zh": "古典音乐电台",
+  "name_en": "Classical Music Radio",
+  "parent": "MEDIA.broadcasting.radio_formats"
+ },
+ {
+  "id": "MEDIA.broadcasting.radio_formats.religious_radio",
+  "name": "Religious Radio",
+  "type": "CONTENT_TYPE",
+  "description": "Radio format of religious teaching, music, and worship.",
+  "name_zh": "宗教电台",
+  "name_en": "Religious Radio",
+  "parent": "MEDIA.broadcasting.radio_formats"
+ },
+ {
+  "id": "MEDIA.broadcasting.television",
+  "name": "Television Broadcasting",
+  "type": "MEDIA_FORM",
+  "description": "Broadcast of moving images and sound to home receivers.",
+  "name_zh": "电视广播",
+  "name_en": "Television Broadcasting",
+  "parent": "MEDIA.broadcasting"
+ },
+ {
+  "id": "MEDIA.broadcasting.television.terrestrial_television",
+  "name": "Terrestrial Television",
+  "type": "MEDIA_FORM",
+  "description": "Free over-the-air television broadcast from ground transmitters.",
+  "name_zh": "地面电视",
+  "name_en": "Terrestrial Television",
+  "parent": "MEDIA.broadcasting.television"
+ },
+ {
+  "id": "MEDIA.broadcasting.television.cable_television",
+  "name": "Cable Television",
+  "type": "MEDIA_FORM",
+  "description": "Subscription television delivered over coaxial or fiber cable.",
+  "name_zh": "有线电视",
+  "name_en": "Cable Television",
+  "parent": "MEDIA.broadcasting.television"
+ },
+ {
+  "id": "MEDIA.broadcasting.television.satellite_television",
+  "name": "Satellite Television",
+  "type": "MEDIA_FORM",
+  "description": "Television delivered directly to homes via satellite dish.",
+  "name_zh": "卫星电视",
+  "name_en": "Satellite Television",
+  "parent": "MEDIA.broadcasting.television"
+ },
+ {
+  "id": "MEDIA.broadcasting.television.iptv",
+  "name": "Internet Protocol Television",
+  "type": "MEDIA_FORM",
+  "description": "Television delivered over managed internet-protocol networks.",
+  "name_zh": "网络电视/IPTV",
+  "name_en": "Internet Protocol Television",
+  "parent": "MEDIA.broadcasting.television"
+ },
+ {
+  "id": "MEDIA.broadcasting.television.public_television",
+  "name": "Public Television",
+  "type": "MEDIA_FORM",
+  "description": "Non-commercial television funded for public service.",
+  "name_zh": "公共电视",
+  "name_en": "Public Television",
+  "parent": "MEDIA.broadcasting.television"
+ },
+ {
+  "id": "MEDIA.broadcasting.television.commercial_television",
+  "name": "Commercial Television",
+  "type": "MEDIA_FORM",
+  "description": "Advertising-supported television operated for profit.",
+  "name_zh": "商业电视",
+  "name_en": "Commercial Television",
+  "parent": "MEDIA.broadcasting.television"
+ },
+ {
+  "id": "MEDIA.broadcasting.television.community_television",
+  "name": "Community Television",
+  "type": "MEDIA_FORM",
+  "description": "Local non-profit television serving a community.",
+  "name_zh": "社区电视",
+  "name_en": "Community Television",
+  "parent": "MEDIA.broadcasting.television"
+ },
+ {
+  "id": "MEDIA.broadcasting.television.pay_television",
+  "name": "Pay Television",
+  "type": "MEDIA_FORM",
+  "description": "Subscription or per-view television behind a paywall.",
+  "name_zh": "付费电视",
+  "name_en": "Pay Television",
+  "parent": "MEDIA.broadcasting.television"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming",
+  "name": "Television Programming Formats",
+  "type": "CONTENT_TYPE",
+  "description": "Standardized genres and formats of television content.",
+  "name_zh": "电视节目形态",
+  "name_en": "Television Programming Formats",
+  "parent": "MEDIA.broadcasting"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.television_news",
+  "name": "Television News",
+  "type": "CONTENT_TYPE",
+  "description": "Scheduled newscast presenting current events.",
+  "name_zh": "电视新闻",
+  "name_en": "Television News",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.television_drama",
+  "name": "Television Drama",
+  "type": "CONTENT_TYPE",
+  "description": "Scripted fictional drama series for television.",
+  "name_zh": "电视剧",
+  "name_en": "Television Drama",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.sitcom",
+  "name": "Sitcom",
+  "type": "CONTENT_TYPE",
+  "description": "Situation comedy series with a recurring cast and setting.",
+  "name_zh": "情景喜剧",
+  "name_en": "Sitcom",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.soap_opera",
+  "name": "Soap Opera",
+  "type": "CONTENT_TYPE",
+  "description": "Open-ended serial melodrama aired frequently.",
+  "name_zh": "肥皂剧",
+  "name_en": "Soap Opera",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.telenovela",
+  "name": "Telenovela",
+  "type": "CONTENT_TYPE",
+  "description": "Limited-run Spanish- or Portuguese-language serial melodrama.",
+  "name_zh": "西语连续剧",
+  "name_en": "Telenovela",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.television_serial",
+  "name": "Television Serial",
+  "type": "CONTENT_TYPE",
+  "description": "Episodic drama with a continuing story arc.",
+  "name_zh": "电视连续剧",
+  "name_en": "Television Serial",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.miniseries",
+  "name": "Miniseries",
+  "type": "CONTENT_TYPE",
+  "description": "Limited-run drama told over a fixed number of episodes.",
+  "name_zh": "迷你剧/限定剧",
+  "name_en": "Miniseries",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.anthology_series",
+  "name": "Anthology Series",
+  "type": "CONTENT_TYPE",
+  "description": "Series presenting a new story and cast each episode or season.",
+  "name_zh": "选集剧",
+  "name_en": "Anthology Series",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.talk_show",
+  "name": "Talk Show",
+  "type": "CONTENT_TYPE",
+  "description": "Television program built around host interviews and commentary.",
+  "name_zh": "脱口秀/访谈节目",
+  "name_en": "Talk Show",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.game_show",
+  "name": "Game Show",
+  "type": "CONTENT_TYPE",
+  "description": "Television competition format with prizes for contestants.",
+  "name_zh": "游戏节目",
+  "name_en": "Game Show",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.quiz_show",
+  "name": "Quiz Show",
+  "type": "CONTENT_TYPE",
+  "description": "Television format testing contestants' knowledge.",
+  "name_zh": "问答节目",
+  "name_en": "Quiz Show",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.reality_television",
+  "name": "Reality Television",
+  "type": "CONTENT_TYPE",
+  "description": "Unscripted television documenting real people in constructed situations.",
+  "name_zh": "真人秀",
+  "name_en": "Reality Television",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.variety_show",
+  "name": "Variety Show",
+  "type": "CONTENT_TYPE",
+  "description": "Program mixing music, comedy, and sketches.",
+  "name_zh": "综艺节目",
+  "name_en": "Variety Show",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.sketch_comedy",
+  "name": "Sketch Comedy",
+  "type": "CONTENT_TYPE",
+  "description": "Program of short scripted comedy scenes.",
+  "name_zh": "小品喜剧",
+  "name_en": "Sketch Comedy",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.childrens_television",
+  "name": "Children's Television",
+  "type": "CONTENT_TYPE",
+  "description": "Television programming produced for children.",
+  "name_zh": "少儿电视",
+  "name_en": "Children's Television",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.educational_television",
+  "name": "Educational Television",
+  "type": "CONTENT_TYPE",
+  "description": "Television programming designed to teach.",
+  "name_zh": "教育电视",
+  "name_en": "Educational Television",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.television_documentary",
+  "name": "Television Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Nonfiction television film or series documenting reality.",
+  "name_zh": "电视纪录片",
+  "name_en": "Television Documentary",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.sports_broadcast",
+  "name": "Sports Broadcast",
+  "type": "CONTENT_TYPE",
+  "description": "Live or recorded broadcast of sporting events.",
+  "name_zh": "体育转播",
+  "name_en": "Sports Broadcast",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.music_television",
+  "name": "Music Television",
+  "type": "CONTENT_TYPE",
+  "description": "Television programming built around music videos and performance.",
+  "name_zh": "音乐电视",
+  "name_en": "Music Television",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.broadcasting.television_programming.televangelism",
+  "name": "Televangelism",
+  "type": "CONTENT_TYPE",
+  "description": "Religious television programming centered on preaching and appeals.",
+  "name_zh": "电视布道",
+  "name_en": "Televangelism",
+  "parent": "MEDIA.broadcasting.television_programming"
+ },
+ {
+  "id": "MEDIA.cinema",
+  "name": "Cinema & Film",
+  "type": "MEDIA_FORM",
+  "description": "The medium and industry of motion pictures shown to audiences.",
+  "name_zh": "电影",
+  "name_en": "Cinema & Film",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.cinema.feature_film",
+  "name": "Feature Film",
+  "type": "MEDIA_FORM",
+  "description": "Narrative film long enough to be the main item of a theatrical program.",
+  "name_zh": "故事长片",
+  "name_en": "Feature Film",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.short_film",
+  "name": "Short Film",
+  "type": "MEDIA_FORM",
+  "description": "Film shorter than a feature, typically under 40 minutes.",
+  "name_zh": "短片",
+  "name_en": "Short Film",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.animated_film",
+  "name": "Animated Film",
+  "type": "MEDIA_FORM",
+  "description": "Film produced by animating drawings, models, or computer images.",
+  "name_zh": "动画电影",
+  "name_en": "Animated Film",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.documentary_film",
+  "name": "Documentary Film",
+  "type": "MEDIA_FORM",
+  "description": "Nonfiction film documenting actual people, places, and events.",
+  "name_zh": "纪录电影",
+  "name_en": "Documentary Film",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.experimental_film",
+  "name": "Experimental Film",
+  "type": "MEDIA_FORM",
+  "description": "Avant-garde film exploring form rather than commercial narrative.",
+  "name_zh": "实验电影",
+  "name_en": "Experimental Film",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.newsreel",
+  "name": "Newsreel",
+  "type": "MEDIA_FORM",
+  "description": "Short news film shown in cinemas before television.",
+  "name_zh": "新闻片",
+  "historical": true,
+  "name_en": "Newsreel",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.serial_film",
+  "name": "Film Serial",
+  "type": "MEDIA_FORM",
+  "description": "Cliffhanger film serial released in chapters.",
+  "name_zh": "连集片",
+  "historical": true,
+  "name_en": "Film Serial",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.educational_film",
+  "name": "Educational Film",
+  "type": "MEDIA_FORM",
+  "description": "Film produced for classroom or instructional use.",
+  "name_zh": "教育电影",
+  "name_en": "Educational Film",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.propaganda_film",
+  "name": "Propaganda Film",
+  "type": "MEDIA_FORM",
+  "description": "Film produced to promote a political or ideological cause.",
+  "name_zh": "宣传电影",
+  "name_en": "Propaganda Film",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.b_movie",
+  "name": "B Movie",
+  "type": "MEDIA_FORM",
+  "description": "Low-budget commercial film, historically second on a double bill.",
+  "name_zh": "B级片",
+  "name_en": "B Movie",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres",
+  "name": "Film Genres",
+  "type": "ART_GENRE",
+  "description": "Categories of film defined by narrative conventions, mood, and setting.",
+  "name_zh": "电影类型",
+  "name_en": "Film Genres",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.western",
+  "name": "Western",
+  "type": "ART_GENRE",
+  "description": "Film genre set in the American frontier, often the 19th century.",
+  "name_zh": "西部片",
+  "name_en": "Western",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.horror_film",
+  "name": "Horror Film",
+  "type": "ART_GENRE",
+  "description": "Film genre designed to frighten and unsettle.",
+  "name_zh": "恐怖片",
+  "name_en": "Horror Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.horror_film.slasher_film",
+  "name": "Slasher Film",
+  "type": "ART_GENRE",
+  "description": "Horror subgenre centered on a killer stalking and murdering victims.",
+  "name_zh": "砍杀片",
+  "name_en": "Slasher Film",
+  "parent": "MEDIA.cinema.film_genres.horror_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.horror_film.psychological_horror",
+  "name": "Psychological Horror",
+  "type": "ART_GENRE",
+  "description": "Horror subgenre emphasizing mental dread over gore.",
+  "name_zh": "心理恐怖片",
+  "name_en": "Psychological Horror",
+  "parent": "MEDIA.cinema.film_genres.horror_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.horror_film.monster_film",
+  "name": "Monster Film",
+  "type": "ART_GENRE",
+  "description": "Horror subgenre centered on a creature, such as kaiju.",
+  "name_zh": "怪兽片",
+  "name_en": "Monster Film",
+  "parent": "MEDIA.cinema.film_genres.horror_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.science_fiction_film",
+  "name": "Science Fiction Film",
+  "type": "ART_GENRE",
+  "description": "Film genre imagining future science, technology, and other worlds.",
+  "name_zh": "科幻片",
+  "name_en": "Science Fiction Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.science_fiction_film.cyberpunk_film",
+  "name": "Cyberpunk Film",
+  "type": "ART_GENRE",
+  "description": "Sci-fi subgenre of high-tech, low-life dystopias.",
+  "name_zh": "赛博朋克电影",
+  "name_en": "Cyberpunk Film",
+  "parent": "MEDIA.cinema.film_genres.science_fiction_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.comedy_film",
+  "name": "Comedy Film",
+  "type": "ART_GENRE",
+  "description": "Film genre designed to provoke laughter.",
+  "name_zh": "喜剧片",
+  "name_en": "Comedy Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.comedy_film.romantic_comedy",
+  "name": "Romantic Comedy",
+  "type": "ART_GENRE",
+  "description": "Comedy subgenre centered on a romantic relationship.",
+  "name_zh": "爱情喜剧",
+  "name_en": "Romantic Comedy",
+  "parent": "MEDIA.cinema.film_genres.comedy_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.comedy_film.screwball_comedy",
+  "name": "Screwball Comedy",
+  "type": "ART_GENRE",
+  "description": "Fast-talking battle-of-the-sexes comedy of the 1930s-40s.",
+  "name_zh": "神经喜剧",
+  "historical": true,
+  "name_en": "Screwball Comedy",
+  "parent": "MEDIA.cinema.film_genres.comedy_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.comedy_film.slapstick_comedy",
+  "name": "Slapstick Comedy",
+  "type": "ART_GENRE",
+  "description": "Physical comedy of exaggerated pratfalls and chases.",
+  "name_zh": "闹剧",
+  "name_en": "Slapstick Comedy",
+  "parent": "MEDIA.cinema.film_genres.comedy_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.crime_film",
+  "name": "Crime Film",
+  "type": "ART_GENRE",
+  "description": "Film genre centered on crime and its perpetrators.",
+  "name_zh": "犯罪片",
+  "name_en": "Crime Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.crime_film.gangster_film",
+  "name": "Gangster Film",
+  "type": "ART_GENRE",
+  "description": "Crime subgenre about organized crime figures.",
+  "name_zh": "黑帮片",
+  "name_en": "Gangster Film",
+  "parent": "MEDIA.cinema.film_genres.crime_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.crime_film.heist_film",
+  "name": "Heist Film",
+  "type": "ART_GENRE",
+  "description": "Crime subgenre about planning and executing a robbery.",
+  "name_zh": "劫盗片",
+  "name_en": "Heist Film",
+  "parent": "MEDIA.cinema.film_genres.crime_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.crime_film.film_noir",
+  "name": "Film Noir",
+  "type": "ART_GENRE",
+  "description": "Stylized crime film of the 1940s-50s marked by fatalism and shadow.",
+  "name_zh": "黑色电影",
+  "historical": true,
+  "name_en": "Film Noir",
+  "parent": "MEDIA.cinema.film_genres.crime_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.crime_film.neo_noir",
+  "name": "Neo-Noir",
+  "type": "ART_GENRE",
+  "description": "Later crime films reviving noir style and themes.",
+  "name_zh": "新黑色电影",
+  "name_en": "Neo-Noir",
+  "parent": "MEDIA.cinema.film_genres.crime_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.thriller_film",
+  "name": "Thriller Film",
+  "type": "ART_GENRE",
+  "description": "Film genre built on suspense and tension.",
+  "name_zh": "惊悚片",
+  "name_en": "Thriller Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.thriller_film.psychological_thriller",
+  "name": "Psychological Thriller",
+  "type": "ART_GENRE",
+  "description": "Thriller subgenre focused on characters' mental states.",
+  "name_zh": "心理惊悚片",
+  "name_en": "Psychological Thriller",
+  "parent": "MEDIA.cinema.film_genres.thriller_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.fantasy_film",
+  "name": "Fantasy Film",
+  "type": "ART_GENRE",
+  "description": "Film genre of magic, myth, and imagined worlds.",
+  "name_zh": "奇幻片",
+  "name_en": "Fantasy Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.superhero_film",
+  "name": "Superhero Film",
+  "type": "ART_GENRE",
+  "description": "Film genre featuring costumed heroes with powers.",
+  "name_zh": "超级英雄电影",
+  "name_en": "Superhero Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.musical_film",
+  "name": "Musical Film",
+  "type": "ART_GENRE",
+  "description": "Film in which songs and dance advance the story.",
+  "name_zh": "歌舞片",
+  "name_en": "Musical Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.war_film",
+  "name": "War Film",
+  "type": "ART_GENRE",
+  "description": "Film genre depicting armed conflict and its experience.",
+  "name_zh": "战争片",
+  "name_en": "War Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.action_film",
+  "name": "Action Film",
+  "type": "ART_GENRE",
+  "description": "Film genre of physical stunts, fights, and spectacle.",
+  "name_zh": "动作片",
+  "name_en": "Action Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.adventure_film",
+  "name": "Adventure Film",
+  "type": "ART_GENRE",
+  "description": "Film genre of quests and exotic settings.",
+  "name_zh": "冒险片",
+  "name_en": "Adventure Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.historical_film",
+  "name": "Historical Film",
+  "type": "ART_GENRE",
+  "description": "Film dramatizing real historical periods or events.",
+  "name_zh": "历史片",
+  "name_en": "Historical Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.biopic",
+  "name": "Biopic",
+  "type": "ART_GENRE",
+  "description": "Film dramatizing the life of a real person.",
+  "name_zh": "传记片",
+  "name_en": "Biopic",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.road_movie",
+  "name": "Road Movie",
+  "type": "ART_GENRE",
+  "description": "Film genre structured around a journey.",
+  "name_zh": "公路电影",
+  "name_en": "Road Movie",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.coming_of_age_film",
+  "name": "Coming-of-Age Film",
+  "type": "ART_GENRE",
+  "description": "Film genre about a protagonist's maturation.",
+  "name_zh": "成长电影",
+  "name_en": "Coming-of-Age Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.spy_film",
+  "name": "Spy Film",
+  "type": "ART_GENRE",
+  "description": "Film genre of espionage and secret agents.",
+  "name_zh": "间谍片",
+  "name_en": "Spy Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.sports_film",
+  "name": "Sports Film",
+  "type": "ART_GENRE",
+  "description": "Film genre centered on athletic competition.",
+  "name_zh": "体育电影",
+  "name_en": "Sports Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.martial_arts_film",
+  "name": "Martial Arts Film",
+  "type": "ART_GENRE",
+  "description": "Film genre centered on martial combat.",
+  "name_zh": "武打片",
+  "name_en": "Martial Arts Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.martial_arts_film.wuxia_film",
+  "name": "Wuxia Film",
+  "type": "ART_GENRE",
+  "description": "Chinese martial-arts film of chivalrous swordsmen.",
+  "name_zh": "武侠片",
+  "global": false,
+  "name_en": "Wuxia Film",
+  "parent": "MEDIA.cinema.film_genres.martial_arts_film"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.samurai_film",
+  "name": "Samurai Film",
+  "type": "ART_GENRE",
+  "description": "Japanese film genre of samurai and the feudal code.",
+  "name_zh": "武士片/时代剧",
+  "global": false,
+  "name_en": "Samurai Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.masala_film",
+  "name": "Masala Film",
+  "type": "ART_GENRE",
+  "description": "Indian commercial film blending action, romance, comedy, and song.",
+  "name_zh": "马沙拉电影",
+  "global": false,
+  "name_en": "Masala Film",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.spaghetti_western",
+  "name": "Spaghetti Western",
+  "type": "ART_GENRE",
+  "description": "Italian-produced western of the 1960s-70s.",
+  "name_zh": "意大利式西部片",
+  "global": false,
+  "name_en": "Spaghetti Western",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.blaxploitation",
+  "name": "Blaxploitation",
+  "type": "ART_GENRE",
+  "description": "1970s African-American genre film exploiting urban themes.",
+  "name_zh": "黑人剥削电影",
+  "historical": true,
+  "global": false,
+  "name_en": "Blaxploitation",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_genres.melodrama",
+  "name": "Melodrama",
+  "type": "ART_GENRE",
+  "description": "Film genre of heightened emotion and moral polarities.",
+  "name_zh": "情节剧",
+  "name_en": "Melodrama",
+  "parent": "MEDIA.cinema.film_genres"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements",
+  "name": "Film Movements",
+  "type": "ART_MOVEMENT",
+  "description": "Historical schools and aesthetic movements in cinema.",
+  "name_zh": "电影流派",
+  "name_en": "Film Movements",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.german_expressionism",
+  "name": "German Expressionism",
+  "type": "ART_MOVEMENT",
+  "description": "1920s German cinema of distorted sets and shadow.",
+  "name_zh": "德国表现主义",
+  "historical": true,
+  "name_en": "German Expressionism",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.soviet_montage",
+  "name": "Soviet Montage",
+  "type": "ART_MOVEMENT",
+  "description": "1920s Soviet cinema built on dialectical editing.",
+  "name_zh": "苏联蒙太奇学派",
+  "historical": true,
+  "name_en": "Soviet Montage",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.poetic_realism",
+  "name": "Poetic Realism",
+  "type": "ART_MOVEMENT",
+  "description": "1930s French cinema of fatalistic, lyrical working-class stories.",
+  "name_zh": "法国诗意现实主义",
+  "historical": true,
+  "name_en": "Poetic Realism",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.italian_neorealism",
+  "name": "Italian Neorealism",
+  "type": "ART_MOVEMENT",
+  "description": "Postwar Italian cinema of nonprofessional actors and real locations.",
+  "name_zh": "意大利新现实主义",
+  "historical": true,
+  "name_en": "Italian Neorealism",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.french_new_wave",
+  "name": "French New Wave",
+  "type": "ART_MOVEMENT",
+  "description": "Late-1950s French cinema of improvisation and auteur freedom.",
+  "name_zh": "法国新浪潮",
+  "historical": true,
+  "name_en": "French New Wave",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.british_new_wave",
+  "name": "British New Wave",
+  "type": "ART_MOVEMENT",
+  "description": "Late-1950s British kitchen-sink realism.",
+  "name_zh": "英国新浪潮",
+  "historical": true,
+  "name_en": "British New Wave",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.free_cinema",
+  "name": "Free Cinema",
+  "type": "ART_MOVEMENT",
+  "description": "1950s British documentary-realist movement.",
+  "name_zh": "自由电影运动",
+  "historical": true,
+  "name_en": "Free Cinema",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.new_hollywood",
+  "name": "New Hollywood",
+  "type": "ART_MOVEMENT",
+  "description": "Late-1960s-70s American auteur renaissance.",
+  "name_zh": "新好莱坞",
+  "historical": true,
+  "name_en": "New Hollywood",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.new_german_cinema",
+  "name": "New German Cinema",
+  "type": "ART_MOVEMENT",
+  "description": "1960s-80s West German auteur cinema.",
+  "name_zh": "新德国电影",
+  "historical": true,
+  "name_en": "New German Cinema",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.japanese_new_wave",
+  "name": "Japanese New Wave",
+  "type": "ART_MOVEMENT",
+  "description": "Late-1950s-60s Japanese radical cinema.",
+  "name_zh": "日本新浪潮",
+  "historical": true,
+  "name_en": "Japanese New Wave",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.cinema_novo",
+  "name": "Cinema Novo",
+  "type": "ART_MOVEMENT",
+  "description": "1960s-70s Brazilian political cinema.",
+  "name_zh": "巴西新电影",
+  "historical": true,
+  "name_en": "Cinema Novo",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.third_cinema",
+  "name": "Third Cinema",
+  "type": "ART_MOVEMENT",
+  "description": "Latin American militant cinema against neocolonialism.",
+  "name_zh": "第三电影",
+  "historical": true,
+  "name_en": "Third Cinema",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.parallel_cinema",
+  "name": "Parallel Cinema",
+  "type": "ART_MOVEMENT",
+  "description": "Indian art cinema movement of the 1950s-80s.",
+  "name_zh": "印度平行电影",
+  "historical": true,
+  "name_en": "Parallel Cinema",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.hong_kong_new_wave",
+  "name": "Hong Kong New Wave",
+  "type": "ART_MOVEMENT",
+  "description": "Late-1970s-80s Hong Kong cinema revolution.",
+  "name_zh": "香港新浪潮",
+  "historical": true,
+  "name_en": "Hong Kong New Wave",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.taiwan_new_wave",
+  "name": "Taiwan New Wave",
+  "type": "ART_MOVEMENT",
+  "description": "1980s Taiwanese realist cinema.",
+  "name_zh": "台湾新电影",
+  "historical": true,
+  "name_en": "Taiwan New Wave",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.chinese_fifth_generation",
+  "name": "Chinese Fifth Generation",
+  "type": "ART_MOVEMENT",
+  "description": "1980s mainland Chinese visually bold auteur cinema.",
+  "name_zh": "中国第五代电影",
+  "historical": true,
+  "name_en": "Chinese Fifth Generation",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.iranian_new_wave",
+  "name": "Iranian New Wave",
+  "type": "ART_MOVEMENT",
+  "description": "1960s-70s Iranian poetic-realist cinema.",
+  "name_zh": "伊朗新浪潮",
+  "historical": true,
+  "name_en": "Iranian New Wave",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.dogme_95",
+  "name": "Dogme 95",
+  "type": "ART_MOVEMENT",
+  "description": "1995 Danish movement of stripped-down, rule-bound filmmaking.",
+  "name_zh": "道格玛95",
+  "historical": true,
+  "name_en": "Dogme 95",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.film_movements.mumblecore",
+  "name": "Mumblecore",
+  "type": "ART_MOVEMENT",
+  "description": "2000s American micro-budget dialogue-driven independent films.",
+  "name_zh": "呢喃核",
+  "global": false,
+  "name_en": "Mumblecore",
+  "parent": "MEDIA.cinema.film_movements"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas",
+  "name": "National & Regional Cinemas",
+  "type": "MEDIA_FORM",
+  "description": "Cinematic traditions defined by a nation's industry and culture.",
+  "name_zh": "国别/地区电影",
+  "name_en": "National & Regional Cinemas",
+  "parent": "MEDIA.cinema"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.hollywood_cinema",
+  "name": "Hollywood Cinema",
+  "type": "MEDIA_FORM",
+  "description": "The American studio film industry centered in Los Angeles.",
+  "name_zh": "好莱坞电影",
+  "name_en": "Hollywood Cinema",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.bollywood",
+  "name": "Bollywood",
+  "type": "MEDIA_FORM",
+  "description": "Hindi-language commercial cinema of Mumbai.",
+  "name_zh": "宝莱坞",
+  "global": false,
+  "name_en": "Bollywood",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.nollywood",
+  "name": "Nollywood",
+  "type": "MEDIA_FORM",
+  "description": "Nigerian low-budget video film industry.",
+  "name_zh": "瑙莱坞",
+  "global": false,
+  "name_en": "Nollywood",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.hong_kong_cinema",
+  "name": "Hong Kong Cinema",
+  "type": "MEDIA_FORM",
+  "description": "Cinema of Hong Kong, known for action and wuxia.",
+  "name_zh": "香港电影",
+  "global": false,
+  "name_en": "Hong Kong Cinema",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.japanese_cinema",
+  "name": "Japanese Cinema",
+  "type": "MEDIA_FORM",
+  "description": "Cinema of Japan, from Ozu to anime features.",
+  "name_zh": "日本电影",
+  "global": false,
+  "name_en": "Japanese Cinema",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.korean_cinema",
+  "name": "Korean Cinema",
+  "type": "MEDIA_FORM",
+  "description": "Cinema of South Korea, globally ascendant since the 2000s.",
+  "name_zh": "韩国电影",
+  "global": false,
+  "name_en": "Korean Cinema",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.iranian_cinema",
+  "name": "Iranian Cinema",
+  "type": "MEDIA_FORM",
+  "description": "Cinema of Iran, known for poetic humanist art films.",
+  "name_zh": "伊朗电影",
+  "global": false,
+  "name_en": "Iranian Cinema",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.chinese_cinema",
+  "name": "Chinese Cinema",
+  "type": "MEDIA_FORM",
+  "description": "Cinema of mainland China.",
+  "name_zh": "中国电影",
+  "global": false,
+  "name_en": "Chinese Cinema",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.french_cinema",
+  "name": "French Cinema",
+  "type": "MEDIA_FORM",
+  "description": "Cinema of France, birthplace of film.",
+  "name_zh": "法国电影",
+  "name_en": "French Cinema",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.cinema.national_cinemas.indian_regional_cinema",
+  "name": "Indian Regional Cinema",
+  "type": "MEDIA_FORM",
+  "description": "Non-Hindi Indian cinemas, such as Tamil, Telugu, and Bengali.",
+  "name_zh": "印度地方电影",
+  "global": false,
+  "name_en": "Indian Regional Cinema",
+  "parent": "MEDIA.cinema.national_cinemas"
+ },
+ {
+  "id": "MEDIA.animation",
+  "name": "Animation",
+  "type": "MEDIA_FORM",
+  "description": "Media created by sequencing static images into apparent motion.",
+  "name_zh": "动画",
+  "name_en": "Animation",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.animation.traditional_animation",
+  "name": "Traditional Animation",
+  "type": "MEDIA_FORM",
+  "description": "Hand-drawn frame-by-frame cel animation.",
+  "name_zh": "传统手绘动画",
+  "name_en": "Traditional Animation",
+  "parent": "MEDIA.animation"
+ },
+ {
+  "id": "MEDIA.animation.stop_motion_animation",
+  "name": "Stop-Motion Animation",
+  "type": "MEDIA_FORM",
+  "description": "Animation by photographing physical objects in small increments.",
+  "name_zh": "定格动画",
+  "name_en": "Stop-Motion Animation",
+  "parent": "MEDIA.animation"
+ },
+ {
+  "id": "MEDIA.animation.stop_motion_animation.claymation",
+  "name": "Claymation",
+  "type": "MEDIA_FORM",
+  "description": "Stop motion using clay or plasticine figures.",
+  "name_zh": "黏土动画",
+  "name_en": "Claymation",
+  "parent": "MEDIA.animation.stop_motion_animation"
+ },
+ {
+  "id": "MEDIA.animation.stop_motion_animation.cutout_animation",
+  "name": "Cutout Animation",
+  "type": "MEDIA_FORM",
+  "description": "Stop motion using flat cut-out figures.",
+  "name_zh": "剪纸动画",
+  "name_en": "Cutout Animation",
+  "parent": "MEDIA.animation.stop_motion_animation"
+ },
+ {
+  "id": "MEDIA.animation.computer_animation",
+  "name": "Computer Animation",
+  "type": "MEDIA_FORM",
+  "description": "Animation generated with 3D or 2D computer graphics.",
+  "name_zh": "电脑动画",
+  "name_en": "Computer Animation",
+  "parent": "MEDIA.animation"
+ },
+ {
+  "id": "MEDIA.animation.anime",
+  "name": "Anime",
+  "type": "MEDIA_FORM",
+  "description": "Japanese animation, spanning television, film, and OVA.",
+  "name_zh": "日本动画",
+  "global": false,
+  "name_en": "Anime",
+  "parent": "MEDIA.animation"
+ },
+ {
+  "id": "MEDIA.animation.donghua",
+  "name": "Donghua",
+  "type": "MEDIA_FORM",
+  "description": "Chinese animation, increasingly digital and web-distributed.",
+  "name_zh": "中国动画",
+  "global": false,
+  "name_en": "Donghua",
+  "parent": "MEDIA.animation"
+ },
+ {
+  "id": "MEDIA.animation.adult_animation",
+  "name": "Adult Animation",
+  "type": "MEDIA_FORM",
+  "description": "Animation produced for adult audiences.",
+  "name_zh": "成人动画",
+  "name_en": "Adult Animation",
+  "parent": "MEDIA.animation"
+ },
+ {
+  "id": "MEDIA.animation.independent_animation",
+  "name": "Independent Animation",
+  "type": "MEDIA_FORM",
+  "description": "Animation made outside major studios, often experimental.",
+  "name_zh": "独立动画",
+  "name_en": "Independent Animation",
+  "parent": "MEDIA.animation"
+ },
+ {
+  "id": "MEDIA.photography",
+  "name": "Photography",
+  "type": "MEDIA_FORM",
+  "description": "The medium of capturing and distributing still images with light.",
+  "name_zh": "摄影",
+  "name_en": "Photography",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.photography.documentary_photography",
+  "name": "Documentary Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography recording social reality over time.",
+  "name_zh": "纪实摄影",
+  "name_en": "Documentary Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.street_photography",
+  "name": "Street Photography",
+  "type": "MEDIA_FORM",
+  "description": "Candid photography of public life.",
+  "name_zh": "街头摄影",
+  "name_en": "Street Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.portrait_photography",
+  "name": "Portrait Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography focused on people's likeness and character.",
+  "name_zh": "人像摄影",
+  "name_en": "Portrait Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.landscape_photography",
+  "name": "Landscape Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography of natural scenery.",
+  "name_zh": "风光摄影",
+  "name_en": "Landscape Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.fashion_photography",
+  "name": "Fashion Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography of clothing and style for editorial or advertising use.",
+  "name_zh": "时尚摄影",
+  "name_en": "Fashion Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.war_photography",
+  "name": "War Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography documenting armed conflict.",
+  "name_zh": "战地摄影",
+  "name_en": "War Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.aerial_photography",
+  "name": "Aerial Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography taken from aircraft or drones.",
+  "name_zh": "航空摄影",
+  "name_en": "Aerial Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.wildlife_photography",
+  "name": "Wildlife Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography of animals in their habitats.",
+  "name_zh": "野生动物摄影",
+  "name_en": "Wildlife Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.sports_photography",
+  "name": "Sports Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography of athletic action and events.",
+  "name_zh": "体育摄影",
+  "name_en": "Sports Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.stock_photography",
+  "name": "Stock Photography",
+  "type": "MEDIA_FORM",
+  "description": "Licensed photography supplied for reuse by buyers.",
+  "name_zh": "图库摄影",
+  "name_en": "Stock Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.analog_photography",
+  "name": "Analog Photography",
+  "type": "MEDIA_FORM",
+  "description": "Chemical film-based photography.",
+  "name_zh": "胶片摄影",
+  "name_en": "Analog Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.digital_photography",
+  "name": "Digital Photography",
+  "type": "MEDIA_FORM",
+  "description": "Photography using electronic image sensors.",
+  "name_zh": "数码摄影",
+  "name_en": "Digital Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.photography.smartphone_photography",
+  "name": "Smartphone Photography",
+  "type": "MEDIA_FORM",
+  "description": "Casual photography with mobile phones, feeding social media.",
+  "name_zh": "手机摄影",
+  "name_en": "Smartphone Photography",
+  "parent": "MEDIA.photography"
+ },
+ {
+  "id": "MEDIA.recorded_music",
+  "name": "Recorded Music & Audio",
+  "type": "MEDIA_FORM",
+  "description": "Sound recording media for music and spoken audio.",
+  "name_zh": "录音音乐与音频",
+  "name_en": "Recorded Music & Audio",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.recorded_music.wax_cylinder",
+  "name": "Wax Cylinder",
+  "type": "MEDIA_FORM",
+  "description": "Earliest commercial sound recording on wax cylinders.",
+  "name_zh": "蜡筒唱片",
+  "historical": true,
+  "name_en": "Wax Cylinder",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.shellac_record",
+  "name": "Shellac Record",
+  "type": "MEDIA_FORM",
+  "description": "78-rpm disc record, dominant before vinyl.",
+  "name_zh": "虫胶唱片",
+  "historical": true,
+  "name_en": "Shellac Record",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.vinyl_record",
+  "name": "Vinyl Record",
+  "type": "MEDIA_FORM",
+  "description": "Microgroove LP/EP/single record, enduring as a collector format.",
+  "name_zh": "黑胶唱片",
+  "name_en": "Vinyl Record",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.audio_cassette",
+  "name": "Audio Cassette",
+  "type": "MEDIA_FORM",
+  "description": "Compact magnetic-tape cartridge, popular for mixtapes.",
+  "name_zh": "盒式磁带",
+  "name_en": "Audio Cassette",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.eight_track_cartridge",
+  "name": "Eight-Track Cartridge",
+  "type": "MEDIA_FORM",
+  "description": "Endless-loop tape cartridge of the 1960s-70s.",
+  "name_zh": "八轨磁带",
+  "historical": true,
+  "name_en": "Eight-Track Cartridge",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.compact_disc",
+  "name": "Compact Disc",
+  "type": "MEDIA_FORM",
+  "description": "Optical disc storing digital audio.",
+  "name_zh": "激光唱片/CD",
+  "name_en": "Compact Disc",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.digital_audio_download",
+  "name": "Digital Audio Download",
+  "type": "MEDIA_FORM",
+  "description": "Purchased audio files downloaded to a device.",
+  "name_zh": "数字音乐下载",
+  "name_en": "Digital Audio Download",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.music_video",
+  "name": "Music Video",
+  "type": "MEDIA_FORM",
+  "description": "Short film made to promote a song.",
+  "name_zh": "音乐录影带/MV",
+  "name_en": "Music Video",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.mixtape",
+  "name": "Mixtape",
+  "type": "MEDIA_FORM",
+  "description": "Curated compilation of songs recorded to tape or stream.",
+  "name_zh": "混音带",
+  "name_en": "Mixtape",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.album",
+  "name": "Album",
+  "type": "MEDIA_FORM",
+  "description": "Collected body of recordings released as a unit.",
+  "name_zh": "专辑",
+  "name_en": "Album",
+  "parent": "MEDIA.recorded_music"
+ },
+ {
+  "id": "MEDIA.recorded_music.album.studio_album",
+  "name": "Studio Album",
+  "type": "MEDIA_FORM",
+  "description": "Album of newly recorded studio tracks.",
+  "name_zh": "录音室专辑",
+  "name_en": "Studio Album",
+  "parent": "MEDIA.recorded_music.album"
+ },
+ {
+  "id": "MEDIA.recorded_music.album.live_album",
+  "name": "Live Album",
+  "type": "MEDIA_FORM",
+  "description": "Album recorded in concert performance.",
+  "name_zh": "现场专辑",
+  "name_en": "Live Album",
+  "parent": "MEDIA.recorded_music.album"
+ },
+ {
+  "id": "MEDIA.recorded_music.album.compilation_album",
+  "name": "Compilation Album",
+  "type": "MEDIA_FORM",
+  "description": "Album assembling previously released tracks.",
+  "name_zh": "精选集/合辑",
+  "name_en": "Compilation Album",
+  "parent": "MEDIA.recorded_music.album"
+ },
+ {
+  "id": "MEDIA.recorded_music.album.concept_album",
+  "name": "Concept Album",
+  "type": "MEDIA_FORM",
+  "description": "Album unified by a theme or narrative.",
+  "name_zh": "概念专辑",
+  "name_en": "Concept Album",
+  "parent": "MEDIA.recorded_music.album"
+ },
+ {
+  "id": "MEDIA.recorded_music.album.extended_play",
+  "name": "Extended Play",
+  "type": "MEDIA_FORM",
+  "description": "Release longer than a single but shorter than an album.",
+  "name_zh": "EP/迷你专辑",
+  "name_en": "Extended Play",
+  "parent": "MEDIA.recorded_music.album"
+ },
+ {
+  "id": "MEDIA.recorded_music.album.single",
+  "name": "Single",
+  "type": "MEDIA_FORM",
+  "description": "Release centered on one featured song.",
+  "name_zh": "单曲",
+  "name_en": "Single",
+  "parent": "MEDIA.recorded_music.album"
+ },
+ {
+  "id": "MEDIA.recorded_music.album.remix_album",
+  "name": "Remix Album",
+  "type": "MEDIA_FORM",
+  "description": "Album of reworked versions of earlier recordings.",
+  "name_zh": "混音专辑",
+  "name_en": "Remix Album",
+  "parent": "MEDIA.recorded_music.album"
+ },
+ {
+  "id": "MEDIA.digital_media",
+  "name": "Digital Media",
+  "type": "MEDIA_FORM",
+  "description": "Media encoded, transmitted, and consumed in digital form.",
+  "name_zh": "数字媒体",
+  "name_en": "Digital Media",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.digital_media.website",
+  "name": "Website",
+  "type": "MEDIA_FORM",
+  "description": "A set of linked web pages under a domain.",
+  "name_zh": "网站",
+  "name_en": "Website",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.website.blog",
+  "name": "Blog",
+  "type": "MEDIA_FORM",
+  "description": "Chronological web log of posts by an individual or group.",
+  "name_zh": "博客",
+  "name_en": "Blog",
+  "parent": "MEDIA.digital_media.website"
+ },
+ {
+  "id": "MEDIA.digital_media.website.web_portal",
+  "name": "Web Portal",
+  "type": "MEDIA_FORM",
+  "description": "Gateway site aggregating content, services, and links.",
+  "name_zh": "门户网站",
+  "name_en": "Web Portal",
+  "parent": "MEDIA.digital_media.website"
+ },
+ {
+  "id": "MEDIA.digital_media.website.wiki",
+  "name": "Wiki",
+  "type": "MEDIA_FORM",
+  "description": "Collaboratively editable hypertext website.",
+  "name_zh": "维基",
+  "name_en": "Wiki",
+  "parent": "MEDIA.digital_media.website"
+ },
+ {
+  "id": "MEDIA.digital_media.website.internet_forum",
+  "name": "Internet Forum",
+  "type": "MEDIA_FORM",
+  "description": "Online discussion board of threaded conversations.",
+  "name_zh": "网络论坛",
+  "name_en": "Internet Forum",
+  "parent": "MEDIA.digital_media.website"
+ },
+ {
+  "id": "MEDIA.digital_media.website.personal_website",
+  "name": "Personal Website",
+  "type": "MEDIA_FORM",
+  "description": "Website maintained by an individual.",
+  "name_zh": "个人网站",
+  "name_en": "Personal Website",
+  "parent": "MEDIA.digital_media.website"
+ },
+ {
+  "id": "MEDIA.digital_media.website.news_website",
+  "name": "News Website",
+  "type": "MEDIA_FORM",
+  "description": "Website publishing news content online.",
+  "name_zh": "新闻网站",
+  "name_en": "News Website",
+  "parent": "MEDIA.digital_media.website"
+ },
+ {
+  "id": "MEDIA.digital_media.website.online_encyclopedia",
+  "name": "Online Encyclopedia",
+  "type": "MEDIA_FORM",
+  "description": "Web-based reference encyclopedia, often collaborative.",
+  "name_zh": "网络百科全书",
+  "name_en": "Online Encyclopedia",
+  "parent": "MEDIA.digital_media.website"
+ },
+ {
+  "id": "MEDIA.digital_media.short_form_video",
+  "name": "Short-Form Video",
+  "type": "MEDIA_FORM",
+  "description": "Vertical, seconds-long video optimized for mobile feeds.",
+  "name_zh": "短视频",
+  "name_en": "Short-Form Video",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.vlog",
+  "name": "Vlog",
+  "type": "MEDIA_FORM",
+  "description": "Video blog documenting a creator's life and views.",
+  "name_zh": "视频博客/vlog",
+  "name_en": "Vlog",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.web_series",
+  "name": "Web Series",
+  "type": "MEDIA_FORM",
+  "description": "Episodic fiction or nonfiction series distributed on the web.",
+  "name_zh": "网络剧",
+  "name_en": "Web Series",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.online_video",
+  "name": "Online Video",
+  "type": "MEDIA_FORM",
+  "description": "Video distributed over the internet outside broadcast channels.",
+  "name_zh": "网络视频",
+  "name_en": "Online Video",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.hypertext_fiction",
+  "name": "Hypertext Fiction",
+  "type": "MEDIA_FORM",
+  "description": "Fiction written in linked, nonlinear hypertext.",
+  "name_zh": "超文本小说",
+  "name_en": "Hypertext Fiction",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.interactive_documentary",
+  "name": "Interactive Documentary",
+  "type": "MEDIA_FORM",
+  "description": "Documentary using interactive digital elements.",
+  "name_zh": "互动纪录片",
+  "name_en": "Interactive Documentary",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.transmedia_storytelling",
+  "name": "Transmedia Storytelling",
+  "type": "MEDIA_FORM",
+  "description": "Narrative told across multiple coordinated media platforms.",
+  "name_zh": "跨媒体叙事",
+  "name_en": "Transmedia Storytelling",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.virtual_reality_media",
+  "name": "Virtual Reality Media",
+  "type": "MEDIA_FORM",
+  "description": "Immersive media experienced in a headset-generated world.",
+  "name_zh": "虚拟现实媒体",
+  "name_en": "Virtual Reality Media",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.augmented_reality_media",
+  "name": "Augmented Reality Media",
+  "type": "MEDIA_FORM",
+  "description": "Media overlaid on the physical world via devices.",
+  "name_zh": "增强现实媒体",
+  "name_en": "Augmented Reality Media",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.digital_media.mixed_reality_media",
+  "name": "Mixed Reality Media",
+  "type": "MEDIA_FORM",
+  "description": "Media blending physical and virtual environments interactively.",
+  "name_zh": "混合现实媒体",
+  "name_en": "Mixed Reality Media",
+  "parent": "MEDIA.digital_media"
+ },
+ {
+  "id": "MEDIA.social_media",
+  "name": "Social Media",
+  "type": "MEDIA_FORM",
+  "description": "Internet platforms built on user-generated content and social interaction.",
+  "name_zh": "社交媒体",
+  "name_en": "Social Media",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.social_media.social_networking_service",
+  "name": "Social Networking Service",
+  "type": "MEDIA_FORM",
+  "description": "Platform connecting users through profiles and friend networks.",
+  "name_zh": "社交网络服务",
+  "name_en": "Social Networking Service",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.social_media.microblogging",
+  "name": "Microblogging",
+  "type": "MEDIA_FORM",
+  "description": "Short-form status-update platform.",
+  "name_zh": "微博客",
+  "name_en": "Microblogging",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.social_media.photo_sharing",
+  "name": "Photo Sharing",
+  "type": "MEDIA_FORM",
+  "description": "Platform centered on sharing photographs.",
+  "name_zh": "图片分享",
+  "name_en": "Photo Sharing",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.social_media.video_sharing",
+  "name": "Video Sharing",
+  "type": "MEDIA_FORM",
+  "description": "Platform centered on uploading and sharing video.",
+  "name_zh": "视频分享",
+  "name_en": "Video Sharing",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.social_media.professional_networking",
+  "name": "Professional Networking",
+  "type": "MEDIA_FORM",
+  "description": "Platform for career profiles and business connections.",
+  "name_zh": "职业社交网络",
+  "name_en": "Professional Networking",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.social_media.content_aggregation",
+  "name": "Content Aggregation",
+  "type": "MEDIA_FORM",
+  "description": "Platform aggregating links and discussion across the web.",
+  "name_zh": "内容聚合平台",
+  "name_en": "Content Aggregation",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.social_media.online_community",
+  "name": "Online Community",
+  "type": "MEDIA_FORM",
+  "description": "Structured online space for a shared-interest group.",
+  "name_zh": "网络社群",
+  "name_en": "Online Community",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.social_media.social_news",
+  "name": "Social News",
+  "type": "MEDIA_FORM",
+  "description": "User-voted news aggregator of the late 2000s.",
+  "name_zh": "社交新闻",
+  "historical": true,
+  "name_en": "Social News",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.social_media.social_bookmarking",
+  "name": "Social Bookmarking",
+  "type": "MEDIA_FORM",
+  "description": "Shared bookmarking and tagging service.",
+  "name_zh": "社交书签",
+  "historical": true,
+  "name_en": "Social Bookmarking",
+  "parent": "MEDIA.social_media"
+ },
+ {
+  "id": "MEDIA.streaming_media",
+  "name": "Streaming Media",
+  "type": "MEDIA_FORM",
+  "description": "Media delivered continuously over networks without full download.",
+  "name_zh": "流媒体",
+  "name_en": "Streaming Media",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.streaming_media.video_on_demand",
+  "name": "Video on Demand",
+  "type": "MEDIA_FORM",
+  "description": "Video viewable on demand from a library.",
+  "name_zh": "视频点播/VOD",
+  "name_en": "Video on Demand",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.streaming_media.subscription_video_on_demand",
+  "name": "Subscription Video on Demand",
+  "type": "MEDIA_FORM",
+  "description": "Subscription-based ad-free video library service.",
+  "name_zh": "订阅视频点播/SVOD",
+  "name_en": "Subscription Video on Demand",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.streaming_media.ad_supported_video_on_demand",
+  "name": "Ad-Supported Video on Demand",
+  "type": "MEDIA_FORM",
+  "description": "Free video service supported by advertising.",
+  "name_zh": "广告支持视频/AVOD",
+  "name_en": "Ad-Supported Video on Demand",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.streaming_media.transactional_video_on_demand",
+  "name": "Transactional Video on Demand",
+  "type": "MEDIA_FORM",
+  "description": "Pay-per-title rental or purchase video service.",
+  "name_zh": "按次付费视频/TVOD",
+  "name_en": "Transactional Video on Demand",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.streaming_media.music_streaming",
+  "name": "Music Streaming",
+  "type": "MEDIA_FORM",
+  "description": "On-demand or programmed streaming of recorded music.",
+  "name_zh": "音乐流媒体",
+  "name_en": "Music Streaming",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.streaming_media.audio_streaming",
+  "name": "Audio Streaming",
+  "type": "MEDIA_FORM",
+  "description": "Streaming of spoken-word and audio content.",
+  "name_zh": "音频流媒体",
+  "name_en": "Audio Streaming",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.streaming_media.live_streaming",
+  "name": "Live Streaming",
+  "type": "MEDIA_FORM",
+  "description": "Real-time broadcast of video or audio over the internet.",
+  "name_zh": "网络直播",
+  "name_en": "Live Streaming",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.streaming_media.over_the_top_media",
+  "name": "Over-the-Top Media",
+  "type": "MEDIA_FORM",
+  "description": "Streaming delivered over the open internet bypassing cable.",
+  "name_zh": "OTT媒体",
+  "name_en": "Over-the-Top Media",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.streaming_media.free_ad_supported_television",
+  "name": "Free Ad-Supported Television",
+  "type": "MEDIA_FORM",
+  "description": "Linear ad-supported streaming channels.",
+  "name_zh": "FAST频道",
+  "name_en": "Free Ad-Supported Television",
+  "parent": "MEDIA.streaming_media"
+ },
+ {
+  "id": "MEDIA.podcasting",
+  "name": "Podcasting",
+  "type": "MEDIA_FORM",
+  "description": "On-demand episodic audio distributed by RSS and apps.",
+  "name_zh": "播客",
+  "name_en": "Podcasting",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.podcasting.interview_podcast",
+  "name": "Interview Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast built around guest interviews.",
+  "name_zh": "访谈播客",
+  "name_en": "Interview Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.conversational_podcast",
+  "name": "Conversational Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast of hosts' unscripted conversation.",
+  "name_zh": "闲聊播客",
+  "name_en": "Conversational Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.true_crime_podcast",
+  "name": "True Crime Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast investigating real criminal cases.",
+  "name_zh": "真实犯罪播客",
+  "name_en": "True Crime Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.comedy_podcast",
+  "name": "Comedy Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast built around humor.",
+  "name_zh": "喜剧播客",
+  "name_en": "Comedy Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.news_podcast",
+  "name": "News Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast presenting daily or weekly news.",
+  "name_zh": "新闻播客",
+  "name_en": "News Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.educational_podcast",
+  "name": "Educational Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast designed to teach a subject.",
+  "name_zh": "教育播客",
+  "name_en": "Educational Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.documentary_podcast",
+  "name": "Documentary Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Narrative nonfiction podcast telling true stories.",
+  "name_zh": "纪实播客",
+  "name_en": "Documentary Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.fiction_podcast",
+  "name": "Fiction Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Scripted audio drama podcast.",
+  "name_zh": "有声剧播客",
+  "name_en": "Fiction Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.sports_podcast",
+  "name": "Sports Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast covering sports talk and analysis.",
+  "name_zh": "体育播客",
+  "name_en": "Sports Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.science_podcast",
+  "name": "Science Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast explaining science and research.",
+  "name_zh": "科学播客",
+  "name_en": "Science Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.history_podcast",
+  "name": "History Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast narrating historical events.",
+  "name_zh": "历史播客",
+  "name_en": "History Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.business_podcast",
+  "name": "Business Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast covering business, markets, and careers.",
+  "name_zh": "商业播客",
+  "name_en": "Business Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.health_wellness_podcast",
+  "name": "Health & Wellness Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Podcast on health, fitness, and wellbeing.",
+  "name_zh": "健康播客",
+  "name_en": "Health & Wellness Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.podcasting.narrative_podcast",
+  "name": "Narrative Podcast",
+  "type": "CONTENT_TYPE",
+  "description": "Storytelling podcast of serialized nonfiction or fiction.",
+  "name_zh": "叙事播客",
+  "name_en": "Narrative Podcast",
+  "parent": "MEDIA.podcasting"
+ },
+ {
+  "id": "MEDIA.content_types",
+  "name": "Content Types",
+  "type": "CONTENT_TYPE",
+  "description": "The classification of media output by purpose and form of knowledge.",
+  "name_zh": "内容类型",
+  "name_en": "Content Types",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.content_types.news",
+  "name": "News",
+  "type": "CONTENT_TYPE",
+  "description": "Timely reporting of current events and issues.",
+  "name_zh": "新闻",
+  "name_en": "News",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.news.breaking_news",
+  "name": "Breaking News",
+  "type": "CONTENT_TYPE",
+  "description": "Immediate reporting of unfolding events.",
+  "name_zh": "突发新闻",
+  "name_en": "Breaking News",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.investigative_journalism",
+  "name": "Investigative Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "In-depth reporting that uncovers wrongdoing.",
+  "name_zh": "调查报道",
+  "name_en": "Investigative Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.feature_journalism",
+  "name": "Feature Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Long-form human-interest and explanatory reporting.",
+  "name_zh": "特稿/深度报道",
+  "name_en": "Feature Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.opinion_journalism",
+  "name": "Opinion Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Editorials, columns, and op-eds expressing views.",
+  "name_zh": "评论/观点文章",
+  "name_en": "Opinion Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.data_journalism",
+  "name": "Data Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Reporting driven by analysis and visualization of data.",
+  "name_zh": "数据新闻",
+  "name_en": "Data Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.photojournalism",
+  "name": "Photojournalism",
+  "type": "CONTENT_TYPE",
+  "description": "News reported through still photography.",
+  "name_zh": "新闻摄影",
+  "name_en": "Photojournalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.broadcast_journalism",
+  "name": "Broadcast Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "News reported through radio and television.",
+  "name_zh": "广播电视新闻",
+  "name_en": "Broadcast Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.citizen_journalism",
+  "name": "Citizen Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "News produced by ordinary citizens, often on social media.",
+  "name_zh": "公民新闻",
+  "name_en": "Citizen Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.sports_journalism",
+  "name": "Sports Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Reporting on athletic events and figures.",
+  "name_zh": "体育新闻",
+  "name_en": "Sports Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.science_journalism",
+  "name": "Science Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Reporting on scientific research and issues.",
+  "name_zh": "科学新闻",
+  "name_en": "Science Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.environmental_journalism",
+  "name": "Environmental Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Reporting on environmental and climate issues.",
+  "name_zh": "环境新闻",
+  "name_en": "Environmental Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.business_journalism",
+  "name": "Business Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Reporting on companies, markets, and the economy.",
+  "name_zh": "财经新闻",
+  "name_en": "Business Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.political_journalism",
+  "name": "Political Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Reporting on politics, policy, and elections.",
+  "name_zh": "政治新闻",
+  "name_en": "Political Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.war_correspondence",
+  "name": "War Correspondence",
+  "type": "CONTENT_TYPE",
+  "description": "Reporting from armed conflicts.",
+  "name_zh": "战地报道",
+  "name_en": "War Correspondence",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.tabloid_journalism",
+  "name": "Tabloid Journalism",
+  "type": "CONTENT_TYPE",
+  "description": "Sensationalized popular journalism.",
+  "name_zh": "小报新闻",
+  "name_en": "Tabloid Journalism",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.news.fact_checking",
+  "name": "Fact-Checking",
+  "type": "CONTENT_TYPE",
+  "description": "Verification of claims in public discourse.",
+  "name_zh": "事实核查",
+  "name_en": "Fact-Checking",
+  "parent": "MEDIA.content_types.news"
+ },
+ {
+  "id": "MEDIA.content_types.documentary",
+  "name": "Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Nonfiction media documenting reality with a point of view.",
+  "name_zh": "纪录片",
+  "name_en": "Documentary",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.observational_documentary",
+  "name": "Observational Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary mode observing subjects without intervention.",
+  "name_zh": "观察式纪录片",
+  "name_en": "Observational Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.expository_documentary",
+  "name": "Expository Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary mode that explains through narration and evidence.",
+  "name_zh": "说明式纪录片",
+  "name_en": "Expository Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.participatory_documentary",
+  "name": "Participatory Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary mode in which the filmmaker interacts with subjects.",
+  "name_zh": "参与式纪录片",
+  "name_en": "Participatory Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.reflexive_documentary",
+  "name": "Reflexive Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary mode that questions its own construction.",
+  "name_zh": "反思式纪录片",
+  "name_en": "Reflexive Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.poetic_documentary",
+  "name": "Poetic Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary mode favoring mood and association over argument.",
+  "name_zh": "诗意纪录片",
+  "name_en": "Poetic Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.performative_documentary",
+  "name": "Performative Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary mode emphasizing subjective experience.",
+  "name_zh": "展演式纪录片",
+  "name_en": "Performative Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.cinema_verite",
+  "name": "Cinema Verite",
+  "type": "CONTENT_TYPE",
+  "description": "Handheld observational documentary movement of the 1960s.",
+  "name_zh": "真实电影",
+  "historical": true,
+  "name_en": "Cinema Verite",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.nature_documentary",
+  "name": "Nature Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary about wildlife and natural environments.",
+  "name_zh": "自然纪录片",
+  "name_en": "Nature Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.social_documentary",
+  "name": "Social Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary exposing social conditions and injustice.",
+  "name_zh": "社会纪录片",
+  "name_en": "Social Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.historical_documentary",
+  "name": "Historical Documentary",
+  "type": "CONTENT_TYPE",
+  "description": "Documentary reconstructing past events.",
+  "name_zh": "历史纪录片",
+  "name_en": "Historical Documentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.docuseries",
+  "name": "Docuseries",
+  "type": "CONTENT_TYPE",
+  "description": "Serialized documentary series.",
+  "name_zh": "纪实系列剧",
+  "name_en": "Docuseries",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.documentary.mockumentary",
+  "name": "Mockumentary",
+  "type": "CONTENT_TYPE",
+  "description": "Fictional work in documentary style for comedy or satire.",
+  "name_zh": "伪纪录片",
+  "name_en": "Mockumentary",
+  "parent": "MEDIA.content_types.documentary"
+ },
+ {
+  "id": "MEDIA.content_types.fiction",
+  "name": "Fiction",
+  "type": "CONTENT_TYPE",
+  "description": "Invented narrative content across media.",
+  "name_zh": "虚构/小说",
+  "name_en": "Fiction",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres",
+  "name": "Fiction Genres",
+  "type": "ART_GENRE",
+  "description": "Cross-media categories of invented narrative.",
+  "name_zh": "虚构类型",
+  "name_en": "Fiction Genres",
+  "parent": "MEDIA.content_types.fiction"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.fantasy",
+  "name": "Fantasy",
+  "type": "ART_GENRE",
+  "description": "Fiction of magic and imagined worlds.",
+  "name_zh": "奇幻",
+  "name_en": "Fantasy",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.fantasy.epic_fantasy",
+  "name": "Epic Fantasy",
+  "type": "ART_GENRE",
+  "description": "Fantasy subgenre of grand-scale quests in invented worlds.",
+  "name_zh": "史诗奇幻",
+  "name_en": "Epic Fantasy",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.fantasy"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.fantasy.urban_fantasy",
+  "name": "Urban Fantasy",
+  "type": "ART_GENRE",
+  "description": "Fantasy subgenre set in contemporary cities.",
+  "name_zh": "都市奇幻",
+  "name_en": "Urban Fantasy",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.fantasy"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.science_fiction",
+  "name": "Science Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction of imagined science, technology, and futures.",
+  "name_zh": "科幻",
+  "name_en": "Science Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.science_fiction.hard_science_fiction",
+  "name": "Hard Science Fiction",
+  "type": "ART_GENRE",
+  "description": "Science fiction emphasizing scientific accuracy.",
+  "name_zh": "硬科幻",
+  "name_en": "Hard Science Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.science_fiction"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.science_fiction.space_opera",
+  "name": "Space Opera",
+  "type": "ART_GENRE",
+  "description": "Adventure science fiction of interstellar scale.",
+  "name_zh": "太空歌剧",
+  "name_en": "Space Opera",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.science_fiction"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.science_fiction.cyberpunk",
+  "name": "Cyberpunk",
+  "type": "ART_GENRE",
+  "description": "Science fiction of high-tech, low-life near-futures.",
+  "name_zh": "赛博朋克",
+  "name_en": "Cyberpunk",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.science_fiction"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.mystery",
+  "name": "Mystery",
+  "type": "ART_GENRE",
+  "description": "Fiction centered on solving a puzzle or crime.",
+  "name_zh": "推理/悬疑",
+  "name_en": "Mystery",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.mystery.cozy_mystery",
+  "name": "Cozy Mystery",
+  "type": "ART_GENRE",
+  "description": "Gentle mystery subgenre of amateur sleuths in small settings.",
+  "name_zh": "舒适推理",
+  "name_en": "Cozy Mystery",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.mystery"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.mystery.hardboiled_detective",
+  "name": "Hardboiled Detective",
+  "type": "ART_GENRE",
+  "description": "Tough, cynical detective fiction of urban crime.",
+  "name_zh": "硬汉侦探",
+  "name_en": "Hardboiled Detective",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.mystery"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.crime_fiction",
+  "name": "Crime Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction about crime and criminals.",
+  "name_zh": "犯罪小说",
+  "name_en": "Crime Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.crime_fiction.noir_fiction",
+  "name": "Noir Fiction",
+  "type": "ART_GENRE",
+  "description": "Crime fiction of moral ambiguity and fatalism.",
+  "name_zh": "黑色小说",
+  "name_en": "Noir Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.crime_fiction"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.thriller",
+  "name": "Thriller",
+  "type": "ART_GENRE",
+  "description": "Fiction built on suspense and danger.",
+  "name_zh": "惊悚",
+  "name_en": "Thriller",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.horror_fiction",
+  "name": "Horror Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction designed to frighten.",
+  "name_zh": "恐怖",
+  "name_en": "Horror Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.horror_fiction.cosmic_horror",
+  "name": "Cosmic Horror",
+  "type": "ART_GENRE",
+  "description": "Horror subgenre of indifferent cosmic forces beyond comprehension.",
+  "name_zh": "宇宙恐怖",
+  "name_en": "Cosmic Horror",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.horror_fiction"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.horror_fiction.body_horror",
+  "name": "Body Horror",
+  "type": "ART_GENRE",
+  "description": "Horror subgenre of grotesque bodily transformation.",
+  "name_zh": "身体恐怖",
+  "name_en": "Body Horror",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.horror_fiction"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.romance",
+  "name": "Romance",
+  "type": "ART_GENRE",
+  "description": "Fiction centered on romantic love.",
+  "name_zh": "言情/爱情",
+  "name_en": "Romance",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.romance.historical_romance",
+  "name": "Historical Romance",
+  "type": "ART_GENRE",
+  "description": "Romance set in a historical period.",
+  "name_zh": "历史言情",
+  "name_en": "Historical Romance",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.romance"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.romance.paranormal_romance",
+  "name": "Paranormal Romance",
+  "type": "ART_GENRE",
+  "description": "Romance involving supernatural beings.",
+  "name_zh": "超自然言情",
+  "name_en": "Paranormal Romance",
+  "parent": "MEDIA.content_types.fiction.fiction_genres.romance"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.historical_fiction",
+  "name": "Historical Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction set in a real historical period.",
+  "name_zh": "历史小说",
+  "name_en": "Historical Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.western_fiction",
+  "name": "Western Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction set in the American frontier.",
+  "name_zh": "西部小说",
+  "name_en": "Western Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.adventure_fiction",
+  "name": "Adventure Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction of quests and perilous journeys.",
+  "name_zh": "冒险小说",
+  "name_en": "Adventure Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.literary_fiction",
+  "name": "Literary Fiction",
+  "type": "ART_GENRE",
+  "description": "Character-driven fiction valued for artistic merit.",
+  "name_zh": "纯文学",
+  "name_en": "Literary Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.magical_realism",
+  "name": "Magical Realism",
+  "type": "ART_GENRE",
+  "description": "Realist fiction infused with fantastical elements.",
+  "name_zh": "魔幻现实主义",
+  "name_en": "Magical Realism",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.dystopian_fiction",
+  "name": "Dystopian Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction of oppressive imagined societies.",
+  "name_zh": "反乌托邦小说",
+  "name_en": "Dystopian Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.utopian_fiction",
+  "name": "Utopian Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction of ideal imagined societies.",
+  "name_zh": "乌托邦小说",
+  "name_en": "Utopian Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.young_adult_fiction",
+  "name": "Young Adult Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction written for teenage readers.",
+  "name_zh": "青少年小说",
+  "name_en": "Young Adult Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.childrens_fiction",
+  "name": "Children's Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction written for children.",
+  "name_zh": "儿童小说",
+  "name_en": "Children's Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.gothic_fiction",
+  "name": "Gothic Fiction",
+  "type": "ART_GENRE",
+  "description": "Fiction of haunted, decaying settings and dread.",
+  "name_zh": "哥特小说",
+  "name_en": "Gothic Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.fiction.fiction_genres.speculative_fiction",
+  "name": "Speculative Fiction",
+  "type": "ART_GENRE",
+  "description": "Umbrella fiction of imagined realities, including SF and fantasy.",
+  "name_zh": "推想小说",
+  "name_en": "Speculative Fiction",
+  "parent": "MEDIA.content_types.fiction.fiction_genres"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction",
+  "name": "Nonfiction",
+  "type": "CONTENT_TYPE",
+  "description": "Factual content about the real world.",
+  "name_zh": "非虚构",
+  "name_en": "Nonfiction",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.biography",
+  "name": "Biography",
+  "type": "CONTENT_TYPE",
+  "description": "Account of a person's life written by another.",
+  "name_zh": "传记",
+  "name_en": "Biography",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.autobiography",
+  "name": "Autobiography",
+  "type": "CONTENT_TYPE",
+  "description": "Account of the author's own life.",
+  "name_zh": "自传",
+  "name_en": "Autobiography",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.memoir",
+  "name": "Memoir",
+  "type": "CONTENT_TYPE",
+  "description": "Personal narrative of a period or theme of the author's life.",
+  "name_zh": "回忆录",
+  "name_en": "Memoir",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.essay",
+  "name": "Essay",
+  "type": "CONTENT_TYPE",
+  "description": "Short prose reflection on a subject.",
+  "name_zh": "随笔/散文",
+  "name_en": "Essay",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.self_help",
+  "name": "Self-Help",
+  "type": "CONTENT_TYPE",
+  "description": "Content offering guidance for personal improvement.",
+  "name_zh": "自助成长类",
+  "name_en": "Self-Help",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.how_to",
+  "name": "How-To",
+  "type": "CONTENT_TYPE",
+  "description": "Instructional content for completing a task.",
+  "name_zh": "教程/指南",
+  "name_en": "How-To",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.travel_writing",
+  "name": "Travel Writing",
+  "type": "CONTENT_TYPE",
+  "description": "Nonfiction about places and journeys.",
+  "name_zh": "旅行写作",
+  "name_en": "Travel Writing",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.true_crime",
+  "name": "True Crime",
+  "type": "CONTENT_TYPE",
+  "description": "Nonfiction recounting real crimes.",
+  "name_zh": "真实犯罪",
+  "name_en": "True Crime",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.popular_science",
+  "name": "Popular Science",
+  "type": "CONTENT_TYPE",
+  "description": "Nonfiction explaining science to general audiences.",
+  "name_zh": "科普",
+  "name_en": "Popular Science",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.popular_history",
+  "name": "Popular History",
+  "type": "CONTENT_TYPE",
+  "description": "Nonfiction narrating history for general readers.",
+  "name_zh": "通俗历史",
+  "name_en": "Popular History",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.nonfiction.criticism",
+  "name": "Criticism",
+  "type": "CONTENT_TYPE",
+  "description": "Evaluative writing on art, media, and culture.",
+  "name_zh": "评论/批评",
+  "name_en": "Criticism",
+  "parent": "MEDIA.content_types.nonfiction"
+ },
+ {
+  "id": "MEDIA.content_types.educational",
+  "name": "Educational Content",
+  "type": "CONTENT_TYPE",
+  "description": "Content produced to teach knowledge or skills.",
+  "name_zh": "教育内容",
+  "name_en": "Educational Content",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.educational.tutorial",
+  "name": "Tutorial",
+  "type": "CONTENT_TYPE",
+  "description": "Step-by-step instruction in a skill.",
+  "name_zh": "教程",
+  "name_en": "Tutorial",
+  "parent": "MEDIA.content_types.educational"
+ },
+ {
+  "id": "MEDIA.content_types.educational.lecture_recording",
+  "name": "Lecture Recording",
+  "type": "CONTENT_TYPE",
+  "description": "Recorded academic lecture.",
+  "name_zh": "讲座录播",
+  "name_en": "Lecture Recording",
+  "parent": "MEDIA.content_types.educational"
+ },
+ {
+  "id": "MEDIA.content_types.educational.online_course",
+  "name": "Online Course",
+  "type": "CONTENT_TYPE",
+  "description": "Structured course delivered over the internet.",
+  "name_zh": "在线课程",
+  "name_en": "Online Course",
+  "parent": "MEDIA.content_types.educational"
+ },
+ {
+  "id": "MEDIA.content_types.educational.mooc",
+  "name": "MOOC",
+  "type": "CONTENT_TYPE",
+  "description": "Massive open online course.",
+  "name_zh": "慕课/MOOC",
+  "name_en": "MOOC",
+  "parent": "MEDIA.content_types.educational"
+ },
+ {
+  "id": "MEDIA.content_types.educational.textbook",
+  "name": "Textbook",
+  "type": "CONTENT_TYPE",
+  "description": "Systematic instructional book for a subject.",
+  "name_zh": "教科书",
+  "name_en": "Textbook",
+  "parent": "MEDIA.content_types.educational"
+ },
+ {
+  "id": "MEDIA.content_types.educational.educational_animation",
+  "name": "Educational Animation",
+  "type": "CONTENT_TYPE",
+  "description": "Animation designed to explain concepts.",
+  "name_zh": "教育动画",
+  "name_en": "Educational Animation",
+  "parent": "MEDIA.content_types.educational"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment",
+  "name": "Entertainment",
+  "type": "CONTENT_TYPE",
+  "description": "Content produced primarily to amuse and divert.",
+  "name_zh": "娱乐",
+  "name_en": "Entertainment",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment.comedy",
+  "name": "Comedy",
+  "type": "CONTENT_TYPE",
+  "description": "Content designed to provoke laughter.",
+  "name_zh": "喜剧",
+  "name_en": "Comedy",
+  "parent": "MEDIA.content_types.entertainment"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment.satire",
+  "name": "Satire",
+  "type": "CONTENT_TYPE",
+  "description": "Content using wit to expose folly and vice.",
+  "name_zh": "讽刺",
+  "name_en": "Satire",
+  "parent": "MEDIA.content_types.entertainment"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment.parody",
+  "name": "Parody",
+  "type": "CONTENT_TYPE",
+  "description": "Imitation of a work or style for comic effect.",
+  "name_zh": "戏仿",
+  "name_en": "Parody",
+  "parent": "MEDIA.content_types.entertainment"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment.talent_show",
+  "name": "Talent Show",
+  "type": "CONTENT_TYPE",
+  "description": "Competition showcasing performers' abilities.",
+  "name_zh": "选秀节目",
+  "name_en": "Talent Show",
+  "parent": "MEDIA.content_types.entertainment"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment.celebrity_media",
+  "name": "Celebrity Media",
+  "type": "CONTENT_TYPE",
+  "description": "Content about the lives of famous people.",
+  "name_zh": "名人媒体",
+  "name_en": "Celebrity Media",
+  "parent": "MEDIA.content_types.entertainment"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment.tabloid_entertainment",
+  "name": "Tabloid Entertainment",
+  "type": "CONTENT_TYPE",
+  "description": "Sensationalized celebrity and scandal content.",
+  "name_zh": "小报娱乐",
+  "name_en": "Tabloid Entertainment",
+  "parent": "MEDIA.content_types.entertainment"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment.concert_film",
+  "name": "Concert Film",
+  "type": "CONTENT_TYPE",
+  "description": "Film of a live music performance.",
+  "name_zh": "演唱会电影",
+  "name_en": "Concert Film",
+  "parent": "MEDIA.content_types.entertainment"
+ },
+ {
+  "id": "MEDIA.content_types.entertainment.lifestyle_content",
+  "name": "Lifestyle Content",
+  "type": "CONTENT_TYPE",
+  "description": "Content about fashion, food, travel, and consumption.",
+  "name_zh": "生活方式内容",
+  "name_en": "Lifestyle Content",
+  "parent": "MEDIA.content_types.entertainment"
+ },
+ {
+  "id": "MEDIA.content_types.user_generated_content",
+  "name": "User-Generated Content",
+  "type": "CONTENT_TYPE",
+  "description": "Content created by end users rather than professionals.",
+  "name_zh": "用户生成内容/UGC",
+  "name_en": "User-Generated Content",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.user_generated_content.meme",
+  "name": "Meme",
+  "type": "CONTENT_TYPE",
+  "description": "Humorous image or text spread and remixed online.",
+  "name_zh": "梗图/模因",
+  "name_en": "Meme",
+  "parent": "MEDIA.content_types.user_generated_content"
+ },
+ {
+  "id": "MEDIA.content_types.user_generated_content.fan_fiction",
+  "name": "Fan Fiction",
+  "type": "CONTENT_TYPE",
+  "description": "Amateur fiction based on existing works.",
+  "name_zh": "同人小说",
+  "name_en": "Fan Fiction",
+  "parent": "MEDIA.content_types.user_generated_content"
+ },
+ {
+  "id": "MEDIA.content_types.user_generated_content.citizen_media",
+  "name": "Citizen Media",
+  "type": "CONTENT_TYPE",
+  "description": "Media produced by ordinary citizens outside institutions.",
+  "name_zh": "公民媒体",
+  "name_en": "Citizen Media",
+  "parent": "MEDIA.content_types.user_generated_content"
+ },
+ {
+  "id": "MEDIA.content_types.user_generated_content.user_review",
+  "name": "User Review",
+  "type": "CONTENT_TYPE",
+  "description": "Consumer-authored evaluation of products and services.",
+  "name_zh": "用户评论",
+  "name_en": "User Review",
+  "parent": "MEDIA.content_types.user_generated_content"
+ },
+ {
+  "id": "MEDIA.content_types.user_generated_content.reaction_video",
+  "name": "Reaction Video",
+  "type": "CONTENT_TYPE",
+  "description": "Video of a person reacting to other content.",
+  "name_zh": "反应视频",
+  "name_en": "Reaction Video",
+  "parent": "MEDIA.content_types.user_generated_content"
+ },
+ {
+  "id": "MEDIA.content_types.user_generated_content.remix_culture",
+  "name": "Remix Culture",
+  "type": "CONTENT_TYPE",
+  "description": "Creative reuse and recombination of existing media.",
+  "name_zh": "混剪/混音文化",
+  "name_en": "Remix Culture",
+  "parent": "MEDIA.content_types.user_generated_content"
+ },
+ {
+  "id": "MEDIA.content_types.user_generated_content.mashup",
+  "name": "Mashup",
+  "type": "CONTENT_TYPE",
+  "description": "Work combining elements of two or more sources.",
+  "name_zh": "混搭作品",
+  "name_en": "Mashup",
+  "parent": "MEDIA.content_types.user_generated_content"
+ },
+ {
+  "id": "MEDIA.content_types.advertising",
+  "name": "Advertising Content",
+  "type": "CONTENT_TYPE",
+  "description": "Paid persuasive content promoting products, services, or ideas.",
+  "name_zh": "广告内容",
+  "name_en": "Advertising Content",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.television_commercial",
+  "name": "Television Commercial",
+  "type": "CONTENT_TYPE",
+  "description": "Short advertising film aired on television.",
+  "name_zh": "电视广告",
+  "name_en": "Television Commercial",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.radio_commercial",
+  "name": "Radio Commercial",
+  "type": "CONTENT_TYPE",
+  "description": "Advertising spot aired on radio.",
+  "name_zh": "广播广告",
+  "name_en": "Radio Commercial",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.print_advertisement",
+  "name": "Print Advertisement",
+  "type": "CONTENT_TYPE",
+  "description": "Advertising placed in print media.",
+  "name_zh": "平面广告",
+  "name_en": "Print Advertisement",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.online_advertising",
+  "name": "Online Advertising",
+  "type": "CONTENT_TYPE",
+  "description": "Advertising delivered across websites and apps.",
+  "name_zh": "网络广告",
+  "name_en": "Online Advertising",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.native_advertising",
+  "name": "Native Advertising",
+  "type": "CONTENT_TYPE",
+  "description": "Advertising that mimics surrounding editorial content.",
+  "name_zh": "原生广告",
+  "name_en": "Native Advertising",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.sponsored_content",
+  "name": "Sponsored Content",
+  "type": "CONTENT_TYPE",
+  "description": "Editorial-style content paid for by a sponsor.",
+  "name_zh": "赞助内容",
+  "name_en": "Sponsored Content",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.product_placement",
+  "name": "Product Placement",
+  "type": "CONTENT_TYPE",
+  "description": "Paid integration of a brand within entertainment.",
+  "name_zh": "植入式广告",
+  "name_en": "Product Placement",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.classified_advertisement",
+  "name": "Classified Advertisement",
+  "type": "CONTENT_TYPE",
+  "description": "Small text ad, traditionally in newspapers.",
+  "name_zh": "分类广告",
+  "name_en": "Classified Advertisement",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.public_service_announcement",
+  "name": "Public Service Announcement",
+  "type": "CONTENT_TYPE",
+  "description": "Nonprofit message promoting public welfare.",
+  "name_zh": "公益广告",
+  "name_en": "Public Service Announcement",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.political_advertising",
+  "name": "Political Advertising",
+  "type": "CONTENT_TYPE",
+  "description": "Advertising promoting candidates or causes.",
+  "name_zh": "政治广告",
+  "name_en": "Political Advertising",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.infomercial",
+  "name": "Infomercial",
+  "type": "CONTENT_TYPE",
+  "description": "Long-form television ad resembling a program.",
+  "name_zh": "电视购物广告",
+  "name_en": "Infomercial",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.advertising.viral_marketing",
+  "name": "Viral Marketing",
+  "type": "CONTENT_TYPE",
+  "description": "Content designed to spread rapidly by sharing.",
+  "name_zh": "病毒式营销",
+  "name_en": "Viral Marketing",
+  "parent": "MEDIA.content_types.advertising"
+ },
+ {
+  "id": "MEDIA.content_types.propaganda",
+  "name": "Propaganda",
+  "type": "CONTENT_TYPE",
+  "description": "Media designed to influence beliefs toward a political end.",
+  "name_zh": "宣传",
+  "name_en": "Propaganda",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.content_types.propaganda.political_propaganda",
+  "name": "Political Propaganda",
+  "type": "CONTENT_TYPE",
+  "description": "Propaganda promoting a party, leader, or ideology.",
+  "name_zh": "政治宣传",
+  "name_en": "Political Propaganda",
+  "parent": "MEDIA.content_types.propaganda"
+ },
+ {
+  "id": "MEDIA.content_types.propaganda.war_propaganda",
+  "name": "War Propaganda",
+  "type": "CONTENT_TYPE",
+  "description": "Propaganda mobilizing support for war.",
+  "name_zh": "战争宣传",
+  "name_en": "War Propaganda",
+  "parent": "MEDIA.content_types.propaganda"
+ },
+ {
+  "id": "MEDIA.content_types.propaganda.disinformation",
+  "name": "Disinformation",
+  "type": "CONTENT_TYPE",
+  "description": "Deliberately false information spread to deceive.",
+  "name_zh": "虚假信息",
+  "name_en": "Disinformation",
+  "parent": "MEDIA.content_types.propaganda"
+ },
+ {
+  "id": "MEDIA.content_types.propaganda.black_propaganda",
+  "name": "Black Propaganda",
+  "type": "CONTENT_TYPE",
+  "description": "Propaganda falsely attributed to an opposing source.",
+  "name_zh": "黑色宣传",
+  "name_en": "Black Propaganda",
+  "parent": "MEDIA.content_types.propaganda"
+ },
+ {
+  "id": "MEDIA.content_types.propaganda.agitprop",
+  "name": "Agitprop",
+  "type": "CONTENT_TYPE",
+  "description": "Agitational propaganda art and media, originating in Soviet Russia.",
+  "name_zh": "宣传鼓动",
+  "historical": true,
+  "name_en": "Agitprop",
+  "parent": "MEDIA.content_types.propaganda"
+ },
+ {
+  "id": "MEDIA.content_types.sports_media",
+  "name": "Sports Media",
+  "type": "CONTENT_TYPE",
+  "description": "Media coverage and content about sport.",
+  "name_zh": "体育媒体",
+  "name_en": "Sports Media",
+  "parent": "MEDIA.content_types"
+ },
+ {
+  "id": "MEDIA.emerging_media",
+  "name": "Emerging Media",
+  "type": "EMERGING_FIELD",
+  "description": "Nascent media forms enabled by new technology and AI.",
+  "name_zh": "新兴媒体",
+  "name_en": "Emerging Media",
+  "parent": "MEDIA_AND_CONTENT"
+ },
+ {
+  "id": "MEDIA.emerging_media.ai_generated_content",
+  "name": "AI-Generated Content",
+  "type": "EMERGING_FIELD",
+  "description": "Media text, images, and video produced by generative AI.",
+  "name_zh": "AIGC/人工智能生成内容",
+  "name_en": "AI-Generated Content",
+  "parent": "MEDIA.emerging_media"
+ },
+ {
+  "id": "MEDIA.emerging_media.synthetic_media",
+  "name": "Synthetic Media",
+  "type": "EMERGING_FIELD",
+  "description": "Fully or partly artificial media indistinguishable from recorded reality.",
+  "name_zh": "合成媒体",
+  "name_en": "Synthetic Media",
+  "parent": "MEDIA.emerging_media"
+ },
+ {
+  "id": "MEDIA.emerging_media.deepfake_media",
+  "name": "Deepfake Media",
+  "type": "EMERGING_FIELD",
+  "description": "Manipulated media replacing a person's likeness or voice.",
+  "name_zh": "深度伪造",
+  "name_en": "Deepfake Media",
+  "parent": "MEDIA.emerging_media"
+ },
+ {
+  "id": "MEDIA.emerging_media.virtual_influencer",
+  "name": "Virtual Influencer",
+  "type": "EMERGING_FIELD",
+  "description": "Computer-generated persona presented as a social-media influencer.",
+  "name_zh": "虚拟网红",
+  "name_en": "Virtual Influencer",
+  "parent": "MEDIA.emerging_media"
+ },
+ {
+  "id": "MEDIA.emerging_media.algorithmic_curation",
+  "name": "Algorithmic Curation",
+  "type": "EMERGING_FIELD",
+  "description": "Automated selection and ranking of content by recommendation systems.",
+  "name_zh": "算法推荐",
+  "name_en": "Algorithmic Curation",
+  "parent": "MEDIA.emerging_media"
+ },
+ {
+  "id": "MEDIA.emerging_media.automated_journalism",
+  "name": "Automated Journalism",
+  "type": "EMERGING_FIELD",
+  "description": "News written or produced by software from structured data.",
+  "name_zh": "自动化新闻",
+  "name_en": "Automated Journalism",
+  "parent": "MEDIA.emerging_media"
+ },
+ {
+  "id": "MEDIA.emerging_media.immersive_media",
+  "name": "Immersive Media",
+  "type": "EMERGING_FIELD",
+  "description": "Media experienced through VR, AR, and spatial computing.",
+  "name_zh": "沉浸式媒体",
+  "name_en": "Immersive Media",
+  "parent": "MEDIA.emerging_media"
+ },
+ {
+  "id": "MEDIA.emerging_media.metaverse_media",
+  "name": "Metaverse Media",
+  "type": "EMERGING_FIELD",
+  "description": "Media within persistent shared virtual worlds.",
+  "name_zh": "元宇宙媒体",
+  "name_en": "Metaverse Media",
+  "parent": "MEDIA.emerging_media"
+ },
+ {
+  "id": "MEDIA.emerging_media.spatial_media",
+  "name": "Spatial Media",
+  "type": "EMERGING_FIELD",
+  "description": "3D volumetric media viewed in physical space.",
+  "name_zh": "空间媒体",
+  "name_en": "Spatial Media",
+  "parent": "MEDIA.emerging_media"
+ }
+]
