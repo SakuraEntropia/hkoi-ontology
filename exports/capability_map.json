@@ -1,0 +1,3186 @@
+{
+ "meta": {
+  "name": "Human Civilization Capability Map",
+  "nodes": 166,
+  "generatedAt": "2026-09-05T08:44:21.052Z"
+ },
+ "nodes": [
+  {
+   "id": "cap.human_civilization",
+   "name": "Human Civilization",
+   "name_zh": "人类文明",
+   "category": "Root",
+   "definition": "The totality of modern human capabilities — what we can collectively know, make, build, move, communicate, and create.",
+   "importance": 5,
+   "parent": null,
+   "representatives": []
+  },
+  {
+   "id": "cap.mathematics",
+   "name": "Mathematics",
+   "name_zh": "数学",
+   "category": "Science",
+   "definition": "The formal science of structure, quantity, change, and inference, underpinning every quantitative capability.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "Institute for Advanced Study",
+     "reason": "20世纪以来纯粹数学与理论物理的研究枢纽"
+    },
+    {
+     "name": "École Normale Supérieure (Paris)",
+     "reason": "长期培养现代数学核心人才的研究中心"
+    }
+   ]
+  },
+  {
+   "id": "cap.natural_sciences",
+   "name": "Natural Sciences",
+   "name_zh": "自然科学",
+   "category": "Science",
+   "definition": "Physics, chemistry, biology, Earth and space science — systematic understanding of the physical and living world.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "CERN",
+     "reason": "粒子物理旗舰实验机构"
+    },
+    {
+     "name": "NASA / ESA",
+     "reason": "航天与行星科学的公共机构代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing",
+   "name": "Computing & Information",
+   "name_zh": "计算与信息",
+   "category": "Technology",
+   "definition": "Hardware, software, and networks that store, process, and transmit information.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "TSMC",
+     "reason": "先进半导体制造的代表"
+    },
+    {
+     "name": "Linux Foundation",
+     "reason": "开源操作系统生态的核心组织"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence",
+   "name": "Artificial Intelligence",
+   "name_zh": "人工智能",
+   "category": "Technology",
+   "definition": "Machines that learn, reason, and act — from pattern recognition to general-purpose agents.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "OpenAI",
+     "reason": "推动大规模通用模型与产品化"
+    },
+    {
+     "name": "Google DeepMind",
+     "reason": "强化学习与基础模型的科研先锋"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy",
+   "name": "Energy",
+   "name_zh": "能源",
+   "category": "Infrastructure",
+   "definition": "Generation, storage, and distribution of power — the physical foundation of civilization.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "国家电网 (State Grid)",
+     "reason": "全球最大的输电网络运营商"
+    },
+    {
+     "name": "Tesla Energy",
+     "reason": "电池储能与可再生能源产业化代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing",
+   "name": "Materials & Manufacturing",
+   "name_zh": "材料与制造",
+   "category": "Economy",
+   "definition": "Turning raw matter into materials, components, and finished goods at scale.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "ASML",
+     "reason": "EUV光刻机——先进半导体制造关键设备"
+    },
+    {
+     "name": "Toyota",
+     "reason": "精益制造与量产质量体系代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation",
+   "name": "Transportation",
+   "name_zh": "交通运输",
+   "category": "Infrastructure",
+   "definition": "Moving people and goods by land, sea, air, and rail.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "Toyota / BYD",
+     "reason": "燃油与电动时代汽车制造代表"
+    },
+    {
+     "name": "Boeing / Airbus",
+     "reason": "干线民航双寡头"
+    }
+   ]
+  },
+  {
+   "id": "cap.space",
+   "name": "Space & Aerospace",
+   "name_zh": "航天",
+   "category": "Infrastructure",
+   "definition": "Access to orbit and beyond — launch, satellites, exploration, space infrastructure.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "SpaceX",
+     "reason": "可重复使用火箭革命"
+    },
+    {
+     "name": "NASA",
+     "reason": "深空探测与科学任务的公共机构"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health",
+   "name": "Life Sciences & Health",
+   "name_zh": "生命科学与健康",
+   "category": "Science",
+   "definition": "Medicine, biology, pharmaceuticals, and biotechnology — understanding and intervening in life.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "NIH",
+     "reason": "全球最大生物医学研究资助机构"
+    },
+    {
+     "name": "Moderna",
+     "reason": "mRNA疫苗与创新药代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.agriculture_food",
+   "name": "Agriculture & Food",
+   "name_zh": "农业与食物",
+   "category": "Economy",
+   "definition": "Producing, processing, and distributing food for eight billion people.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "FAO",
+     "reason": "全球粮食与农业协调机构"
+    },
+    {
+     "name": "Bayer Crop Science",
+     "reason": "种子与农业科技代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure",
+   "name": "Infrastructure & Cities",
+   "name_zh": "基础设施与城市",
+   "category": "Infrastructure",
+   "definition": "Buildings, roads, water, power, and the systems that make cities habitable.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "中国建筑 (CSCEC)",
+     "reason": "大型工程建设代表企业"
+    },
+    {
+     "name": "Bjarke Ingels Group",
+     "reason": "当代城市与建筑先锋事务所"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance",
+   "name": "Economy & Finance",
+   "name_zh": "经济与金融",
+   "category": "Economy",
+   "definition": "Capital allocation, banking, markets, and the institutions that price and move value.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "JPMorgan Chase",
+     "reason": "全球系统重要性银行"
+    },
+    {
+     "name": "BlackRock",
+     "reason": "全球最大资产管理机构"
+    }
+   ]
+  },
+  {
+   "id": "cap.communication_media",
+   "name": "Communication & Media",
+   "name_zh": "通信与媒体",
+   "category": "Communication",
+   "definition": "Search, social, messaging, news, streaming — how information reaches and connects people.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "Google",
+     "reason": "搜索与信息检索入口"
+    },
+    {
+     "name": "Meta",
+     "reason": "社交网络与信息分发代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts",
+   "name": "Culture & Arts",
+   "name_zh": "文化艺术",
+   "category": "Culture",
+   "definition": "Music, visual art, film, literature, animation, games, design — what humanity makes for meaning.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "UNESCO",
+     "reason": "世界文化遗产的国际协调机构"
+    }
+   ]
+  },
+  {
+   "id": "cap.education",
+   "name": "Education & Knowledge",
+   "name_zh": "教育与知识",
+   "category": "Society",
+   "definition": "Universities, schools, publishing, and platforms that transmit knowledge across generations.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "MIT / 清华大学",
+     "reason": "理工与工程教育代表"
+    },
+    {
+     "name": "Coursera / Khan Academy",
+     "reason": "在线教育代表平台"
+    }
+   ]
+  },
+  {
+   "id": "cap.recreation_sports",
+   "name": "Recreation & Sports",
+   "name_zh": "娱乐与体育",
+   "category": "Culture",
+   "definition": "Games, sports, and leisure — organized play and spectacle at planetary scale.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "FIFA",
+     "reason": "全球最广泛运动的管理组织"
+    },
+    {
+     "name": "Nintendo",
+     "reason": "游戏设计文化代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.society_governance",
+   "name": "Society & Governance",
+   "name_zh": "社会与治理",
+   "category": "Society",
+   "definition": "Law, public administration, international coordination, and institutions of collective life.",
+   "importance": 5,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "联合国 (United Nations)",
+     "reason": "国际治理与协调核心组织"
+    }
+   ]
+  },
+  {
+   "id": "cap.defense_security",
+   "name": "Defense & Security",
+   "name_zh": "国防与安全",
+   "category": "Society",
+   "definition": "Military capability and civil security — protecting states and infrastructure.",
+   "importance": 4,
+   "parent": "cap.human_civilization",
+   "representatives": [
+    {
+     "name": "Lockheed Martin",
+     "reason": "先进军用平台代表"
+    },
+    {
+     "name": "Northrop Grumman",
+     "reason": "隐身与空间防务系统代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.mathematics.pure",
+   "name": "Pure Mathematics",
+   "name_zh": "纯数学",
+   "category": "Science",
+   "definition": "结构、数、空间与证明——不求直接应用的基础数学。",
+   "importance": 5,
+   "parent": "cap.mathematics",
+   "representatives": [
+    {
+     "name": "Terence Tao",
+     "reason": "调和分析、数论与数学传播的标志人物"
+    },
+    {
+     "name": "Grigori Perelman",
+     "reason": "证明庞加莱猜想的代表性数学家"
+    }
+   ]
+  },
+  {
+   "id": "cap.mathematics.applied",
+   "name": "Applied Mathematics",
+   "name_zh": "应用数学",
+   "category": "Science",
+   "definition": "把数学用于物理、工程、金融与生命科学的建模与计算。",
+   "importance": 5,
+   "parent": "cap.mathematics",
+   "representatives": [
+    {
+     "name": "Princeton / Courant Institute",
+     "reason": "应用数学研究重镇"
+    }
+   ]
+  },
+  {
+   "id": "cap.mathematics.statistics",
+   "name": "Statistics",
+   "name_zh": "统计学",
+   "category": "Science",
+   "definition": "从数据中推断、预测与决策的方法论。",
+   "importance": 5,
+   "parent": "cap.mathematics",
+   "representatives": [
+    {
+     "name": "Stanford Statistics",
+     "reason": "现代统计与数据科学源头之一"
+    }
+   ]
+  },
+  {
+   "id": "cap.mathematics.optimization",
+   "name": "Optimization",
+   "name_zh": "最优化",
+   "category": "Science",
+   "definition": "在约束下寻找最优解——贯穿机器学习、物流、金融。",
+   "importance": 4,
+   "parent": "cap.mathematics",
+   "representatives": [
+    {
+     "name": "Stephen Boyd",
+     "reason": "凸优化教材与研究的代表人物"
+    }
+   ]
+  },
+  {
+   "id": "cap.mathematics.cryptography",
+   "name": "Cryptography",
+   "name_zh": "密码学",
+   "category": "Science",
+   "definition": "加密、签名与安全协议——数字信任的数学基础。",
+   "importance": 5,
+   "parent": "cap.mathematics",
+   "representatives": [
+    {
+     "name": "NIST",
+     "reason": "后量子密码标准制定机构"
+    },
+    {
+     "name": "Dan Boneh",
+     "reason": "密码学教育与研究的代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.natural_sciences.physics",
+   "name": "Physics",
+   "name_zh": "物理学",
+   "category": "Science",
+   "definition": "物质、能量、时空与基本力的规律。",
+   "importance": 5,
+   "parent": "cap.natural_sciences",
+   "representatives": [
+    {
+     "name": "CERN (LHC)",
+     "reason": "希格斯玻色子与高能物理旗舰"
+    },
+    {
+     "name": "LIGO",
+     "reason": "引力波直接探测"
+    }
+   ]
+  },
+  {
+   "id": "cap.natural_sciences.quantum",
+   "name": "Quantum Physics",
+   "name_zh": "量子物理",
+   "category": "Science",
+   "definition": "量子力学、量子信息与量子技术。",
+   "importance": 5,
+   "parent": "cap.natural_sciences",
+   "representatives": [
+    {
+     "name": "IBM Quantum",
+     "reason": "超导量子计算产业化"
+    },
+    {
+     "name": "潘建伟团队",
+     "reason": "量子通信与光量子计算"
+    }
+   ]
+  },
+  {
+   "id": "cap.natural_sciences.chemistry",
+   "name": "Chemistry",
+   "name_zh": "化学",
+   "category": "Science",
+   "definition": "物质组成、结构与反应的分子科学。",
+   "importance": 5,
+   "parent": "cap.natural_sciences",
+   "representatives": [
+    {
+     "name": "巴斯夫 (BASF)",
+     "reason": "工业化学代表"
+    },
+    {
+     "name": "Frances Arnold",
+     "reason": "酶的定向进化（诺贝尔奖）"
+    }
+   ]
+  },
+  {
+   "id": "cap.natural_sciences.biology",
+   "name": "Biology",
+   "name_zh": "生物学",
+   "category": "Science",
+   "definition": "生命系统的结构、功能与演化。",
+   "importance": 5,
+   "parent": "cap.natural_sciences",
+   "representatives": [
+    {
+     "name": "Broad Institute",
+     "reason": "基因组学的旗舰研究机构"
+    },
+    {
+     "name": "Jennifer Doudna",
+     "reason": "CRISPR基因编辑先驱"
+    }
+   ]
+  },
+  {
+   "id": "cap.natural_sciences.earth_climate",
+   "name": "Earth & Climate Science",
+   "name_zh": "地球与气候科学",
+   "category": "Science",
+   "definition": "地球系统、气候与环境的科学理解。",
+   "importance": 5,
+   "parent": "cap.natural_sciences",
+   "representatives": [
+    {
+     "name": "IPCC",
+     "reason": "气候变化权威评估机构"
+    },
+    {
+     "name": "NOAA",
+     "reason": "气候与海洋观测"
+    }
+   ]
+  },
+  {
+   "id": "cap.natural_sciences.astronomy",
+   "name": "Astronomy",
+   "name_zh": "天文学",
+   "category": "Science",
+   "definition": "对宇宙天体的观测与理论。",
+   "importance": 4,
+   "parent": "cap.natural_sciences",
+   "representatives": [
+    {
+     "name": "James Webb Space Telescope",
+     "reason": "红外深空观测旗舰"
+    },
+    {
+     "name": "ESO",
+     "reason": "地面大型望远镜"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.hardware",
+   "name": "Computing Hardware",
+   "name_zh": "计算硬件",
+   "category": "Technology",
+   "definition": "处理器、存储与计算设备的物理层。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "TSMC",
+     "reason": "先进制程代工"
+    },
+    {
+     "name": "NVIDIA",
+     "reason": "GPU与AI算力"
+    },
+    {
+     "name": "Intel / AMD",
+     "reason": "x86处理器"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.semiconductors",
+   "name": "Semiconductors",
+   "name_zh": "半导体",
+   "category": "Technology",
+   "definition": "芯片设计、制造与封测。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "ASML",
+     "reason": "EUV光刻机"
+    },
+    {
+     "name": "ARM",
+     "reason": "移动与嵌入式指令集"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.operating_systems",
+   "name": "Operating Systems",
+   "name_zh": "操作系统",
+   "category": "Technology",
+   "definition": "管理硬件与软件的系统软件。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "Linux",
+     "reason": "开源内核统治服务器与移动"
+    },
+    {
+     "name": "Microsoft Windows",
+     "reason": "桌面与企业OS"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.programming_languages",
+   "name": "Programming Languages",
+   "name_zh": "编程语言",
+   "category": "Technology",
+   "definition": "人机之间的形式化表达语言。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "Python",
+     "reason": "AI与数据科学事实标准"
+    },
+    {
+     "name": "Rust",
+     "reason": "内存安全的系统语言"
+    },
+    {
+     "name": "C/C++",
+     "reason": "系统与性能基石"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.databases",
+   "name": "Databases",
+   "name_zh": "数据库",
+   "category": "Technology",
+   "definition": "数据的存储、查询与事务。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "PostgreSQL",
+     "reason": "开源关系数据库"
+    },
+    {
+     "name": "Snowflake",
+     "reason": "云数据仓库代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.networking",
+   "name": "Networking",
+   "name_zh": "网络",
+   "category": "Technology",
+   "definition": "连接设备与传输数据的协议与设施。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "Cisco",
+     "reason": "路由与交换设备"
+    },
+    {
+     "name": "Cloudflare",
+     "reason": "CDN与边缘网络"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.cloud",
+   "name": "Cloud Computing",
+   "name_zh": "云计算",
+   "category": "Technology",
+   "definition": "按需弹性供给的计算与存储资源。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "AWS",
+     "reason": "云计算开创者"
+    },
+    {
+     "name": "Kubernetes / CNCF",
+     "reason": "云原生编排标准"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.computer_graphics",
+   "name": "Computer Graphics",
+   "name_zh": "计算机图形学",
+   "category": "Technology",
+   "definition": "图像的合成、渲染与模拟。",
+   "importance": 4,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "NVIDIA (RTX/CUDA)",
+     "reason": "实时光追与GPU渲染"
+    },
+    {
+     "name": "Pixar (RenderMan)",
+     "reason": "电影级渲染"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.computer_vision",
+   "name": "Computer Vision",
+   "name_zh": "计算机视觉",
+   "category": "Technology",
+   "definition": "让机器理解图像与视频。",
+   "importance": 4,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "Yann LeCun",
+     "reason": "CNN与深度学习视觉先驱"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.robotics",
+   "name": "Robotics",
+   "name_zh": "机器人学",
+   "category": "Technology",
+   "definition": "感知-规划-控制的物理智能体。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "Boston Dynamics",
+     "reason": "仿生与运动机器人"
+    },
+    {
+     "name": "Fanuc",
+     "reason": "工业机器人代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.machine_learning",
+   "name": "Machine Learning",
+   "name_zh": "机器学习",
+   "category": "Technology",
+   "definition": "从数据中学习规律并泛化的算法族。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "Scikit-learn",
+     "reason": "经典ML的事实标准"
+    },
+    {
+     "name": "Yann LeCun / Geoffrey Hinton",
+     "reason": "深度学习奠基人"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.deep_learning",
+   "name": "Deep Learning",
+   "name_zh": "深度学习",
+   "category": "Technology",
+   "definition": "多层神经网络的表征学习。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "Geoffrey Hinton",
+     "reason": "反向传播与深度学习奠基"
+    },
+    {
+     "name": "PyTorch / Meta",
+     "reason": "主流深度学习框架"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.foundation_models",
+   "name": "Foundation Models",
+   "name_zh": "基础模型",
+   "category": "Technology",
+   "definition": "大规模预训练、可多任务泛化的通用模型。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "OpenAI",
+     "reason": "GPT系列与通用模型产品化"
+    },
+    {
+     "name": "Anthropic",
+     "reason": "Claude与安全对齐路线"
+    },
+    {
+     "name": "DeepSeek",
+     "reason": "开源与高效训练的突破"
+    },
+    {
+     "name": "Google DeepMind",
+     "reason": "Gemini与前沿科研"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.generative_ai",
+   "name": "Generative AI",
+   "name_zh": "生成式AI",
+   "category": "Technology",
+   "definition": "生成文本、图像、音频、视频与代码。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "OpenAI (GPT/DALL·E/Sora)",
+     "reason": "文本-图像-视频生成"
+    },
+    {
+     "name": "Midjourney",
+     "reason": "图像生成的标杆"
+    },
+    {
+     "name": "Stability AI",
+     "reason": "开源扩散模型"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.multimodal",
+   "name": "Multimodal AI",
+   "name_zh": "多模态AI",
+   "category": "Technology",
+   "definition": "跨文本、图像、语音的统一理解与生成。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "OpenAI (GPT-4o)",
+     "reason": "原生多模态交互"
+    },
+    {
+     "name": "Google (Gemini)",
+     "reason": "跨模态长上下文"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.agents",
+   "name": "AI Agents",
+   "name_zh": "AI智能体",
+   "category": "Technology",
+   "definition": "自主规划、调用工具并完成任务的智能体。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "OpenAI (Agents/Operator)",
+     "reason": "智能体产品化"
+    },
+    {
+     "name": "Anthropic (Claude computer use)",
+     "reason": "计算机操作智能体"
+    },
+    {
+     "name": "LangChain / Hugging Face",
+     "reason": "智能体开源工具链"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.coding_agents",
+   "name": "Coding Agents",
+   "name_zh": "编程智能体",
+   "category": "Technology",
+   "definition": "辅助或自主编写、审查、重构代码。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "GitHub Copilot",
+     "reason": "最广泛使用的AI编程助手"
+    },
+    {
+     "name": "Cursor",
+     "reason": "AI原生代码编辑器"
+    },
+    {
+     "name": "Cognition (Devin)",
+     "reason": "自主软件工程智能体"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.world_models",
+   "name": "World Models",
+   "name_zh": "世界模型",
+   "category": "Technology",
+   "definition": "对物理世界与因果进行建模与预测的模型。",
+   "importance": 4,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "World Labs (李飞飞)",
+     "reason": "空间智能与世界模型"
+    },
+    {
+     "name": "NVIDIA (Cosmos)",
+     "reason": "物理世界基础模型"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.embodied_ai",
+   "name": "Embodied AI",
+   "name_zh": "具身智能",
+   "category": "Technology",
+   "definition": "让智能体在物理世界中感知、行动与操作。",
+   "importance": 4,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "Tesla (Optimus)",
+     "reason": "人形机器人量产路线"
+    },
+    {
+     "name": "Figure AI",
+     "reason": "通用人形机器人"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.ai_infrastructure",
+   "name": "AI Infrastructure",
+   "name_zh": "AI基础设施",
+   "category": "Technology",
+   "definition": "训练与推理所需的算力、芯片与系统。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "NVIDIA",
+     "reason": "GPU与CUDA生态"
+    },
+    {
+     "name": "TSMC",
+     "reason": "先进AI芯片制造"
+    },
+    {
+     "name": "Google (TPU)",
+     "reason": "自研AI加速器"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.ai_safety",
+   "name": "AI Safety & Alignment",
+   "name_zh": "AI安全与对齐",
+   "category": "Technology",
+   "definition": "确保AI系统可靠、可控、符合人类意图。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "Anthropic",
+     "reason": "对齐研究与宪法AI"
+    },
+    {
+     "name": "OpenAI (alignment)",
+     "reason": "超级对齐探索"
+    },
+    {
+     "name": "DeepMind (safety)",
+     "reason": "前沿安全研究"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.fossil",
+   "name": "Fossil Fuels",
+   "name_zh": "化石能源",
+   "category": "Energy",
+   "definition": "石油、天然气与煤炭的开采与利用。",
+   "importance": 5,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "Saudi Aramco",
+     "reason": "全球最大石油公司"
+    },
+    {
+     "name": "ExxonMobil",
+     "reason": "国际石油巨头"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.solar",
+   "name": "Solar Power",
+   "name_zh": "太阳能",
+   "category": "Energy",
+   "definition": "光伏发电——增长最快的能源。",
+   "importance": 5,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "隆基绿能 (LONGi)",
+     "reason": "全球光伏龙头"
+    },
+    {
+     "name": "First Solar",
+     "reason": "薄膜光伏代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.wind",
+   "name": "Wind Power",
+   "name_zh": "风能",
+   "category": "Energy",
+   "definition": "陆上与海上风力发电。",
+   "importance": 4,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "Vestas",
+     "reason": "风机制造龙头"
+    },
+    {
+     "name": "Ørsted",
+     "reason": "海上风电先驱"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.nuclear",
+   "name": "Nuclear Power",
+   "name_zh": "核能",
+   "category": "Energy",
+   "definition": "裂变与聚变核能发电。",
+   "importance": 4,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "EDF",
+     "reason": "核电机组运营巨头"
+    },
+    {
+     "name": "Westinghouse",
+     "reason": "核电技术与燃料"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.batteries",
+   "name": "Batteries & Storage",
+   "name_zh": "电池与储能",
+   "category": "Energy",
+   "definition": "电化学储能——支撑电动车与电网。",
+   "importance": 5,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "宁德时代 (CATL)",
+     "reason": "全球动力电池龙头"
+    },
+    {
+     "name": "Tesla (Megapack)",
+     "reason": "电网级储能"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.grid",
+   "name": "Power Grid",
+   "name_zh": "电网",
+   "category": "Energy",
+   "definition": "输电、配电与调度网络。",
+   "importance": 5,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "国家电网 (State Grid)",
+     "reason": "全球最大电网"
+    },
+    {
+     "name": "ABB / Siemens",
+     "reason": "电网设备"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.fusion",
+   "name": "Fusion Energy",
+   "name_zh": "聚变能",
+   "category": "Energy",
+   "definition": "可控核聚变——终极清洁能源。",
+   "importance": 4,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "ITER",
+     "reason": "国际聚变实验堆"
+    },
+    {
+     "name": "Commonwealth Fusion Systems",
+     "reason": "高温超导托卡马克"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing.materials",
+   "name": "Advanced Materials",
+   "name_zh": "先进材料",
+   "category": "Economy",
+   "definition": "金属、聚合物、陶瓷、复合材料与纳米材料。",
+   "importance": 5,
+   "parent": "cap.materials_manufacturing",
+   "representatives": [
+    {
+     "name": "BASF",
+     "reason": "全球化工与材料巨头"
+    },
+    {
+     "name": "DuPont",
+     "reason": "特种材料代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing.steel",
+   "name": "Steel & Metals",
+   "name_zh": "钢铁与金属",
+   "category": "Economy",
+   "definition": "钢铁与有色金属的冶炼与加工。",
+   "importance": 5,
+   "parent": "cap.materials_manufacturing",
+   "representatives": [
+    {
+     "name": "中国宝武 (Baowu)",
+     "reason": "全球最大钢铁企业"
+    },
+    {
+     "name": "ArcelorMittal",
+     "reason": "跨国钢铁巨头"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing.machine_tools",
+   "name": "Machine Tools",
+   "name_zh": "机床",
+   "category": "Economy",
+   "definition": "制造机器的机器——工业母机。",
+   "importance": 5,
+   "parent": "cap.materials_manufacturing",
+   "representatives": [
+    {
+     "name": "DMG MORI",
+     "reason": "高端数控机床"
+    },
+    {
+     "name": "发那科 (Fanuc)",
+     "reason": "数控系统与机器人"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing.industrial_robots",
+   "name": "Industrial Robots",
+   "name_zh": "工业机器人",
+   "category": "Economy",
+   "definition": "焊接、装配、搬运的自动化机器人。",
+   "importance": 4,
+   "parent": "cap.materials_manufacturing",
+   "representatives": [
+    {
+     "name": "Fanuc",
+     "reason": "全球工业机器人龙头"
+    },
+    {
+     "name": "ABB / KUKA",
+     "reason": "工业自动化代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing.automation",
+   "name": "Industrial Automation",
+   "name_zh": "工业自动化",
+   "category": "Economy",
+   "definition": "PLC、DCS与智能制造控制系统。",
+   "importance": 4,
+   "parent": "cap.materials_manufacturing",
+   "representatives": [
+    {
+     "name": "Siemens",
+     "reason": "数字化工业与PLC"
+    },
+    {
+     "name": "Rockwell Automation",
+     "reason": "工业控制系统"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing.chemical",
+   "name": "Chemical Industry",
+   "name_zh": "化学工业",
+   "category": "Economy",
+   "definition": "基础化学品、石化与精细化工。",
+   "importance": 5,
+   "parent": "cap.materials_manufacturing",
+   "representatives": [
+    {
+     "name": "BASF",
+     "reason": "全球化工巨头"
+    },
+    {
+     "name": "Dow",
+     "reason": "基础材料与特种化学"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing.aerospace_mfg",
+   "name": "Aerospace Manufacturing",
+   "name_zh": "航空航天制造",
+   "category": "Economy",
+   "definition": "飞机、发动机与航天器的制造。",
+   "importance": 5,
+   "parent": "cap.materials_manufacturing",
+   "representatives": [
+    {
+     "name": "Boeing / Airbus",
+     "reason": "干线飞机制造双寡头"
+    },
+    {
+     "name": "GE Aerospace",
+     "reason": "航空发动机代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.materials_manufacturing.additive",
+   "name": "Additive Manufacturing (3D Printing)",
+   "name_zh": "增材制造",
+   "category": "Economy",
+   "definition": "逐层堆积材料制造复杂零件。",
+   "importance": 4,
+   "parent": "cap.materials_manufacturing",
+   "representatives": [
+    {
+     "name": "EOS / Stratasys",
+     "reason": "工业级3D打印"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.cars",
+   "name": "Automotive",
+   "name_zh": "汽车",
+   "category": "Transportation",
+   "definition": "内燃机与混合动力汽车。",
+   "importance": 5,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "Toyota",
+     "reason": "精益制造与混动先行者"
+    },
+    {
+     "name": "Volkswagen Group",
+     "reason": "全球最大车企之一"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.ev",
+   "name": "Electric Vehicles",
+   "name_zh": "电动车",
+   "category": "Transportation",
+   "definition": "纯电驱动的乘用车与商用车。",
+   "importance": 5,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "Tesla",
+     "reason": "电动车革命引领者"
+    },
+    {
+     "name": "比亚迪 (BYD)",
+     "reason": "全球新能源车销量领先"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.rail",
+   "name": "Rail & High-Speed Rail",
+   "name_zh": "铁路与高铁",
+   "category": "Transportation",
+   "definition": "轨道运输与高速铁路。",
+   "importance": 5,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "中国中车 (CRRC)",
+     "reason": "全球最大轨交装备商"
+    },
+    {
+     "name": "JR East / SNCF",
+     "reason": "高铁运营代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.aviation",
+   "name": "Aviation",
+   "name_zh": "航空",
+   "category": "Transportation",
+   "definition": "民航客机与航空运输。",
+   "importance": 5,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "Boeing / Airbus",
+     "reason": "干线飞机制造"
+    },
+    {
+     "name": "GE Aerospace / Rolls-Royce",
+     "reason": "航空发动机"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.shipping",
+   "name": "Maritime Shipping",
+   "name_zh": "海运",
+   "category": "Transportation",
+   "definition": "远洋货轮与全球贸易物流。",
+   "importance": 5,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "Maersk",
+     "reason": "全球最大集装箱航运"
+    },
+    {
+     "name": "MSC",
+     "reason": "集装箱航运巨头"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.autonomous",
+   "name": "Autonomous Vehicles",
+   "name_zh": "自动驾驶",
+   "category": "Transportation",
+   "definition": "无人驾驶的汽车与卡车。",
+   "importance": 4,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "Waymo",
+     "reason": "L4自动驾驶出租车商业化"
+    },
+    {
+     "name": "Tesla (FSD)",
+     "reason": "规模化辅助/自动驾驶"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.drones",
+   "name": "Drones & UAV",
+   "name_zh": "无人机",
+   "category": "Transportation",
+   "definition": "民用与工业无人飞行器。",
+   "importance": 4,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "大疆 (DJI)",
+     "reason": "消费与工业无人机龙头"
+    }
+   ]
+  },
+  {
+   "id": "cap.space.launch",
+   "name": "Launch Systems",
+   "name_zh": "运载火箭",
+   "category": "Infrastructure",
+   "definition": "把载荷送入轨道的火箭系统。",
+   "importance": 5,
+   "parent": "cap.space",
+   "representatives": [
+    {
+     "name": "SpaceX (Falcon/Starship)",
+     "reason": "可复用火箭革命"
+    },
+    {
+     "name": "ULA / Blue Origin",
+     "reason": "传统与新一代发射"
+    }
+   ]
+  },
+  {
+   "id": "cap.space.satellites",
+   "name": "Satellites & Constellations",
+   "name_zh": "卫星与星座",
+   "category": "Infrastructure",
+   "definition": "通信、遥感与导航卫星。",
+   "importance": 5,
+   "parent": "cap.space",
+   "representatives": [
+    {
+     "name": "SpaceX (Starlink)",
+     "reason": "低轨卫星互联网"
+    },
+    {
+     "name": "Planet Labs",
+     "reason": "对地观测星座"
+    }
+   ]
+  },
+  {
+   "id": "cap.space.stations",
+   "name": "Space Stations",
+   "name_zh": "空间站",
+   "category": "Infrastructure",
+   "definition": "长期在轨的载人科研平台。",
+   "importance": 4,
+   "parent": "cap.space",
+   "representatives": [
+    {
+     "name": "国际空间站 (ISS)",
+     "reason": "多国合作空间站"
+    },
+    {
+     "name": "中国空间站 (天宫)",
+     "reason": "自主载人空间站"
+    }
+   ]
+  },
+  {
+   "id": "cap.space.exploration",
+   "name": "Deep Space Exploration",
+   "name_zh": "深空探测",
+   "category": "Infrastructure",
+   "definition": "月球、火星与深空探测任务。",
+   "importance": 4,
+   "parent": "cap.space",
+   "representatives": [
+    {
+     "name": "NASA",
+     "reason": "深空探测旗舰"
+    },
+    {
+     "name": "CNSA",
+     "reason": "月球与火星探测"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.medicine",
+   "name": "Clinical Medicine",
+   "name_zh": "临床医学",
+   "category": "Science",
+   "definition": "疾病的诊断、治疗与手术。",
+   "importance": 5,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "Mayo Clinic",
+     "reason": "世界级综合医疗中心"
+    },
+    {
+     "name": "协和医院",
+     "reason": "中国临床医学代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.pharma",
+   "name": "Pharmaceuticals",
+   "name_zh": "制药",
+   "category": "Science",
+   "definition": "小分子与大分子药物的研发生产。",
+   "importance": 5,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "Pfizer",
+     "reason": "全球制药巨头"
+    },
+    {
+     "name": "Novartis",
+     "reason": "创新药研发代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.biotech",
+   "name": "Biotechnology",
+   "name_zh": "生物技术",
+   "category": "Science",
+   "definition": "利用生物系统开发药物、材料与工艺。",
+   "importance": 5,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "Genentech",
+     "reason": "生物技术产业开创者"
+    },
+    {
+     "name": "Moderna",
+     "reason": "mRNA平台代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.genomics",
+   "name": "Genomics",
+   "name_zh": "基因组学",
+   "category": "Science",
+   "definition": "DNA测序与基因组解读。",
+   "importance": 5,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "Illumina",
+     "reason": "测序仪主导者"
+    },
+    {
+     "name": "华大基因 (BGI)",
+     "reason": "测序与基因组研究"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.neuroscience",
+   "name": "Neuroscience",
+   "name_zh": "神经科学",
+   "category": "Science",
+   "definition": "大脑与神经系统的研究。",
+   "importance": 4,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "Allen Institute for Brain Science",
+     "reason": "大规模脑图谱"
+    },
+    {
+     "name": "欧洲人脑计划",
+     "reason": "脑研究协作"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.medical_devices",
+   "name": "Medical Devices",
+   "name_zh": "医疗器械",
+   "category": "Science",
+   "definition": "影像、植入物与手术机器人。",
+   "importance": 4,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "Medtronic",
+     "reason": "植入式器械龙头"
+    },
+    {
+     "name": "Intuitive Surgical",
+     "reason": "达芬奇手术机器人"
+    }
+   ]
+  },
+  {
+   "id": "cap.agriculture_food.crops",
+   "name": "Crop Production",
+   "name_zh": "作物生产",
+   "category": "Economy",
+   "definition": "粮食与经济作物的种植。",
+   "importance": 5,
+   "parent": "cap.agriculture_food",
+   "representatives": [
+    {
+     "name": "先正达 (Syngenta)",
+     "reason": "种子与农化龙头"
+    },
+    {
+     "name": "隆平高科",
+     "reason": "杂交水稻代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.agriculture_food.precision_ag",
+   "name": "Precision Agriculture",
+   "name_zh": "精准农业",
+   "category": "Economy",
+   "definition": "用传感、数据与自动化精耕细作。",
+   "importance": 4,
+   "parent": "cap.agriculture_food",
+   "representatives": [
+    {
+     "name": "John Deere",
+     "reason": "农业机械与精准农业"
+    },
+    {
+     "name": "大疆农业 (DJI Agriculture)",
+     "reason": "农业无人机"
+    }
+   ]
+  },
+  {
+   "id": "cap.agriculture_food.food_processing",
+   "name": "Food Processing",
+   "name_zh": "食品加工",
+   "category": "Economy",
+   "definition": "把原料加工成食品与饮料。",
+   "importance": 5,
+   "parent": "cap.agriculture_food",
+   "representatives": [
+    {
+     "name": "雀巢 (Nestlé)",
+     "reason": "全球最大食品公司"
+    },
+    {
+     "name": "Tyson Foods",
+     "reason": "肉类加工巨头"
+    }
+   ]
+  },
+  {
+   "id": "cap.agriculture_food.aquaculture",
+   "name": "Aquaculture & Fisheries",
+   "name_zh": "水产养殖",
+   "category": "Economy",
+   "definition": "鱼类与海产品的养殖与捕捞。",
+   "importance": 4,
+   "parent": "cap.agriculture_food",
+   "representatives": [
+    {
+     "name": "通威股份",
+     "reason": "水产饲料与养殖"
+    },
+    {
+     "name": "Mowi",
+     "reason": "三文鱼养殖龙头"
+    }
+   ]
+  },
+  {
+   "id": "cap.agriculture_food.alt_protein",
+   "name": "Alternative Protein",
+   "name_zh": "替代蛋白",
+   "category": "Economy",
+   "definition": "植物基与细胞培养蛋白。",
+   "importance": 3,
+   "parent": "cap.agriculture_food",
+   "representatives": [
+    {
+     "name": "Impossible Foods",
+     "reason": "植物肉代表"
+    },
+    {
+     "name": "Beyond Meat",
+     "reason": "植物基蛋白"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure.construction",
+   "name": "Construction & Engineering",
+   "name_zh": "建筑工程",
+   "category": "Infrastructure",
+   "definition": "楼宇、路桥与大型工程的建设。",
+   "importance": 5,
+   "parent": "cap.infrastructure",
+   "representatives": [
+    {
+     "name": "中国建筑 (CSCEC)",
+     "reason": "全球最大建筑企业"
+    },
+    {
+     "name": "Bechtel",
+     "reason": "国际工程巨头"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure.architecture",
+   "name": "Architecture",
+   "name_zh": "建筑设计",
+   "category": "Culture",
+   "definition": "空间、形式与功能的设计。",
+   "importance": 4,
+   "parent": "cap.infrastructure",
+   "representatives": [
+    {
+     "name": "Bjarke Ingels Group",
+     "reason": "当代先锋事务所"
+    },
+    {
+     "name": "Foster + Partners",
+     "reason": "高技派建筑代表"
+    },
+    {
+     "name": "扎哈事务所 (ZHA)",
+     "reason": "参数化建筑代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure.water",
+   "name": "Water & Sanitation",
+   "name_zh": "水务",
+   "category": "Infrastructure",
+   "definition": "供水、排水与水处理。",
+   "importance": 5,
+   "parent": "cap.infrastructure",
+   "representatives": [
+    {
+     "name": "Veolia",
+     "reason": "全球水务巨头"
+    },
+    {
+     "name": "Suez",
+     "reason": "水处理与循环"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure.waste",
+   "name": "Waste Management",
+   "name_zh": "废弃物管理",
+   "category": "Infrastructure",
+   "definition": "垃圾收集、回收与资源化。",
+   "importance": 4,
+   "parent": "cap.infrastructure",
+   "representatives": [
+    {
+     "name": "Waste Management (WM)",
+     "reason": "北美固废龙头"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure.logistics",
+   "name": "Logistics",
+   "name_zh": "物流",
+   "category": "Infrastructure",
+   "definition": "仓储、运输与供应链。",
+   "importance": 5,
+   "parent": "cap.infrastructure",
+   "representatives": [
+    {
+     "name": "DHL",
+     "reason": "全球物流巨头"
+    },
+    {
+     "name": "Amazon Logistics",
+     "reason": "电商物流网络"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure.telecom",
+   "name": "Telecommunications",
+   "name_zh": "电信",
+   "category": "Infrastructure",
+   "definition": "移动与固网通信基础设施。",
+   "importance": 5,
+   "parent": "cap.infrastructure",
+   "representatives": [
+    {
+     "name": "华为 / Ericsson",
+     "reason": "5G设备"
+    },
+    {
+     "name": "中国移动",
+     "reason": "全球最大运营商"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure.internet",
+   "name": "Internet",
+   "name_zh": "互联网",
+   "category": "Infrastructure",
+   "definition": "连接全球的开放网络。",
+   "importance": 5,
+   "parent": "cap.infrastructure",
+   "representatives": [
+    {
+     "name": "IETF / ICANN",
+     "reason": "互联网协议与域名治理"
+    },
+    {
+     "name": "Cloudflare / Akamai",
+     "reason": "网络基础设施"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance.banking",
+   "name": "Banking",
+   "name_zh": "银行业",
+   "category": "Economy",
+   "definition": "存款、贷款与支付中介。",
+   "importance": 5,
+   "parent": "cap.economy_finance",
+   "representatives": [
+    {
+     "name": "JPMorgan Chase",
+     "reason": "全球最大银行"
+    },
+    {
+     "name": "中国工商银行 (ICBC)",
+     "reason": "全球资产最大银行"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance.capital_markets",
+   "name": "Capital Markets",
+   "name_zh": "资本市场",
+   "category": "Economy",
+   "definition": "股票、债券与衍生品交易。",
+   "importance": 5,
+   "parent": "cap.economy_finance",
+   "representatives": [
+    {
+     "name": "纽约证券交易所 (NYSE)",
+     "reason": "全球最大交易所"
+    },
+    {
+     "name": "Nasdaq",
+     "reason": "科技股与电子交易"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance.asset_management",
+   "name": "Asset Management",
+   "name_zh": "资产管理",
+   "category": "Economy",
+   "definition": "机构与个人资金的配置。",
+   "importance": 5,
+   "parent": "cap.economy_finance",
+   "representatives": [
+    {
+     "name": "BlackRock",
+     "reason": "全球最大资管"
+    },
+    {
+     "name": "Vanguard",
+     "reason": "指数基金代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance.venture_capital",
+   "name": "Venture Capital",
+   "name_zh": "风险投资",
+   "category": "Economy",
+   "definition": "为高成长初创提供早期资本。",
+   "importance": 4,
+   "parent": "cap.economy_finance",
+   "representatives": [
+    {
+     "name": "Sequoia Capital",
+     "reason": "硅谷风投标杆"
+    },
+    {
+     "name": "Andreessen Horowitz (a16z)",
+     "reason": "科技风投代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance.payments",
+   "name": "Payments",
+   "name_zh": "支付",
+   "category": "Economy",
+   "definition": "交易的清结算与支付网络。",
+   "importance": 5,
+   "parent": "cap.economy_finance",
+   "representatives": [
+    {
+     "name": "Visa / Mastercard",
+     "reason": "卡组织"
+    },
+    {
+     "name": "支付宝 / 微信支付",
+     "reason": "移动支付"
+    },
+    {
+     "name": "Stripe",
+     "reason": "开发者支付基础设施"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance.insurance",
+   "name": "Insurance",
+   "name_zh": "保险",
+   "category": "Economy",
+   "definition": "风险的定价与分散。",
+   "importance": 4,
+   "parent": "cap.economy_finance",
+   "representatives": [
+    {
+     "name": "Allianz",
+     "reason": "全球保险巨头"
+    },
+    {
+     "name": "中国平安 (Ping An)",
+     "reason": "综合金融保险"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance.ecommerce",
+   "name": "E-commerce",
+   "name_zh": "电子商务",
+   "category": "Economy",
+   "definition": "线上零售与交易平台。",
+   "importance": 5,
+   "parent": "cap.economy_finance",
+   "representatives": [
+    {
+     "name": "Amazon",
+     "reason": "全球电商巨头"
+    },
+    {
+     "name": "阿里巴巴 (Alibaba)",
+     "reason": "中国电商生态"
+    },
+    {
+     "name": "Shopify",
+     "reason": "独立站电商平台"
+    }
+   ]
+  },
+  {
+   "id": "cap.economy_finance.accounting_audit",
+   "name": "Accounting & Audit",
+   "name_zh": "会计与审计",
+   "category": "Economy",
+   "definition": "财务核算、审计与鉴证。",
+   "importance": 4,
+   "parent": "cap.economy_finance",
+   "representatives": [
+    {
+     "name": "Deloitte / PwC",
+     "reason": "四大审计与咨询"
+    }
+   ]
+  },
+  {
+   "id": "cap.communication_media.search",
+   "name": "Search Engines",
+   "name_zh": "搜索引擎",
+   "category": "Communication",
+   "definition": "索引与检索全网信息。",
+   "importance": 5,
+   "parent": "cap.communication_media",
+   "representatives": [
+    {
+     "name": "Google",
+     "reason": "搜索事实标准"
+    },
+    {
+     "name": "百度 (Baidu)",
+     "reason": "中文搜索"
+    }
+   ]
+  },
+  {
+   "id": "cap.communication_media.social",
+   "name": "Social Networks",
+   "name_zh": "社交网络",
+   "category": "Communication",
+   "definition": "连接人与内容的网络。",
+   "importance": 5,
+   "parent": "cap.communication_media",
+   "representatives": [
+    {
+     "name": "Meta (Facebook/Instagram)",
+     "reason": "全球社交"
+    },
+    {
+     "name": "微信 (WeChat)",
+     "reason": "中文超级应用"
+    },
+    {
+     "name": "TikTok (ByteDance)",
+     "reason": "短视频算法分发"
+    }
+   ]
+  },
+  {
+   "id": "cap.communication_media.messaging",
+   "name": "Messaging",
+   "name_zh": "即时通讯",
+   "category": "Communication",
+   "definition": "点对点与群组通信。",
+   "importance": 5,
+   "parent": "cap.communication_media",
+   "representatives": [
+    {
+     "name": "WhatsApp",
+     "reason": "全球即时通讯"
+    },
+    {
+     "name": "微信 (WeChat)",
+     "reason": "中国即时通讯"
+    }
+   ]
+  },
+  {
+   "id": "cap.communication_media.news",
+   "name": "News & Journalism",
+   "name_zh": "新闻",
+   "category": "Communication",
+   "definition": "信息的采集、核实与发布。",
+   "importance": 5,
+   "parent": "cap.communication_media",
+   "representatives": [
+    {
+     "name": "路透社 (Reuters)",
+     "reason": "国际通讯社"
+    },
+    {
+     "name": "纽约时报 (NYT)",
+     "reason": "深度新闻代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.communication_media.streaming",
+   "name": "Streaming & Video",
+   "name_zh": "流媒体视频",
+   "category": "Communication",
+   "definition": "点播与直播视频平台。",
+   "importance": 5,
+   "parent": "cap.communication_media",
+   "representatives": [
+    {
+     "name": "YouTube",
+     "reason": "UGC视频平台"
+    },
+    {
+     "name": "Netflix",
+     "reason": "订阅流媒体开创者"
+    }
+   ]
+  },
+  {
+   "id": "cap.communication_media.publishing",
+   "name": "Publishing",
+   "name_zh": "出版",
+   "category": "Communication",
+   "definition": "书籍与内容出版。",
+   "importance": 4,
+   "parent": "cap.communication_media",
+   "representatives": [
+    {
+     "name": "Penguin Random House",
+     "reason": "全球最大大众出版"
+    },
+    {
+     "name": "施普林格·自然",
+     "reason": "学术出版代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.visual_art",
+   "name": "Visual Arts",
+   "name_zh": "视觉艺术",
+   "category": "Culture",
+   "definition": "绘画、雕塑、摄影等视觉表达。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "赵无极",
+     "reason": "中西融合的抽象绘画巨匠"
+    },
+    {
+     "name": "Gerhard Richter",
+     "reason": "当代绘画代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.painting",
+   "name": "Painting",
+   "name_zh": "绘画",
+   "category": "Culture",
+   "definition": "在二维表面创造图像的艺术。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "大卫·霍克尼 (Hockney)",
+     "reason": "当代绘画与数字媒介"
+    },
+    {
+     "name": "草间弥生 (Kusama)",
+     "reason": "当代艺术标志"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.sculpture",
+   "name": "Sculpture",
+   "name_zh": "雕塑",
+   "category": "Culture",
+   "definition": "三维空间的造型艺术。",
+   "importance": 3,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Anish Kapoor",
+     "reason": "当代雕塑代表"
+    },
+    {
+     "name": "Louise Bourgeois",
+     "reason": "现代雕塑"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.photography",
+   "name": "Photography",
+   "name_zh": "摄影",
+   "category": "Culture",
+   "definition": "用光与镜头记录与表达。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "安塞尔·亚当斯",
+     "reason": "风光摄影大师"
+    },
+    {
+     "name": "森山大道",
+     "reason": "街头摄影代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.digital_art",
+   "name": "Digital Art",
+   "name_zh": "数字艺术",
+   "category": "Culture",
+   "definition": "用数字工具创作的艺术。",
+   "importance": 3,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Refik Anadol",
+     "reason": "AI数据艺术"
+    },
+    {
+     "name": "Beeple",
+     "reason": "数字艺术市场标志"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.graphics_3d",
+   "name": "3D Graphics",
+   "name_zh": "三维图形",
+   "category": "Technology",
+   "definition": "三维建模、渲染与实时图形。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Blender Foundation",
+     "reason": "开源3D创作套件"
+    },
+    {
+     "name": "Epic Games (Unreal)",
+     "reason": "实时3D引擎"
+    },
+    {
+     "name": "NVIDIA (Omniverse)",
+     "reason": "工业级3D协作"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.animation",
+   "name": "Animation",
+   "name_zh": "动画",
+   "category": "Culture",
+   "definition": "逐帧或程序化创造运动的影像艺术。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "宫崎骏 (Hayao Miyazaki)",
+     "reason": "手绘动画叙事巅峰"
+    },
+    {
+     "name": "新海诚 (Makoto Shinkai)",
+     "reason": "当代动画电影"
+    },
+    {
+     "name": "皮克斯 (Pixar)",
+     "reason": "3D动画工业标杆"
+    },
+    {
+     "name": "吉卜力 (Studio Ghibli)",
+     "reason": "动画电影文化象征"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.feature_animation",
+   "name": "Feature Animation",
+   "name_zh": "动画长片",
+   "category": "Culture",
+   "definition": "剧场级动画电影的创作。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Pixar",
+     "reason": "技术与叙事结合的代表"
+    },
+    {
+     "name": "Studio Ghibli",
+     "reason": "2D长片艺术代表"
+    },
+    {
+     "name": "Makoto Shinkai",
+     "reason": "个人作者型动画电影"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.character_animation",
+   "name": "Character Animation",
+   "name_zh": "角色动画",
+   "category": "Culture",
+   "definition": "赋予角色生命与表演。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Glen Keane",
+     "reason": "迪士尼角色动画大师"
+    },
+    {
+     "name": "Pixar Animators",
+     "reason": "表演动画体系"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.procedural_animation",
+   "name": "Procedural Animation",
+   "name_zh": "程序化动画",
+   "category": "Technology",
+   "definition": "用算法与物理模拟生成运动。",
+   "importance": 3,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "SideFX (Houdini)",
+     "reason": "程序化特效标准"
+    },
+    {
+     "name": "Epic Games (MetaHuman)",
+     "reason": "程序化角色"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.ai_animation",
+   "name": "AI Animation",
+   "name_zh": "AI动画",
+   "category": "Technology",
+   "definition": "用生成模型辅助或自动产生动画。",
+   "importance": 3,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Runway",
+     "reason": "AI视频生成先驱"
+    },
+    {
+     "name": "Pika Labs",
+     "reason": "AI视频创作"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.music",
+   "name": "Music",
+   "name_zh": "音乐",
+   "category": "Culture",
+   "definition": "声音的时间艺术与产业。",
+   "importance": 5,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "坂本龙一",
+     "reason": "跨越电子与电影配乐"
+    },
+    {
+     "name": "Hans Zimmer",
+     "reason": "电影配乐代表"
+    },
+    {
+     "name": "Taylor Swift",
+     "reason": "当代流行音乐现象"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.classical_music",
+   "name": "Classical Music",
+   "name_zh": "古典音乐",
+   "category": "Culture",
+   "definition": "西方艺术音乐传统。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "柏林爱乐 (Berlin Philharmonic)",
+     "reason": "顶级交响乐团"
+    },
+    {
+     "name": "维也纳爱乐",
+     "reason": "古典音乐传统"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.electronic_music",
+   "name": "Electronic Music",
+   "name_zh": "电子音乐",
+   "category": "Culture",
+   "definition": "合成器与采样构成的音乐。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Daft Punk",
+     "reason": "电子音乐先锋"
+    },
+    {
+     "name": "Aphex Twin",
+     "reason": "电子音乐创新"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.film",
+   "name": "Film",
+   "name_zh": "电影",
+   "category": "Culture",
+   "definition": "用影像叙事与表达的艺术。",
+   "importance": 5,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Christopher Nolan",
+     "reason": "商业与艺术电影作者"
+    },
+    {
+     "name": "宫崎骏",
+     "reason": "动画电影作者"
+    },
+    {
+     "name": "A24",
+     "reason": "独立电影厂牌"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.documentary",
+   "name": "Documentary",
+   "name_zh": "纪录片",
+   "category": "Culture",
+   "definition": "记录真实世界的非虚构影像。",
+   "importance": 3,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Werner Herzog",
+     "reason": "纪录片作者"
+    },
+    {
+     "name": "BBC Natural History Unit",
+     "reason": "自然纪录片"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.literature",
+   "name": "Literature",
+   "name_zh": "文学",
+   "category": "Culture",
+   "definition": "小说、诗歌与散文的语言艺术。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "村上春树",
+     "reason": "当代世界文学代表"
+    },
+    {
+     "name": "莫言",
+     "reason": "中国文学（诺贝尔奖）"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.games",
+   "name": "Games",
+   "name_zh": "游戏",
+   "category": "Culture",
+   "definition": "交互式的娱乐与艺术媒介。",
+   "importance": 5,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Nintendo",
+     "reason": "游戏设计文化标杆"
+    },
+    {
+     "name": "FromSoftware",
+     "reason": "魂系游戏开创"
+    },
+    {
+     "name": "Valve / Epic",
+     "reason": "平台与引擎"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.game_engines",
+   "name": "Game Engines",
+   "name_zh": "游戏引擎",
+   "category": "Technology",
+   "definition": "构建游戏世界的底层软件。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Unity",
+     "reason": "跨平台游戏引擎"
+    },
+    {
+     "name": "Unreal Engine",
+     "reason": "高端实时渲染引擎"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.fashion",
+   "name": "Fashion",
+   "name_zh": "时尚",
+   "category": "Culture",
+   "definition": "服装设计、品牌与流行。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "川久保玲 (Comme des Garçons)",
+     "reason": "解构主义时尚"
+    },
+    {
+     "name": "Virgil Abloh",
+     "reason": "街头与高级时装融合"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.design",
+   "name": "Design",
+   "name_zh": "设计",
+   "category": "Culture",
+   "definition": "功能与美学的结合——产品、平面与交互。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Dieter Rams",
+     "reason": "现代工业设计准则"
+    },
+    {
+     "name": "Jony Ive",
+     "reason": "消费电子设计代表"
+    }
+   ]
+  },
+  {
+   "id": "cap.education.universities",
+   "name": "Universities",
+   "name_zh": "大学",
+   "category": "Society",
+   "definition": "高等研究与人才培养机构。",
+   "importance": 5,
+   "parent": "cap.education",
+   "representatives": [
+    {
+     "name": "MIT",
+     "reason": "工程与科技的旗舰大学"
+    },
+    {
+     "name": "清华大学",
+     "reason": "中国理工旗舰"
+    },
+    {
+     "name": "牛津大学",
+     "reason": "古典与现代并重"
+    }
+   ]
+  },
+  {
+   "id": "cap.education.online_learning",
+   "name": "Online Education",
+   "name_zh": "在线教育",
+   "category": "Society",
+   "definition": "大规模开放与数字化学习。",
+   "importance": 4,
+   "parent": "cap.education",
+   "representatives": [
+    {
+     "name": "Coursera",
+     "reason": "大学MOOC平台"
+    },
+    {
+     "name": "Khan Academy",
+     "reason": "免费基础教育"
+    }
+   ]
+  },
+  {
+   "id": "cap.education.publishing_science",
+   "name": "Scientific Publishing",
+   "name_zh": "科学出版",
+   "category": "Society",
+   "definition": "学术成果的发表与传播。",
+   "importance": 5,
+   "parent": "cap.education",
+   "representatives": [
+    {
+     "name": "Nature Portfolio",
+     "reason": "顶级学术期刊"
+    },
+    {
+     "name": "arXiv",
+     "reason": "预印本开放获取"
+    }
+   ]
+  },
+  {
+   "id": "cap.education.knowledge_platforms",
+   "name": "Knowledge Platforms",
+   "name_zh": "知识平台",
+   "category": "Society",
+   "definition": "开放的知识库与百科。",
+   "importance": 4,
+   "parent": "cap.education",
+   "representatives": [
+    {
+     "name": "维基百科 (Wikipedia)",
+     "reason": "开放百科"
+    },
+    {
+     "name": "Stack Overflow",
+     "reason": "开发者知识社区"
+    }
+   ]
+  },
+  {
+   "id": "cap.recreation_sports.football",
+   "name": "Association Football",
+   "name_zh": "足球",
+   "category": "Sport",
+   "definition": "全球最广泛参与的团队运动。",
+   "importance": 5,
+   "parent": "cap.recreation_sports",
+   "representatives": [
+    {
+     "name": "FIFA",
+     "reason": "全球足球治理"
+    },
+    {
+     "name": "皇家马德里 / 曼城",
+     "reason": "顶级俱乐部"
+    }
+   ]
+  },
+  {
+   "id": "cap.recreation_sports.basketball",
+   "name": "Basketball",
+   "name_zh": "篮球",
+   "category": "Sport",
+   "definition": "对抗性团队运动与全球联赛。",
+   "importance": 4,
+   "parent": "cap.recreation_sports",
+   "representatives": [
+    {
+     "name": "NBA",
+     "reason": "全球顶级篮球联赛"
+    },
+    {
+     "name": "LeBron James",
+     "reason": "现代篮球标志人物"
+    }
+   ]
+  },
+  {
+   "id": "cap.recreation_sports.olympics",
+   "name": "Olympic Movement",
+   "name_zh": "奥林匹克运动",
+   "category": "Sport",
+   "definition": "全球综合体育竞技。",
+   "importance": 4,
+   "parent": "cap.recreation_sports",
+   "representatives": [
+    {
+     "name": "国际奥委会 (IOC)",
+     "reason": "奥运会治理"
+    }
+   ]
+  },
+  {
+   "id": "cap.recreation_sports.esports",
+   "name": "Esports",
+   "name_zh": "电子竞技",
+   "category": "Sport",
+   "definition": "竞技性电子游戏比赛。",
+   "importance": 4,
+   "parent": "cap.recreation_sports",
+   "representatives": [
+    {
+     "name": "Riot Games (LOL)",
+     "reason": "顶级电竞联赛"
+    },
+    {
+     "name": "Valve (Dota2/CS)",
+     "reason": "竞技游戏"
+    }
+   ]
+  },
+  {
+   "id": "cap.recreation_sports.theme_parks",
+   "name": "Theme Parks",
+   "name_zh": "主题乐园",
+   "category": "Culture",
+   "definition": "沉浸式娱乐综合体。",
+   "importance": 3,
+   "parent": "cap.recreation_sports",
+   "representatives": [
+    {
+     "name": "迪士尼 (Disney Parks)",
+     "reason": "主题乐园开创者"
+    },
+    {
+     "name": "环球影城 (Universal)",
+     "reason": "电影主题乐园"
+    }
+   ]
+  },
+  {
+   "id": "cap.society_governance.law",
+   "name": "Law & Justice",
+   "name_zh": "法律",
+   "category": "Society",
+   "definition": "规则、司法与权利保障。",
+   "importance": 5,
+   "parent": "cap.society_governance",
+   "representatives": [
+    {
+     "name": "国际刑事法院 (ICC)",
+     "reason": "国际司法"
+    },
+    {
+     "name": "美国最高法院",
+     "reason": "普通法标志性法院"
+    }
+   ]
+  },
+  {
+   "id": "cap.society_governance.international_orgs",
+   "name": "International Organizations",
+   "name_zh": "国际组织",
+   "category": "Society",
+   "definition": "跨国协调与合作机构。",
+   "importance": 5,
+   "parent": "cap.society_governance",
+   "representatives": [
+    {
+     "name": "联合国 (UN)",
+     "reason": "全球治理核心"
+    },
+    {
+     "name": "世界卫生组织 (WHO)",
+     "reason": "全球卫生协调"
+    }
+   ]
+  },
+  {
+   "id": "cap.society_governance.central_banks",
+   "name": "Central Banks",
+   "name_zh": "中央银行",
+   "category": "Society",
+   "definition": "货币发行与宏观稳定。",
+   "importance": 5,
+   "parent": "cap.society_governance",
+   "representatives": [
+    {
+     "name": "美联储 (Federal Reserve)",
+     "reason": "美元体系核心"
+    },
+    {
+     "name": "欧洲央行 (ECB)",
+     "reason": "欧元区货币政策"
+    }
+   ]
+  },
+  {
+   "id": "cap.defense_security.aerospace_defense",
+   "name": "Military Aerospace",
+   "name_zh": "军用航空",
+   "category": "Defense",
+   "definition": "战斗机、运输机与军用航天。",
+   "importance": 4,
+   "parent": "cap.defense_security",
+   "representatives": [
+    {
+     "name": "Lockheed Martin (F-35)",
+     "reason": "五代机代表"
+    },
+    {
+     "name": "Northrop Grumman (B-2/B-21)",
+     "reason": "隐身轰炸机"
+    }
+   ]
+  },
+  {
+   "id": "cap.defense_security.cybersecurity",
+   "name": "Cybersecurity",
+   "name_zh": "网络安全",
+   "category": "Defense",
+   "definition": "保护网络、系统与数据。",
+   "importance": 5,
+   "parent": "cap.defense_security",
+   "representatives": [
+    {
+     "name": "CrowdStrike",
+     "reason": "端点安全"
+    },
+    {
+     "name": "Palo Alto Networks",
+     "reason": "网络安全平台"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.nlp",
+   "name": "Natural Language Processing",
+   "name_zh": "自然语言处理",
+   "category": "Technology",
+   "definition": "理解与生成人类语言。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "OpenAI (GPT)",
+     "reason": "大语言模型代表"
+    },
+    {
+     "name": "Google (BERT/PaLM)",
+     "reason": "预训练语言模型"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.speech",
+   "name": "Speech AI",
+   "name_zh": "语音AI",
+   "category": "Technology",
+   "definition": "语音识别、合成与翻译。",
+   "importance": 4,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "OpenAI (Whisper)",
+     "reason": "开源语音识别"
+    },
+    {
+     "name": "ElevenLabs",
+     "reason": "语音合成"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.recommendation",
+   "name": "Recommendation Systems",
+   "name_zh": "推荐系统",
+   "category": "Technology",
+   "definition": "个性化内容与商品推荐。",
+   "importance": 5,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "TikTok/ByteDance",
+     "reason": "算法推荐典范"
+    },
+    {
+     "name": "Netflix (recommender)",
+     "reason": "推荐系统应用"
+    }
+   ]
+  },
+  {
+   "id": "cap.artificial_intelligence.healthcare_ai",
+   "name": "AI in Healthcare",
+   "name_zh": "医疗AI",
+   "category": "Technology",
+   "definition": "医学影像、诊断与药物发现AI。",
+   "importance": 4,
+   "parent": "cap.artificial_intelligence",
+   "representatives": [
+    {
+     "name": "Google Health",
+     "reason": "医学影像AI"
+    },
+    {
+     "name": "DeepMind (AlphaFold)",
+     "reason": "蛋白质结构预测"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.compilers",
+   "name": "Compilers & Toolchains",
+   "name_zh": "编译器",
+   "category": "Technology",
+   "definition": "把高级语言翻译成机器码。",
+   "importance": 4,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "LLVM",
+     "reason": "编译基础设施标准"
+    },
+    {
+     "name": "GCC",
+     "reason": "开源编译器"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.distributed",
+   "name": "Distributed Systems",
+   "name_zh": "分布式系统",
+   "category": "Technology",
+   "definition": "多机协同的计算与存储。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "Google (Bigtable/GFS)",
+     "reason": "大规模分布式奠基"
+    },
+    {
+     "name": "Kubernetes / CNCF",
+     "reason": "分布式编排"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.cybersecurity",
+   "name": "Cybersecurity",
+   "name_zh": "网络安全",
+   "category": "Technology",
+   "definition": "防御网络攻击与数据泄露。",
+   "importance": 5,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "CrowdStrike",
+     "reason": "端点检测响应"
+    },
+    {
+     "name": "Kaspersky",
+     "reason": "恶意软件研究"
+    }
+   ]
+  },
+  {
+   "id": "cap.computing.quantum_computing",
+   "name": "Quantum Computing",
+   "name_zh": "量子计算",
+   "category": "Technology",
+   "definition": "用量子比特做经典无法完成的计算。",
+   "importance": 4,
+   "parent": "cap.computing",
+   "representatives": [
+    {
+     "name": "IBM Quantum",
+     "reason": "超导量子硬件"
+    },
+    {
+     "name": "Google Quantum AI",
+     "reason": "量子霸权实验"
+    },
+    {
+     "name": "IonQ",
+     "reason": "离子阱量子"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.hydrogen",
+   "name": "Hydrogen Energy",
+   "name_zh": "氢能",
+   "category": "Energy",
+   "definition": "绿氢生产与燃料电池。",
+   "importance": 4,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "Air Products",
+     "reason": "工业氢气"
+    },
+    {
+     "name": "丰田 (Mirai)",
+     "reason": "燃料电池车"
+    }
+   ]
+  },
+  {
+   "id": "cap.energy.carbon_capture",
+   "name": "Carbon Capture",
+   "name_zh": "碳捕集",
+   "category": "Energy",
+   "definition": "捕集与封存二氧化碳。",
+   "importance": 3,
+   "parent": "cap.energy",
+   "representatives": [
+    {
+     "name": "Climeworks",
+     "reason": "直接空气捕集"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.vaccines",
+   "name": "Vaccines",
+   "name_zh": "疫苗",
+   "category": "Science",
+   "definition": "预防传染病的免疫制剂。",
+   "importance": 5,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "辉瑞/BNT",
+     "reason": "mRNA新冠疫苗"
+    },
+    {
+     "name": "国药 / 科兴",
+     "reason": "灭活疫苗"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.gene_therapy",
+   "name": "Gene Therapy",
+   "name_zh": "基因治疗",
+   "category": "Science",
+   "definition": "修正致病基因治疗疾病。",
+   "importance": 4,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "Vertex/CRISPR Therapeutics",
+     "reason": "镰状细胞基因疗法"
+    },
+    {
+     "name": "诺华 (Zolgensma)",
+     "reason": "基因替代疗法"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.synthetic_biology",
+   "name": "Synthetic Biology",
+   "name_zh": "合成生物学",
+   "category": "Science",
+   "definition": "工程化改造生物系统。",
+   "importance": 4,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "Ginkgo Bioworks",
+     "reason": "细胞编程平台"
+    },
+    {
+     "name": "Amyris",
+     "reason": "合成生物发酵"
+    }
+   ]
+  },
+  {
+   "id": "cap.life_health.diagnostics",
+   "name": "Diagnostics",
+   "name_zh": "诊断",
+   "category": "Science",
+   "definition": "检测与诊断疾病的技术。",
+   "importance": 4,
+   "parent": "cap.life_health",
+   "representatives": [
+    {
+     "name": "罗氏诊断 (Roche Diagnostics)",
+     "reason": "体外诊断龙头"
+    },
+    {
+     "name": "Thermo Fisher",
+     "reason": "分子诊断工具"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.urban_transit",
+   "name": "Urban Transit",
+   "name_zh": "城市公交",
+   "category": "Transportation",
+   "definition": "地铁与公共交通。",
+   "importance": 4,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "港铁 (MTR)",
+     "reason": "高效轨道运营"
+    },
+    {
+     "name": "Alstom",
+     "reason": "地铁车辆"
+    }
+   ]
+  },
+  {
+   "id": "cap.transportation.ships_industry",
+   "name": "Shipbuilding",
+   "name_zh": "造船",
+   "category": "Transportation",
+   "definition": "大型船舶的建造。",
+   "importance": 4,
+   "parent": "cap.transportation",
+   "representatives": [
+    {
+     "name": "现代重工",
+     "reason": "全球造船龙头"
+    },
+    {
+     "name": "中国船舶",
+     "reason": "商船建造"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.manga_comics",
+   "name": "Manga & Comics",
+   "name_zh": "漫画",
+   "category": "Culture",
+   "definition": "图像叙事与连载漫画。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "集英社 (Shueisha)",
+     "reason": "少年漫画出版"
+    },
+    {
+     "name": "Marvel / DC",
+     "reason": "超级英雄漫画"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.theater",
+   "name": "Theater",
+   "name_zh": "戏剧",
+   "category": "Culture",
+   "definition": "舞台表演艺术。",
+   "importance": 3,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "伦敦西区 / 百老汇",
+     "reason": "戏剧产业中心"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.opera_dance",
+   "name": "Opera & Dance",
+   "name_zh": "歌剧与舞蹈",
+   "category": "Culture",
+   "definition": "音乐与身体的舞台艺术。",
+   "importance": 3,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "纽约爱乐 / 斯卡拉歌剧院",
+     "reason": "歌剧传统"
+    },
+    {
+     "name": "巴黎歌剧院芭蕾",
+     "reason": "古典芭蕾"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.architecture_culture",
+   "name": "Architecture as Culture",
+   "name_zh": "建筑文化",
+   "category": "Culture",
+   "definition": "建筑作为空间艺术与城市记忆。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "勒·柯布西耶",
+     "reason": "现代主义建筑之父"
+    },
+    {
+     "name": "安藤忠雄 (Tadao Ando)",
+     "reason": "光与混凝土的建筑"
+    }
+   ]
+  },
+  {
+   "id": "cap.culture_arts.graphic_design",
+   "name": "Graphic Design",
+   "name_zh": "平面设计",
+   "category": "Culture",
+   "definition": "字体、版式与视觉识别。",
+   "importance": 4,
+   "parent": "cap.culture_arts",
+   "representatives": [
+    {
+     "name": "Paul Rand",
+     "reason": "logo设计大师"
+    },
+    {
+     "name": "Pentawards / 设计协会",
+     "reason": "设计评价体系"
+    }
+   ]
+  },
+  {
+   "id": "cap.infrastructure.cities_urban",
+   "name": "Cities & Urbanism",
+   "name_zh": "城市",
+   "category": "Infrastructure",
+   "definition": "城市作为文明的容器。",
+   "importance": 5,
+   "parent": "cap.infrastructure",
+   "representatives": [
+    {
+     "name": "伦敦 / 东京 / 纽约",
+     "reason": "全球城市治理标杆"
+    }
+   ]
+  }
+ ]
+}
